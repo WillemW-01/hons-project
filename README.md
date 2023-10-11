@@ -26,6 +26,7 @@ The program will output the following:
 
 ## Usage
 
+1. First install the two depencies with `pip3 install -r requirements.txt`
 1. Run `main.py` with the required input paramers. Files in the `input/` folder are all valid.
-2. [Download](https://gephi.org/users/download/) and open the program Gephi.
-3. Create a new project and import the nodes file from `output/job_name_nodes.gdf`
+1. [Download](https://gephi.org/users/download/) and open the program Gephi.
+1. Create a new project and import the nodes file from `output/job_name_nodes.gdf`

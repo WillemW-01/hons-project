@@ -1,13 +1,14 @@
+import asyncio
+import os
 import re
 import sys
-import winsound
-import os
-
-import requests
-import asyncio
-import aiohttp
 import time
 
+# non-stdlib dependencies
+import aiohttp
+import requests
+
+# custom set object
 from Set import Set
 
 START_ID = 2000
@@ -507,8 +508,3 @@ if __name__ == "__main__":
     print(f"Took {time.time() - start:.4f} seconds to run.")
     log(f"Took {time.time() - start:.4f} seconds to run.")
     log_file.close()
-
-    # plays a notification sound when finished
-    winsound.Beep(1500, 500)
-    winsound.Beep(1500, 200)
-    winsound.Beep(1500, 500)
