@@ -1,0 +1,9 @@
+M genitalium:
+-------------
+
+- wall-less bacteria
+- belongs to the family of bacteria with some of the smallest genomes
+- obligate parasites that live in relatively unchanging environments - little mutation
+- grown in SP4 medium (rich medium)
+- no enzymes key in DNA replication were disrupted
+- ABC phoshphate transporters were included (need to choose between phosphonate / phosphate transporter)

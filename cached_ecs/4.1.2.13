@@ -1,0 +1,52 @@
+ENTRY       EC 4.1.2.13                 Enzyme
+NAME        fructose-bisphosphate aldolase;
+            aldolase;
+            fructose-1,6-bisphosphate triosephosphate-lyase;
+            fructose diphosphate aldolase;
+            diphosphofructose aldolase;
+            fructose 1,6-diphosphate aldolase;
+            ketose 1-phosphate aldolase;
+            phosphofructoaldolase;
+            zymohexase;
+            fructoaldolase;
+            fructose 1-phosphate aldolase;
+            fructose 1-monophosphate aldolase;
+            1,6-diphosphofructose aldolase;
+            SMALDO;
+            D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase
+CLASS       Lyases;
+            Carbon-carbon lyases;
+            Aldehyde-lyases
+SYSNAME     D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming)
+REACTION    D-fructose 1,6-bisphosphate = glycerone phosphate + D-glyceraldehyde 3-phosphate [RN:R01068]
+ALL_REAC    R01068 > R01070;
+            (other) R01829 R02568
+SUBSTRATE   D-fructose 1,6-bisphosphate [CPD:C00354]
+PRODUCT     glycerone phosphate [CPD:C00111];
+            D-glyceraldehyde 3-phosphate [CPD:C00118]
+COMMENT     Also acts on (3S,4R)-ketose 1-phosphates. The yeast and bacterial enzymes are zinc proteins. The enzymes increase electron-attraction by the carbonyl group, some (Class I) forming a protonated imine with it, others (Class II), mainly of microbial origin, polarizing it with a metal ion, e.g. zinc.
+HISTORY     EC 4.1.2.13 created 1965, modified 1999 (EC 4.1.2.7 created 1961, incorporated 1972)
+REFERENCE   1
+  AUTHORS   Horecker, B.L., Tsolas, O. and Lai, C.Y.
+  TITLE     Aldolases.
+  JOURNAL   In: Boyer, P.D. (Ed.), The Enzymes, 3rd ed., vol. 7, Academic Press, New York, 1972, p. 213-258.
+REFERENCE   2  [PMID:2649077]
+  AUTHORS   Alefounder PR, Baldwin SA, Perham RN, Short NJ
+  TITLE     Cloning, sequence analysis and over-expression of the gene for the class II fructose 1,6-bisphosphate aldolase of Escherichia coli.
+  JOURNAL   Biochem J 257:529-34 (1989)
+            DOI:10.1042/bj2570529
+  SEQUENCE  [eco:b2925]
+PATHWAY     ec00010  Glycolysis / Gluconeogenesis
+            ec00030  Pentose phosphate pathway
+            ec00051  Fructose and mannose metabolism
+            ec00680  Methane metabolism
+            ec00710  Carbon fixation in photosynthetic organisms
+            ec01100  Metabolic pathways
+            ec01110  Biosynthesis of secondary metabolites
+            ec01120  Microbial metabolism in diverse environments
+ORTHOLOGY   K01622  fructose 1,6-bisphosphate aldolase/phosphatase
+            K01623  fructose-bisphosphate aldolase, class I
+            K01624  fructose-bisphosphate aldolase, class II
+            K11645  fructose-bisphosphate aldolase, class I
+            K16305  fructose-bisphosphate aldolase / 6-deoxy-5-ketofructose 1-phosphate synthase
+            K16306  fructose-bisphosphate aldolase / 2-amino-3,7-dideoxy-D-threo-hept-6-ulosonate synthase

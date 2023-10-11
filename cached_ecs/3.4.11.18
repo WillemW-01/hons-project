@@ -1,0 +1,36 @@
+ENTRY       EC 3.4.11.18                Enzyme
+NAME        methionyl aminopeptidase;
+            methionine aminopeptidase;
+            peptidase M;
+            L-methionine aminopeptidase;
+            MAP
+CLASS       Hydrolases;
+            Acting on peptide bonds (peptidases);
+            Aminopeptidases
+REACTION    Release of N-terminal amino acids, preferentially methionine, from peptides and arylamides
+COMMENT     This membrane-bound enzyme, which is present in both prokaryotes and eukaryotes, releases the initiator methionine from nascent peptides. The activity is dependent on the identity of the second, third and fourth amino acid residues of the target protein, but in general the enzyme acts only when the penultimate residue is small and uncharged (e.g. Gly, Ala, Cys, Ser, Thr, and Val). In peptidase family M24.
+HISTORY     EC 3.4.11.18 created 1990
+REFERENCE   1  [PMID:4110013]
+  AUTHORS   Yoshida A, Lin M.
+  TITLE     NH 2 -terminal formylmethionine- and NH 2 -terminal methionine-cleaving enzymes in rabbits.
+  JOURNAL   J Biol Chem 247:952-7 (1972)
+REFERENCE   2  [PMID:2985590]
+  AUTHORS   Tsunasawa S, Stewart JW, Sherman F.
+  TITLE     Amino-terminal processing of mutant forms of yeast iso-1-cytochrome c. The specificities of methionine aminopeptidase and acetyltransferase.
+  JOURNAL   J Biol Chem 260:5382-91 (1985)
+REFERENCE   3  [PMID:3937747]
+  AUTHORS   Freitas JO Jr, Termignoni C, Guimaraes JA.
+  TITLE     Microsomal methionine aminopeptidase: properties of the detergent-solubilized enzyme.
+  JOURNAL   Int J Biochem 17:1285-91 (1985)
+            DOI:10.1016/0020-711x(85)90049-7
+REFERENCE   4  [PMID:3027045]
+  AUTHORS   Ben-Bassat A, Bauer K, Chang SY, Myambo K, Boosman A, Chang S
+  TITLE     Processing of the initiation methionine from proteins: properties of the Escherichia coli methionine aminopeptidase and its gene structure.
+  JOURNAL   J Bacteriol 169:751-7 (1987)
+            DOI:10.1128/jb.169.2.751-757.1987
+  SEQUENCE  [eco:b0168]
+REFERENCE   5  [PMID:3141408]
+  AUTHORS   Roderick SL, Matthews BW.
+  TITLE     Crystallization of methionine aminopeptidase from Escherichia coli.
+  JOURNAL   J Biol Chem 263:16531 (1988)
+ORTHOLOGY   K01265  methionyl aminopeptidase

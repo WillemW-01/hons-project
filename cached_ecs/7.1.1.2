@@ -1,0 +1,117 @@
+ENTRY       EC 7.1.1.2                  Enzyme
+NAME        NADH:ubiquinone reductase (H+-translocating);
+            ubiquinone reductase (ambiguous);
+            type 1 dehydrogenase;
+            complex 1 dehydrogenase;
+            coenzyme Q reductase (ambiguous);
+            complex I (electron transport chain);
+            complex I (mitochondrial electron transport);
+            complex I (NADH:Q1 oxidoreductase);
+            dihydronicotinamide adenine dinucleotide-coenzyme Q reductase (ambiguous);
+            DPNH-coenzyme Q reductase (ambiguous);
+            DPNH-ubiquinone reductase (ambiguous);
+            mitochondrial electron transport complex 1;
+            mitochondrial electron transport complex I;
+            NADH coenzyme Q1 reductase;
+            NADH-coenzyme Q oxidoreductase (ambiguous);
+            NADH-coenzyme Q reductase (ambiguous);
+            NADH-CoQ oxidoreductase (ambiguous);
+            NADH-dehydrogenase (ubiquinone) (ambiguous);
+            NADH-CoQ reductase (ambiguous);
+            NADH-ubiquinone reductase (ambiguous);
+            NADH-ubiquinone oxidoreductase (ambiguous);
+            NADH-ubiquinone-1 reductase;
+            reduced nicotinamide adenine dinucleotide-coenzyme Q reductase (ambiguous);
+            NADH:ubiquinone oxidoreductase complex;
+            NADH-Q6 oxidoreductase (ambiguous);
+            electron transfer complex I;
+            NADH2 dehydrogenase (ubiquinone)
+CLASS       Translocases;
+            Catalysing the translocation of protons;
+            Linked to oxidoreductase reactions
+SYSNAME     NADH:ubiquinone oxidoreductase
+REACTION    NADH + H+ + an ubiquinone + 4 H+[side 1] = NAD+ + an ubiquinol + 4 H+[side 2] [RN:R11945]
+ALL_REAC    R11945
+SUBSTRATE   NADH [CPD:C00004];
+            H+ [CPD:C00080];
+            ubiquinone [CPD:C00399];
+            H+[side 1]
+PRODUCT     NAD+ [CPD:C00003];
+            ubiquinol [CPD:C00390];
+            H+[side 2]
+COMMENT     The enzyme is a very large complex that participates in electron transfer chains of mitochondria and aerobic bacteria, transferring two electrons from NADH to a ubiquinone in the membrane's ubiquinone pool while pumping additional protons across the membrane, generating proton motive force. Different reports disagree whether the enzyme pumps 3 or 4 protons. Reversed electron transport through this enzyme can reduce NAD+ to NADH.
+HISTORY     EC 7.1.1.2 created 1961 as EC 1.6.5.3, deleted 1965, reinstated 1983, modified 2011, modified 2013, transferred 2018 to EC 7.1.1.2, modified 2023
+REFERENCE   1
+  AUTHORS   Hatefi, Y., Ragan, C.I. and Galante, Y.M.
+  TITLE     The enzymes and the enzyme complexes of the mitochondrial oxidative phosphorylation system.
+  JOURNAL   In: Martonosi, A. (Ed.), The Enzymes of Biological Membranes, 2nd ed., vol. 4, Plenum Press, New York, 1985, p. 1-70.
+REFERENCE   2  [PMID:9446680]
+  AUTHORS   Herter SM, Kortluke CM, Drews G
+  TITLE     Complex I of Rhodobacter capsulatus and its role in reverted electron transport.
+  JOURNAL   Arch Microbiol 169:98-105 (1998)
+            DOI:10.1007/s002030050548
+REFERENCE   3  [PMID:20595580]
+  AUTHORS   Hunte C, Zickermann V, Brandt U
+  TITLE     Functional modules and structural basis of conformational coupling in mitochondrial complex I.
+  JOURNAL   Science 329:448-51 (2010)
+            DOI:10.1126/science.1191046
+REFERENCE   4  [PMID:20505720]
+  AUTHORS   Efremov RG, Baradaran R, Sazanov LA
+  TITLE     The architecture of respiratory complex I.
+  JOURNAL   Nature 465:441-5 (2010)
+            DOI:10.1038/nature09066
+REFERENCE   5  [PMID:22392981]
+  AUTHORS   Wikstrom M, Hummer G
+  TITLE     Stoichiometry of proton translocation by respiratory complex I and its mechanistic implications.
+  JOURNAL   Proc Natl Acad Sci U S A 109:4431-6 (2012)
+            DOI:10.1073/pnas.1120949109
+PATHWAY     ec00190  Oxidative phosphorylation
+            ec01100  Metabolic pathways
+ORTHOLOGY   K00330  NADH-quinone oxidoreductase subunit A
+            K00331  NADH-quinone oxidoreductase subunit B
+            K00332  NADH-quinone oxidoreductase subunit C
+            K00333  NADH-quinone oxidoreductase subunit D
+            K00334  NADH-quinone oxidoreductase subunit E
+            K00335  NADH-quinone oxidoreductase subunit F
+            K00336  NADH-quinone oxidoreductase subunit G
+            K00337  NADH-quinone oxidoreductase subunit H
+            K00338  NADH-quinone oxidoreductase subunit I
+            K00339  NADH-quinone oxidoreductase subunit J
+            K00340  NADH-quinone oxidoreductase subunit K
+            K00341  NADH-quinone oxidoreductase subunit L
+            K00342  NADH-quinone oxidoreductase subunit M
+            K00343  NADH-quinone oxidoreductase subunit N
+            K03878  NADH-ubiquinone oxidoreductase chain 1
+            K03879  NADH-ubiquinone oxidoreductase chain 2
+            K03880  NADH-ubiquinone oxidoreductase chain 3
+            K03881  NADH-ubiquinone oxidoreductase chain 4
+            K03882  NADH-ubiquinone oxidoreductase chain 4L
+            K03883  NADH-ubiquinone oxidoreductase chain 5
+            K03884  NADH-ubiquinone oxidoreductase chain 6
+            K03934  NADH dehydrogenase (ubiquinone) Fe-S protein 1
+            K03935  NADH dehydrogenase (ubiquinone) Fe-S protein 2
+            K03936  NADH dehydrogenase (ubiquinone) Fe-S protein 3
+            K03940  NADH dehydrogenase (ubiquinone) Fe-S protein 7
+            K03941  NADH dehydrogenase (ubiquinone) Fe-S protein 8
+            K03942  NADH dehydrogenase (ubiquinone) flavoprotein 1
+            K03943  NADH dehydrogenase (ubiquinone) flavoprotein 2
+            K05572  NAD(P)H-quinone oxidoreductase subunit 1
+            K05573  NAD(P)H-quinone oxidoreductase subunit 2
+            K05574  NAD(P)H-quinone oxidoreductase subunit 3
+            K05575  NAD(P)H-quinone oxidoreductase subunit 4
+            K05576  NAD(P)H-quinone oxidoreductase subunit 4L
+            K05577  NAD(P)H-quinone oxidoreductase subunit 5
+            K05578  NAD(P)H-quinone oxidoreductase subunit 6
+            K05579  NAD(P)H-quinone oxidoreductase subunit H
+            K05580  NAD(P)H-quinone oxidoreductase subunit I
+            K05581  NAD(P)H-quinone oxidoreductase subunit J
+            K05582  NAD(P)H-quinone oxidoreductase subunit K
+            K05583  NAD(P)H-quinone oxidoreductase subunit L
+            K05584  NAD(P)H-quinone oxidoreductase subunit M
+            K05585  NAD(P)H-quinone oxidoreductase subunit N
+            K05586  bidirectional [NiFe] hydrogenase diaphorase subunit
+            K05587  bidirectional [NiFe] hydrogenase diaphorase subunit
+            K05588  bidirectional [NiFe] hydrogenase diaphorase subunit
+            K13378  NADH-quinone oxidoreductase subunit C/D
+            K13380  NADH-quinone oxidoreductase subunit B/C/D
+            K15863  NADH-quinone oxidoreductase subunit L/M

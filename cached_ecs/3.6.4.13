@@ -1,0 +1,173 @@
+ENTRY       EC 3.6.4.13                 Enzyme
+NAME        RNA helicase;
+            CSFV NS3 helicase;
+            DBP2;
+            DbpA;
+            DDX17;
+            DDX25;
+            DDX3;
+            DDX3X;
+            DDX3Y;
+            DDX4;
+            DDX5;
+            DEAD-box protein DED1;
+            DEAD-box RNA helicase;
+            DEAH-box protein 2;
+            DEAH-box RNA helicase;
+            DED1;
+            Dex(H/D) RNA helicase;
+            EhDEAD1;
+            EhDEAD1 RNA helicase;
+            eIF4A helicase;
+            KOKV helicase;
+            Mtr4p;
+            nonstructural protein 3 helicase;
+            NPH-II;
+            RHA;
+            RNA helicase A;
+            RNA helicase DDX3;
+            RNA helicase Hera;
+            RNA-dependent ATPase;
+            TGBp1 NTPase/helicase domain;
+            VRH1;
+            GRTH/DDX25
+CLASS       Hydrolases;
+            Acting on acid anhydrides;
+            Acting on acid anhydrides to facilitate cellular and subcellular movement
+SYSNAME     ATP phosphohydrolase (RNA helix unwinding)
+REACTION    ATP + H2O = ADP + phosphate
+SUBSTRATE   ATP [CPD:C00002];
+            H2O [CPD:C00001]
+PRODUCT     ADP [CPD:C00008];
+            phosphate [CPD:C00009]
+COMMENT     RNA helicases utilize the energy from ATP hydrolysis to unwind RNA. Some of them unwind RNA with a 3' to 5' polarity [3], other show 5' to 3' polarity [8]. Some helicases unwind DNA as well as RNA [7,8]. May be identical with EC 3.6.4.12 (DNA helicase).
+HISTORY     EC 3.6.4.13 created 2009
+REFERENCE   1  [PMID:15201868]
+  AUTHORS   Cordin O, Tanner NK, Doere M, Linder P, Banroques J
+  TITLE     The newly discovered Q motif of DEAD-box RNA helicases regulates RNA-binding and  helicase activity.
+  JOURNAL   EMBO J 23:2478-87 (2004)
+            DOI:10.1038/sj.emboj.7600272
+  SEQUENCE  [sce:YOR204W]
+REFERENCE   2  [PMID:17401195]
+  AUTHORS   Rodamilans B, Montoya G
+  TITLE     Expression, purification, crystallization and preliminary X-ray diffraction analysis of the DDX3 RNA helicase domain.
+  JOURNAL   Acta Crystallogr Sect F Struct Biol Cryst Commun 63:283-6 (2007)
+            DOI:10.1107/S1744309107006434
+  SEQUENCE  [hsa:1654]
+REFERENCE   3  [PMID:1537828]
+  AUTHORS   Lee CG, Hurwitz J
+  TITLE     A new RNA helicase isolated from HeLa cells that catalytically translocates in the 3' to 5' direction.
+  JOURNAL   J Biol Chem 267:4398-407 (1992)
+REFERENCE   4  [PMID:11785937]
+  AUTHORS   Li SC, Chung MC, Chen CS
+  TITLE     Cloning and characterization of a DEAD box RNA helicase from the viable seedlings of aged mung bean.
+  JOURNAL   Plant Mol Biol 47:761-70 (2001)
+            DOI:10.1023/a:1013687412020
+REFERENCE   5  [PMID:16051820]
+  AUTHORS   Wu J, Bera AK, Kuhn RJ, Smith JL
+  TITLE     Structure of the Flavivirus helicase: implications for catalytic activity, protein interactions, and proteolytic processing.
+  JOURNAL   J Virol 79:10268-77 (2005)
+            DOI:10.1128/JVI.79.16.10268-10277.2005
+  SEQUENCE  [vg:1502173]
+REFERENCE   6  [PMID:9573237]
+  AUTHORS   Gross CH, Shuman S
+  TITLE     The nucleoside triphosphatase and helicase activities of vaccinia virus NPH-II are essential for virus replication.
+  JOURNAL   J Virol 72:4729-36 (1998)
+            DOI:10.1128/JVI.72.6.4729-4736.1998
+  SEQUENCE  [vg:3707610]
+REFERENCE   7  [PMID:17263143]
+  AUTHORS   Frick DN
+  TITLE     The hepatitis C virus NS3 protein: a model RNA helicase and potential drug target.
+  JOURNAL   Curr Issues Mol Biol 9:1-20 (2007)
+ORTHOLOGY   K03578  ATP-dependent helicase HrpA
+            K03579  ATP-dependent helicase HrpB
+            K03724  ATP-dependent helicase Lhr and Lhr-like helicase
+            K03732  ATP-dependent RNA helicase RhlB
+            K05590  ATP-dependent RNA helicase SrmB
+            K05591  ATP-dependent RNA helicase DbpA
+            K05592  ATP-dependent RNA helicase DeaD
+            K11273  chromosome transmission fidelity protein 1
+            K11594  ATP-dependent RNA helicase DDX3X
+            K11701  helicase required for RNAi-mediated heterochromatin assembly 1
+            K11927  ATP-dependent RNA helicase RhlE
+            K12598  ATP-dependent RNA helicase DOB1
+            K12599  antiviral helicase SKI2
+            K12614  ATP-dependent RNA helicase DDX6/DHH1
+            K12646  ATP-dependent RNA helicase DDX58
+            K12647  interferon-induced helicase C domain-containing protein 1
+            K12649  ATP-dependent RNA helicase DHX58
+            K12811  ATP-dependent RNA helicase DDX46/PRP5
+            K12812  ATP-dependent RNA helicase UAP56/SUB2
+            K12813  pre-mRNA-splicing factor ATP-dependent RNA helicase DHX16
+            K12814  pre-mRNA-splicing factor ATP-dependent RNA helicase-like protein PRP2
+            K12815  pre-mRNA-splicing factor ATP-dependent RNA helicase DHX38/PRP16
+            K12818  ATP-dependent RNA helicase DHX8/PRP22
+            K12820  pre-mRNA-splicing factor ATP-dependent RNA helicase DHX15/PRP43
+            K12823  ATP-dependent RNA helicase DDX5/DBP2
+            K12835  ATP-dependent RNA helicase DDX42
+            K12854  pre-mRNA-splicing helicase BRR2
+            K12858  ATP-dependent RNA helicase DDX23/PRP28
+            K13025  ATP-dependent RNA helicase
+            K13026  ATP-dependent RNA helicase DHX57
+            K13116  ATP-dependent RNA helicase DDX41
+            K13117  ATP-dependent RNA helicase DDX35
+            K13131  ATP-dependent RNA helicase DDX20
+            K13177  ATP-dependent RNA helicase DDX1
+            K13178  ATP-dependent RNA helicase DDX17
+            K13179  ATP-dependent RNA helicase DDX18/HAS1
+            K13181  ATP-dependent RNA helicase DDX27
+            K13182  ATP-dependent RNA helicase DDX39
+            K13183  ATP-dependent RNA helicase DDX50
+            K13184  ATP-dependent RNA helicase A
+            K13185  ATP-dependent RNA helicase DHX30
+            K13982  probable ATP-dependent RNA helicase DDX4
+            K13983  RNA helicase MOV10L1
+            K14326  regulator of nonsense transcripts 1
+            K14433  ATP-dependent RNA helicase DQX1
+            K14442  ATP-dependent RNA helicase DHX36
+            K14776  ATP-dependent RNA helicase DDX10/DBP4
+            K14777  ATP-dependent RNA helicase DDX47/RRP3
+            K14778  ATP-dependent RNA helicase DDX49/DBP8
+            K14779  ATP-dependent RNA helicase DDX52/ROK1
+            K14780  ATP-dependent RNA helicase DHX37/DHR1
+            K14781  ATP-dependent RNA helicase DHR2
+            K14805  ATP-dependent RNA helicase DDX24/MAK5
+            K14806  ATP-dependent RNA helicase DDX31/DBP7
+            K14807  ATP-dependent RNA helicase DDX51/DBP6
+            K14808  ATP-dependent RNA helicase DDX54/DBP10
+            K14809  ATP-dependent RNA helicase DDX55/SPB4
+            K14810  ATP-dependent RNA helicase DDX56/DBP9
+            K14811  ATP-dependent RNA helicase DBP3
+            K16911  ATP-dependent RNA helicase DDX21
+            K17043  ATP-dependent RNA helicase DDX43
+            K17265  Ras GTPase-activating protein-binding protein 1
+            K17642  ATP-dependent RNA helicase DDX3Y
+            K17675  ATP-dependent RNA helicase SUPV3L1/SUV3
+            K17678  ATP-dependent RNA helicase MRH4, mitochondrial
+            K17679  ATP-dependent RNA helicase MSS116, mitochondrial
+            K17820  ATP-dependent RNA helicase DHX33
+            K18408  ATP-dependent RNA helicase TDRD9
+            K18409  ATP-dependent RNA helicase TDRD12
+            K18422  helicase MOV-10
+            K18655  ATP-dependent RNA helicase DDX19/DBP5
+            K18656  ATP-dependent RNA helicase DDX25
+            K18664  antiviral helicase SLH1
+            K18692  ATP-dependent RNA helicase CshB
+            K18711  ATP-dependent RNA helicase DHX40
+            K18994  pre-mRNA-splicing factor ATP-dependent RNA helicase DHX32
+            K18995  ATP-dependent RNA helicase DHX29
+            K19036  ATP-dependent RNA/DNA helicase IGHMBP2
+            K19466  ATP-dependent RNA helicase DDX59
+            K20096  ATP-dependent RNA helicase DDX28
+            K20099  ATP-dependent RNA helicase YTHDC2
+            K20101  ATP-dependent RNA helicase DHX34
+            K20103  ATP-dependent RNA helicase DDX60
+            K21505  Poxviridae RNA helicase NPH-II
+            K21869  ATP-dependent RNA helicase DDX53
+            K22273  Hepatitis C virus serine protease / helicase NS3
+            K25022  SARS coronavirus helicase
+            K25328  Flavivirus serine protease NS3 catalytic subunit
+            K26077  ATP-dependent RNA helicase ISE2
+            K26394  Alphatetraviridae methyltransferase/helicase/RNA-directed RNA polymerase
+            K26438  Aquareovirus major inner capsid protein VP3
+            K26798  Bovine viral diarrhea virus 1 serine protease NS3

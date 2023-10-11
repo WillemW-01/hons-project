@@ -1,0 +1,33 @@
+ENTRY       EC 6.1.1.14                 Enzyme
+NAME        glycine---tRNA ligase;
+            glycyl-tRNA synthetase;
+            glycyl-transfer ribonucleate synthetase;
+            glycyl-transfer RNA synthetase;
+            glycyl-transfer ribonucleic acid synthetase;
+            glycyl translase
+CLASS       Ligases;
+            Forming carbon-oxygen bonds;
+            Ligases forming aminoacyl-tRNA and related compounds
+SYSNAME     glycine:tRNAGly ligase (AMP-forming)
+REACTION    ATP + glycine + tRNAGly = AMP + diphosphate + glycyl-tRNAGly [RN:R03654]
+ALL_REAC    R03654
+SUBSTRATE   ATP [CPD:C00002];
+            glycine [CPD:C00037];
+            tRNA(Gly) [CPD:C01642]
+PRODUCT     AMP [CPD:C00020];
+            diphosphate [CPD:C00013];
+            glycyl-tRNA(Gly) [CPD:C02412]
+HISTORY     EC 6.1.1.14 created 1972
+REFERENCE   1  [PMID:13959340]
+  AUTHORS   FRASER MJ.
+  TITLE     Glycyl-RNA synthetase of rat liver: partial purification and effects of some metal ions on its activity.
+  JOURNAL   Can J Biochem Physiol 41:1123-33 (1963)
+REFERENCE   2  [PMID:4295604]
+  AUTHORS   Niyomporn B, Dahl JL, Strominger JL.
+  TITLE     Biosynthesis of the peptidoglycan of bacterial cell walls. IX. Purification and properties of glycyl transfer ribonucleic acid synthetase from Staphylococcus aureus.
+  JOURNAL   J Biol Chem 243:773-8 (1968)
+PATHWAY     ec00970  Aminoacyl-tRNA biosynthesis
+ORTHOLOGY   K01878  glycyl-tRNA synthetase alpha chain
+            K01879  glycyl-tRNA synthetase beta chain
+            K01880  glycyl-tRNA synthetase
+            K14164  glycyl-tRNA synthetase

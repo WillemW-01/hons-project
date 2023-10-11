@@ -1,0 +1,1868 @@
+Request sent: https://rest.kegg.jp/get/ec:6.3.3.2
+Request sent: https://rest.kegg.jp/get/ec:2.1.2.1
+Request sent: https://rest.kegg.jp/get/ec:1.5.1.5
+Request sent: https://rest.kegg.jp/get/ec:2.3.1.12
+Request sent: https://rest.kegg.jp/get/ec:3.2.2.16
+Request sent: https://rest.kegg.jp/get/ec:2.4.2.1
+Request sent: https://rest.kegg.jp/get/ec:2.8.1.7
+Request sent: https://rest.kegg.jp/get/ec:3.5.1.88
+Request sent: https://rest.kegg.jp/get/ec:4.2.1.70
+Request sent: https://rest.kegg.jp/get/ec:2.7.4.22
+Request sent: https://rest.kegg.jp/get/ec:3.4.11.18
+Request sent: https://rest.kegg.jp/get/ec:2.7.7.7
+Request sent: https://rest.kegg.jp/get/ec:2.1.1.170
+Request sent: https://rest.kegg.jp/get/ec:5.99.1.3
+Request sent: https://rest.kegg.jp/get/ec:3.1.26.5
+Request sent: https://rest.kegg.jp/get/ec:3.4.24.3
+Request sent: https://rest.kegg.jp/get/ec:2.4.2.8
+Request sent: https://rest.kegg.jp/get/ec:3.1.1.29
+Request sent: https://rest.kegg.jp/get/ec:6.3.4.19
+Request sent: https://rest.kegg.jp/get/ec:3.6.3.3
+Request sent: https://rest.kegg.jp/get/ec:4.1.2.4
+Request sent: https://rest.kegg.jp/get/ec:3.1.11.6
+Request sent: https://rest.kegg.jp/get/ec:3.1.21.2
+Request sent: https://rest.kegg.jp/get/ec:5.99.1.2
+Request sent: https://rest.kegg.jp/get/ec:5.6.2.2
+Request sent: https://rest.kegg.jp/get/ec:1.1.1.27
+Request sent: https://rest.kegg.jp/get/ec:2.3.1.8
+Request sent: https://rest.kegg.jp/get/ec:2.7.2.1
+Request sent: https://rest.kegg.jp/get/ec:6.3.2.12
+Request sent: https://rest.kegg.jp/get/ec:5.3.1.9
+Request sent: https://rest.kegg.jp/get/ec:1.2.1.9
+Request sent: https://rest.kegg.jp/get/ec:2.7.2.3
+Request sent: https://rest.kegg.jp/get/ec:1.2.1.12
+Request sent: https://rest.kegg.jp/get/ec:5.3.1.1
+Request sent: https://rest.kegg.jp/get/ec:5.4.2.1
+Request sent: https://rest.kegg.jp/get/ec:4.1.2.13
+Request sent: https://rest.kegg.jp/get/ec:4.2.1.11
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.11
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.40
+Request sent: https://rest.kegg.jp/get/ec:3.6.1.15
+Request sent: https://rest.kegg.jp/get/ec:3.6.1.23
+Request sent: https://rest.kegg.jp/get/ec:2.7.11.1
+Request sent: https://rest.kegg.jp/get/ec:2.5.1.145
+Request sent: https://rest.kegg.jp/get/ec:3.4.23.36
+Request sent: https://rest.kegg.jp/get/ec:2.7.7.101
+Request sent: https://rest.kegg.jp/get/ec:5.3.1.8
+Request sent: https://rest.kegg.jp/get/ec:2.5.1.6
+Request sent: https://rest.kegg.jp/get/ec:2.7.7.6
+Request sent: https://rest.kegg.jp/get/ec:6.3.1.5
+Request sent: https://rest.kegg.jp/get/ec:2.7.7.18
+Request sent: https://rest.kegg.jp/get/ec:2.4.2.11
+Request sent: https://rest.kegg.jp/get/ec:5.1.3.1
+Request sent: https://rest.kegg.jp/get/ec:2.2.1.1
+Request sent: https://rest.kegg.jp/get/ec:5.3.1.6
+Request sent: https://rest.kegg.jp/get/ec:2.7.6.1
+Request sent: https://rest.kegg.jp/get/ec:3.6.1.1
+Request sent: https://rest.kegg.jp/get/ec:3.4.21.53
+Request sent: https://rest.kegg.jp/get/ec:2.4.2.7
+Request sent: https://rest.kegg.jp/get/ec:2.7.4.3
+Request sent: https://rest.kegg.jp/get/ec:2.7.4.8
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.76
+Request sent: https://rest.kegg.jp/get/ec:1.8.1.4
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.26
+Response: https://rest.kegg.jp/get/ec:3.2.2.16
+Response: https://rest.kegg.jp/get/ec:5.99.1.3
+Response: https://rest.kegg.jp/get/ec:3.6.3.3
+Response: https://rest.kegg.jp/get/ec:5.99.1.2
+Response: https://rest.kegg.jp/get/ec:3.6.1.15
+Response: https://rest.kegg.jp/get/ec:3.4.24.3
+Response: https://rest.kegg.jp/get/ec:5.4.2.1
+Response: https://rest.kegg.jp/get/ec:2.4.2.11
+Response: https://rest.kegg.jp/get/ec:4.2.1.70
+Response: https://rest.kegg.jp/get/ec:1.2.1.9
+Response: https://rest.kegg.jp/get/ec:3.1.21.2
+Response: https://rest.kegg.jp/get/ec:2.3.1.8
+Response: https://rest.kegg.jp/get/ec:2.5.1.145
+Response: https://rest.kegg.jp/get/ec:6.3.3.2
+Response: https://rest.kegg.jp/get/ec:4.2.1.11
+Response: https://rest.kegg.jp/get/ec:5.3.1.6
+Response: https://rest.kegg.jp/get/ec:5.3.1.1
+Response: https://rest.kegg.jp/get/ec:3.4.11.18
+Response: https://rest.kegg.jp/get/ec:1.1.1.27
+Response: https://rest.kegg.jp/get/ec:2.7.1.76
+Response: https://rest.kegg.jp/get/ec:6.3.1.5
+Response: https://rest.kegg.jp/get/ec:2.7.1.26
+Response: https://rest.kegg.jp/get/ec:2.7.2.1
+Response: https://rest.kegg.jp/get/ec:6.3.2.12
+Response: https://rest.kegg.jp/get/ec:2.7.4.22
+Response: https://rest.kegg.jp/get/ec:6.3.4.19
+Response: https://rest.kegg.jp/get/ec:3.5.1.88
+Response: https://rest.kegg.jp/get/ec:1.5.1.5
+Response: https://rest.kegg.jp/get/ec:2.7.1.40
+Response: https://rest.kegg.jp/get/ec:4.1.2.4
+Response: https://rest.kegg.jp/get/ec:2.8.1.7
+Response: https://rest.kegg.jp/get/ec:2.1.2.1
+Response: https://rest.kegg.jp/get/ec:2.4.2.1
+Response: https://rest.kegg.jp/get/ec:2.5.1.6
+Response: https://rest.kegg.jp/get/ec:2.7.2.3
+Response: https://rest.kegg.jp/get/ec:2.7.7.18
+Response: https://rest.kegg.jp/get/ec:3.4.21.53
+Response: https://rest.kegg.jp/get/ec:3.6.1.23
+Response: https://rest.kegg.jp/get/ec:4.1.2.13
+Response: https://rest.kegg.jp/get/ec:3.1.1.29
+Response: https://rest.kegg.jp/get/ec:2.4.2.8
+Response: https://rest.kegg.jp/get/ec:2.4.2.7
+Response: https://rest.kegg.jp/get/ec:2.7.7.101
+Response: https://rest.kegg.jp/get/ec:2.7.4.8
+Response: https://rest.kegg.jp/get/ec:2.7.6.1
+Response: https://rest.kegg.jp/get/ec:3.4.23.36
+Response: https://rest.kegg.jp/get/ec:2.7.1.11
+Response: https://rest.kegg.jp/get/ec:5.1.3.1
+Response: https://rest.kegg.jp/get/ec:1.2.1.12
+Response: https://rest.kegg.jp/get/ec:3.6.1.1
+Response: https://rest.kegg.jp/get/ec:2.2.1.1
+Response: https://rest.kegg.jp/get/ec:1.8.1.4
+Response: https://rest.kegg.jp/get/ec:3.1.11.6
+Response: https://rest.kegg.jp/get/ec:5.3.1.9
+Response: https://rest.kegg.jp/get/ec:3.1.26.5
+Response: https://rest.kegg.jp/get/ec:2.1.1.170
+Response: https://rest.kegg.jp/get/ec:2.3.1.12
+Response: https://rest.kegg.jp/get/ec:5.3.1.8
+Response: https://rest.kegg.jp/get/ec:2.7.7.6
+Response: https://rest.kegg.jp/get/ec:5.6.2.2
+Response: https://rest.kegg.jp/get/ec:2.7.4.3
+Response: https://rest.kegg.jp/get/ec:2.7.7.7
+Response: https://rest.kegg.jp/get/ec:2.7.11.1
+Took 28.31 seconds for all requests
+Transferred entry for https://rest.kegg.jp/get/ec:5.99.1.3, sending it through to next batch
+Transferred entry for https://rest.kegg.jp/get/ec:3.6.3.3, sending it through to next batch
+Transferred entry for https://rest.kegg.jp/get/ec:5.99.1.2, sending it through to next batch
+Transferred entry for https://rest.kegg.jp/get/ec:5.4.2.1, sending it through to next batch
+Transferred entry for https://rest.kegg.jp/get/ec:2.4.2.11, sending it through to next batch
+Removing entry from results: https://rest.kegg.jp/get/ec:5.99.1.3
+Removing entry from results: https://rest.kegg.jp/get/ec:3.6.3.3
+Removing entry from results: https://rest.kegg.jp/get/ec:5.99.1.2
+Removing entry from results: https://rest.kegg.jp/get/ec:5.4.2.1
+Removing entry from results: https://rest.kegg.jp/get/ec:2.4.2.11
+Adding these ecs to enzyme_list: ['5.6.2.2', '7.2.2.21', '5.6.2.1', '5.4.2.11', '5.4.2.12', '6.3.4.21']
+Added the ecs
+Request sent: https://rest.kegg.jp/get/ec:5.6.2.2
+Request sent: https://rest.kegg.jp/get/ec:7.2.2.21
+Request sent: https://rest.kegg.jp/get/ec:5.6.2.1
+Request sent: https://rest.kegg.jp/get/ec:5.4.2.11
+Request sent: https://rest.kegg.jp/get/ec:5.4.2.12
+Request sent: https://rest.kegg.jp/get/ec:6.3.4.21
+Response: https://rest.kegg.jp/get/ec:5.4.2.12
+Response: https://rest.kegg.jp/get/ec:7.2.2.21
+Response: https://rest.kegg.jp/get/ec:5.4.2.11
+Response: https://rest.kegg.jp/get/ec:5.6.2.1
+Response: https://rest.kegg.jp/get/ec:6.3.4.21
+Response: https://rest.kegg.jp/get/ec:5.6.2.2
+Took 5.22 seconds for all requests
+https://rest.kegg.jp/get/ec:6.3.3.2   : 200
+https://rest.kegg.jp/get/ec:2.1.2.1   : 200
+https://rest.kegg.jp/get/ec:1.5.1.5   : 200
+https://rest.kegg.jp/get/ec:2.3.1.12  : 200
+https://rest.kegg.jp/get/ec:3.2.2.16  : 200
+https://rest.kegg.jp/get/ec:2.4.2.1   : 200
+https://rest.kegg.jp/get/ec:2.8.1.7   : 200
+https://rest.kegg.jp/get/ec:3.5.1.88  : 200
+https://rest.kegg.jp/get/ec:4.2.1.70  : 200
+https://rest.kegg.jp/get/ec:2.7.4.22  : 200
+https://rest.kegg.jp/get/ec:3.4.11.18 : 200
+https://rest.kegg.jp/get/ec:2.7.7.7   : 200
+https://rest.kegg.jp/get/ec:2.1.1.170 : 200
+https://rest.kegg.jp/get/ec:3.1.26.5  : 200
+https://rest.kegg.jp/get/ec:3.4.24.3  : 200
+https://rest.kegg.jp/get/ec:2.4.2.8   : 200
+https://rest.kegg.jp/get/ec:3.1.1.29  : 200
+https://rest.kegg.jp/get/ec:6.3.4.19  : 200
+https://rest.kegg.jp/get/ec:4.1.2.4   : 200
+https://rest.kegg.jp/get/ec:3.1.11.6  : 200
+https://rest.kegg.jp/get/ec:3.1.21.2  : 200
+https://rest.kegg.jp/get/ec:5.6.2.2   : 200
+https://rest.kegg.jp/get/ec:1.1.1.27  : 200
+https://rest.kegg.jp/get/ec:2.3.1.8   : 200
+https://rest.kegg.jp/get/ec:2.7.2.1   : 200
+https://rest.kegg.jp/get/ec:6.3.2.12  : 200
+https://rest.kegg.jp/get/ec:5.3.1.9   : 200
+https://rest.kegg.jp/get/ec:1.2.1.9   : 200
+https://rest.kegg.jp/get/ec:2.7.2.3   : 200
+https://rest.kegg.jp/get/ec:1.2.1.12  : 200
+https://rest.kegg.jp/get/ec:5.3.1.1   : 200
+https://rest.kegg.jp/get/ec:4.1.2.13  : 200
+https://rest.kegg.jp/get/ec:4.2.1.11  : 200
+https://rest.kegg.jp/get/ec:2.7.1.11  : 200
+https://rest.kegg.jp/get/ec:2.7.1.40  : 200
+https://rest.kegg.jp/get/ec:3.6.1.15  : 200
+https://rest.kegg.jp/get/ec:3.6.1.23  : 200
+https://rest.kegg.jp/get/ec:2.7.11.1  : 200
+https://rest.kegg.jp/get/ec:2.5.1.145 : 200
+https://rest.kegg.jp/get/ec:3.4.23.36 : 200
+https://rest.kegg.jp/get/ec:2.7.7.101 : 200
+https://rest.kegg.jp/get/ec:5.3.1.8   : 200
+https://rest.kegg.jp/get/ec:2.5.1.6   : 200
+https://rest.kegg.jp/get/ec:2.7.7.6   : 200
+https://rest.kegg.jp/get/ec:6.3.1.5   : 200
+https://rest.kegg.jp/get/ec:2.7.7.18  : 200
+https://rest.kegg.jp/get/ec:5.1.3.1   : 200
+https://rest.kegg.jp/get/ec:2.2.1.1   : 200
+https://rest.kegg.jp/get/ec:5.3.1.6   : 200
+https://rest.kegg.jp/get/ec:2.7.6.1   : 200
+https://rest.kegg.jp/get/ec:3.6.1.1   : 200
+https://rest.kegg.jp/get/ec:3.4.21.53 : 200
+https://rest.kegg.jp/get/ec:2.4.2.7   : 200
+https://rest.kegg.jp/get/ec:2.7.4.3   : 200
+https://rest.kegg.jp/get/ec:2.7.4.8   : 200
+https://rest.kegg.jp/get/ec:2.7.1.76  : 200
+https://rest.kegg.jp/get/ec:1.8.1.4   : 200
+https://rest.kegg.jp/get/ec:2.7.1.26  : 200
+https://rest.kegg.jp/get/ec:5.6.2.2   : 200
+https://rest.kegg.jp/get/ec:7.2.2.21  : 200
+https://rest.kegg.jp/get/ec:5.6.2.1   : 200
+https://rest.kegg.jp/get/ec:5.4.2.11  : 200
+https://rest.kegg.jp/get/ec:5.4.2.12  : 200
+https://rest.kegg.jp/get/ec:6.3.4.21  : 200
+
+ATP + 5-formyltetrahydrofolate = ADP + phosphate + 5,10-methenyltetrahydrofolate [RN:R02301]\nALL_REAC    R02301\nSUBSTRATE   ATP [CPD:C00002];\n            5-formyltetrahydrofolate [CPD:C03479]\nPRODUCT     ADP [CPD:C00008];\n            phosphate [CPD:C00009];\n            5,10-methenyltetrahydrof
+Substrates: ['ATP', '5-formyltetrahydrofolate']
+Products: ['ADP', 'phosphate', '5,10-methenyltetrahydrofolate']
+5,10-methylenetetrahydrofolate + glycine + H2O = tetrahydrofolate + L-serine [RN:R00945]\nALL_REAC    R00945;\n            (other) R09099\nSUBSTRATE   5,10-methylenetetrahydrofolate [CPD:C00143];\n            glycine [CPD:C00037];\n            H2O [CPD:C00001]\nPRODUCT     tetrahydrofolate [CPD:C001
+Substrates: ['5,10-methylenetetrahydrofolate', 'glycine', 'H2O']
+Products: ['tetrahydrofolate', 'L-serine']
+5,10-methylenetetrahydrofolate + NADP+ = 5,10-methenyltetrahydrofolate + NADPH + H+ [RN:R01220]\nALL_REAC    R01220\nSUBSTRATE   5,10-methylenetetrahydrofolate [CPD:C00143];\n            NADP+ [CPD:C00006]\nPRODUCT     5,10-methenyltetrahydrofolate [CPD:C00445];\n            NADPH [CPD:C00005];\n   
+Substrates: ['5,10-methylenetetrahydrofolate', 'NADP+']
+Products: ['5,10-methenyltetrahydrofolate', 'NADPH', 'H+']
+acetyl-CoA + enzyme N6-(dihydrolipoyl)lysine = CoA + enzyme N6-(S-acetyldihydrolipoyl)lysine [RN:R02569]\nALL_REAC    R02569\nSUBSTRATE   acetyl-CoA [CPD:C00024];\n            enzyme N6-(dihydrolipoyl)lysine [CPD:C15973]\nPRODUCT     CoA [CPD:C00010];\n            enzyme N6-(S-acetyldihydrolipoyl)ly
+Substrates: ['acetyl-CoA', 'enzyme N6-(dihydrolipoyl)lysine']
+Products: ['CoA', 'enzyme N6-(S-acetyldihydrolipoyl)lysine']
+S-methyl-5'-thioadenosine + H2O = 5-(methylsulfanyl)-D-ribose + adenine [RN:R01401]\nALL_REAC    R01401\nSUBSTRATE   S-methyl-5'-thioadenosine [CPD:C00170];\n            H2O [CPD:C00001]\nPRODUCT     5-(methylsulfanyl)-D-ribose [CPD:C03089];\n            adenine [CPD:C00147]\nCOMMENT     Unlike EC 3
+Substrates: ["S-methyl-5'-thioadenosine", 'H2O']
+Products: ['5-(methylsulfanyl)-D-ribose', 'adenine']
+(1) purine ribonucleoside + phosphate = purine + alpha-D-ribose 1-phosphate [RN:R08368];\n            (2) purine 2'-deoxyribonucleoside + phosphate = purine + 2-deoxy-alpha-D-ribose 1-phosphate [RN:R10244]\nALL_REAC    R08368 > R01561 R01863 R02147 R02297;\n            R10244 > R01969 R02557 R02748;
+Substrates: ['(1) purine ribonucleoside', 'phosphate']
+Products: ['purine', 'alpha-D-ribose 1-phosphate']
+L-cysteine + acceptor = L-alanine + S-sulfanyl-acceptor (overall reaction) [RN:R11528];\n            (1a) L-cysteine + [enzyme]-cysteine = L-alanine + [enzyme]-S-sulfanylcysteine [RN:R07460];\n            (1b) [enzyme]-S-sulfanylcysteine + acceptor = [enzyme]-cysteine + S-sulfanyl-acceptor [RN:R1152
+Substrates: ['L-cysteine', 'acceptor']
+Products: ['L-alanine', 'S-sulfanyl-acceptor (overall reaction)']
+formyl-L-methionyl peptide + H2O = formate + methionyl peptide [RN:R05635]\nALL_REAC    R05635;\n            (other) R04268\nSUBSTRATE   formyl-L-methionyl peptide [CPD:C11439];\n            H2O [CPD:C00001]\nPRODUCT     formate [CPD:C00058];\n            methionyl peptide [CPD:C11440]\nCOMMENT     
+Substrates: ['formyl-L-methionyl peptide', 'H2O']
+Products: ['formate', 'methionyl peptide']
+uracil + D-ribose 5-phosphate = pseudouridine 5'-phosphate + H2O [RN:R01055]\nALL_REAC    R01055\nSUBSTRATE   uracil [CPD:C00106];\n            D-ribose 5-phosphate [CPD:C00117]\nPRODUCT     pseudouridine 5'-phosphate [CPD:C01168];\n            H2O [CPD:C00001]\nCOMMENT     The reaction it readily r
+Substrates: ['uracil', 'D-ribose 5-phosphate']
+Products: ["pseudouridine 5'-phosphate", 'H2O']
+ATP + UMP = ADP + UDP [RN:R00158]\nALL_REAC    R00158\nSUBSTRATE   ATP [CPD:C00002];\n            UMP [CPD:C00105]\nPRODUCT     ADP [CPD:C00008];\n            UDP [CPD:C00015]\nCOMMENT     This enzyme is strictly specific for UMP as substrate and is used by prokaryotes in the de novo synthesis of py
+Substrates: ['ATP', 'UMP']
+Products: ['ADP', 'UDP']
+Release of N-terminal amino acids, preferentially methionine, from peptides and arylamides\nCOMMENT     This membrane-bound enzyme, which is present in both prokaryotes and eukaryotes, releases the initiator methionine from nascent peptides. The activity is dependent on the identity of the second, t
+Something went wrong: list index out of range for 3.4.11.18
+a 2'-deoxyribonucleoside 5'-triphosphate + DNAn = diphosphate + DNAn+1 [RN:R00379]\nALL_REAC    R00379 > R00375 R00376 R00377 R00378;\n            (other) R11029\nSUBSTRATE   2'-deoxyribonucleoside 5'-triphosphate [CPD:C00677];\n            DNAn [CPD:C00039]\nPRODUCT     diphosphate [CPD:C00013];\n 
+Substrates: ["a 2'-deoxyribonucleoside 5'-triphosphate", 'DNAn']
+Products: ['diphosphate', 'DNAn+1']
+S-adenosyl-L-methionine + guanine527 in 16S rRNA = S-adenosyl-L-homocysteine + N7-methylguanine527 in 16S rRNA\nSUBSTRATE   S-adenosyl-L-methionine [CPD:C00019];\n            guanine527 in 16S rRNA\nPRODUCT     S-adenosyl-L-homocysteine [CPD:C00021];\n            N7-methylguanine527 in 16S rRNA\nCOM
+Substrates: ['S-adenosyl-L-methionine', 'guanine527 in 16S rRNA']
+Products: ['S-adenosyl-L-homocysteine', 'N7-methylguanine527 in 16S rRNA']
+Endonucleolytic cleavage of RNA, removing 5'-extranucleotides from tRNA precursor\nCOMMENT     An RNA-containing enzyme, essential for tRNA processing; generates 5'-termini or mature tRNA molecules.\nHISTORY     EC 3.1.26.5 created 1978, modified 1982\nREFERENCE   1  [PMID:1099089]\n  AUTHORS   Biko
+Something went wrong: list index out of range for 3.1.26.5
+Digestion of native collagen in the triple helical region at !Gly bonds. With synthetic peptides, a preference is shown for Gly at P3 and P1', Pro and Ala at P2 and P2', and hydroxyproline, Ala or Arg at P3'\nCOMMENT     Six species of metalloendopeptidase acting on native collagen can be isolated f
+Something went wrong: list index out of range for 3.4.24.3
+IMP + diphosphate = hypoxanthine + 5-phospho-alpha-D-ribose 1-diphosphate [RN:R01132]\nALL_REAC    R01132;\n            (other) R01229 R02142 R08237 R08238 R08245\nSUBSTRATE   IMP [CPD:C00130];\n            diphosphate [CPD:C00013]\nPRODUCT     hypoxanthine [CPD:C00262];\n            5-phospho-alpha
+Substrates: ['IMP', 'diphosphate']
+Products: ['hypoxanthine', '5-phospho-alpha-D-ribose 1-diphosphate']
+N-substituted aminoacyl-tRNA + H2O = N-substituted amino acid + tRNA [RN:R04238]\nALL_REAC    R04238\nSUBSTRATE   N-substituted aminoacyl-tRNA [CPD:C03880];\n            H2O [CPD:C00001]\nPRODUCT     N-substituted amino acid [CPD:C03523];\n            tRNA [CPD:C00066]\nCOMMENT     The enzyme acts o
+Substrates: ['N-substituted aminoacyl-tRNA', 'H2O']
+Products: ['N-substituted amino acid', 'tRNA']
+[tRNAIle2]-cytidine34 + L-lysine + ATP = [tRNAIle2]-lysidine34 + AMP + diphosphate + H2O [RN:R09597]\nALL_REAC    R09597\nSUBSTRATE   [tRNAIle2]-cytidine34;\n            L-lysine [CPD:C00047];\n            ATP [CPD:C00002]\nPRODUCT     [tRNAIle2]-lysidine34;\n            AMP [CPD:C00020];\n         
+Substrates: ['[tRNAIle2]-cytidine34', 'L-lysine', 'ATP']
+Products: ['[tRNAIle2]-lysidine34', 'AMP', 'diphosphate', 'H2O']
+2-deoxy-D-ribose 5-phosphate = D-glyceraldehyde 3-phosphate + acetaldehyde [RN:R01066]\nALL_REAC    R01066\nSUBSTRATE   2-deoxy-D-ribose 5-phosphate [CPD:C00673]\nPRODUCT     D-glyceraldehyde 3-phosphate [CPD:C00118];\n            acetaldehyde [CPD:C00084]\nHISTORY     EC 4.1.2.4 created 1961\nREFER
+Substrates: ['2-deoxy-D-ribose 5-phosphate']
+Products: ['D-glyceraldehyde 3-phosphate', 'acetaldehyde']
+Exonucleolytic cleavage in either 5'- to 3'- or 3'- to 5'-direction to yield nucleoside 5'-phosphates\nCOMMENT     Preference for single-stranded DNA.\nHISTORY     EC 3.1.11.6 created 1978\nREFERENCE   1  [PMID:4602029]\n  AUTHORS   Chase JW, Richardson CC.\n  TITLE     Exonuclease VII of Escherichi
+Something went wrong: list index out of range for 3.1.11.6
+Endonucleolytic cleavage of ssDNA at apurinic/apyrimidinic sites to 5'-phosphooligonucleotide end-products\nCOMMENT     The enzyme is an apurinic/apyrimidinic (AP) site endonuclease that primes DNA repair synthesis at AP sites. It specifically cleaves the DNA backbone at AP sites and also removes 3'
+Something went wrong: list index out of range for 3.1.21.2
+ATP-dependent breakage, passage and rejoining of double-stranded DNA\nCOMMENT     The enzyme can introduce negative superhelical turns into double-stranded circular DNA. One unit has nicking-closing activity, and another catalyses super-twisting and hydrolysis of ATP (cf. EC 5.6.2.1 DNA topoisomeras
+Something went wrong: list index out of range for 5.6.2.2
+(S)-lactate + NAD+ = pyruvate + NADH + H+ [RN:R00703]\nALL_REAC    R00703;\n            (other) R01000 R03104\nSUBSTRATE   (S)-lactate [CPD:C00186];\n            NAD+ [CPD:C00003]\nPRODUCT     pyruvate [CPD:C00022];\n            NADH [CPD:C00004];\n            H+ [CPD:C00080]\nCOMMENT     Also oxidi
+Substrates: ['(S)-lactate', 'NAD+']
+Products: ['pyruvate', 'NADH', 'H+']
+acetyl-CoA + phosphate = CoA + acetyl phosphate [RN:R00230]\nALL_REAC    R00230;\n            (other) R00921\nSUBSTRATE   acetyl-CoA [CPD:C00024];\n            phosphate [CPD:C00009]\nPRODUCT     CoA [CPD:C00010];\n            acetyl phosphate [CPD:C00227]\nCOMMENT     Also acts with other short-cha
+Substrates: ['acetyl-CoA', 'phosphate']
+Products: ['CoA', 'acetyl phosphate']
+ATP + acetate = ADP + acetyl phosphate [RN:R00315]\nALL_REAC    R00315;\n            (other) R01353\nSUBSTRATE   ATP [CPD:C00002];\n            acetate [CPD:C00033]\nPRODUCT     ADP [CPD:C00008];\n            acetyl phosphate [CPD:C00227]\nCOMMENT     Requires Mg2+ for activity. While purified enzym
+Substrates: ['ATP', 'acetate']
+Products: ['ADP', 'acetyl phosphate']
+ATP + 7,8-dihydropteroate + L-glutamate = ADP + phosphate + 7,8-dihydropteroylglutamate [RN:R02237]\nALL_REAC    R02237;\n            (other) R01654\nSUBSTRATE   ATP [CPD:C00002];\n            7,8-dihydropteroate [CPD:C00921];\n            L-glutamate [CPD:C00025]\nPRODUCT     ADP [CPD:C00008];\n   
+Substrates: ['ATP', '7,8-dihydropteroate', 'L-glutamate']
+Products: ['ADP', 'phosphate', '7,8-dihydropteroylglutamate']
+alpha-D-glucose 6-phosphate = beta-D-fructofuranose 6-phosphate [RN:R02740]\nALL_REAC    R02740;\n            (other) R00771 R02739 R03321\nSUBSTRATE   alpha-D-glucose 6-phosphate [CPD:C00668]\nPRODUCT     beta-D-fructofuranose 6-phosphate [CPD:C05345]\nCOMMENT     The enzyme from yeast catalyses th
+Substrates: ['alpha-D-glucose 6-phosphate']
+Products: ['beta-D-fructofuranose 6-phosphate']
+D-glyceraldehyde 3-phosphate + NADP+ + H2O = 3-phospho-D-glycerate + NADPH + 2 H+ [RN:R01058]\nALL_REAC    R01058\nSUBSTRATE   D-glyceraldehyde 3-phosphate [CPD:C00118];\n            NADP+ [CPD:C00006];\n            H2O [CPD:C00001]\nPRODUCT     3-phospho-D-glycerate [CPD:C00197];\n            NADPH
+Substrates: ['D-glyceraldehyde 3-phosphate', 'NADP+', 'H2O']
+Products: ['3-phospho-D-glycerate', 'NADPH', '2 H+']
+ATP + 3-phospho-D-glycerate = ADP + 3-phospho-D-glyceroyl phosphate [RN:R01512]\nALL_REAC    R01512\nSUBSTRATE   ATP [CPD:C00002];\n            3-phospho-D-glycerate [CPD:C00197]\nPRODUCT     ADP [CPD:C00008];\n            3-phospho-D-glyceroyl phosphate [CPD:C00236]\nHISTORY     EC 2.7.2.3 created 
+Substrates: ['ATP', '3-phospho-D-glycerate']
+Products: ['ADP', '3-phospho-D-glyceroyl phosphate']
+D-glyceraldehyde 3-phosphate + phosphate + NAD+ = 3-phospho-D-glyceroyl phosphate + NADH + H+ [RN:R01061]\nALL_REAC    R01061\nSUBSTRATE   D-glyceraldehyde 3-phosphate [CPD:C00118];\n            phosphate [CPD:C00009];\n            NAD+ [CPD:C00003]\nPRODUCT     3-phospho-D-glyceroyl phosphate [CPD:
+Substrates: ['D-glyceraldehyde 3-phosphate', 'phosphate', 'NAD+']
+Products: ['3-phospho-D-glyceroyl phosphate', 'NADH', 'H+']
+D-glyceraldehyde 3-phosphate = glycerone phosphate [RN:R01015]\nALL_REAC    R01015\nSUBSTRATE   D-glyceraldehyde 3-phosphate [CPD:C00118]\nPRODUCT     glycerone phosphate [CPD:C00111]\nHISTORY     EC 5.3.1.1 created 1961\nREFERENCE   1\n  AUTHORS   Meyer-Arendt, E., Beisenherz, G. and Bucher, T.\n  
+Substrates: ['D-glyceraldehyde 3-phosphate']
+Products: ['glycerone phosphate']
+D-fructose 1,6-bisphosphate = glycerone phosphate + D-glyceraldehyde 3-phosphate [RN:R01068]\nALL_REAC    R01068 > R01070;\n            (other) R01829 R02568\nSUBSTRATE   D-fructose 1,6-bisphosphate [CPD:C00354]\nPRODUCT     glycerone phosphate [CPD:C00111];\n            D-glyceraldehyde 3-phosphate
+Substrates: ['D-fructose 1,6-bisphosphate']
+Products: ['glycerone phosphate', 'D-glyceraldehyde 3-phosphate']
+2-phospho-D-glycerate = phosphoenolpyruvate + H2O [RN:R00658]\nALL_REAC    R00658;\n            (other) R04206\nSUBSTRATE   2-phospho-D-glycerate [CPD:C00631]\nPRODUCT     phosphoenolpyruvate [CPD:C00074];\n            H2O [CPD:C00001]\nCOMMENT     Also acts on 3-phospho-D-erythronate.\nHISTORY     
+Substrates: ['2-phospho-D-glycerate']
+Products: ['phosphoenolpyruvate', 'H2O']
+ATP + beta-D-fructofuranose 6-phosphate = ADP + beta-D-fructofuranose 1,6-bisphosphate [RN:R04779]\nALL_REAC    R04779;\n            (other) R00756 R00767 R00769 R00770 R01843 R03236 R03237 R03238 R03239\nSUBSTRATE   ATP [CPD:C00002];\n            beta-D-fructofuranose 6-phosphate [CPD:C05345]\nPROD
+Substrates: ['ATP', 'beta-D-fructofuranose 6-phosphate']
+Products: ['ADP', 'beta-D-fructofuranose 1,6-bisphosphate']
+ATP + pyruvate = ADP + phosphoenolpyruvate [RN:R00200]\nALL_REAC    R00200;\n            (other) R00430 R00572 R00659 R00724 R01138 R01858 R02320\nSUBSTRATE   ATP [CPD:C00002];\n            pyruvate [CPD:C00022]\nPRODUCT     ADP [CPD:C00008];\n            phosphoenolpyruvate [CPD:C00074]\nCOMMENT   
+Substrates: ['ATP', 'pyruvate']
+Products: ['ADP', 'phosphoenolpyruvate']
+a nucleoside triphosphate + H2O = a nucleoside diphosphate + phosphate [RN:R02319]\nALL_REAC    R02319 > R00086;\n            (other) R00615\nSUBSTRATE   nucleoside triphosphate [CPD:C00201];\n            H2O [CPD:C00001]\nPRODUCT     nucleoside diphosphate [CPD:C00454];\n            phosphate [CPD:
+Substrates: ['a nucleoside triphosphate', 'H2O']
+Products: ['a nucleoside diphosphate', 'phosphate']
+dUTP + H2O = dUMP + diphosphate [RN:R02100]\nALL_REAC    R02100;\n            (other) R11896\nSUBSTRATE   dUTP [CPD:C00460];\n            H2O [CPD:C00001]\nPRODUCT     dUMP [CPD:C00365];\n            diphosphate [CPD:C00013]\nCOMMENT     The enzyme catalyses the Mg2+-dependent hydrolysis of dUTP to 
+Substrates: ['dUTP', 'H2O']
+Products: ['dUMP', 'diphosphate']
+ATP + a protein = ADP + a phosphoprotein [RN:R00162]\nALL_REAC    R00162;\n            (other) R03632\nSUBSTRATE   ATP [CPD:C00002];\n            protein [CPD:C00017]\nPRODUCT     ADP [CPD:C00008];\n            phosphoprotein [CPD:C00562]\nCOMMENT     This is a heterogeneous group of serine/threonin
+Substrates: ['ATP', 'a protein']
+Products: ['ADP', 'a phosphoprotein']
+L-1-phosphatidyl-sn-glycerol + a [prolipoprotein]-L-cysteine = sn-glycerol 1-phosphate + an [prolipoprotein]-S-1,2-diacyl-sn-glyceryl-L-cysteine\nSUBSTRATE   L-1-phosphatidyl-sn-glycerol;\n            [prolipoprotein]-L-cysteine\nPRODUCT     sn-glycerol 1-phosphate [CPD:C00623];\n            [prolip
+Substrates: ['L-1-phosphatidyl-sn-glycerol', 'a [prolipoprotein]-L-cysteine']
+Products: ['sn-glycerol 1-phosphate', 'an [prolipoprotein]-S-1,2-diacyl-sn-glyceryl-L-cysteine']
+Release of signal peptides from bacterial membrane prolipoproteins including murein prolipoprotein. Hydrolyses -Xaa-Yaa-Zaa!(S,diacylglyceryl)Cys-, in which Xaa is hydrophobic (preferably Leu), and Yaa (Ala or Ser) and Zaa (Gly or Ala) have small, neutral sidechains\nCOMMENT     An 18-kDa enzyme pre
+Something went wrong: list index out of range for 3.4.23.36
+ssDNA + n NTP = ssDNA/pppN(pN)n-1 hybrid + (n-1) diphosphate\nSUBSTRATE   ssDNA;\n            NTP [CPD:C00201]\nPRODUCT     ssDNA/pppN(pN)n-1 hybrid;\n            (n-1) diphosphate\nCOMMENT     The enzyme catalyses the synthesis of short RNA sequences that are used as primers for EC 2.7.7.7, DNA-dir
+Substrates: ['ssDNA', 'n NTP']
+Products: ['ssDNA/pppN(pN)n-1 hybrid', '(n-1) diphosphate']
+D-mannose 6-phosphate = D-fructose 6-phosphate [RN:R00772]\nALL_REAC    R00772 > R01819\nSUBSTRATE   D-mannose 6-phosphate [CPD:C00275]\nPRODUCT     D-fructose 6-phosphate [CPD:C00085]\nCOMMENT     A zinc protein.\nHISTORY     EC 5.3.1.8 created 1961, modified 1976\nREFERENCE   1  [PMID:13596383]\n 
+Substrates: ['D-mannose 6-phosphate']
+Products: ['D-fructose 6-phosphate']
+ATP + L-methionine + H2O = phosphate + diphosphate + S-adenosyl-L-methionine [RN:R00177]\nALL_REAC    R00177;\n            (other) R04771\nSUBSTRATE   ATP [CPD:C00002];\n            L-methionine [CPD:C00073];\n            H2O [CPD:C00001]\nPRODUCT     phosphate [CPD:C00009];\n            diphosphate
+Substrates: ['ATP', 'L-methionine', 'H2O']
+Products: ['phosphate', 'diphosphate', 'S-adenosyl-L-methionine']
+nucleoside triphosphate + RNAn = diphosphate + RNAn+1 [RN:R00444]\nALL_REAC    R00444 > R00435 R00441 R00442 R00443;\n            (other) R10813\nSUBSTRATE   nucleoside triphosphate [CPD:C00201];\n            RNAn [CPD:C00046]\nPRODUCT     diphosphate [CPD:C00013];\n            RNAn+1 [CPD:C00046]\n
+Substrates: ['nucleoside triphosphate', 'RNAn']
+Products: ['diphosphate', 'RNAn+1']
+ATP + deamido-NAD+ + NH3 = AMP + diphosphate + NAD+ [RN:R00189]\nALL_REAC    R00189\nSUBSTRATE   ATP [CPD:C00002];\n            deamido-NAD+ [CPD:C00857];\n            NH3 [CPD:C00014]\nPRODUCT     AMP [CPD:C00020];\n            diphosphate [CPD:C00013];\n            NAD+ [CPD:C00003]\nCOMMENT     L
+Substrates: ['ATP', 'deamido-NAD+', 'NH3']
+Products: ['AMP', 'diphosphate', 'NAD+']
+ATP + beta-nicotinate D-ribonucleotide = diphosphate + deamido-NAD+ [RN:R03005]\nALL_REAC    R03005;\n            (other) R00137\nSUBSTRATE   ATP [CPD:C00002];\n            beta-nicotinate D-ribonucleotide [CPD:C01185]\nPRODUCT     diphosphate [CPD:C00013];\n            deamido-NAD+ [CPD:C00857]\nHI
+Substrates: ['ATP', 'beta-nicotinate D-ribonucleotide']
+Products: ['diphosphate', 'deamido-NAD+']
+D-ribulose 5-phosphate = D-xylulose 5-phosphate [RN:R01529]\nALL_REAC    R01529\nSUBSTRATE   D-ribulose 5-phosphate [CPD:C00199]\nPRODUCT     D-xylulose 5-phosphate [CPD:C00231]\nCOMMENT     The enzyme also converts D-erythrose 4-phosphate into D-erythrulose 4-phosphate and D-threose 4-phosphate.\nH
+Substrates: ['D-ribulose 5-phosphate']
+Products: ['D-xylulose 5-phosphate']
+sedoheptulose 7-phosphate + D-glyceraldehyde 3-phosphate = D-ribose 5-phosphate + D-xylulose 5-phosphate [RN:R01641]\nALL_REAC    R01641;\n            (other) R01067 R01830 R06590 R06861 R06863\nSUBSTRATE   sedoheptulose 7-phosphate [CPD:C05382];\n            D-glyceraldehyde 3-phosphate [CPD:C00118
+Substrates: ['sedoheptulose 7-phosphate', 'D-glyceraldehyde 3-phosphate']
+Products: ['D-ribose 5-phosphate', 'D-xylulose 5-phosphate']
+D-ribose 5-phosphate = D-ribulose 5-phosphate [RN:R01056]\nALL_REAC    R01056;\n            (other) R09030\nSUBSTRATE   D-ribose 5-phosphate [CPD:C00117]\nPRODUCT     D-ribulose 5-phosphate [CPD:C00199]\nCOMMENT     Also acts on D-ribose 5-diphosphate and D-ribose 5-triphosphate.\nHISTORY     EC 5.3
+Substrates: ['D-ribose 5-phosphate']
+Products: ['D-ribulose 5-phosphate']
+ATP + D-ribose 5-phosphate = AMP + 5-phospho-alpha-D-ribose 1-diphosphate [RN:R01049]\nALL_REAC    R01049\nSUBSTRATE   ATP [CPD:C00002];\n            D-ribose 5-phosphate [CPD:C00117]\nPRODUCT     AMP [CPD:C00020];\n            5-phospho-alpha-D-ribose 1-diphosphate [CPD:C00119]\nCOMMENT     dATP ca
+Substrates: ['ATP', 'D-ribose 5-phosphate']
+Products: ['AMP', '5-phospho-alpha-D-ribose 1-diphosphate']
+diphosphate + H2O = 2 phosphate [RN:R00004]\nALL_REAC    R00004\nSUBSTRATE   diphosphate [CPD:C00013];\n            H2O [CPD:C00001]\nPRODUCT     phosphate [CPD:C00009]\nCOMMENT     Specificity varies with the source and with the activating metal ion. The enzyme from some sources may be identical wi
+Substrates: ['diphosphate', 'H2O']
+Products: ['2 phosphate']
+Hydrolysis of proteins in presence of ATP\nCOMMENT     Product of the lon gene in Escherichia coli. ATP hydrolysis is linked with peptide bond hydrolysis; vanadate inhibits both reactions. Type example of peptidase family S16. A similar enzyme occurs in animal mitochondria\nHISTORY     EC 3.4.21.53 
+Something went wrong: list index out of range for 3.4.21.53
+AMP + diphosphate = adenine + 5-phospho-alpha-D-ribose 1-diphosphate [RN:R00190]\nALL_REAC    R00190;\n            (other) R04378\nSUBSTRATE   AMP [CPD:C00020];\n            diphosphate [CPD:C00013]\nPRODUCT     adenine [CPD:C00147];\n            5-phospho-alpha-D-ribose 1-diphosphate [CPD:C00119]\n
+Substrates: ['AMP', 'diphosphate']
+Products: ['adenine', '5-phospho-alpha-D-ribose 1-diphosphate']
+ATP + AMP = 2 ADP [RN:R00127]\nALL_REAC    R00127;\n            (other) R01547 R11319\nSUBSTRATE   ATP [CPD:C00002];\n            AMP [CPD:C00020]\nPRODUCT     ADP [CPD:C00008]\nCOMMENT     Inorganic triphosphate can also act as donor.\nHISTORY     EC 2.7.4.3 created 1961\nREFERENCE   1  [PMID:13693
+Substrates: ['ATP', 'AMP']
+Products: ['2 ADP']
+ATP + GMP = ADP + GDP [RN:R00332]\nALL_REAC    R00332;\n            (other) R02090 R12852\nSUBSTRATE   ATP [CPD:C00002];\n            GMP [CPD:C00144]\nPRODUCT     ADP [CPD:C00008];\n            GDP [CPD:C00035]\nCOMMENT     dGMP can also act as acceptor, and dATP can act as donor.\nHISTORY     EC 2
+Substrates: ['ATP', 'GMP']
+Products: ['ADP', 'GDP']
+ATP + 2'-deoxyadenosine = ADP + dAMP [RN:R02089]\nALL_REAC    R02089\nSUBSTRATE   ATP [CPD:C00002];\n            2'-deoxyadenosine [CPD:C00559]\nPRODUCT     ADP [CPD:C00008];\n            dAMP [CPD:C00360]\nCOMMENT     2'-Deoxyguanosine can also act as acceptor. Possibly identical with EC 2.7.1.74 d
+Substrates: ['ATP', "2'-deoxyadenosine"]
+Products: ['ADP', 'dAMP']
+protein N6-(dihydrolipoyl)lysine + NAD+ = protein N6-(lipoyl)lysine + NADH + H+ [RN:R08550]\nALL_REAC    R08550 > R03815 R07618;\n            (other) R01698\nSUBSTRATE   protein N6-(dihydrolipoyl)lysine [CPD:C16832];\n            NAD+ [CPD:C00003]\nPRODUCT     protein N6-(lipoyl)lysine [CPD:C16237];
+Substrates: ['protein N6-(dihydrolipoyl)lysine', 'NAD+']
+Products: ['protein N6-(lipoyl)lysine', 'NADH', 'H+']
+ATP + riboflavin = ADP + FMN [RN:R00549]\nALL_REAC    R00549\nSUBSTRATE   ATP [CPD:C00002];\n            riboflavin [CPD:C00255]\nPRODUCT     ADP [CPD:C00008];\n            FMN [CPD:C00061]\nCOMMENT     The cofactors FMN and FAD participate in numerous processes in all organisms, including mitochond
+Substrates: ['ATP', 'riboflavin']
+Products: ['ADP', 'FMN']
+ATP-dependent breakage, passage and rejoining of double-stranded DNA\nCOMMENT     The enzyme can introduce negative superhelical turns into double-stranded circular DNA. One unit has nicking-closing activity, and another catalyses super-twisting and hydrolysis of ATP (cf. EC 5.6.2.1 DNA topoisomeras
+Something went wrong: list index out of range for 5.6.2.2
+ATP + H2O + Cd2+[side 1] = ADP + phosphate + Cd2+[side 2]\nSUBSTRATE   ATP [CPD:C00002];\n            H2O [CPD:C00001];\n            Cd2+[side 1]\nPRODUCT     ADP [CPD:C00008];\n            phosphate [CPD:C00009];\n            Cd2+[side 2]\nCOMMENT     A P-type ATPase that undergoes covalent phospho
+Substrates: ['ATP', 'H2O', 'Cd2+[side 1]']
+Products: ['ADP', 'phosphate', 'Cd2+[side 2]']
+ATP-independent breakage of single-stranded DNA, followed by passage and rejoining\nCOMMENT     These enzymes bring about the conversion of one topological isomer of DNA into another, e.g., the relaxation of superhelical turns in DNA, the interconversion of simple and knotted rings of single-strande
+Something went wrong: list index out of range for 5.6.2.1
+2-phospho-D-glycerate = 3-phospho-D-glycerate (overall reaction) [RN:R01518];\n            (1a) [enzyme]-L-histidine + 2,3-bisphospho-D-glycerate = [enzyme]-Ntau-phospho-L-histidine + 2/3-phospho-D-glycerate [RN:R01516];\n            (1b) [enzyme]-Ntau-phospho-L-histidine + 2-phospho-D-glycerate = [
+Substrates: ['2-phospho-D-glycerate']
+Products: ['3-phospho-D-glycerate (overall reaction)']
+2-phospho-D-glycerate = 3-phospho-D-glycerate [RN:R01518]\nALL_REAC    R01518\nSUBSTRATE   2-phospho-D-glycerate [CPD:C00631]\nPRODUCT     3-phospho-D-glycerate [CPD:C00197]\nCOMMENT     The enzymes from higher plants, algae, some fungi, nematodes, sponges, coelenterates, myriapods, arachnids, echin
+Substrates: ['2-phospho-D-glycerate']
+Products: ['3-phospho-D-glycerate']
+nicotinate + 5-phospho-alpha-D-ribose 1-diphosphate + ATP + H2O = beta-nicotinate D-ribonucleotide + diphosphate + ADP + phosphate [RN:R01724]\nALL_REAC    R01724\nSUBSTRATE   nicotinate [CPD:C00253];\n            5-phospho-alpha-D-ribose 1-diphosphate [CPD:C00119];\n            ATP [CPD:C00002];\n 
+Substrates: ['nicotinate', '5-phospho-alpha-D-ribose 1-diphosphate', 'ATP', 'H2O']
+Products: ['beta-nicotinate D-ribonucleotide', 'diphosphate', 'ADP', 'phosphate']
+Request sent: https://rest.kegg.jp/get/ec:1.17.4.1
+Request sent: https://rest.kegg.jp/get/ec:2.1.1.31
+Request sent: https://rest.kegg.jp/get/ec:3.1.26.8
+Request sent: https://rest.kegg.jp/get/ec:2.1.1.182
+Request sent: https://rest.kegg.jp/get/ec:3.1.26.3
+Request sent: https://rest.kegg.jp/get/ec:2.7.6.5
+Request sent: https://rest.kegg.jp/get/ec:1.8.1.9
+Request sent: https://rest.kegg.jp/get/ec:2.1.2.9
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.7
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.19
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.12
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.22
+Request sent: https://rest.kegg.jp/get/ec:6.3.5.6
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.16
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.17
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.14
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.21
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.5
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.4
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.6
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.10
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.20
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.15
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.11
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.3
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.2
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.1
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.9
+Request sent: https://rest.kegg.jp/get/ec:2.7.3.9
+Request sent: https://rest.kegg.jp/get/ec:4.2.1.19
+Request sent: https://rest.kegg.jp/get/ec:1.5.1.34
+Request sent: https://rest.kegg.jp/get/ec:2.7.7.41
+Request sent: https://rest.kegg.jp/get/ec:2.7.4.25
+Request sent: https://rest.kegg.jp/get/ec:3.6.4.13
+Request sent: https://rest.kegg.jp/get/ec:3.4.11.1
+Request sent: https://rest.kegg.jp/get/ec:2.1.1.223
+Request sent: https://rest.kegg.jp/get/ec:5.1.3.9
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.60
+Request sent: https://rest.kegg.jp/get/ec:2.3.1.51
+Request sent: https://rest.kegg.jp/get/ec:2.7.8.7
+Request sent: https://rest.kegg.jp/get/ec:3.5.4.12
+Request sent: https://rest.kegg.jp/get/ec:2.7.4.9
+Request sent: https://rest.kegg.jp/get/ec:2.1.1.207
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.25
+Request sent: https://rest.kegg.jp/get/ec:3.2.2.23
+Request sent: https://rest.kegg.jp/get/ec:6.5.1.2
+Request sent: https://rest.kegg.jp/get/ec:3.5.99.6
+Request sent: https://rest.kegg.jp/get/ec:5.4.2.2
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.69
+Request sent: https://rest.kegg.jp/get/ec:3.6.3.14
+Request sent: https://rest.kegg.jp/get/ec:2.4.2.9
+Request sent: https://rest.kegg.jp/get/ec:5.1.3.2
+Request sent: https://rest.kegg.jp/get/ec:5.4.99.9
+Request sent: https://rest.kegg.jp/get/ec:3.6.4.12
+Request sent: https://rest.kegg.jp/get/ec:2.1.1.185
+Request sent: https://rest.kegg.jp/get/ec:2.7.8.5
+Request sent: https://rest.kegg.jp/get/ec:1.8.1.14
+Request sent: https://rest.kegg.jp/get/ec:2.7.7.9
+Request sent: https://rest.kegg.jp/get/ec:3.1.5.1
+Request sent: https://rest.kegg.jp/get/ec:6.3.4.2
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.21
+Request sent: https://rest.kegg.jp/get/ec:2.7.8.41
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.30
+Response: https://rest.kegg.jp/get/ec:2.1.1.31
+Response: https://rest.kegg.jp/get/ec:3.6.4.12
+Response: https://rest.kegg.jp/get/ec:3.6.3.14
+Response: https://rest.kegg.jp/get/ec:1.8.1.14
+Response: https://rest.kegg.jp/get/ec:2.7.1.69
+Response: https://rest.kegg.jp/get/ec:3.1.26.8
+Response: https://rest.kegg.jp/get/ec:1.5.1.34
+Response: https://rest.kegg.jp/get/ec:2.7.1.60
+Response: https://rest.kegg.jp/get/ec:2.1.1.223
+Response: https://rest.kegg.jp/get/ec:5.1.3.9
+Response: https://rest.kegg.jp/get/ec:5.4.99.9
+Response: https://rest.kegg.jp/get/ec:3.5.4.12
+Response: https://rest.kegg.jp/get/ec:2.7.8.41
+Response: https://rest.kegg.jp/get/ec:3.5.99.6
+Response: https://rest.kegg.jp/get/ec:6.1.1.22
+Response: https://rest.kegg.jp/get/ec:3.1.5.1
+Response: https://rest.kegg.jp/get/ec:2.7.1.21
+Response: https://rest.kegg.jp/get/ec:2.7.8.7
+Response: https://rest.kegg.jp/get/ec:3.2.2.23
+Response: https://rest.kegg.jp/get/ec:2.1.1.207
+Response: https://rest.kegg.jp/get/ec:2.7.4.25
+Response: https://rest.kegg.jp/get/ec:2.7.3.9
+Response: https://rest.kegg.jp/get/ec:3.4.11.1
+Response: https://rest.kegg.jp/get/ec:4.2.1.19
+Response: https://rest.kegg.jp/get/ec:2.7.8.5
+Response: https://rest.kegg.jp/get/ec:3.1.26.3
+Response: https://rest.kegg.jp/get/ec:2.1.1.182
+Response: https://rest.kegg.jp/get/ec:6.1.1.17
+Response: https://rest.kegg.jp/get/ec:6.5.1.2
+Response: https://rest.kegg.jp/get/ec:5.4.2.2
+Response: https://rest.kegg.jp/get/ec:2.7.4.9
+Response: https://rest.kegg.jp/get/ec:6.1.1.12
+Response: https://rest.kegg.jp/get/ec:2.7.7.9
+Response: https://rest.kegg.jp/get/ec:6.3.4.2
+Response: https://rest.kegg.jp/get/ec:2.7.1.30
+Response: https://rest.kegg.jp/get/ec:2.7.1.25
+Response: https://rest.kegg.jp/get/ec:2.1.2.9
+Response: https://rest.kegg.jp/get/ec:6.1.1.9
+Response: https://rest.kegg.jp/get/ec:6.1.1.2
+Response: https://rest.kegg.jp/get/ec:6.1.1.21
+Response: https://rest.kegg.jp/get/ec:2.7.7.41
+Response: https://rest.kegg.jp/get/ec:2.7.6.5
+Response: https://rest.kegg.jp/get/ec:6.1.1.3
+Response: https://rest.kegg.jp/get/ec:6.1.1.10
+Response: https://rest.kegg.jp/get/ec:6.1.1.1
+Response: https://rest.kegg.jp/get/ec:6.1.1.4
+Response: https://rest.kegg.jp/get/ec:2.4.2.9
+Response: https://rest.kegg.jp/get/ec:6.1.1.5
+Response: https://rest.kegg.jp/get/ec:6.1.1.6
+Response: https://rest.kegg.jp/get/ec:6.1.1.7
+Response: https://rest.kegg.jp/get/ec:5.1.3.2
+Response: https://rest.kegg.jp/get/ec:6.1.1.14
+Response: https://rest.kegg.jp/get/ec:1.8.1.9
+Response: https://rest.kegg.jp/get/ec:6.1.1.11
+Response: https://rest.kegg.jp/get/ec:1.17.4.1
+Response: https://rest.kegg.jp/get/ec:6.1.1.16
+Response: https://rest.kegg.jp/get/ec:2.1.1.185
+Response: https://rest.kegg.jp/get/ec:6.3.5.6
+Response: https://rest.kegg.jp/get/ec:6.1.1.15
+Response: https://rest.kegg.jp/get/ec:2.3.1.51
+Response: https://rest.kegg.jp/get/ec:6.1.1.19
+Response: https://rest.kegg.jp/get/ec:6.1.1.20
+Response: https://rest.kegg.jp/get/ec:3.6.4.13
+Took 12.92 seconds for all requests
+Transferred entry for https://rest.kegg.jp/get/ec:2.1.1.31, sending it through to next batch
+Transferred entry for https://rest.kegg.jp/get/ec:2.7.1.69, sending it through to next batch
+Transferred entry for https://rest.kegg.jp/get/ec:3.6.3.14, sending it through to next batch
+Transferred entry for https://rest.kegg.jp/get/ec:3.6.4.12, sending it through to next batch
+Removing entry from results: https://rest.kegg.jp/get/ec:2.1.1.31
+Removing entry from results: https://rest.kegg.jp/get/ec:2.7.1.69
+Removing entry from results: https://rest.kegg.jp/get/ec:3.6.3.14
+Removing entry from results: https://rest.kegg.jp/get/ec:3.6.4.12
+Adding these ecs to enzyme_list: ['2.1.1.221', '2.1.1.228', '2.7.1.191', '2.7.1.192', '2.7.1.193', '2.7.1.194', '2.7.1.195', '2.7.1.196', '2.7.1.197', '2.7.1.198', '2.7.1.199', '2.7.1.200', '2.7.1.201', '2.7.1.202', '2.7.1.203', '2.7.1.204', '2.7.1.205', '2.7.1.206', '2.7.1.207', '2.7.1.208', '7.1.2.2', '5.6.2.3', '5.6.2.4']
+Added the ecs
+Request sent: https://rest.kegg.jp/get/ec:2.1.1.221
+Request sent: https://rest.kegg.jp/get/ec:2.1.1.228
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.191
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.192
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.193
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.194
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.195
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.196
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.197
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.198
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.199
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.200
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.201
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.202
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.203
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.204
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.205
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.206
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.207
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.208
+Request sent: https://rest.kegg.jp/get/ec:7.1.2.2
+Request sent: https://rest.kegg.jp/get/ec:5.6.2.3
+Request sent: https://rest.kegg.jp/get/ec:5.6.2.4
+Response: https://rest.kegg.jp/get/ec:2.7.1.195
+Response: https://rest.kegg.jp/get/ec:2.7.1.192
+Response: https://rest.kegg.jp/get/ec:2.7.1.203
+Response: https://rest.kegg.jp/get/ec:2.7.1.206
+Response: https://rest.kegg.jp/get/ec:2.7.1.204
+Response: https://rest.kegg.jp/get/ec:2.7.1.207
+Response: https://rest.kegg.jp/get/ec:2.7.1.193
+Response: https://rest.kegg.jp/get/ec:2.1.1.221
+Response: https://rest.kegg.jp/get/ec:2.7.1.200
+Response: https://rest.kegg.jp/get/ec:2.7.1.197
+Response: https://rest.kegg.jp/get/ec:2.7.1.201
+Response: https://rest.kegg.jp/get/ec:2.7.1.208
+Response: https://rest.kegg.jp/get/ec:2.7.1.198
+Response: https://rest.kegg.jp/get/ec:2.7.1.191
+Response: https://rest.kegg.jp/get/ec:2.7.1.196
+Response: https://rest.kegg.jp/get/ec:2.7.1.194
+Response: https://rest.kegg.jp/get/ec:2.7.1.199
+Response: https://rest.kegg.jp/get/ec:2.7.1.205
+Response: https://rest.kegg.jp/get/ec:2.7.1.202
+Response: https://rest.kegg.jp/get/ec:7.1.2.2
+Response: https://rest.kegg.jp/get/ec:5.6.2.3
+Response: https://rest.kegg.jp/get/ec:2.1.1.228
+Response: https://rest.kegg.jp/get/ec:5.6.2.4
+Took 19.24 seconds for all requests
+https://rest.kegg.jp/get/ec:1.17.4.1  : 200
+https://rest.kegg.jp/get/ec:3.1.26.8  : 200
+https://rest.kegg.jp/get/ec:2.1.1.182 : 200
+https://rest.kegg.jp/get/ec:3.1.26.3  : 200
+https://rest.kegg.jp/get/ec:2.7.6.5   : 200
+https://rest.kegg.jp/get/ec:1.8.1.9   : 200
+https://rest.kegg.jp/get/ec:2.1.2.9   : 200
+https://rest.kegg.jp/get/ec:6.1.1.7   : 200
+https://rest.kegg.jp/get/ec:6.1.1.19  : 200
+https://rest.kegg.jp/get/ec:6.1.1.12  : 200
+https://rest.kegg.jp/get/ec:6.1.1.22  : 200
+https://rest.kegg.jp/get/ec:6.3.5.6   : 200
+https://rest.kegg.jp/get/ec:6.1.1.16  : 200
+https://rest.kegg.jp/get/ec:6.1.1.17  : 200
+https://rest.kegg.jp/get/ec:6.1.1.14  : 200
+https://rest.kegg.jp/get/ec:6.1.1.21  : 200
+https://rest.kegg.jp/get/ec:6.1.1.5   : 200
+https://rest.kegg.jp/get/ec:6.1.1.4   : 200
+https://rest.kegg.jp/get/ec:6.1.1.6   : 200
+https://rest.kegg.jp/get/ec:6.1.1.10  : 200
+https://rest.kegg.jp/get/ec:6.1.1.20  : 200
+https://rest.kegg.jp/get/ec:6.1.1.15  : 200
+https://rest.kegg.jp/get/ec:6.1.1.11  : 200
+https://rest.kegg.jp/get/ec:6.1.1.3   : 200
+https://rest.kegg.jp/get/ec:6.1.1.2   : 200
+https://rest.kegg.jp/get/ec:6.1.1.1   : 200
+https://rest.kegg.jp/get/ec:6.1.1.9   : 200
+https://rest.kegg.jp/get/ec:2.7.3.9   : 200
+https://rest.kegg.jp/get/ec:4.2.1.19  : 200
+https://rest.kegg.jp/get/ec:1.5.1.34  : 200
+https://rest.kegg.jp/get/ec:2.7.7.41  : 200
+https://rest.kegg.jp/get/ec:2.7.4.25  : 200
+https://rest.kegg.jp/get/ec:3.6.4.13  : 200
+https://rest.kegg.jp/get/ec:3.4.11.1  : 200
+https://rest.kegg.jp/get/ec:2.1.1.223 : 200
+https://rest.kegg.jp/get/ec:5.1.3.9   : 200
+https://rest.kegg.jp/get/ec:2.7.1.60  : 200
+https://rest.kegg.jp/get/ec:2.3.1.51  : 200
+https://rest.kegg.jp/get/ec:2.7.8.7   : 200
+https://rest.kegg.jp/get/ec:3.5.4.12  : 200
+https://rest.kegg.jp/get/ec:2.7.4.9   : 200
+https://rest.kegg.jp/get/ec:2.1.1.207 : 200
+https://rest.kegg.jp/get/ec:2.7.1.25  : 200
+https://rest.kegg.jp/get/ec:3.2.2.23  : 200
+https://rest.kegg.jp/get/ec:6.5.1.2   : 200
+https://rest.kegg.jp/get/ec:3.5.99.6  : 200
+https://rest.kegg.jp/get/ec:5.4.2.2   : 200
+https://rest.kegg.jp/get/ec:2.4.2.9   : 200
+https://rest.kegg.jp/get/ec:5.1.3.2   : 200
+https://rest.kegg.jp/get/ec:5.4.99.9  : 200
+https://rest.kegg.jp/get/ec:2.1.1.185 : 200
+https://rest.kegg.jp/get/ec:2.7.8.5   : 200
+https://rest.kegg.jp/get/ec:1.8.1.14  : 200
+https://rest.kegg.jp/get/ec:2.7.7.9   : 200
+https://rest.kegg.jp/get/ec:3.1.5.1   : 200
+https://rest.kegg.jp/get/ec:6.3.4.2   : 200
+https://rest.kegg.jp/get/ec:2.7.1.21  : 200
+https://rest.kegg.jp/get/ec:2.7.8.41  : 200
+https://rest.kegg.jp/get/ec:2.7.1.30  : 200
+https://rest.kegg.jp/get/ec:2.1.1.221 : 200
+https://rest.kegg.jp/get/ec:2.1.1.228 : 200
+https://rest.kegg.jp/get/ec:2.7.1.191 : 200
+https://rest.kegg.jp/get/ec:2.7.1.192 : 200
+https://rest.kegg.jp/get/ec:2.7.1.193 : 200
+https://rest.kegg.jp/get/ec:2.7.1.194 : 200
+https://rest.kegg.jp/get/ec:2.7.1.195 : 200
+https://rest.kegg.jp/get/ec:2.7.1.196 : 200
+https://rest.kegg.jp/get/ec:2.7.1.197 : 200
+https://rest.kegg.jp/get/ec:2.7.1.198 : 200
+https://rest.kegg.jp/get/ec:2.7.1.199 : 200
+https://rest.kegg.jp/get/ec:2.7.1.200 : 200
+https://rest.kegg.jp/get/ec:2.7.1.201 : 200
+https://rest.kegg.jp/get/ec:2.7.1.202 : 200
+https://rest.kegg.jp/get/ec:2.7.1.203 : 200
+https://rest.kegg.jp/get/ec:2.7.1.204 : 200
+https://rest.kegg.jp/get/ec:2.7.1.205 : 200
+https://rest.kegg.jp/get/ec:2.7.1.206 : 200
+https://rest.kegg.jp/get/ec:2.7.1.207 : 200
+https://rest.kegg.jp/get/ec:2.7.1.208 : 200
+https://rest.kegg.jp/get/ec:7.1.2.2   : 200
+https://rest.kegg.jp/get/ec:5.6.2.3   : 200
+https://rest.kegg.jp/get/ec:5.6.2.4   : 200
+
+2'-deoxyribonucleoside 5'-diphosphate + thioredoxin disulfide + H2O = ribonucleoside 5'-diphosphate + thioredoxin [RN:R04294]\nALL_REAC    R04294 > R02017 R02018 R02019 R02024;\n            (other) R08363 R08364 R11893\nSUBSTRATE   2'-deoxyribonucleoside 5'-diphosphate [CPD:C04232];\n            thi
+Substrates: ["2'-deoxyribonucleoside 5'-diphosphate", 'thioredoxin disulfide', 'H2O']
+Products: ["ribonucleoside 5'-diphosphate", 'thioredoxin']
+Endonucleolytic cleavage of RNA, removing 21 and 42 nucleotides, respectively, from the 5'- and 3'-termini of a 5S-rRNA precursor\nCOMMENT     Converts the 5S-rRNA precursor from Bacillus subtilis into 5S-rRNA, with 5'-phosphate and 3'-hydroxy groups.\nHISTORY     EC 3.1.26.8 created 1986\nREFERENCE
+Something went wrong: list index out of range for 3.1.26.8
+4 S-adenosyl-L-methionine + adenine1518/adenine1519 in 16S rRNA = 4 S-adenosyl-L-homocysteine + N6-dimethyladenine1518/N6-dimethyladenine1519 in 16S rRNA\nALL_REAC    (other) R10716\nSUBSTRATE   S-adenosyl-L-methionine [CPD:C00019];\n            adenine1518/adenine1519 in 16S rRNA\nPRODUCT     S-ade
+Substrates: ['4 S-adenosyl-L-methionine', 'adenine1518/adenine1519 in 16S rRNA']
+Products: ['4 S-adenosyl-L-homocysteine', 'N6-dimethyladenine1518/N6-dimethyladenine1519 in 16S rRNA']
+Endonucleolytic cleavage to a 5'-phosphomonoester\nCOMMENT     This is an endoribonuclease that cleaves double-stranded RNA molecules [4]. The cleavage can be either a single-stranded nick or double-stranded break in the RNA, depending in part upon the degree of base-pairing in the region of the cle
+Something went wrong: list index out of range for 3.1.26.3
+ATP + GTP = AMP + guanosine 3'-diphosphate 5'-triphosphate [RN:R00429]\nALL_REAC    R00429\nSUBSTRATE   ATP [CPD:C00002];\n            GTP [CPD:C00044]\nPRODUCT     AMP [CPD:C00020];\n            guanosine 3'-diphosphate 5'-triphosphate [CPD:C04494]\nCOMMENT     GDP can also act as acceptor.\nHISTOR
+Substrates: ['ATP', 'GTP']
+Products: ['AMP', "guanosine 3'-diphosphate 5'-triphosphate"]
+thioredoxin + NADP+ = thioredoxin disulfide + NADPH + H+ [RN:R02016]\nALL_REAC    R02016;\n            (other) R00900 R03596 R09372\nSUBSTRATE   thioredoxin [CPD:C00342];\n            NADP+ [CPD:C00006]\nPRODUCT     thioredoxin disulfide [CPD:C00343];\n            NADPH [CPD:C00005];\n            H+
+Substrates: ['thioredoxin', 'NADP+']
+Products: ['thioredoxin disulfide', 'NADPH', 'H+']
+10-formyltetrahydrofolate + L-methionyl-tRNAfMet = tetrahydrofolate + N-formylmethionyl-tRNAfMet [RN:R03940]\nALL_REAC    R03940\nSUBSTRATE   10-formyltetrahydrofolate [CPD:C00234];\n            L-methionyl-tRNAfMet\nPRODUCT     tetrahydrofolate [CPD:C00101];\n            N-formylmethionyl-tRNAfMet\
+Substrates: ['10-formyltetrahydrofolate', 'L-methionyl-tRNAfMet']
+Products: ['tetrahydrofolate', 'N-formylmethionyl-tRNAfMet']
+ATP + L-alanine + tRNAAla = AMP + diphosphate + L-alanyl-tRNAAla [RN:R03038]\nALL_REAC    R03038\nSUBSTRATE   ATP [CPD:C00002];\n            L-alanine [CPD:C00041];\n            tRNA(Ala) [CPD:C01635]\nPRODUCT     AMP [CPD:C00020];\n            diphosphate [CPD:C00013];\n            L-alanyl-tRNA(Al
+Substrates: ['ATP', 'L-alanine', 'tRNAAla']
+Products: ['AMP', 'diphosphate', 'L-alanyl-tRNAAla']
+ATP + L-arginine + tRNAArg = AMP + diphosphate + L-arginyl-tRNAArg [RN:R03646]\nALL_REAC    R03646\nSUBSTRATE   ATP [CPD:C00002];\n            L-arginine [CPD:C00062];\n            tRNA(Arg) [CPD:C01636]\nPRODUCT     AMP [CPD:C00020];\n            diphosphate [CPD:C00013];\n            L-arginyl-tRN
+Substrates: ['ATP', 'L-arginine', 'tRNAArg']
+Products: ['AMP', 'diphosphate', 'L-arginyl-tRNAArg']
+ATP + L-aspartate + tRNAAsp = AMP + diphosphate + L-aspartyl-tRNAAsp [RN:R05577]\nALL_REAC    R05577\nSUBSTRATE   ATP [CPD:C00002];\n            L-aspartate [CPD:C00049];\n            tRNA(Asp) [CPD:C01638]\nPRODUCT     AMP [CPD:C00020];\n            diphosphate [CPD:C00013];\n            L-aspartyl
+Substrates: ['ATP', 'L-aspartate', 'tRNAAsp']
+Products: ['AMP', 'diphosphate', 'L-aspartyl-tRNAAsp']
+ATP + L-asparagine + tRNAAsn = AMP + diphosphate + L-asparaginyl-tRNAAsn [RN:R03648]\nALL_REAC    R03648\nSUBSTRATE   ATP [CPD:C00002];\n            L-asparagine [CPD:C00152];\n            tRNA(Asn) [CPD:C01637]\nPRODUCT     AMP [CPD:C00020];\n            diphosphate [CPD:C00013];\n            L-asp
+Substrates: ['ATP', 'L-asparagine', 'tRNAAsn']
+Products: ['AMP', 'diphosphate', 'L-asparaginyl-tRNAAsn']
+ATP + L-aspartyl-tRNAAsn + L-glutamine + H2O = ADP + phosphate + L-asparaginyl-tRNAAsn + L-glutamate [RN:R04212];\n            (1a) L-glutamine + H2O = L-glutamate + NH3;\n            (1b) ATP + L-aspartyl-tRNAAsn = ADP + 4-phosphooxy-L-aspartyl-tRNAAsn;\n            (1c) 4-phosphooxy-L-aspartyl-tRN
+Substrates: ['ATP', 'L-aspartyl-tRNAAsn', 'L-glutamine', 'H2O']
+Products: ['ADP', 'phosphate', 'L-asparaginyl-tRNAAsn', 'L-glutamate']
+ATP + L-cysteine + tRNACys = AMP + diphosphate + L-cysteinyl-tRNACys [RN:R03650]\nALL_REAC    R03650\nSUBSTRATE   ATP [CPD:C00002];\n            L-cysteine [CPD:C00097];\n            tRNA(Cys) [CPD:C01639]\nPRODUCT     AMP [CPD:C00020];\n            diphosphate [CPD:C00013];\n            L-cysteinyl
+Substrates: ['ATP', 'L-cysteine', 'tRNACys']
+Products: ['AMP', 'diphosphate', 'L-cysteinyl-tRNACys']
+ATP + L-glutamate + tRNAGlu = AMP + diphosphate + L-glutamyl-tRNAGlu [RN:R05578]\nALL_REAC    R05578\nSUBSTRATE   ATP [CPD:C00002];\n            L-glutamate [CPD:C00025];\n            tRNA(Glu) [CPD:C01641]\nPRODUCT     AMP [CPD:C00020];\n            diphosphate [CPD:C00013];\n            L-glutamyl
+Substrates: ['ATP', 'L-glutamate', 'tRNAGlu']
+Products: ['AMP', 'diphosphate', 'L-glutamyl-tRNAGlu']
+ATP + glycine + tRNAGly = AMP + diphosphate + glycyl-tRNAGly [RN:R03654]\nALL_REAC    R03654\nSUBSTRATE   ATP [CPD:C00002];\n            glycine [CPD:C00037];\n            tRNA(Gly) [CPD:C01642]\nPRODUCT     AMP [CPD:C00020];\n            diphosphate [CPD:C00013];\n            glycyl-tRNA(Gly) [CPD:
+Substrates: ['ATP', 'glycine', 'tRNAGly']
+Products: ['AMP', 'diphosphate', 'glycyl-tRNAGly']
+ATP + L-histidine + tRNAHis = AMP + diphosphate + L-histidyl-tRNAHis [RN:R03655]\nALL_REAC    R03655\nSUBSTRATE   ATP [CPD:C00002];\n            L-histidine [CPD:C00135];\n            tRNA(His) [CPD:C01643]\nPRODUCT     AMP [CPD:C00020];\n            diphosphate [CPD:C00013];\n            L-histidyl
+Substrates: ['ATP', 'L-histidine', 'tRNAHis']
+Products: ['AMP', 'diphosphate', 'L-histidyl-tRNAHis']
+ATP + L-isoleucine + tRNAIle = AMP + diphosphate + L-isoleucyl-tRNAIle [RN:R03656]\nALL_REAC    R03656\nSUBSTRATE   ATP [CPD:C00002];\n            L-isoleucine [CPD:C00407];\n            tRNA(Ile) [CPD:C01644]\nPRODUCT     AMP [CPD:C00020];\n            diphosphate [CPD:C00013];\n            L-isole
+Substrates: ['ATP', 'L-isoleucine', 'tRNAIle']
+Products: ['AMP', 'diphosphate', 'L-isoleucyl-tRNAIle']
+ATP + L-leucine + tRNALeu = AMP + diphosphate + L-leucyl-tRNALeu [RN:R03657]\nALL_REAC    R03657\nSUBSTRATE   ATP [CPD:C00002];\n            L-leucine [CPD:C00123];\n            tRNA(Leu) [CPD:C01645]\nPRODUCT     AMP [CPD:C00020];\n            diphosphate [CPD:C00013];\n            L-leucyl-tRNA(Le
+Substrates: ['ATP', 'L-leucine', 'tRNALeu']
+Products: ['AMP', 'diphosphate', 'L-leucyl-tRNALeu']
+ATP + L-lysine + tRNALys = AMP + diphosphate + L-lysyl-tRNALys [RN:R03658]\nALL_REAC    R03658\nSUBSTRATE   ATP [CPD:C00002];\n            L-lysine [CPD:C00047];\n            tRNA(Lys) [CPD:C01646]\nPRODUCT     AMP [CPD:C00020];\n            diphosphate [CPD:C00013];\n            L-lysyl-tRNA(Lys) [
+Substrates: ['ATP', 'L-lysine', 'tRNALys']
+Products: ['AMP', 'diphosphate', 'L-lysyl-tRNALys']
+ATP + L-methionine + tRNAMet = AMP + diphosphate + L-methionyl-tRNAMet [RN:R03659]\nALL_REAC    R03659;\n            (other) R04773\nSUBSTRATE   ATP [CPD:C00002];\n            L-methionine [CPD:C00073];\n            tRNA(Met) [CPD:C01647]\nPRODUCT     AMP [CPD:C00020];\n            diphosphate [CPD:
+Substrates: ['ATP', 'L-methionine', 'tRNAMet']
+Products: ['AMP', 'diphosphate', 'L-methionyl-tRNAMet']
+ATP + L-phenylalanine + tRNAPhe = AMP + diphosphate + L-phenylalanyl-tRNAPhe [RN:R03660]\nALL_REAC    R03660\nSUBSTRATE   ATP [CPD:C00002];\n            L-phenylalanine [CPD:C00079];\n            tRNA(Phe) [CPD:C01648]\nPRODUCT     AMP [CPD:C00020];\n            diphosphate [CPD:C00013];\n          
+Substrates: ['ATP', 'L-phenylalanine', 'tRNAPhe']
+Products: ['AMP', 'diphosphate', 'L-phenylalanyl-tRNAPhe']
+ATP + L-proline + tRNAPro = AMP + diphosphate + L-prolyl-tRNAPro [RN:R03661]\nALL_REAC    R03661\nSUBSTRATE   ATP [CPD:C00002];\n            L-proline [CPD:C00148];\n            tRNA(Pro) [CPD:C01649]\nPRODUCT     AMP [CPD:C00020];\n            diphosphate [CPD:C00013];\n            L-prolyl-tRNA(Pr
+Substrates: ['ATP', 'L-proline', 'tRNAPro']
+Products: ['AMP', 'diphosphate', 'L-prolyl-tRNAPro']
+ATP + L-serine + tRNASer = AMP + diphosphate + L-seryl-tRNASer [RN:R03662]\nALL_REAC    R03662;\n            (other) R08218\nSUBSTRATE   ATP [CPD:C00002];\n            L-serine [CPD:C00065];\n            tRNA(Ser) [CPD:C01650]\nPRODUCT     AMP [CPD:C00020];\n            diphosphate [CPD:C00013];\n  
+Substrates: ['ATP', 'L-serine', 'tRNASer']
+Products: ['AMP', 'diphosphate', 'L-seryl-tRNASer']
+ATP + L-threonine + tRNAThr = AMP + diphosphate + L-threonyl-tRNAThr [RN:R03663]\nALL_REAC    R03663\nSUBSTRATE   ATP [CPD:C00002];\n            L-threonine [CPD:C00188];\n            tRNA(Thr) [CPD:C01651]\nPRODUCT     AMP [CPD:C00020];\n            diphosphate [CPD:C00013];\n            L-threonyl
+Substrates: ['ATP', 'L-threonine', 'tRNAThr']
+Products: ['AMP', 'diphosphate', 'L-threonyl-tRNAThr']
+ATP + L-tryptophan + tRNATrp = AMP + diphosphate + L-tryptophyl-tRNATrp [RN:R03664]\nALL_REAC    R03664\nSUBSTRATE   ATP [CPD:C00002];\n            L-tryptophan [CPD:C00078];\n            tRNA(Trp) [CPD:C01652]\nPRODUCT     AMP [CPD:C00020];\n            diphosphate [CPD:C00013];\n            L-tryp
+Substrates: ['ATP', 'L-tryptophan', 'tRNATrp']
+Products: ['AMP', 'diphosphate', 'L-tryptophyl-tRNATrp']
+ATP + L-tyrosine + tRNATyr = AMP + diphosphate + L-tyrosyl-tRNATyr [RN:R02918]\nALL_REAC    R02918\nSUBSTRATE   ATP [CPD:C00002];\n            L-tyrosine [CPD:C00082];\n            tRNA(Tyr) [CPD:C00787]\nPRODUCT     AMP [CPD:C00020];\n            diphosphate [CPD:C00013];\n            L-tyrosyl-tRN
+Substrates: ['ATP', 'L-tyrosine', 'tRNATyr']
+Products: ['AMP', 'diphosphate', 'L-tyrosyl-tRNATyr']
+ATP + L-valine + tRNAVal = AMP + diphosphate + L-valyl-tRNAVal [RN:R03665]\nALL_REAC    R03665\nSUBSTRATE   ATP [CPD:C00002];\n            L-valine [CPD:C00183];\n            tRNA(Val) [CPD:C01653]\nPRODUCT     AMP [CPD:C00020];\n            diphosphate [CPD:C00013];\n            L-valyl-tRNA(Val) [
+Substrates: ['ATP', 'L-valine', 'tRNAVal']
+Products: ['AMP', 'diphosphate', 'L-valyl-tRNAVal']
+phosphoenolpyruvate + protein histidine = pyruvate + protein Npi-phospho-L-histidine [RN:R02628]\nALL_REAC    R02628\nSUBSTRATE   phosphoenolpyruvate [CPD:C00074];\n            protein histidine [CPD:C00615]\nPRODUCT     pyruvate [CPD:C00022];\n            protein Npi-phospho-L-histidine [CPD:C04261
+Substrates: ['phosphoenolpyruvate', 'protein histidine']
+Products: ['pyruvate', 'protein Npi-phospho-L-histidine']
+D-erythro-1-(imidazol-4-yl)glycerol 3-phosphate = 3-(imidazol-4-yl)-2-oxopropyl phosphate + H2O [RN:R03457]\nALL_REAC    R03457\nSUBSTRATE   D-erythro-1-(imidazol-4-yl)glycerol 3-phosphate [CPD:C04666]\nPRODUCT     3-(imidazol-4-yl)-2-oxopropyl phosphate [CPD:C01267];\n            H2O [CPD:C00001]\n
+Substrates: ['D-erythro-1-(imidazol-4-yl)glycerol 3-phosphate']
+Products: ['3-(imidazol-4-yl)-2-oxopropyl phosphate', 'H2O']
+a 5,6,7,8-tetrahydropteridine + NAD(P)+ = a 6,7-dihydropteridine + NAD(P)H + H+ [RN:R07354 R07355]\nALL_REAC    R07354 > R01793;\n            R07355 > R01794\nSUBSTRATE   5,6,7,8-tetrahydropteridine [CPD:C05650];\n            NAD+ [CPD:C00003];\n            NADP+ [CPD:C00006]\nPRODUCT     6,7-dihydr
+Substrates: ['a 5,6,7,8-tetrahydropteridine', 'NAD(P)+']
+Products: ['a 6,7-dihydropteridine', 'NAD(P)H', 'H+']
+CTP + phosphatidate = diphosphate + CDP-diacylglycerol [RN:R01799]\nALL_REAC    R01799\nSUBSTRATE   CTP [CPD:C00063];\n            phosphatidate [CPD:C00416]\nPRODUCT     diphosphate [CPD:C00013];\n            CDP-diacylglycerol [CPD:C00269]\nHISTORY     EC 2.7.7.41 created 1972\nREFERENCE   1  [PMI
+Substrates: ['CTP', 'phosphatidate']
+Products: ['diphosphate', 'CDP-diacylglycerol']
+ATP + (d)CMP = ADP + (d)CDP [RN:R00512 R01665]\nALL_REAC    R00512 R01665\nSUBSTRATE   ATP [CPD:C00002];\n            dCMP [CPD:C00239]\nPRODUCT     ADP [CPD:C00008];\n            dCDP [CPD:C00705]\nCOMMENT     The prokaryotic cytidine monophosphate kinase specifically phosphorylates CMP (or dCMP), 
+Substrates: ['ATP', '(d)CMP']
+Products: ['ADP', '(d)CDP']
+ATP + H2O = ADP + phosphate\nSUBSTRATE   ATP [CPD:C00002];\n            H2O [CPD:C00001]\nPRODUCT     ADP [CPD:C00008];\n            phosphate [CPD:C00009]\nCOMMENT     RNA helicases utilize the energy from ATP hydrolysis to unwind RNA. Some of them unwind RNA with a 3' to 5' polarity [3], other sho
+Substrates: ['ATP', 'H2O']
+Products: ['ADP', 'phosphate']
+Release of an N-terminal amino acid, Xaa!Yaa-, in which Xaa is preferably Leu, but may be other amino acids including Pro although not Arg or Lys, and Yaa may be Pro. Amino acid amides and methyl esters are also readily hydrolysed, but rates on arylamides are exceedingly low\nALL_REAC    (other) R00
+Something went wrong: list index out of range for 3.4.11.1
+S-adenosyl-L-methionine + adenine37 in tRNA1Val = S-adenosyl-L-homocysteine + N6-methyladenine37 in tRNA1Val\nSUBSTRATE   S-adenosyl-L-methionine [CPD:C00019];\n            adenine37 in tRNA1Val\nPRODUCT     S-adenosyl-L-homocysteine [CPD:C00021];\n            N6-methyladenine37 in tRNA1Val\nCOMMENT
+Substrates: ['S-adenosyl-L-methionine', 'adenine37 in tRNA1Val']
+Products: ['S-adenosyl-L-homocysteine', 'N6-methyladenine37 in tRNA1Val']
+N-acyl-D-glucosamine 6-phosphate = N-acyl-D-mannosamine 6-phosphate [RN:R02770]\nALL_REAC    R02770 > R02087\nSUBSTRATE   N-acyl-D-glucosamine 6-phosphate [CPD:C04136]\nPRODUCT     N-acyl-D-mannosamine 6-phosphate [CPD:C00686]\nHISTORY     EC 5.1.3.9 created 1972\nREFERENCE   1  [PMID:14285487]\n  A
+Substrates: ['N-acyl-D-glucosamine 6-phosphate']
+Products: ['N-acyl-D-mannosamine 6-phosphate']
+ATP + N-acyl-D-mannosamine = ADP + N-acyl-D-mannosamine 6-phosphate [RN:R02650]\nALL_REAC    R02650 > R02705\nSUBSTRATE   ATP [CPD:C00002];\n            N-acyl-D-mannosamine [CPD:C00625]\nPRODUCT     ADP [CPD:C00008];\n            N-acyl-D-mannosamine 6-phosphate [CPD:C00686]\nCOMMENT     Acts on th
+Substrates: ['ATP', 'N-acyl-D-mannosamine']
+Products: ['ADP', 'N-acyl-D-mannosamine 6-phosphate']
+acyl-CoA + 1-acyl-sn-glycerol 3-phosphate = CoA + 1,2-diacyl-sn-glycerol 3-phosphate [RN:R02241]\nALL_REAC    R02241 > R02760;\n            (other) R09381\nSUBSTRATE   acyl-CoA [CPD:C00040];\n            1-acyl-sn-glycerol 3-phosphate [CPD:C00681]\nPRODUCT     CoA [CPD:C00010];\n            1,2-diac
+Substrates: ['acyl-CoA', '1-acyl-sn-glycerol 3-phosphate']
+Products: ['CoA', '1,2-diacyl-sn-glycerol 3-phosphate']
+CoA-[4'-phosphopantetheine] + an apo-[acyl-carrier protein] = adenosine 3',5'-bisphosphate + an [acyl-carrier protein] [RN:R01625]\nALL_REAC    R01625\nSUBSTRATE   CoA-[4'-phosphopantetheine];\n            apo-[acyl-carrier protein]\nPRODUCT     adenosine 3',5'-bisphosphate [CPD:C00054];\n          
+Substrates: ["CoA-[4'-phosphopantetheine]", 'an apo-[acyl-carrier protein]']
+Products: ["adenosine 3',5'-bisphosphate", 'an [acyl-carrier protein]']
+dCMP + H2O = dUMP + NH3 [RN:R01663]\nALL_REAC    R01663\nSUBSTRATE   dCMP [CPD:C00239];\n            H2O [CPD:C00001]\nPRODUCT     dUMP [CPD:C00365];\n            NH3 [CPD:C00014]\nCOMMENT     Also acts on some 5-substituted dCMPs.\nHISTORY     EC 3.5.4.12 created 1965\nREFERENCE   1  [PMID:14442222
+Substrates: ['dCMP', 'H2O']
+Products: ['dUMP', 'NH3']
+ATP + dTMP = ADP + dTDP [RN:R02094]\nALL_REAC    R02094;\n            (other) R02098\nSUBSTRATE   ATP [CPD:C00002];\n            dTMP [CPD:C00364]\nPRODUCT     ADP [CPD:C00008];\n            dTDP [CPD:C00363]\nHISTORY     EC 2.7.4.9 created 1965\nREFERENCE   1  [PMID:14405566]\n  AUTHORS   HURWITZ J
+Substrates: ['ATP', 'dTMP']
+Products: ['ADP', 'dTDP']
+(1) S-adenosyl-L-methionine + cytidine34 in tRNA = S-adenosyl-L-homocysteine + 2'-O-methylcytidine34 in tRNA;\n            (2) S-adenosyl-L-methionine + 5-carboxymethylaminomethyluridine34 in tRNALeu = S-adenosyl-L-homocysteine + 5-carboxymethylaminomethyl-2'-O-methyluridine34 in tRNALeu\nSUBSTRATE 
+Substrates: ['(1) S-adenosyl-L-methionine', 'cytidine34 in tRNA']
+Products: ['S-adenosyl-L-homocysteine', "2'-O-methylcytidine34 in tRNA;"]
+ATP + adenylyl sulfate = ADP + 3\'-phosphoadenylyl sulfate [RN:R00509]\nALL_REAC    R00509;\n            (other) R04928\nSUBSTRATE   ATP [CPD:C00002];\n            adenylyl sulfate [CPD:C00224]\nPRODUCT     ADP [CPD:C00008];\n            3\'-phosphoadenylyl sulfate [CPD:C00053]\nCOMMENT     The huma
+Substrates: ['ATP', 'adenylyl sulfate']
+Products: ['ADP', "3\\'-phosphoadenylyl sulfate"]
+Hydrolysis of DNA containing ring-opened 7-methylguanine residues, releasing 2,6-diamino-4-hydroxy-5-(N-methyl)formamidopyrimidine\nCOMMENT     May play a significant role in processes leading to recovery from mutagenesis and/or cell death by alkylating agents. Also involved in the GO system respons
+Something went wrong: list index out of range for 3.2.2.23
+NAD + (deoxyribonucleotide)n-3'-hydroxyl + 5'-phospho-(deoxyribonucleotide)m = (deoxyribonucleotide)n+m + AMP + beta-nicotinamide D-nucleotide (overall reaction) [RN:R00382];\n            (1a) NAD + [DNA ligase]-L-lysine = [DNA ligase]-N6-(5'-adenylyl)-L-lysine + beta-nicotinamide D-nucleotide;\n   
+Substrates: ['NAD', "(deoxyribonucleotide)n-3'-hydroxyl", "5'-phospho-(deoxyribonucleotide)m"]
+Products: ['(deoxyribonucleotide)n+m', 'AMP', 'beta-nicotinamide D-nucleotide (overall reaction)']
+alpha-D-glucosamine 6-phosphate + H2O = D-fructose 6-phosphate + NH3 [RN:R00765]\nALL_REAC    R00765\nSUBSTRATE   alpha-D-glucosamine 6-phosphate;\n            H2O [CPD:C00001]\nPRODUCT     D-fructose 6-phosphate [CPD:C00085];\n            NH3 [CPD:C00014]\nCOMMENT     The enzyme uses ring opening a
+Substrates: ['alpha-D-glucosamine 6-phosphate', 'H2O']
+Products: ['D-fructose 6-phosphate', 'NH3']
+alpha-D-glucose 1-phosphate = D-glucose 6-phosphate [RN:R08639]\nALL_REAC    R08639 > R00959;\n            (other) R01057 R03319\nSUBSTRATE   alpha-D-glucose 1-phosphate [CPD:C00103]\nPRODUCT     D-glucose 6-phosphate [CPD:C00092]\nCOMMENT     Maximum activity is only obtained in the presence of alp
+Substrates: ['alpha-D-glucose 1-phosphate']
+Products: ['D-glucose 6-phosphate']
+UMP + diphosphate = uracil + 5-phospho-alpha-D-ribose 1-diphosphate [RN:R00966]\nALL_REAC    R00966\nSUBSTRATE   UMP [CPD:C00105];\n            diphosphate [CPD:C00013]\nPRODUCT     uracil [CPD:C00106];\n            5-phospho-alpha-D-ribose 1-diphosphate [CPD:C00119]\nHISTORY     EC 2.4.2.9 created 
+Substrates: ['UMP', 'diphosphate']
+Products: ['uracil', '5-phospho-alpha-D-ribose 1-diphosphate']
+UDP-alpha-D-glucose = UDP-alpha-D-galactose [RN:R00291]\nALL_REAC    R00291;\n            (other) R00418 R02984\nSUBSTRATE   UDP-alpha-D-glucose [CPD:C00029]\nPRODUCT     UDP-alpha-D-galactose [CPD:C00052]\nCOMMENT     Requires NAD+. Also acts on UDP-2-deoxyglucose.\nHISTORY     EC 5.1.3.2 created 1
+Substrates: ['UDP-alpha-D-glucose']
+Products: ['UDP-alpha-D-galactose']
+UDP-alpha-D-galactopyranose = UDP-alpha-D-galactofuranose [RN:R00505]\nALL_REAC    R00505;\n            (other) R09009\nSUBSTRATE   UDP-alpha-D-galactopyranose [CPD:C00052]\nPRODUCT     UDP-alpha-D-galactofuranose [CPD:C03733]\nCOMMENT     A flavoenzyme which generates UDP-alpha-D-glactofuranose req
+Substrates: ['UDP-alpha-D-galactopyranose']
+Products: ['UDP-alpha-D-galactofuranose']
+S-adenosyl-L-methionine + guanosine2251 in 23S rRNA = S-adenosyl-L-homocysteine + 2'-O-methylguanosine2251 in 23S rRNA\nSUBSTRATE   S-adenosyl-L-methionine [CPD:C00019];\n            guanosine2251 in 23S rRNA\nPRODUCT     S-adenosyl-L-homocysteine [CPD:C00021];\n            2'-O-methylguanosine2251 
+Substrates: ['S-adenosyl-L-methionine', 'guanosine2251 in 23S rRNA']
+Products: ['S-adenosyl-L-homocysteine', "2'-O-methylguanosine2251 in 23S rRNA"]
+CDP-diacylglycerol + sn-glycerol 3-phosphate = CMP + 1-(3-sn-phosphatidyl)-sn-glycerol 3-phosphate [RN:R01801]\nALL_REAC    R01801\nSUBSTRATE   CDP-diacylglycerol [CPD:C00269];\n            sn-glycerol 3-phosphate [CPD:C00093]\nPRODUCT     CMP [CPD:C00055];\n            1-(3-sn-phosphatidyl)-sn-glyc
+Substrates: ['CDP-diacylglycerol', 'sn-glycerol 3-phosphate']
+Products: ['CMP', '1-(3-sn-phosphatidyl)-sn-glycerol 3-phosphate']
+2 CoA + NADP+ = CoA-disulfide + NADPH + H+ [RN:R07175]\nALL_REAC    R07175\nSUBSTRATE   CoA [CPD:C00010];\n            NADP+ [CPD:C00006]\nPRODUCT     CoA-disulfide [CPD:C02015];\n            NADPH [CPD:C00005];\n            H+ [CPD:C00080]\nCOMMENT     A flavoprotein. Not identical with EC 1.8.1.6 
+Substrates: ['2 CoA', 'NADP+']
+Products: ['CoA-disulfide', 'NADPH', 'H+']
+UTP + alpha-D-glucose 1-phosphate = diphosphate + UDP-glucose [RN:R00289]\nALL_REAC    R00289\nSUBSTRATE   UTP [CPD:C00075];\n            alpha-D-glucose 1-phosphate [CPD:C00103]\nPRODUCT     diphosphate [CPD:C00013];\n            UDP-glucose [CPD:C00029]\nHISTORY     EC 2.7.7.9 created 1961\nREFERE
+Substrates: ['UTP', 'alpha-D-glucose 1-phosphate']
+Products: ['diphosphate', 'UDP-glucose']
+dGTP + H2O = deoxyguanosine + triphosphate [RN:R01856]\nALL_REAC    R01856\nSUBSTRATE   dGTP [CPD:C00286];\n            H2O [CPD:C00001]\nPRODUCT     deoxyguanosine [CPD:C00330];\n            triphosphate [CPD:C00536]\nCOMMENT     Also acts on GTP.\nHISTORY     EC 3.1.5.1 created 1961\nREFERENCE   1
+Substrates: ['dGTP', 'H2O']
+Products: ['deoxyguanosine', 'triphosphate']
+ATP + UTP + L-glutamine = ADP + phosphate + CTP + L-glutamate (overall reaction) [RN:R00573];\n            (1a) L-glutamine + H2O = L-glutamate + NH3 [RN:R00256];\n            (1b) ATP + UTP + NH3 = ADP + phosphate + CTP [RN:R00571]\nALL_REAC    R00256 R00571 R00573\nSUBSTRATE   ATP [CPD:C00002];\n 
+Substrates: ['ATP', 'UTP', 'L-glutamine']
+Products: ['ADP', 'phosphate', 'CTP', 'L-glutamate (overall reaction)']
+ATP + thymidine = ADP + dTMP [RN:R01567]\nALL_REAC    R01567;\n            (other) R02099 R08233\nSUBSTRATE   ATP [CPD:C00002];\n            thymidine [CPD:C00214]\nPRODUCT     ADP [CPD:C00008];\n            dTMP [CPD:C00364]\nCOMMENT     Deoxyuridine can also act as acceptor, and dGTP can act as a 
+Substrates: ['ATP', 'thymidine']
+Products: ['ADP', 'dTMP']
+a CDP-diacylglycerol + a phosphatidylglycerol = a cardiolipin + CMP [RN:R02030]\nALL_REAC    R02030\nSUBSTRATE   CDP-diacylglycerol [CPD:C00269];\n            phosphatidylglycerol [CPD:C00344]\nPRODUCT     cardiolipin [CPD:C05980];\n            CMP [CPD:C00055]\nCOMMENT     The eukaryotic enzyme is 
+Substrates: ['a CDP-diacylglycerol', 'a phosphatidylglycerol']
+Products: ['a cardiolipin', 'CMP']
+ATP + glycerol = ADP + sn-glycerol 3-phosphate [RN:R00847]\nALL_REAC    R00847\nSUBSTRATE   ATP [CPD:C00002];\n            glycerol [CPD:C00116]\nPRODUCT     ADP [CPD:C00008];\n            sn-glycerol 3-phosphate [CPD:C00093]\nCOMMENT     Glycerone and L-glyceraldehyde can act as acceptors; UTP (and
+Substrates: ['ATP', 'glycerol']
+Products: ['ADP', 'sn-glycerol 3-phosphate']
+S-adenosyl-L-methionine + guanine9 in tRNA = S-adenosyl-L-homocysteine + N1-methylguanine9 in tRNA\nSUBSTRATE   S-adenosyl-L-methionine [CPD:C00019];\n            guanine9 in tRNA\nPRODUCT     S-adenosyl-L-homocysteine [CPD:C00021];\n            N1-methylguanine9 in tRNA\nCOMMENT     The enzyme from
+Substrates: ['S-adenosyl-L-methionine', 'guanine9 in tRNA']
+Products: ['S-adenosyl-L-homocysteine', 'N1-methylguanine9 in tRNA']
+S-adenosyl-L-methionine + guanine37 in tRNA = S-adenosyl-L-homocysteine + N1-methylguanine37 in tRNA [RN:R00597]\nALL_REAC    R00597\nSUBSTRATE   S-adenosyl-L-methionine [CPD:C00019];\n            guanine37 in tRNA\nPRODUCT     S-adenosyl-L-homocysteine [CPD:C00021];\n            N1-methylguanine37 
+Substrates: ['S-adenosyl-L-methionine', 'guanine37 in tRNA']
+Products: ['S-adenosyl-L-homocysteine', 'N1-methylguanine37 in tRNA']
+[protein]-Npi-phospho-L-histidine + D-mannose[side 1] = [protein]-L-histidine + D-mannose 6-phosphate[side 2] [RN:R02630]\nALL_REAC    R02630\nSUBSTRATE   [protein]-Npi-phospho-L-histidine [CPD:C04261];\n            D-mannose[side 1] [CPD:C00159]\nPRODUCT     [protein]-L-histidine [CPD:C00615];\n   
+Substrates: ['[protein]-Npi-phospho-L-histidine', 'D-mannose[side 1]']
+Products: ['[protein]-L-histidine', 'D-mannose 6-phosphate[side 2]']
+[protein]-Npi-phospho-L-histidine + N-acetyl-D-muramate[side 1] = [protein]-L-histidine + N-acetyl-D-muramate 6-phosphate[side 2] [RN:R08559]\nALL_REAC    R08559\nSUBSTRATE   [protein]-Npi-phospho-L-histidine [CPD:C04261];\n            N-acetyl-D_muramate[side 1] [CPD:C02713]\nPRODUCT     [protein]-
+Substrates: ['[protein]-Npi-phospho-L-histidine', 'N-acetyl-D-muramate[side 1]']
+Products: ['[protein]-L-histidine', 'N-acetyl-D-muramate 6-phosphate[side 2]']
+[protein]-Npi-phospho-L-histidine + N-acetyl-D-glucosamine[side 1] = [protein]-L-histidine + N-acetyl-D-glucosamine 6-phosphate[side 2] [RN:R05199]\nALL_REAC    R05199\nSUBSTRATE   [protein]-Npi-phospho-L-histidine [CPD:C04261];\n            N-acetyl-D-glucosamine[side 1] [CPD:C00140]\nPRODUCT     [
+Substrates: ['[protein]-Npi-phospho-L-histidine', 'N-acetyl-D-glucosamine[side 1]']
+Products: ['[protein]-L-histidine', 'N-acetyl-D-glucosamine 6-phosphate[side 2]']
+[protein]-Npi-phospho-L-histidine + L-ascorbate[side 1] = [protein]-L-histidine + L-ascorbate 6-phosphate[side 2] [RN:R07671]\nALL_REAC    R07671\nSUBSTRATE   [protein]-Npi-phospho-L-histidine [CPD:C04261];\n            L-ascorbate[side 1] [CPD:C00072]\nPRODUCT     [protein]-L-histidine [CPD:C00615]
+Substrates: ['[protein]-Npi-phospho-L-histidine', 'L-ascorbate[side 1]']
+Products: ['[protein]-L-histidine', 'L-ascorbate 6-phosphate[side 2]']
+[protein]-Npi-phospho-L-histidine + 2-O-(alpha-D-mannopyranosyl)-D-glycerate [side 1] = [protein]-L-histidine + 2-O-(6-phospho-alpha-D-mannopyranosyl)-D-glycerate [side 2] [RN:R11169]\nALL_REAC    R11169\nSUBSTRATE   [protein]-Npi-phospho-L-histidine [CPD:C04261];\n            2-O-(alpha-D-mannopyra
+Substrates: ['[protein]-Npi-phospho-L-histidine', '2-O-(alpha-D-mannopyranosyl)-D-glycerate [side 1]']
+Products: ['[protein]-L-histidine', '2-O-(6-phospho-alpha-D-mannopyranosyl)-D-glycerate [side 2]']
+[protein]-Npi-phospho-L-histidine + N,N'-diacetylchitobiose[side 1] = [protein]-L-histidine + N,N'-diacetylchitobiose 6'-phosphate[side 2] [RN:R11170]\nALL_REAC    R11170\nSUBSTRATE   [protein]-Npi-phospho-L-histidine [CPD:C04261];\n            N,N'-diacetylchitobiose[side 1] [CPD:C01674]\nPRODUCT  
+Substrates: ['[protein]-Npi-phospho-L-histidine', "N,N'-diacetylchitobiose[side 1]"]
+Products: ['[protein]-L-histidine', "N,N'-diacetylchitobiose 6'-phosphate[side 2]"]
+[protein]-Npi-phospho-L-histidine + D-mannitol[side 1] = [protein]-L-histidine + D-mannitol 1-phosphate[side 2] [RN:R02704]\nALL_REAC    R02704\nSUBSTRATE   [protein]-Npi-phospho-L-histidine [CPD:C04261];\n            D-mannitol[side 1] [CPD:C00392]\nPRODUCT     [protein]-L-histidine [CPD:C00615];\n
+Substrates: ['[protein]-Npi-phospho-L-histidine', 'D-mannitol[side 1]']
+Products: ['[protein]-L-histidine', 'D-mannitol 1-phosphate[side 2]']
+[protein]-Npi-phospho-L-histidine + D-sorbitol[side 1] = [protein]-L-histidine + D-sorbitol 6-phosphate[side 2] [RN:R05820]\nALL_REAC    R05820\nSUBSTRATE   [protein]-Npi-phospho-L-histidine [CPD:C04261];\n            D-sorbitol[side 1] [CPD:C00794]\nPRODUCT     [protein]-L-histidine [CPD:C00615];\n
+Substrates: ['[protein]-Npi-phospho-L-histidine', 'D-sorbitol[side 1]']
+Products: ['[protein]-L-histidine', 'D-sorbitol 6-phosphate[side 2]']
+[protein]-Npi-phospho-L-histidine + D-glucose[side 1] = [protein]-L-histidine + D-glucose 6-phosphate[side 2]\nALL_REAC    (other) R02738\nSUBSTRATE   [protein]-Npi-phospho-L-histidine [CPD:C04261];\n            D-glucose[side 1] [CPD:C00031]\nPRODUCT     [protein]-L-histidine [CPD:C00615];\n       
+Substrates: ['[protein]-Npi-phospho-L-histidine', 'D-glucose[side 1]']
+Products: ['[protein]-L-histidine', 'D-glucose 6-phosphate[side 2]']
+[protein]-Npi-phospho-L-histidine + galactitol[side 1] = [protein]-L-histidine + galactitol 1-phosphate[side 2] [RN:R05570]\nALL_REAC    R05570\nSUBSTRATE   [protein]-Npi-phospho-L-histidine [CPD:C04261];\n            galactitol[side 1] [CPD:C01697]\nPRODUCT     [protein]-L-histidine [CPD:C00615];\n
+Substrates: ['[protein]-Npi-phospho-L-histidine', 'galactitol[side 1]']
+Products: ['[protein]-L-histidine', 'galactitol 1-phosphate[side 2]']
+[protein]-Npi-phospho-L-histidine + alpha,alpha-trehalose[side 1] = [protein]-L-histidine + alpha,alpha-trehalose 6-phosphate[side 2] [RN:R02780 R06229]\nALL_REAC    R02780 R06229(G)\nSUBSTRATE   [protein]-Npi-phospho-L-histidine [CPD:C04261];\n            alpha,alpha-trehalose[side 1][CPD:C01083]\n
+Substrates: ['[protein]-Npi-phospho-L-histidine', 'alpha,alpha-trehalose[side 1]']
+Products: ['[protein]-L-histidine', 'alpha,alpha-trehalose 6-phosphate[side 2]']
+[protein]-Npi-phospho-L-histidine + D-fructose[side 1] = [protein]-L-histidine + D-fructose 1-phosphate[side 2] [RN:R03232]\nALL_REAC    R03232\nSUBSTRATE   [protein]-Npi-phospho-L-histidine [CPD:C04261];\n            D-fructose[side 1] [CPD:C00095]\nPRODUCT     [protein]-L-histidine [CPD:C00615];\n
+Substrates: ['[protein]-Npi-phospho-L-histidine', 'D-fructose[side 1]']
+Products: ['[protein]-L-histidine', 'D-fructose 1-phosphate[side 2]']
+[protein]-Npi-phospho-L-histidine + 2-amino-2-deoxy-D-gluconate[side 1] = [protein]-L-histidine + 2-amino-2-deoxy-D-gluconate 6-phosphate[side 2] [RN:R10407]\nALL_REAC    R10407\nSUBSTRATE   [protein]-Npi-phospho-L-histidine [CPD:C04261];\n            2-amino-2-deoxy-D-gluconate[side 1] [CPD:C03752]
+Substrates: ['[protein]-Npi-phospho-L-histidine', '2-amino-2-deoxy-D-gluconate[side 1]']
+Products: ['[protein]-L-histidine', '2-amino-2-deoxy-D-gluconate 6-phosphate[side 2]']
+[protein]-Npi-phospho-L-histidine + D-galactose[side 1] = [protein]-L-histidine + D-galactose 6-phosphate[side 2] [RN:R11171]\nALL_REAC    R11171\nSUBSTRATE   [protein]-Npi-phospho-L-histidine [CPD:C04261];\n            D-galactose[side 1] [CPD:C00124]\nPRODUCT     [protein]-L-histidine [CPD:C00615]
+Substrates: ['[protein]-Npi-phospho-L-histidine', 'D-galactose[side 1]']
+Products: ['[protein]-L-histidine', 'D-galactose 6-phosphate[side 2]']
+[protein]-Npi-phospho-L-histidine + cellobiose[side 1] = [protein]-L-histidine + 6-phospho-beta-D-glucosyl-(1->4)-D-glucose[side 2] [RN:R11172]\nALL_REAC    R11172\nSUBSTRATE   [protein]-Npi-phospho-L-histidine [CPD:C04261];\n            cellobiose[side 1] [CPD:C00185]\nPRODUCT     [protein]-L-histi
+Substrates: ['[protein]-Npi-phospho-L-histidine', 'cellobiose[side 1]']
+Products: ['[protein]-L-histidine', '6-phospho-beta-D-glucosyl-(1->4)-D-glucose[side 2]']
+[protein]-Npi-phospho-L-histidine + L-sorbose[side 1] = [protein]-L-histidine + L-sorbose 1-phosphate[side 2] [RN:R04076]\nALL_REAC    R04076\nSUBSTRATE   [protein]-Npi-phospho-L-histidine [CPD:C04261];\n            L-sorbose[side 1] [CPD:C00247]\nPRODUCT     [protein]-L-histidine [CPD:C00615];\n   
+Substrates: ['[protein]-Npi-phospho-L-histidine', 'L-sorbose[side 1]']
+Products: ['[protein]-L-histidine', 'L-sorbose 1-phosphate[side 2]']
+[protein]-Npi-phospho-L-histidine + lactose[side 1] = [protein]-L-histidine + lactose 6'-phosphate[side 2] [RN:R04393 R06237]\nALL_REAC    R04393 R06237(G)\nSUBSTRATE   [protein]-Npi-phospho-L-histidine;\n            lactose[side 1]\nPRODUCT     [protein]-L-histidine [CPD:C00615];\n            lacto
+Substrates: ['[protein]-Npi-phospho-L-histidine', 'lactose[side 1]']
+Products: ['[protein]-L-histidine', "lactose 6'-phosphate[side 2]"]
+[protein]-Npi-phospho-L-histidine + maltose[side 1] = [protein]-L-histidine + maltose 6'-phosphate[side 2] [RN:R04111 R06236]\nALL_REAC    R04111 R06236(G)\nSUBSTRATE   [protein]-Npi-phospho-L-histidine [CPD:C04261];\n            maltose[side 1] [CPD:C00208]\nPRODUCT     [protein]-L-histidine [CPD:C
+Substrates: ['[protein]-Npi-phospho-L-histidine', 'maltose[side 1]']
+Products: ['[protein]-L-histidine', "maltose 6'-phosphate[side 2]"]
+ATP + H2O + 4 H+[side 1] = ADP + phosphate + 4 H+[side 2]\nSUBSTRATE   ATP [CPD:C00002];\n            H2O [CPD:C00001];\n            H+[side 1]\nPRODUCT     ADP [CPD:C00008];\n            phosphate [CPD:C00009];\n            H+[side 2]\nCOMMENT     A multisubunit non-phosphorylated ATPase that is in
+Substrates: ['ATP', 'H2O', '4 H+[side 1]']
+Products: ['ADP', 'phosphate', '4 H+[side 2]']
+Couples ATP hydrolysis with the unwinding of duplex DNA at the replication fork by translocating in the 5'-3' direction. This creates two antiparallel DNA single strands (ssDNA). The leading ssDNA polymer is the template for DNA polymerase III holoenzyme which synthesizes a continuous strand.\nCOMME
+Something went wrong: list index out of range for 5.6.2.3
+Couples ATP hydrolysis with the unwinding of duplex DNA by translocating in the 3'-5' direction.\nCOMMENT     Helicases are motor proteins that can transiently catalyse the unwinding of energetically stable duplex DNA or RNA molecules by using ATP hydrolysis as the source of energy (although other n
+Something went wrong: list index out of range for 5.6.2.4
+
+Writing metabolites to graph
+Writing enzyme 0
+Did not find metabolite yet, creating id 2000 (len: 0)
+Did not find metabolite yet, creating id 2001 (len: 0)
+Did not find metabolite yet, creating id 2002 (len: 0)
+Did not find metabolite yet, creating id 2003 (len: 0)
+Did not find metabolite yet, creating id 2004 (len: 0)
+
+Writing metabolites to graph
+Writing enzyme 1
+Did not find metabolite yet, creating id 2005 (len: 5)
+Did not find metabolite yet, creating id 2006 (len: 5)
+Did not find metabolite yet, creating id 2007 (len: 5)
+Did not find metabolite yet, creating id 2008 (len: 5)
+Did not find metabolite yet, creating id 2009 (len: 5)
+
+Writing metabolites to graph
+Writing enzyme 2
+Found metabolite already, has id 2005
+Did not find metabolite yet, creating id 2010 (len: 10)
+Found metabolite already, has id 2004
+Did not find metabolite yet, creating id 2011 (len: 10)
+Did not find metabolite yet, creating id 2012 (len: 10)
+
+Writing metabolites to graph
+Writing enzyme 3
+Did not find metabolite yet, creating id 2013 (len: 13)
+Did not find metabolite yet, creating id 2014 (len: 13)
+Did not find metabolite yet, creating id 2015 (len: 13)
+Did not find metabolite yet, creating id 2016 (len: 13)
+
+Writing metabolites to graph
+Writing enzyme 4
+Did not find metabolite yet, creating id 2017 (len: 17)
+Found metabolite already, has id 2007
+Did not find metabolite yet, creating id 2018 (len: 17)
+Did not find metabolite yet, creating id 2019 (len: 17)
+
+Writing metabolites to graph
+Writing enzyme 5
+Did not find metabolite yet, creating id 2020 (len: 20)
+Found metabolite already, has id 2003
+Did not find metabolite yet, creating id 2021 (len: 20)
+Did not find metabolite yet, creating id 2022 (len: 20)
+
+Writing metabolites to graph
+Writing enzyme 6
+Did not find metabolite yet, creating id 2023 (len: 23)
+Did not find metabolite yet, creating id 2024 (len: 23)
+Did not find metabolite yet, creating id 2025 (len: 23)
+Did not find metabolite yet, creating id 2026 (len: 23)
+
+Writing metabolites to graph
+Writing enzyme 7
+Did not find metabolite yet, creating id 2027 (len: 27)
+Found metabolite already, has id 2007
+Did not find metabolite yet, creating id 2028 (len: 27)
+Did not find metabolite yet, creating id 2029 (len: 27)
+
+Writing metabolites to graph
+Writing enzyme 8
+Did not find metabolite yet, creating id 2030 (len: 30)
+Did not find metabolite yet, creating id 2031 (len: 30)
+Did not find metabolite yet, creating id 2032 (len: 30)
+Found metabolite already, has id 2007
+
+Writing metabolites to graph
+Writing enzyme 9
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2033 (len: 33)
+Found metabolite already, has id 2002
+Did not find metabolite yet, creating id 2034 (len: 33)
+
+Writing metabolites to graph
+Writing enzyme 11
+Did not find metabolite yet, creating id 2035 (len: 35)
+Did not find metabolite yet, creating id 2036 (len: 35)
+Did not find metabolite yet, creating id 2037 (len: 35)
+Did not find metabolite yet, creating id 2038 (len: 35)
+
+Writing metabolites to graph
+Writing enzyme 12
+Did not find metabolite yet, creating id 2039 (len: 39)
+Did not find metabolite yet, creating id 2040 (len: 39)
+Did not find metabolite yet, creating id 2041 (len: 39)
+Did not find metabolite yet, creating id 2042 (len: 39)
+
+Writing metabolites to graph
+Writing enzyme 16
+Did not find metabolite yet, creating id 2043 (len: 43)
+Found metabolite already, has id 2037
+Did not find metabolite yet, creating id 2044 (len: 43)
+Did not find metabolite yet, creating id 2045 (len: 43)
+
+Writing metabolites to graph
+Writing enzyme 17
+Did not find metabolite yet, creating id 2046 (len: 46)
+Found metabolite already, has id 2007
+Did not find metabolite yet, creating id 2047 (len: 46)
+Did not find metabolite yet, creating id 2048 (len: 46)
+
+Writing metabolites to graph
+Writing enzyme 18
+Did not find metabolite yet, creating id 2049 (len: 49)
+Did not find metabolite yet, creating id 2050 (len: 49)
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2051 (len: 49)
+Did not find metabolite yet, creating id 2052 (len: 49)
+Found metabolite already, has id 2037
+Found metabolite already, has id 2007
+
+Writing metabolites to graph
+Writing enzyme 20
+Did not find metabolite yet, creating id 2053 (len: 53)
+Did not find metabolite yet, creating id 2054 (len: 53)
+Did not find metabolite yet, creating id 2055 (len: 53)
+
+Writing metabolites to graph
+Writing enzyme 25
+Did not find metabolite yet, creating id 2056 (len: 56)
+Did not find metabolite yet, creating id 2057 (len: 56)
+Did not find metabolite yet, creating id 2058 (len: 56)
+Did not find metabolite yet, creating id 2059 (len: 56)
+Found metabolite already, has id 2012
+
+Writing metabolites to graph
+Writing enzyme 26
+Found metabolite already, has id 2013
+Found metabolite already, has id 2003
+Found metabolite already, has id 2015
+Did not find metabolite yet, creating id 2060 (len: 60)
+
+Writing metabolites to graph
+Writing enzyme 27
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2061 (len: 61)
+Found metabolite already, has id 2002
+Found metabolite already, has id 2060
+
+Writing metabolites to graph
+Writing enzyme 28
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2062 (len: 62)
+Did not find metabolite yet, creating id 2063 (len: 62)
+Found metabolite already, has id 2002
+Found metabolite already, has id 2003
+Did not find metabolite yet, creating id 2064 (len: 62)
+
+Writing metabolites to graph
+Writing enzyme 29
+Did not find metabolite yet, creating id 2065 (len: 65)
+Did not find metabolite yet, creating id 2066 (len: 65)
+
+Writing metabolites to graph
+Writing enzyme 30
+Found metabolite already, has id 2054
+Found metabolite already, has id 2010
+Found metabolite already, has id 2007
+Did not find metabolite yet, creating id 2067 (len: 67)
+Found metabolite already, has id 2011
+Found metabolite already, has id 2012
+
+Writing metabolites to graph
+Writing enzyme 31
+Found metabolite already, has id 2000
+Found metabolite already, has id 2067
+Found metabolite already, has id 2002
+Did not find metabolite yet, creating id 2068 (len: 68)
+
+Writing metabolites to graph
+Writing enzyme 32
+Found metabolite already, has id 2054
+Found metabolite already, has id 2003
+Found metabolite already, has id 2057
+Found metabolite already, has id 2068
+Found metabolite already, has id 2059
+Found metabolite already, has id 2012
+
+Writing metabolites to graph
+Writing enzyme 33
+Found metabolite already, has id 2054
+Did not find metabolite yet, creating id 2069 (len: 69)
+
+Writing metabolites to graph
+Writing enzyme 35
+Did not find metabolite yet, creating id 2070 (len: 70)
+Found metabolite already, has id 2069
+Found metabolite already, has id 2054
+
+Writing metabolites to graph
+Writing enzyme 36
+Did not find metabolite yet, creating id 2071 (len: 71)
+Did not find metabolite yet, creating id 2072 (len: 71)
+Found metabolite already, has id 2007
+
+Writing metabolites to graph
+Writing enzyme 37
+Found metabolite already, has id 2000
+Found metabolite already, has id 2066
+Found metabolite already, has id 2002
+Did not find metabolite yet, creating id 2073 (len: 73)
+
+Writing metabolites to graph
+Writing enzyme 38
+Found metabolite already, has id 2000
+Found metabolite already, has id 2058
+Found metabolite already, has id 2002
+Found metabolite already, has id 2072
+
+Writing metabolites to graph
+Writing enzyme 39
+Did not find metabolite yet, creating id 2074 (len: 74)
+Found metabolite already, has id 2007
+Did not find metabolite yet, creating id 2075 (len: 74)
+Found metabolite already, has id 2003
+
+Writing metabolites to graph
+Writing enzyme 40
+Did not find metabolite yet, creating id 2076 (len: 76)
+Found metabolite already, has id 2007
+Did not find metabolite yet, creating id 2077 (len: 76)
+Found metabolite already, has id 2037
+
+Writing metabolites to graph
+Writing enzyme 41
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2078 (len: 78)
+Found metabolite already, has id 2002
+Did not find metabolite yet, creating id 2079 (len: 78)
+
+Writing metabolites to graph
+Writing enzyme 42
+Did not find metabolite yet, creating id 2080 (len: 80)
+Did not find metabolite yet, creating id 2081 (len: 80)
+Did not find metabolite yet, creating id 2082 (len: 80)
+Did not find metabolite yet, creating id 2083 (len: 80)
+
+Writing metabolites to graph
+Writing enzyme 44
+Did not find metabolite yet, creating id 2084 (len: 84)
+Did not find metabolite yet, creating id 2085 (len: 84)
+Did not find metabolite yet, creating id 2086 (len: 84)
+Did not find metabolite yet, creating id 2087 (len: 84)
+
+Writing metabolites to graph
+Writing enzyme 45
+Did not find metabolite yet, creating id 2088 (len: 88)
+Did not find metabolite yet, creating id 2089 (len: 88)
+
+Writing metabolites to graph
+Writing enzyme 46
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2090 (len: 90)
+Found metabolite already, has id 2007
+Found metabolite already, has id 2003
+Found metabolite already, has id 2037
+Found metabolite already, has id 2039
+
+Writing metabolites to graph
+Writing enzyme 47
+Found metabolite already, has id 2074
+Did not find metabolite yet, creating id 2091 (len: 91)
+Found metabolite already, has id 2037
+Did not find metabolite yet, creating id 2092 (len: 91)
+
+Writing metabolites to graph
+Writing enzyme 48
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2093 (len: 93)
+Did not find metabolite yet, creating id 2094 (len: 93)
+Found metabolite already, has id 2052
+Found metabolite already, has id 2037
+Found metabolite already, has id 2057
+
+Writing metabolites to graph
+Writing enzyme 49
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2095 (len: 95)
+Found metabolite already, has id 2037
+Found metabolite already, has id 2093
+
+Writing metabolites to graph
+Writing enzyme 51
+Did not find metabolite yet, creating id 2096 (len: 96)
+Did not find metabolite yet, creating id 2097 (len: 96)
+
+Writing metabolites to graph
+Writing enzyme 52
+Did not find metabolite yet, creating id 2098 (len: 98)
+Found metabolite already, has id 2054
+Found metabolite already, has id 2031
+Found metabolite already, has id 2097
+
+Writing metabolites to graph
+Writing enzyme 53
+Found metabolite already, has id 2031
+Found metabolite already, has id 2096
+
+Writing metabolites to graph
+Writing enzyme 54
+Found metabolite already, has id 2000
+Found metabolite already, has id 2031
+Found metabolite already, has id 2052
+Found metabolite already, has id 2045
+
+Writing metabolites to graph
+Writing enzyme 55
+Found metabolite already, has id 2037
+Found metabolite already, has id 2007
+Found metabolite already, has id 2003
+
+Writing metabolites to graph
+Writing enzyme 57
+Found metabolite already, has id 2052
+Found metabolite already, has id 2037
+Found metabolite already, has id 2019
+Found metabolite already, has id 2045
+
+Writing metabolites to graph
+Writing enzyme 58
+Found metabolite already, has id 2000
+Found metabolite already, has id 2052
+Found metabolite already, has id 2002
+
+Writing metabolites to graph
+Writing enzyme 59
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2099 (len: 99)
+Found metabolite already, has id 2002
+Did not find metabolite yet, creating id 2100 (len: 99)
+
+Writing metabolites to graph
+Writing enzyme 60
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2101 (len: 101)
+Found metabolite already, has id 2002
+Did not find metabolite yet, creating id 2102 (len: 101)
+
+Writing metabolites to graph
+Writing enzyme 61
+Did not find metabolite yet, creating id 2103 (len: 103)
+Found metabolite already, has id 2057
+Did not find metabolite yet, creating id 2104 (len: 103)
+Found metabolite already, has id 2059
+Found metabolite already, has id 2012
+
+Writing metabolites to graph
+Writing enzyme 62
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2105 (len: 105)
+Found metabolite already, has id 2002
+Did not find metabolite yet, creating id 2106 (len: 105)
+
+Writing metabolites to graph
+Writing enzyme 126
+Found metabolite already, has id 2000
+Found metabolite already, has id 2007
+Did not find metabolite yet, creating id 2107 (len: 107)
+Found metabolite already, has id 2002
+Found metabolite already, has id 2003
+Did not find metabolite yet, creating id 2108 (len: 107)
+
+Writing metabolites to graph
+Writing enzyme 128
+Found metabolite already, has id 2071
+Found metabolite already, has id 2067
+
+Writing metabolites to graph
+Writing enzyme 129
+Found metabolite already, has id 2071
+Found metabolite already, has id 2067
+
+Writing metabolites to graph
+Writing enzyme 130
+Did not find metabolite yet, creating id 2108 (len: 108)
+Found metabolite already, has id 2045
+Found metabolite already, has id 2000
+Found metabolite already, has id 2007
+Found metabolite already, has id 2095
+Found metabolite already, has id 2037
+Found metabolite already, has id 2002
+Found metabolite already, has id 2003
+
+Writing metabolites to graph
+Writing enzyme 63
+Did not find metabolite yet, creating id 2109 (len: 109)
+Did not find metabolite yet, creating id 2110 (len: 109)
+Found metabolite already, has id 2007
+Did not find metabolite yet, creating id 2111 (len: 109)
+Did not find metabolite yet, creating id 2112 (len: 109)
+
+Writing metabolites to graph
+Writing enzyme 66
+Found metabolite already, has id 2039
+Did not find metabolite yet, creating id 2113 (len: 113)
+Found metabolite already, has id 2041
+Did not find metabolite yet, creating id 2114 (len: 113)
+
+Writing metabolites to graph
+Writing enzyme 68
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2115 (len: 115)
+Found metabolite already, has id 2052
+Did not find metabolite yet, creating id 2116 (len: 115)
+
+Writing metabolites to graph
+Writing enzyme 69
+Found metabolite already, has id 2112
+Found metabolite already, has id 2010
+Found metabolite already, has id 2110
+Found metabolite already, has id 2011
+Found metabolite already, has id 2012
+
+Writing metabolites to graph
+Writing enzyme 70
+Did not find metabolite yet, creating id 2117 (len: 117)
+Did not find metabolite yet, creating id 2118 (len: 117)
+Found metabolite already, has id 2008
+Did not find metabolite yet, creating id 2119 (len: 117)
+
+Writing metabolites to graph
+Writing enzyme 71
+Found metabolite already, has id 2000
+Found metabolite already, has id 2025
+Did not find metabolite yet, creating id 2120 (len: 120)
+Found metabolite already, has id 2052
+Found metabolite already, has id 2037
+Did not find metabolite yet, creating id 2121 (len: 120)
+
+Writing metabolites to graph
+Writing enzyme 72
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2122 (len: 122)
+Did not find metabolite yet, creating id 2123 (len: 122)
+Found metabolite already, has id 2052
+Found metabolite already, has id 2037
+Did not find metabolite yet, creating id 2124 (len: 122)
+
+Writing metabolites to graph
+Writing enzyme 73
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2125 (len: 125)
+Did not find metabolite yet, creating id 2126 (len: 125)
+Found metabolite already, has id 2052
+Found metabolite already, has id 2037
+Did not find metabolite yet, creating id 2127 (len: 125)
+
+Writing metabolites to graph
+Writing enzyme 74
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2128 (len: 128)
+Did not find metabolite yet, creating id 2129 (len: 128)
+Found metabolite already, has id 2052
+Found metabolite already, has id 2037
+Did not find metabolite yet, creating id 2130 (len: 128)
+
+Writing metabolites to graph
+Writing enzyme 75
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2131 (len: 131)
+Did not find metabolite yet, creating id 2132 (len: 131)
+Found metabolite already, has id 2007
+Found metabolite already, has id 2002
+Found metabolite already, has id 2003
+Found metabolite already, has id 2130
+Found metabolite already, has id 2063
+
+Writing metabolites to graph
+Writing enzyme 76
+Found metabolite already, has id 2000
+Found metabolite already, has id 2023
+Did not find metabolite yet, creating id 2133 (len: 133)
+Found metabolite already, has id 2052
+Found metabolite already, has id 2037
+Did not find metabolite yet, creating id 2134 (len: 133)
+
+Writing metabolites to graph
+Writing enzyme 77
+Found metabolite already, has id 2000
+Found metabolite already, has id 2063
+Did not find metabolite yet, creating id 2135 (len: 135)
+Found metabolite already, has id 2052
+Found metabolite already, has id 2037
+Did not find metabolite yet, creating id 2136 (len: 135)
+
+Writing metabolites to graph
+Writing enzyme 78
+Found metabolite already, has id 2000
+Found metabolite already, has id 2006
+Did not find metabolite yet, creating id 2137 (len: 137)
+Found metabolite already, has id 2052
+Found metabolite already, has id 2037
+Did not find metabolite yet, creating id 2138 (len: 137)
+
+Writing metabolites to graph
+Writing enzyme 79
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2139 (len: 139)
+Did not find metabolite yet, creating id 2140 (len: 139)
+Found metabolite already, has id 2052
+Found metabolite already, has id 2037
+Did not find metabolite yet, creating id 2141 (len: 139)
+
+Writing metabolites to graph
+Writing enzyme 80
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2142 (len: 142)
+Did not find metabolite yet, creating id 2143 (len: 142)
+Found metabolite already, has id 2052
+Found metabolite already, has id 2037
+Did not find metabolite yet, creating id 2144 (len: 142)
+
+Writing metabolites to graph
+Writing enzyme 81
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2145 (len: 145)
+Did not find metabolite yet, creating id 2146 (len: 145)
+Found metabolite already, has id 2052
+Found metabolite already, has id 2037
+Did not find metabolite yet, creating id 2147 (len: 145)
+
+Writing metabolites to graph
+Writing enzyme 82
+Found metabolite already, has id 2000
+Found metabolite already, has id 2050
+Did not find metabolite yet, creating id 2148 (len: 148)
+Found metabolite already, has id 2052
+Found metabolite already, has id 2037
+Did not find metabolite yet, creating id 2149 (len: 148)
+
+Writing metabolites to graph
+Writing enzyme 83
+Found metabolite already, has id 2000
+Found metabolite already, has id 2090
+Did not find metabolite yet, creating id 2150 (len: 150)
+Found metabolite already, has id 2052
+Found metabolite already, has id 2037
+Did not find metabolite yet, creating id 2151 (len: 150)
+
+Writing metabolites to graph
+Writing enzyme 84
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2152 (len: 152)
+Did not find metabolite yet, creating id 2153 (len: 152)
+Found metabolite already, has id 2052
+Found metabolite already, has id 2037
+Did not find metabolite yet, creating id 2154 (len: 152)
+
+Writing metabolites to graph
+Writing enzyme 85
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2155 (len: 155)
+Did not find metabolite yet, creating id 2156 (len: 155)
+Found metabolite already, has id 2052
+Found metabolite already, has id 2037
+Did not find metabolite yet, creating id 2157 (len: 155)
+
+Writing metabolites to graph
+Writing enzyme 86
+Found metabolite already, has id 2000
+Found metabolite already, has id 2009
+Did not find metabolite yet, creating id 2158 (len: 158)
+Found metabolite already, has id 2052
+Found metabolite already, has id 2037
+Did not find metabolite yet, creating id 2159 (len: 158)
+
+Writing metabolites to graph
+Writing enzyme 87
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2160 (len: 160)
+Did not find metabolite yet, creating id 2161 (len: 160)
+Found metabolite already, has id 2052
+Found metabolite already, has id 2037
+Did not find metabolite yet, creating id 2162 (len: 160)
+
+Writing metabolites to graph
+Writing enzyme 88
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2163 (len: 163)
+Did not find metabolite yet, creating id 2164 (len: 163)
+Found metabolite already, has id 2052
+Found metabolite already, has id 2037
+Did not find metabolite yet, creating id 2165 (len: 163)
+
+Writing metabolites to graph
+Writing enzyme 89
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2166 (len: 166)
+Did not find metabolite yet, creating id 2167 (len: 166)
+Found metabolite already, has id 2052
+Found metabolite already, has id 2037
+Did not find metabolite yet, creating id 2168 (len: 166)
+
+Writing metabolites to graph
+Writing enzyme 90
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2169 (len: 169)
+Did not find metabolite yet, creating id 2170 (len: 169)
+Found metabolite already, has id 2052
+Found metabolite already, has id 2037
+Did not find metabolite yet, creating id 2171 (len: 169)
+
+Writing metabolites to graph
+Writing enzyme 91
+Found metabolite already, has id 2072
+Did not find metabolite yet, creating id 2172 (len: 172)
+Found metabolite already, has id 2058
+Did not find metabolite yet, creating id 2173 (len: 172)
+
+Writing metabolites to graph
+Writing enzyme 92
+Did not find metabolite yet, creating id 2174 (len: 174)
+Did not find metabolite yet, creating id 2175 (len: 174)
+Found metabolite already, has id 2007
+
+Writing metabolites to graph
+Writing enzyme 93
+Did not find metabolite yet, creating id 2176 (len: 176)
+Found metabolite already, has id 2010
+Did not find metabolite yet, creating id 2177 (len: 176)
+Found metabolite already, has id 2011
+Found metabolite already, has id 2012
+
+Writing metabolites to graph
+Writing enzyme 94
+Did not find metabolite yet, creating id 2178 (len: 178)
+Did not find metabolite yet, creating id 2179 (len: 178)
+Found metabolite already, has id 2037
+Did not find metabolite yet, creating id 2180 (len: 178)
+
+Writing metabolites to graph
+Writing enzyme 95
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2181 (len: 181)
+Found metabolite already, has id 2002
+Did not find metabolite yet, creating id 2182 (len: 181)
+
+Writing metabolites to graph
+Writing enzyme 96
+Found metabolite already, has id 2000
+Found metabolite already, has id 2007
+Found metabolite already, has id 2002
+Found metabolite already, has id 2003
+
+Writing metabolites to graph
+Writing enzyme 98
+Found metabolite already, has id 2039
+Did not find metabolite yet, creating id 2183 (len: 183)
+Found metabolite already, has id 2041
+Did not find metabolite yet, creating id 2184 (len: 183)
+
+Writing metabolites to graph
+Writing enzyme 99
+Did not find metabolite yet, creating id 2185 (len: 185)
+Did not find metabolite yet, creating id 2186 (len: 185)
+
+Writing metabolites to graph
+Writing enzyme 100
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2187 (len: 187)
+Found metabolite already, has id 2002
+Found metabolite already, has id 2186
+
+Writing metabolites to graph
+Writing enzyme 101
+Did not find metabolite yet, creating id 2188 (len: 188)
+Did not find metabolite yet, creating id 2189 (len: 188)
+Found metabolite already, has id 2015
+Did not find metabolite yet, creating id 2190 (len: 188)
+
+Writing metabolites to graph
+Writing enzyme 102
+Did not find metabolite yet, creating id 2191 (len: 191)
+Did not find metabolite yet, creating id 2192 (len: 191)
+Did not find metabolite yet, creating id 2193 (len: 191)
+Did not find metabolite yet, creating id 2194 (len: 191)
+
+Writing metabolites to graph
+Writing enzyme 103
+Did not find metabolite yet, creating id 2195 (len: 195)
+Found metabolite already, has id 2007
+Found metabolite already, has id 2077
+Found metabolite already, has id 2094
+
+Writing metabolites to graph
+Writing enzyme 104
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2196 (len: 196)
+Found metabolite already, has id 2002
+Did not find metabolite yet, creating id 2197 (len: 196)
+
+Writing metabolites to graph
+Writing enzyme 105
+Did not find metabolite yet, creating id 2198 (len: 198)
+Did not find metabolite yet, creating id 2199 (len: 198)
+Found metabolite already, has id 2041
+Did not find metabolite yet, creating id 2200 (len: 198)
+
+Writing metabolites to graph
+Writing enzyme 106
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2201 (len: 201)
+Found metabolite already, has id 2002
+Did not find metabolite yet, creating id 2202 (len: 201)
+
+Writing metabolites to graph
+Writing enzyme 108
+Did not find metabolite yet, creating id 2203 (len: 203)
+Did not find metabolite yet, creating id 2204 (len: 203)
+Did not find metabolite yet, creating id 2205 (len: 203)
+Did not find metabolite yet, creating id 2206 (len: 203)
+Found metabolite already, has id 2052
+Did not find metabolite yet, creating id 2207 (len: 203)
+
+Writing metabolites to graph
+Writing enzyme 109
+Did not find metabolite yet, creating id 2208 (len: 208)
+Found metabolite already, has id 2007
+Found metabolite already, has id 2089
+Found metabolite already, has id 2094
+
+Writing metabolites to graph
+Writing enzyme 110
+Did not find metabolite yet, creating id 2209 (len: 209)
+Found metabolite already, has id 2065
+
+Writing metabolites to graph
+Writing enzyme 113
+Found metabolite already, has id 2033
+Found metabolite already, has id 2037
+Found metabolite already, has id 2030
+Found metabolite already, has id 2045
+
+Writing metabolites to graph
+Writing enzyme 114
+Did not find metabolite yet, creating id 2210 (len: 210)
+Did not find metabolite yet, creating id 2211 (len: 210)
+
+Writing metabolites to graph
+Writing enzyme 115
+Did not find metabolite yet, creating id 2212 (len: 212)
+Did not find metabolite yet, creating id 2213 (len: 212)
+
+Writing metabolites to graph
+Writing enzyme 117
+Found metabolite already, has id 2039
+Did not find metabolite yet, creating id 2214 (len: 214)
+Found metabolite already, has id 2041
+Did not find metabolite yet, creating id 2215 (len: 214)
+
+Writing metabolites to graph
+Writing enzyme 118
+Found metabolite already, has id 2180
+Did not find metabolite yet, creating id 2216 (len: 216)
+Found metabolite already, has id 2181
+Did not find metabolite yet, creating id 2217 (len: 216)
+
+Writing metabolites to graph
+Writing enzyme 119
+Found metabolite already, has id 2015
+Found metabolite already, has id 2010
+Did not find metabolite yet, creating id 2218 (len: 218)
+Found metabolite already, has id 2011
+Found metabolite already, has id 2012
+
+Writing metabolites to graph
+Writing enzyme 120
+Did not find metabolite yet, creating id 2219 (len: 219)
+Found metabolite already, has id 2209
+Found metabolite already, has id 2037
+Did not find metabolite yet, creating id 2220 (len: 219)
+
+Writing metabolites to graph
+Writing enzyme 121
+Did not find metabolite yet, creating id 2221 (len: 221)
+Found metabolite already, has id 2007
+Did not find metabolite yet, creating id 2222 (len: 221)
+Did not find metabolite yet, creating id 2223 (len: 221)
+
+Writing metabolites to graph
+Writing enzyme 122
+Found metabolite already, has id 2000
+Found metabolite already, has id 2219
+Found metabolite already, has id 2132
+Found metabolite already, has id 2002
+Found metabolite already, has id 2003
+Found metabolite already, has id 2178
+Found metabolite already, has id 2063
+
+Writing metabolites to graph
+Writing enzyme 123
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2224 (len: 224)
+Found metabolite already, has id 2002
+Found metabolite already, has id 2196
+
+Writing metabolites to graph
+Writing enzyme 124
+Found metabolite already, has id 2180
+Did not find metabolite yet, creating id 2225 (len: 225)
+Did not find metabolite yet, creating id 2226 (len: 225)
+Found metabolite already, has id 2181
+
+Writing metabolites to graph
+Writing enzyme 125
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2227 (len: 227)
+Found metabolite already, has id 2002
+Found metabolite already, has id 2216
+
+Writing metabolites to graph
+Writing enzyme 131
+Found metabolite already, has id 2039
+Did not find metabolite yet, creating id 2228 (len: 228)
+Found metabolite already, has id 2041
+Did not find metabolite yet, creating id 2229 (len: 228)
+
+Writing metabolites to graph
+Writing enzyme 132
+Found metabolite already, has id 2039
+Did not find metabolite yet, creating id 2230 (len: 230)
+Found metabolite already, has id 2041
+Did not find metabolite yet, creating id 2231 (len: 230)
+
+Writing metabolites to graph
+Writing enzyme 133
+Did not find metabolite yet, creating id 2232 (len: 232)
+Did not find metabolite yet, creating id 2233 (len: 232)
+Did not find metabolite yet, creating id 2234 (len: 232)
+Did not find metabolite yet, creating id 2235 (len: 232)
+
+Writing metabolites to graph
+Writing enzyme 134
+Found metabolite already, has id 2232
+Did not find metabolite yet, creating id 2236 (len: 236)
+Found metabolite already, has id 2234
+Did not find metabolite yet, creating id 2237 (len: 236)
+
+Writing metabolites to graph
+Writing enzyme 135
+Found metabolite already, has id 2232
+Did not find metabolite yet, creating id 2238 (len: 238)
+Found metabolite already, has id 2234
+Did not find metabolite yet, creating id 2239 (len: 238)
+
+Writing metabolites to graph
+Writing enzyme 136
+Found metabolite already, has id 2232
+Did not find metabolite yet, creating id 2240 (len: 240)
+Found metabolite already, has id 2234
+Did not find metabolite yet, creating id 2241 (len: 240)
+
+Writing metabolites to graph
+Writing enzyme 137
+Found metabolite already, has id 2232
+Did not find metabolite yet, creating id 2242 (len: 242)
+Found metabolite already, has id 2234
+Did not find metabolite yet, creating id 2243 (len: 242)
+
+Writing metabolites to graph
+Writing enzyme 138
+Found metabolite already, has id 2232
+Did not find metabolite yet, creating id 2244 (len: 244)
+Found metabolite already, has id 2234
+Did not find metabolite yet, creating id 2245 (len: 244)
+
+Writing metabolites to graph
+Writing enzyme 139
+Found metabolite already, has id 2232
+Did not find metabolite yet, creating id 2246 (len: 246)
+Found metabolite already, has id 2234
+Did not find metabolite yet, creating id 2247 (len: 246)
+
+Writing metabolites to graph
+Writing enzyme 140
+Found metabolite already, has id 2232
+Did not find metabolite yet, creating id 2248 (len: 248)
+Found metabolite already, has id 2234
+Did not find metabolite yet, creating id 2249 (len: 248)
+
+Writing metabolites to graph
+Writing enzyme 141
+Found metabolite already, has id 2232
+Did not find metabolite yet, creating id 2250 (len: 250)
+Found metabolite already, has id 2234
+Did not find metabolite yet, creating id 2251 (len: 250)
+
+Writing metabolites to graph
+Writing enzyme 142
+Found metabolite already, has id 2232
+Did not find metabolite yet, creating id 2252 (len: 252)
+Found metabolite already, has id 2234
+Did not find metabolite yet, creating id 2253 (len: 252)
+
+Writing metabolites to graph
+Writing enzyme 143
+Found metabolite already, has id 2232
+Did not find metabolite yet, creating id 2254 (len: 254)
+Found metabolite already, has id 2234
+Did not find metabolite yet, creating id 2255 (len: 254)
+
+Writing metabolites to graph
+Writing enzyme 144
+Found metabolite already, has id 2232
+Did not find metabolite yet, creating id 2256 (len: 256)
+Found metabolite already, has id 2234
+Did not find metabolite yet, creating id 2257 (len: 256)
+
+Writing metabolites to graph
+Writing enzyme 145
+Found metabolite already, has id 2232
+Did not find metabolite yet, creating id 2258 (len: 258)
+Found metabolite already, has id 2234
+Did not find metabolite yet, creating id 2259 (len: 258)
+
+Writing metabolites to graph
+Writing enzyme 146
+Found metabolite already, has id 2232
+Did not find metabolite yet, creating id 2260 (len: 260)
+Found metabolite already, has id 2234
+Did not find metabolite yet, creating id 2261 (len: 260)
+
+Writing metabolites to graph
+Writing enzyme 147
+Found metabolite already, has id 2232
+Did not find metabolite yet, creating id 2262 (len: 262)
+Found metabolite already, has id 2234
+Did not find metabolite yet, creating id 2263 (len: 262)
+
+Writing metabolites to graph
+Writing enzyme 148
+Found metabolite already, has id 2232
+Did not find metabolite yet, creating id 2264 (len: 264)
+Found metabolite already, has id 2234
+Did not find metabolite yet, creating id 2265 (len: 264)
+
+Writing metabolites to graph
+Writing enzyme 149
+Found metabolite already, has id 2232
+Did not find metabolite yet, creating id 2266 (len: 266)
+Found metabolite already, has id 2234
+Did not find metabolite yet, creating id 2267 (len: 266)
+
+Writing metabolites to graph
+Writing enzyme 150
+Found metabolite already, has id 2232
+Did not find metabolite yet, creating id 2268 (len: 268)
+Found metabolite already, has id 2234
+Did not find metabolite yet, creating id 2269 (len: 268)
+
+Writing metabolites to graph
+Writing enzyme 151
+Found metabolite already, has id 2000
+Found metabolite already, has id 2007
+Found metabolite already, has id 2012
+Found metabolite already, has id 2002
+Found metabolite already, has id 2003
+Found metabolite already, has id 2012
+
+<== Finished ==>
+Took 78.6753 seconds to run.

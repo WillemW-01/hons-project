@@ -1,0 +1,613 @@
+(2-hydroxyacyl)glutathione
+(2E#6E)-farnesyl diphosphate
+(2R#3S)-3-isopropylmalate
+(2S#4S)-4-hydroxy-2#3#4#5-tetrahydrodipicolinate
+(2S)-2-isopropylmalate
+(2S)-2-{[1-(R)-carboxyethyl]amino}pentanoate
+(3R)-3-hydroxyacyl-[acyl-carrier protein]
+(3S)-3#6-diaminohexanoate
+(5-L-glutamyl)-peptide
+(deoxyribonucleotide)n+m
+(deoxyribonucleotide)n-3'-hydroxyl
+(indol-3-yl)acetamide
+(phosphate)n
+(phosphate)n-1
+(polyphosphate)n
+(polyphosphate)n-1
+(sulfur carrier)
+1-(5-phospho-beta-D-ribosyl)-5-[(5-phospho-beta-D-ribosylamino)methylideneamino]imidazole-4-carboxamide
+1-(5-phospho-beta-D-ribosyl)-ATP
+1-acyl-sn-glycerol 3-phosphate
+1-aminopropan-2-yl phosphate
+1-deoxy-D-xylulose 5-phosphate
+1-deoxy-L-glycero-tetrulose 4-phosphate
+1-pyrroline-5-carboxylate
+10-formyltetrahydrofolate
+2 ATP
+2#3#4#5-tetrahydropyridine-2#6-dicarboxylate
+2#3-dihydroxybenzoate
+2#5-diamino-6-hydroxy-4-(5-phospho-D-ribosylamino)pyrimidine
+2#5-dioxopentanoate
+2'-O-methylcytidine34 in tRNA;
+2'-O-methyluridine2552 in 23S rRNA
+2'-deoxyribonucleoside 5'-diphosphate
+2'-deoxyribonucleoside 5'-triphosphate
+2-(Nomega-L-arginino)succinate
+2-(formamido)-N1-(5-phospho-D-ribosyl)acetamidine
+2-C-methyl-D-erythritol 2#4-cyclodiphosphate
+2-C-methyl-D-erythritol 4-phosphate
+2-O-(6-phospho-alpha-D-mannopyranosyl)-D-glycerate
+2-O-(alpha-D-mannopyranosyl)-D-glycerate
+2-[(2R#5Z)-2-carboxy-4-methylthiazol-5(2H)-ylidene]ethyl phosphate
+2-amino-2-deoxy-D-gluconate
+2-amino-2-deoxy-D-gluconate 6-phosphate
+2-dehydro-3-deoxy-6-phospho-D-gluconate
+2-dehydro-3-deoxy-D-gluconate
+2-dehydropantoate
+2-deoxy-D-ribose 5-phosphate
+2-deoxy-alpha-D-ribose 1-phosphate
+2-hydroxy carboxylate
+2-hydroxy-3-oxopropanoate
+2-maleylacetate
+2-methylpropanoyl-CoA
+2-oxo carboxylate
+2-oxoglutarate
+2-oxopropanal
+2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol
+2-phospho-D-glycerate
+3'#5'-cyclic AMP
+3'-phosphoadenylyl sulfate
+3-(5-oxo-4#5-dihydro-3H-imidazol-4-yl)propanoate
+3-(imidazol-4-yl)-2-oxopropyl phosphate
+3-O-L-lysyl-1-O-phosphatidylglycerol
+3-acetoacetyl-CoA
+3-amino-2-oxopropyl phosphate
+3-aminoacrylate
+3-dehydroquinate
+3-deoxy-D-arabino-hept-2-ulosonate 7-phosphate
+3-deoxy-D-manno-octulosonate
+3-hydroxybutanoyl-CoA
+3-methyl-2-oxobutanoate
+3-methylbut-3-en-1-yl diphosphate
+3-methylcrotonyl-CoA
+3-oxoacyl-[acyl-carrier protein]
+3-oxoadipate
+3-oxoadipyl-CoA
+3-oxooctadec-11-enoyl-[acyl-carrier protein]
+3-phospho-D-glycerate
+3-phospho-D-glyceroyl phosphate
+3-phosphooxypyruvate
+3-phosphoshikimate
+3-ureidoacrylate
+3-ureidopropanoate
+4-(1-D-ribitylamino)-5-amino-2#6-dihydroxypyrimidine
+4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol
+4-amino-2-methyl-5-(diphosphooxymethyl)pyrimidine
+4-carboxymethylenebut-2-en-4-olide
+4-hydroxy-3-methylbut-2-en-1-yl diphosphate
+4-hydroxyphenylpyruvate
+4-methyl-2-oxopentanoate
+4-methyl-5-(2-hydroxyethyl)thiazole
+4-methyl-5-(2-phosphooxyethyl)thiazole
+4-oxohex-2-enedioate
+4-phospho-L-aspartate
+4-phosphooxy-L-threonine
+4a-hydroxytetrahydrobiopterin
+5#10-methenyltetrahydrofolate
+5#10-methylenetetrahydrofolate
+5#6#7#8-tetrahydrofolate
+5#6-dihydrouracil
+5#6-dimethylbenzimidazole
+5'-deoxyadenosine
+5'-phospho-(deoxyribonucleotide)m
+5'-ribonucleotide
+5-L-glutamyl amino acid
+5-O-(1-carboxyvinyl)-3-phosphoshikimate
+5-[(5-phospho-1-deoxy-D-ribulos-1-ylamino)methylideneamino]-1-(5-phospho-beta-D-ribosyl)imidazole-4-carboxamide
+5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate
+5-amino-6-(D-ribitylamino)uracil
+5-aminolevulinate
+5-carboxyamino-1-(5-phospho-D-ribosyl)imidazole
+5-dehydro-2-deoxy-D-gluconate
+5-dehydro-4-deoxy-D-glucarate
+5-formyltetrahydrofolate
+5-phospho-alpha-D-ribose 1-diphosphate
+5-phospho-beta-D-ribosylamine
+6#7-dihydrobiopterin
+6#7-dimethyl-8-(1-D-ribityl)lumazine
+6#7-dimethyl-8-(D-ribityl)lumazine
+6-(hydroxymethyl)-7#8-dihydropterin
+6-phospho-5-dehydro-2-deoxy-D-gluconate
+6-phospho-D-gluconate
+6-phospho-D-glucono-1#5-lactone
+6-phospho-beta-D-glucosyl-(1->4)-D-glucose
+7#8-dihydrofolate
+7#8-dihydroneopterin 3'-triphosphate
+7#8-dihydropteroate
+7#8-dihydropteroylglutamate
+7-aminomethyl-7-carbaguanine
+7-aminomethyl-7-carbaguanine34 in tRNA
+ADP
+ADP-alpha-D-glucose
+AMP
+ATP
+CDP-diacylglycerol
+CMP
+CMP-3-deoxy-D-manno-octulosonate
+CMP-beta-Kdo
+CO2
+CTP
+Cd2+
+CoA
+DNA (containing 6-O-methylguanine)
+DNA (without 6-O-methylguanine)
+DNAn
+DNAn+1
+FMN
+FMNH2
+Fe2+
+Fe3+
+GDP
+GDP-alpha-D-mannose
+GDP-mannose
+GMP
+GTP
+GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)-diphosphoundecaprenol
+Hg
+Hg2+
+IMP
+K+
+L-2-aminopentanoic acid
+L-4-aspartyl phosphate
+L-alanine
+L-alanyl-tRNAAla
+L-arginine
+L-arginyl-tRNAArg
+L-ascorbate
+L-ascorbate 6-phosphate
+L-asparaginyl-tRNAAsn
+L-aspartate
+L-aspartate 4-semialdehyde
+L-aspartate-4-semialdehyde
+L-aspartyl-tRNAAsn
+L-aspartyl-tRNAAsp
+L-cysteine
+L-cysteinyl-tRNACys
+L-glutamate
+L-glutamate 5-phosphate
+L-glutamate 5-semialdehyde
+L-glutamine
+L-glutamyl-tRNAGlu
+L-histidine
+L-histidinol phosphate
+L-histidyl-tRNAHis
+L-homocysteine
+L-homoserine
+L-isoleucine
+L-isoleucyl-tRNAIle
+L-kynurenine
+L-leucine
+L-leucyl-tRNALeu
+L-lysine
+L-lysyl-tRNALys
+L-methionine
+L-methionyl-tRNAfMet
+L-ornithine
+L-proline
+L-prolyl-tRNAPro
+L-selenocysteinyl-tRNASec
+L-serine
+L-seryl-tRNASec
+L-sorbose
+L-sorbose 1-phosphate
+L-threonine
+L-threonyl-tRNAThr
+L-tryptophan
+L-tryptophyl-tRNATrp
+L-tyrosine
+L-tyrosyl-tRNATyr
+L-valine
+L-valyl-tRNAVal
+LL-2#6-diaminoheptanedioate
+Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)-diphosphoundecaprenol
+N#N'-diacetylchitobiose
+N#N'-diacetylchitobiose 6'-phosphate
+N#N-dimethylglycine
+N-[(R)-4'-phosphopantothenoyl]-L-cysteine
+N-acetyl-D-glucosamine
+N-acetyl-D-glucosamine 6-phosphate
+N-acetyl-D-muramate
+N-acetyl-D-muramate 6-phosphate
+N-acetyl-L-glutamate
+N-acetyl-alpha-D-glucosamine 1-phosphate
+N-acetylphosphinothricin
+N-acylsphingosine
+N-carbamoyl-L-aspartate
+N-formimidoyl-L-glutamate
+N-formyl-L-kynurenine
+N-formylmethionyl-tRNAfMet
+N-terminal L-alanyl-[S18 protein of 30S ribosome]
+N-terminal L-alanyl-[S5 protein of 30S ribosome]
+N-terminal N-acetyl-L-alanyl-[S18 protein of 30S ribosome]
+N-terminal N-acetyl-L-alanyl-[S5 protein of 30S ribosome]
+N1-(5-phospho-D-ribosyl)glycinamide
+N2-formyl-N1-(5-phospho-D-ribosyl)glycinamide
+N3-methylpseudouridine1915 in 23S rRNA
+N3-methyluracil1498 in 16S rRNA
+N4-methylcytosine1402 in 16S rRNA
+N6-dimethyladenine1518/N6-dimethyladenine1519 in 16S rRNA
+N6-methyladenine in DNA
+N7-methylguanine46 in tRNA
+NAD
+NAD+
+NADH
+NADP+
+NADPH
+NH3
+O-acetyl-L-serine
+O-phospho-L-homoserine
+O-phospho-L-serine
+O-succinyl-L-homoserine
+O2
+RDP [where RTP is either ATP or GTP (for symbol definitions# click here)]
+RH
+RNAn
+RNAn+1
+ROH
+ROOH
+RTP
+S-sulfanyl-acceptor
+UDP
+UDP-2-N#3-O-bis[(3R)-3-hydroxyacyl]-alpha-D-glucosamine
+UDP-3-O-[(3R)-3-hydroxyacyl]-N-acetyl-alpha-D-glucosamine
+UDP-3-O-[(3R)-3-hydroxyacyl]-alpha-D-glucosamine
+UDP-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)
+UDP-N-acetyl-3-O-(1-carboxyvinyl)-alpha-D-glucosamine
+UDP-N-acetyl-alpha-D-glucosamine
+UDP-N-acetyl-alpha-D-muramate
+UDP-N-acetyl-alpha-D-muramoyl-L-alanine
+UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-D-glutamate
+UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-gamma-D-glutamyl-meso-2#6-diaminoheptanedioate
+UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-L-lysine
+UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-alanine
+UDP-alpha-D-galactose
+UDP-alpha-D-glucose
+UMP
+UTP
+XMP
+[(1->4)-alpha-D-glucosyl]n
+[(1->4)-alpha-D-glucosyl]n+1
+[(1->4)-alpha-D-glucosyl]n-1
+[(1->4)-beta-D-glucosyl]n
+[(1->4)-beta-D-glucosyl]n+1
+[Fe-S] cluster scaffold protein
+[Fe-S] cluster scaffold protein carrying a [4Fe-4S]2+ cluster
+[GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)]n+1-diphosphoundecaprenol
+[GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)]n-diphosphoundecaprenol
+[a protein]-serine/threonine
+[a protein]-serine/threonine phosphate
+[a protein]-tyrosine
+[a protein]-tyrosine phosphate
+[acyl-carrier protein]
+[biotin carboxyl-carrier protein]-L-lysine
+[biotin carboxyl-carrier protein]-N6-biotinyl-L-lysine
+[biotin carboxyl-carrier protein]-biotin-N6-L-lysine
+[biotin carboxyl-carrier protein]-carboxybiotin-N6-L-lysine
+[dihydrolipoyllysine-residue acetyltransferase] S-acetyldihydrolipoyllysine
+[dihydrolipoyllysine-residue acetyltransferase] lipoyllysine
+[dihydrolipoyllysine-residue succinyltransferase] S-succinyldihydrolipoyllysine
+[dihydrolipoyllysine-residue succinyltransferase] lipoyllysine
+[glutamine synthetase]-L-tyrosine
+[glutamine synthetase]-O4-(5'-adenylyl)-L-tyrosine
+[glycine-cleavage complex H protein]-N6-lipoyl-L-lysine
+[glycine-cleavage complex H protein]-S-aminomethyl-N6-dihydrolipoyl-L-lysine
+[lipoyl-carrier protein]-N6-[(R)-dihydrolipoyl]-L-lysine
+[lipoyl-carrier protein]-N6-[(R)-lipoyl]-L-lysine
+[oxidized NADPH---hemoprotein reductase]
+[protein]-L-histidine
+[protein]-N6-(octanoyl)-L-lysine
+[protein]-N6-[(R)-dihydrolipoyl]-L-lysine
+[protein]-Npi-phospho-L-histidine
+[protein]-S8-aminomethyldihydrolipoyllysine
+[protein]-dihydrolipoyllysine
+[reduced NADPH---hemoprotein reductase]
+[tRNAIle2]-cytidine34
+[tRNAIle2]-lysidine34
+a primary alcohol
+acceptor
+acetaldehyde
+acetate
+acetoacetate
+acetoacetyl-CoA
+acetoacetyl-[acyl-carrier protein]
+acetyl-CoA
+acyl-CoA
+acyl-[acyl-carrier protein]
+adenine
+adenine in DNA
+adenine1518/adenine1519 in 16S rRNA
+adenosine
+adenosine 3'#5'-bisphosphate
+adenosyl-L-homocysteine
+adenosyl-L-methionine
+adenosylcob(III)alamin
+adenosylcobalamin
+adenosylcobinamide
+adenosylcobinamide phosphate
+adenosylcobinamide-GDP
+adenosylcobyric acid
+adenosylcobyrinic acid a#c-diamide
+adenylyl sulfate
+adenylyl-molybdopterin
+alanine
+alanyl-D-alanine
+aldehyde
+alkanesulfonate
+alpha#alpha-trehalose
+alpha#alpha-trehalose 6-phosphate
+alpha-Kdo-(2->6)-[lipid IVA]
+altronate
+amino acid
+an oxidized flavoprotein
+arabinose 5-phosphate
+arsenate
+arsenite
+aspartate
+benzoate
+beta-D-glucosyl-N-acylsphingosine
+beta-lactam
+beta-nicotinamide D-nucleotide
+biotin
+carbamoyl phosphate
+cardiolipin
+catechol
+cellobiose
+chorismate
+citrate
+cob(II)alamin
+cobalt-precorrin-5A
+cobalt-precorrin-5B
+cobalt-precorrin-6A
+cobyrinate
+cobyrinate a#c-diamide
+coproporphyrinogen III
+creatine
+creatinine
+cyclobutadipyrimidine (in DNA)
+cytidine34 in tRNA
+cytidylyl molybdenum cofactor
+cytosine
+cytosine1402 in 16S rRNA
+dGTP
+dTDP
+dTDP-4-dehydro-6-deoxy-alpha-D-glucose
+dTDP-4-dehydro-beta-L-rhamnose
+dTDP-alpha-D-glucose
+dTMP
+dUMP
+deoxyguanosine
+dethiobiotin
+dihydrofolate
+dihydroorotate
+diphosphate
+ditrans#octacis-undecaprenyl diphosphate
+ditrans#octacis-undecaprenyl phosphate
+dolichyl beta-D-mannosyl phosphate
+dolichyl phosphate
+donor
+electron-transfer flavoprotein
+enzyme N6-(S-[2-methylpropanoyl]dihydrolipoyl)lysine
+enzyme N6-(S-acetyldihydrolipoyl)lysine
+enzyme N6-(S-succinyldihydrolipoyl)lysine
+enzyme N6-(dihydrolipoyl)lysine
+ethylnitronate
+ferricytochrome
+ferricytochrome c
+ferrocytochrome
+ferrocytochrome c
+ferulic acid
+feruloyl-CoA
+formaldehyde
+formate
+formyl-L-methionyl peptide
+fructofuranosyl-alpha-D-mannopyranoside 6F-phosphate
+fructose
+fructose 1#6-bisphosphate
+fructose 1-phosphate
+fructose 6-phosphate
+fructuronate
+fumarate
+galactitol
+galactitol 1-phosphate
+galactose
+galactose 6-phosphate
+gamma-L-glutamyl-L-cysteine
+geranyl diphosphate
+glucosamine 1-phosphate
+glucosamine 6-phosphate
+glucose
+glucose 1-phosphate
+glucose 6-phosphate
+glutamate
+glutaredoxin
+glutaredoxin disulfide
+glutaredoxin-glutathione disulfide
+glutathione
+glutathione disulfide
+glyceraldehyde 3-phosphate
+glycerate
+glycerone phosphate
+glycine
+glycolaldehyde
+guanine
+guanine34 in tRNA
+guanine46 in tRNA
+guanosine 3'#5'-bis(diphosphate)
+hexadec-9-enoyl-[acyl-carrier protein]
+hippurate
+holo-[acyl-carrier protein]
+hydrogen sulfide
+hydrogencarbonate
+hydrogencarbonate-
+hydrogenobyrinate
+hydroxymethylbilane
+iminosuccinate
+inosine
+isocitrate
+isopentenyl diphosphate
+isovaleryl-CoA
+lactate
+lactose
+lactose 6'-phosphate
+lactoylglutathione
+lipid IVA
+long-chain acyl-CoA
+long-chain fatty acid
+long-chain trans-2#3-dehydroacyl-CoA
+malate
+malonyl-CoA
+malonyl-[acyl-carrier protein]
+maltose
+maltose 6'-phosphate
+mannitol
+mannitol 1-phosphate
+mannonate
+mannose
+mannose 6-phosphate
+medium-chain acyl-CoA
+medium-chain trans-2#3-dehydroacyl-CoA
+meso-2#6-diaminoheptanedioate
+meso-diaminoheptanedioate
+methanol
+methionyl peptide
+methyl-L-methionine
+methylmalonyl-CoA
+molybdate
+molybdenum cofactor
+mycoredoxin
+mycoredoxin disulfide
+myo-inositol
+myo-inositol phosphate
+nicotinate
+nicotinate D-ribonucleotide
+nitrate
+nitric oxide
+nitrite
+nucleoside diphosphate
+nucleoside triphosphate
+octanoyl-[acyl-carrier protein]
+orotate
+orotidine 5'-phosphate
+other products
+oxalate
+oxaloacetate
+oxidized [2Fe-2S] ferredoxin
+oxidized donor
+oxidized ferredoxin
+pantoate
+pantotheine 4'-phosphate
+pantothenate
+peptide
+peptide-L-methionine
+peptide-L-methionine (R)-S-oxide
+phenylpyruvate
+phosphate
+phosphatidate
+phosphatidylglycerol
+phosphinothricin
+phosphoenolpyruvate
+phosphoprotein
+porphobilinogen
+precorrin-6A
+precorrin-6B
+prenyl diphosphate
+prephenate
+products of ATP breakdown
+protein
+protein L-cysteine
+protein L-glutamate
+protein L-glutamate O5-methyl ester
+protein L-glutamate methyl ester
+protein L-glutamine
+protein N6-(dihydrolipoyl)lysine
+protein N6-(lipoyl)lysine
+protein N6-(octanoyl)lysine
+protein S-methyl-L-cysteine
+protoheme
+protoporphyrin
+protoporphyrinogen-IX
+pseudouridine1915 in 23S rRNA
+purine base
+purine nucleoside
+putrescine
+pyridine-2#3-dicarboxylate
+pyrimidine residues (in DNA)
+pyruvate
+quinol
+quinone
+reduced [2Fe-2S] ferredoxin
+reduced electron-transfer flavoprotein
+reduced ferredoxin
+reduced flavoprotein
+ribazole
+ribazole 5'-phosphate
+riboflavin
+ribonucleoside
+ribonucleoside 5'-diphosphate
+ribose
+ribose 5-phosphate
+ribulose 5-phosphate
+sarcosine
+sedoheptulose 7-phosphate
+selenophosphate
+sn-glycerol 3-phosphate
+sorbitol
+sorbitol 6-phosphate
+substituted beta-amino acid
+succinate
+succinyl-CoA
+sucrose
+sulfate
+sulfide
+sulfite
+sulfur-(sulfur carrier)
+tRNA pseudouridine38-40
+tRNA uridine38-40
+tRNAAla
+tRNAArg
+tRNAAsp
+tRNACys
+tRNAGlu
+tRNAHis
+tRNAIle
+tRNALeu
+tRNALys
+tRNAPro
+tRNAThr
+tRNATrp
+tRNATyr
+tRNAVal
+tagaturonate
+tetrahydrofolate
+thiamine phosphate
+thioredoxin
+thioredoxin disulfide
+thymidine
+thymine
+triphosphate
+ubiquinol
+ubiquinone
+undecaprenyl diphosphate
+undecaprenyl phosphate
+uracil
+uracil1498 in 16S rRNA
+urate
+urea-1-carboxylate
+uridine2552 in 23S rRNA
+uroporphyrinogen III
+very-long-chain acyl-CoA
+very-long-chain trans-2#3-dehydroacyl-CoA
+xanthine
+xylopyranose
+xylulofuranose
+xylulose 5-phosphate

@@ -1,0 +1,61 @@
+ENTRY       EC 6.3.4.2                  Enzyme
+NAME        CTP synthase (glutamine hydrolysing);
+            UTP---ammonia ligase;
+            cytidine triphosphate synthetase;
+            uridine triphosphate aminase;
+            cytidine 5'-triphosphate synthetase;
+            CTPS (gene name);
+            pyrG (gene name);
+            CTP synthase;
+            UTP:ammonia ligase (ADP-forming)
+CLASS       Ligases;
+            Forming carbon-nitrogen bonds;
+            Other carbon-nitrogen ligases
+SYSNAME     UTP:L-glutamine amido-ligase (ADP-forming)
+REACTION    ATP + UTP + L-glutamine = ADP + phosphate + CTP + L-glutamate (overall reaction) [RN:R00573];
+            (1a) L-glutamine + H2O = L-glutamate + NH3 [RN:R00256];
+            (1b) ATP + UTP + NH3 = ADP + phosphate + CTP [RN:R00571]
+ALL_REAC    R00256 R00571 R00573
+SUBSTRATE   ATP [CPD:C00002];
+            UTP [CPD:C00075];
+            L-glutamine [CPD:C00064];
+            H2O [CPD:C00001];
+            NH3 [CPD:C00014]
+PRODUCT     ADP [CPD:C00008];
+            phosphate [CPD:C00009];
+            CTP [CPD:C00063];
+            L-glutamate [CPD:C00025];
+            NH3 [CPD:C00014]
+COMMENT     The enzyme contains three functionally distinct sites: an allosteric GTP-binding site, a glutaminase site where glutamine hydrolysis occurs (cf. EC 3.5.1.2, glutaminase), and the active site where CTP synthesis takes place. The reaction proceeds via phosphorylation of UTP by ATP to give an activated intermediate 4-phosphoryl UTP and ADP [4,5]. Ammonia then reacts with this intermediate generating CTP and a phosphate. The enzyme can also use ammonia from the surrounding solution [3,6].
+HISTORY     EC 6.3.4.2 created 1961, modified 2013
+REFERENCE   1  [PMID:13367044]
+  AUTHORS   LIEBERMAN I.
+  TITLE     Enzymatic amination of uridine triphosphate to cytidine triphosphate.
+  JOURNAL   J Biol Chem 222:765-75 (1956)
+REFERENCE   2
+  AUTHORS   Long, C.W., Levitzki, A., Houston, L.L and Koshland, D.E., Jr.
+  TITLE     Subunit structures and interactions of CTP synthetase.
+  JOURNAL   Fed Proc 28:342 (1969)
+REFERENCE   3  [PMID:4550560]
+  AUTHORS   Levitzki A, Koshland DE Jr
+  TITLE     Ligand-induced dimer-to-tetramer transformation in cytosine triphosphate synthetase.
+  JOURNAL   Biochemistry 11:247-53 (1972)
+            DOI:10.1021/bi00752a016
+REFERENCE   4  [PMID:2933396]
+  AUTHORS   von der Saal W, Anderson PM, Villafranca JJ
+  TITLE     Mechanistic investigations of Escherichia coli cytidine-5'-triphosphate synthetase. Detection of an intermediate by positional isotope exchange experiments.
+  JOURNAL   J Biol Chem 260:14993-7 (1985)
+REFERENCE   5  [PMID:2532543]
+  AUTHORS   Lewis DA, Villafranca JJ
+  TITLE     Investigation of the mechanism of CTP synthetase using rapid quench and isotope partitioning methods.
+  JOURNAL   Biochemistry 28:8454-9 (1989)
+            DOI:10.1021/bi00447a027
+REFERENCE   6  [PMID:11500486]
+  AUTHORS   Wadskov-Hansen SL, Willemoes M, Martinussen J, Hammer K, Neuhard J, Larsen S
+  TITLE     Cloning and verification of the Lactococcus lactis pyrG gene and characterization of the gene product, CTP synthase.
+  JOURNAL   J Biol Chem 276:38002-9 (2001)
+            DOI:10.1074/jbc.M100531200
+  SEQUENCE  [llm:llmg_0467]
+PATHWAY     ec00240  Pyrimidine metabolism
+            ec01100  Metabolic pathways
+ORTHOLOGY   K01937  CTP synthase

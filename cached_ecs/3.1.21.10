@@ -1,0 +1,60 @@
+ENTRY       EC 3.1.21.10                Enzyme
+NAME        crossover junction endodeoxyribonuclease;
+            Hje endonuclease;
+            Holliday junction endonuclease CCE1;
+            Holliday junction resolvase;
+            Holliday junction-cleaving endonuclease;
+            Holliday junction-resolving endoribonuclease;
+            RusA Holliday junction resolvase;
+            RusA endonuclease;
+            RuvC endonuclease;
+            SpCCe1 Holliday junction resolvase;
+            crossover junction endoribonuclease;
+            cruciform-cutting endonuclease;
+            endo X3;
+            endonuclease RuvC;
+            endonuclease VII;
+            endonuclease X3;
+            resolving enzyme CCE1
+CLASS       Hydrolases;
+            Acting on ester bonds;
+            Endodeoxyribonucleases producing 5'-phosphomonoesters
+REACTION    Endonucleolytic cleavage at a junction such as a reciprocal single-stranded crossover between two homologous DNA duplexes (Holliday junction)
+COMMENT     The enzyme from Saccharomyces cerevisiae has no endonuclease or exonuclease activity on single-stranded or double-stranded DNA molecules that do not contain Holliday junctions.
+HISTORY     EC 3.1.21.10 created 1989 as EC 3.1.22.4, modified 2003, transferred 2021 to EC 3.1.21.10
+REFERENCE   1  [PMID:3903750]
+  AUTHORS   Symington LS, Kolodner R.
+  TITLE     Partial purification of an enzyme from Saccharomyces cerevisiae that cleaves Holliday junctions.
+  JOURNAL   Proc Natl Acad Sci U S A 82:7247-51 (1985)
+            DOI:10.1073/pnas.82.21.7247
+REFERENCE   2  [PMID:8824253]
+  AUTHORS   Shida T, Iwasaki H, Saito A, Kyogoku Y, Shinagawa H.
+  TITLE     Analysis of substrate specificity of the RuvC holliday junction resolvase with synthetic Holliday junctions.
+  JOURNAL   J Biol Chem 271:26105-9 (1996)
+            DOI:10.1074/jbc.271.42.26105
+REFERENCE   3  [PMID:9135161]
+  AUTHORS   Shah R, Cosstick R, West SC.
+  TITLE     The RuvC protein dimer resolves Holliday junctions by a dual incision mechanism that involves base-specific contacts.
+  JOURNAL   EMBO J 16:1464-72 (1997)
+            DOI:10.1093/emboj/16.6.1464
+REFERENCE   4  [PMID:10471285]
+  AUTHORS   Fogg JM, Schofield MJ, White MF, Lilley DM.
+  TITLE     Sequence and functional-group specificity for cleavage of DNA junctions by RuvC of Escherichia coli.
+  JOURNAL   Biochemistry 38:11349-58 (1999)
+            DOI:10.1021/bi990926n
+REFERENCE   5  [PMID:11389467]
+  AUTHORS   Lilley DM, White MF.
+  TITLE     The junction-resolving enzymes.
+  JOURNAL   Nat Rev Mol Cell Biol 2:433-43 (2001)
+            DOI:10.1038/35073057
+REFERENCE   6  [PMID:12499561]
+  AUTHORS   Middleton CL, Parker JL, Richard DJ, White MF, Bond CS.
+  TITLE     Crystallization and preliminary X-ray diffraction studies of Hje, a HolliDay junction resolving enzyme from Sulfolobus solfataricus.
+  JOURNAL   Acta Crystallogr D Biol Crystallogr 59:171-3 (2003)
+            DOI:10.1107/S0907444902019546
+  SEQUENCE  [sso:SSO1176]
+ORTHOLOGY   K01159  crossover junction endodeoxyribonuclease RuvC
+            K01160  crossover junction endodeoxyribonuclease RusA
+            K03552  holliday junction resolvase
+            K17676  cruciform cutting endonuclease 1
+            K26527  Rudiviridae holliday junction resolvase

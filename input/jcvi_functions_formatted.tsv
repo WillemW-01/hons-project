@@ -1,0 +1,597 @@
+Feature ID	Type	Contig	Start	Stop	Frame	Strand	Length (bp)	Function	Subsystem	Subsystem[c]	NCBI GI	locus	Column1
+fig|1806462.14.peg.235	CDS	CP016816	295183	295746	1	+	564	5-formyltetrahydrofolate cyclo-ligase (EC:6.3.3.2)	"5-FCL-like protein; <br>Folate Biosynthesis; <br>One-carbon metabolism by tetrahydropterines"	5-FCL-like protein	gi|1057959353	locus|JCVSYN2_01245	TRUE
+fig|1806462.14.peg.235	CDS	CP016816	295183	295746	1	+	564	5-formyltetrahydrofolate cyclo-ligase (EC:6.3.3.2)	"5-FCL-like protein; <br>Folate Biosynthesis; <br>One-carbon metabolism by tetrahydropterines"	Folate Biosynthesis	gi|1057959353	locus|JCVSYN2_01245	TRUE
+fig|1806462.14.peg.235	CDS	CP016816	295183	295746	1	+	564	5-formyltetrahydrofolate cyclo-ligase (EC:6.3.3.2)	"5-FCL-like protein; <br>Folate Biosynthesis; <br>One-carbon metabolism by tetrahydropterines"	One-carbon metabolism by tetrahydropterines	gi|1057959353	locus|JCVSYN2_01245	TRUE
+fig|1806462.14.peg.399	CDS	CP016816	475277	474036	-2	-	1242	Serine hydroxymethyltransferase (EC:2.1.2.1)	"5-FCL-like protein; <br>Glycine Biosynthesis; <br>Serine Biosynthesis"	5-FCL-like protein	gi|1057959515	locus|JCVSYN2_02200	TRUE
+fig|1806462.14.peg.399	CDS	CP016816	475277	474036	-2	-	1242	Serine hydroxymethyltransferase (EC:2.1.2.1)	"5-FCL-like protein; <br>Glycine Biosynthesis; <br>Serine Biosynthesis"	Glycine Biosynthesis	gi|1057959515	locus|JCVSYN2_02200	TRUE
+fig|1806462.14.peg.399	CDS	CP016816	475277	474036	-2	-	1242	Serine hydroxymethyltransferase (EC:2.1.2.1)	"5-FCL-like protein; <br>Glycine Biosynthesis; <br>Serine Biosynthesis"	Serine Biosynthesis	gi|1057959515	locus|JCVSYN2_02200	TRUE
+fig|1806462.14.peg.352	CDS	CP016816	421857	420991	-3	-	867	Methylenetetrahydrofolate dehydrogenase (NADP+) (EC:1.5.1.5) / Methenyltetrahydrofolate cyclohydrolase (EC:3.5.4.9)	"5-FCL-like protein; <br>One-carbon metabolism by tetrahydropterines; <br>One-carbon metabolism by tetrahydropterines"	5-FCL-like protein	gi|1057959468	locus|JCVSYN2_01920	TRUE
+fig|1806462.14.peg.352	CDS	CP016816	421857	420991	-3	-	867	Methylenetetrahydrofolate dehydrogenase (NADP+) (EC:1.5.1.5) / Methenyltetrahydrofolate cyclohydrolase (EC:3.5.4.9)	"5-FCL-like protein; <br>One-carbon metabolism by tetrahydropterines; <br>One-carbon metabolism by tetrahydropterines"	One-carbon metabolism by tetrahydropterines	gi|1057959468	locus|JCVSYN2_01920	TRUE
+fig|1806462.14.peg.352	CDS	CP016816	421857	420991	-3	-	867	Methylenetetrahydrofolate dehydrogenase (NADP+) (EC:1.5.1.5) / Methenyltetrahydrofolate cyclohydrolase (EC:3.5.4.9)	"5-FCL-like protein; <br>One-carbon metabolism by tetrahydropterines; <br>One-carbon metabolism by tetrahydropterines"	One-carbon metabolism by tetrahydropterines	gi|1057959468	locus|JCVSYN2_01920	TRUE
+fig|1806462.14.peg.102	CDS	CP016816	138324	139649	3	+	1326	Dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase complex (EC:2.3.1.12)	"5-FCL-like protein; <br>Pyruvate metabolism II: acetyl-CoA, acetogenesis from pyruvate"	5-FCL-like protein	gi|1057959224	locus|JCVSYN2_00550	TRUE
+fig|1806462.14.peg.102	CDS	CP016816	138324	139649	3	+	1326	Dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase complex (EC:2.3.1.12)	"5-FCL-like protein; <br>Pyruvate metabolism II: acetyl-CoA, acetogenesis from pyruvate"	Pyruvate metabolism II: acetyl-CoA, acetogenesis from pyruvate	gi|1057959224	locus|JCVSYN2_00550	TRUE
+fig|1806462.14.peg.366	CDS	CP016816	439866	438118	-3	-	1749	Phosphonate ABC transporter permease protein phnE (TC 3.A.1.9.1)	ABC transporter alkylphosphonate (TC 3.A.1.9.1)	ABC transporter alkylphosphonate (TC 3.A.1.9.1)	gi|1057959482	locus|JCVSYN2_01990	FALSE
+fig|1806462.14.peg.367	CDS	CP016816	440579	439830	-2	-	750	Phosphonate ABC transporter ATP-binding protein (TC 3.A.1.9.1)	ABC transporter alkylphosphonate (TC 3.A.1.9.1)	ABC transporter alkylphosphonate (TC 3.A.1.9.1)	gi|1057959483	locus|JCVSYN2_01995	FALSE
+fig|1806462.14.peg.368	CDS	CP016816	442056	440593	-3	-	1464	Phosphonate ABC transporter phosphate-binding periplasmic component (TC 3.A.1.9.1)	ABC transporter alkylphosphonate (TC 3.A.1.9.1)	ABC transporter alkylphosphonate (TC 3.A.1.9.1)	gi|1057959484	locus|JCVSYN2_02000	FALSE
+fig|1806462.14.peg.80	CDS	CP016816	108907	110151	1	+	1245	Oligopeptide transport system permease protein OppB (TC 3.A.1.5.1)	ABC transporter oligopeptide (TC 3.A.1.5.1)	ABC transporter oligopeptide (TC 3.A.1.5.1)	gi|1057959202	locus|JCVSYN2_00440	FALSE
+fig|1806462.14.peg.81	CDS	CP016816	110167	111177	1	+	1011	Oligopeptide transport system permease protein OppC (TC 3.A.1.5.1)	ABC transporter oligopeptide (TC 3.A.1.5.1)	ABC transporter oligopeptide (TC 3.A.1.5.1)	gi|1057959203	locus|JCVSYN2_00445	FALSE
+fig|1806462.14.peg.82	CDS	CP016816	111191	112891	2	+	1701	Oligopeptide transport system permease protein OppB (TC 3.A.1.5.1)	ABC transporter oligopeptide (TC 3.A.1.5.1)	ABC transporter oligopeptide (TC 3.A.1.5.1)	gi|1057959204	locus|JCVSYN2_00450	FALSE
+fig|1806462.14.peg.83	CDS	CP016816	112893	114761	3	+	1869	Oligopeptide transport ATP-binding protein OppF (TC 3.A.1.5.1)	ABC transporter oligopeptide (TC 3.A.1.5.1)	ABC transporter oligopeptide (TC 3.A.1.5.1)	gi|1057959205	locus|JCVSYN2_00455	FALSE
+fig|1806462.14.peg.84	CDS	CP016816	114778	117879	1	+	3102	Oligopeptide ABC transporter, periplasmic oligopeptide-binding protein OppA (TC 3.A.1.5.1)	ABC transporter oligopeptide (TC 3.A.1.5.1)	ABC transporter oligopeptide (TC 3.A.1.5.1)	gi|1057959206	locus|JCVSYN2_00460	FALSE
+fig|1806462.14.peg.184	CDS	CP016816	227672	228331	2	+	660	"5&#39;-methylthioadenosine nucleosidase (EC:3.2.2.16) / S-adenosylhomocysteine nucleosidase (EC:3.2.2.9)"	"Adenosyl nucleosidases; <br>Adenosyl nucleosidases; <br>Methionine Degradation; <br>Polyamine Metabolism"	Adenosyl nucleosidases	gi|1057959302	locus|JCVSYN2_00985	TRUE
+fig|1806462.14.peg.184	CDS	CP016816	227672	228331	2	+	660	"5&#39;-methylthioadenosine nucleosidase (EC:3.2.2.16) / S-adenosylhomocysteine nucleosidase (EC:3.2.2.9)"	"Adenosyl nucleosidases; <br>Adenosyl nucleosidases; <br>Methionine Degradation; <br>Polyamine Metabolism"	Adenosyl nucleosidases	gi|1057959302	locus|JCVSYN2_00985	TRUE
+fig|1806462.14.peg.184	CDS	CP016816	227672	228331	2	+	660	"5&#39;-methylthioadenosine nucleosidase (EC:3.2.2.16) / S-adenosylhomocysteine nucleosidase (EC:3.2.2.9)"	"Adenosyl nucleosidases; <br>Adenosyl nucleosidases; <br>Methionine Degradation; <br>Polyamine Metabolism"	Methionine Degradation	gi|1057959302	locus|JCVSYN2_00985	TRUE
+fig|1806462.14.peg.184	CDS	CP016816	227672	228331	2	+	660	"5&#39;-methylthioadenosine nucleosidase (EC:3.2.2.16) / S-adenosylhomocysteine nucleosidase (EC:3.2.2.9)"	"Adenosyl nucleosidases; <br>Adenosyl nucleosidases; <br>Methionine Degradation; <br>Polyamine Metabolism"	Polyamine Metabolism	gi|1057959302	locus|JCVSYN2_00985	TRUE
+fig|1806462.14.peg.377	CDS	CP016816	451915	452568	1	+	654	Purine nucleoside phosphorylase (EC:2.4.2.1)	"Adenosyl nucleosidases; <br>Deoxyribose and Deoxynucleoside Catabolism; <br>Purine conversions"	Adenosyl nucleosidases	gi|1057959493	locus|JCVSYN2_02090	TRUE
+fig|1806462.14.peg.377	CDS	CP016816	451915	452568	1	+	654	Purine nucleoside phosphorylase (EC:2.4.2.1)	"Adenosyl nucleosidases; <br>Deoxyribose and Deoxynucleoside Catabolism; <br>Purine conversions"	Deoxyribose and Deoxynucleoside Catabolism	gi|1057959493	locus|JCVSYN2_02090	TRUE
+fig|1806462.14.peg.377	CDS	CP016816	451915	452568	1	+	654	Purine nucleoside phosphorylase (EC:2.4.2.1)	"Adenosyl nucleosidases; <br>Deoxyribose and Deoxynucleoside Catabolism; <br>Purine conversions"	Purine conversions	gi|1057959493	locus|JCVSYN2_02090	TRUE
+fig|1806462.14.peg.233	CDS	CP016816	293512	294750	1	+	1239	Cysteine desulfurase (EC:2.8.1.7), SufS subfamily	Alanine biosynthesis	Alanine biosynthesis	gi|1057959351	locus|JCVSYN2_01235	FALSE
+fig|1806462.14.peg.118	CDS	CP016816	157379	155628	-2	-	1752	Ribonuclease J2 (endoribonuclease in RNA processing)	Bacterial RNA-metabolizing Zn-dependent hydrolases	Bacterial RNA-metabolizing Zn-dependent hydrolases	gi|1057959239	locus|JCVSYN2_00630	FALSE
+fig|1806462.14.peg.295	CDS	CP016816	364772	366604	2	+	1833	Ribonuclease J2 (endoribonuclease in RNA processing)	Bacterial RNA-metabolizing Zn-dependent hydrolases	Bacterial RNA-metabolizing Zn-dependent hydrolases	gi|1057959411	locus|JCVSYN2_01590	FALSE
+fig|1806462.14.peg.39	CDS	CP016816	61360	60404	-1	-	957	TsaD/Kae1/Qri7 protein, required for threonylcarbamoyladenosine t(6)A37 formation in tRNA	"Bacterial RNA-metabolizing Zn-dependent hydrolases; <br>Macromolecular synthesis operon; <br>YgjD and YeaZ"	Bacterial RNA-metabolizing Zn-dependent hydrolases	gi|1057959161	locus|JCVSYN2_00230	TRUE
+fig|1806462.14.peg.39	CDS	CP016816	61360	60404	-1	-	957	TsaD/Kae1/Qri7 protein, required for threonylcarbamoyladenosine t(6)A37 formation in tRNA	"Bacterial RNA-metabolizing Zn-dependent hydrolases; <br>Macromolecular synthesis operon; <br>YgjD and YeaZ"	Macromolecular synthesis operon	gi|1057959161	locus|JCVSYN2_00230	TRUE
+fig|1806462.14.peg.39	CDS	CP016816	61360	60404	-1	-	957	TsaD/Kae1/Qri7 protein, required for threonylcarbamoyladenosine t(6)A37 formation in tRNA	"Bacterial RNA-metabolizing Zn-dependent hydrolases; <br>Macromolecular synthesis operon; <br>YgjD and YeaZ"	YgjD and YeaZ	gi|1057959161	locus|JCVSYN2_00230	TRUE
+fig|1806462.14.peg.354	CDS	CP016816	423546	424274	3	+	729	Trk system potassium uptake protein TrkA	"Bacterial RNA-metabolizing Zn-dependent hydrolases; <br>Potassium homeostasis"	Bacterial RNA-metabolizing Zn-dependent hydrolases	gi|1057959470	locus|JCVSYN2_01930	TRUE
+fig|1806462.14.peg.354	CDS	CP016816	423546	424274	3	+	729	Trk system potassium uptake protein TrkA	"Bacterial RNA-metabolizing Zn-dependent hydrolases; <br>Potassium homeostasis"	Potassium homeostasis	gi|1057959470	locus|JCVSYN2_01930	TRUE
+fig|1806462.14.peg.124	CDS	CP016816	164473	165036	1	+	564	TsaB protein, required for threonylcarbamoyladenosine (t(6)A) formation in tRNA	"Bacterial RNA-metabolizing Zn-dependent hydrolases; <br>Ribosome biogenesis bacterial; <br>YgjD and YeaZ; <br>YjeE"	Bacterial RNA-metabolizing Zn-dependent hydrolases	gi|1057959244	locus|JCVSYN2_00665	TRUE
+fig|1806462.14.peg.124	CDS	CP016816	164473	165036	1	+	564	TsaB protein, required for threonylcarbamoyladenosine (t(6)A) formation in tRNA	"Bacterial RNA-metabolizing Zn-dependent hydrolases; <br>Ribosome biogenesis bacterial; <br>YgjD and YeaZ; <br>YjeE"	Ribosome biogenesis bacterial	gi|1057959244	locus|JCVSYN2_00665	TRUE
+fig|1806462.14.peg.124	CDS	CP016816	164473	165036	1	+	564	TsaB protein, required for threonylcarbamoyladenosine (t(6)A) formation in tRNA	"Bacterial RNA-metabolizing Zn-dependent hydrolases; <br>Ribosome biogenesis bacterial; <br>YgjD and YeaZ; <br>YjeE"	YgjD and YeaZ	gi|1057959244	locus|JCVSYN2_00665	TRUE
+fig|1806462.14.peg.124	CDS	CP016816	164473	165036	1	+	564	TsaB protein, required for threonylcarbamoyladenosine (t(6)A) formation in tRNA	"Bacterial RNA-metabolizing Zn-dependent hydrolases; <br>Ribosome biogenesis bacterial; <br>YgjD and YeaZ; <br>YjeE"	YjeE	gi|1057959244	locus|JCVSYN2_00665	TRUE
+fig|1806462.14.peg.91	CDS	CP016816	126185	125583	-2	-	603	Peptide deformylase (EC:3.5.1.88)	"Bacterial RNA-metabolizing Zn-dependent hydrolases; <br>Translation termination factors bacterial"	Bacterial RNA-metabolizing Zn-dependent hydrolases	gi|1057959213	locus|JCVSYN2_00495	TRUE
+fig|1806462.14.peg.91	CDS	CP016816	126185	125583	-2	-	603	Peptide deformylase (EC:3.5.1.88)	"Bacterial RNA-metabolizing Zn-dependent hydrolases; <br>Translation termination factors bacterial"	Translation termination factors bacterial	gi|1057959213	locus|JCVSYN2_00495	TRUE
+fig|1806462.14.peg.132	CDS	CP016816	174340	174693	1	+	354	Ribosome-binding factor A	"CBSS-138119.3.peg.2719; <br>NusA-TFII Cluster; <br>Translation initiation factors bacterial"	CBSS-138119.3.peg.2719	gi|1057959251	locus|JCVSYN2_00710	TRUE
+fig|1806462.14.peg.132	CDS	CP016816	174340	174693	1	+	354	Ribosome-binding factor A	"CBSS-138119.3.peg.2719; <br>NusA-TFII Cluster; <br>Translation initiation factors bacterial"	NusA-TFII Cluster	gi|1057959251	locus|JCVSYN2_00710	TRUE
+fig|1806462.14.peg.132	CDS	CP016816	174340	174693	1	+	354	Ribosome-binding factor A	"CBSS-138119.3.peg.2719; <br>NusA-TFII Cluster; <br>Translation initiation factors bacterial"	Translation initiation factors bacterial	gi|1057959251	locus|JCVSYN2_00710	TRUE
+fig|1806462.14.peg.137	CDS	CP016816	179419	177557	-1	-	1863	Translation initiation factor 2	"CBSS-138119.3.peg.2719; <br>NusA-TFII Cluster; <br>Translation initiation factors bacterial; <br>Universal GTPases"	CBSS-138119.3.peg.2719	gi|1057959256	locus|JCVSYN2_00740	TRUE
+fig|1806462.14.peg.137	CDS	CP016816	179419	177557	-1	-	1863	Translation initiation factor 2	"CBSS-138119.3.peg.2719; <br>NusA-TFII Cluster; <br>Translation initiation factors bacterial; <br>Universal GTPases"	NusA-TFII Cluster	gi|1057959256	locus|JCVSYN2_00740	TRUE
+fig|1806462.14.peg.137	CDS	CP016816	179419	177557	-1	-	1863	Translation initiation factor 2	"CBSS-138119.3.peg.2719; <br>NusA-TFII Cluster; <br>Translation initiation factors bacterial; <br>Universal GTPases"	Translation initiation factors bacterial	gi|1057959256	locus|JCVSYN2_00740	TRUE
+fig|1806462.14.peg.137	CDS	CP016816	179419	177557	-1	-	1863	Translation initiation factor 2	"CBSS-138119.3.peg.2719; <br>NusA-TFII Cluster; <br>Translation initiation factors bacterial; <br>Universal GTPases"	Universal GTPases	gi|1057959256	locus|JCVSYN2_00740	TRUE
+fig|1806462.14.peg.65	CDS	CP016816	90992	91942	2	+	951	"FIG146085: 3&#39;-to-5&#39; oligoribonuclease A, Bacillus type"	"CBSS-138119.3.peg.2719; <br>RNA processing and degradation, bacterial"	CBSS-138119.3.peg.2719	gi|1057959187	locus|JCVSYN2_00360	TRUE
+fig|1806462.14.peg.65	CDS	CP016816	90992	91942	2	+	951	"FIG146085: 3&#39;-to-5&#39; oligoribonuclease A, Bacillus type"	"CBSS-138119.3.peg.2719; <br>RNA processing and degradation, bacterial"	RNA processing and degradation, bacterial	gi|1057959187	locus|JCVSYN2_00360	TRUE
+fig|1806462.14.peg.133	CDS	CP016816	174743	175621	2	+	879	tRNA pseudouridine synthase B (EC:4.2.1.70)	"CBSS-138119.3.peg.2719; <br>RNA pseudouridine syntheses; <br>tRNA processing"	CBSS-138119.3.peg.2719	gi|1057959252	locus|JCVSYN2_00715	TRUE
+fig|1806462.14.peg.133	CDS	CP016816	174743	175621	2	+	879	tRNA pseudouridine synthase B (EC:4.2.1.70)	"CBSS-138119.3.peg.2719; <br>RNA pseudouridine syntheses; <br>tRNA processing"	RNA pseudouridine syntheses	gi|1057959252	locus|JCVSYN2_00715	TRUE
+fig|1806462.14.peg.133	CDS	CP016816	174743	175621	2	+	879	tRNA pseudouridine synthase B (EC:4.2.1.70)	"CBSS-138119.3.peg.2719; <br>RNA pseudouridine syntheses; <br>tRNA processing"	tRNA processing	gi|1057959252	locus|JCVSYN2_00715	TRUE
+fig|1806462.14.peg.253	CDS	CP016816	317226	316912	-3	-	315	FIG139598: Potential ribosomal protein	CBSS-176279.3.peg.868	CBSS-176279.3.peg.868	gi|1057959371	locus|JCVSYN2_01335	FALSE
+fig|1806462.14.peg.252	CDS	CP016816	316910	316629	-2	-	282	LSU ribosomal protein L27p	"CBSS-176279.3.peg.868; <br>Ribosome LSU bacterial"	CBSS-176279.3.peg.868	gi|1057959370	locus|JCVSYN2_01330	TRUE
+fig|1806462.14.peg.252	CDS	CP016816	316910	316629	-2	-	282	LSU ribosomal protein L27p	"CBSS-176279.3.peg.868; <br>Ribosome LSU bacterial"	Ribosome LSU bacterial	gi|1057959370	locus|JCVSYN2_01330	TRUE
+fig|1806462.14.peg.254	CDS	CP016816	317531	317229	-2	-	303	LSU ribosomal protein L21p	"CBSS-176279.3.peg.868; <br>Ribosome LSU bacterial"	CBSS-176279.3.peg.868	gi|1057959372	locus|JCVSYN2_01340	TRUE
+fig|1806462.14.peg.254	CDS	CP016816	317531	317229	-2	-	303	LSU ribosomal protein L21p	"CBSS-176279.3.peg.868; <br>Ribosome LSU bacterial"	Ribosome LSU bacterial	gi|1057959372	locus|JCVSYN2_01340	TRUE
+fig|1806462.14.peg.180	CDS	CP016816	224217	225518	3	+	1302	GTP-binding protein Obg	"CBSS-176279.3.peg.868; <br>Universal GTPases"	CBSS-176279.3.peg.868	gi|1057959298	locus|JCVSYN2_00965	TRUE
+fig|1806462.14.peg.180	CDS	CP016816	224217	225518	3	+	1302	GTP-binding protein Obg	"CBSS-176279.3.peg.868; <br>Universal GTPases"	Universal GTPases	gi|1057959298	locus|JCVSYN2_00965	TRUE
+fig|1806462.14.peg.280	CDS	CP016816	348196	347483	-1	-	714	Uridine monophosphate kinase (EC:2.7.4.22)	CBSS-312309.3.peg.1965	CBSS-312309.3.peg.1965	gi|1057959397	locus|JCVSYN2_01510	FALSE
+fig|1806462.14.peg.283	CDS	CP016816	350712	349834	-3	-	879	SSU ribosomal protein S2p (SAe)	"CBSS-312309.3.peg.1965; <br>Ribosome SSU bacterial"	CBSS-312309.3.peg.1965	gi|1057959400	locus|JCVSYN2_01525	TRUE
+fig|1806462.14.peg.283	CDS	CP016816	350712	349834	-3	-	879	SSU ribosomal protein S2p (SAe)	"CBSS-312309.3.peg.1965; <br>Ribosome SSU bacterial"	Ribosome SSU bacterial	gi|1057959400	locus|JCVSYN2_01525	TRUE
+fig|1806462.14.peg.282	CDS	CP016816	349822	348935	-1	-	888	Translation elongation factor Ts	"CBSS-312309.3.peg.1965; <br>Translation elongation factors bacterial"	CBSS-312309.3.peg.1965	gi|1057959399	locus|JCVSYN2_01520	TRUE
+fig|1806462.14.peg.282	CDS	CP016816	349822	348935	-1	-	888	Translation elongation factor Ts	"CBSS-312309.3.peg.1965; <br>Translation elongation factors bacterial"	Translation elongation factors bacterial	gi|1057959399	locus|JCVSYN2_01520	TRUE
+fig|1806462.14.peg.329	CDS	CP016816	408095	407340	-2	-	756	Methionine aminopeptidase (EC:3.4.11.18)	"CBSS-312309.3.peg.1965; <br>Translation termination factors bacterial"	CBSS-312309.3.peg.1965	gi|1057959445	locus|JCVSYN2_01785	TRUE
+fig|1806462.14.peg.329	CDS	CP016816	408095	407340	-2	-	756	Methionine aminopeptidase (EC:3.4.11.18)	"CBSS-312309.3.peg.1965; <br>Translation termination factors bacterial"	Translation termination factors bacterial	gi|1057959445	locus|JCVSYN2_01785	TRUE
+fig|1806462.14.peg.197	CDS	CP016816	248119	248613	1	+	495	Metal-dependent hydrolase YbeY, involved in rRNA and/or ribosome maturation and assembly	CBSS-56780.10.peg.1536	CBSS-56780.10.peg.1536	gi|1057959315	locus|JCVSYN2_01050	FALSE
+fig|1806462.14.peg.1	CDS	CP016816	1	1353	1	+	1353	Chromosomal replication initiator protein DnaA	Cell Division Subsystem including YidCD	Cell Division Subsystem including YidCD	gi|1057959125	locus|JCVSYN2_00005	FALSE
+fig|1806462.14.peg.2	CDS	CP016816	1511	2638	2	+	1128	DNA polymerase III beta subunit (EC:2.7.7.7)	Cell Division Subsystem including YidCD	Cell Division Subsystem including YidCD	gi|1057959126	locus|JCVSYN2_00010	FALSE
+fig|1806462.14.peg.440	CDS	CP016816	524244	523549	-3	-	696	16S rRNA (guanine(527)-N(7))-methyltransferase (EC:2.1.1.170)	Cell Division Subsystem including YidCD	Cell Division Subsystem including YidCD	gi|1057959556	locus|JCVSYN2_02415	FALSE
+fig|1806462.14.peg.447	CDS	CP016816	535753	533864	-1	-	1890	tRNA uridine 5-carboxymethylaminomethyl modification enzyme GidA	Cell Division Subsystem including YidCD	Cell Division Subsystem including YidCD	gi|1057959563	locus|JCVSYN2_02450	FALSE
+fig|1806462.14.peg.452	CDS	CP016816	542598	541408	-3	-	1191	Inner membrane protein translocase component YidC, long form	Cell Division Subsystem including YidCD	Cell Division Subsystem including YidCD	gi|1057959568	locus|JCVSYN2_02475	FALSE
+fig|1806462.14.peg.6	CDS	CP016816	5515	7419	1	+	1905	DNA gyrase subunit B (EC:5.99.1.3)	"Cell Division Subsystem including YidCD; <br>DNA topoisomerases, Type II, ATP-dependent; <br>Resistance to fluoroquinolones"	Cell Division Subsystem including YidCD	gi|1057959130	locus|JCVSYN2_00030	TRUE
+fig|1806462.14.peg.6	CDS	CP016816	5515	7419	1	+	1905	DNA gyrase subunit B (EC:5.99.1.3)	"Cell Division Subsystem including YidCD; <br>DNA topoisomerases, Type II, ATP-dependent; <br>Resistance to fluoroquinolones"	DNA topoisomerases, Type II, ATP-dependent	gi|1057959130	locus|JCVSYN2_00030	TRUE
+fig|1806462.14.peg.6	CDS	CP016816	5515	7419	1	+	1905	DNA gyrase subunit B (EC:5.99.1.3)	"Cell Division Subsystem including YidCD; <br>DNA topoisomerases, Type II, ATP-dependent; <br>Resistance to fluoroquinolones"	Resistance to fluoroquinolones	gi|1057959130	locus|JCVSYN2_00030	TRUE
+fig|1806462.14.peg.7	CDS	CP016816	7435	9939	1	+	2505	DNA gyrase subunit A (EC:5.99.1.3)	"Cell Division Subsystem including YidCD; <br>DNA topoisomerases, Type II, ATP-dependent; <br>Resistance to fluoroquinolones"	Cell Division Subsystem including YidCD	gi|1057959131	locus|JCVSYN2_00035	TRUE
+fig|1806462.14.peg.7	CDS	CP016816	7435	9939	1	+	2505	DNA gyrase subunit A (EC:5.99.1.3)	"Cell Division Subsystem including YidCD; <br>DNA topoisomerases, Type II, ATP-dependent; <br>Resistance to fluoroquinolones"	DNA topoisomerases, Type II, ATP-dependent	gi|1057959131	locus|JCVSYN2_00035	TRUE
+fig|1806462.14.peg.7	CDS	CP016816	7435	9939	1	+	2505	DNA gyrase subunit A (EC:5.99.1.3)	"Cell Division Subsystem including YidCD; <br>DNA topoisomerases, Type II, ATP-dependent; <br>Resistance to fluoroquinolones"	Resistance to fluoroquinolones	gi|1057959131	locus|JCVSYN2_00035	TRUE
+fig|1806462.14.peg.454	CDS	CP016816	543086	542952	-2	-	135	LSU ribosomal protein L34p	"Cell Division Subsystem including YidCD; <br>Ribosome LSU bacterial"	Cell Division Subsystem including YidCD	gi|1057959570	locus|JCVSYN2_02485	TRUE
+fig|1806462.14.peg.454	CDS	CP016816	543086	542952	-2	-	135	LSU ribosomal protein L34p	"Cell Division Subsystem including YidCD; <br>Ribosome LSU bacterial"	Ribosome LSU bacterial	gi|1057959570	locus|JCVSYN2_02485	TRUE
+fig|1806462.14.peg.453	CDS	CP016816	542945	542616	-2	-	330	Ribonuclease P protein component (EC:3.1.26.5)	"Cell Division Subsystem including YidCD; <br>tRNA processing"	Cell Division Subsystem including YidCD	gi|1057959569	locus|JCVSYN2_02480	TRUE
+fig|1806462.14.peg.453	CDS	CP016816	542945	542616	-2	-	330	Ribonuclease P protein component (EC:3.1.26.5)	"Cell Division Subsystem including YidCD; <br>tRNA processing"	tRNA processing	gi|1057959569	locus|JCVSYN2_02480	TRUE
+fig|1806462.14.peg.41	CDS	CP016816	61876	63234	1	+	1359	GTPase and tRNA-U34 5-formylation enzyme TrmE	"Cell Division Subsystem including YidCD; <br>Universal GTPases"	Cell Division Subsystem including YidCD	gi|1057959163	locus|JCVSYN2_00240	TRUE
+fig|1806462.14.peg.41	CDS	CP016816	61876	63234	1	+	1359	GTPase and tRNA-U34 5-formylation enzyme TrmE	"Cell Division Subsystem including YidCD; <br>Universal GTPases"	Universal GTPases	gi|1057959163	locus|JCVSYN2_00240	TRUE
+fig|1806462.14.peg.22	CDS	CP016816	37008	35062	-3	-	1947	Cell division protein FtsH (EC:3.4.24.-)	Cell division-ribosomal stress proteins cluster	Cell division-ribosomal stress proteins cluster	gi|1057959144	locus|JCVSYN2_00110	FALSE
+fig|1806462.14.peg.97	CDS	CP016816	130602	131174	3	+	573	Hypoxanthine-guanine phosphoribosyltransferase (EC:2.4.2.8)	"Cell division-ribosomal stress proteins cluster; <br>Purine conversions"	Cell division-ribosomal stress proteins cluster	gi|1057959219	locus|JCVSYN2_00525	TRUE
+fig|1806462.14.peg.97	CDS	CP016816	130602	131174	3	+	573	Hypoxanthine-guanine phosphoribosyltransferase (EC:2.4.2.8)	"Cell division-ribosomal stress proteins cluster; <br>Purine conversions"	Purine conversions	gi|1057959219	locus|JCVSYN2_00525	TRUE
+fig|1806462.14.peg.423	CDS	CP016816	508011	508571	3	+	561	Peptidyl-tRNA hydrolase (EC:3.1.1.29)	"Cell division-ribosomal stress proteins cluster; <br>Sporulation-associated proteins with broader functions; <br>Translation termination factors bacterial"	Cell division-ribosomal stress proteins cluster	gi|1057959539	locus|JCVSYN2_02330	TRUE
+fig|1806462.14.peg.423	CDS	CP016816	508011	508571	3	+	561	Peptidyl-tRNA hydrolase (EC:3.1.1.29)	"Cell division-ribosomal stress proteins cluster; <br>Sporulation-associated proteins with broader functions; <br>Translation termination factors bacterial"	Sporulation-associated proteins with broader functions	gi|1057959539	locus|JCVSYN2_02330	TRUE
+fig|1806462.14.peg.423	CDS	CP016816	508011	508571	3	+	561	Peptidyl-tRNA hydrolase (EC:3.1.1.29)	"Cell division-ribosomal stress proteins cluster; <br>Sporulation-associated proteins with broader functions; <br>Translation termination factors bacterial"	Translation termination factors bacterial	gi|1057959539	locus|JCVSYN2_02330	TRUE
+fig|1806462.14.peg.23	CDS	CP016816	38445	37240	-3	-	1206	tRNA(Ile)-lysidine synthetase (EC:6.3.4.19)	"Cell division-ribosomal stress proteins cluster; <br>tRNA processing"	Cell division-ribosomal stress proteins cluster	gi|1057959145	locus|JCVSYN2_00115	TRUE
+fig|1806462.14.peg.23	CDS	CP016816	38445	37240	-3	-	1206	tRNA(Ile)-lysidine synthetase (EC:6.3.4.19)	"Cell division-ribosomal stress proteins cluster; <br>tRNA processing"	tRNA processing	gi|1057959145	locus|JCVSYN2_00115	TRUE
+fig|1806462.14.peg.388	CDS	CP016816	465870	463042	-3	-	2829	"Lead, cadmium, zinc and mercury transporting ATPase (EC:3.6.3.3) (EC:3.6.3.5); Copper-translocating P-type ATPase (EC:3.6.3.4)"	Copper homeostasis	Copper homeostasis	gi|1057959504	locus|JCVSYN2_02145	FALSE
+fig|1806462.14.peg.445	CDS	CP016816	531574	528917	-1	-	2658	"Lead, cadmium, zinc and mercury transporting ATPase (EC:3.6.3.3) (EC:3.6.3.5); Copper-translocating P-type ATPase (EC:3.6.3.4)"	Copper homeostasis	Copper homeostasis	gi|1057959561	locus|JCVSYN2_02440	FALSE
+fig|1806462.14.peg.375	CDS	CP016816	449863	449195	-1	-	669	Deoxyribose-phosphate aldolase (EC:4.1.2.4)	Deoxyribose and Deoxynucleoside Catabolism	Deoxyribose and Deoxynucleoside Catabolism	gi|1057959491	locus|JCVSYN2_02080	FALSE
+fig|1806462.14.peg.29	CDS	CP016816	44009	42003	-2	-	2007	DNA polymerase III subunits gamma and tau (EC:2.7.7.7)	DNA processing cluster	DNA processing cluster	gi|1057959151	locus|JCVSYN2_00145	FALSE
+fig|1806462.14.peg.28	CDS	CP016816	42001	41411	-1	-	591	Recombination protein RecR	"DNA processing cluster; <br>DNA repair, bacterial RecFOR pathway"	DNA processing cluster	gi|1057959150	locus|JCVSYN2_00140	TRUE
+fig|1806462.14.peg.28	CDS	CP016816	42001	41411	-1	-	591	Recombination protein RecR	"DNA processing cluster; <br>DNA repair, bacterial RecFOR pathway"	DNA repair, bacterial RecFOR pathway	gi|1057959150	locus|JCVSYN2_00140	TRUE
+fig|1806462.14.peg.46	CDS	CP016816	69024	68809	-3	-	216	Exodeoxyribonuclease VII small subunit (EC:3.1.11.6)	DNA repair, bacterial	DNA repair, bacterial	gi|1057959168	locus|JCVSYN2_00265	FALSE
+fig|1806462.14.peg.47	CDS	CP016816	70423	69014	-1	-	1410	Exodeoxyribonuclease VII large subunit (EC:3.1.11.6)	DNA repair, bacterial	DNA repair, bacterial	gi|1057959169	locus|JCVSYN2_00270	FALSE
+fig|1806462.14.peg.50	CDS	CP016816	72842	71973	-2	-	870	Endonuclease IV (EC:3.1.21.2)	DNA repair, bacterial	DNA repair, bacterial	gi|1057959172	locus|JCVSYN2_00285	FALSE
+fig|1806462.14.peg.199	CDS	CP016816	249522	250271	3	+	750	DNA recombination and repair protein RecO	DNA repair, bacterial RecFOR pathway	DNA repair, bacterial RecFOR pathway	gi|1057959317	locus|JCVSYN2_01060	FALSE
+fig|1806462.14.peg.363	CDS	CP016816	435968	433800	-2	-	2169	ATP-dependent DNA helicase UvrD/PcrA	DNA repair, bacterial UvrD and related helicases	DNA repair, bacterial UvrD and related helicases	gi|1057959479	locus|JCVSYN2_01975	FALSE
+fig|1806462.14.peg.16	CDS	CP016816	23456	23016	-2	-	441	Single-stranded DNA-binding protein	"DNA repair, bacterial; <br>DNA repair, bacterial RecFOR pathway"	DNA repair, bacterial	gi|1057959138	locus|JCVSYN2_00080	TRUE
+fig|1806462.14.peg.16	CDS	CP016816	23456	23016	-2	-	441	Single-stranded DNA-binding protein	"DNA repair, bacterial; <br>DNA repair, bacterial RecFOR pathway"	DNA repair, bacterial RecFOR pathway	gi|1057959138	locus|JCVSYN2_00080	TRUE
+fig|1806462.14.peg.117	CDS	CP016816	155506	153752	-1	-	1755	Excinuclease ABC subunit C	DNA repair, UvrABC system	DNA repair, UvrABC system	gi|1057959238	locus|JCVSYN2_00625	FALSE
+fig|1806462.14.peg.417	CDS	CP016816	501023	498183	-2	-	2841	Excinuclease ABC subunit A	DNA repair, UvrABC system	DNA repair, UvrABC system	gi|1057959533	locus|JCVSYN2_02290	FALSE
+fig|1806462.14.peg.418	CDS	CP016816	503029	501032	-1	-	1998	Excinuclease ABC subunit B	DNA repair, UvrABC system	DNA repair, UvrABC system	gi|1057959534	locus|JCVSYN2_02295	FALSE
+fig|1806462.14.peg.164	CDS	CP016816	208464	208736	3	+	273	DNA-binding protein HBsu	DNA structural proteins, bacterial	DNA structural proteins, bacterial	gi|1057959282	locus|JCVSYN2_00875	FALSE
+fig|1806462.14.peg.210	CDS	CP016816	269609	266643	-2	-	2967	Chromosome partition protein smc	DNA structural proteins, bacterial	DNA structural proteins, bacterial	gi|1057959328	locus|JCVSYN2_01115	FALSE
+fig|1806462.14.peg.436	CDS	CP016816	518165	520126	2	+	1962	DNA topoisomerase I (EC:5.99.1.2)	DNA topoisomerases, Type I, ATP-independent	DNA topoisomerases, Type I, ATP-independent	gi|1057959552	locus|JCVSYN2_02395	FALSE
+fig|1806462.14.peg.241	CDS	CP016816	302258	304189	2	+	1932	Topoisomerase IV subunit B (EC:5.99.1.-)	"DNA topoisomerases, Type II, ATP-dependent; <br>Resistance to fluoroquinolones"	DNA topoisomerases, Type II, ATP-dependent	gi|1057959359	locus|JCVSYN2_01275	TRUE
+fig|1806462.14.peg.241	CDS	CP016816	302258	304189	2	+	1932	Topoisomerase IV subunit B (EC:5.99.1.-)	"DNA topoisomerases, Type II, ATP-dependent; <br>Resistance to fluoroquinolones"	Resistance to fluoroquinolones	gi|1057959359	locus|JCVSYN2_01275	TRUE
+fig|1806462.14.peg.242	CDS	CP016816	304191	306887	3	+	2697	Topoisomerase IV subunit A (EC:5.99.1.-)	"DNA topoisomerases, Type II, ATP-dependent; <br>Resistance to fluoroquinolones"	DNA topoisomerases, Type II, ATP-dependent	gi|1057959360	locus|JCVSYN2_01280	TRUE
+fig|1806462.14.peg.242	CDS	CP016816	304191	306887	3	+	2697	Topoisomerase IV subunit A (EC:5.99.1.-)	"DNA topoisomerases, Type II, ATP-dependent; <br>Resistance to fluoroquinolones"	Resistance to fluoroquinolones	gi|1057959360	locus|JCVSYN2_01280	TRUE
+fig|1806462.14.peg.321	CDS	CP016816	402522	401512	-3	-	1011	Transmembrane component of general energizing module of ECF transporters	ECF class transporters	ECF class transporters	gi|1057959437	locus|JCVSYN2_01745	FALSE
+fig|1806462.14.peg.322	CDS	CP016816	403447	402536	-1	-	912	ATPase component of general energizing module of ECF transporters	ECF class transporters	ECF class transporters	gi|1057959438	locus|JCVSYN2_01750	FALSE
+fig|1806462.14.peg.323	CDS	CP016816	404661	403435	-3	-	1227	ATPase component of general energizing module of ECF transporters	ECF class transporters	ECF class transporters	gi|1057959439	locus|JCVSYN2_01755	FALSE
+fig|1806462.14.peg.443	CDS	CP016816	527349	526669	-3	-	681	Substrate-specific component RibU of riboflavin ECF transporter	ECF class transporters	ECF class transporters	gi|1057959559	locus|JCVSYN2_02430	FALSE
+fig|1806462.14.peg.147	CDS	CP016816	191373	192107	3	+	735	Substrate-specific component FolT of folate ECF transporter	"ECF class transporters; <br>Folate Biosynthesis"	ECF class transporters	gi|1057959265	locus|JCVSYN2_00790	TRUE
+fig|1806462.14.peg.147	CDS	CP016816	191373	192107	3	+	735	Substrate-specific component FolT of folate ECF transporter	"ECF class transporters; <br>Folate Biosynthesis"	Folate Biosynthesis	gi|1057959265	locus|JCVSYN2_00790	TRUE
+fig|1806462.14.peg.415	CDS	CP016816	497058	496384	-3	-	675	Substrate-specific component FolT of folate ECF transporter	"ECF class transporters; <br>Folate Biosynthesis"	ECF class transporters	gi|1057959531	locus|JCVSYN2_02280	TRUE
+fig|1806462.14.peg.415	CDS	CP016816	497058	496384	-3	-	675	Substrate-specific component FolT of folate ECF transporter	"ECF class transporters; <br>Folate Biosynthesis"	Folate Biosynthesis	gi|1057959531	locus|JCVSYN2_02280	TRUE
+fig|1806462.14.peg.427	CDS	CP016816	511970	512896	2	+	927	Substrate-specific component FolT of folate ECF transporter	"ECF class transporters; <br>Folate Biosynthesis"	ECF class transporters	gi|1057959543	locus|JCVSYN2_02350	TRUE
+fig|1806462.14.peg.427	CDS	CP016816	511970	512896	2	+	927	Substrate-specific component FolT of folate ECF transporter	"ECF class transporters; <br>Folate Biosynthesis"	Folate Biosynthesis	gi|1057959543	locus|JCVSYN2_02350	TRUE
+fig|1806462.14.peg.243	CDS	CP016816	308079	307123	-3	-	957	L-lactate dehydrogenase (EC:1.1.1.27)	Fermentations: Lactate	Fermentations: Lactate	gi|1057959361	locus|JCVSYN2_01285	FALSE
+fig|1806462.14.peg.104	CDS	CP016816	141579	142547	3	+	969	Phosphate acetyltransferase (EC:2.3.1.8)	"Fermentations: Lactate; <br>Pyruvate metabolism II: acetyl-CoA, acetogenesis from pyruvate"	Fermentations: Lactate	gi|1057959226	locus|JCVSYN2_00560	TRUE
+fig|1806462.14.peg.104	CDS	CP016816	141579	142547	3	+	969	Phosphate acetyltransferase (EC:2.3.1.8)	"Fermentations: Lactate; <br>Pyruvate metabolism II: acetyl-CoA, acetogenesis from pyruvate"	Pyruvate metabolism II: acetyl-CoA, acetogenesis from pyruvate	gi|1057959226	locus|JCVSYN2_00560	TRUE
+fig|1806462.14.peg.105	CDS	CP016816	142560	143741	3	+	1182	Acetate kinase (EC:2.7.2.1)	"Fermentations: Lactate; <br>Pyruvate metabolism II: acetyl-CoA, acetogenesis from pyruvate"	Fermentations: Lactate	gi|1057959227	locus|JCVSYN2_00565	TRUE
+fig|1806462.14.peg.105	CDS	CP016816	142560	143741	3	+	1182	Acetate kinase (EC:2.7.2.1)	"Fermentations: Lactate; <br>Pyruvate metabolism II: acetyl-CoA, acetogenesis from pyruvate"	Pyruvate metabolism II: acetyl-CoA, acetogenesis from pyruvate	gi|1057959227	locus|JCVSYN2_00565	TRUE
+fig|1806462.14.peg.416	CDS	CP016816	498190	497075	-1	-	1116	Dihydrofolate synthase (EC:6.3.2.12) @ Folylpolyglutamate synthase (EC:6.3.2.17)	"Folate Biosynthesis; <br>Folate Biosynthesis"	Folate Biosynthesis	gi|1057959532	locus|JCVSYN2_02285	TRUE
+fig|1806462.14.peg.416	CDS	CP016816	498190	497075	-1	-	1116	Dihydrofolate synthase (EC:6.3.2.12) @ Folylpolyglutamate synthase (EC:6.3.2.17)	"Folate Biosynthesis; <br>Folate Biosynthesis"	Folate Biosynthesis	gi|1057959532	locus|JCVSYN2_02285	TRUE
+fig|1806462.14.peg.237	CDS	CP016816	297882	299165	3	+	1284	Glucose-6-phosphate isomerase (EC:5.3.1.9)	Glycolysis and Gluconeogenesis	Glycolysis and Gluconeogenesis	gi|1057959355	locus|JCVSYN2_01255	FALSE
+fig|1806462.14.peg.240	CDS	CP016816	300656	302071	2	+	1416	Glyceraldehyde-3-phosphate dehydrogenase (NADP(+)) (EC:1.2.1.9)	Glycolysis and Gluconeogenesis	Glycolysis and Gluconeogenesis	gi|1057959358	locus|JCVSYN2_01270	FALSE
+fig|1806462.14.peg.299	CDS	CP016816	372160	370946	-1	-	1215	Phosphoglycerate kinase (EC:2.7.2.3)	Glycolysis and Gluconeogenesis	Glycolysis and Gluconeogenesis	gi|1057959415	locus|JCVSYN2_01615	FALSE
+fig|1806462.14.peg.300	CDS	CP016816	373288	372272	-1	-	1017	NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC:1.2.1.12)	Glycolysis and Gluconeogenesis	Glycolysis and Gluconeogenesis	gi|1057959416	locus|JCVSYN2_01620	FALSE
+fig|1806462.14.peg.371	CDS	CP016816	445270	446016	1	+	747	Triosephosphate isomerase (EC:5.3.1.1)	Glycolysis and Gluconeogenesis	Glycolysis and Gluconeogenesis	gi|1057959487	locus|JCVSYN2_02060	FALSE
+fig|1806462.14.peg.373	CDS	CP016816	446848	448443	1	+	1596	2,3-bisphosphoglycerate-independent phosphoglycerate mutase (EC:5.4.2.1)	Glycolysis and Gluconeogenesis	Glycolysis and Gluconeogenesis	gi|1057959489	locus|JCVSYN2_02070	FALSE
+fig|1806462.14.peg.60	CDS	CP016816	83504	84397	2	+	894	Fructose-bisphosphate aldolase class II (EC:4.1.2.13)	Glycolysis and Gluconeogenesis	Glycolysis and Gluconeogenesis	gi|1057959182	locus|JCVSYN2_00335	FALSE
+fig|1806462.14.peg.94	CDS	CP016816	127920	129275	3	+	1356	Enolase (EC:4.2.1.11)	Glycolysis and Gluconeogenesis	Glycolysis and Gluconeogenesis	gi|1057959216	locus|JCVSYN2_00510	FALSE
+fig|1806462.14.peg.99	CDS	CP016816	133142	134122	2	+	981	6-phosphofructokinase (EC:2.7.1.11)	Glycolysis and Gluconeogenesis	Glycolysis and Gluconeogenesis	gi|1057959221	locus|JCVSYN2_00535	FALSE
+fig|1806462.14.peg.100	CDS	CP016816	134193	135629	3	+	1437	Pyruvate kinase (EC:2.7.1.40)	"Glycolysis and Gluconeogenesis; <br>Pyruvate metabolism I: anaplerotic reactions, PEP"	Glycolysis and Gluconeogenesis	gi|1057959222	locus|JCVSYN2_00540	TRUE
+fig|1806462.14.peg.100	CDS	CP016816	134193	135629	3	+	1437	Pyruvate kinase (EC:2.7.1.40)	"Glycolysis and Gluconeogenesis; <br>Pyruvate metabolism I: anaplerotic reactions, PEP"	Pyruvate metabolism I: anaplerotic reactions, PEP	gi|1057959222	locus|JCVSYN2_00540	TRUE
+fig|1806462.14.peg.256	CDS	CP016816	318988	318101	-1	-	888	rRNA small subunit methyltransferase I	Heat shock dnaK gene cluster extended	Heat shock dnaK gene cluster extended	gi|1057959374	locus|JCVSYN2_01350	FALSE
+fig|1806462.14.peg.287	CDS	CP016816	355562	354540	-2	-	1023	Heat-inducible transcription repressor HrcA	Heat shock dnaK gene cluster extended	Heat shock dnaK gene cluster extended	gi|1057959404	locus|JCVSYN2_01545	FALSE
+fig|1806462.14.peg.290	CDS	CP016816	359896	359294	-1	-	603	Nucleoside 5-triphosphatase RdgB (dHAPTP, dITP, XTP-specific) (EC:3.6.1.15)	"Heat shock dnaK gene cluster extended; <br>Housecleaning nucleoside triphosphate pyrophosphatases"	Heat shock dnaK gene cluster extended	gi|1057959407	locus|JCVSYN2_01565	TRUE
+fig|1806462.14.peg.290	CDS	CP016816	359896	359294	-1	-	603	Nucleoside 5-triphosphatase RdgB (dHAPTP, dITP, XTP-specific) (EC:3.6.1.15)	"Heat shock dnaK gene cluster extended; <br>Housecleaning nucleoside triphosphate pyrophosphatases"	Housecleaning nucleoside triphosphate pyrophosphatases	gi|1057959407	locus|JCVSYN2_01565	TRUE
+fig|1806462.14.peg.284	CDS	CP016816	352038	350920	-3	-	1119	Chaperone protein DnaJ	"Heat shock dnaK gene cluster extended; <br>Protein chaperones"	Heat shock dnaK gene cluster extended	gi|1057959401	locus|JCVSYN2_01530	TRUE
+fig|1806462.14.peg.284	CDS	CP016816	352038	350920	-3	-	1119	Chaperone protein DnaJ	"Heat shock dnaK gene cluster extended; <br>Protein chaperones"	Protein chaperones	gi|1057959401	locus|JCVSYN2_01530	TRUE
+fig|1806462.14.peg.285	CDS	CP016816	353877	352102	-3	-	1776	Chaperone protein DnaK	"Heat shock dnaK gene cluster extended; <br>Protein chaperones"	Heat shock dnaK gene cluster extended	gi|1057959402	locus|JCVSYN2_01535	TRUE
+fig|1806462.14.peg.285	CDS	CP016816	353877	352102	-3	-	1776	Chaperone protein DnaK	"Heat shock dnaK gene cluster extended; <br>Protein chaperones"	Protein chaperones	gi|1057959402	locus|JCVSYN2_01535	TRUE
+fig|1806462.14.peg.286	CDS	CP016816	354538	353936	-1	-	603	Heat shock protein GrpE	"Heat shock dnaK gene cluster extended; <br>Protein chaperones"	Heat shock dnaK gene cluster extended	gi|1057959403	locus|JCVSYN2_01540	TRUE
+fig|1806462.14.peg.286	CDS	CP016816	354538	353936	-1	-	603	Heat shock protein GrpE	"Heat shock dnaK gene cluster extended; <br>Protein chaperones"	Protein chaperones	gi|1057959403	locus|JCVSYN2_01540	TRUE
+fig|1806462.14.peg.128	CDS	CP016816	168527	170329	2	+	1803	Translation elongation factor LepA	"Heat shock dnaK gene cluster extended; <br>Translation elongation factors bacterial; <br>Universal GTPases"	Heat shock dnaK gene cluster extended	gi|1057959248	locus|JCVSYN2_00690	TRUE
+fig|1806462.14.peg.128	CDS	CP016816	168527	170329	2	+	1803	Translation elongation factor LepA	"Heat shock dnaK gene cluster extended; <br>Translation elongation factors bacterial; <br>Universal GTPases"	Translation elongation factors bacterial	gi|1057959248	locus|JCVSYN2_00690	TRUE
+fig|1806462.14.peg.128	CDS	CP016816	168527	170329	2	+	1803	Translation elongation factor LepA	"Heat shock dnaK gene cluster extended; <br>Translation elongation factors bacterial; <br>Universal GTPases"	Universal GTPases	gi|1057959248	locus|JCVSYN2_00690	TRUE
+fig|1806462.14.peg.384	CDS	CP016816	459114	459560	3	+	447	tmRNA-binding protein SmpB	"Heat shock dnaK gene cluster extended; <br>Translation termination factors bacterial"	Heat shock dnaK gene cluster extended	gi|1057959500	locus|JCVSYN2_02125	TRUE
+fig|1806462.14.peg.384	CDS	CP016816	459114	459560	3	+	447	tmRNA-binding protein SmpB	"Heat shock dnaK gene cluster extended; <br>Translation termination factors bacterial"	Translation termination factors bacterial	gi|1057959500	locus|JCVSYN2_02125	TRUE
+fig|1806462.14.peg.219	CDS	CP016816	276464	278554	2	+	2091	Phosphate transport system permease protein PstA (TC 3.A.1.7.1) / Phosphate transport system permease protein PstC (TC 3.A.1.7.1)	"High affinity phosphate transporter and control of PHO regulon; <br>High affinity phosphate transporter and control of PHO regulon; <br>Phosphate metabolism; <br>Phosphate metabolism"	High affinity phosphate transporter and control of PHO regulon	gi|1057959337	locus|JCVSYN2_01165	TRUE
+fig|1806462.14.peg.219	CDS	CP016816	276464	278554	2	+	2091	Phosphate transport system permease protein PstA (TC 3.A.1.7.1) / Phosphate transport system permease protein PstC (TC 3.A.1.7.1)	"High affinity phosphate transporter and control of PHO regulon; <br>High affinity phosphate transporter and control of PHO regulon; <br>Phosphate metabolism; <br>Phosphate metabolism"	High affinity phosphate transporter and control of PHO regulon	gi|1057959337	locus|JCVSYN2_01165	TRUE
+fig|1806462.14.peg.219	CDS	CP016816	276464	278554	2	+	2091	Phosphate transport system permease protein PstA (TC 3.A.1.7.1) / Phosphate transport system permease protein PstC (TC 3.A.1.7.1)	"High affinity phosphate transporter and control of PHO regulon; <br>High affinity phosphate transporter and control of PHO regulon; <br>Phosphate metabolism; <br>Phosphate metabolism"	Phosphate metabolism	gi|1057959337	locus|JCVSYN2_01165	TRUE
+fig|1806462.14.peg.219	CDS	CP016816	276464	278554	2	+	2091	Phosphate transport system permease protein PstA (TC 3.A.1.7.1) / Phosphate transport system permease protein PstC (TC 3.A.1.7.1)	"High affinity phosphate transporter and control of PHO regulon; <br>High affinity phosphate transporter and control of PHO regulon; <br>Phosphate metabolism; <br>Phosphate metabolism"	Phosphate metabolism	gi|1057959337	locus|JCVSYN2_01165	TRUE
+fig|1806462.14.peg.218	CDS	CP016816	275282	276412	2	+	1131	Putative periplasmic phosphate-binding protein PstS (Mycoplasma type)	"High affinity phosphate transporter and control of PHO regulon; <br>Phosphate metabolism"	High affinity phosphate transporter and control of PHO regulon	gi|1057959336	locus|JCVSYN2_01160	TRUE
+fig|1806462.14.peg.218	CDS	CP016816	275282	276412	2	+	1131	Putative periplasmic phosphate-binding protein PstS (Mycoplasma type)	"High affinity phosphate transporter and control of PHO regulon; <br>Phosphate metabolism"	Phosphate metabolism	gi|1057959336	locus|JCVSYN2_01160	TRUE
+fig|1806462.14.peg.220	CDS	CP016816	278547	279356	3	+	810	Phosphate transport ATP-binding protein PstB (TC 3.A.1.7.1)	"High affinity phosphate transporter and control of PHO regulon; <br>Phosphate metabolism"	High affinity phosphate transporter and control of PHO regulon	gi|1057959338	locus|JCVSYN2_01170	TRUE
+fig|1806462.14.peg.220	CDS	CP016816	278547	279356	3	+	810	Phosphate transport ATP-binding protein PstB (TC 3.A.1.7.1)	"High affinity phosphate transporter and control of PHO regulon; <br>Phosphate metabolism"	Phosphate metabolism	gi|1057959338	locus|JCVSYN2_01170	TRUE
+fig|1806462.14.peg.221	CDS	CP016816	279365	280039	2	+	675	Phosphate transport system regulatory protein PhoU	"High affinity phosphate transporter and control of PHO regulon; <br>Phosphate metabolism"	High affinity phosphate transporter and control of PHO regulon	gi|1057959339	locus|JCVSYN2_01175	TRUE
+fig|1806462.14.peg.221	CDS	CP016816	279365	280039	2	+	675	Phosphate transport system regulatory protein PhoU	"High affinity phosphate transporter and control of PHO regulon; <br>Phosphate metabolism"	Phosphate metabolism	gi|1057959339	locus|JCVSYN2_01175	TRUE
+fig|1806462.14.peg.238	CDS	CP016816	299198	299701	2	+	504	Dimeric dUTPase (EC:3.6.1.23)	Housecleaning nucleoside triphosphate pyrophosphatases	Housecleaning nucleoside triphosphate pyrophosphatases	gi|1057959356	locus|JCVSYN2_01260	FALSE
+fig|1806462.14.peg.414	CDS	CP016816	496300	495359	-1	-	942	HPr kinase/phosphorylase (EC:2.7.1.-) (EC:2.7.4.-)	HPr catabolite repression system	HPr catabolite repression system	gi|1057959530	locus|JCVSYN2_02275	FALSE
+fig|1806462.14.peg.411	CDS	CP016816	492843	491413	-3	-	1431	Prolipoprotein diacylglyceryl transferase (EC:2.4.99.-)	Lipoprotein Biosynthesis	Lipoprotein Biosynthesis	gi|1057959527	locus|JCVSYN2_02260	FALSE
+fig|1806462.14.peg.265	CDS	CP016816	326550	325942	-3	-	609	Lipoprotein signal peptidase (EC:3.4.23.36)	"Lipoprotein Biosynthesis; <br>Signal peptidase"	Lipoprotein Biosynthesis	gi|1057959383	locus|JCVSYN2_01420	TRUE
+fig|1806462.14.peg.265	CDS	CP016816	326550	325942	-3	-	609	Lipoprotein signal peptidase (EC:3.4.23.36)	"Lipoprotein Biosynthesis; <br>Signal peptidase"	Signal peptidase	gi|1057959383	locus|JCVSYN2_01420	TRUE
+fig|1806462.14.peg.201	CDS	CP016816	251740	253578	1	+	1839	DNA primase (EC:2.7.7.-)	Macromolecular synthesis operon	Macromolecular synthesis operon	gi|1057959319	locus|JCVSYN2_01070	FALSE
+fig|1806462.14.peg.247	CDS	CP016816	311391	311555	3	+	165	SSU ribosomal protein S21p	"Macromolecular synthesis operon; <br>Ribosome SSU bacterial"	Macromolecular synthesis operon	gi|1057959365	locus|JCVSYN2_01305	TRUE
+fig|1806462.14.peg.247	CDS	CP016816	311391	311555	3	+	165	SSU ribosomal protein S21p	"Macromolecular synthesis operon; <br>Ribosome SSU bacterial"	Ribosome SSU bacterial	gi|1057959365	locus|JCVSYN2_01305	TRUE
+fig|1806462.14.peg.202	CDS	CP016816	253581	255101	3	+	1521	RNA polymerase sigma factor RpoD	"Macromolecular synthesis operon; <br>Transcription initiation, bacterial sigma factors"	Macromolecular synthesis operon	gi|1057959320	locus|JCVSYN2_01075	TRUE
+fig|1806462.14.peg.202	CDS	CP016816	253581	255101	3	+	1521	RNA polymerase sigma factor RpoD	"Macromolecular synthesis operon; <br>Transcription initiation, bacterial sigma factors"	Transcription initiation, bacterial sigma factors	gi|1057959320	locus|JCVSYN2_01075	TRUE
+fig|1806462.14.peg.228	CDS	CP016816	285803	286732	2	+	930	Mannose-6-phosphate isomerase (EC:5.3.1.8)	Mannose Metabolism	Mannose Metabolism	gi|1057959346	locus|JCVSYN2_01210	FALSE
+fig|1806462.14.peg.225	CDS	CP016816	282631	283794	1	+	1164	S-adenosylmethionine synthetase (EC:2.5.1.6)	Methionine Degradation	Methionine Degradation	gi|1057959343	locus|JCVSYN2_01195	FALSE
+fig|1806462.14.peg.401	CDS	CP016816	479639	475872	-2	-	3768	"DNA-directed RNA polymerase beta&#39; subunit (EC:2.7.7.6)"	"Mycobacterium virulence operon involved in DNA transcription; <br>RNA polymerase bacterial"	Mycobacterium virulence operon involved in DNA transcription	gi|1057959517	locus|JCVSYN2_02210	TRUE
+fig|1806462.14.peg.401	CDS	CP016816	479639	475872	-2	-	3768	"DNA-directed RNA polymerase beta&#39; subunit (EC:2.7.7.6)"	"Mycobacterium virulence operon involved in DNA transcription; <br>RNA polymerase bacterial"	RNA polymerase bacterial	gi|1057959517	locus|JCVSYN2_02210	TRUE
+fig|1806462.14.peg.402	CDS	CP016816	483526	479651	-1	-	3876	DNA-directed RNA polymerase beta subunit (EC:2.7.7.6)	"Mycobacterium virulence operon involved in DNA transcription; <br>RNA polymerase bacterial"	Mycobacterium virulence operon involved in DNA transcription	gi|1057959518	locus|JCVSYN2_02215	TRUE
+fig|1806462.14.peg.402	CDS	CP016816	483526	479651	-1	-	3876	DNA-directed RNA polymerase beta subunit (EC:2.7.7.6)	"Mycobacterium virulence operon involved in DNA transcription; <br>RNA polymerase bacterial"	RNA polymerase bacterial	gi|1057959518	locus|JCVSYN2_02215	TRUE
+fig|1806462.14.peg.88	CDS	CP016816	124613	124254	-2	-	360	LSU ribosomal protein L20p	"Mycobacterium virulence operon involved in protein synthesis (LSU ribosomal proteins); <br>Ribosome LSU bacterial"	Mycobacterium virulence operon involved in protein synthesis (LSU ribosomal proteins)	gi|1057959210	locus|JCVSYN2_00480	TRUE
+fig|1806462.14.peg.88	CDS	CP016816	124613	124254	-2	-	360	LSU ribosomal protein L20p	"Mycobacterium virulence operon involved in protein synthesis (LSU ribosomal proteins); <br>Ribosome LSU bacterial"	Ribosome LSU bacterial	gi|1057959210	locus|JCVSYN2_00480	TRUE
+fig|1806462.14.peg.89	CDS	CP016816	124823	124632	-2	-	192	LSU ribosomal protein L35p	"Mycobacterium virulence operon involved in protein synthesis (LSU ribosomal proteins); <br>Ribosome LSU bacterial"	Mycobacterium virulence operon involved in protein synthesis (LSU ribosomal proteins)	gi|1057959211	locus|JCVSYN2_00485	TRUE
+fig|1806462.14.peg.89	CDS	CP016816	124823	124632	-2	-	192	LSU ribosomal protein L35p	"Mycobacterium virulence operon involved in protein synthesis (LSU ribosomal proteins); <br>Ribosome LSU bacterial"	Ribosome LSU bacterial	gi|1057959211	locus|JCVSYN2_00485	TRUE
+fig|1806462.14.peg.90	CDS	CP016816	125394	124849	-3	-	546	Translation initiation factor 3	"Mycobacterium virulence operon involved in protein synthesis (LSU ribosomal proteins); <br>Translation initiation factors bacterial"	Mycobacterium virulence operon involved in protein synthesis (LSU ribosomal proteins)	gi|1057959212	locus|JCVSYN2_00490	TRUE
+fig|1806462.14.peg.90	CDS	CP016816	125394	124849	-3	-	546	Translation initiation factor 3	"Mycobacterium virulence operon involved in protein synthesis (LSU ribosomal proteins); <br>Translation initiation factors bacterial"	Translation initiation factors bacterial	gi|1057959212	locus|JCVSYN2_00490	TRUE
+fig|1806462.14.peg.74	CDS	CP016816	100119	100538	3	+	420	SSU ribosomal protein S12p (S23e)	"Mycobacterium virulence operon involved in protein synthesis (SSU ribosomal proteins); <br>Ribosome SSU bacterial"	Mycobacterium virulence operon involved in protein synthesis (SSU ribosomal proteins)	gi|1057959196	locus|JCVSYN2_00405	TRUE
+fig|1806462.14.peg.74	CDS	CP016816	100119	100538	3	+	420	SSU ribosomal protein S12p (S23e)	"Mycobacterium virulence operon involved in protein synthesis (SSU ribosomal proteins); <br>Ribosome SSU bacterial"	Ribosome SSU bacterial	gi|1057959196	locus|JCVSYN2_00405	TRUE
+fig|1806462.14.peg.75	CDS	CP016816	100625	101092	2	+	468	SSU ribosomal protein S7p (S5e)	"Mycobacterium virulence operon involved in protein synthesis (SSU ribosomal proteins); <br>Ribosome SSU bacterial"	Mycobacterium virulence operon involved in protein synthesis (SSU ribosomal proteins)	gi|1057959197	locus|JCVSYN2_00410	TRUE
+fig|1806462.14.peg.75	CDS	CP016816	100625	101092	2	+	468	SSU ribosomal protein S7p (S5e)	"Mycobacterium virulence operon involved in protein synthesis (SSU ribosomal proteins); <br>Ribosome SSU bacterial"	Ribosome SSU bacterial	gi|1057959197	locus|JCVSYN2_00410	TRUE
+fig|1806462.14.peg.76	CDS	CP016816	101117	103186	2	+	2070	Translation elongation factor G	"Mycobacterium virulence operon involved in protein synthesis (SSU ribosomal proteins); <br>Translation elongation factor G family; <br>Translation elongation factors bacterial; <br>Universal GTPases"	Mycobacterium virulence operon involved in protein synthesis (SSU ribosomal proteins)	gi|1057959198	locus|JCVSYN2_00415	TRUE
+fig|1806462.14.peg.76	CDS	CP016816	101117	103186	2	+	2070	Translation elongation factor G	"Mycobacterium virulence operon involved in protein synthesis (SSU ribosomal proteins); <br>Translation elongation factor G family; <br>Translation elongation factors bacterial; <br>Universal GTPases"	Translation elongation factor G family	gi|1057959198	locus|JCVSYN2_00415	TRUE
+fig|1806462.14.peg.76	CDS	CP016816	101117	103186	2	+	2070	Translation elongation factor G	"Mycobacterium virulence operon involved in protein synthesis (SSU ribosomal proteins); <br>Translation elongation factor G family; <br>Translation elongation factors bacterial; <br>Universal GTPases"	Translation elongation factors bacterial	gi|1057959198	locus|JCVSYN2_00415	TRUE
+fig|1806462.14.peg.76	CDS	CP016816	101117	103186	2	+	2070	Translation elongation factor G	"Mycobacterium virulence operon involved in protein synthesis (SSU ribosomal proteins); <br>Translation elongation factor G family; <br>Translation elongation factors bacterial; <br>Universal GTPases"	Universal GTPases	gi|1057959198	locus|JCVSYN2_00415	TRUE
+fig|1806462.14.peg.77	CDS	CP016816	103318	104505	1	+	1188	Translation elongation factor Tu	"Mycobacterium virulence operon involved in protein synthesis (SSU ribosomal proteins); <br>Translation elongation factors bacterial; <br>Universal GTPases"	Mycobacterium virulence operon involved in protein synthesis (SSU ribosomal proteins)	gi|1057959199	locus|JCVSYN2_00420	TRUE
+fig|1806462.14.peg.77	CDS	CP016816	103318	104505	1	+	1188	Translation elongation factor Tu	"Mycobacterium virulence operon involved in protein synthesis (SSU ribosomal proteins); <br>Translation elongation factors bacterial; <br>Universal GTPases"	Translation elongation factors bacterial	gi|1057959199	locus|JCVSYN2_00420	TRUE
+fig|1806462.14.peg.77	CDS	CP016816	103318	104505	1	+	1188	Translation elongation factor Tu	"Mycobacterium virulence operon involved in protein synthesis (SSU ribosomal proteins); <br>Translation elongation factors bacterial; <br>Universal GTPases"	Universal GTPases	gi|1057959199	locus|JCVSYN2_00420	TRUE
+fig|1806462.14.peg.181	CDS	CP016816	225520	226257	1	+	738	NAD synthetase (EC:6.3.1.5)	NAD and NADP cofactor biosynthesis global	NAD and NADP cofactor biosynthesis global	gi|1057959299	locus|JCVSYN2_00970	FALSE
+fig|1806462.14.peg.183	CDS	CP016816	226570	227667	1	+	1098	Nicotinate-nucleotide adenylyltransferase (EC:2.7.7.18) / Hydrolase (HD superfamily), YqeK # fusion with NadD	NAD and NADP cofactor biosynthesis global	NAD and NADP cofactor biosynthesis global	gi|1057959301	locus|JCVSYN2_00980	FALSE
+fig|1806462.14.peg.307	CDS	CP016816	384729	383668	-3	-	1062	Nicotinate phosphoribosyltransferase (EC:2.4.2.11)	NAD and NADP cofactor biosynthesis global	NAD and NADP cofactor biosynthesis global	gi|1057959423	locus|JCVSYN2_01655	FALSE
+fig|1806462.14.peg.138	CDS	CP016816	179740	179441	-1	-	300	ribosomal protein L7Ae family protein	"NusA-TFII Cluster; <br>Transcription factors bacterial"	NusA-TFII Cluster	gi|1057959257	locus|JCVSYN2_00745	TRUE
+fig|1806462.14.peg.138	CDS	CP016816	179740	179441	-1	-	300	ribosomal protein L7Ae family protein	"NusA-TFII Cluster; <br>Transcription factors bacterial"	Transcription factors bacterial	gi|1057959257	locus|JCVSYN2_00745	TRUE
+fig|1806462.14.peg.139	CDS	CP016816	180008	179727	-2	-	282	COG2740: Predicted nucleic-acid-binding protein implicated in transcription termination	"NusA-TFII Cluster; <br>Transcription factors bacterial"	NusA-TFII Cluster	gi|1057959576	locus|JCVSYN2_00750	TRUE
+fig|1806462.14.peg.139	CDS	CP016816	180008	179727	-2	-	282	COG2740: Predicted nucleic-acid-binding protein implicated in transcription termination	"NusA-TFII Cluster; <br>Transcription factors bacterial"	Transcription factors bacterial	gi|1057959576	locus|JCVSYN2_00750	TRUE
+fig|1806462.14.peg.140	CDS	CP016816	181743	179989	-3	-	1755	Transcription termination protein NusA	"NusA-TFII Cluster; <br>Transcription factors bacterial"	NusA-TFII Cluster	gi|1057959258	locus|JCVSYN2_00755	TRUE
+fig|1806462.14.peg.140	CDS	CP016816	181743	179989	-3	-	1755	Transcription termination protein NusA	"NusA-TFII Cluster; <br>Transcription factors bacterial"	Transcription factors bacterial	gi|1057959258	locus|JCVSYN2_00755	TRUE
+fig|1806462.14.peg.141	CDS	CP016816	182246	181752	-2	-	495	FIG000325: clustered with transcription termination protein NusA	"NusA-TFII Cluster; <br>Transcription factors bacterial"	NusA-TFII Cluster	gi|1057959259	locus|JCVSYN2_00760	TRUE
+fig|1806462.14.peg.141	CDS	CP016816	182246	181752	-2	-	495	FIG000325: clustered with transcription termination protein NusA	"NusA-TFII Cluster; <br>Transcription factors bacterial"	Transcription factors bacterial	gi|1057959259	locus|JCVSYN2_00760	TRUE
+fig|1806462.14.peg.311	CDS	CP016816	387854	387390	-2	-	465	"Peroxide stress regulator; Ferric uptake regulation protein; Fe2+/Zn2+ uptake regulation proteins"	"Oxidative stress; <br>Oxidative stress; <br>Oxidative stress"	Oxidative stress	gi|1057959427	locus|JCVSYN2_01685	TRUE
+fig|1806462.14.peg.311	CDS	CP016816	387854	387390	-2	-	465	"Peroxide stress regulator; Ferric uptake regulation protein; Fe2+/Zn2+ uptake regulation proteins"	"Oxidative stress; <br>Oxidative stress; <br>Oxidative stress"	Oxidative stress	gi|1057959427	locus|JCVSYN2_01685	TRUE
+fig|1806462.14.peg.311	CDS	CP016816	387854	387390	-2	-	465	"Peroxide stress regulator; Ferric uptake regulation protein; Fe2+/Zn2+ uptake regulation proteins"	"Oxidative stress; <br>Oxidative stress; <br>Oxidative stress"	Oxidative stress	gi|1057959427	locus|JCVSYN2_01685	TRUE
+fig|1806462.14.peg.30	CDS	CP016816	45742	45293	-1	-	450	Alkyl hydroperoxide reductase subunit C-like protein	"Oxidative stress; <br>Thioredoxin-disulfide reductase"	Oxidative stress	gi|1057959152	locus|JCVSYN2_00160	TRUE
+fig|1806462.14.peg.30	CDS	CP016816	45742	45293	-1	-	450	Alkyl hydroperoxide reductase subunit C-like protein	"Oxidative stress; <br>Thioredoxin-disulfide reductase"	Thioredoxin-disulfide reductase	gi|1057959152	locus|JCVSYN2_00160	TRUE
+fig|1806462.14.peg.120	CDS	CP016816	161891	161214	-2	-	678	Ribulose-phosphate 3-epimerase (EC:5.1.3.1)	Pentose phosphate pathway	Pentose phosphate pathway	gi|1057959241	locus|JCVSYN2_00645	FALSE
+fig|1806462.14.peg.149	CDS	CP016816	192440	194410	2	+	1971	Transketolase (EC:2.2.1.1)	Pentose phosphate pathway	Pentose phosphate pathway	gi|1057959267	locus|JCVSYN2_00800	FALSE
+fig|1806462.14.peg.400	CDS	CP016816	475704	475261	-3	-	444	Ribose 5-phosphate isomerase B (EC:5.3.1.6)	Pentose phosphate pathway	Pentose phosphate pathway	gi|1057959516	locus|JCVSYN2_02205	FALSE
+fig|1806462.14.peg.422	CDS	CP016816	506551	507585	1	+	1035	Ribose-phosphate pyrophosphokinase (EC:2.7.6.1)	Pentose phosphate pathway	Pentose phosphate pathway	gi|1057959538	locus|JCVSYN2_02320	FALSE
+fig|1806462.14.peg.159	CDS	CP016816	204634	204074	-1	-	561	Inorganic pyrophosphatase (EC:3.6.1.1)	Phosphate metabolism	Phosphate metabolism	gi|1057959277	locus|JCVSYN2_00850	FALSE
+fig|1806462.14.peg.437	CDS	CP016816	522148	520382	-1	-	1767	Arginine/ornithine antiporter ArcD	Polyamine Metabolism	Polyamine Metabolism	gi|1057959553	locus|JCVSYN2_02400	FALSE
+fig|1806462.14.peg.86	CDS	CP016816	122825	121833	-2	-	993	Spermidine Putrescine ABC transporter permease component PotB (TC 3.A.1.11.1)	Polyamine Metabolism	Polyamine Metabolism	gi|1057959208	locus|JCVSYN2_00470	FALSE
+fig|1806462.14.peg.87	CDS	CP016816	123880	122825	-1	-	1056	Putrescine transport ATP-binding protein PotA (TC 3.A.1.11.1)	Polyamine Metabolism	Polyamine Metabolism	gi|1057959209	locus|JCVSYN2_00475	FALSE
+fig|1806462.14.peg.85	CDS	CP016816	121848	118738	-3	-	3111	Spermidine Putrescine ABC transporter permease component potC (TC_3.A.1.11.1) / ABC transporter, periplasmic spermidine putrescine-binding protein PotD (TC 3.A.1.11.1)	"Polyamine Metabolism; <br>Polyamine Metabolism"	Polyamine Metabolism	gi|1057959207	locus|JCVSYN2_00465	TRUE
+fig|1806462.14.peg.85	CDS	CP016816	121848	118738	-3	-	3111	Spermidine Putrescine ABC transporter permease component potC (TC_3.A.1.11.1) / ABC transporter, periplasmic spermidine putrescine-binding protein PotD (TC 3.A.1.11.1)	"Polyamine Metabolism; <br>Polyamine Metabolism"	Polyamine Metabolism	gi|1057959207	locus|JCVSYN2_00465	TRUE
+fig|1806462.14.peg.288	CDS	CP016816	357708	355567	-3	-	2142	ClpB protein	"Protein chaperones; <br>Proteolysis in bacteria, ATP-dependent"	Protein chaperones	gi|1057959405	locus|JCVSYN2_01550	TRUE
+fig|1806462.14.peg.288	CDS	CP016816	357708	355567	-3	-	2142	ClpB protein	"Protein chaperones; <br>Proteolysis in bacteria, ATP-dependent"	Proteolysis in bacteria, ATP-dependent	gi|1057959405	locus|JCVSYN2_01550	TRUE
+fig|1806462.14.peg.145	CDS	CP016816	189782	188706	-2	-	1077	Aminopeptidase YpdF (MP-, MA-, MS-, AP-, NP- specific)	Protein degradation	Protein degradation	gi|1057959263	locus|JCVSYN2_00780	FALSE
+fig|1806462.14.peg.192	CDS	CP016816	235262	237622	2	+	2361	ATP-dependent protease La (EC:3.4.21.53) Type I	Proteolysis in bacteria, ATP-dependent	Proteolysis in bacteria, ATP-dependent	gi|1057959310	locus|JCVSYN2_01025	FALSE
+fig|1806462.14.peg.208	CDS	CP016816	263747	264259	2	+	513	Adenine phosphoribosyltransferase (EC:2.4.2.7)	Purine conversions	Purine conversions	gi|1057959326	locus|JCVSYN2_01105	FALSE
+fig|1806462.14.peg.330	CDS	CP016816	408736	408095	-1	-	642	Adenylate kinase (EC:2.7.4.3)	Purine conversions	Purine conversions	gi|1057959446	locus|JCVSYN2_01790	FALSE
+fig|1806462.14.peg.93	CDS	CP016816	126819	127712	3	+	894	Guanylate kinase (EC:2.7.4.8)	Purine conversions	Purine conversions	gi|1057959215	locus|JCVSYN2_00505	FALSE
+fig|1806462.14.peg.156	CDS	CP016816	200667	201284	3	+	618	Deoxyadenosine kinase (EC:2.7.1.76) / Deoxyguanosine kinase (EC:2.7.1.113)	"Purine conversions; <br>Purine conversions"	Purine conversions	gi|1057959274	locus|JCVSYN2_00835	TRUE
+fig|1806462.14.peg.156	CDS	CP016816	200667	201284	3	+	618	Deoxyadenosine kinase (EC:2.7.1.76) / Deoxyguanosine kinase (EC:2.7.1.113)	"Purine conversions; <br>Purine conversions"	Purine conversions	gi|1057959274	locus|JCVSYN2_00835	TRUE
+fig|1806462.14.peg.185	CDS	CP016816	228341	228979	2	+	639	Deoxyadenosine kinase (EC:2.7.1.76) / Deoxyguanosine kinase (EC:2.7.1.113)	"Purine conversions; <br>Purine conversions"	Purine conversions	gi|1057959303	locus|JCVSYN2_00990	TRUE
+fig|1806462.14.peg.185	CDS	CP016816	228341	228979	2	+	639	Deoxyadenosine kinase (EC:2.7.1.76) / Deoxyguanosine kinase (EC:2.7.1.113)	"Purine conversions; <br>Purine conversions"	Purine conversions	gi|1057959303	locus|JCVSYN2_00990	TRUE
+fig|1806462.14.peg.103	CDS	CP016816	139668	141557	3	+	1890	Dihydrolipoamide dehydrogenase of pyruvate dehydrogenase complex (EC:1.8.1.4)	Pyruvate metabolism II: acetyl-CoA, acetogenesis from pyruvate	Pyruvate metabolism II: acetyl-CoA, acetogenesis from pyruvate	gi|1057959225	locus|JCVSYN2_00555	FALSE
+fig|1806462.14.peg.134	CDS	CP016816	175608	176162	3	+	555	Riboflavin kinase (EC:2.7.1.26) / FMN adenylyltransferase (EC:2.7.7.2)	"riboflavin to FAD; <br>riboflavin to FAD"	riboflavin to FAD	gi|1057959253	locus|JCVSYN2_00720	TRUE
+fig|1806462.14.peg.134	CDS	CP016816	175608	176162	3	+	555	Riboflavin kinase (EC:2.7.1.26) / FMN adenylyltransferase (EC:2.7.7.2)	"riboflavin to FAD; <br>riboflavin to FAD"	riboflavin to FAD	gi|1057959253	locus|JCVSYN2_00720	TRUE
+fig|1806462.14.peg.379	CDS	CP016816	454883	452721	-2	-	2163	Ribonucleotide reductase of class Ib (aerobic), alpha subunit (EC:1.17.4.1)	Ribonucleotide reduction	Ribonucleotide reduction	gi|1057959495	locus|JCVSYN2_02100	FALSE
+fig|1806462.14.peg.380	CDS	CP016816	455343	454870	-3	-	474	Ribonucleotide reduction protein NrdI	Ribonucleotide reduction	Ribonucleotide reduction	gi|1057959496	locus|JCVSYN2_02105	FALSE
+fig|1806462.14.peg.381	CDS	CP016816	456371	455352	-2	-	1020	Ribonucleotide reductase of class Ib (aerobic), beta subunit (EC:1.17.4.1)	Ribonucleotide reduction	Ribonucleotide reduction	gi|1057959497	locus|JCVSYN2_02110	FALSE
+fig|1806462.14.peg.169	CDS	CP016816	213622	214089	1	+	468	LSU m3Psi1915 methyltransferase RlmH	Ribosome biogenesis bacterial	Ribosome biogenesis bacterial	gi|1057959287	locus|JCVSYN2_00905	FALSE
+fig|1806462.14.peg.171	CDS	CP016816	214490	214984	2	+	495	16S rRNA processing protein RimM	Ribosome biogenesis bacterial	Ribosome biogenesis bacterial	gi|1057959289	locus|JCVSYN2_00915	FALSE
+fig|1806462.14.peg.172	CDS	CP016816	214986	215708	3	+	723	tRNA (Guanine37-N1) -methyltransferase (EC:2.1.1.31)	Ribosome biogenesis bacterial	Ribosome biogenesis bacterial	gi|1057959290	locus|JCVSYN2_00920	FALSE
+fig|1806462.14.peg.3	CDS	CP016816	2675	3217	2	+	543	Ribonuclease M5 (EC:3.1.26.8)	Ribosome biogenesis bacterial	Ribosome biogenesis bacterial	gi|1057959127	locus|JCVSYN2_00015	FALSE
+fig|1806462.14.peg.4	CDS	CP016816	3207	4007	3	+	801	SSU rRNA (adenine(1518)-N(6)/adenine(1519)-N(6))-dimethyltransferase (EC:2.1.1.182)	Ribosome biogenesis bacterial	Ribosome biogenesis bacterial	gi|1057959128	locus|JCVSYN2_00020	FALSE
+fig|1806462.14.peg.173	CDS	CP016816	215710	216093	1	+	384	LSU ribosomal protein L19p	Ribosome LSU bacterial	Ribosome LSU bacterial	gi|1057959291	locus|JCVSYN2_00925	FALSE
+fig|1806462.14.peg.216	CDS	CP016816	274322	274519	2	+	198	LSU ribosomal protein L28p	Ribosome LSU bacterial	Ribosome LSU bacterial	gi|1057959334	locus|JCVSYN2_01145	FALSE
+fig|1806462.14.peg.257	CDS	CP016816	319191	319048	-3	-	144	LSU ribosomal protein L33p	Ribosome LSU bacterial	Ribosome LSU bacterial	gi|1057959375	locus|JCVSYN2_01355	FALSE
+fig|1806462.14.peg.273	CDS	CP016816	335474	335295	-2	-	180	LSU ribosomal protein L32p	Ribosome LSU bacterial	Ribosome LSU bacterial	gi|1057959390	locus|JCVSYN2_01460	FALSE
+fig|1806462.14.peg.318	CDS	CP016816	396384	395929	-3	-	456	LSU ribosomal protein L13p (L13Ae)	Ribosome LSU bacterial	Ribosome LSU bacterial	gi|1057959434	locus|JCVSYN2_01730	FALSE
+fig|1806462.14.peg.324	CDS	CP016816	405128	404769	-2	-	360	LSU ribosomal protein L17p	Ribosome LSU bacterial	Ribosome LSU bacterial	gi|1057959440	locus|JCVSYN2_01760	FALSE
+fig|1806462.14.peg.332	CDS	CP016816	410749	410312	-1	-	438	LSU ribosomal protein L15p (L27Ae)	Ribosome LSU bacterial	Ribosome LSU bacterial	gi|1057959448	locus|JCVSYN2_01800	FALSE
+fig|1806462.14.peg.334	CDS	CP016816	411901	411551	-1	-	351	LSU ribosomal protein L18p (L5e)	Ribosome LSU bacterial	Ribosome LSU bacterial	gi|1057959450	locus|JCVSYN2_01810	FALSE
+fig|1806462.14.peg.335	CDS	CP016816	412469	411927	-2	-	543	LSU ribosomal protein L6p (L9e)	Ribosome LSU bacterial	Ribosome LSU bacterial	gi|1057959451	locus|JCVSYN2_01815	FALSE
+fig|1806462.14.peg.338	CDS	CP016816	413638	413096	-1	-	543	LSU ribosomal protein L5p (L11e)	Ribosome LSU bacterial	Ribosome LSU bacterial	gi|1057959454	locus|JCVSYN2_01830	FALSE
+fig|1806462.14.peg.339	CDS	CP016816	413983	413657	-1	-	327	LSU ribosomal protein L24p (L26e)	Ribosome LSU bacterial	Ribosome LSU bacterial	gi|1057959455	locus|JCVSYN2_01835	FALSE
+fig|1806462.14.peg.340	CDS	CP016816	414365	413997	-2	-	369	LSU ribosomal protein L14p (L23e)	Ribosome LSU bacterial	Ribosome LSU bacterial	gi|1057959456	locus|JCVSYN2_01840	FALSE
+fig|1806462.14.peg.342	CDS	CP016816	415054	414638	-1	-	417	LSU ribosomal protein L29p (L35e)	Ribosome LSU bacterial	Ribosome LSU bacterial	gi|1057959458	locus|JCVSYN2_01850	FALSE
+fig|1806462.14.peg.343	CDS	CP016816	415467	415054	-3	-	414	LSU ribosomal protein L16p (L10e)	Ribosome LSU bacterial	Ribosome LSU bacterial	gi|1057959459	locus|JCVSYN2_01855	FALSE
+fig|1806462.14.peg.345	CDS	CP016816	416524	416189	-1	-	336	LSU ribosomal protein L22p (L17e)	Ribosome LSU bacterial	Ribosome LSU bacterial	gi|1057959461	locus|JCVSYN2_01865	FALSE
+fig|1806462.14.peg.347	CDS	CP016816	417684	416836	-3	-	849	LSU ribosomal protein L2p (L8e)	Ribosome LSU bacterial	Ribosome LSU bacterial	gi|1057959463	locus|JCVSYN2_01875	FALSE
+fig|1806462.14.peg.348	CDS	CP016816	418023	417739	-3	-	285	LSU ribosomal protein L23p (L23Ae)	Ribosome LSU bacterial	Ribosome LSU bacterial	gi|1057959464	locus|JCVSYN2_01880	FALSE
+fig|1806462.14.peg.349	CDS	CP016816	418649	418023	-2	-	627	LSU ribosomal protein L4p (L1e)	Ribosome LSU bacterial	Ribosome LSU bacterial	gi|1057959465	locus|JCVSYN2_01885	FALSE
+fig|1806462.14.peg.350	CDS	CP016816	419333	418662	-2	-	672	LSU ribosomal protein L3p (L3e)	Ribosome LSU bacterial	Ribosome LSU bacterial	gi|1057959466	locus|JCVSYN2_01890	FALSE
+fig|1806462.14.peg.404	CDS	CP016816	485230	484862	-1	-	369	LSU ribosomal protein L7p/L12p (P1/P2)	Ribosome LSU bacterial	Ribosome LSU bacterial	gi|1057959520	locus|JCVSYN2_02225	FALSE
+fig|1806462.14.peg.405	CDS	CP016816	485796	485299	-3	-	498	LSU ribosomal protein L10p (P0)	Ribosome LSU bacterial	Ribosome LSU bacterial	gi|1057959521	locus|JCVSYN2_02230	FALSE
+fig|1806462.14.peg.406	CDS	CP016816	486703	486023	-1	-	681	LSU ribosomal protein L1p (L10Ae)	Ribosome LSU bacterial	Ribosome LSU bacterial	gi|1057959522	locus|JCVSYN2_02235	FALSE
+fig|1806462.14.peg.407	CDS	CP016816	487131	486703	-3	-	429	LSU ribosomal protein L11p (L12e)	Ribosome LSU bacterial	Ribosome LSU bacterial	gi|1057959523	locus|JCVSYN2_02240	FALSE
+fig|1806462.14.peg.424	CDS	CP016816	508692	509135	3	+	444	LSU ribosomal protein L9p	Ribosome LSU bacterial	Ribosome LSU bacterial	gi|1057959540	locus|JCVSYN2_02335	FALSE
+fig|1806462.14.peg.430	CDS	CP016816	515027	515188	2	+	162	LSU ribosomal protein L33p @ LSU ribosomal protein L33p, zinc-dependent	"Ribosome LSU bacterial; <br>Ribosome LSU bacterial"	Ribosome LSU bacterial	gi|1057959546	locus|JCVSYN2_02365	TRUE
+fig|1806462.14.peg.430	CDS	CP016816	515027	515188	2	+	162	LSU ribosomal protein L33p @ LSU ribosomal protein L33p, zinc-dependent	"Ribosome LSU bacterial; <br>Ribosome LSU bacterial"	Ribosome LSU bacterial	gi|1057959546	locus|JCVSYN2_02365	TRUE
+fig|1806462.14.peg.63	CDS	CP016816	88733	89011	2	+	279	LSU ribosomal protein L31p @ LSU ribosomal protein L31p, zinc-dependent	"Ribosome LSU bacterial; <br>Ribosome LSU bacterial"	Ribosome LSU bacterial	gi|1057959185	locus|JCVSYN2_00350	TRUE
+fig|1806462.14.peg.63	CDS	CP016816	88733	89011	2	+	279	LSU ribosomal protein L31p @ LSU ribosomal protein L31p, zinc-dependent	"Ribosome LSU bacterial; <br>Ribosome LSU bacterial"	Ribosome LSU bacterial	gi|1057959185	locus|JCVSYN2_00350	TRUE
+fig|1806462.14.peg.109	CDS	CP016816	147204	146578	-3	-	627	SSU ribosomal protein S4p (S9e)	Ribosome SSU bacterial	Ribosome SSU bacterial	gi|1057959230	locus|JCVSYN2_00585	FALSE
+fig|1806462.14.peg.135	CDS	CP016816	176397	176663	3	+	267	SSU ribosomal protein S15p (S13e)	Ribosome SSU bacterial	Ribosome SSU bacterial	gi|1057959254	locus|JCVSYN2_00725	FALSE
+fig|1806462.14.peg.17	CDS	CP016816	23881	23468	-1	-	414	SSU ribosomal protein S6p	Ribosome SSU bacterial	Ribosome SSU bacterial	gi|1057959139	locus|JCVSYN2_00085	FALSE
+fig|1806462.14.peg.170	CDS	CP016816	214180	214458	1	+	279	SSU ribosomal protein S16p	Ribosome SSU bacterial	Ribosome SSU bacterial	gi|1057959288	locus|JCVSYN2_00910	FALSE
+fig|1806462.14.peg.191	CDS	CP016816	234821	235123	2	+	303	SSU ribosomal protein S20p	Ribosome SSU bacterial	Ribosome SSU bacterial	gi|1057959309	locus|JCVSYN2_01020	FALSE
+fig|1806462.14.peg.317	CDS	CP016816	395929	395531	-1	-	399	SSU ribosomal protein S9p (S16e)	Ribosome SSU bacterial	Ribosome SSU bacterial	gi|1057959433	locus|JCVSYN2_01725	FALSE
+fig|1806462.14.peg.326	CDS	CP016816	406494	406105	-3	-	390	SSU ribosomal protein S11p (S14e)	Ribosome SSU bacterial	Ribosome SSU bacterial	gi|1057959442	locus|JCVSYN2_01770	FALSE
+fig|1806462.14.peg.327	CDS	CP016816	406885	406520	-1	-	366	SSU ribosomal protein S13p (S18e)	Ribosome SSU bacterial	Ribosome SSU bacterial	gi|1057959443	locus|JCVSYN2_01775	FALSE
+fig|1806462.14.peg.333	CDS	CP016816	411532	410768	-1	-	765	SSU ribosomal protein S5p (S2e)	Ribosome SSU bacterial	Ribosome SSU bacterial	gi|1057959449	locus|JCVSYN2_01805	FALSE
+fig|1806462.14.peg.336	CDS	CP016816	412872	412483	-3	-	390	SSU ribosomal protein S8p (S15Ae)	Ribosome SSU bacterial	Ribosome SSU bacterial	gi|1057959452	locus|JCVSYN2_01820	FALSE
+fig|1806462.14.peg.341	CDS	CP016816	414641	414381	-2	-	261	SSU ribosomal protein S17p (S11e)	Ribosome SSU bacterial	Ribosome SSU bacterial	gi|1057959457	locus|JCVSYN2_01845	FALSE
+fig|1806462.14.peg.344	CDS	CP016816	416171	415470	-2	-	702	SSU ribosomal protein S3p (S3e)	Ribosome SSU bacterial	Ribosome SSU bacterial	gi|1057959460	locus|JCVSYN2_01860	FALSE
+fig|1806462.14.peg.346	CDS	CP016816	416814	416548	-3	-	267	SSU ribosomal protein S19p (S15e)	Ribosome SSU bacterial	Ribosome SSU bacterial	gi|1057959462	locus|JCVSYN2_01870	FALSE
+fig|1806462.14.peg.351	CDS	CP016816	419717	419409	-2	-	309	SSU ribosomal protein S10p (S20e)	Ribosome SSU bacterial	Ribosome SSU bacterial	gi|1057959467	locus|JCVSYN2_01895	FALSE
+fig|1806462.14.peg.42	CDS	CP016816	63530	63285	-2	-	246	SSU ribosomal protein S20p	Ribosome SSU bacterial	Ribosome SSU bacterial	gi|1057959164	locus|JCVSYN2_00245	FALSE
+fig|1806462.14.peg.15	CDS	CP016816	22996	22769	-1	-	228	SSU ribosomal protein S18p @ SSU ribosomal protein S18p, zinc-independent	"Ribosome SSU bacterial; <br>Ribosome SSU bacterial"	Ribosome SSU bacterial	gi|1057959137	locus|JCVSYN2_00075	TRUE
+fig|1806462.14.peg.15	CDS	CP016816	22996	22769	-1	-	228	SSU ribosomal protein S18p @ SSU ribosomal protein S18p, zinc-independent	"Ribosome SSU bacterial; <br>Ribosome SSU bacterial"	Ribosome SSU bacterial	gi|1057959137	locus|JCVSYN2_00075	TRUE
+fig|1806462.14.peg.337	CDS	CP016816	413077	412892	-1	-	186	SSU ribosomal protein S14p (S29e) @ SSU ribosomal protein S14p (S29e), zinc-dependent	"Ribosome SSU bacterial; <br>Ribosome SSU bacterial"	Ribosome SSU bacterial	gi|1057959453	locus|JCVSYN2_01825	TRUE
+fig|1806462.14.peg.337	CDS	CP016816	413077	412892	-1	-	186	SSU ribosomal protein S14p (S29e) @ SSU ribosomal protein S14p (S29e), zinc-dependent	"Ribosome SSU bacterial; <br>Ribosome SSU bacterial"	Ribosome SSU bacterial	gi|1057959453	locus|JCVSYN2_01825	TRUE
+fig|1806462.14.peg.325	CDS	CP016816	406101	405148	-3	-	954	DNA-directed RNA polymerase alpha subunit (EC:2.7.7.6)	RNA polymerase bacterial	RNA polymerase bacterial	gi|1057959441	locus|JCVSYN2_01765	FALSE
+fig|1806462.14.peg.58	CDS	CP016816	81097	81525	1	+	429	DNA-directed RNA polymerase delta subunit (EC:2.7.7.6)	RNA polymerase bacterial	RNA polymerase bacterial	gi|1057959180	locus|JCVSYN2_00325	FALSE
+fig|1806462.14.peg.212	CDS	CP016816	271147	270449	-1	-	699	Ribonuclease III (EC:3.1.26.3)	RNA processing and degradation, bacterial	RNA processing and degradation, bacterial	gi|1057959330	locus|JCVSYN2_01125	FALSE
+fig|1806462.14.peg.383	CDS	CP016816	456990	459104	3	+	2115	"3&#39;-to-5&#39; exoribonuclease RNase R"	RNA processing and degradation, bacterial	RNA processing and degradation, bacterial	gi|1057959499	locus|JCVSYN2_02120	FALSE
+fig|1806462.14.peg.155	CDS	CP016816	199899	200657	3	+	759	Ribosomal large subunit pseudouridine synthase B (EC:4.2.1.70)	RNA pseudouridine syntheses	RNA pseudouridine syntheses	gi|1057959273	locus|JCVSYN2_00830	FALSE
+fig|1806462.14.peg.264	CDS	CP016816	325961	325029	-2	-	933	Ribosomal large subunit pseudouridine synthase D (EC:4.2.1.70)	"RNA pseudouridine syntheses; <br>Ribosome biogenesis bacterial"	RNA pseudouridine syntheses	gi|1057959382	locus|JCVSYN2_01415	TRUE
+fig|1806462.14.peg.264	CDS	CP016816	325961	325029	-2	-	933	Ribosomal large subunit pseudouridine synthase D (EC:4.2.1.70)	"RNA pseudouridine syntheses; <br>Ribosome biogenesis bacterial"	Ribosome biogenesis bacterial	gi|1057959382	locus|JCVSYN2_01415	TRUE
+fig|1806462.14.peg.360	CDS	CP016816	432439	431531	-1	-	909	Ribosomal large subunit pseudouridine synthase C (EC:4.2.1.70)	"RNA pseudouridine syntheses; <br>Ribosome biogenesis bacterial"	RNA pseudouridine syntheses	gi|1057959476	locus|JCVSYN2_01960	TRUE
+fig|1806462.14.peg.360	CDS	CP016816	432439	431531	-1	-	909	Ribosomal large subunit pseudouridine synthase C (EC:4.2.1.70)	"RNA pseudouridine syntheses; <br>Ribosome biogenesis bacterial"	Ribosome biogenesis bacterial	gi|1057959476	locus|JCVSYN2_01960	TRUE
+fig|1806462.14.peg.320	CDS	CP016816	401509	400754	-1	-	756	tRNA pseudouridine synthase A (EC:4.2.1.70)	"RNA pseudouridine syntheses; <br>tRNA processing"	RNA pseudouridine syntheses	gi|1057959436	locus|JCVSYN2_01740	TRUE
+fig|1806462.14.peg.320	CDS	CP016816	401509	400754	-1	-	756	tRNA pseudouridine synthase A (EC:4.2.1.70)	"RNA pseudouridine syntheses; <br>tRNA processing"	tRNA processing	gi|1057959436	locus|JCVSYN2_01740	TRUE
+fig|1806462.14.peg.209	CDS	CP016816	264342	266606	3	+	2265	GTP pyrophosphokinase (EC:2.7.6.5), (p)ppGpp synthetase I	Stringent Response, (p)ppGpp metabolism	Stringent Response, (p)ppGpp metabolism	gi|1057959327	locus|JCVSYN2_01110	FALSE
+fig|1806462.14.peg.111	CDS	CP016816	149254	150441	1	+	1188	tRNA S(4)U 4-thiouridine synthase (former ThiI)	Thiamin biosynthesis	Thiamin biosynthesis	gi|1057959232	locus|JCVSYN2_00595	FALSE
+fig|1806462.14.peg.412	CDS	CP016816	493784	492852	-2	-	933	Thioredoxin reductase (EC:1.8.1.9)	Thioredoxin-disulfide reductase	Thioredoxin-disulfide reductase	gi|1057959528	locus|JCVSYN2_02265	FALSE
+fig|1806462.14.peg.116	CDS	CP016816	153629	153156	-2	-	474	Transcription elongation factor GreA	Transcription factors bacterial	Transcription factors bacterial	gi|1057959237	locus|JCVSYN2_00620	FALSE
+fig|1806462.14.peg.432	CDS	CP016816	515528	516169	2	+	642	Transcription antitermination protein NusG	Transcription factors bacterial	Transcription factors bacterial	gi|1057959548	locus|JCVSYN2_02375	FALSE
+fig|1806462.14.peg.48	CDS	CP016816	70823	70425	-2	-	399	Transcription termination protein NusB	Transcription factors bacterial	Transcription factors bacterial	gi|1057959170	locus|JCVSYN2_00275	FALSE
+fig|1806462.14.peg.14	CDS	CP016816	20416	22335	1	+	1920	Tetracycline resistance protein TetM	Translation elongation factor G family	Translation elongation factor G family	gi|1057959572	locus|JCVSYN2_00070	FALSE
+fig|1806462.14.peg.190	CDS	CP016816	234249	234803	3	+	555	Translation elongation factor P	Translation elongation factors bacterial	Translation elongation factors bacterial	gi|1057959308	locus|JCVSYN2_01015	FALSE
+fig|1806462.14.peg.189	CDS	CP016816	233209	234162	1	+	954	Methionyl-tRNA formyltransferase (EC:2.1.2.9)	Translation initiation factors bacterial	Translation initiation factors bacterial	gi|1057959307	locus|JCVSYN2_01010	FALSE
+fig|1806462.14.peg.328	CDS	CP016816	407328	407104	-3	-	225	Translation initiation factor 1	Translation initiation factors bacterial	Translation initiation factors bacterial	gi|1057959444	locus|JCVSYN2_01780	FALSE
+fig|1806462.14.peg.279	CDS	CP016816	347472	346924	-3	-	549	Ribosome recycling factor	Translation termination factors bacterial	Translation termination factors bacterial	gi|1057959396	locus|JCVSYN2_01505	FALSE
+fig|1806462.14.peg.67	CDS	CP016816	92576	93670	2	+	1095	Peptide chain release factor 1	Translation termination factors bacterial	Translation termination factors bacterial	gi|1057959189	locus|JCVSYN2_00370	FALSE
+fig|1806462.14.peg.68	CDS	CP016816	93663	94511	3	+	849	Protein-N(5)-glutamine methyltransferase PrmC, methylates polypeptide chain release factors RF1 and RF2	Translation termination factors bacterial	Translation termination factors bacterial	gi|1057959190	locus|JCVSYN2_00375	FALSE
+fig|1806462.14.peg.78	CDS	CP016816	108121	105431	-1	-	2691	Alanyl-tRNA synthetase (EC:6.1.1.7)	tRNA aminoacylation, Ala	tRNA aminoacylation, Ala	gi|1057959200	locus|JCVSYN2_00430	FALSE
+fig|1806462.14.peg.278	CDS	CP016816	346922	345258	-2	-	1665	Arginyl-tRNA synthetase (EC:6.1.1.19)	tRNA aminoacylation, Arg	tRNA aminoacylation, Arg	gi|1057959395	locus|JCVSYN2_01500	FALSE
+fig|1806462.14.peg.130	CDS	CP016816	172902	171178	-3	-	1725	Aspartyl-tRNA synthetase (EC:6.1.1.12)	tRNA aminoacylation, Asp and Asn	tRNA aminoacylation, Asp and Asn	gi|1057959249	locus|JCVSYN2_00700	FALSE
+fig|1806462.14.peg.37	CDS	CP016816	59520	58156	-3	-	1365	Asparaginyl-tRNA synthetase (EC:6.1.1.22)	tRNA aminoacylation, Asp and Asn	tRNA aminoacylation, Asp and Asn	gi|1057959159	locus|JCVSYN2_00220	FALSE
+fig|1806462.14.peg.355	CDS	CP016816	425740	424301	-1	-	1440	Aspartyl-tRNA(Asn) amidotransferase subunit B (EC:6.3.5.6) @ Glutamyl-tRNA(Gln) amidotransferase subunit B (EC:6.3.5.7)	"tRNA aminoacylation, Asp and Asn; <br>tRNA aminoacylation, Glu and Gln"	tRNA aminoacylation, Asp and Asn	gi|1057959471	locus|JCVSYN2_01935	TRUE
+fig|1806462.14.peg.355	CDS	CP016816	425740	424301	-1	-	1440	Aspartyl-tRNA(Asn) amidotransferase subunit B (EC:6.3.5.6) @ Glutamyl-tRNA(Gln) amidotransferase subunit B (EC:6.3.5.7)	"tRNA aminoacylation, Asp and Asn; <br>tRNA aminoacylation, Glu and Gln"	tRNA aminoacylation, Glu and Gln	gi|1057959471	locus|JCVSYN2_01935	TRUE
+fig|1806462.14.peg.356	CDS	CP016816	427199	425742	-2	-	1458	Aspartyl-tRNA(Asn) amidotransferase subunit A (EC:6.3.5.6) @ Glutamyl-tRNA(Gln) amidotransferase subunit A (EC:6.3.5.7)	"tRNA aminoacylation, Asp and Asn; <br>tRNA aminoacylation, Glu and Gln"	tRNA aminoacylation, Asp and Asn	gi|1057959472	locus|JCVSYN2_01940	TRUE
+fig|1806462.14.peg.356	CDS	CP016816	427199	425742	-2	-	1458	Aspartyl-tRNA(Asn) amidotransferase subunit A (EC:6.3.5.6) @ Glutamyl-tRNA(Gln) amidotransferase subunit A (EC:6.3.5.7)	"tRNA aminoacylation, Asp and Asn; <br>tRNA aminoacylation, Glu and Gln"	tRNA aminoacylation, Glu and Gln	gi|1057959472	locus|JCVSYN2_01940	TRUE
+fig|1806462.14.peg.357	CDS	CP016816	427495	427199	-1	-	297	Aspartyl-tRNA(Asn) amidotransferase subunit C (EC:6.3.5.6) @ Glutamyl-tRNA(Gln) amidotransferase subunit C (EC:6.3.5.7)	"tRNA aminoacylation, Asp and Asn; <br>tRNA aminoacylation, Glu and Gln"	tRNA aminoacylation, Asp and Asn	gi|1057959473	locus|JCVSYN2_01945	TRUE
+fig|1806462.14.peg.357	CDS	CP016816	427495	427199	-1	-	297	Aspartyl-tRNA(Asn) amidotransferase subunit C (EC:6.3.5.6) @ Glutamyl-tRNA(Gln) amidotransferase subunit C (EC:6.3.5.7)	"tRNA aminoacylation, Asp and Asn; <br>tRNA aminoacylation, Glu and Gln"	tRNA aminoacylation, Glu and Gln	gi|1057959473	locus|JCVSYN2_01945	TRUE
+fig|1806462.14.peg.428	CDS	CP016816	512905	514230	1	+	1326	Cysteinyl-tRNA synthetase (EC:6.1.1.16)	tRNA aminoacylation, Cys	tRNA aminoacylation, Cys	gi|1057959544	locus|JCVSYN2_02355	FALSE
+fig|1806462.14.peg.56	CDS	CP016816	78403	79854	1	+	1452	Glutamyl-tRNA synthetase (EC:6.1.1.17) @ Glutamyl-tRNA(Gln) synthetase (EC:6.1.1.24)	"tRNA aminoacylation, Glu and Gln; <br>tRNA aminoacylation, Glu and Gln"	tRNA aminoacylation, Glu and Gln	gi|1057959178	locus|JCVSYN2_00315	TRUE
+fig|1806462.14.peg.56	CDS	CP016816	78403	79854	1	+	1452	Glutamyl-tRNA synthetase (EC:6.1.1.17) @ Glutamyl-tRNA(Gln) synthetase (EC:6.1.1.24)	"tRNA aminoacylation, Glu and Gln; <br>tRNA aminoacylation, Glu and Gln"	tRNA aminoacylation, Glu and Gln	gi|1057959178	locus|JCVSYN2_00315	TRUE
+fig|1806462.14.peg.200	CDS	CP016816	250335	251705	3	+	1371	Glycyl-tRNA synthetase (EC:6.1.1.14)	tRNA aminoacylation, Gly	tRNA aminoacylation, Gly	gi|1057959318	locus|JCVSYN2_01065	FALSE
+fig|1806462.14.peg.131	CDS	CP016816	174155	172911	-2	-	1245	Histidyl-tRNA synthetase (EC:6.1.1.21)	tRNA aminoacylation, His	tRNA aminoacylation, His	gi|1057959250	locus|JCVSYN2_00705	FALSE
+fig|1806462.14.peg.266	CDS	CP016816	329288	326541	-2	-	2748	Isoleucyl-tRNA synthetase (EC:6.1.1.5)	tRNA aminoacylation, Ile	tRNA aminoacylation, Ile	gi|1057959384	locus|JCVSYN2_01425	FALSE
+fig|1806462.14.peg.315	CDS	CP016816	392296	389882	-1	-	2415	Leucyl-tRNA synthetase (EC:6.1.1.4)	tRNA aminoacylation, Leu	tRNA aminoacylation, Leu	gi|1057959431	locus|JCVSYN2_01710	FALSE
+fig|1806462.14.peg.34	CDS	CP016816	49536	51038	3	+	1503	Lysyl-tRNA synthetase (class II) (EC:6.1.1.6)	tRNA aminoacylation, Lys	tRNA aminoacylation, Lys	gi|1057959156	locus|JCVSYN2_00180	FALSE
+fig|1806462.14.peg.12	CDS	CP016816	18515	16986	-2	-	1530	Methionyl-tRNA synthetase (EC:6.1.1.10)	tRNA aminoacylation, Met	tRNA aminoacylation, Met	gi|1057959136	locus|JCVSYN2_00060	FALSE
+fig|1806462.14.peg.275	CDS	CP016816	338391	336007	-3	-	2385	Phenylalanyl-tRNA synthetase beta chain (EC:6.1.1.20)	tRNA aminoacylation, Phe	tRNA aminoacylation, Phe	gi|1057959392	locus|JCVSYN2_01470	FALSE
+fig|1806462.14.peg.276	CDS	CP016816	339452	338400	-2	-	1053	Phenylalanyl-tRNA synthetase alpha chain (EC:6.1.1.20)	tRNA aminoacylation, Phe	tRNA aminoacylation, Phe	gi|1057959393	locus|JCVSYN2_01475	FALSE
+fig|1806462.14.peg.308	CDS	CP016816	385315	384707	-1	-	609	Phenylalanyl-tRNA synthetase domain protein (Bsu YtpR)	tRNA aminoacylation, Phe	tRNA aminoacylation, Phe	gi|1057959424	locus|JCVSYN2_01660	FALSE
+fig|1806462.14.peg.126	CDS	CP016816	166448	167872	2	+	1425	Prolyl-tRNA synthetase (EC:6.1.1.15), archaeal/eukaryal type	tRNA aminoacylation, Pro	tRNA aminoacylation, Pro	gi|1057959246	locus|JCVSYN2_00680	FALSE
+fig|1806462.14.peg.32	CDS	CP016816	47181	48449	3	+	1269	Seryl-tRNA synthetase (EC:6.1.1.11)	tRNA aminoacylation, Ser	tRNA aminoacylation, Ser	gi|1057959154	locus|JCVSYN2_00170	FALSE
+fig|1806462.14.peg.101	CDS	CP016816	135894	137813	3	+	1920	Threonyl-tRNA synthetase (EC:6.1.1.3)	tRNA aminoacylation, Thr	tRNA aminoacylation, Thr	gi|1057959223	locus|JCVSYN2_00545	FALSE
+fig|1806462.14.peg.146	CDS	CP016816	190227	191237	3	+	1011	Tryptophanyl-tRNA synthetase (EC:6.1.1.2)	tRNA aminoacylation, Trp	tRNA aminoacylation, Trp	gi|1057959264	locus|JCVSYN2_00785	FALSE
+fig|1806462.14.peg.306	CDS	CP016816	383659	382415	-1	-	1245	Tyrosyl-tRNA synthetase (EC:6.1.1.1)	tRNA aminoacylation, Tyr	tRNA aminoacylation, Tyr	gi|1057959422	locus|JCVSYN2_01650	FALSE
+fig|1806462.14.peg.119	CDS	CP016816	161042	158424	-2	-	2619	Valyl-tRNA synthetase (EC:6.1.1.9)	tRNA aminoacylation, Val	tRNA aminoacylation, Val	gi|1057959240	locus|JCVSYN2_00640	FALSE
+fig|1806462.14.rna.10	RNA	CP016816	320618	320530	-2	-	89	tRNA-Leu	tRNAs	tRNAs	 	 	FALSE
+fig|1806462.14.rna.11	RNA	CP016816	320704	320629	-1	-	76	tRNA-Lys	tRNAs	tRNAs	 	 	FALSE
+fig|1806462.14.rna.12	RNA	CP016816	320783	320709	-2	-	75	tRNA-Gln	tRNAs	tRNAs	 	 	FALSE
+fig|1806462.14.rna.13	RNA	CP016816	320873	320790	-2	-	84	tRNA-Tyr	tRNAs	tRNAs	 	 	FALSE
+fig|1806462.14.rna.14	RNA	CP016816	320955	320880	-3	-	76	tRNA-Thr	tRNAs	tRNAs	 	 	FALSE
+fig|1806462.14.rna.18	RNA	CP016816	387201	387127	-3	-	75	tRNA-Trp	tRNAs	tRNAs	 	 	FALSE
+fig|1806462.14.rna.19	RNA	CP016816	387314	387239	-2	-	76	tRNA-Trp	tRNAs	tRNAs	 	 	FALSE
+fig|1806462.14.rna.20	RNA	CP016816	389695	389620	-1	-	76	tRNA-His	tRNAs	tRNAs	 	 	FALSE
+fig|1806462.14.rna.21	RNA	CP016816	392510	392434	-2	-	77	tRNA-Ile	tRNAs	tRNAs	 	 	FALSE
+fig|1806462.14.rna.22	RNA	CP016816	420635	420560	-2	-	76	tRNA-Thr	tRNAs	tRNAs	 	 	FALSE
+fig|1806462.14.rna.23	RNA	CP016816	420723	420648	-3	-	76	tRNA-Val	tRNAs	tRNAs	 	 	FALSE
+fig|1806462.14.rna.24	RNA	CP016816	420806	420731	-2	-	76	tRNA-Glu	tRNAs	tRNAs	 	 	FALSE
+fig|1806462.14.rna.25	RNA	CP016816	420889	420814	-1	-	76	tRNA-Asn	tRNAs	tRNAs	 	 	FALSE
+fig|1806462.14.rna.26	RNA	CP016816	443479	443555	1	+	77	tRNA-Arg	tRNAs	tRNAs	 	 	FALSE
+fig|1806462.14.rna.27	RNA	CP016816	443603	443679	2	+	77	tRNA-Pro	tRNAs	tRNAs	 	 	FALSE
+fig|1806462.14.rna.28	RNA	CP016816	443690	443765	2	+	76	tRNA-Ala	tRNAs	tRNAs	 	 	FALSE
+fig|1806462.14.rna.29	RNA	CP016816	443770	443846	1	+	77	tRNA-Met	tRNAs	tRNAs	 	 	FALSE
+fig|1806462.14.rna.30	RNA	CP016816	443858	443934	2	+	77	tRNA-Met	tRNAs	tRNAs	 	 	FALSE
+fig|1806462.14.rna.31	RNA	CP016816	443977	444069	1	+	93	tRNA-Ser	tRNAs	tRNAs	 	 	FALSE
+fig|1806462.14.rna.32	RNA	CP016816	444092	444167	2	+	76	tRNA-Met	tRNAs	tRNAs	 	 	FALSE
+fig|1806462.14.rna.33	RNA	CP016816	444170	444246	2	+	77	tRNA-Asp	tRNAs	tRNAs	 	 	FALSE
+fig|1806462.14.rna.34	RNA	CP016816	444255	444330	3	+	76	tRNA-Phe	tRNAs	tRNAs	 	 	FALSE
+fig|1806462.14.rna.35	RNA	CP016816	505899	505973	3	+	75	tRNA-Cys	tRNAs	tRNAs	 	 	FALSE
+fig|1806462.14.rna.4	RNA	CP016816	57608	57525	-2	-	84	tRNA-Leu	tRNAs	tRNAs	 	 	FALSE
+fig|1806462.14.rna.5	RNA	CP016816	57686	57611	-2	-	76	tRNA-Lys	tRNAs	tRNAs	 	 	FALSE
+fig|1806462.14.rna.6	RNA	CP016816	165578	165667	2	+	90	tRNA-Ser	tRNAs	tRNAs	 	 	FALSE
+fig|1806462.14.rna.7	RNA	CP016816	176723	176796	2	+	74	tRNA-Gly	tRNAs	tRNAs	 	 	FALSE
+fig|1806462.14.rna.8	RNA	CP016816	222960	223036	3	+	77	tRNA-Arg	tRNAs	tRNAs	 	 	FALSE
+fig|1806462.14.rna.9	RNA	CP016816	274583	274667	2	+	85	tRNA-Leu	tRNAs	tRNAs	 	 	FALSE
+fig|1806462.14.peg.112	CDS	CP016816	151204	150614	-1	-	591	GTP-binding protein EngB	Universal GTPases	Universal GTPases	gi|1057959233	locus|JCVSYN2_00600	FALSE
+fig|1806462.14.peg.121	CDS	CP016816	162795	161893	-3	-	903	Ribosome small subunit-stimulated GTPase EngC	Universal GTPases	Universal GTPases	gi|1057959242	locus|JCVSYN2_00650	FALSE
+fig|1806462.14.peg.163	CDS	CP016816	207102	208409	3	+	1308	GTP-binding protein EngA	Universal GTPases	Universal GTPases	gi|1057959281	locus|JCVSYN2_00870	FALSE
+fig|1806462.14.peg.168	CDS	CP016816	212275	213618	1	+	1344	Signal recognition particle, subunit Ffh SRP54 (TC 3.A.5.1.1)	Universal GTPases	Universal GTPases	gi|1057959286	locus|JCVSYN2_00900	FALSE
+fig|1806462.14.peg.174	CDS	CP016816	216192	217142	3	+	951	50S ribosomal subunit maturation GTPase RbgA (B. subtilis YlqF)	Universal GTPases	Universal GTPases	gi|1057959292	locus|JCVSYN2_00930	FALSE
+fig|1806462.14.peg.198	CDS	CP016816	248617	249522	1	+	906	GTP-binding protein Era	Universal GTPases	Universal GTPases	gi|1057959316	locus|JCVSYN2_01055	FALSE
+fig|1806462.14.peg.222	CDS	CP016816	280106	281335	2	+	1230	Signal recognition particle receptor protein FtsY (=alpha subunit) (TC 3.A.5.1.1)	Universal GTPases	Universal GTPases	gi|1057959340	locus|JCVSYN2_01180	FALSE
+fig|1806462.14.peg.438	CDS	CP016816	523311	522217	-3	-	1095	GTP-binding and nucleic acid-binding protein YchF	Universal GTPases	Universal GTPases	gi|1057959554	locus|JCVSYN2_02405	FALSE
+fig|1806462.14.peg.123	CDS	CP016816	164055	164471	3	+	417	tRNA threonylcarbamoyladenosine biosynthesis protein TsaE	YjeE	YjeE	gi|1057959243	locus|JCVSYN2_00660	FALSE
+fig|1806462.14.peg.10	CDS	CP016816	15141	13525	-3	-	1617	Ribose/Galactose ABC transporter, ATP-binding component			gi|1057959134	locus|JCVSYN2_00050	FALSE
+fig|1806462.14.peg.106	CDS	CP016816	143903	145624	2	+	1722	Phosphoenolpyruvate-protein phosphotransferase of PTS system (EC:2.7.3.9)			gi|1057959228	locus|JCVSYN2_00570	FALSE
+fig|1806462.14.peg.107	CDS	CP016816	145706	146170	2	+	465	PTS system, glucose-specific IIA component			gi|1057959229	locus|JCVSYN2_00575	FALSE
+fig|1806462.14.peg.108	CDS	CP016816	146279	146461	2	+	183	hypothetical protein			gi|1057959573	locus|JCVSYN2_00580	FALSE
+fig|1806462.14.peg.11	CDS	CP016816	16799	15153	-2	-	1647	Ribose ABC transporter, periplasmic ribose-binding protein RbsB (TC 3.A.1.2.1)			gi|1057959135	locus|JCVSYN2_00055	FALSE
+fig|1806462.14.peg.110	CDS	CP016816	147459	149246	3	+	1788	Conserved hypothetical transmembrane protein			gi|1057959231	locus|JCVSYN2_00590	FALSE
+fig|1806462.14.peg.113	CDS	CP016816	151758	151198	-3	-	561	hypothetical transmembrane protein			gi|1057959234	locus|JCVSYN2_00605	FALSE
+fig|1806462.14.peg.114	CDS	CP016816	152338	151760	-1	-	579	hypothetical transmembrane protein			gi|1057959235	locus|JCVSYN2_00610	FALSE
+fig|1806462.14.peg.115	CDS	CP016816	153030	152341	-3	-	690	FIG00836176: hypothetical protein			gi|1057959236	locus|JCVSYN2_00615	FALSE
+fig|1806462.14.peg.122	CDS	CP016816	163920	162805	-3	-	1116	Serine/threonine protein kinase PrkC, regulator of stationary phase, short form			gi|1057959574	locus|JCVSYN2_00655	FALSE
+fig|1806462.14.peg.125	CDS	CP016816	165787	166467	1	+	681	FIG00835522: hypothetical protein			gi|1057959245	locus|JCVSYN2_00675	FALSE
+fig|1806462.14.peg.127	CDS	CP016816	167885	168502	2	+	618	Ribonuclease HI-related protein			gi|1057959247	locus|JCVSYN2_00685	FALSE
+fig|1806462.14.peg.129	CDS	CP016816	170355	171161	3	+	807	FIG00834655: hypothetical protein			gi|1057959575	locus|JCVSYN2_00695	FALSE
+fig|1806462.14.peg.13	CDS	CP016816	19279	18716	-1	-	564	Imidazoleglycerol-phosphate dehydratase (EC:4.2.1.19)			gi|1057959571	locus|JCVSYN2_00065	FALSE
+fig|1806462.14.peg.136	CDS	CP016816	176894	177538	2	+	645	hypothetical transmembrane protein			gi|1057959255	locus|JCVSYN2_00735	FALSE
+fig|1806462.14.peg.142	CDS	CP016816	183009	182359	-3	-	651	Oxygen-insensitive NAD(P)H nitroreductase (EC:1.-.-.-) / Dihydropteridine reductase (EC:1.5.1.34)			gi|1057959260	locus|JCVSYN2_00765	FALSE
+fig|1806462.14.peg.143	CDS	CP016816	187470	183022	-3	-	4449	DNA polymerase III alpha subunit (EC:2.7.7.7)			gi|1057959261	locus|JCVSYN2_00770	FALSE
+fig|1806462.14.peg.144	CDS	CP016816	188507	187479	-2	-	1029	Phosphatidate cytidylyltransferase (EC:2.7.7.41)			gi|1057959262	locus|JCVSYN2_00775	FALSE
+fig|1806462.14.peg.148	CDS	CP016816	192229	192381	1	+	153	hypothetical protein			gi|1057959266	locus|JCVSYN2_00795	FALSE
+fig|1806462.14.peg.150	CDS	CP016816	194426	194671	2	+	246	M. genitalium predicted coding region MG335.1			gi|1057959268	locus|JCVSYN2_00805	FALSE
+fig|1806462.14.peg.151	CDS	CP016816	196094	197593	2	+	1500	hypothetical transmembrane protein			gi|1057959269	locus|JCVSYN2_00810	FALSE
+fig|1806462.14.peg.152	CDS	CP016816	197611	198372	1	+	762	Hypothetical transmembrane protein			gi|1057959270	locus|JCVSYN2_00815	FALSE
+fig|1806462.14.peg.153	CDS	CP016816	198382	199218	1	+	837	Segregation and condensation protein A			gi|1057959271	locus|JCVSYN2_00820	FALSE
+fig|1806462.14.peg.154	CDS	CP016816	199202	199831	2	+	630	Segregation and condensation protein B			gi|1057959272	locus|JCVSYN2_00825	FALSE
+fig|1806462.14.peg.157	CDS	CP016816	201395	202222	2	+	828	Hypothetical transmembrane protein			gi|1057959275	locus|JCVSYN2_00840	FALSE
+fig|1806462.14.peg.158	CDS	CP016816	202897	203616	1	+	720	Prolipoprotein			gi|1057959276	locus|JCVSYN2_00845	FALSE
+fig|1806462.14.peg.160	CDS	CP016816	204773	205663	2	+	891	Conserved hypothetical transmembrane protein			gi|1057959278	locus|JCVSYN2_00855	FALSE
+fig|1806462.14.peg.161	CDS	CP016816	205729	206424	1	+	696	hypothetical transmembrane protein			gi|1057959279	locus|JCVSYN2_00860	FALSE
+fig|1806462.14.peg.162	CDS	CP016816	206433	207095	3	+	663	Cytidylate kinase (EC:2.7.4.25)			gi|1057959280	locus|JCVSYN2_00865	FALSE
+fig|1806462.14.peg.165	CDS	CP016816	208791	209339	3	+	549	FIG00834580: hypothetical protein			gi|1057959283	locus|JCVSYN2_00880	FALSE
+fig|1806462.14.peg.166	CDS	CP016816	209403	209780	3	+	378	Conserved hypothetical transmembrane protein			gi|1057959284	locus|JCVSYN2_00885	FALSE
+fig|1806462.14.peg.167	CDS	CP016816	210712	212241	1	+	1530	Ribonuclease Y			gi|1057959285	locus|JCVSYN2_00895	FALSE
+fig|1806462.14.peg.175	CDS	CP016816	217523	219394	2	+	1872	Lipid A export ATP-binding/permease protein MsbA			gi|1057959293	locus|JCVSYN2_00935	FALSE
+fig|1806462.14.peg.176	CDS	CP016816	219410	221263	2	+	1854	Lipid A export ATP-binding/permease protein MsbA			gi|1057959294	locus|JCVSYN2_00940	FALSE
+fig|1806462.14.peg.177	CDS	CP016816	221297	222904	2	+	1608	FIG00834907: hypothetical protein			gi|1057959295	locus|JCVSYN2_00945	FALSE
+fig|1806462.14.peg.178	CDS	CP016816	223090	223830	1	+	741	FIG00836496: hypothetical protein			gi|1057959296	locus|JCVSYN2_00955	FALSE
+fig|1806462.14.peg.179	CDS	CP016816	223802	224146	2	+	345	FIG00834525: hypothetical protein			gi|1057959297	locus|JCVSYN2_00960	FALSE
+fig|1806462.14.peg.18	CDS	CP016816	24273	24872	3	+	600	FMN-dependent NADH-azoreductase			gi|1057959140	locus|JCVSYN2_00090	FALSE
+fig|1806462.14.peg.182	CDS	CP016816	226274	226552	2	+	279	hypothetical protein			gi|1057959300	locus|JCVSYN2_00975	FALSE
+fig|1806462.14.peg.186	CDS	CP016816	229208	230335	2	+	1128	tRNA-specific 2-thiouridylase MnmA			gi|1057959304	locus|JCVSYN2_00995	FALSE
+fig|1806462.14.peg.187	CDS	CP016816	230382	230999	3	+	618	Hypothetical transmembrane protein			gi|1057959305	locus|JCVSYN2_01000	FALSE
+fig|1806462.14.peg.188	CDS	CP016816	231075	233219	3	+	2145	FIG00833898: hypothetical protein			gi|1057959306	locus|JCVSYN2_01005	FALSE
+fig|1806462.14.peg.19	CDS	CP016816	25943	24909	-2	-	1035	ABC transporter, ATP-binding protein			gi|1057959141	locus|JCVSYN2_00095	FALSE
+fig|1806462.14.peg.193	CDS	CP016816	240222	237760	-3	-	2463	FIG00835019: hypothetical protein			gi|1057959311	locus|JCVSYN2_01030	FALSE
+fig|1806462.14.peg.194	CDS	CP016816	240372	245633	3	+	5262	FIG00791385: hypothetical protein			gi|1057959312	locus|JCVSYN2_01035	FALSE
+fig|1806462.14.peg.195	CDS	CP016816	245681	246232	2	+	552	DJ-1/YajL/PfpI superfamily, includes chaperone protein YajL (former ThiJ), parkinsonism-associated protein DJ-1, peptidases PfpI, Hsp31			gi|1057959313	locus|JCVSYN2_01040	FALSE
+fig|1806462.14.peg.196	CDS	CP016816	246267	248114	3	+	1848	sublancin 168 lantibiotic transporter			gi|1057959314	locus|JCVSYN2_01045	FALSE
+fig|1806462.14.peg.20	CDS	CP016816	29362	26204	-1	-	3159	FIG00834567: hypothetical protein			gi|1057959142	locus|JCVSYN2_00100	FALSE
+fig|1806462.14.peg.203	CDS	CP016816	255101	255778	2	+	678	Putative tRNA-m1A22 methylase			gi|1057959321	locus|JCVSYN2_01080	FALSE
+fig|1806462.14.peg.204	CDS	CP016816	255765	256541	3	+	777	FIG137478: Hypothetical protein YbgI			gi|1057959322	locus|JCVSYN2_01085	FALSE
+fig|1806462.14.peg.205	CDS	CP016816	256550	257911	2	+	1362	DEAD-box ATP-dependent RNA helicase CshB (EC:3.6.4.13)			gi|1057959323	locus|JCVSYN2_01090	FALSE
+fig|1806462.14.peg.206	CDS	CP016816	257951	259465	2	+	1515	hypothetical transmembrane protein			gi|1057959324	locus|JCVSYN2_01095	FALSE
+fig|1806462.14.peg.207	CDS	CP016816	259581	263735	3	+	4155	FIG00837529: hypothetical protein			gi|1057959325	locus|JCVSYN2_01100	FALSE
+fig|1806462.14.peg.21	CDS	CP016816	29509	34896	1	+	5388	FIG00835962: hypothetical protein			gi|1057959143	locus|JCVSYN2_00105	FALSE
+fig|1806462.14.peg.211	CDS	CP016816	270304	269915	-1	-	390	FIG00836436: hypothetical protein			gi|1057959329	locus|JCVSYN2_01120	FALSE
+fig|1806462.14.peg.213	CDS	CP016816	272141	271137	-2	-	1005	Phosphate:acyl-ACP acyltransferase PlsX			gi|1057959331	locus|JCVSYN2_01130	FALSE
+fig|1806462.14.peg.214	CDS	CP016816	273817	272174	-1	-	1644	Dihydroxyacetone kinase family protein			gi|1057959332	locus|JCVSYN2_01135	FALSE
+fig|1806462.14.peg.215	CDS	CP016816	274153	273842	-1	-	312	FIG00834450: hypothetical protein			gi|1057959333	locus|JCVSYN2_01140	FALSE
+fig|1806462.14.peg.217	CDS	CP016816	274750	275193	1	+	444	FIG00835424: hypothetical protein			gi|1057959335	locus|JCVSYN2_01155	FALSE
+fig|1806462.14.peg.223	CDS	CP016816	281319	281660	3	+	342	Signal recognition particle associated protein			gi|1057959341	locus|JCVSYN2_01185	FALSE
+fig|1806462.14.peg.224	CDS	CP016816	281648	282421	2	+	774	Phosphoesterase family protein YmdB-like			gi|1057959342	locus|JCVSYN2_01190	FALSE
+fig|1806462.14.peg.226	CDS	CP016816	283785	284468	3	+	684	Cytoplasmic copper homeostasis protein CutC			gi|1057959344	locus|JCVSYN2_01200	FALSE
+fig|1806462.14.peg.227	CDS	CP016816	284461	285777	1	+	1317	tRNA:m(5)U-54 MTase gid			gi|1057959345	locus|JCVSYN2_01205	FALSE
+fig|1806462.14.peg.229	CDS	CP016816	286805	287785	2	+	981	"3&#39;->5&#39; exoribonuclease Bsu YhaM"			gi|1057959347	locus|JCVSYN2_01215	FALSE
+fig|1806462.14.peg.230	CDS	CP016816	288214	287816	-1	-	399	Histidine triad (HIT) nucleotide-binding protein, similarity with At5g48545 and yeast YDL125C (HNT1)			gi|1057959348	locus|JCVSYN2_01220	FALSE
+fig|1806462.14.peg.231	CDS	CP016816	290373	288217	-3	-	2157	Prolipoprotein			gi|1057959349	locus|JCVSYN2_01225	FALSE
+fig|1806462.14.peg.232	CDS	CP016816	293309	290373	-2	-	2937	asparagine-rich antigen			gi|1057959350	locus|JCVSYN2_01230	FALSE
+fig|1806462.14.peg.234	CDS	CP016816	294753	295190	3	+	438	Putative iron-sulfur cluster assembly scaffold protein for SUF system, SufE2			gi|1057959352	locus|JCVSYN2_01240	FALSE
+fig|1806462.14.peg.236	CDS	CP016816	295767	297662	3	+	1896	endopeptidase O( EC:3.4.24.- )			gi|1057959354	locus|JCVSYN2_01250	FALSE
+fig|1806462.14.peg.239	CDS	CP016816	299718	300485	3	+	768	FIG011178: rRNA methylase			gi|1057959357	locus|JCVSYN2_01265	FALSE
+fig|1806462.14.peg.24	CDS	CP016816	39275	38448	-2	-	828	FIG00835147: hypothetical protein			gi|1057959146	locus|JCVSYN2_00120	FALSE
+fig|1806462.14.peg.244	CDS	CP016816	308766	308182	-3	-	585	Hypothetical transmembrane protein			gi|1057959362	locus|JCVSYN2_01290	FALSE
+fig|1806462.14.peg.245	CDS	CP016816	310417	308771	-1	-	1647	FIG00836686: hypothetical protein			gi|1057959363	locus|JCVSYN2_01295	FALSE
+fig|1806462.14.peg.246	CDS	CP016816	311077	310640	-1	-	438	Prolipoprotein			gi|1057959364	locus|JCVSYN2_01300	FALSE
+fig|1806462.14.peg.248	CDS	CP016816	311816	313171	2	+	1356	Cytosol aminopeptidase PepA (EC:3.4.11.1)			gi|1057959366	locus|JCVSYN2_01310	FALSE
+fig|1806462.14.peg.249	CDS	CP016816	314684	313335	-2	-	1350	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase and related deacylases			gi|1057959367	locus|JCVSYN2_01315	FALSE
+fig|1806462.14.peg.25	CDS	CP016816	40049	39327	-2	-	723	tRNA (adenine37-N(6))-methyltransferase TrmN6 (EC:2.1.1.223)			gi|1057959147	locus|JCVSYN2_00125	FALSE
+fig|1806462.14.peg.250	CDS	CP016816	315520	314840	-1	-	681	N-acetylmannosamine-6-phosphate 2-epimerase (EC:5.1.3.9)			gi|1057959368	locus|JCVSYN2_01320	FALSE
+fig|1806462.14.peg.251	CDS	CP016816	316454	315579	-2	-	876	N-acetylmannosamine kinase (EC:2.7.1.60)			gi|1057959369	locus|JCVSYN2_01325	FALSE
+fig|1806462.14.peg.255	CDS	CP016816	318078	317677	-3	-	402	FIG00836236: hypothetical protein			gi|1057959373	locus|JCVSYN2_01345	FALSE
+fig|1806462.14.peg.258	CDS	CP016816	319364	320437	2	+	1074	Hypothetical prolipoprotein			gi|1057959376	locus|JCVSYN2_01360	FALSE
+fig|1806462.14.peg.259	CDS	CP016816	321705	321082	-3	-	624	FIG00836640: hypothetical protein			gi|1057959377	locus|JCVSYN2_01390	FALSE
+fig|1806462.14.peg.26	CDS	CP016816	40789	40049	-1	-	741	DNA polymerase III delta prime subunit (EC:2.7.7.7)			gi|1057959148	locus|JCVSYN2_00130	FALSE
+fig|1806462.14.peg.260	CDS	CP016816	322701	321754	-3	-	948	1-acyl-sn-glycerol-3-phosphate acyltransferase (EC:2.3.1.51)			gi|1057959378	locus|JCVSYN2_01395	FALSE
+fig|1806462.14.peg.261	CDS	CP016816	323190	322858	-3	-	333	Holo-[acyl-carrier protein] synthase (EC:2.7.8.7)			gi|1057959379	locus|JCVSYN2_01400	FALSE
+fig|1806462.14.peg.262	CDS	CP016816	323732	323250	-2	-	483	"dCMP deaminase (EC:3.5.4.12); Late competence protein ComEB"			gi|1057959380	locus|JCVSYN2_01405	FALSE
+fig|1806462.14.peg.263	CDS	CP016816	325036	323735	-1	-	1302	Hypothetical transmembrane protein			gi|1057959381	locus|JCVSYN2_01410	FALSE
+fig|1806462.14.peg.267	CDS	CP016816	330970	329981	-1	-	990	FIG00836012: hypothetical protein			gi|1057959385	locus|JCVSYN2_01430	FALSE
+fig|1806462.14.peg.268	CDS	CP016816	331399	330983	-1	-	417	FIG00835107: hypothetical protein			gi|1057959386	locus|JCVSYN2_01435	FALSE
+fig|1806462.14.peg.269	CDS	CP016816	332568	331411	-3	-	1158	Cell division protein FtsZ (EC:3.4.24.-)			gi|1057959387	locus|JCVSYN2_01440	FALSE
+fig|1806462.14.peg.27	CDS	CP016816	41408	40767	-2	-	642	Thymidylate kinase (EC:2.7.4.9)			gi|1057959149	locus|JCVSYN2_00135	FALSE
+fig|1806462.14.peg.270	CDS	CP016816	333843	332683	-3	-	1161	FIG00835038: hypothetical protein			gi|1057959577	locus|JCVSYN2_01445	FALSE
+fig|1806462.14.peg.271	CDS	CP016816	334778	333852	-2	-	927	rRNA small subunit methyltransferase H			gi|1057959388	locus|JCVSYN2_01450	FALSE
+fig|1806462.14.peg.272	CDS	CP016816	335188	334787	-1	-	402	Cell division protein MraZ			gi|1057959389	locus|JCVSYN2_01455	FALSE
+fig|1806462.14.peg.274	CDS	CP016816	336007	335489	-1	-	519	FIG00834354: hypothetical protein			gi|1057959391	locus|JCVSYN2_01465	FALSE
+fig|1806462.14.peg.277	CDS	CP016816	340090	339482	-1	-	609	FIG00834370: hypothetical protein			gi|1057959394	locus|JCVSYN2_01480	FALSE
+fig|1806462.14.peg.281	CDS	CP016816	348935	348330	-2	-	606	Hypothetical transmembrane protein			gi|1057959398	locus|JCVSYN2_01515	FALSE
+fig|1806462.14.peg.289	CDS	CP016816	359281	358736	-1	-	546	"tRNA (cytidine(34)-2&#39;-O)-methyltransferase (EC:2.1.1.207)"			gi|1057959406	locus|JCVSYN2_01560	FALSE
+fig|1806462.14.peg.291	CDS	CP016816	360403	361011	1	+	609	Adenylylsulfate kinase (EC:2.7.1.25)			gi|1057959408	locus|JCVSYN2_01570	FALSE
+fig|1806462.14.peg.292	CDS	CP016816	362774	361575	-2	-	1200	Conserved hypothetical transmembrane protein			gi|1057959578	locus|JCVSYN2_01575	FALSE
+fig|1806462.14.peg.293	CDS	CP016816	363549	363271	-3	-	279	hypothetical protein			gi|1057959409	locus|JCVSYN2_01580	FALSE
+fig|1806462.14.peg.294	CDS	CP016816	363958	363818	-1	-	141	hypothetical protein			gi|1057959410	locus|JCVSYN2_01585	FALSE
+fig|1806462.14.peg.296	CDS	CP016816	366679	367623	1	+	945	FIG00835546: hypothetical protein			gi|1057959412	locus|JCVSYN2_01595	FALSE
+fig|1806462.14.peg.297	CDS	CP016816	369520	370188	1	+	669	FIG00835722: hypothetical protein			gi|1057959413	locus|JCVSYN2_01605	FALSE
+fig|1806462.14.peg.298	CDS	CP016816	370371	370679	3	+	309	hypothetical protein			gi|1057959414	locus|JCVSYN2_01610	FALSE
+fig|1806462.14.peg.301	CDS	CP016816	374327	373389	-2	-	939	Helicase loader DnaI			gi|1057959417	locus|JCVSYN2_01625	FALSE
+fig|1806462.14.peg.302	CDS	CP016816	375521	374337	-2	-	1185	Helicase loader DnaB			gi|1057959418	locus|JCVSYN2_01630	FALSE
+fig|1806462.14.peg.303	CDS	CP016816	376502	375678	-2	-	825	Formamidopyrimidine-DNA glycosylase (EC:3.2.2.23)			gi|1057959419	locus|JCVSYN2_01635	FALSE
+fig|1806462.14.peg.304	CDS	CP016816	379248	376513	-3	-	2736	DNA polymerase I (EC:2.7.7.7)			gi|1057959420	locus|JCVSYN2_01640	FALSE
+fig|1806462.14.peg.305	CDS	CP016816	382220	379257	-2	-	2964	DNA polymerase III alpha subunit (EC:2.7.7.7)			gi|1057959421	locus|JCVSYN2_01645	FALSE
+fig|1806462.14.peg.309	CDS	CP016816	385390	386229	1	+	840	FIG00835815: hypothetical protein			gi|1057959425	locus|JCVSYN2_01665	FALSE
+fig|1806462.14.peg.31	CDS	CP016816	46274	47098	2	+	825	Hypothetical transmembrane protein			gi|1057959153	locus|JCVSYN2_00165	FALSE
+fig|1806462.14.peg.310	CDS	CP016816	386240	387091	2	+	852	FIG00836333: hypothetical protein			gi|1057959426	locus|JCVSYN2_01670	FALSE
+fig|1806462.14.peg.312	CDS	CP016816	388076	387855	-2	-	222	Acyl carrier protein			gi|1057959428	locus|JCVSYN2_01690	FALSE
+fig|1806462.14.peg.313	CDS	CP016816	388462	388100	-1	-	363	Prolipoprotein			gi|1057959429	locus|JCVSYN2_01695	FALSE
+fig|1806462.14.peg.314	CDS	CP016816	389519	388449	-2	-	1071	FIG00835667: hypothetical protein			gi|1057959430	locus|JCVSYN2_01700	FALSE
+fig|1806462.14.peg.316	CDS	CP016816	395372	392583	-2	-	2790	FIG00834549: hypothetical protein			gi|1057959432	locus|JCVSYN2_01720	FALSE
+fig|1806462.14.peg.319	CDS	CP016816	400659	396514	-3	-	4146	ABC transporter permease protein			gi|1057959435	locus|JCVSYN2_01735	FALSE
+fig|1806462.14.peg.33	CDS	CP016816	48559	49533	1	+	975	tRNA dihydrouridine synthase B (EC:1.-.-.-)			gi|1057959155	locus|JCVSYN2_00175	FALSE
+fig|1806462.14.peg.331	CDS	CP016816	410312	408864	-2	-	1449	Preprotein translocase secY subunit (TC 3.A.5.1.1)			gi|1057959447	locus|JCVSYN2_01795	FALSE
+fig|1806462.14.peg.35	CDS	CP016816	51436	51128	-1	-	309	Thioredoxin			gi|1057959157	locus|JCVSYN2_00185	FALSE
+fig|1806462.14.peg.353	CDS	CP016816	423467	421866	-2	-	1602	Potassium uptake protein, integral membrane component, KtrB			gi|1057959469	locus|JCVSYN2_01925	FALSE
+fig|1806462.14.peg.358	CDS	CP016816	429503	427497	-2	-	2007	DNA ligase (EC:6.5.1.2)			gi|1057959474	locus|JCVSYN2_01950	FALSE
+fig|1806462.14.peg.359	CDS	CP016816	431528	429507	-2	-	2022	polysaccharide transport protein, putative			gi|1057959475	locus|JCVSYN2_01955	FALSE
+fig|1806462.14.peg.36	CDS	CP016816	52289	51447	-2	-	843	cof-like hydrolase, HAD-superfamily			gi|1057959158	locus|JCVSYN2_00190	FALSE
+fig|1806462.14.peg.361	CDS	CP016816	433410	432442	-3	-	969	Conserved hypothetical transmembrane protein, CAAX amino terminal protease family			gi|1057959477	locus|JCVSYN2_01965	FALSE
+fig|1806462.14.peg.362	CDS	CP016816	433735	433466	-1	-	270	Phosphocarrier protein of PTS system			gi|1057959478	locus|JCVSYN2_01970	FALSE
+fig|1806462.14.peg.364	CDS	CP016816	436740	435985	-3	-	756	Hypothetical transmembrane protein			gi|1057959480	locus|JCVSYN2_01980	FALSE
+fig|1806462.14.peg.365	CDS	CP016816	437696	436740	-2	-	957	glycosyltransferase			gi|1057959481	locus|JCVSYN2_01985	FALSE
+fig|1806462.14.peg.369	CDS	CP016816	443142	442279	-3	-	864	putative Cof-like hydrolase			gi|1057959485	locus|JCVSYN2_02005	FALSE
+fig|1806462.14.peg.370	CDS	CP016816	444438	445172	3	+	735	Glucosamine-6-phosphate deaminase (EC:3.5.99.6)			gi|1057959486	locus|JCVSYN2_02055	FALSE
+fig|1806462.14.peg.372	CDS	CP016816	446009	446845	2	+	837	HAD-superfamily hydrolase subfamily IIB, protein			gi|1057959488	locus|JCVSYN2_02065	FALSE
+fig|1806462.14.peg.374	CDS	CP016816	448543	449142	1	+	600	FIG00836957: hypothetical protein			gi|1057959490	locus|JCVSYN2_02075	FALSE
+fig|1806462.14.peg.376	CDS	CP016816	451551	449875	-3	-	1677	Phosphoglucomutase (EC:5.4.2.2)			gi|1057959492	locus|JCVSYN2_02085	FALSE
+fig|1806462.14.peg.378	CDS	CP016816	452746	452519	-1	-	228	hypothetical protein			gi|1057959494	locus|JCVSYN2_02095	FALSE
+fig|1806462.14.peg.38	CDS	CP016816	60368	59529	-2	-	840	HMP-PP hydrolase (pyridoxal phosphatase) Cof, detected in genetic screen for thiamin metabolic genes (PMID:15292217)			gi|1057959160	locus|JCVSYN2_00225	FALSE
+fig|1806462.14.peg.382	CDS	CP016816	456670	456954	1	+	285	preprotein translocase, SecG subunit, putative			gi|1057959498	locus|JCVSYN2_02115	FALSE
+fig|1806462.14.peg.385	CDS	CP016816	459560	460045	2	+	486	Hypothetical transmembrane protein			gi|1057959501	locus|JCVSYN2_02130	FALSE
+fig|1806462.14.peg.386	CDS	CP016816	460165	460416	1	+	252	FIG00834258: hypothetical protein			gi|1057959502	locus|JCVSYN2_02135	FALSE
+fig|1806462.14.peg.387	CDS	CP016816	460467	462704	3	+	2238	PTS system, glucose-specific IIC component (EC:2.7.1.69) / PTS system, glucose-specific IIB component (EC:2.7.1.69) / PTS system, glucose-specific IIA component (EC:2.7.1.69)			gi|1057959503	locus|JCVSYN2_02140	FALSE
+fig|1806462.14.peg.389	CDS	CP016816	466587	466288	-3	-	300	ATP synthase epsilon chain (EC:3.6.3.14)			gi|1057959505	locus|JCVSYN2_02150	FALSE
+fig|1806462.14.peg.390	CDS	CP016816	468014	466587	-2	-	1428	ATP synthase beta chain (EC:3.6.3.14)			gi|1057959506	locus|JCVSYN2_02155	FALSE
+fig|1806462.14.peg.391	CDS	CP016816	468865	468023	-1	-	843	ATP synthase gamma chain (EC:3.6.3.14)			gi|1057959507	locus|JCVSYN2_02160	FALSE
+fig|1806462.14.peg.392	CDS	CP016816	470444	468867	-2	-	1578	ATP synthase alpha chain (EC:3.6.3.14)			gi|1057959508	locus|JCVSYN2_02165	FALSE
+fig|1806462.14.peg.393	CDS	CP016816	471001	470456	-1	-	546	ATP synthase delta chain (EC:3.6.3.14)			gi|1057959509	locus|JCVSYN2_02170	FALSE
+fig|1806462.14.peg.394	CDS	CP016816	471548	471003	-2	-	546	ATP synthase F0 sector subunit b			gi|1057959510	locus|JCVSYN2_02175	FALSE
+fig|1806462.14.peg.395	CDS	CP016816	471882	471577	-3	-	306	ATP synthase F0 sector subunit c			gi|1057959511	locus|JCVSYN2_02180	FALSE
+fig|1806462.14.peg.396	CDS	CP016816	472775	471912	-2	-	864	ATP synthase F0 sector subunit a			gi|1057959512	locus|JCVSYN2_02185	FALSE
+fig|1806462.14.peg.397	CDS	CP016816	473173	472775	-1	-	399	Hypothetical transmembrane protein			gi|1057959513	locus|JCVSYN2_02190	FALSE
+fig|1806462.14.peg.398	CDS	CP016816	473936	473313	-2	-	624	Uracil phosphoribosyltransferase (EC:2.4.2.9)			gi|1057959514	locus|JCVSYN2_02195	FALSE
+fig|1806462.14.peg.40	CDS	CP016816	61676	61455	-2	-	222	FIG00835683: hypothetical protein			gi|1057959162	locus|JCVSYN2_00235	FALSE
+fig|1806462.14.peg.403	CDS	CP016816	484691	483516	-2	-	1176	FIG00834111: hypothetical protein			gi|1057959519	locus|JCVSYN2_02220	FALSE
+fig|1806462.14.peg.408	CDS	CP016816	487642	488640	1	+	999	UDP-glucose 4-epimerase (EC:5.1.3.2)			gi|1057959524	locus|JCVSYN2_02245	FALSE
+fig|1806462.14.peg.409	CDS	CP016816	488654	489841	2	+	1188	UDP-galactopyranose mutase (EC:5.4.99.9)			gi|1057959525	locus|JCVSYN2_02250	FALSE
+fig|1806462.14.peg.410	CDS	CP016816	491400	490471	-3	-	930	FIG001886: Cytoplasmic hypothetical protein			gi|1057959526	locus|JCVSYN2_02255	FALSE
+fig|1806462.14.peg.413	CDS	CP016816	495348	493768	-3	-	1581	Prolipoprotein diacylglyceryl transferase and tran			gi|1057959529	locus|JCVSYN2_02270	FALSE
+fig|1806462.14.peg.419	CDS	CP016816	503314	504264	1	+	951	DNA polymerase III delta subunit (EC:2.7.7.7)			gi|1057959535	locus|JCVSYN2_02300	FALSE
+fig|1806462.14.peg.420	CDS	CP016816	504267	505733	3	+	1467	Hypothetical transmembrane protein			gi|1057959536	locus|JCVSYN2_02305	FALSE
+fig|1806462.14.peg.421	CDS	CP016816	506111	506371	2	+	261	FIG00834646: hypothetical protein			gi|1057959537	locus|JCVSYN2_02315	FALSE
+fig|1806462.14.peg.425	CDS	CP016816	509138	510454	2	+	1317	Replicative DNA helicase (DnaB) (EC:3.6.4.12)			gi|1057959541	locus|JCVSYN2_02340	FALSE
+fig|1806462.14.peg.426	CDS	CP016816	510521	511828	2	+	1308	hypothetical prolipoprotein			gi|1057959542	locus|JCVSYN2_02345	FALSE
+fig|1806462.14.peg.429	CDS	CP016816	514232	514966	2	+	735	"23S rRNA (guanosine-2&#39;-O-) -methyltransferase rlmB (EC:2.1.1.-)"			gi|1057959545	locus|JCVSYN2_02360	FALSE
+fig|1806462.14.peg.43	CDS	CP016816	64380	63664	-3	-	717	Hypothetical transmembrane protein			gi|1057959165	locus|JCVSYN2_00250	FALSE
+fig|1806462.14.peg.431	CDS	CP016816	515188	515511	1	+	324	Preprotein translocase subunit SecE (TC 3.A.5.1.1)			gi|1057959547	locus|JCVSYN2_02370	FALSE
+fig|1806462.14.peg.433	CDS	CP016816	516857	516675	-2	-	183	Prolipoprotein Q			gi|1057959549	locus|JCVSYN2_02380	FALSE
+fig|1806462.14.peg.434	CDS	CP016816	517253	517023	-2	-	231	FIG00835333: hypothetical protein			gi|1057959550	locus|JCVSYN2_02385	FALSE
+fig|1806462.14.peg.435	CDS	CP016816	517962	517243	-3	-	720	FIG00836693: hypothetical protein			gi|1057959551	locus|JCVSYN2_02390	FALSE
+fig|1806462.14.peg.439	CDS	CP016816	523547	523347	-2	-	201	FIG001891: protein involved in chromosome partitioning			gi|1057959555	locus|JCVSYN2_02410	FALSE
+fig|1806462.14.peg.44	CDS	CP016816	67329	64495	-3	-	2835	Protein export cytoplasm protein SecA ATPase RNA helicase (TC 3.A.5.1.1)			gi|1057959166	locus|JCVSYN2_00255	FALSE
+fig|1806462.14.peg.441	CDS	CP016816	524840	524244	-2	-	597	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase (EC:2.7.8.5)			gi|1057959557	locus|JCVSYN2_02420	FALSE
+fig|1806462.14.peg.442	CDS	CP016816	526522	524942	-1	-	1581	Amino acid permease			gi|1057959558	locus|JCVSYN2_02425	FALSE
+fig|1806462.14.peg.444	CDS	CP016816	528859	527321	-1	-	1539	Amino acid permease			gi|1057959560	locus|JCVSYN2_02435	FALSE
+fig|1806462.14.peg.446	CDS	CP016816	533400	531973	-3	-	1428	HEXOSEPHOSPHATE TRANSPORT PROTEIN			gi|1057959562	locus|JCVSYN2_02445	FALSE
+fig|1806462.14.peg.448	CDS	CP016816	537478	535901	-1	-	1578	proton/glutamate symporter			gi|1057959564	locus|JCVSYN2_02455	FALSE
+fig|1806462.14.peg.449	CDS	CP016816	538841	537498	-2	-	1344	CoA-disulfide reductase (EC:1.8.1.14)			gi|1057959565	locus|JCVSYN2_02460	FALSE
+fig|1806462.14.peg.45	CDS	CP016816	67494	68405	3	+	912	DNA polymerase I (EC:2.7.7.7)			gi|1057959167	locus|JCVSYN2_00260	FALSE
+fig|1806462.14.peg.450	CDS	CP016816	540537	539821	-3	-	717	Choline kinase family			gi|1057959566	locus|JCVSYN2_02465	FALSE
+fig|1806462.14.peg.451	CDS	CP016816	541331	540537	-2	-	795	HMP-PP hydrolase (pyridoxal phosphatase) Cof, detected in genetic screen for thiamin metabolic genes (PMID:15292217)			gi|1057959567	locus|JCVSYN2_02470	FALSE
+fig|1806462.14.peg.455	CDS	CP016816	358757	358095	-2	-	663	Hydrolase (HAD superfamily)			 	 	FALSE
+fig|1806462.14.peg.49	CDS	CP016816	71947	70835	-1	-	1113	FIG00834533: hypothetical protein			gi|1057959171	locus|JCVSYN2_00280	FALSE
+fig|1806462.14.peg.5	CDS	CP016816	4064	5155	2	+	1092	COG3883: CwlO1 like			gi|1057959129	locus|JCVSYN2_00025	FALSE
+fig|1806462.14.peg.51	CDS	CP016816	73088	74437	2	+	1350	Glycosyltransferase			gi|1057959173	locus|JCVSYN2_00290	FALSE
+fig|1806462.14.peg.52	CDS	CP016816	75431	74511	-2	-	921	Glycosyltransferase( EC:2.- )			gi|1057959174	locus|JCVSYN2_00295	FALSE
+fig|1806462.14.peg.53	CDS	CP016816	76751	75879	-2	-	873	UTP--glucose-1-phosphate uridylyltransferase (EC:2.7.7.9)			gi|1057959175	locus|JCVSYN2_00300	FALSE
+fig|1806462.14.peg.54	CDS	CP016816	77376	76936	-3	-	441	FIG00834541: hypothetical protein			gi|1057959176	locus|JCVSYN2_00305	FALSE
+fig|1806462.14.peg.55	CDS	CP016816	77446	78207	1	+	762	Acyl-phosphate:glycerol-3-phosphate O-acyltransferase PlsY			gi|1057959177	locus|JCVSYN2_00310	FALSE
+fig|1806462.14.peg.57	CDS	CP016816	79857	81071	3	+	1215	Deoxyguanosinetriphosphate triphosphohydrolase (EC:3.1.5.1)			gi|1057959179	locus|JCVSYN2_00320	FALSE
+fig|1806462.14.peg.59	CDS	CP016816	81617	83215	2	+	1599	CTP synthase (EC:6.3.4.2)			gi|1057959181	locus|JCVSYN2_00330	FALSE
+fig|1806462.14.peg.61	CDS	CP016816	84546	85607	3	+	1062	AAA superfamily ATPase			gi|1057959183	locus|JCVSYN2_00340	FALSE
+fig|1806462.14.peg.62	CDS	CP016816	85600	87873	1	+	2274	putative serine protease			gi|1057959184	locus|JCVSYN2_00345	FALSE
+fig|1806462.14.peg.64	CDS	CP016816	89084	90982	2	+	1899	FIG00836353: hypothetical protein			gi|1057959186	locus|JCVSYN2_00355	FALSE
+fig|1806462.14.peg.66	CDS	CP016816	91944	92573	3	+	630	Thymidine kinase (EC:2.7.1.21)			gi|1057959188	locus|JCVSYN2_00365	FALSE
+fig|1806462.14.peg.69	CDS	CP016816	94520	95992	2	+	1473	Hypothetical transmembrane protein			gi|1057959191	locus|JCVSYN2_00380	FALSE
+fig|1806462.14.peg.70	CDS	CP016816	96001	96501	1	+	501	TsaC protein (YrdC domain) required for threonylcarbamoyladenosine t(6)A37 modification in tRNA			gi|1057959192	locus|JCVSYN2_00385	FALSE
+fig|1806462.14.peg.71	CDS	CP016816	96616	97530	1	+	915	Acetyltransferase, GNAT family, potentially associated with YqeK			gi|1057959193	locus|JCVSYN2_00390	FALSE
+fig|1806462.14.peg.72	CDS	CP016816	97759	98466	1	+	708	Hypothetical transmembrane protein			gi|1057959194	locus|JCVSYN2_00395	FALSE
+fig|1806462.14.peg.73	CDS	CP016816	98466	99995	3	+	1530	Cardiolipin synthetase (EC:2.7.8.-)			gi|1057959195	locus|JCVSYN2_00400	FALSE
+fig|1806462.14.peg.79	CDS	CP016816	108689	108195	-2	-	495	Hypothetical transmembrane protein			gi|1057959201	locus|JCVSYN2_00435	FALSE
+fig|1806462.14.peg.8	CDS	CP016816	10968	9991	-3	-	978	Unspecified monosaccharide ABC transport system, permease component 2			gi|1057959132	locus|JCVSYN2_00040	FALSE
+fig|1806462.14.peg.9	CDS	CP016816	13535	10968	-2	-	2568	Ribose ABC transport system, permease protein RbsC (TC 3.A.1.2.1)			gi|1057959133	locus|JCVSYN2_00045	FALSE
+fig|1806462.14.peg.92	CDS	CP016816	126259	126816	1	+	558	Ribosomal RNA small subunit methyltransferase D (EC:2.1.1.-)			gi|1057959214	locus|JCVSYN2_00500	FALSE
+fig|1806462.14.peg.95	CDS	CP016816	129342	130163	3	+	822	FIG00791463: hypothetical protein			gi|1057959217	locus|JCVSYN2_00515	FALSE
+fig|1806462.14.peg.96	CDS	CP016816	130165	130596	1	+	432	Putative Holliday junction resolvase YqgF			gi|1057959218	locus|JCVSYN2_00520	FALSE
+fig|1806462.14.peg.98	CDS	CP016816	132791	131274	-2	-	1518	Glycerol kinase (EC:2.7.1.30)			gi|1057959220	locus|JCVSYN2_00530	FALSE
+fig|1806462.14.rna.1	RNA	CP016816	52518	52410	-3	-	109	5S ribosomal RNA			 	 	FALSE
+fig|1806462.14.rna.15	RNA	CP016816	340322	340214	-2	-	109	5S ribosomal RNA			 	 	FALSE
+fig|1806462.14.rna.16	RNA	CP016816	343297	340384	-1	-	2914	23S ribosomal RNA			 	 	FALSE
+fig|1806462.14.rna.17	RNA	CP016816	345051	343517	-3	-	1535	16S ribosomal RNA			 	 	FALSE
+fig|1806462.14.rna.2	RNA	CP016816	55493	52580	-2	-	2914	23S ribosomal RNA			 	 	FALSE
+fig|1806462.14.rna.3	RNA	CP016816	57247	55713	-1	-	1535	16S ribosomal RNA			 	 	FALSE

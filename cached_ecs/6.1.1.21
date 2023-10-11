@@ -1,0 +1,25 @@
+ENTRY       EC 6.1.1.21                 Enzyme
+NAME        histidine---tRNA ligase;
+            histidyl-tRNA synthetase;
+            histidyl-transfer ribonucleate synthetase;
+            histidine translase
+CLASS       Ligases;
+            Forming carbon-oxygen bonds;
+            Ligases forming aminoacyl-tRNA and related compounds
+SYSNAME     L-histidine:tRNAHis ligase (AMP-forming)
+REACTION    ATP + L-histidine + tRNAHis = AMP + diphosphate + L-histidyl-tRNAHis [RN:R03655]
+ALL_REAC    R03655
+SUBSTRATE   ATP [CPD:C00002];
+            L-histidine [CPD:C00135];
+            tRNA(His) [CPD:C01643]
+PRODUCT     AMP [CPD:C00020];
+            diphosphate [CPD:C00013];
+            L-histidyl-tRNA(His) [CPD:C02988]
+HISTORY     EC 6.1.1.21 created 1972
+REFERENCE   1  [PMID:6035970]
+  AUTHORS   von Tigerstrom M, Tener GM.
+  TITLE     Histidyl transfer ribonucleic acid synthetase from bakers' yeast.
+  JOURNAL   Can J Biochem 45:1067-74 (1967)
+            DOI:10.1139/o67-123
+PATHWAY     ec00970  Aminoacyl-tRNA biosynthesis
+ORTHOLOGY   K01892  histidyl-tRNA synthetase

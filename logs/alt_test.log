@@ -1,0 +1,743 @@
+Running normal mode
+
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.17
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.7
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.20
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.19
+Request sent: https://rest.kegg.jp/get/ec:4.1.1.17
+Request sent: https://rest.kegg.jp/get/ec:4.1.1.20
+Request sent: https://rest.kegg.jp/get/ec:2.5.1.31
+Request sent: https://rest.kegg.jp/get/ec:2.2.1.1
+Request sent: https://rest.kegg.jp/get/ec:2.5.1.78
+Request sent: https://rest.kegg.jp/get/ec:3.6.3.14
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.5
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.23
+Request sent: https://rest.kegg.jp/get/ec:6.3.5.6
+Request sent: https://rest.kegg.jp/get/ec:6.2.1.5
+Request sent: https://rest.kegg.jp/get/ec:4.2.3.5
+Request sent: https://rest.kegg.jp/get/ec:2.7.7.6
+Request sent: https://rest.kegg.jp/get/ec:2.1.2.1
+Request sent: https://rest.kegg.jp/get/ec:4.2.1.24
+Request sent: https://rest.kegg.jp/get/ec:4.2.1.2
+Request sent: https://rest.kegg.jp/get/ec:5.3.1.6
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.21
+Request sent: https://rest.kegg.jp/get/ec:2.7.4.9
+Request sent: https://rest.kegg.jp/get/ec:2.5.1.19
+Request sent: https://rest.kegg.jp/get/ec:1.2.1.11
+Request sent: https://rest.kegg.jp/get/ec:2.5.1.1
+Request sent: https://rest.kegg.jp/get/ec:2.3.1.37
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.1
+Request sent: https://rest.kegg.jp/get/ec:4.3.2.1
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.12
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.2
+Request sent: https://rest.kegg.jp/get/ec:2.5.1.61
+Request sent: https://rest.kegg.jp/get/ec:5.99.1.
+Request sent: https://rest.kegg.jp/get/ec:5.99.1.3
+Request sent: https://rest.kegg.jp/get/ec:1.5.1.5
+Request sent: https://rest.kegg.jp/get/ec:2.7.4.8
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.26
+Request sent: https://rest.kegg.jp/get/ec:2.1.1.45
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.16
+Request sent: https://rest.kegg.jp/get/ec:3.6.1.1
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.24
+Request sent: https://rest.kegg.jp/get/ec:3.5.1.88
+Request sent: https://rest.kegg.jp/get/ec:2.7.7.60
+Request sent: https://rest.kegg.jp/get/ec:3.6.1.11
+Request sent: https://rest.kegg.jp/get/ec:5.1.1.7
+Request sent: https://rest.kegg.jp/get/ec:1.5.1.3
+Request sent: https://rest.kegg.jp/get/ec:2.7.2.11
+Request sent: https://rest.kegg.jp/get/ec:6.5.1.2
+Request sent: https://rest.kegg.jp/get/ec:2.1.1.199
+Request sent: https://rest.kegg.jp/get/ec:4.99.1.1
+Response: https://rest.kegg.jp/get/ec:5.99.1.
+Response: https://rest.kegg.jp/get/ec:3.6.3.14
+Response: https://rest.kegg.jp/get/ec:5.99.1.3
+Response: https://rest.kegg.jp/get/ec:4.99.1.1
+Response: https://rest.kegg.jp/get/ec:2.3.1.37
+Response: https://rest.kegg.jp/get/ec:2.7.7.60
+Response: https://rest.kegg.jp/get/ec:4.2.3.5
+Response: https://rest.kegg.jp/get/ec:6.1.1.2
+Response: https://rest.kegg.jp/get/ec:3.6.1.1
+Response: https://rest.kegg.jp/get/ec:4.1.1.17
+Response: https://rest.kegg.jp/get/ec:3.5.1.88
+Response: https://rest.kegg.jp/get/ec:5.3.1.6
+Response: https://rest.kegg.jp/get/ec:2.5.1.1
+Response: https://rest.kegg.jp/get/ec:2.2.1.1
+Response: https://rest.kegg.jp/get/ec:6.1.1.16
+Response: https://rest.kegg.jp/get/ec:6.1.1.19
+Response: https://rest.kegg.jp/get/ec:2.1.1.199
+Response: https://rest.kegg.jp/get/ec:2.7.1.26
+Response: https://rest.kegg.jp/get/ec:2.1.2.1
+Response: https://rest.kegg.jp/get/ec:4.2.1.24
+Response: https://rest.kegg.jp/get/ec:4.1.1.20
+Response: https://rest.kegg.jp/get/ec:1.5.1.3
+Response: https://rest.kegg.jp/get/ec:6.1.1.1
+Response: https://rest.kegg.jp/get/ec:2.7.7.6
+Response: https://rest.kegg.jp/get/ec:2.5.1.19
+Response: https://rest.kegg.jp/get/ec:6.5.1.2
+Response: https://rest.kegg.jp/get/ec:2.7.2.11
+Response: https://rest.kegg.jp/get/ec:5.1.1.7
+Response: https://rest.kegg.jp/get/ec:2.5.1.61
+Response: https://rest.kegg.jp/get/ec:2.5.1.31
+Response: https://rest.kegg.jp/get/ec:1.2.1.11
+Response: https://rest.kegg.jp/get/ec:2.7.1.24
+Response: https://rest.kegg.jp/get/ec:2.7.4.8
+Response: https://rest.kegg.jp/get/ec:4.3.2.1
+Response: https://rest.kegg.jp/get/ec:2.7.4.9
+Response: https://rest.kegg.jp/get/ec:6.1.1.17
+Response: https://rest.kegg.jp/get/ec:6.1.1.21
+Response: https://rest.kegg.jp/get/ec:2.7.1.23
+Response: https://rest.kegg.jp/get/ec:1.5.1.5
+Response: https://rest.kegg.jp/get/ec:6.1.1.5
+Response: https://rest.kegg.jp/get/ec:4.2.1.2
+Response: https://rest.kegg.jp/get/ec:6.1.1.7
+Response: https://rest.kegg.jp/get/ec:6.2.1.5
+Response: https://rest.kegg.jp/get/ec:2.5.1.78
+Response: https://rest.kegg.jp/get/ec:3.6.1.11
+Response: https://rest.kegg.jp/get/ec:2.1.1.45
+Response: https://rest.kegg.jp/get/ec:6.1.1.12
+Response: https://rest.kegg.jp/get/ec:6.3.5.6
+Response: https://rest.kegg.jp/get/ec:6.1.1.20
+Took 23.93 seconds for all requests
+Transferred entry for https://rest.kegg.jp/get/ec:3.6.3.14, sending it through to next batch
+Transferred entry for https://rest.kegg.jp/get/ec:5.99.1.3, sending it through to next batch
+Transferred entry for https://rest.kegg.jp/get/ec:4.99.1.1, sending it through to next batch
+Removing entry from results: https://rest.kegg.jp/get/ec:3.6.3.14
+Removing entry from results: https://rest.kegg.jp/get/ec:5.99.1.3
+Removing entry from results: https://rest.kegg.jp/get/ec:4.99.1.1
+Adding these ecs to enzyme_list: ['7.1.2.2', '5.6.2.2', '4.98.1.1']
+Added the ecs
+Request sent: https://rest.kegg.jp/get/ec:7.1.2.2
+Request sent: https://rest.kegg.jp/get/ec:5.6.2.2
+Request sent: https://rest.kegg.jp/get/ec:4.98.1.1
+Response: https://rest.kegg.jp/get/ec:4.98.1.1
+Response: https://rest.kegg.jp/get/ec:7.1.2.2
+Response: https://rest.kegg.jp/get/ec:5.6.2.2
+Took 13.38 seconds for all requests
+https://rest.kegg.jp/get/ec:6.1.1.17  : 200
+https://rest.kegg.jp/get/ec:6.1.1.7   : 200
+https://rest.kegg.jp/get/ec:6.1.1.20  : 200
+https://rest.kegg.jp/get/ec:6.1.1.19  : 200
+https://rest.kegg.jp/get/ec:4.1.1.17  : 200
+https://rest.kegg.jp/get/ec:4.1.1.20  : 200
+https://rest.kegg.jp/get/ec:2.5.1.31  : 200
+https://rest.kegg.jp/get/ec:2.2.1.1   : 200
+https://rest.kegg.jp/get/ec:2.5.1.78  : 200
+https://rest.kegg.jp/get/ec:6.1.1.5   : 200
+https://rest.kegg.jp/get/ec:2.7.1.23  : 200
+https://rest.kegg.jp/get/ec:6.3.5.6   : 200
+https://rest.kegg.jp/get/ec:6.2.1.5   : 200
+https://rest.kegg.jp/get/ec:4.2.3.5   : 200
+https://rest.kegg.jp/get/ec:2.7.7.6   : 200
+https://rest.kegg.jp/get/ec:2.1.2.1   : 200
+https://rest.kegg.jp/get/ec:4.2.1.24  : 200
+https://rest.kegg.jp/get/ec:4.2.1.2   : 200
+https://rest.kegg.jp/get/ec:5.3.1.6   : 200
+https://rest.kegg.jp/get/ec:6.1.1.21  : 200
+https://rest.kegg.jp/get/ec:2.7.4.9   : 200
+https://rest.kegg.jp/get/ec:2.5.1.19  : 200
+https://rest.kegg.jp/get/ec:1.2.1.11  : 200
+https://rest.kegg.jp/get/ec:2.5.1.1   : 200
+https://rest.kegg.jp/get/ec:2.3.1.37  : 200
+https://rest.kegg.jp/get/ec:6.1.1.1   : 200
+https://rest.kegg.jp/get/ec:4.3.2.1   : 200
+https://rest.kegg.jp/get/ec:6.1.1.12  : 200
+https://rest.kegg.jp/get/ec:6.1.1.2   : 200
+https://rest.kegg.jp/get/ec:2.5.1.61  : 200
+https://rest.kegg.jp/get/ec:5.99.1.   : 404
+https://rest.kegg.jp/get/ec:1.5.1.5   : 200
+https://rest.kegg.jp/get/ec:2.7.4.8   : 200
+https://rest.kegg.jp/get/ec:2.7.1.26  : 200
+https://rest.kegg.jp/get/ec:2.1.1.45  : 200
+https://rest.kegg.jp/get/ec:6.1.1.16  : 200
+https://rest.kegg.jp/get/ec:3.6.1.1   : 200
+https://rest.kegg.jp/get/ec:2.7.1.24  : 200
+https://rest.kegg.jp/get/ec:3.5.1.88  : 200
+https://rest.kegg.jp/get/ec:2.7.7.60  : 200
+https://rest.kegg.jp/get/ec:3.6.1.11  : 200
+https://rest.kegg.jp/get/ec:5.1.1.7   : 200
+https://rest.kegg.jp/get/ec:1.5.1.3   : 200
+https://rest.kegg.jp/get/ec:2.7.2.11  : 200
+https://rest.kegg.jp/get/ec:6.5.1.2   : 200
+https://rest.kegg.jp/get/ec:2.1.1.199 : 200
+https://rest.kegg.jp/get/ec:7.1.2.2   : 200
+https://rest.kegg.jp/get/ec:5.6.2.2   : 200
+https://rest.kegg.jp/get/ec:4.98.1.1  : 200
+
+Substrates: ['ATP', 'L-glutamate', 'tRNAGlu']
+Products: ['AMP', 'diphosphate', 'L-glutamyl-tRNAGlu']
+Substrates: ['ATP', 'L-alanine', 'tRNAAla']
+Products: ['AMP', 'diphosphate', 'L-alanyl-tRNAAla']
+Substrates: ['ATP', 'L-phenylalanine', 'tRNAPhe']
+Products: ['AMP', 'diphosphate', 'L-phenylalanyl-tRNAPhe']
+Substrates: ['ATP', 'L-arginine', 'tRNAArg']
+Products: ['AMP', 'diphosphate', 'L-arginyl-tRNAArg']
+Substrates: ['L-ornithine']
+Products: ['putrescine', 'CO2']
+Substrates: ['meso-2,6-diaminoheptanedioate']
+Products: ['L-lysine', 'CO2']
+Substrates: ['(2E,6E)-farnesyl diphosphate', '8 isopentenyl diphosphate']
+Products: ['8 diphosphate', 'ditrans,octacis-undecaprenyl diphosphate']
+Substrates: ['sedoheptulose 7-phosphate', 'D-glyceraldehyde 3-phosphate']
+Products: ['D-ribose 5-phosphate', 'D-xylulose 5-phosphate']
+Substrates: ['1-deoxy-L-glycero-tetrulose 4-phosphate', '5-amino-6-(D-ribitylamino)uracil']
+Products: ['6,7-dimethyl-8-(D-ribityl)lumazine', '2 H2O', 'phosphate']
+Substrates: ['ATP', 'L-isoleucine', 'tRNAIle']
+Products: ['AMP', 'diphosphate', 'L-isoleucyl-tRNAIle']
+Substrates: ['ATP', 'NAD+']
+Products: ['ADP', 'NADP+']
+Substrates: ['ATP', 'L-aspartyl-tRNAAsn', 'L-glutamine', 'H2O']
+Products: ['ADP', 'phosphate', 'L-asparaginyl-tRNAAsn', 'L-glutamate']
+Substrates: ['ATP', 'succinate', 'CoA']
+Products: ['ADP', 'phosphate', 'succinyl-CoA']
+Substrates: ['5-O-(1-carboxyvinyl)-3-phosphoshikimate']
+Products: ['chorismate', 'phosphate']
+Substrates: ['nucleoside triphosphate', 'RNAn']
+Products: ['diphosphate', 'RNAn+1']
+Substrates: ['5,10-methylenetetrahydrofolate', 'glycine', 'H2O']
+Products: ['tetrahydrofolate', 'L-serine']
+Substrates: ['2 5-aminolevulinate']
+Products: ['porphobilinogen', '2 H2O']
+Substrates: ['(S)-malate']
+Products: ['fumarate', 'H2O']
+Substrates: ['D-ribose 5-phosphate']
+Products: ['D-ribulose 5-phosphate']
+Substrates: ['ATP', 'L-histidine', 'tRNAHis']
+Products: ['AMP', 'diphosphate', 'L-histidyl-tRNAHis']
+Substrates: ['ATP', 'dTMP']
+Products: ['ADP', 'dTDP']
+Substrates: ['phosphoenolpyruvate', '3-phosphoshikimate']
+Products: ['phosphate', '5-O-(1-carboxyvinyl)-3-phosphoshikimate']
+Substrates: ['L-aspartate 4-semialdehyde', 'phosphate', 'NADP+']
+Products: ['L-4-aspartyl phosphate', 'NADPH', 'H+']
+Substrates: ['prenyl diphosphate', '3-methylbut-3-en-1-yl diphosphate']
+Products: ['diphosphate', 'geranyl diphosphate']
+Substrates: ['succinyl-CoA', 'glycine']
+Products: ['5-aminolevulinate', 'CoA', 'CO2']
+Substrates: ['ATP', 'L-tyrosine', 'tRNATyr']
+Products: ['AMP', 'diphosphate', 'L-tyrosyl-tRNATyr']
+Substrates: ['2-(Nomega-L-arginino)succinate']
+Products: ['fumarate', 'L-arginine']
+Substrates: ['ATP', 'L-aspartate', 'tRNAAsp']
+Products: ['AMP', 'diphosphate', 'L-aspartyl-tRNAAsp']
+Substrates: ['ATP', 'L-tryptophan', 'tRNATrp']
+Products: ['AMP', 'diphosphate', 'L-tryptophyl-tRNATrp']
+Substrates: ['4 porphobilinogen', 'H2O']
+Products: ['hydroxymethylbilane', '4 NH3']
+ERR: look into this url: https://rest.kegg.jp/get/ec:5.99.1. (status 404)
+Substrates: ['5,10-methylenetetrahydrofolate', 'NADP+']
+Products: ['5,10-methenyltetrahydrofolate', 'NADPH', 'H+']
+Substrates: ['ATP', 'GMP']
+Products: ['ADP', 'GDP']
+Substrates: ['ATP', 'riboflavin']
+Products: ['ADP', 'FMN']
+Substrates: ['5,10-methylenetetrahydrofolate', 'dUMP']
+Products: ['dihydrofolate', 'dTMP']
+Substrates: ['ATP', 'L-cysteine', 'tRNACys']
+Products: ['AMP', 'diphosphate', 'L-cysteinyl-tRNACys']
+Substrates: ['diphosphate', 'H2O']
+Products: ['2 phosphate']
+Substrates: ['ATP', "3'-dephospho-CoA"]
+Products: ['ADP', 'CoA']
+Substrates: ['formyl-L-methionyl peptide', 'H2O']
+Products: ['formate', 'methionyl peptide']
+Substrates: ['CTP', '2-C-methyl-D-erythritol 4-phosphate']
+Products: ['diphosphate', "4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol"]
+Substrates: ['(polyphosphate)n', 'H2O']
+Products: ['(polyphosphate)n-1', 'phosphate']
+Substrates: ['LL-2,6-diaminoheptanedioate']
+Products: ['meso-diaminoheptanedioate']
+Substrates: ['5,6,7,8-tetrahydrofolate', 'NADP+']
+Products: ['7,8-dihydrofolate', 'NADPH', 'H+']
+Substrates: ['ATP', 'L-glutamate']
+Products: ['ADP', 'L-glutamate 5-phosphate']
+Substrates: ['NAD', "(deoxyribonucleotide)n-3'-hydroxyl", "5'-phospho-(deoxyribonucleotide)m"]
+Products: ['(deoxyribonucleotide)n+m', 'AMP', 'beta-nicotinamide D-nucleotide (overall reaction)']
+Something went wrong: substring not found for 2.1.1.199
+Something went wrong: substring not found for 7.1.2.2
+Something went wrong: substring not found for 5.6.2.2
+Substrates: ['protoheme', '2 H+']
+Products: ['protoporphyrin', 'Fe2+']
+
+Writing metabolites to graph
+Writing enzyme 0
+Found metabolite already, has id 2000
+Found metabolite, has id 2003
+Found metabolite, has id 2004
+Found metabolite, has id 2005
+Found metabolite already, has id 2001
+Found metabolite, has id 2003
+Found metabolite, has id 2004
+Found metabolite, has id 2005
+Found metabolite already, has id 2002
+Found metabolite, has id 2003
+Found metabolite, has id 2004
+Found metabolite, has id 2005
+
+Writing metabolites to graph
+Writing enzyme 1
+Found metabolite already, has id 2000
+Found metabolite, has id 2003
+Found metabolite, has id 2004
+Found metabolite, has id 2008
+Found metabolite already, has id 2006
+Found metabolite, has id 2003
+Found metabolite, has id 2004
+Found metabolite, has id 2008
+Found metabolite already, has id 2007
+Found metabolite, has id 2003
+Found metabolite, has id 2004
+Found metabolite, has id 2008
+
+Writing metabolites to graph
+Writing enzyme 2
+Found metabolite already, has id 2000
+Found metabolite, has id 2003
+Found metabolite, has id 2004
+Found metabolite, has id 2011
+Found metabolite already, has id 2009
+Found metabolite, has id 2003
+Found metabolite, has id 2004
+Found metabolite, has id 2011
+Found metabolite already, has id 2010
+Found metabolite, has id 2003
+Found metabolite, has id 2004
+Found metabolite, has id 2011
+
+Writing metabolites to graph
+Writing enzyme 3
+Found metabolite already, has id 2000
+Found metabolite, has id 2003
+Found metabolite, has id 2004
+Found metabolite, has id 2014
+Found metabolite already, has id 2012
+Found metabolite, has id 2003
+Found metabolite, has id 2004
+Found metabolite, has id 2014
+Found metabolite already, has id 2013
+Found metabolite, has id 2003
+Found metabolite, has id 2004
+Found metabolite, has id 2014
+
+Writing metabolites to graph
+Writing enzyme 4
+Found metabolite already, has id 2015
+Found metabolite, has id 2016
+Found metabolite, has id 2017
+
+Writing metabolites to graph
+Writing enzyme 5
+Found metabolite already, has id 2018
+Found metabolite, has id 2019
+Found metabolite, has id 2017
+
+Writing metabolites to graph
+Writing enzyme 6
+Found metabolite already, has id 2020
+Found metabolite, has id 2004
+Found metabolite, has id 2022
+Found metabolite already, has id 2021
+Found metabolite, has id 2004
+Found metabolite, has id 2022
+
+Writing metabolites to graph
+Writing enzyme 7
+Found metabolite already, has id 2023
+Found metabolite, has id 2025
+Found metabolite, has id 2026
+Found metabolite already, has id 2024
+Found metabolite, has id 2025
+Found metabolite, has id 2026
+
+Writing metabolites to graph
+Writing enzyme 8
+Found metabolite already, has id 2027
+Found metabolite, has id 2029
+Found metabolite, has id 2030
+Found metabolite, has id 2031
+Found metabolite already, has id 2028
+Found metabolite, has id 2029
+Found metabolite, has id 2030
+Found metabolite, has id 2031
+
+Writing metabolites to graph
+Writing enzyme 10
+Found metabolite already, has id 2000
+Found metabolite, has id 2003
+Found metabolite, has id 2004
+Found metabolite, has id 2034
+Found metabolite already, has id 2032
+Found metabolite, has id 2003
+Found metabolite, has id 2004
+Found metabolite, has id 2034
+Found metabolite already, has id 2033
+Found metabolite, has id 2003
+Found metabolite, has id 2004
+Found metabolite, has id 2034
+
+Writing metabolites to graph
+Writing enzyme 11
+Found metabolite already, has id 2000
+Found metabolite, has id 2036
+Found metabolite, has id 2037
+Found metabolite already, has id 2035
+Found metabolite, has id 2036
+Found metabolite, has id 2037
+
+Writing metabolites to graph
+Writing enzyme 12
+Found metabolite already, has id 2000
+Found metabolite, has id 2036
+Found metabolite, has id 2031
+Found metabolite, has id 2040
+Found metabolite, has id 2001
+Found metabolite already, has id 2038
+Found metabolite, has id 2036
+Found metabolite, has id 2031
+Found metabolite, has id 2040
+Found metabolite, has id 2001
+Found metabolite already, has id 2039
+Found metabolite, has id 2036
+Found metabolite, has id 2031
+Found metabolite, has id 2040
+Found metabolite, has id 2001
+Found metabolite already, has id 2030
+Found metabolite, has id 2036
+Found metabolite, has id 2031
+Found metabolite, has id 2040
+Found metabolite, has id 2001
+
+Writing metabolites to graph
+Writing enzyme 13
+Found metabolite already, has id 2000
+Found metabolite, has id 2036
+Found metabolite, has id 2031
+Found metabolite, has id 2043
+Found metabolite already, has id 2041
+Found metabolite, has id 2036
+Found metabolite, has id 2031
+Found metabolite, has id 2043
+Found metabolite already, has id 2042
+Found metabolite, has id 2036
+Found metabolite, has id 2031
+Found metabolite, has id 2043
+
+Writing metabolites to graph
+Writing enzyme 14
+Found metabolite already, has id 2044
+Found metabolite, has id 2045
+Found metabolite, has id 2031
+
+Writing metabolites to graph
+Writing enzyme 15
+Found metabolite already, has id 2046
+Found metabolite, has id 2004
+Found metabolite, has id 2048
+Found metabolite already, has id 2047
+Found metabolite, has id 2004
+Found metabolite, has id 2048
+
+Writing metabolites to graph
+Writing enzyme 16
+Found metabolite already, has id 2049
+Found metabolite, has id 2051
+Found metabolite, has id 2052
+Found metabolite already, has id 2050
+Found metabolite, has id 2051
+Found metabolite, has id 2052
+Found metabolite already, has id 2030
+Found metabolite, has id 2051
+Found metabolite, has id 2052
+
+Writing metabolites to graph
+Writing enzyme 17
+Found metabolite already, has id 2053
+Found metabolite, has id 2054
+Found metabolite, has id 2030
+
+Writing metabolites to graph
+Writing enzyme 18
+Found metabolite already, has id 2055
+Found metabolite, has id 2056
+Found metabolite, has id 2030
+
+Writing metabolites to graph
+Writing enzyme 19
+Found metabolite already, has id 2025
+Found metabolite, has id 2057
+
+Writing metabolites to graph
+Writing enzyme 20
+Found metabolite already, has id 2000
+Found metabolite, has id 2003
+Found metabolite, has id 2004
+Found metabolite, has id 2060
+Found metabolite already, has id 2058
+Found metabolite, has id 2003
+Found metabolite, has id 2004
+Found metabolite, has id 2060
+Found metabolite already, has id 2059
+Found metabolite, has id 2003
+Found metabolite, has id 2004
+Found metabolite, has id 2060
+
+Writing metabolites to graph
+Writing enzyme 21
+Found metabolite already, has id 2000
+Found metabolite, has id 2036
+Found metabolite, has id 2062
+Found metabolite already, has id 2061
+Found metabolite, has id 2036
+Found metabolite, has id 2062
+
+Writing metabolites to graph
+Writing enzyme 22
+Found metabolite already, has id 2063
+Found metabolite, has id 2031
+Found metabolite, has id 2044
+Found metabolite already, has id 2064
+Found metabolite, has id 2031
+Found metabolite, has id 2044
+
+Writing metabolites to graph
+Writing enzyme 23
+Found metabolite already, has id 2065
+Found metabolite, has id 2066
+Found metabolite, has id 2067
+Found metabolite, has id 2068
+Found metabolite already, has id 2031
+Found metabolite, has id 2066
+Found metabolite, has id 2067
+Found metabolite, has id 2068
+Found metabolite already, has id 2037
+Found metabolite, has id 2066
+Found metabolite, has id 2067
+Found metabolite, has id 2068
+
+Writing metabolites to graph
+Writing enzyme 24
+Found metabolite already, has id 2069
+Found metabolite, has id 2004
+Found metabolite, has id 2071
+Found metabolite already, has id 2070
+Found metabolite, has id 2004
+Found metabolite, has id 2071
+
+Writing metabolites to graph
+Writing enzyme 25
+Found metabolite already, has id 2043
+Found metabolite, has id 2053
+Found metabolite, has id 2042
+Found metabolite, has id 2017
+Found metabolite already, has id 2050
+Found metabolite, has id 2053
+Found metabolite, has id 2042
+Found metabolite, has id 2017
+
+Writing metabolites to graph
+Writing enzyme 26
+Found metabolite already, has id 2000
+Found metabolite, has id 2003
+Found metabolite, has id 2004
+Found metabolite, has id 2074
+Found metabolite already, has id 2072
+Found metabolite, has id 2003
+Found metabolite, has id 2004
+Found metabolite, has id 2074
+Found metabolite already, has id 2073
+Found metabolite, has id 2003
+Found metabolite, has id 2004
+Found metabolite, has id 2074
+
+Writing metabolites to graph
+Writing enzyme 27
+Found metabolite already, has id 2075
+Found metabolite, has id 2056
+Found metabolite, has id 2012
+
+Writing metabolites to graph
+Writing enzyme 28
+Found metabolite already, has id 2000
+Found metabolite, has id 2003
+Found metabolite, has id 2004
+Found metabolite, has id 2078
+Found metabolite already, has id 2076
+Found metabolite, has id 2003
+Found metabolite, has id 2004
+Found metabolite, has id 2078
+Found metabolite already, has id 2077
+Found metabolite, has id 2003
+Found metabolite, has id 2004
+Found metabolite, has id 2078
+
+Writing metabolites to graph
+Writing enzyme 29
+Found metabolite already, has id 2000
+Found metabolite, has id 2003
+Found metabolite, has id 2004
+Found metabolite, has id 2081
+Found metabolite already, has id 2079
+Found metabolite, has id 2003
+Found metabolite, has id 2004
+Found metabolite, has id 2081
+Found metabolite already, has id 2080
+Found metabolite, has id 2003
+Found metabolite, has id 2004
+Found metabolite, has id 2081
+
+Writing metabolites to graph
+Writing enzyme 30
+Found metabolite already, has id 2054
+Found metabolite, has id 2082
+Found metabolite, has id 2083
+Found metabolite already, has id 2030
+Found metabolite, has id 2082
+Found metabolite, has id 2083
+
+Writing metabolites to graph
+Writing enzyme 33
+Found metabolite already, has id 2049
+Found metabolite, has id 2084
+Found metabolite, has id 2067
+Found metabolite, has id 2068
+Found metabolite already, has id 2037
+Found metabolite, has id 2084
+Found metabolite, has id 2067
+Found metabolite, has id 2068
+
+Writing metabolites to graph
+Writing enzyme 34
+Found metabolite already, has id 2000
+Found metabolite, has id 2036
+Found metabolite, has id 2086
+Found metabolite already, has id 2085
+Found metabolite, has id 2036
+Found metabolite, has id 2086
+
+Writing metabolites to graph
+Writing enzyme 35
+Found metabolite already, has id 2000
+Found metabolite, has id 2036
+Found metabolite, has id 2088
+Found metabolite already, has id 2087
+Found metabolite, has id 2036
+Found metabolite, has id 2088
+
+Writing metabolites to graph
+Writing enzyme 36
+Found metabolite already, has id 2049
+Found metabolite, has id 2090
+Found metabolite, has id 2061
+Found metabolite already, has id 2089
+Found metabolite, has id 2090
+Found metabolite, has id 2061
+
+Writing metabolites to graph
+Writing enzyme 37
+Found metabolite already, has id 2000
+Found metabolite, has id 2003
+Found metabolite, has id 2004
+Found metabolite, has id 2093
+Found metabolite already, has id 2091
+Found metabolite, has id 2003
+Found metabolite, has id 2004
+Found metabolite, has id 2093
+Found metabolite already, has id 2092
+Found metabolite, has id 2003
+Found metabolite, has id 2004
+Found metabolite, has id 2093
+
+Writing metabolites to graph
+Writing enzyme 38
+Found metabolite already, has id 2004
+Found metabolite, has id 2031
+Found metabolite already, has id 2030
+Found metabolite, has id 2031
+
+Writing metabolites to graph
+Writing enzyme 39
+Found metabolite already, has id 2000
+Found metabolite, has id 2036
+Found metabolite, has id 2042
+Found metabolite already, has id 2094
+Found metabolite, has id 2036
+Found metabolite, has id 2042
+
+Writing metabolites to graph
+Writing enzyme 40
+Found metabolite already, has id 2095
+Found metabolite, has id 2096
+Found metabolite, has id 2097
+Found metabolite already, has id 2030
+Found metabolite, has id 2096
+Found metabolite, has id 2097
+
+Writing metabolites to graph
+Writing enzyme 41
+Found metabolite already, has id 2098
+Found metabolite, has id 2004
+Found metabolite, has id 2100
+Found metabolite already, has id 2099
+Found metabolite, has id 2004
+Found metabolite, has id 2100
+
+Writing metabolites to graph
+Writing enzyme 42
+Found metabolite already, has id 2101
+Found metabolite, has id 2102
+Found metabolite, has id 2031
+Found metabolite already, has id 2030
+Found metabolite, has id 2102
+Found metabolite, has id 2031
+
+Writing metabolites to graph
+Writing enzyme 43
+Found metabolite already, has id 2103
+Found metabolite, has id 2104
+
+Writing metabolites to graph
+Writing enzyme 44
+Found metabolite already, has id 2105
+Found metabolite, has id 2106
+Found metabolite, has id 2067
+Found metabolite, has id 2068
+Found metabolite already, has id 2037
+Found metabolite, has id 2106
+Found metabolite, has id 2067
+Found metabolite, has id 2068
+
+Writing metabolites to graph
+Writing enzyme 45
+Found metabolite already, has id 2000
+Found metabolite, has id 2036
+Found metabolite, has id 2107
+Found metabolite already, has id 2001
+Found metabolite, has id 2036
+Found metabolite, has id 2107
+
+Writing metabolites to graph
+Writing enzyme 46
+Found metabolite already, has id 2108
+Found metabolite, has id 2111
+Found metabolite, has id 2003
+Found metabolite, has id 2112
+Found metabolite already, has id 2109
+Found metabolite, has id 2111
+Found metabolite, has id 2003
+Found metabolite, has id 2112
+Found metabolite already, has id 2110
+Found metabolite, has id 2111
+Found metabolite, has id 2003
+Found metabolite, has id 2112
+
+Writing metabolites to graph
+Writing enzyme 51
+Found metabolite already, has id 2113
+Found metabolite, has id 2114
+Found metabolite, has id 2115
+Found metabolite already, has id 2068
+Found metabolite, has id 2114
+Found metabolite, has id 2115
+
+<== Finished ==>
+Took 39.6693 seconds to run.

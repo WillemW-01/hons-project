@@ -1,0 +1,23 @@
+ENTRY       EC 3.2.2.23                 Enzyme
+NAME        DNA-formamidopyrimidine glycosylase;
+            Fapy-DNA glycosylase;
+            deoxyribonucleate glycosidase;
+            2,6-diamino-4-hydroxy-5N-formamidopyrimidine-DNA glycosylase;
+            2,6-diamino-4-hydroxy-5(N-methyl)formamidopyrimidine-DNA glycosylase;
+            formamidopyrimidine-DNA glycosylase;
+            DNA-formamidopyrimidine glycosidase;
+            Fpg protein
+CLASS       Hydrolases;
+            Glycosylases;
+            Hydrolysing N-glycosyl compounds
+SYSNAME     DNA glycohydrolase [2,6-diamino-4-hydroxy-5-(N-methyl)formamidopyrimide releasing]
+REACTION    Hydrolysis of DNA containing ring-opened 7-methylguanine residues, releasing 2,6-diamino-4-hydroxy-5-(N-methyl)formamidopyrimidine
+COMMENT     May play a significant role in processes leading to recovery from mutagenesis and/or cell death by alkylating agents. Also involved in the GO system responsible for removing an oxidatively damaged form of guanine (7,8-dihydro-8-oxoguanine) from DNA.
+HISTORY     EC 3.2.2.23 created 1990, modified 2000
+REFERENCE   1  [PMID:3319582]
+  AUTHORS   Boiteux S, O'Connor TR, Laval J
+  TITLE     Formamidopyrimidine-DNA glycosylase of Escherichia coli: cloning and sequencing of the fpg structural gene and overproduction of the protein.
+  JOURNAL   EMBO J 6:3177-83 (1987)
+            DOI:10.1002/j.1460-2075.1987.tb02629.x
+  SEQUENCE  [eco:b3635]
+ORTHOLOGY   K10563  formamidopyrimidine-DNA glycosylase
