@@ -14,7 +14,7 @@ Where:
 
 - `input_file` is a text file containing a list of EC numbers. These EC numbers can be in between other text as they are extracted using regex.
 - `job_name` is appended to every file produced in the output.
-- `reaction_file` is an optional file listing constraining the reactions that will be used for the output. These reactions must be KEGG REACTION identifiers (Rxxxxx).
+- `reaction_file` is an optional file listing constraining the reactions that will be used for the output. These reactions must be KEGG REACTION identifiers (Rxxxxx). It is also expected that these reactions appear in the reactions catalysed by the enzymes listed in the input file.
 
 ## Output
 
