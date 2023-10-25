@@ -1,0 +1,64 @@
+ENTRY       EC 5.3.1.9                  Enzyme
+NAME        glucose-6-phosphate isomerase;
+            phosphohexose isomerase;
+            phosphohexomutase;
+            oxoisomerase;
+            hexosephosphate isomerase;
+            phosphosaccharomutase;
+            phosphoglucoisomerase;
+            phosphohexoisomerase;
+            phosphoglucose isomerase;
+            glucose phosphate isomerase;
+            hexose phosphate isomerase;
+            D-glucose-6-phosphate ketol-isomerase
+CLASS       Isomerases;
+            Intramolecular oxidoreductases;
+            Interconverting aldoses and ketoses, and related compounds
+SYSNAME     alpha-D-glucose-6-phosphate aldose-ketose-isomerase (configuration-inverting)
+REACTION    alpha-D-glucose 6-phosphate = beta-D-fructofuranose 6-phosphate [RN:R02740]
+ALL_REAC    R02740;
+            (other) R00771 R02739 R03321 R13199
+SUBSTRATE   alpha-D-glucose 6-phosphate [CPD:C00668]
+PRODUCT     beta-D-fructofuranose 6-phosphate [CPD:C05345]
+COMMENT     The enzyme from yeast catalyses the reversible conversion specifically between the alpha-D-glucose 6-phosphate and beta-D-fructofuranose 6-phosphate. The enzyme also catalyses the anomerization of both D-hexose 6-phosphates [7].
+HISTORY     EC 5.3.1.9 created 1961, modified 1976 (EC 5.3.1.18 created part 1972, incorporated 1978), modified 2021
+REFERENCE   1  [PMID:13314642]
+  AUTHORS   RAMASARMA T, GIRI KV.
+  TITLE     Phosphoglucose isomerase of green gram (Phaseolus radiatus).
+  JOURNAL   Arch Biochem Biophys 62:91-6 (1956)
+            DOI:10.1016/0003-9861(56)90091-1
+REFERENCE   2  [PMID:13538944]
+  AUTHORS   TSUBOI KK, ESTRADA J, HUDSON PB.
+  TITLE     Enzymes of the human erythrocyte. IV. Phosphoglucose isomerase, purification and properties.
+  JOURNAL   J Biol Chem 231:19-29 (1958)
+REFERENCE   3
+  AUTHORS   Noltmann, E. and Bruns, F.H.
+  TITLE     Reindarstellung und Eigenschaften von Phosphoglucose-isomerase aus Hefe.
+  JOURNAL   Biochem Z 331:436-445 (1959)
+REFERENCE   4  [PMID:13685918]
+  AUTHORS   BAICH A, WOLFE RG, REITHEL FJ.
+  TITLE     The enzymes of mammary gland. I. Isolation of phosphoglucose isomerase.
+  JOURNAL   J Biol Chem 235:3130-3 (1960)
+REFERENCE   5  [PMID:14189891]
+  AUTHORS   NOLTMANN EA.
+  TITLE     ISOLATION OF CRYSTALLINE PHOSPHOGLUCOSE ISOMERASE FROM RABBIT MUSCLE.
+  JOURNAL   J Biol Chem 239:1545-50 (1964)
+REFERENCE   6  [PMID:14299604]
+  AUTHORS   NAKAGAWA Y, NOLTMANN EA.
+  TITLE     ISOLATION OF CRYSTALLINE PHOSPHOGLUCOSE ISOMERASE FROM BREWERS' YEAST.
+  JOURNAL   J Biol Chem 240:1877-81 (1965)
+REFERENCE   7  [PMID:1730590]
+  AUTHORS   Willem R, Biesemans M, Hallenga K, Lippens G, Malaisse-Lagae F, Malaisse WJ.
+  TITLE     Dual anomeric specificity and dual anomerase activity of phosphoglucoisomerase quantified by two-dimensional phase-sensitive 13C EXSY NMR.
+  JOURNAL   J Biol Chem 267:210-7 (1992)
+PATHWAY     ec00010  Glycolysis / Gluconeogenesis
+            ec00030  Pentose phosphate pathway
+            ec00500  Starch and sucrose metabolism
+            ec00520  Amino sugar and nucleotide sugar metabolism
+            ec01100  Metabolic pathways
+            ec01110  Biosynthesis of secondary metabolites
+            ec01120  Microbial metabolism in diverse environments
+ORTHOLOGY   K01810  glucose-6-phosphate isomerase
+            K06859  glucose-6-phosphate isomerase, archaeal
+            K13810  transaldolase / glucose-6-phosphate isomerase
+            K15916  glucose/mannose-6-phosphate isomerase

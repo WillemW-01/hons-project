@@ -1,0 +1,30 @@
+ENTRY       EC 6.1.1.20                 Enzyme
+NAME        phenylalanine---tRNA ligase;
+            phenylalanyl-tRNA synthetase;
+            phenylalanyl-transfer ribonucleate synthetase;
+            phenylalanine-tRNA synthetase;
+            phenylalanyl-transfer RNA synthetase;
+            phenylalanyl-tRNA ligase;
+            phenylalanyl-transfer RNA ligase;
+            L-phenylalanyl-tRNA synthetase;
+            phenylalanine translase
+CLASS       Ligases;
+            Forming carbon-oxygen bonds;
+            Ligases forming aminoacyl-tRNA and related compounds
+SYSNAME     L-phenylalanine:tRNAPhe ligase (AMP-forming)
+REACTION    ATP + L-phenylalanine + tRNAPhe = AMP + diphosphate + L-phenylalanyl-tRNAPhe [RN:R03660]
+ALL_REAC    R03660
+SUBSTRATE   ATP [CPD:C00002];
+            L-phenylalanine [CPD:C00079];
+            tRNA(Phe) [CPD:C01648]
+PRODUCT     AMP [CPD:C00020];
+            diphosphate [CPD:C00013];
+            L-phenylalanyl-tRNA(Phe) [CPD:C03511]
+HISTORY     EC 6.1.1.20 created 1972
+REFERENCE   1  [PMID:5335910]
+  AUTHORS   Stulberg MP.
+  TITLE     The isolation and properties of phenylalanyl ribonucleic acid synthetase from Escherichia coli B.
+  JOURNAL   J Biol Chem 242:1060-4 (1967)
+PATHWAY     ec00970  Aminoacyl-tRNA biosynthesis
+ORTHOLOGY   K01889  phenylalanyl-tRNA synthetase alpha chain
+            K01890  phenylalanyl-tRNA synthetase beta chain

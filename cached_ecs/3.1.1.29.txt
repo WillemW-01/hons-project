@@ -1,0 +1,66 @@
+ENTRY       EC 3.1.1.29                 Enzyme
+NAME        peptidyl-tRNA hydrolase;
+            aminoacyl-transfer ribonucleate hydrolase;
+            N-substituted aminoacyl transfer RNA hydrolase;
+            aminoacyl-tRNA hydrolase;
+            PTH1 (gene name);
+            PTH2 (gene name);
+            pth (gene name);
+            spoVC (gene name);
+            PTRH1 (gene name);
+            PTRH2 (gene name)
+CLASS       Hydrolases;
+            Acting on ester bonds;
+            Carboxylic-ester hydrolases
+SYSNAME     peptidyl-tRNA peptidylhydrolase
+REACTION    N-substituted aminoacyl-tRNA + H2O = N-substituted amino acid + tRNA [RN:R04238]
+ALL_REAC    R04238
+SUBSTRATE   N-substituted aminoacyl-tRNA [CPD:C03880];
+            H2O [CPD:C00001]
+PRODUCT     N-substituted amino acid [CPD:C03523];
+            tRNA [CPD:C00066]
+COMMENT     The enzyme acts on premature protein synthesis products that dissociate from stalled ribosomes, cleaving the peptidyl chains and restoring functionality to the tRNA. In most organisms mutants with limited Pth activity accumulate peptidyl-tRNAs, reducing the availability of uncharged tRNAs below the limit that is necessary for protein synthesis and impairing cell growth. Two distinct classes of the enzyme, Pth and Pth2, have been identified. While most enzymes can recognize and cleave N-acylated aminoacyl-tRNAs, they are not able to act on N-formyl-methionyl-tRNA.
+HISTORY     EC 3.1.1.29 created 1972, modified 2023
+REFERENCE   1  [PMID:4866985]
+  AUTHORS   Cuzin F, Kretchmer N, Greenberg RE, Hurwitz R, Chapeville F.
+  TITLE     Enzymatic hydrolysis of N-substituted aminoacyl-tRNA.
+  JOURNAL   Proc Natl Acad Sci U S A 58:2079-86 (1967)
+            DOI:10.1073/pnas.58.5.2079
+REFERENCE   2  [PMID:4877004]
+  AUTHORS   Kossel H, RajBhandary UL.
+  TITLE     Studies on polynucleotides. LXXXVI. Enzymic hydrolysis of N-acylaminoacyl-transfer RNA.
+  JOURNAL   J Mol Biol 35:539-60 (1968)
+            DOI:10.1016/s0022-2836(68)80013-0
+REFERENCE   3  [PMID:4981785]
+  AUTHORS   Jost JP, Bock RM.
+  TITLE     Enzymatic hydrolysis of N-substituted aminoacyl transfer ribonucleic acid in yeast.
+  JOURNAL   J Biol Chem 244:5866-73 (1969)
+REFERENCE   4  [PMID:368041]
+  AUTHORS   Menninger JR.
+  TITLE     Accumulation of peptidyl tRNA is lethal to Escherichia coli.
+  JOURNAL   J Bacteriol 137:694-6 (1979)
+            DOI:10.1128/jb.137.1.694-696.1979
+REFERENCE   5  [PMID:7690473]
+  AUTHORS   Dutka S, Meinnel T, Lazennec C, Mechulam Y, Blanquet S.
+  TITLE     Role of the 1-72 base pair in tRNAs for the activity of Escherichia coli peptidyl-tRNA hydrolase.
+  JOURNAL   Nucleic Acids Res 21:4025-30 (1993)
+            DOI:10.1093/nar/21.17.4025
+REFERENCE   6  [PMID:12100553]
+  AUTHORS   Menez J, Buckingham RH, de Zamaroczy M, Campelli CK.
+  TITLE     Peptidyl-tRNA hydrolase in Bacillus subtilis, encoded by spoVC, is essential to vegetative growth, whereas the homologous enzyme in Saccharomyces cerevisiae is dispensable.
+  JOURNAL   Mol Microbiol 45:123-9 (2002)
+            DOI:10.1046/j.1365-2958.2002.02992.x
+REFERENCE   7  [PMID:12475929]
+  AUTHORS   Rosas-Sandoval G, Ambrogelly A, Rinehart J, Wei D, Cruz-Vera LR, Graham DE, Stetter KO, Guarneros G, Soll D.
+  TITLE     Orthologs of a novel archaeal and of the bacterial peptidyl-tRNA hydrolase are nonessential in yeast.
+  JOURNAL   Proc Natl Acad Sci U S A 99:16707-12 (2002)
+            DOI:10.1073/pnas.222659199
+REFERENCE   8  [PMID:14660562]
+  AUTHORS   De Pereda JM, Waas WF, Jan Y, Ruoslahti E, Schimmel P, Pascual J.
+  TITLE     Crystal structure of a human peptidyl-tRNA hydrolase reveals a new fold and suggests basis for a bifunctional activity.
+  JOURNAL   J Biol Chem 279:8111-5 (2004)
+            DOI:10.1074/jbc.M311449200
+ORTHOLOGY   K01056  peptidyl-tRNA hydrolase, PTH1 family
+            K04794  peptidyl-tRNA hydrolase, PTH2 family
+            K05969  peptidyl-tRNA hydrolase PTRHD1
+            K15033  peptidyl-tRNA hydrolase ICT1

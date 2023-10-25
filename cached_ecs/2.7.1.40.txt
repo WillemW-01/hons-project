@@ -1,0 +1,46 @@
+ENTRY       EC 2.7.1.40                 Enzyme
+NAME        pyruvate kinase;
+            phosphoenolpyruvate kinase;
+            phosphoenol transphosphorylase
+CLASS       Transferases;
+            Transferring phosphorus-containing groups;
+            Phosphotransferases with an alcohol group as acceptor
+SYSNAME     ATP:pyruvate 2-O-phosphotransferase
+REACTION    ATP + pyruvate = ADP + phosphoenolpyruvate [RN:R00200]
+ALL_REAC    R00200;
+            (other) R00430 R00572 R00659 R00724 R01138 R01858 R02320
+SUBSTRATE   ATP [CPD:C00002];
+            pyruvate [CPD:C00022]
+PRODUCT     ADP [CPD:C00008];
+            phosphoenolpyruvate [CPD:C00074]
+COMMENT     UTP, GTP, CTP, ITP and dATP can also act as donors. Also phosphorylates hydroxylamine and fluoride in the presence of CO2.
+HISTORY     EC 2.7.1.40 created 1961
+REFERENCE   1
+  AUTHORS   Boyer, P.D.
+  TITLE     Pyruvate kinase.
+  JOURNAL   In: Boyer, P.D., Lardy, H. and Myrback, K. (Eds.), The Enzymes, 2nd ed., vol. 6, Academic Press, New York, 1962, p. 95-113.
+REFERENCE   2  [PMID:14907737]
+  AUTHORS   KORNBERG A, PRICER WE Jr.
+  TITLE     Enzymatic phosphorylation of adenosine and 2,6-diaminopurine riboside.
+  JOURNAL   J Biol Chem 193:481-95 (1951)
+REFERENCE   3
+  AUTHORS   Kubowitz, F. and Ott, P.
+  TITLE     Isolierung von Garungsfermenten aus menschlichen Muskeln.
+  JOURNAL   Biochem Z 317:193-203 (1944)
+REFERENCE   4  [PMID:14389299]
+  AUTHORS   STROMINGER JL.
+  TITLE     Enzymic synthesis of guanosine and cytidine triphosphates: a note on the nucleotide specificity of the pyruvate phosphokinase reaction.
+  JOURNAL   Biochim Biophys Acta 16:616-8 (1955)
+            DOI:10.1016/0006-3002(55)90302-4
+REFERENCE   5  [PMID:13618030]
+  AUTHORS   TIETZ A, OCHOA S.
+  TITLE     Fluorokinase and pyruvic kinase.
+  JOURNAL   Arch Biochem Biophys 78:477-93 (1958)
+            DOI:10.1016/0003-9861(58)90372-2
+PATHWAY     ec00010  Glycolysis / Gluconeogenesis
+            ec00620  Pyruvate metabolism
+            ec01100  Metabolic pathways
+            ec01110  Biosynthesis of secondary metabolites
+            ec01120  Microbial metabolism in diverse environments
+ORTHOLOGY   K00873  pyruvate kinase
+            K12406  pyruvate kinase isozymes R/L

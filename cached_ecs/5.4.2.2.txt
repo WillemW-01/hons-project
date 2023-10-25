@@ -1,0 +1,49 @@
+ENTRY       EC 5.4.2.2                  Enzyme
+NAME        phosphoglucomutase (alpha-D-glucose-1,6-bisphosphate-dependent);
+            glucose phosphomutase (ambiguous);
+            phosphoglucose mutase (ambiguous)
+CLASS       Isomerases;
+            Intramolecular transferases;
+            Phosphotransferases (phosphomutases)
+SYSNAME     alpha-D-glucose 1,6-phosphomutase
+REACTION    alpha-D-glucose 1-phosphate = D-glucose 6-phosphate [RN:R08639]
+ALL_REAC    R08639 > R00959;
+            (other) R01057 R03319
+SUBSTRATE   alpha-D-glucose 1-phosphate [CPD:C00103]
+PRODUCT     D-glucose 6-phosphate [CPD:C00092]
+COMMENT     Maximum activity is only obtained in the presence of alpha-D-glucose 1,6-bisphosphate. This bisphosphate is an intermediate in the reaction, being formed by transfer of a phosphate residue from the enzyme to the substrate, but the dissociation of bisphosphate from the enzyme complex is much slower than the overall isomerization. The enzyme also catalyses (more slowly) the interconversion of 1-phosphate and 6-phosphate isomers of many other alpha-D-hexoses, and the interconversion of alpha-D-ribose 1-phosphate and 5-phosphate. cf. EC 5.4.2.5, phosphoglucomutase (glucose-cofactor).
+HISTORY     EC 5.4.2.2 created 1961 as EC 2.7.5.1, transferred 1984 to EC 5.4.2.2
+REFERENCE   1  [PMID:14216423]
+  AUTHORS   JOSHI JG, HANDLER P.
+  TITLE     PHOSPHOGLUCOMUTASE. I. PURIFICATION AND PROPERTIES OF PHOSPHOGLUCOMUTASE FROM ESCHERICHIA COLI.
+  JOURNAL   J Biol Chem 239:2741-51 (1964)
+  SEQUENCE  [eco:b0688]
+REFERENCE   2
+  AUTHORS   Najjar, V.A.
+  TITLE     Phosphoglucomutase.
+  JOURNAL   In: Boyer, P.D., Lardy, H. and Myrback, K. (Eds.), The Enzymes, 2nd ed., vol. 6, Academic Press, New York, 1962, p. 161-178.
+REFERENCE   3  [PMID:14165931]
+  AUTHORS   RAY WJ Jr, ROSCELLI GA.
+  TITLE     A KINETIC STUDY OF THE PHOSPHOGLUCOMUTASE PATHWAY.
+  JOURNAL   J Biol Chem 239:1228-36 (1964)
+REFERENCE   4
+  AUTHORS   Ray, W.J., Jr. and Peck, E.J., Jr.
+  TITLE     Phosphomutases.
+  JOURNAL   In: Boyer, P.D. (Ed.), The Enzymes, 3rd ed., vol. 6, 1972, p. 407-477.
+REFERENCE   5  [PMID:18148026]
+  AUTHORS   SUTHERLAND EW, COHN M, et al.
+  TITLE     The mechanism of the phosphoglucomutase reaction.
+  JOURNAL   J Biol Chem 180:1285-95 (1949)
+PATHWAY     ec00010  Glycolysis / Gluconeogenesis
+            ec00030  Pentose phosphate pathway
+            ec00052  Galactose metabolism
+            ec00230  Purine metabolism
+            ec00500  Starch and sucrose metabolism
+            ec00520  Amino sugar and nucleotide sugar metabolism
+            ec00521  Streptomycin biosynthesis
+            ec01100  Metabolic pathways
+            ec01110  Biosynthesis of secondary metabolites
+            ec01120  Microbial metabolism in diverse environments
+ORTHOLOGY   K01835  phosphoglucomutase
+            K15778  phosphomannomutase / phosphoglucomutase
+            K15779  phosphoglucomutase / phosphopentomutase

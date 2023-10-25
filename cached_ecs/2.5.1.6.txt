@@ -1,0 +1,41 @@
+ENTRY       EC 2.5.1.6                  Enzyme
+NAME        methionine adenosyltransferase;
+            adenosylmethionine synthetase;
+            ATP-methionine adenosyltransferase;
+            methionine S-adenosyltransferase;
+            methionine-activating enzyme;
+            S-adenosyl-L-methionine synthetase;
+            S-adenosylmethionine synthase;
+            S-adenosylmethionine synthetase;
+            AdoMet synthetase
+CLASS       Transferases;
+            Transferring alkyl or aryl groups, other than methyl groups;
+            Transferring alkyl or aryl groups, other than methyl groups (only sub-subclass identified to date)
+SYSNAME     ATP:L-methionine S-adenosyltransferase
+REACTION    ATP + L-methionine + H2O = phosphate + diphosphate + S-adenosyl-L-methionine [RN:R00177]
+ALL_REAC    R00177;
+            (other) R04771
+SUBSTRATE   ATP [CPD:C00002];
+            L-methionine [CPD:C00073];
+            H2O [CPD:C00001]
+PRODUCT     phosphate [CPD:C00009];
+            diphosphate [CPD:C00013];
+            S-adenosyl-L-methionine [CPD:C00019]
+HISTORY     EC 2.5.1.6 created 1961 as EC 2.4.2.13, transferred 1965 to EC 2.5.1.6
+REFERENCE   1  [PMID:13084611]
+  AUTHORS   CATONI GL.
+  TITLE     S-Adenosylmethionine; a new intermediate formed enzymatically from L-methionine and adenosinetriphosphate.
+  JOURNAL   J Biol Chem 204:403-16 (1953)
+REFERENCE   2  [PMID:13416303]
+  AUTHORS   CANTONI GL, DURELL J.
+  TITLE     Activation of methionine for transmethylation.  II.  The methionine-activating enzyme; studies on the mechanism of the reaction.
+  JOURNAL   J Biol Chem 225:1033-48 (1957)
+REFERENCE   3  [PMID:13538985]
+  AUTHORS   MUDD SH, CANTONI GL.
+  TITLE     Activation of methionine for transmethylation. III. The methionine-activating enzyme of Bakers' yeast.
+  JOURNAL   J Biol Chem 231:481-92 (1958)
+PATHWAY     ec00270  Cysteine and methionine metabolism
+            ec00999  Biosynthesis of various plant secondary metabolites
+            ec01100  Metabolic pathways
+            ec01110  Biosynthesis of secondary metabolites
+ORTHOLOGY   K00789  S-adenosylmethionine synthetase

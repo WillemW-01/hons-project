@@ -1,0 +1,43 @@
+ENTRY       EC 6.3.4.21                 Enzyme
+NAME        nicotinate phosphoribosyltransferase;
+            niacin ribonucleotidase;
+            nicotinic acid mononucleotide glycohydrolase;
+            nicotinic acid mononucleotide pyrophosphorylase;
+            nicotinic acid phosphoribosyltransferase;
+            nicotinate-nucleotide:diphosphate phospho-alpha-D-ribosyltransferase
+CLASS       Ligases;
+            Forming carbon-nitrogen bonds;
+            Other carbon-nitrogen ligases
+SYSNAME     5-phospho-alpha-D-ribose 1-diphosphate:nicotinate ligase (ADP, diphosphate-forming)
+REACTION    nicotinate + 5-phospho-alpha-D-ribose 1-diphosphate + ATP + H2O = beta-nicotinate D-ribonucleotide + diphosphate + ADP + phosphate [RN:R01724]
+ALL_REAC    R01724
+SUBSTRATE   nicotinate [CPD:C00253];
+            5-phospho-alpha-D-ribose 1-diphosphate [CPD:C00119];
+            ATP [CPD:C00002];
+            H2O [CPD:C00001]
+PRODUCT     beta-nicotinate D-ribonucleotide [CPD:C01185];
+            diphosphate [CPD:C00013];
+            ADP [CPD:C00008];
+            phosphate [CPD:C00009]
+COMMENT     The enzyme, which is involved in pyridine nucleotide recycling, can form beta-nicotinate D-ribonucleotide and diphosphate from nicotinate and 5-phospho-alpha-D-ribose 1-diphosphate (PRPP) in the absence of ATP. However, when ATP is available the enzyme is phosphorylated resulting in a much lower Km for nicotinate. The phospho-enzyme is hydrolysed during the transferase reaction, regenerating the low affinity form. The presence of ATP shifts the products/substrates equilibrium from 0.67 to 1100 [4].
+HISTORY     EC 6.3.4.21 created 1961 as EC 2.4.2.11, transferred 2013 to EC 6.3.4.21
+REFERENCE   1  [PMID:13717628]
+  AUTHORS   IMSANDE J.
+  TITLE     Pathway of diphosphopyridine nucleotide biosynthesis in Escherichia coli.
+  JOURNAL   J Biol Chem 236:1494-7 (1961)
+REFERENCE   2  [PMID:13717627]
+  AUTHORS   IMSANDE J, HANDLER P.
+  TITLE     Biosynthesis of diphosphopyridine nucleotide. III. Nicotinic acid mononucleotide pyrophos-phorylase.
+  JOURNAL   J Biol Chem 236:525-30 (1961)
+REFERENCE   3  [PMID:4324895]
+  AUTHORS   Kosaka A, Spivey HO, Gholson RK.
+  TITLE     Nicotinate phosphoribosyltransferase of yeast. Purification and properties.
+  JOURNAL   J Biol Chem 246:3277-83 (1971)
+REFERENCE   4  [PMID:7503993]
+  AUTHORS   Vinitsky A, Grubmeyer C
+  TITLE     A new paradigm for biochemical energy coupling. Salmonella typhimurium nicotinate phosphoribosyltransferase.
+  JOURNAL   J Biol Chem 268:26004-10 (1993)
+  SEQUENCE  [stm:STM1004]
+PATHWAY     ec00760  Nicotinate and nicotinamide metabolism
+            ec01100  Metabolic pathways
+ORTHOLOGY   K00763  nicotinate phosphoribosyltransferase

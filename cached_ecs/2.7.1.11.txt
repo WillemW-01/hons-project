@@ -1,0 +1,83 @@
+ENTRY       EC 2.7.1.11                 Enzyme
+NAME        6-phosphofructokinase;
+            phosphohexokinase;
+            phosphofructokinase I;
+            phosphofructokinase (phosphorylating);
+            6-phosphofructose 1-kinase;
+            ATP-dependent phosphofructokinase;
+            D-fructose-6-phosphate 1-phosphotransferase;
+            fructose 6-phosphate kinase;
+            fructose 6-phosphokinase;
+            nucleotide triphosphate-dependent phosphofructokinase;
+            phospho-1,6-fructokinase;
+            PFK
+CLASS       Transferases;
+            Transferring phosphorus-containing groups;
+            Phosphotransferases with an alcohol group as acceptor
+SYSNAME     ATP:beta-D-fructose-6-phosphate 1-phosphotransferase
+REACTION    ATP + beta-D-fructofuranose 6-phosphate = ADP + beta-D-fructofuranose 1,6-bisphosphate [RN:R04779]
+ALL_REAC    R04779;
+            (other) R00756 R00767 R00769 R00770 R01843 R03236 R03237 R03238 R03239
+SUBSTRATE   ATP [CPD:C00002];
+            beta-D-fructofuranose 6-phosphate [CPD:C05345]
+PRODUCT     ADP [CPD:C00008];
+            beta-D-fructofuranose 1,6-bisphosphate
+COMMENT     The enzyme from rabbit muscle displays absolute stereoselectivity for the beta-anomer of D-fructofuranose 6-phosphate [9-11]. D-Tagatose 6-phosphate and sedoheptulose 7-phosphate can act as acceptors. UTP, CTP and ITP can act as donors. Not identical with EC 2.7.1.105 6-phosphofructo-2-kinase.
+HISTORY     EC 2.7.1.11 created 1961, modified 2021
+REFERENCE   1  [PMID:20287918]
+  AUTHORS   RACKER E
+  TITLE     Spectrophotometric measurement of hexokinase and phosphohexokinase activity.
+  JOURNAL   J Biol Chem 167:843-54 (1947)
+REFERENCE   2  [PMID:12981037]
+  AUTHORS   AXELROD B, SALTMAN P, BANDURSKI RS, BAKER RS.
+  TITLE     Phosphonexokinase in higher plants.
+  JOURNAL   J Biol Chem 197:89-96 (1952)
+REFERENCE   3
+  AUTHORS   Ling, K.H., Pastkau, V., Marcus, F. and Lardy, H.A.
+  TITLE     Phosphofructokinase. I. Skeletal muscle.
+  JOURNAL   Methods Enzymol 9:425-429 (1966)
+REFERENCE   4
+  AUTHORS   Mansour, T.E.
+  TITLE     Phosphofructokinase. II. Heart muscle.
+  JOURNAL   Methods Enzymol 9:430-436 (1966)
+REFERENCE   5  [PMID:4224472]
+  AUTHORS   Parmeggiani A, Luft JH, Love DS, Krebs EG.
+  TITLE     Crystallization and properties of rabbit skeletal muscle phosphofructokinase.
+  JOURNAL   J Biol Chem 241:4625-37 (1966)
+REFERENCE   6
+  AUTHORS   Sols, A. and Salas, M.L.
+  TITLE     Phosphofructokinase. III. Yeast.
+  JOURNAL   Methods Enzymol 9:436-442 (1966)
+REFERENCE   7  [PMID:4237772]
+  AUTHORS   Odeide R, Guilloton M, Dupuis B, Ravon D, Rosenberg AJ.
+  TITLE     [Study of an enzyme allosteric to 2 substrates: phosphofructokinase of rat muscle. I. Preparation and crystallization of the enzyme]
+  JOURNAL   Bull Soc Chim Biol (Paris) 50:2023-33 (1968)
+REFERENCE   8  [PMID:4248230]
+  AUTHORS   Uyeda K, Kurooka S.
+  TITLE     Crystallization and properties of phosphofructokinase from Clostridium pasteurianum.
+  JOURNAL   J Biol Chem 245:3315-24 (1970)
+REFERENCE   9  [PMID:4278654]
+  AUTHORS   Fishbein R, Benkovic PA, Schray KJ, Siewers IJ, Steffens JJ, Benkovic SJ.
+  TITLE     Anomeric specificity of phosphofructokinase from rabbit muscle.
+  JOURNAL   J Biol Chem 249:6047-51 (1974)
+REFERENCE   10 [PMID:4277364]
+  AUTHORS   Wurster B, Hess B.
+  TITLE     Anomeric specificity of fructose-6-phosphate kinase (EC 2.7.1.11) from rabbit muscle.
+  JOURNAL   FEBS Lett 38:257-60 (1974)
+            DOI:10.1016/0014-5793(74)80066-9
+REFERENCE   11 [PMID:4278316]
+  AUTHORS   Koerner TA Jr, Younathan ES, Ashour AL, Voll RJ.
+  TITLE     The fructose 6-phosphate site of phosphofructokinase. I. Tautomeric and anomeric specificity.
+  JOURNAL   J Biol Chem 249:5749-54 (1974)
+PATHWAY     ec00010  Glycolysis / Gluconeogenesis
+            ec00030  Pentose phosphate pathway
+            ec00051  Fructose and mannose metabolism
+            ec00052  Galactose metabolism
+            ec00680  Methane metabolism
+            ec01100  Metabolic pathways
+            ec01110  Biosynthesis of secondary metabolites
+            ec01120  Microbial metabolism in diverse environments
+ORTHOLOGY   K00850  6-phosphofructokinase 1
+            K16370  6-phosphofructokinase 2
+            K21071  ATP-dependent phosphofructokinase / diphosphate-dependent phosphofructokinase
+            K24182  6-phosphofructokinase

@@ -1,0 +1,55 @@
+ENTRY       EC 2.7.7.2                  Enzyme
+NAME        FAD synthase;
+            FAD pyrophosphorylase;
+            riboflavin mononucleotide adenylyltransferase;
+            adenosine triphosphate-riboflavin mononucleotide transadenylase;
+            adenosine triphosphate-riboflavine mononucleotide transadenylase;
+            riboflavin adenine dinucleotide pyrophosphorylase;
+            riboflavine adenine dinucleotide adenylyltransferase;
+            flavin adenine dinucleotide synthetase;
+            FADS;
+            FMN adenylyltransferase;
+            FAD synthetase (misleading)
+CLASS       Transferases;
+            Transferring phosphorus-containing groups;
+            Nucleotidyltransferases
+SYSNAME     ATP:FMN adenylyltransferase
+REACTION    ATP + FMN = diphosphate + FAD [RN:R00161]
+ALL_REAC    R00161
+SUBSTRATE   ATP [CPD:C00002];
+            FMN [CPD:C00061]
+PRODUCT     diphosphate [CPD:C00013];
+            FAD [CPD:C00016]
+COMMENT     Requires Mg2+ and is highly specific for ATP as phosphate donor [5]. The cofactors FMN and FAD participate in numerous processes in all organisms, including mitochondrial electron transport, photosynthesis, fatty-acid oxidation, and metabolism of vitamin B6, vitamin B12 and folates [3]. While monofunctional FAD synthetase is found in eukaryotes and in some prokaryotes, most prokaryotes have a bifunctional enzyme that exhibits both this activity and that of EC 2.7.1.26, riboflavin kinase [3,5].
+HISTORY     EC 2.7.7.2 created 1961, modified 2007, modified 2020
+REFERENCE   1  [PMID:13828163]
+  AUTHORS   GIRI KV, RAO NA, CAMA HR, KUMAR SA.
+  TITLE     Studies on flavinadenine dinucleotide-synthesizing enzyme in plants.
+  JOURNAL   Biochem J 75:381-6 (1960)
+            DOI:10.1042/bj0750381
+REFERENCE   2  [PMID:19994476]
+  AUTHORS   SCHRECKER AW, KORNBERG A
+  TITLE     Reversible enzymatic synthesis of flavin-adenine dinucleotide.
+  JOURNAL   J Biol Chem 182:795-803 (1950)
+REFERENCE   3  [PMID:16183635]
+  AUTHORS   Sandoval FJ, Roje S
+  TITLE     An FMN hydrolase is fused to a riboflavin kinase homolog in plants.
+  JOURNAL   J Biol Chem 280:38337-45 (2005)
+            DOI:10.1074/jbc.M500350200
+REFERENCE   4  [PMID:3034893]
+  AUTHORS   Oka M, McCormick DB.
+  TITLE     Complete purification and general characterization of FAD synthetase from rat liver.
+  JOURNAL   J Biol Chem 262:7418-22 (1987)
+REFERENCE   5  [PMID:16643857]
+  AUTHORS   Brizio C, Galluccio M, Wait R, Torchetti EM, Bafunno V, Accardi R, Gianazza E, Indiveri C, Barile M
+  TITLE     Over-expression in Escherichia coli and characterization of two recombinant isoforms of human FAD synthetase.
+  JOURNAL   Biochem Biophys Res Commun 344:1008-16 (2006)
+            DOI:10.1016/j.bbrc.2006.04.003
+  SEQUENCE  [hsa:80308]
+PATHWAY     ec00740  Riboflavin metabolism
+            ec01100  Metabolic pathways
+            ec01110  Biosynthesis of secondary metabolites
+ORTHOLOGY   K00953  FAD synthetase
+            K11753  riboflavin kinase / FMN adenylyltransferase
+            K14656  FAD synthetase
+            K22949  FAD synthetase

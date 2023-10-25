@@ -1,0 +1,27 @@
+ENTRY       EC 5.6.2.1                  Enzyme
+NAME        DNA topoisomerase;
+            type I DNA topoisomerase;
+            untwisting enzyme;
+            relaxing enzyme;
+            nicking-closing enzyme;
+            swivelase;
+            omega-protein;
+            deoxyribonucleate topoisomerase;
+            topoisomerase
+CLASS       Isomerases;
+            Isomerases altering macromolecular conformation;
+            Enzymes altering nucleic acid conformation
+SYSNAME     DNA topoisomerase
+REACTION    ATP-independent breakage of single-stranded DNA, followed by passage and rejoining
+COMMENT     These enzymes bring about the conversion of one topological isomer of DNA into another, e.g., the relaxation of superhelical turns in DNA, the interconversion of simple and knotted rings of single-stranded DNA, and the intertwisting of single-stranded rings of complementary sequences, cf. EC 5.6.2.2 DNA topoisomerase (ATP-hydrolysing).
+HISTORY     EC 5.6.2.1 created 1984 as 5.99.1.2 transferred 2019 to EC 5.6.2.1
+REFERENCE   1  [PMID:6267993]
+  AUTHORS   Gellert M.
+  TITLE     DNA topoisomerases.
+  JOURNAL   Annu Rev Biochem 50:879-910 (1981)
+            DOI:10.1146/annurev.bi.50.070181.004311
+ORTHOLOGY   K03163  DNA topoisomerase I
+            K03165  DNA topoisomerase III
+            K03168  DNA topoisomerase I
+            K03169  DNA topoisomerase III
+            K25988  Poxviridae DNA topoisomerase 1B

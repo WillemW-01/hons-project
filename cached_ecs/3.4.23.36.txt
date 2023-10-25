@@ -1,0 +1,29 @@
+ENTRY       EC 3.4.23.36                Enzyme
+NAME        signal peptidase II;
+            premurein-leader peptidase;
+            prolipoprotein signal peptidase;
+            leader peptidase II;
+            premurein leader proteinase
+CLASS       Hydrolases;
+            Acting on peptide bonds (peptidases);
+            Aspartic endopeptidases
+REACTION    Release of signal peptides from bacterial membrane prolipoproteins including murein prolipoprotein. Hydrolyses -Xaa-Yaa-Zaa!(S,diacylglyceryl)Cys-, in which Xaa is hydrophobic (preferably Leu), and Yaa (Ala or Ser) and Zaa (Gly or Ala) have small, neutral sidechains
+COMMENT     An 18-kDa enzyme present in bacterial inner membranes. Inhibited by pepstatin and the antibiotic globomycin. Type example of peptidase family A8.
+HISTORY     EC 3.4.23.36 created 1984 as EC 3.4.99.35, transferred 1995 to EC 3.4.23.36
+REFERENCE   1  [PMID:2202720]
+  AUTHORS   Dev IK, Ray PH.
+  TITLE     Signal peptidases and signal peptide hydrolases.
+  JOURNAL   J Bioenerg Biomembr 22:271-90 (1990)
+            DOI:10.1007/bf00763168
+REFERENCE   2  [PMID:1544479]
+  AUTHORS   Zhao XJ, Wu HC
+  TITLE     Nucleotide sequence of the Staphylococcus aureus signal peptidase II (lsp) gene.
+  JOURNAL   FEBS Lett 299:80-4 (1992)
+            DOI:10.1016/0014-5793(92)80105-P
+  SEQUENCE  [sau:SA1039]
+REFERENCE   3  [PMID:7674920]
+  AUTHORS   Sankaran K, Wu HC
+  TITLE     Bacterial prolipoprotein signal peptidase.
+  JOURNAL   Methods Enzymol 248:169-80 (1995)
+            DOI:10.1016/0076-6879(95)48014-5
+ORTHOLOGY   K03101  signal peptidase II

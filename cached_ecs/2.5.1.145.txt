@@ -1,0 +1,44 @@
+ENTRY       EC 2.5.1.145                Enzyme
+NAME        phosphatidylglycerol---prolipoprotein diacylglyceryl transferase;
+            lgt (gene name)
+CLASS       Transferases;
+            Transferring alkyl or aryl groups, other than methyl groups;
+            Transferring alkyl or aryl groups, other than methyl groups (only sub-subclass identified to date)
+SYSNAME     L-1-phosphatidyl-sn-glycerol:[prolipoprotein]-L-cysteine diacyl-sn-glyceryltransferase
+REACTION    L-1-phosphatidyl-sn-glycerol + a [prolipoprotein]-L-cysteine = sn-glycerol 1-phosphate + an [prolipoprotein]-S-1,2-diacyl-sn-glyceryl-L-cysteine
+SUBSTRATE   L-1-phosphatidyl-sn-glycerol;
+            [prolipoprotein]-L-cysteine
+PRODUCT     sn-glycerol 1-phosphate [CPD:C00623];
+            [prolipoprotein]-S-1,2-diacyl-sn-glyceryl-L-cysteine
+COMMENT     This bacterial enzyme, which is associated with the membrane, catalyses the transfer of an sn-1,2-diacylglyceryl group from phosphatidylglycerol to the sulfhydryl group of the prospective N-terminal cysteine of a prolipoprotein, the first step in the formation of mature triacylated lipoproteins.
+HISTORY     EC 2.5.1.145 created 2018
+REFERENCE   1  [PMID:8051048]
+  AUTHORS   Sankaran K, Wu HC
+  TITLE     Lipid modification of bacterial prolipoprotein. Transfer of diacylglyceryl moiety from phosphatidylglycerol.
+  JOURNAL   J Biol Chem 269:19701-6 (1994)
+  SEQUENCE  [eco:b2828]
+REFERENCE   2  [PMID:7592473]
+  AUTHORS   Qi HY, Sankaran K, Gan K, Wu HC
+  TITLE     Structure-function relationship of bacterial prolipoprotein diacylglyceryl transferase: functionally significant conserved regions.
+  JOURNAL   J Bacteriol 177:6820-4 (1995)
+            DOI:10.1128/JB.177.23.6820-6824.1995
+  SEQUENCE  [sau:SA0716]
+REFERENCE   3  [PMID:7896715]
+  AUTHORS   Gan K, Sankaran K, Williams MG, Aldea M, Rudd KE, Kushner SR, Wu HC
+  TITLE     The umpA gene of Escherichia coli encodes phosphatidylglycerol:prolipoprotein diacylglyceryl transferase (lgt) and regulates thymidylate synthase levels through translational coupling.
+  JOURNAL   J Bacteriol 177:1879-82 (1995)
+            DOI:10.1128/JB.177.7.1879-1882.1995
+  SEQUENCE  [eco:b2828]
+REFERENCE   4  [PMID:9139912]
+  AUTHORS   Sankaran K, Gan K, Rash B, Qi HY, Wu HC, Rick PD
+  TITLE     Roles of histidine-103 and tyrosine-235 in the function of the prolipoprotein diacylglyceryl transferase of Escherichia coli.
+  JOURNAL   J Bacteriol 179:2944-8 (1997)
+            DOI:10.1128/JB.179.9.2944-2948.1997
+  SEQUENCE  [eco:b2828]
+REFERENCE   5  [PMID:22287519]
+  AUTHORS   Pailler J, Aucher W, Pires M, Buddelmeijer N
+  TITLE     Phosphatidylglycerol::prolipoprotein diacylglyceryl transferase (Lgt) of Escherichia coli has seven transmembrane segments, and its essential residues are embedded in the membrane.
+  JOURNAL   J Bacteriol 194:2142-51 (2012)
+            DOI:10.1128/JB.06641-11
+  SEQUENCE  [eco:b2828]
+ORTHOLOGY   K13292  phosphatidylglycerol---prolipoprotein diacylglyceryl transferase

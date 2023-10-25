@@ -1,0 +1,27 @@
+NTRY       EC 2.7.7.18                 Enzyme
+NAME        nicotinate-nucleotide adenylyltransferase;
+            deamido-NAD+ pyrophosphorylase;
+            nicotinate mononucleotide adenylyltransferase;
+            deamidonicotinamide adenine dinucleotide pyrophosphorylase;
+            NaMN-ATase;
+            nicotinic acid mononucleotide adenylyltransferase
+CLASS       Transferases;
+            Transferring phosphorus-containing groups;
+            Nucleotidyltransferases
+SYSNAME     ATP:beta-nicotinate-D-ribonucleotide adenylyltransferase
+REACTION    ATP + beta-nicotinate D-ribonucleotide = diphosphate + deamido-NAD+ [RN:R03005]
+ALL_REAC    R03005;
+            (other) R00137
+SUBSTRATE   ATP [CPD:C00002];
+            beta-nicotinate D-ribonucleotide [CPD:C01185]
+PRODUCT     diphosphate [CPD:C00013];
+            deamido-NAD+ [CPD:C00857]
+HISTORY     EC 2.7.7.18 created 1965
+REFERENCE   1  [PMID:13717628]
+  AUTHORS   IMSANDE J.
+  TITLE     Pathway of diphosphopyridine nucleotide biosynthesis in Escherichia coli.
+  JOURNAL   J Biol Chem 236:1494-7 (1961)
+PATHWAY     ec00760  Nicotinate and nicotinamide metabolism
+            ec01100  Metabolic pathways
+ORTHOLOGY   K00969  nicotinate-nucleotide adenylyltransferase
+            K06210  nicotinamide mononucleotide adenylyltransferase

@@ -1,0 +1,42 @@
+ENTRY       EC 6.1.1.11                 Enzyme
+NAME        serine---tRNA ligase;
+            seryl-tRNA synthetase;
+            SerRS;
+            seryl-transfer ribonucleate synthetase;
+            seryl-transfer RNA synthetase;
+            seryl-transfer ribonucleic acid synthetase;
+            serine translase
+CLASS       Ligases;
+            Forming carbon-oxygen bonds;
+            Ligases forming aminoacyl-tRNA and related compounds
+SYSNAME     L-serine:tRNASer ligase (AMP-forming)
+REACTION    ATP + L-serine + tRNASer = AMP + diphosphate + L-seryl-tRNASer [RN:R03662]
+ALL_REAC    R03662;
+            (other) R08218
+SUBSTRATE   ATP [CPD:C00002];
+            L-serine [CPD:C00065];
+            tRNA(Ser) [CPD:C01650]
+PRODUCT     AMP [CPD:C00020];
+            diphosphate [CPD:C00013];
+            L-seryl-tRNA(Ser) [CPD:C02553]
+COMMENT     This enzyme also recognizes tRNASec, the special tRNA for selenocysteine, and catalyses the formation of L-seryl-tRNASec, the substrate for EC 2.9.1.1, L-seryl-tRNASec selenium transferase.
+HISTORY     EC 6.1.1.11 created 1961, modified 2002
+REFERENCE   1  [PMID:4906848]
+  AUTHORS   Katze JR, Konigsberg W.
+  TITLE     Purification and properties of seryl transfer ribonucleic acid synthetase from Escherichia coli.
+  JOURNAL   J Biol Chem 245:923-30 (1970)
+REFERENCE   2
+  AUTHORS   Makman, M.H. and Cantoni, G.L.
+  TITLE     Isolation of seryl and phenylalanyl ribonucleic acid synthetases from baker's yeast.
+  JOURNAL   Biochemistry 4:1434-1442 (1965)
+REFERENCE   3  [PMID:13783661]
+  AUTHORS   WEBSTER LT Jr, DAVIE EW.
+  TITLE     Purification and properties of serine-activating enzyme from beef pancreas.
+  JOURNAL   J Biol Chem 236:479-84 (1961)
+REFERENCE   4  [PMID:7986071]
+  AUTHORS   Ohama T, Yang DC, Hatfield DL.
+  TITLE     Selenocysteine tRNA and serine tRNA are aminoacylated by the same synthetase, but may manifest different identities with respect to the long extra arm.
+  JOURNAL   Arch Biochem Biophys 315:293-301 (1994)
+            DOI:10.1006/abbi.1994.1503
+PATHWAY     ec00970  Aminoacyl-tRNA biosynthesis
+ORTHOLOGY   K01875  seryl-tRNA synthetase

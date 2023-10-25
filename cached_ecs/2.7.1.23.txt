@@ -1,0 +1,38 @@
+ENTRY       EC 2.7.1.23                 Enzyme
+NAME        NAD+ kinase;
+            DPN kinase;
+            nicotinamide adenine dinucleotide kinase (phosphorylating);
+            nicotinamide adenine dinucleotide kinase;
+            NAD kinase;
+            NADK
+CLASS       Transferases;
+            Transferring phosphorus-containing groups;
+            Phosphotransferases with an alcohol group as acceptor
+SYSNAME     ATP:NAD+ 2'-phosphotransferase
+REACTION    ATP + NAD+ = ADP + NADP+ [RN:R00104]
+ALL_REAC    R00104
+SUBSTRATE   ATP [CPD:C00002];
+            NAD+ [CPD:C00003]
+PRODUCT     ADP [CPD:C00008];
+            NADP+ [CPD:C00006]
+HISTORY     EC 2.7.1.23 created 1961
+REFERENCE   1  [PMID:6290285]
+  AUTHORS   Butler JR, McGuinness ET.
+  TITLE     Candida utilis NAD+ kinase: purification, properties and affinity gel studies.
+  JOURNAL   Int J Biochem 14:839-44 (1982)
+            DOI:10.1016/0020-711x(82)90106-9
+REFERENCE   2  [PMID:4290316]
+  AUTHORS   Chung AE.
+  TITLE     Nicotinamide adenine dinucleotide kinase from Azotobacter vinelandii. I. Purification and properties of the enzyme.
+  JOURNAL   J Biol Chem 242:1182-6 (1967)
+REFERENCE   3
+  AUTHORS   Kornberg, A.
+  TITLE     Enzymatic synthesis of triphosphopyridine nucleotide.
+  JOURNAL   J Biol Chem 182:805-813 (1950)
+REFERENCE   4  [PMID:13130551]
+  AUTHORS   WANG TP, KAPLAN NO.
+  TITLE     Kinases for the synthesis of coenzyme A and triphosphopyridine nucleotide.
+  JOURNAL   J Biol Chem 206:311-25 (1954)
+PATHWAY     ec00760  Nicotinate and nicotinamide metabolism
+            ec01100  Metabolic pathways
+ORTHOLOGY   K00858  NAD+ kinase

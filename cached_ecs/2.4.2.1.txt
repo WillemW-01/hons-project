@@ -1,0 +1,60 @@
+ENTRY       EC 2.4.2.1                  Enzyme
+NAME        purine-nucleoside phosphorylase;
+            inosine phosphorylase;
+            PNPase (ambiguous);
+            PUNPI;
+            PUNPII;
+            inosine-guanosine phosphorylase;
+            purine deoxynucleoside phosphorylase;
+            purine deoxyribonucleoside phosphorylase;
+            purine nucleoside phosphorylase;
+            purine ribonucleoside phosphorylase
+CLASS       Transferases;
+            Glycosyltransferases;
+            Pentosyltransferases
+SYSNAME     purine-nucleoside:phosphate ribosyltransferase
+REACTION    (1) purine ribonucleoside + phosphate = purine + alpha-D-ribose 1-phosphate [RN:R08368];
+            (2) purine 2'-deoxyribonucleoside + phosphate = purine + 2-deoxy-alpha-D-ribose 1-phosphate [RN:R10244]
+ALL_REAC    R08368 > R01561 R01863 R02147 R02297;
+            R10244 > R01969 R02557 R02748;
+            (other) R02294 R02295
+SUBSTRATE   purine ribonucleoside [CPD:C15586];
+            phosphate [CPD:C00009];
+            purine 2'-deoxyribonucleoside [CPD:C20463]
+PRODUCT     purine [CPD:C15587];
+            alpha-D-ribose 1-phosphate [CPD:C00620];
+            2-deoxy-alpha-D-ribose 1-phosphate [CPD:C00672]
+COMMENT     Specificity not completely determined. Can also catalyse ribosyltransferase reactions of the type catalysed by EC 2.4.2.5, nucleoside ribosyltransferase.
+HISTORY     EC 2.4.2.1 created 1961
+REFERENCE   1  [PMID:5768862]
+  AUTHORS   Agarwal RP, Parks RE Jr.
+  TITLE     Purine nucleoside phosphorylase from human erythrocytes. IV. Crystallization and some properties.
+  JOURNAL   J Biol Chem 244:644-7 (1969)
+REFERENCE   2
+  AUTHORS   Friedkin, M. and Kalckar, H.
+  TITLE     Nucleoside phosphorylases.
+  JOURNAL   In: Boyer, P.D., Lardy, H. and Myrback, K. (Eds.), The Enzymes, 2nd ed., vol. 5, Academic Press, New York, 1961, p. 237-255.
+REFERENCE   3  [PMID:12999785]
+  AUTHORS   HEPPEL LA, HILMOE RJ.
+  TITLE     [Phosphorolysis and hydrolysis of purine ribosides by enzymes from yeast.]
+  JOURNAL   J Biol Chem 198:683-94 (1952)
+REFERENCE   4  [PMID:20285042]
+  AUTHORS   KALCKAR HM
+  TITLE     The enzymatic synthesis of purine ribosides.
+  JOURNAL   J Biol Chem 167:477-86 (1947)
+REFERENCE   5  [PMID:4978445]
+  AUTHORS   Saunders PP, Wilson BA, Saunders GF.
+  TITLE     Purification and comparative properties of a pyrimidine nucleoside phosphorylase from Bacillus stearothermophilus.
+  JOURNAL   J Biol Chem 244:3691-7 (1969)
+REFERENCE   6  [PMID:13405917]
+  AUTHORS   TSUBOI KK, HUDSON PB.
+  TITLE     Enzymes of the human erythrocyte.  I.  Purine nucleoside phosphorylase; isolation procedure.
+  JOURNAL   J Biol Chem 224:879-87 (1957)
+PATHWAY     ec00230  Purine metabolism
+            ec00760  Nicotinate and nicotinamide metabolism
+            ec01100  Metabolic pathways
+            ec01110  Biosynthesis of secondary metabolites
+ORTHOLOGY   K03783  purine-nucleoside phosphorylase
+            K03784  purine-nucleoside phosphorylase
+            K05810  purine-nucleoside/S-methyl-5'-thioadenosine phosphorylase / adenosine deaminase
+            K09913  purine/pyrimidine-nucleoside phosphorylase

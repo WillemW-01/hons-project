@@ -1,0 +1,33 @@
+ENTRY       EC 6.1.1.12                 Enzyme
+NAME        aspartate---tRNA ligase;
+            aspartyl-tRNA synthetase;
+            aspartyl ribonucleic synthetase;
+            aspartyl-transfer RNA synthetase;
+            aspartic acid translase;
+            aspartyl-transfer ribonucleic acid synthetase;
+            aspartyl ribonucleate synthetase
+CLASS       Ligases;
+            Forming carbon-oxygen bonds;
+            Ligases forming aminoacyl-tRNA and related compounds
+SYSNAME     L-aspartate:tRNAAsp ligase (AMP-forming)
+REACTION    ATP + L-aspartate + tRNAAsp = AMP + diphosphate + L-aspartyl-tRNAAsp [RN:R05577]
+ALL_REAC    R05577
+SUBSTRATE   ATP [CPD:C00002];
+            L-aspartate [CPD:C00049];
+            tRNA(Asp) [CPD:C01638]
+PRODUCT     AMP [CPD:C00020];
+            diphosphate [CPD:C00013];
+            L-aspartyl-tRNA(Asp) [CPD:C02984]
+HISTORY     EC 6.1.1.12 created 1965
+REFERENCE   1  [PMID:4575961]
+  AUTHORS   Gangloff J, Dirheimer G.
+  TITLE     Studies on aspartyl-tRNA synthetase from Baker's yeast. I. Purification and properties of the enzyme.
+  JOURNAL   Biochim Biophys Acta 294:263-72 (1973)
+REFERENCE   2  [PMID:13939000]
+  AUTHORS   NORTON SJ, RAVEL JM, LEE C, SHIVE W.
+  TITLE     Purification and properties of the aspartyl ribonucleic acid synthetase of Lactobacillus arabinosus.
+  JOURNAL   J Biol Chem 238:269-74 (1963)
+PATHWAY     ec00970  Aminoacyl-tRNA biosynthesis
+ORTHOLOGY   K01876  aspartyl-tRNA synthetase
+            K22503  aspartyl-tRNA synthetase
+            K24278  ergosteryl-3beta-O-L-aspartate synthase

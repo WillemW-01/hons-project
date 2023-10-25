@@ -1,0 +1,36 @@
+ENTRY       EC 6.1.1.10                 Enzyme
+NAME        methionine---tRNA ligase;
+            methionyl-tRNA synthetase;
+            methionyl-transfer ribonucleic acid synthetase;
+            methionyl-transfer ribonucleate synthetase;
+            methionyl-transfer RNA synthetase;
+            methionine translase;
+            MetRS
+CLASS       Ligases;
+            Forming carbon-oxygen bonds;
+            Ligases forming aminoacyl-tRNA and related compounds
+SYSNAME     L-methionine:tRNAMet ligase (AMP-forming)
+REACTION    ATP + L-methionine + tRNAMet = AMP + diphosphate + L-methionyl-tRNAMet [RN:R03659]
+ALL_REAC    R03659;
+            (other) R04773
+SUBSTRATE   ATP [CPD:C00002];
+            L-methionine [CPD:C00073];
+            tRNA(Met) [CPD:C01647]
+PRODUCT     AMP [CPD:C00020];
+            diphosphate [CPD:C00013];
+            L-methionyl-tRNA(Met) [CPD:C02430]
+COMMENT     In those organisms producing N-formylmethionyl-tRNAfMet for translation initiation, this enzyme also recognizes the initiator tRNAfMet and catalyses the formation of L-methionyl-tRNAfMet, the substrate for EC 2.1.2.9, methionyl-tRNA formyltransferase.
+HISTORY     EC 6.1.1.10 created 1961, modified 2002
+REFERENCE   1
+  AUTHORS   Bergmann, F.H., Berg, P. and Dieckmann, M.
+  TITLE     The enzymic synthesis of amino acyl derivatives of ribonucleic acid. II. The preparation of leucyl-, valyl-, isoleucyl- and methionyl ribonucleic acid synthetases from Escherichia coli.
+  JOURNAL   J Biol Chem 236:1735-1740 (1961)
+REFERENCE   2  [PMID:1409632]
+  AUTHORS   Lee CP, Dyson MR, Mandal N, Varshney U, Bahramian B, RajBhandary UL.
+  TITLE     Striking effects of coupling mutations in the acceptor stem on recognition of tRNAs by Escherichia coli Met-tRNA synthetase and Met-tRNA transformylase.
+  JOURNAL   Proc Natl Acad Sci U S A 89:9262-6 (1992)
+            DOI:10.1073/pnas.89.19.9262
+PATHWAY     ec00450  Selenocompound metabolism
+            ec00970  Aminoacyl-tRNA biosynthesis
+            ec01100  Metabolic pathways
+ORTHOLOGY   K01874  methionyl-tRNA synthetase

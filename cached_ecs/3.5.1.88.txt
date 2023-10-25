@@ -1,0 +1,81 @@
+ENTRY       EC 3.5.1.88                 Enzyme
+NAME        peptide deformylase;
+            N-formylmethionylaminoacyl-tRNA deformylase
+CLASS       Hydrolases;
+            Acting on carbon-nitrogen bonds, other than peptide bonds;
+            In linear amides
+SYSNAME     formyl-L-methionyl peptide amidohydrolase
+REACTION    formyl-L-methionyl peptide + H2O = formate + methionyl peptide [RN:R05635]
+ALL_REAC    R05635;
+            (other) R04268
+SUBSTRATE   formyl-L-methionyl peptide [CPD:C11439];
+            H2O [CPD:C00001]
+PRODUCT     formate [CPD:C00058];
+            methionyl peptide [CPD:C11440]
+COMMENT     Requires iron(II). Also requires at least a dipeptide for an efficient rate of reaction. N-terminal L-methionine is a prerequisite for activity but the enzyme has broad specificity at other positions. Differs in substrate specifity from EC 3.5.1.31 (formylmethionine deformylase).
+HISTORY     EC 3.5.1.88 created 2001
+REFERENCE   1  [PMID:4973445]
+  AUTHORS   Adams JM.
+  TITLE     On the release of the formyl group from nascent protein.
+  JOURNAL   J Mol Biol 33:571-89 (1968)
+            DOI:10.1016/0022-2836(68)90307-0
+REFERENCE   2  [PMID:8112305]
+  AUTHORS   Mazel D, Pochet S, Marliere P.
+  TITLE     Genetic characterization of polypeptide deformylase, a distinctive enzyme of eubacterial translation.
+  JOURNAL   EMBO J 13:914-23 (1994)
+            DOI:10.1002/j.1460-2075.1994.tb06335.x
+  SEQUENCE  [eco:b3287]
+REFERENCE   3  [PMID:9374869]
+  AUTHORS   Chan MK, Gong W, Rajagopalan PT, Hao B, Tsai CM, Pei D.
+  TITLE     Crystal structure of the Escherichia coli peptide deformylase.
+  JOURNAL   Biochemistry 36:13904-9 (1997)
+            DOI:10.1021/bi9711543
+  SEQUENCE  [eco:b3287]
+REFERENCE   4  [PMID:9565550]
+  AUTHORS   Becker A, Schlichting I, Kabsch W, Schultz S, Wagner AF.
+  TITLE     Structure of peptide deformylase and identification of the substrate binding site.
+  JOURNAL   J Biol Chem 273:11413-6 (1998)
+            DOI:10.1074/jbc.273.19.11413
+  SEQUENCE  [eco:b3287]
+REFERENCE   5  [PMID:9846875]
+  AUTHORS   Becker A, Schlichting I, Kabsch W, Groche D, Schultz S, Wagner AF.
+  TITLE     Iron center, substrate recognition and mechanism of peptide deformylase.
+  JOURNAL   Nat Struct Biol 5:1053-8 (1998)
+            DOI:10.1038/4162
+  SEQUENCE  [eco:b3287]
+REFERENCE   6
+  AUTHORS   Rajagopalan, P.T.R., Yu, X.C. and Pei, D.
+  TITLE     Peptide deformylase: a new type of mononuclear iron protein.
+  JOURNAL   J Am Chem Soc 119:12418-12419 (1997)
+REFERENCE   7  [PMID:9610360]
+  AUTHORS   Groche D, Becker A, Schlichting I, Kabsch W, Schultz S, Wagner AF.
+  TITLE     Isolation and crystallization of functionally competent Escherichia coli peptide deformylase forms containing either iron or nickel in the active site.
+  JOURNAL   Biochem Biophys Res Commun 246:342-6 (1998)
+            DOI:10.1006/bbrc.1998.8616
+  SEQUENCE  [eco:b3287]
+REFERENCE   8  [PMID:10651644]
+  AUTHORS   Rajagopalan PT, Grimme S, Pei D.
+  TITLE     Characterization of cobalt(II)-substituted peptide deformylase: function of the metal ion and the catalytic residue Glu-133.
+  JOURNAL   Biochemistry 39:779-90 (2000)
+            DOI:10.1021/bi9919899
+REFERENCE   9  [PMID:9888804]
+  AUTHORS   Hu YJ, Wei Y, Zhou Y, Rajagopalan PT, Pei D.
+  TITLE     Determination of substrate specificity for peptide deformylase through the screening of a combinatorial peptide library.
+  JOURNAL   Biochemistry 38:643-50 (1999)
+            DOI:10.1021/bi9820412
+REFERENCE   10 [PMID:10373378]
+  AUTHORS   Ragusa S, Mouchet P, Lazennec C, Dive V, Meinnel T.
+  TITLE     Substrate recognition and selectivity of peptide deformylase. Similarities and differences with metzincins and thermolysin.
+  JOURNAL   J Mol Biol 289:1445-57 (1999)
+            DOI:10.1006/jmbi.1999.2832
+REFERENCE   11 [PMID:10931273]
+  AUTHORS   Giglione C, Pierre M, Meinnel T.
+  TITLE     Peptide deformylase as a target for new generation, broad spectrum antimicrobial agents.
+  JOURNAL   Mol Microbiol 36:1197-205 (2000)
+            DOI:10.1046/j.1365-2958.2000.01908.x
+REFERENCE   12 [PMID:15992166]
+  AUTHORS   Pei D.
+  TITLE     Peptide deformylase: a target for novel antibiotics?
+  JOURNAL   Expert Opin Ther Targets 5:23-40 (2001)
+            DOI:10.1517/14728222.5.1.23
+ORTHOLOGY   K01462  peptide deformylase

@@ -1,0 +1,41 @@
+ENTRY       EC 2.7.1.194                Enzyme
+NAME        protein-Npi-phosphohistidine---L-ascorbate phosphotransferase;
+            ulaABC (gene names);
+            L-ascorbate PTS permease;
+            EIISga;
+            Enzyme IISga;
+            Enzyme IIUla
+CLASS       Transferases;
+            Transferring phosphorus-containing groups;
+            Phosphotransferases with an alcohol group as acceptor
+SYSNAME     protein-Npi-phospho-L-histidine:L-ascorbate Npi-phosphotransferase
+REACTION    [protein]-Npi-phospho-L-histidine + L-ascorbate[side 1] = [protein]-L-histidine + L-ascorbate 6-phosphate[side 2] [RN:R07671]
+ALL_REAC    R07671
+SUBSTRATE   [protein]-Npi-phospho-L-histidine [CPD:C04261];
+            L-ascorbate[side 1] [CPD:C00072]
+PRODUCT     [protein]-L-histidine [CPD:C00615];
+            L-ascorbate 6-phosphate[side 2] [CPD:C16186]
+COMMENT     This enzyme is a component (known as enzyme II) of a phosphoenolpyruvate (PEP)-dependent, sugar transporting phosphotransferase system (PTS). The system, which is found only in prokaryotes, simultaneously transports its substrate from the periplasm or extracellular space into the cytoplasm and phosphorylates it. The phosphate donor, which is shared among the different systems, is a phospho-carrier protein of low molecular mass that has been phosphorylated by EC 2.7.3.9 (phosphoenolpyruvate---protein phosphotransferase). Enzyme II, on the other hand, is specific for a particular substrate, although in some cases alternative substrates can be transported with lower efficiency. The reaction involves a successive transfer of the phosphate group to several amino acids within the enzyme before the final transfer to the substrate.
+HISTORY     EC 2.7.1.194 created 1972 as EC 2.7.1.69, part transferred 2016 to EC 2.7.1.194
+REFERENCE   1  [PMID:12644495]
+  AUTHORS   Zhang Z, Aboulwafa M, Smith MH, Saier MH Jr.
+  TITLE     The ascorbate transporter of Escherichia coli.
+  JOURNAL   J Bacteriol 185:2243-50 (2003)
+            DOI:10.1128/JB.185.7.2243-2250.2003
+  SEQUENCE  [eco:b4194 b4195]
+REFERENCE   2  [PMID:15153772]
+  AUTHORS   Hvorup R, Chang AB, Saier MH Jr
+  TITLE     Bioinformatic analyses of the bacterial L-ascorbate phosphotransferase system permease family.
+  JOURNAL   J Mol Microbiol Biotechnol 6:191-205 (2003)
+            DOI:10.1159/000077250
+  SEQUENCE  [eco:b4194 b4195]
+REFERENCE   3  [PMID:25686089]
+  AUTHORS   Luo P, Yu X, Wang W, Fan S, Li X, Wang J
+  TITLE     Crystal structure of a phosphorylation-coupled vitamin C transporter.
+  JOURNAL   Nat Struct Mol Biol 22:238-41 (2015)
+            DOI:10.1038/nsmb.2975
+PATHWAY     ec00053  Ascorbate and aldarate metabolism
+            ec01100  Metabolic pathways
+            ec01120  Microbial metabolism in diverse environments
+ORTHOLOGY   K02821  ascorbate PTS system EIIA or EIIAB component
+            K02822  ascorbate PTS system EIIB component

@@ -1,0 +1,44 @@
+ENTRY       EC 5.1.3.2                  Enzyme
+NAME        UDP-glucose 4-epimerase;
+            UDP-galactose 4-epimerase;
+            uridine diphosphoglucose epimerase;
+            galactowaldenase;
+            UDPG-4-epimerase;
+            uridine diphosphate galactose 4-epimerase;
+            uridine diphospho-galactose-4-epimerase;
+            UDP-glucose epimerase;
+            4-epimerase;
+            uridine diphosphoglucose 4-epimerase;
+            uridine diphosphate glucose 4-epimerase;
+            UDP-D-galactose 4-epimerase
+CLASS       Isomerases;
+            Racemases and epimerases;
+            Acting on carbohydrates and derivatives
+SYSNAME     UDP-alpha-D-glucose 4-epimerase
+REACTION    UDP-alpha-D-glucose = UDP-alpha-D-galactose [RN:R00291]
+ALL_REAC    R00291;
+            (other) R00418 R02984
+SUBSTRATE   UDP-alpha-D-glucose [CPD:C00029]
+PRODUCT     UDP-alpha-D-galactose [CPD:C00052]
+COMMENT     Requires NAD+. Also acts on UDP-2-deoxyglucose.
+HISTORY     EC 5.1.3.2 created 1961
+REFERENCE   1  [PMID:13057717]
+  AUTHORS   LELOIR LF.
+  TITLE     Enzymic isomerization and related processes.
+  JOURNAL   Adv Enzymol Relat Subj Biochem 14:193-218 (1953)
+            DOI:10.1002/9780470122594.ch6
+REFERENCE   2
+  AUTHORS   Maxwell, E.S. and de Robichon-Szulmajster, H.
+  TITLE     Purification of uridine diphosphate galactose-4-epimerase from yeast and the identification of protein-bound diphosphopyridine nucleotide.
+  JOURNAL   J Biol Chem 235:308-312 (1960)
+REFERENCE   3  [PMID:14235524]
+  AUTHORS   WILSON DB, HOGNESS DS.
+  TITLE     THE ENZYMES OF THE GALACTOSE OPERON IN ESCHERICHIA COLI. I. PURIFICATION AND CHARACTERIZATION OF URIDINE DIPHOSPHOGALACTOSE 4-EPIMERASE.
+  JOURNAL   J Biol Chem 239:2469-81 (1964)
+  SEQUENCE  [eco:b0759]
+PATHWAY     ec00052  Galactose metabolism
+            ec00520  Amino sugar and nucleotide sugar metabolism
+            ec00541  O-Antigen nucleotide sugar biosynthesis
+            ec01100  Metabolic pathways
+ORTHOLOGY   K01784  UDP-glucose 4-epimerase
+            K17716  UDP-glucose 4-epimerase

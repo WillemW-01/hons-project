@@ -1,0 +1,32 @@
+ENTRY       EC 2.4.2.9                  Enzyme
+NAME        uracil phosphoribosyltransferase;
+            UMP pyrophosphorylase;
+            UPRTase;
+            UMP:pyrophosphate phosphoribosyltransferase;
+            uridine 5'-phosphate pyrophosphorylase;
+            uridine monophosphate pyrophosphorylase;
+            uridylate pyrophosphorylase;
+            uridylic pyrophosphorylase
+CLASS       Transferases;
+            Glycosyltransferases;
+            Pentosyltransferases
+SYSNAME     UMP:diphosphate phospho-alpha-D-ribosyltransferase
+REACTION    UMP + diphosphate = uracil + 5-phospho-alpha-D-ribose 1-diphosphate [RN:R00966]
+ALL_REAC    R00966
+SUBSTRATE   UMP [CPD:C00105];
+            diphosphate [CPD:C00013]
+PRODUCT     uracil [CPD:C00106];
+            5-phospho-alpha-D-ribose 1-diphosphate [CPD:C00119]
+HISTORY     EC 2.4.2.9 created 1961
+REFERENCE   1  [PMID:13438895]
+  AUTHORS   CRAWFORD I, KORNBERG A, SIMMS ES.
+  TITLE     Conversion of uracil and orotate to uridine 5'-phosphate by enzymes in lactobacilli.
+  JOURNAL   J Biol Chem 226:1093-101 (1957)
+REFERENCE   2
+  AUTHORS   Flaks, J.G.
+  TITLE     Nucleotide synthesis from 5-phosphoribosylpyrophosphate.
+  JOURNAL   Methods Enzymol 6:136-158 (1963)
+PATHWAY     ec00240  Pyrimidine metabolism
+            ec01100  Metabolic pathways
+ORTHOLOGY   K00761  uracil phosphoribosyltransferase
+            K02825  pyrimidine operon attenuation protein / uracil phosphoribosyltransferase

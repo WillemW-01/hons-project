@@ -1,0 +1,61 @@
+ENTRY       EC 2.7.8.7                  Enzyme
+NAME        holo-[acyl-carrier-protein] synthase;
+            acyl carrier protein holoprotein (holo-ACP) synthetase;
+            holo-ACP synthetase;
+            coenzyme A:fatty acid synthetase apoenzyme 4'-phosphopantetheine transferase;
+            holosynthase;
+            acyl carrier protein synthetase;
+            holo-ACP synthase;
+            PPTase;
+            AcpS;
+            ACPS;
+            acyl carrier protein synthase;
+            P-pant transferase;
+            CoA:apo-[acyl-carrier-protein] pantetheinephosphotransferase;
+            CoA-[4'-phosphopantetheine]:apo-[acyl-carrier-protein] 4'-pantetheinephosphotransferase
+CLASS       Transferases;
+            Transferring phosphorus-containing groups;
+            Transferases for other substituted phosphate groups
+SYSNAME     CoA-[4'-phosphopantetheine]:apo-[acyl-carrier protein] 4'-pantetheinephosphotransferase
+REACTION    CoA-[4'-phosphopantetheine] + an apo-[acyl-carrier protein] = adenosine 3',5'-bisphosphate + an [acyl-carrier protein] [RN:R01625]
+ALL_REAC    R01625
+SUBSTRATE   CoA-[4'-phosphopantetheine];
+            apo-[acyl-carrier protein]
+PRODUCT     adenosine 3',5'-bisphosphate [CPD:C00054];
+            [acyl-carrier protein] [CPD:C00229]
+COMMENT     Requires Mg2+. All polyketide synthases, fatty-acid synthases and non-ribosomal peptide synthases require post-translational modification of their constituent acyl-carrier-protein (ACP) domains to become catalytically active. The inactive apo-proteins are converted into their active holo-forms by transfer of the 4'-phosphopantetheinyl moiety of CoA to the sidechain hydroxy group of a conserved serine residue in each ACP domain [3]. The enzyme from human can activate both the ACP domain of the human cytosolic multifunctional fatty-acid synthase system (EC 2.3.1.85) and that associated with human mitochondria as well as peptidyl-carrier and acyl-carrier-proteins from prokaryotes [6]. Removal of the 4-phosphopantetheinyl moiety from holo-ACP is carried out by EC 3.1.4.14, [acyl-carrier-protein] phosphodiesterase.
+HISTORY     EC 2.7.8.7 created 1972, modified 2006, modified 2022
+REFERENCE   1  [PMID:4872726]
+  AUTHORS   Elovson J, Vagelos PR.
+  TITLE     Acyl carrier protein. X. Acyl carrier protein synthetase.
+  JOURNAL   J Biol Chem 243:3603-11 (1968)
+REFERENCE   2  [PMID:4561013]
+  AUTHORS   Prescott DJ, Vagelos PR.
+  TITLE     Acyl carrier protein.
+  JOURNAL   Adv Enzymol Relat Areas Mol Biol 36:269-311 (1972)
+            DOI:10.1002/9780470122815.ch8
+REFERENCE   3  [PMID:8939709]
+  AUTHORS   Lambalot RH, Gehring AM, Flugel RS, Zuber P, LaCelle M, Marahiel MA, Reid R, Khosla C, Walsh CT
+  TITLE     A new enzyme superfamily - the phosphopantetheinyl transferases.
+  JOURNAL   Chem Biol 3:923-36 (1996)
+            DOI:10.1016/S1074-5521(96)90181-7
+  SEQUENCE  [eco:b0583]
+REFERENCE   4  [PMID:9667867]
+  AUTHORS   Walsh CT, Gehring AM, Weinreb PH, Quadri LE, Flugel RS.
+  TITLE     Post-translational modification of polyketide and nonribosomal peptide synthases.
+  JOURNAL   Curr Opin Chem Biol 1:309-15 (1997)
+            DOI:10.1016/S1367-5931(97)80067-1
+REFERENCE   5  [PMID:11489886]
+  AUTHORS   Mootz HD, Finking R, Marahiel MA.
+  TITLE     4'-phosphopantetheine transfer in primary and secondary metabolism of Bacillus subtilis.
+  JOURNAL   J Biol Chem 276:37289-98 (2001)
+            DOI:10.1074/jbc.M103556200
+  SEQUENCE  [bsu:BSU04620]
+REFERENCE   6  [PMID:12815048]
+  AUTHORS   Joshi AK, Zhang L, Rangan VS, Smith S.
+  TITLE     Cloning, expression, and characterization of a human 4'-phosphopantetheinyl transferase with broad substrate specificity.
+  JOURNAL   J Biol Chem 278:33142-9 (2003)
+            DOI:10.1074/jbc.M305459200
+PATHWAY     ec00770  Pantothenate and CoA biosynthesis
+            ec01100  Metabolic pathways
+ORTHOLOGY   K00997  holo-[acyl-carrier protein] synthase

@@ -1,0 +1,48 @@
+ENTRY       EC 2.7.4.8                  Enzyme
+NAME        guanylate kinase;
+            deoxyguanylate kinase;
+            5'-GMP kinase;
+            GMP kinase;
+            guanosine monophosphate kinase;
+            ATP:GMP phosphotransferase
+CLASS       Transferases;
+            Transferring phosphorus-containing groups;
+            Phosphotransferases with a phosphate group as acceptor
+SYSNAME     ATP:(d)GMP phosphotransferase
+REACTION    ATP + GMP = ADP + GDP [RN:R00332]
+ALL_REAC    R00332;
+            (other) R02090 R12852
+SUBSTRATE   ATP [CPD:C00002];
+            GMP [CPD:C00144]
+PRODUCT     ADP [CPD:C00008];
+            GDP [CPD:C00035]
+COMMENT     dGMP can also act as acceptor, and dATP can act as donor.
+HISTORY     EC 2.7.4.8 created 1965
+REFERENCE   1  [PMID:4307347]
+  AUTHORS   Buccino RJ Jr, Roth JS.
+  TITLE     Partial purification and properties of ATP:GMP phosphransferase from rat liver.
+  JOURNAL   Arch Biochem Biophys 132:49-61 (1969)
+            DOI:10.1016/0003-9861(69)90337-3
+  SEQUENCE  [rno:303179]
+REFERENCE   2  [PMID:5329274]
+  AUTHORS   Hiraga S, Sugino Y.
+  TITLE     Nucleoside monophosphokinases of Escherichia coli infected and uninfected with an RNA phage.
+  JOURNAL   Biochim Biophys Acta 114:416-8 (1966)
+            DOI:10.1016/0005-2787(66)90324-8
+REFERENCE   3  [PMID:5862227]
+  AUTHORS   Griffith TJ, Helleiner CW.
+  TITLE     The partial purification of deoxynucleoside monophosphate kinases from L cells.
+  JOURNAL   Biochim Biophys Acta 108:114-24 (1965)
+            DOI:10.1016/0005-2787(65)90113-9
+REFERENCE   4  [PMID:5333666]
+  AUTHORS   Oeschger MP, Bessman MJ.
+  TITLE     Purification and properties of guanylate kinase from Escherichia coli.
+  JOURNAL   J Biol Chem 241:5452-60 (1966)
+REFERENCE   5  [PMID:5552394]
+  AUTHORS   Shimono H, Sugino Y.
+  TITLE     Metabolism of deoxyribonucleotides. Purification and properties of deoxyguanosine monophosphokinase of calf thymus.
+  JOURNAL   Eur J Biochem 19:256-63 (1971)
+            DOI:10.1111/j.1432-1033.1971.tb01312.x
+PATHWAY     ec00230  Purine metabolism
+            ec01100  Metabolic pathways
+ORTHOLOGY   K00942  guanylate kinase

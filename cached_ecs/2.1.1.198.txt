@@ -1,0 +1,22 @@
+ENTRY       EC 2.1.1.198                Enzyme
+NAME        16S rRNA (cytidine1402-2'-O)-methyltransferase;
+            RsmI;
+            YraL
+CLASS       Transferases;
+            Transferring one-carbon groups;
+            Methyltransferases
+SYSNAME     S-adenosyl-L-methionine:16S rRNA (cytidine1402-2'-O)-methyltransferase
+REACTION    S-adenosyl-L-methionine + cytidine1402 in 16S rRNA = S-adenosyl-L-homocysteine + 2'-O-methylcytidine1402 in 16S rRNA
+SUBSTRATE   S-adenosyl-L-methionine [CPD:C00019];
+            cytidine1402 in 16S rRNA
+PRODUCT     S-adenosyl-L-homocysteine [CPD:C00021];
+            2'-O-methylcytidine1402 in 16S rRNA
+COMMENT     RsmI catalyses the 2'-O-methylation of cytidine1402 and RsmH (EC 2.1.1.199) catalyses the N4-methylation of cytidine1402 in 16S rRNA. Both methylations are necessary for efficient translation initiation at the UUG and GUG codons.
+HISTORY     EC 2.1.1.198 created 2010
+REFERENCE   1  [PMID:19965768]
+  AUTHORS   Kimura S, Suzuki T
+  TITLE     Fine-tuning of the ribosomal decoding center by conserved methyl-modifications in the Escherichia coli 16S rRNA.
+  JOURNAL   Nucleic Acids Res 38:1341-52 (2010)
+            DOI:10.1093/nar/gkp1073
+  SEQUENCE  [eco:b3146]
+ORTHOLOGY   K07056  16S rRNA (cytidine1402-2'-O)-methyltransferase

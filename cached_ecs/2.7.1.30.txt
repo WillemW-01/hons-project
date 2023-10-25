@@ -1,0 +1,35 @@
+ENTRY       EC 2.7.1.30                 Enzyme
+NAME        glycerol kinase;
+            glycerokinase;
+            GK;
+            ATP:glycerol-3-phosphotransferase;
+            glycerol kinase (phosphorylating);
+            glyceric kinase
+CLASS       Transferases;
+            Transferring phosphorus-containing groups;
+            Phosphotransferases with an alcohol group as acceptor
+SYSNAME     ATP:glycerol 3-phosphotransferase
+REACTION    ATP + glycerol = ADP + sn-glycerol 3-phosphate [RN:R00847]
+ALL_REAC    R00847
+SUBSTRATE   ATP [CPD:C00002];
+            glycerol [CPD:C00116]
+PRODUCT     ADP [CPD:C00008];
+            sn-glycerol 3-phosphate [CPD:C00093]
+COMMENT     Glycerone and L-glyceraldehyde can act as acceptors; UTP (and, in the case of the yeast enzyme, ITP and GTP) can act as donors.
+HISTORY     EC 2.7.1.30 created 1961
+REFERENCE   1
+  AUTHORS   Bergmeyer, H.-U., Holz, G., Kauder, E.M., Mollering, H. and Wieland, O.
+  TITLE     Kristallisierte Glycerokinase aus Candida mycoderma.
+  JOURNAL   Biochem Z 333:471-480 (1961)
+REFERENCE   2  [PMID:13221600]
+  AUTHORS   BUBLITZ C, KENNEDY EP.
+  TITLE     Synthesis of phosphatides in isolated mitochondria. III. The enzymatic phosphorylation of glycerol.
+  JOURNAL   J Biol Chem 211:951-61 (1954)
+REFERENCE   3  [PMID:13522709]
+  AUTHORS   WIELAND O, SUYTER M.
+  TITLE     [Glycerokinase; isolation and properties of the enzyme.]
+  JOURNAL   Biochem Z 329:320-31 (1957)
+PATHWAY     ec00561  Glycerolipid metabolism
+            ec01100  Metabolic pathways
+ORTHOLOGY   K00864  glycerol kinase
+            K19583  putative glycerol kinase 5

@@ -1,0 +1,64 @@
+ENTRY       EC 2.7.8.5                  Enzyme
+NAME        CDP-diacylglycerol---glycerol-3-phosphate 1-phosphatidyltransferase;
+            glycerophosphate phosphatidyltransferase;
+            3-phosphatidyl-1'-glycerol-3'-phosphate synthase;
+            CDPdiacylglycerol:glycerol-3-phosphate phosphatidyltransferase;
+            cytidine 5'-diphospho-1,2-diacyl-sn-glycerol (CDP-diglyceride):sn-glycerol-3-phosphate phosphatidyltransferase;
+            phosphatidylglycerophosphate synthase;
+            phosphatidylglycerolphosphate synthase;
+            PGP synthase;
+            CDP-diacylglycerol-sn-glycerol-3-phosphate 3-phosphatidyltransferase;
+            CDP-diacylglycerol:sn-glycero-3-phosphate phosphatidyltransferase;
+            glycerol phosphate phosphatidyltransferase;
+            glycerol 3-phosphate phosphatidyltransferase;
+            phosphatidylglycerol phosphate synthase;
+            phosphatidylglycerol phosphate synthetase;
+            phosphatidylglycerophosphate synthetase;
+            sn-glycerol-3-phosphate phosphatidyltransferase
+CLASS       Transferases;
+            Transferring phosphorus-containing groups;
+            Transferases for other substituted phosphate groups
+SYSNAME     CDP-diacylglycerol:sn-glycerol-3-phosphate 1-(3-sn-phosphatidyl)transferase
+REACTION    CDP-diacylglycerol + sn-glycerol 3-phosphate = CMP + 1-(3-sn-phosphatidyl)-sn-glycerol 3-phosphate [RN:R01801]
+ALL_REAC    R01801
+SUBSTRATE   CDP-diacylglycerol [CPD:C00269];
+            sn-glycerol 3-phosphate [CPD:C00093]
+PRODUCT     CMP [CPD:C00055];
+            1-(3-sn-phosphatidyl)-sn-glycerol 3-phosphate [CPD:C03892]
+COMMENT     The enzyme catalyses the committed step in the biosynthesis of acidic phospholipids known by the common names phophatidylglycerols and cardiolipins.
+HISTORY     EC 2.7.8.5 created 1972, modified 1976, modified 2016
+REFERENCE   1  [PMID:793612]
+  AUTHORS   Hirabayashi T, Larson TJ, Dowhan W.
+  TITLE     Membrane-associated phosphatidylglycerophosphate synthetase from Escherichia coli: purification by substrate affinity chromatography on cytidine 5'-diphospho-1,2-diacyl-sn-glycerol sepharose.
+  JOURNAL   Biochemistry 15:5205-11 (1976)
+            DOI:10.1021/bi00669a002
+REFERENCE   2  [PMID:7074121]
+  AUTHORS   Bleasdale JE, Johnston JM.
+  TITLE     CMP-dependent incorporation of [14C]Glycerol 3-phosphate into phosphatidylglycerol and phosphatidylglycerol phosphate by rabbit lung microsomes.
+  JOURNAL   Biochim Biophys Acta 710:377-90 (1982)
+            DOI:10.1016/0005-2760(82)90121-7
+REFERENCE   3  [PMID:1323047]
+  AUTHORS   Dowhan W
+  TITLE     Phosphatidylglycerophosphate synthase from Escherichia coli.
+  JOURNAL   Methods Enzymol 209:313-21 (1992)
+            DOI:10.1016/0076-6879(92)09039-6
+REFERENCE   4  [PMID:9880566]
+  AUTHORS   Kawasaki K, Kuge O, Chang SC, Heacock PN, Rho M, Suzuki K, Nishijima M, Dowhan W
+  TITLE     Isolation of a chinese hamster ovary (CHO) cDNA encoding phosphatidylglycerophosphate (PGP) synthase, expression of which corrects the mitochondrial abnormalities of a PGP synthase-defective mutant of CHO-K1 cells.
+  JOURNAL   J Biol Chem 274:1828-34 (1999)
+            DOI:10.1074/jbc.274.3.1828
+  SEQUENCE  [cge:100689449]
+REFERENCE   5  [PMID:11741606]
+  AUTHORS   Muller F, Frentzen M
+  TITLE     Phosphatidylglycerophosphate synthases from Arabidopsis thaliana.
+  JOURNAL   FEBS Lett 509:298-302 (2001)
+            DOI:10.1016/S0014-5793(01)03163-5
+  SEQUENCE  [ath:AT2G39290 AT3G55030]
+REFERENCE   6  [PMID:12609031]
+  AUTHORS   Babiychuk E, Muller F, Eubel H, Braun HP, Frentzen M, Kushnir S
+  TITLE     Arabidopsis phosphatidylglycerophosphate synthase 1 is essential for chloroplast  differentiation, but is dispensable for mitochondrial function.
+  JOURNAL   Plant J 33:899-909 (2003)
+            DOI:10.1046/j.1365-313X.2003.01680.x
+PATHWAY     ec00564  Glycerophospholipid metabolism
+            ec01100  Metabolic pathways
+ORTHOLOGY   K00995  CDP-diacylglycerol---glycerol-3-phosphate 3-phosphatidyltransferase

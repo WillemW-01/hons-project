@@ -1,0 +1,37 @@
+ENTRY       EC 3.4.21.53                Enzyme
+NAME        endopeptidase La;
+            ATP-dependent serine proteinase;
+            lon proteinase;
+            protease La;
+            proteinase La;
+            ATP-dependent lon proteinase;
+            ATP-dependent protease La;
+            Escherichia coli proteinase La;
+            Escherichia coli serine proteinase La;
+            gene lon protease;
+            gene lon proteins;
+            PIM1 protease;
+            PIM1 proteinase;
+            serine protease La
+CLASS       Hydrolases;
+            Acting on peptide bonds (peptidases);
+            Serine endopeptidases
+REACTION    Hydrolysis of proteins in presence of ATP
+COMMENT     Product of the lon gene in Escherichia coli. ATP hydrolysis is linked with peptide bond hydrolysis; vanadate inhibits both reactions. Type example of peptidase family S16. A similar enzyme occurs in animal mitochondria
+HISTORY     EC 3.4.21.53 created 1986
+REFERENCE   1  [PMID:6749845]
+  AUTHORS   Desautels M, Goldberg AL.
+  TITLE     Demonstration of an ATP-dependent, vanadate-sensitive endoprotease in the matrix of rat liver mitochondria.
+  JOURNAL   J Biol Chem 257:11673-9 (1982)
+REFERENCE   2  [PMID:7040380]
+  AUTHORS   Larimore FS, Waxman L, Goldberg AL.
+  TITLE     Studies of the ATP-dependent proteolytic enzyme, protease La, from Escherichia coli.
+  JOURNAL   J Biol Chem 257:4187-95 (1982)
+REFERENCE   3  [PMID:3042779]
+  AUTHORS   Chin DT, Goff SA, Webster T, Smith T, Goldberg AL.
+  TITLE     Sequence of the lon gene in Escherichia coli. A heat-shock gene which encodes the ATP-dependent protease La.
+  JOURNAL   J Biol Chem 263:11718-28 (1988)
+  SEQUENCE  [eco:b0439]
+ORTHOLOGY   K01338  ATP-dependent Lon protease
+            K04076  ATP-dependent Lon protease
+            K08675  ATP-dependent Lon protease

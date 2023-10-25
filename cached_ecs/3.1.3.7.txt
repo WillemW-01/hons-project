@@ -1,0 +1,43 @@
+ENTRY       EC 3.1.3.7                  Enzyme
+NAME        3'(2'),5'-bisphosphate nucleotidase;
+            phosphoadenylate 3'-nucleotidase;
+            3'-phosphoadenylylsulfate 3'-phosphatase;
+            3'(2'),5'-bisphosphonucleoside 3'(2')-phosphohydrolase
+CLASS       Hydrolases;
+            Acting on ester bonds;
+            Phosphoric-monoester hydrolases
+SYSNAME     adenosine-3'(2'),5'-bisphosphate 3'(2')-phosphohydrolase
+REACTION    adenosine 3',5'-bisphosphate + H2O = AMP + phosphate [RN:R00188]
+ALL_REAC    R00188;
+            (other) R00508
+SUBSTRATE   adenosine 3',5'-bisphosphate [CPD:C00054];
+            H2O [CPD:C00001]
+PRODUCT     AMP [CPD:C00020];
+            phosphate [CPD:C00009]
+COMMENT     Also acts on 3'-phosphoadenylyl sulfate, and on the corresponding 2'-phosphates.
+HISTORY     EC 3.1.3.7 created 1961
+REFERENCE   1  [PMID:13563523]
+  AUTHORS   BRUNNGRABER EG
+  TITLE     Nucleotides involved in the enzymatic conjugation of phenols with sulfate.
+  JOURNAL   J Biol Chem 233:472-7 (1958)
+REFERENCE   2  [PMID:4313079]
+  AUTHORS   Farooqui AA, Balasubramanian AS.
+  TITLE     Enzymatic dephosphorylation 3'-phosphoadenosine 5'-phoaphosulfate to adenosine 5'-phosphosulfate in sheep brain.
+  JOURNAL   Biochim Biophys Acta 198:56-65 (1970)
+            DOI:10.1016/0005-2744(70)90032-X
+REFERENCE   3  [PMID:3038862]
+  AUTHORS   Ramaswamy SG, Jakoby WB.
+  TITLE     (2')3',5'-Bisphosphate nucleotidase.
+  JOURNAL   J Biol Chem 262:10044-7 (1987)
+REFERENCE   4  [PMID:179817]
+  AUTHORS   Lik-Shing Tsang M, Schiff JA.
+  TITLE     Properties of enzyme fraction A from Chlorella and copurification of 3' (2'), 5'-biphosphonucleoside 3' (2')-phosphohydrolase, adenosine 5'phosphosulfate sulfohydrolase and adenosine-5'-phosphosulfate cyclase activities.
+  JOURNAL   Eur J Biochem 65:113-21 (1976)
+            DOI:10.1111/j.1432-1033.1976.tb10395.x
+PATHWAY     ec00920  Sulfur metabolism
+            ec01100  Metabolic pathways
+            ec01120  Microbial metabolism in diverse environments
+ORTHOLOGY   K01082  3'(2'), 5'-bisphosphate nucleotidase
+            K06881  bifunctional oligoribonuclease and PAP phosphatase NrnA
+            K15422  3'(2'), 5'-bisphosphate nucleotidase / inositol polyphosphate 1-phosphatase
+            K15759  Golgi-resident PAP phosphatase
