@@ -3,6 +3,7 @@ import os
 import re
 import sys
 import time
+import json
 
 # non-stdlib dependencies
 import aiohttp
@@ -20,25 +21,37 @@ EDGE_HEADER_1 = (
     "edgedef>source INTEGER,target INTEGER,directed BOOLEAN,weight DOUBLE"
 )
 EDGE_HEADER_2 = "edgedef>source INTEGER,target INTEGER,label VARCHAR,directed BOOLEAN,weight DOUBLE"
-NODE_HEADER = "nodedef>name INTEGER,label VARCHAR,class VARCHAR,color VARCHAR"
+NODE_HEADER = "nodedef>name INTEGER,label VARCHAR,class VARCHAR,module VARCHAR"
 THREAD_INPUT_STR = "Enzyme list size is %d. Enter size of batches: "
 USAGE_STR = "ERR: not enough arguments.\nUsage: python main.py <input_file> <job_name> [reaction_file]"
+
+# fmt: off
+CACHED_REACTIONS = json.load(open("modules/cached_reactions.json"))
+CACHED_REACTION_IDS = json.load(open("modules/cached_reaction_ids.json"))
+CACHED_PATHWAYS = json.load(open("modules/map_conversion.json"))
+CACHED_ECS = [
+  "1.5.1.3", "2.1.1.198", "2.3.1.234", "2.4.2.1", "2.4.2.9", "2.5.1.6", "2.5.1.145", "2.7.1.11",
+  "2.7.1.23", "2.7.1.30", "2.7.1.40", "2.7.1.194", "2.7.4.8", "2.7.6.1", "2.7.7.2", "2.7.7.6",
+  "2.7.7.7", "2.7.7.18", "2.7.8.5", "2.7.8.7", "2.7.11.1", "3.1.1.29", "3.1.3.7", "3.1.21.10",
+  "3.2.2.23", "3.4.11.18", "3.4.21.53", "3.4.23.36", "3.5.1.88", "3.6.4.13", "4.1.2.13", "4.2.1.11",
+  "5.1.3.2", "5.3.1.9", "5.4.2.2", "5.6.2.1", "5.6.2.2", "6.1.1.2", "6.1.1.6", "6.1.1.7",
+  "6.1.1.10", "6.1.1.11", "6.1.1.12", "6.1.1.14", "6.1.1.20", "6.1.1.21", "6.3.4.2", "6.3.4.21",
+  "7.1.1.2"
+]
+OVERVIEW_MAPS = [
+  "ec01100", "ec01110", "ec01120", "ec01200", "ec01210", "ec01212",
+  "ec01230", "ec01232", "ec01250", "ec01240", "ec01220",
+]
+# fmt: on
 
 # global variables
 global batch_sent
 global reaction_list
+enzyme_modules = {}
 reaction_list = []
 batch_returned = 0
 batch_sent = MAX_THREADS
 log_file = open(f"{LOG_FOLDER}/log.log")
-
-# fmt: off
-cached_ecs = [
-  "2.7.7.6", "2.7.7.7", "3.4.11.18", "6.1.1.21", "2.7.6.1", "2.7.11.1", 
-  "3.2.2.23", "3.4.11.18", "3.6.4.13", "4.1.2.13", "4.2.1.11", "6.1.1.6",
-  "6.1.1.7", "6.1.1.14", "6.1.1.21", "6.3.4.2"
-]
-# fmt: on
 
 
 # fetches the EC numbers from a file in which they are described
@@ -88,9 +101,9 @@ async def get_kegg_result(session: aiohttp.ClientSession, url: str) -> tuple:
     global batch_returned
 
     start = url.find("ec:") + 3  # isolates the EC number from the url
-    if url[start:] in cached_ecs:
+    if url[start:] in CACHED_ECS:
         log(f"Reading file: {url}")
-        cached_file = open(f"cached_ecs/{url[start:]}")
+        cached_file = open(f"cached_ecs/{url[start:]}.txt")
         text = cached_file.read()
         batch_returned += 1
         print_progress(batch_returned, batch_sent)
@@ -180,6 +193,224 @@ async def gather_kegg_results(urls: list[str]) -> tuple[list[tuple], list[str]]:
     return results, redo_urls
 
 
+def get_reaction_ids(text: str, ec_num: str) -> tuple[str, list[str]]:
+    """
+    Extracts the reaction identifier(s) from a given KEGG EC entry.
+
+    This will essentially retrieve all the reactions that are catalysed by the
+    enzyme specified by ec_num.
+
+    Some characters that were added to reaction identifiers in order to clean
+    the list are removed.
+
+    :param text: the response text for the given KEGG EC entry.
+    :param ec_num: the EC number of the response given.
+    :return: a tuple containing the input EC number, as well as all the reaction
+    identifiers.
+    """
+
+    log(f"> Getting reaction id for {ec_num}", 1)
+
+    if ec_num in CACHED_REACTION_IDS.keys():
+        return ec_num, CACHED_REACTION_IDS[ec_num]
+
+    if "Deleted entry" in text:
+        log("Look at this enzyme manually, deleted enzyme", 2)
+        return "", []
+
+    start = text.find("ALL_REAC    ")
+    if start == -1:
+        log("Look at this enzyme manually, no reaction", 2)
+        return "", []
+    else:
+        start += 12
+
+    end = text.find("SUBSTRATE", start)
+    if end == -1:
+        log("Look at this enzyme manually, no reaction end", 2)
+        return "", []
+
+    text = text[start:end]
+    text = text.replace("(other)", "")
+    text = text.replace("(G)", "")
+    text = text.replace("> ", "")
+    text = text.replace(";", "")
+    text = text.replace("\\n", "")
+    text = text.replace("             ", " ")
+    text = text.strip()
+    reactions = text.split(" ")
+    reactions = list(filter(lambda x: x != "", reactions))
+    reactions = [rxn.strip() for rxn in reactions]
+
+    return ec_num, reactions
+
+
+def get_pathway_ids(text: str, ec_num: str):
+    log(f"> Getting pathway ids for {ec_num}", 1)
+    should_add = False
+    pathways = []
+    split_string = "\\n" if "\\n" in text else "\n"
+    for line in text.split(split_string):
+        if line.startswith("PATHWAY"):
+            should_add = True
+        if line.startswith("ORTHOLOGY") or line.startswith("GENES"):
+            should_add = False
+
+        if should_add:
+            matches = re.findall(r"ec\d{5}", line)
+            if matches is not None and matches[0] not in OVERVIEW_MAPS:
+                log(f"Adding pathway {matches[0]}", 2)
+                pathways.append(matches[0])
+
+    return pathways
+
+
+def get_module_ids(pathways: list[str]):
+    log(f"> Getting module ids", 1)
+    module_ids = []
+    for pathway in pathways:
+        log(f"> Finding modules for {pathway}", 2)
+
+        if pathway in CACHED_PATHWAYS:
+            log(f"Modules were cached. Found: {CACHED_PATHWAYS[pathway]}", 3)
+            module_ids += CACHED_PATHWAYS[pathway]
+            continue
+
+        response = requests.get(f"https://rest.kegg.jp/get/{pathway}")
+        if response.ok:
+            text = response.text
+            should_add = False
+            for line in text.split("\n"):
+                if line.startswith("MODULE"):
+                    should_add = True
+                if (
+                    line.startswith("DBLINKS")
+                    or line.startswith("ENZYME")
+                    or line.startswith("REL_PATHWAY")
+                    or line.startswith("COMPOUND")
+                ):
+                    should_add = False
+
+                if should_add:
+                    matches = re.findall(r"M\d{5}", line)
+                    if matches is not None:
+                        log(f"Adding module id {matches[0]}", 3)
+                        module_ids.append(matches[0])
+    return module_ids
+
+
+def extract_reaction(reactionID: str) -> tuple[list[str], list[str]]:
+    """
+    Extracts substrates and products from a KEGG reaction entry.
+
+    This function will send a request to the KEGG REACTION database for the given
+    reaction identifier. It first checks if the reaction should be analysed, by
+    first checking that the reactionID is contained in the optional reaction list
+    specified in program input.
+
+    If it should be analysed, it will separate the reaction definition by the
+    reversibility sign, and split the substrates and products by the plus sign.
+    It will remove the inorganic metabolites water, proton, and carbon dioxide,
+    as these should not be involved in the metabolic representation.
+
+    It then returns the substrates and products.
+
+    :param reactionID: the reaction identifier to be analysed.
+    :return a tuple of the substrates and products, which are in themselves lists of strings.
+
+    """
+    log(f"> Extracting {reactionID}", 1)
+
+    if (reaction_list != [] and reactionID in reaction_list) or (
+        reaction_list == []
+    ):
+        if reactionID in CACHED_REACTIONS.keys():
+            substrates, products = (
+                CACHED_REACTIONS[reactionID]["Substrates"],
+                CACHED_REACTIONS[reactionID]["Products"],
+            )
+            log(f"Substrates: {substrates}", 2)
+            log(f"Products: {products}", 2)
+            return substrates, products
+        try:
+            response = requests.get(f"https://rest.kegg.jp/get/{reactionID}")
+            if not response.ok:
+                log(
+                    f"Response for {reactionID} was not good: {response.status_code}",
+                    2,
+                )
+
+            text = response.text
+
+            start = text.find("DEFINITION  ") + 12
+            end = text.find("\n", start)
+            text = text[start:end]
+
+            reaction = text.split(" <=> ")
+            substrates = reaction[0].split(" + ")
+            products = reaction[1].split(" + ")
+
+            # these should not be in metabolic graph, removes them
+            # for every x in substrates and products, only retains it if it is
+            # not water, a proton or carbon dioxide.
+            filter_list = ["H2O", "H+", "CO2", "H20"]
+            substrates = list(
+                filter(lambda x: x not in filter_list, substrates)
+            )
+            products = list(filter(lambda x: x not in filter_list, products))
+
+            log(f"Substrates: {substrates}", 2)
+            log(f"Products: {products}", 2)
+
+            return substrates, products
+        except Exception as e:
+            log(f"Something went wrong: error: {e}")
+            return [], []
+    else:
+        log(f"Reaction is not in the list", 2)
+        return [], []
+
+
+def assign_modules(enzyme, modules):
+    global enzyme_modules
+
+    log(f"> Assigning modules to {enzyme}", 1)
+
+    # reaction_file = open("modules/aureus_reactions.json")
+    # reactions_dict = json.load(reaction_file)
+    # module_id = ""
+    # for key in reactions_dict.keys():
+    #     if rxn_id in reactions_dict[key]:
+    #         module_id = key
+    #         break
+
+    if enzyme not in enzyme_modules.keys():
+        log(f"Enzyme not in the list yet, creating a new set.", 2)
+        enzyme_modules[enzyme] = {}
+
+    if len(modules) == 0:
+        return
+
+    modules_file = open("modules/all_modules.json")
+    modules_dict = json.load(modules_file)
+
+    # for each of the found module ids, find the corresponding module
+    # e.g. M00019 -> Amino acid metabolism
+    for module in modules:
+        # for each of the possible modules (e.g. Carbohydrate metabolism, etc)
+        for key in modules_dict.keys():
+            if module in modules_dict[key]:
+                if key not in enzyme_modules[enzyme].keys():
+                    enzyme_modules[enzyme][key] = 1
+                else:
+                    enzyme_modules[enzyme][key] += 1
+
+    if len(enzyme_modules[enzyme]) != 0:
+        log(f"Modules assigned to {enzyme}: {enzyme_modules[enzyme]}", 2)
+    else:
+        log(f"No modules assigned to {enzyme}")
+
+
 async def process_all_urls(urls: list[str], enzyme_list: Set) -> list[tuple]:
     """
     Retrieves all reactions catalysed by the list of EC numbers in the urls.
@@ -230,6 +461,11 @@ async def process_all_urls(urls: list[str], enzyme_list: Set) -> list[tuple]:
             log(f"ERR: look into this url: {url} (status {status})")
             reactions = []
         else:
+            log(f"> Working with {enzyme}")
+            pathways = get_pathway_ids(text, enzyme)
+            modules = get_module_ids(pathways)
+            assign_modules(enzyme, modules)
+
             reactions = get_reaction_ids(text, enzyme)[1]
 
         if len(reactions) != 0:  # if the list of reactions contained something
@@ -237,6 +473,7 @@ async def process_all_urls(urls: list[str], enzyme_list: Set) -> list[tuple]:
             for rxn in reactions:
                 if rxn != "":
                     substrates, products = extract_reaction(rxn)
+
                     total_reactions.append((substrates, products, enzyme))
 
         print_progress(i + 1, len(results))
@@ -247,116 +484,6 @@ async def process_all_urls(urls: list[str], enzyme_list: Set) -> list[tuple]:
     log("")
 
     return total_reactions
-
-
-def get_reaction_ids(text: str, ec_num: str) -> tuple[str, list[str]]:
-    """
-    Extracts the reaction identifier(s) from a given KEGG EC entry.
-
-    This will essentially retrieve all the reactions that are catalysed by the
-    enzyme specified by ec_num.
-
-    Some characters that were added to reaction identifiers in order to clean
-    the list are removed.
-
-    :param text: the response text for the given KEGG EC entry.
-    :param ec_num: the EC number of the response given.
-    :return: a tuple containing the input EC number, as well as all the reaction
-    identifiers.
-    """
-
-    log(f"> Getting reaction id for {ec_num}")
-
-    if "Deleted entry" in text:
-        log("Look at this enzyme manually, deleted enzyme", 1)
-        return "", []
-
-    start = text.find("ALL_REAC    ")
-    if start == -1:
-        log("Look at this enzyme manually, no reaction", 1)
-        return "", []
-    else:
-        start += 12
-
-    end = text.find("SUBSTRATE", start)
-    if end == -1:
-        log("Look at this enzyme manually, no reaction end", 1)
-        return "", []
-
-    text = text[start:end]
-    text = text.replace("(other)", "")
-    text = text.replace("(G)", "")
-    text = text.replace("> ", "")
-    text = text.replace(";", "")
-    text = text.replace("\\n", "")
-    text = text.replace("             ", " ")
-    text = text.strip()
-    reactions = text.split(" ")
-    reactions = list(filter(lambda x: x != "", reactions))
-    reactions = [rxn.strip() for rxn in reactions]
-
-    return ec_num, reactions
-
-
-def extract_reaction(reactionID: str) -> tuple[list[str], list[str]]:
-    """
-    Extracts substrates and products from a KEGG reaction entry.
-
-    This function will send a request to the KEGG REACTION database for the given
-    reaction identifier. It first checks if the reaction should be analysed, by
-    first checking that the reactionID is contained in the optional reaction list
-    specified in program input.
-
-    If it should be analysed, it will separate the reaction definition by the
-    reversibility sign, and split the substrates and products by the plus sign.
-    It will remove the inorganic metabolites water, proton, and carbon dioxide,
-    as these should not be involved in the metabolic representation.
-
-    It then returns the substrates and products.
-
-    :param reactionID: the reaction identifier to be analysed.
-    :return a tuple of the substrates and products, which are in themselves lists of strings.
-
-    """
-    log(f"> Extracting {reactionID}", 1)
-
-    if (reaction_list != [] and reactionID in reaction_list) or (
-        reaction_list == []
-    ):
-        try:
-            response = requests.get(f"https://rest.kegg.jp/get/{reactionID}")
-            if not response.ok:
-                log(
-                    f"Response for {reactionID} was not good: {response.status_code}",
-                    2,
-                )
-
-            text = response.text
-
-            start = text.find("DEFINITION  ") + 12
-            end = text.find("\n", start)
-            text = text[start:end]
-
-            reaction = text.split(" <=> ")
-            substrates = reaction[0].split(" + ")
-            products = reaction[1].split(" + ")
-
-            # these should not be in metabolic graph, removes them
-            # for every x in substrates and products, only retains it if it is
-            # not water, a proton or carbon dioxide.
-            list(filter(lambda x: x not in ["H2O", "H+", "CO2"], substrates))
-            list(filter(lambda x: x not in ["H2O", "H+", "CO2"], products))
-
-            log(f"Substrates: {substrates}", 2)
-            log(f"Products: {products}", 2)
-
-            return substrates, products
-        except Exception as e:
-            log(f"Something went wrong: error: {e}")
-            return [], []
-    else:
-        log(f"Reaction is not in the list", 2)
-        return [], []
 
 
 def fmt_met(metabolite: str):
@@ -459,6 +586,49 @@ def update_ec_annotation(enzyme_list: Set):
             enzyme_list[i] = updated[enzyme_list[i]]
 
 
+def get_one_module(ec):
+    module_list = enzyme_modules[ec]
+    # priority_list = [
+    #     "Carbohydrate metabolism",
+    #     "Energy metabolism",
+    #     "Lipid metabolism",
+    #     "Nucleotide metabolism",
+    #     "Amino acid metabolism",
+    #     "Glycan metabolism",
+    #     "Metabolism of cofactors and vitamins",
+    #     "Biosynthesis of terpenoids and polyketides",
+    #     "Biosynthesis of other secondary metabolites",
+    #     "Xenobiotics biodegradation",
+    # ]
+    if len(module_list) == 0:
+        return None
+    if len(module_list) == 1:
+        return list(module_list.keys())[0]
+    elif max(module_list.values()) == 1:
+        priority_list = [
+            "Carbohydrate metabolism",
+            "Energy metabolism",
+            "Lipid metabolism",
+            "Nucleotide metabolism",
+            "Amino acid metabolism",
+            "Metabolism of cofactors and vitamins",
+            "Biosynthesis of terpenoids and polyketides",
+            "Biosynthesis of other secondary metabolites",
+            "Pathogenicity",
+        ]
+
+        for module in priority_list:
+            if module in module_list.keys():
+                return module
+    else:
+        max_count = max(module_list.values())
+        for key in module_list.keys():
+            if module_list[key] == max_count:
+                return key
+
+    return None
+
+
 def write_reaction(
     nodes_file,
     edges_file,
@@ -502,7 +672,11 @@ def write_reaction(
         log(f"Couldn't find enzyme {ec}... weird")
     elif not has_written[ec_id]:
         log(f"Writing enzyme {ec_id}")
-        nodes_file.write(f"{ec_id},{ec},enzyme\n")
+        module = get_one_module(ec)
+        if module is None:
+            nodes_file.write(f"{ec_id},{ec},enzyme\n")
+        else:
+            nodes_file.write(f"{ec_id},{ec},enzyme,{module}\n")
         has_written[ec_id] = True
 
     remove_coefficients(substrates, products)
@@ -527,6 +701,9 @@ def write_reaction(
         # write in edges_file
         edges_file.write(f"{met_id},{ec_id},true,1.0\n")
 
+    metabolites.add_items(substrates)
+
+    i = 0
     for product in products:
         met_id = metabolites.index(product)
         if met_id is None:  # write in nodes file, haven't found yet
@@ -544,7 +721,6 @@ def write_reaction(
         # write in edges_file
         edges_file.write(f"{ec_id},{met_id},true,1.0\n")
 
-    metabolites.add_items(substrates)
     metabolites.add_items(products)
 
 
@@ -599,7 +775,7 @@ def main():
     The main function to execute the program based on the input parameters. Will
     produce the graph file based on the reactions specified by the input EC numbers.
     """
-    global MAX_THREADS
+    global MAX_THREADS, log_file, enzyme_modules, reaction_list
 
     start = time.time()  # start tracking the execution time
 
