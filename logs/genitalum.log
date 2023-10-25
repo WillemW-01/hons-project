@@ -1,0 +1,645 @@
+Before updating ecs: ['2.7.7.7', '5.6.2.2', '6.1.1.11', '2.7.4.9', '1.8.4.', '3.4.11.5', '6.1.1.10', '2.7.7.6', '4.1.2.13', '2.4.2.9', '2.7.1.21', '6.1.1.21', '6.1.1.', '6.3.4.21', '2.7.1.30', '2.3.1.234', '2.5.1.6', '2.4.2.1', '4.1.2.4', '3.5.4.5', '5.4.2.', '3.1.26.8', '2.7.6.1', '3.1.1.29', '6.3.4.19', '2.5.1.145', '3.2.2.27', '1.8.1.9', '3.5.1.88', '2.7.4.8', '2.7.11.1', '5.3.1.9', '6.1.1.22', '5.1.3.2', '5.6.2.1', '6.1.1.2', '2.7.1.23', '6.1.1.6', '5.4.99.9', '2.7.1.26', '2.7.7.2', '3.4.11.18', '5.4.99.12', '3.1.3.7', '6.1.1.20', '2.7.8.7', '2.7.1.11', '2.7.1.40', '2.1.1.199', '1.5.1.3', '1.17.4.1', '3.1.21.2', '3.4.21.53', '2.7.7.18', '2.3.1.15', '6.1.1.14', '6.1.1.16', '6.5.1.2', '3.2.2.23', '3.1.3.', '6.1.1.4', '6.3.1.20', '2.3.1.12', '1.6.3.4', '1.2.4.', '2.4.2.7', '6.1.1.15', '3.1.21.10', '6.1.1.7', '2.8.1.13', '2.3.1.8', '3.6.4.', '3.4.11.9', '3.6.5.', '2.7.4.25', '6.1.1.9', '6.1.1.5', '2.1.1.33', '2.7.2.1', '2.7.2.3', '2.1.2.9', '2.3.1.274', '2.8.1.4', '6.1.1.3', '6.1.1.19', '2.7.1.48', '6.3.1.5', '3.4.11.1', '2.1.2.1', '5.3.1.6', '7.1.2.2', '4.2.1.11', '2.7.3.9', '5.4.2.12', '5.3.1.1', '2.7.4.22', '2.1.1.228', '1.8.4.12', '2.7.7.9', '6.1.1.1', '2.4.2.8', '6.1.1.17', '3.1.26.5', '1.2.4.2', '1.2.4.1', '1.8.1.4', '2.3.1.51', '3.1.4.14', '2.7.1.32', '2.7.1.82']
+After updating ecs: ['2.7.7.7', '5.6.2.2', '6.1.1.11', '2.7.4.9', '1.8.4.', '3.4.11.5', '6.1.1.10', '2.7.7.6', '4.1.2.13', '2.4.2.9', '2.7.1.21', '6.1.1.21', '6.1.1.12', '6.3.4.21', '2.7.1.30', '2.3.1.234', '2.5.1.6', '2.4.2.1', '4.1.2.4', '3.5.4.5', '5.4.2.2', '3.1.26.8', '2.7.6.1', '3.1.1.29', '6.3.4.19', '2.5.1.145', '3.2.2.27', '1.8.1.9', '3.5.1.88', '2.7.4.8', '2.7.11.1', '5.3.1.9', '6.1.1.22', '5.1.3.2', '5.6.2.1', '6.1.1.2', '2.7.1.23', '6.1.1.6', '5.4.99.9', '2.7.1.26', '2.7.7.2', '3.4.11.18', '5.4.99.12', '3.1.3.7', '6.1.1.20', '2.7.8.7', '2.7.1.11', '2.7.1.40', '2.1.1.199', '1.5.1.3', '1.17.4.1', '3.1.21.2', '3.4.21.53', '2.7.7.18', '2.3.1.15', '6.1.1.14', '6.1.1.16', '6.5.1.2', '3.2.2.23', '3.1.3.16', '6.1.1.4', '6.3.1.20', '2.3.1.12', '1.6.3.4', '2.3.1.61', '2.4.2.7', '6.1.1.15', '3.1.21.10', '6.1.1.7', '2.8.1.13', '2.3.1.8', '3.6.4.13', '3.4.11.9', '3.1.3.100', '2.7.4.25', '6.1.1.9', '6.1.1.5', '2.1.1.33', '2.7.2.1', '2.7.2.3', '2.1.2.9', '2.3.1.274', '2.8.1.4', '6.1.1.3', '6.1.1.19', '2.7.1.48', '6.3.1.5', '3.4.11.1', '2.1.2.1', '5.3.1.6', '7.1.2.2', '4.2.1.11', '2.7.3.9', '5.4.2.12', '5.3.1.1', '2.7.4.22', '2.1.1.228', '1.8.4.12', '2.7.7.9', '6.1.1.1', '2.4.2.8', '6.1.1.17', '3.1.26.5', '1.2.4.2', '1.2.4.1', '1.8.1.4', '2.3.1.51', '3.1.4.14', '2.7.1.32', '2.7.1.82']
+Reading file: https://rest.kegg.jp/get/ec:2.7.7.7
+Request sent: https://rest.kegg.jp/get/ec:5.6.2.2
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.11
+Request sent: https://rest.kegg.jp/get/ec:2.7.4.9
+Request sent: https://rest.kegg.jp/get/ec:1.8.4.
+Request sent: https://rest.kegg.jp/get/ec:3.4.11.5
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.10
+Reading file: https://rest.kegg.jp/get/ec:2.7.7.6
+Reading file: https://rest.kegg.jp/get/ec:4.1.2.13
+Request sent: https://rest.kegg.jp/get/ec:2.4.2.9
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.21
+Reading file: https://rest.kegg.jp/get/ec:6.1.1.21
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.12
+Request sent: https://rest.kegg.jp/get/ec:6.3.4.21
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.30
+Request sent: https://rest.kegg.jp/get/ec:2.3.1.234
+Request sent: https://rest.kegg.jp/get/ec:2.5.1.6
+Request sent: https://rest.kegg.jp/get/ec:2.4.2.1
+Request sent: https://rest.kegg.jp/get/ec:4.1.2.4
+Request sent: https://rest.kegg.jp/get/ec:3.5.4.5
+Request sent: https://rest.kegg.jp/get/ec:5.4.2.2
+Request sent: https://rest.kegg.jp/get/ec:3.1.26.8
+Reading file: https://rest.kegg.jp/get/ec:2.7.6.1
+Request sent: https://rest.kegg.jp/get/ec:3.1.1.29
+Request sent: https://rest.kegg.jp/get/ec:6.3.4.19
+Request sent: https://rest.kegg.jp/get/ec:2.5.1.145
+Request sent: https://rest.kegg.jp/get/ec:3.2.2.27
+Request sent: https://rest.kegg.jp/get/ec:1.8.1.9
+Request sent: https://rest.kegg.jp/get/ec:3.5.1.88
+Request sent: https://rest.kegg.jp/get/ec:2.7.4.8
+Reading file: https://rest.kegg.jp/get/ec:2.7.11.1
+Request sent: https://rest.kegg.jp/get/ec:5.3.1.9
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.22
+Request sent: https://rest.kegg.jp/get/ec:5.1.3.2
+Request sent: https://rest.kegg.jp/get/ec:5.6.2.1
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.2
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.23
+Reading file: https://rest.kegg.jp/get/ec:6.1.1.6
+Request sent: https://rest.kegg.jp/get/ec:5.4.99.9
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.26
+Request sent: https://rest.kegg.jp/get/ec:2.7.7.2
+Reading file: https://rest.kegg.jp/get/ec:3.4.11.18
+Request sent: https://rest.kegg.jp/get/ec:5.4.99.12
+Request sent: https://rest.kegg.jp/get/ec:3.1.3.7
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.20
+Request sent: https://rest.kegg.jp/get/ec:2.7.8.7
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.11
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.40
+Request sent: https://rest.kegg.jp/get/ec:2.1.1.199
+Request sent: https://rest.kegg.jp/get/ec:1.5.1.3
+Request sent: https://rest.kegg.jp/get/ec:1.17.4.1
+Request sent: https://rest.kegg.jp/get/ec:3.1.21.2
+Request sent: https://rest.kegg.jp/get/ec:3.4.21.53
+Request sent: https://rest.kegg.jp/get/ec:2.7.7.18
+Request sent: https://rest.kegg.jp/get/ec:2.3.1.15
+Response: https://rest.kegg.jp/get/ec:1.8.4.
+Response: https://rest.kegg.jp/get/ec:3.1.26.8
+Response: https://rest.kegg.jp/get/ec:5.4.99.9
+Response: https://rest.kegg.jp/get/ec:3.1.21.2
+Response: https://rest.kegg.jp/get/ec:2.3.1.15
+Response: https://rest.kegg.jp/get/ec:2.7.1.21
+Response: https://rest.kegg.jp/get/ec:3.4.11.5
+Response: https://rest.kegg.jp/get/ec:2.7.7.2
+Response: https://rest.kegg.jp/get/ec:2.7.8.7
+Response: https://rest.kegg.jp/get/ec:6.3.4.21
+Response: https://rest.kegg.jp/get/ec:4.1.2.4
+Response: https://rest.kegg.jp/get/ec:1.5.1.3
+Response: https://rest.kegg.jp/get/ec:2.5.1.145
+Response: https://rest.kegg.jp/get/ec:6.1.1.22
+Response: https://rest.kegg.jp/get/ec:5.4.2.2
+Response: https://rest.kegg.jp/get/ec:2.3.1.234
+Response: https://rest.kegg.jp/get/ec:2.7.7.18
+Response: https://rest.kegg.jp/get/ec:3.4.21.53
+Response: https://rest.kegg.jp/get/ec:3.5.4.5
+Response: https://rest.kegg.jp/get/ec:6.3.4.19
+Response: https://rest.kegg.jp/get/ec:5.3.1.9
+Response: https://rest.kegg.jp/get/ec:2.7.1.23
+Response: https://rest.kegg.jp/get/ec:6.1.1.12
+Response: https://rest.kegg.jp/get/ec:2.7.4.8
+Response: https://rest.kegg.jp/get/ec:2.7.1.30
+Response: https://rest.kegg.jp/get/ec:6.1.1.10
+Response: https://rest.kegg.jp/get/ec:2.7.4.9
+Response: https://rest.kegg.jp/get/ec:2.7.1.40
+Response: https://rest.kegg.jp/get/ec:2.5.1.6
+Response: https://rest.kegg.jp/get/ec:2.4.2.9
+Response: https://rest.kegg.jp/get/ec:5.4.99.12
+Response: https://rest.kegg.jp/get/ec:3.5.1.88
+Response: https://rest.kegg.jp/get/ec:2.7.1.26
+Response: https://rest.kegg.jp/get/ec:6.1.1.2
+Response: https://rest.kegg.jp/get/ec:5.1.3.2
+Response: https://rest.kegg.jp/get/ec:1.8.1.9
+Response: https://rest.kegg.jp/get/ec:2.1.1.199
+Response: https://rest.kegg.jp/get/ec:2.7.1.11
+Response: https://rest.kegg.jp/get/ec:5.6.2.1
+Response: https://rest.kegg.jp/get/ec:2.4.2.1
+Response: https://rest.kegg.jp/get/ec:3.1.3.7
+Response: https://rest.kegg.jp/get/ec:3.1.1.29
+Response: https://rest.kegg.jp/get/ec:6.1.1.11
+Response: https://rest.kegg.jp/get/ec:3.2.2.27
+Response: https://rest.kegg.jp/get/ec:1.17.4.1
+Response: https://rest.kegg.jp/get/ec:6.1.1.20
+Response: https://rest.kegg.jp/get/ec:5.6.2.2
+Took 6.292 seconds for all requests
+https://rest.kegg.jp/get/ec:2.7.7.7   : 200
+https://rest.kegg.jp/get/ec:5.6.2.2   : 200
+https://rest.kegg.jp/get/ec:6.1.1.11  : 200
+https://rest.kegg.jp/get/ec:2.7.4.9   : 200
+https://rest.kegg.jp/get/ec:1.8.4.    : 404
+https://rest.kegg.jp/get/ec:3.4.11.5  : 200
+https://rest.kegg.jp/get/ec:6.1.1.10  : 200
+https://rest.kegg.jp/get/ec:2.7.7.6   : 200
+https://rest.kegg.jp/get/ec:4.1.2.13  : 200
+https://rest.kegg.jp/get/ec:2.4.2.9   : 200
+https://rest.kegg.jp/get/ec:2.7.1.21  : 200
+https://rest.kegg.jp/get/ec:6.1.1.21  : 200
+https://rest.kegg.jp/get/ec:6.1.1.12  : 200
+https://rest.kegg.jp/get/ec:6.3.4.21  : 200
+https://rest.kegg.jp/get/ec:2.7.1.30  : 200
+https://rest.kegg.jp/get/ec:2.3.1.234 : 200
+https://rest.kegg.jp/get/ec:2.5.1.6   : 200
+https://rest.kegg.jp/get/ec:2.4.2.1   : 200
+https://rest.kegg.jp/get/ec:4.1.2.4   : 200
+https://rest.kegg.jp/get/ec:3.5.4.5   : 200
+https://rest.kegg.jp/get/ec:5.4.2.2   : 200
+https://rest.kegg.jp/get/ec:3.1.26.8  : 200
+https://rest.kegg.jp/get/ec:2.7.6.1   : 200
+https://rest.kegg.jp/get/ec:3.1.1.29  : 200
+https://rest.kegg.jp/get/ec:6.3.4.19  : 200
+https://rest.kegg.jp/get/ec:2.5.1.145 : 200
+https://rest.kegg.jp/get/ec:3.2.2.27  : 200
+https://rest.kegg.jp/get/ec:1.8.1.9   : 200
+https://rest.kegg.jp/get/ec:3.5.1.88  : 200
+https://rest.kegg.jp/get/ec:2.7.4.8   : 200
+https://rest.kegg.jp/get/ec:2.7.11.1  : 200
+https://rest.kegg.jp/get/ec:5.3.1.9   : 200
+https://rest.kegg.jp/get/ec:6.1.1.22  : 200
+https://rest.kegg.jp/get/ec:5.1.3.2   : 200
+https://rest.kegg.jp/get/ec:5.6.2.1   : 200
+https://rest.kegg.jp/get/ec:6.1.1.2   : 200
+https://rest.kegg.jp/get/ec:2.7.1.23  : 200
+https://rest.kegg.jp/get/ec:6.1.1.6   : 200
+https://rest.kegg.jp/get/ec:5.4.99.9  : 200
+https://rest.kegg.jp/get/ec:2.7.1.26  : 200
+https://rest.kegg.jp/get/ec:2.7.7.2   : 200
+https://rest.kegg.jp/get/ec:3.4.11.18 : 200
+https://rest.kegg.jp/get/ec:5.4.99.12 : 200
+https://rest.kegg.jp/get/ec:3.1.3.7   : 200
+https://rest.kegg.jp/get/ec:6.1.1.20  : 200
+https://rest.kegg.jp/get/ec:2.7.8.7   : 200
+https://rest.kegg.jp/get/ec:2.7.1.11  : 200
+https://rest.kegg.jp/get/ec:2.7.1.40  : 200
+https://rest.kegg.jp/get/ec:2.1.1.199 : 200
+https://rest.kegg.jp/get/ec:1.5.1.3   : 200
+https://rest.kegg.jp/get/ec:1.17.4.1  : 200
+https://rest.kegg.jp/get/ec:3.1.21.2  : 200
+https://rest.kegg.jp/get/ec:3.4.21.53 : 200
+https://rest.kegg.jp/get/ec:2.7.7.18  : 200
+https://rest.kegg.jp/get/ec:2.3.1.15  : 200
+
+> Getting reaction id for 2.7.7.7
+  Reaction list: ['R00379', 'R00375', 'R00376', 'R00377', 'R00378', 'R11029']
+  > Extracting R00379
+    Substrates: ['Deoxynucleoside triphosphate', 'DNA(n)']
+    Products: ['Diphosphate', 'DNA(n+1)']
+  > Extracting R00375
+    Substrates: ['dATP', 'DNA']
+    Products: ['Diphosphate', 'DNA']
+  > Extracting R00376
+    Substrates: ['dGTP', 'DNA']
+    Products: ['Diphosphate', 'DNA']
+  > Extracting R00377
+    Substrates: ['dCTP', 'DNA']
+    Products: ['Diphosphate', 'DNA']
+  > Extracting R00378
+    Substrates: ['dTTP', 'DNA']
+    Products: ['Diphosphate', 'DNA']
+  > Extracting R11029
+    Substrates: ["2'-Deoxy-5-hydroxymethylcytidine-5'-triphosphate"]
+    Products: ['5-Hydroxymethylcytosine in DNA']
+> Getting reaction id for 5.6.2.2
+  Look at this enzyme manually, no reaction
+> Getting reaction id for 6.1.1.11
+  Reaction list: ['R03662', 'R08218']
+  > Extracting R03662
+    Substrates: ['ATP', 'L-Serine', 'tRNA(Ser)']
+    Products: ['AMP', 'Diphosphate', 'L-Seryl-tRNA(Ser)']
+  > Extracting R08218
+    Substrates: ['ATP', 'L-Serine', 'tRNA(Sec)']
+    Products: ['AMP', 'Diphosphate', 'L-Seryl-tRNA(Sec)']
+> Getting reaction id for 2.7.4.9
+  Reaction list: ['R02094', 'R02098']
+  > Extracting R02094
+    Substrates: ['ATP', 'dTMP']
+    Products: ['ADP', 'dTDP']
+  > Extracting R02098
+    Substrates: ['ATP', 'dUMP']
+    Products: ['ADP', 'dUDP']
+ERR: look into this url: https://rest.kegg.jp/get/ec:1.8.4. (status 404)
+> Getting reaction id for 3.4.11.5
+  Look at this enzyme manually, no reaction end
+> Getting reaction id for 6.1.1.10
+  Reaction list: ['R03659', 'R04773']
+  > Extracting R03659
+    Substrates: ['ATP', 'L-Methionine', 'tRNA(Met)']
+    Products: ['AMP', 'Diphosphate', 'L-Methionyl-tRNA']
+  > Extracting R04773
+    Substrates: ['ATP', 'L-Selenomethionine', 'tRNA(Met)']
+    Products: ['AMP', 'Diphosphate', 'Selenomethionyl-tRNA(Met)']
+> Getting reaction id for 2.7.7.6
+  Reaction list: ['R00444', 'R00435', 'R00441', 'R00442', 'R00443', 'R10813']
+  > Extracting R00444
+    Substrates: ['Nucleoside triphosphate', 'RNA']
+    Products: ['Diphosphate', 'RNA']
+  > Extracting R00435
+    Substrates: ['ATP', 'RNA']
+    Products: ['Diphosphate', 'RNA']
+  > Extracting R00441
+    Substrates: ['GTP', 'RNA']
+    Products: ['Diphosphate', 'RNA']
+  > Extracting R00442
+    Substrates: ['CTP', 'RNA']
+    Products: ['Diphosphate', 'RNA']
+  > Extracting R00443
+    Substrates: ['UTP', 'RNA']
+    Products: ['Diphosphate', 'RNA']
+  > Extracting R10813
+    Substrates: ['n Nucleoside triphosphate']
+    Products: ["5'-Triphospho-[mRNA](n)", '(n-1) Diphosphate']
+> Getting reaction id for 4.1.2.13
+  Reaction list: ['R01068', 'R01070', 'R01829', 'R02568']
+  > Extracting R01068
+    Substrates: ['D-Fructose 1,6-bisphosphate']
+    Products: ['Glycerone phosphate', 'D-Glyceraldehyde 3-phosphate']
+  > Extracting R01070
+    Substrates: ['beta-D-Fructose 1,6-bisphosphate']
+    Products: ['Glycerone phosphate', 'D-Glyceraldehyde 3-phosphate']
+  > Extracting R01829
+    Substrates: ['Sedoheptulose 1,7-bisphosphate']
+    Products: ['Glycerone phosphate', 'D-Erythrose 4-phosphate']
+  > Extracting R02568
+    Substrates: ['D-Fructose 1-phosphate']
+    Products: ['Glycerone phosphate', 'D-Glyceraldehyde']
+> Getting reaction id for 2.4.2.9
+  Reaction list: ['R00966']
+  > Extracting R00966
+    Substrates: ['UMP', 'Diphosphate']
+    Products: ['Uracil', '5-Phospho-alpha-D-ribose 1-diphosphate']
+> Getting reaction id for 2.7.1.21
+  Reaction list: ['R01567', 'R02099', 'R08233']
+  > Extracting R01567
+    Substrates: ['ATP', 'Thymidine']
+    Products: ['ADP', 'dTMP']
+  > Extracting R02099
+    Substrates: ['ATP', 'Deoxyuridine']
+    Products: ['ADP', 'dUMP']
+  > Extracting R08233
+    Substrates: ['5-Fluorodeoxyuridine', 'ATP']
+    Products: ['5-Fluorodeoxyuridine monophosphate', 'ADP']
+> Getting reaction id for 6.1.1.21
+  Reaction list: ['R03655']
+  > Extracting R03655
+    Substrates: ['ATP', 'L-Histidine', 'tRNA(His)']
+    Products: ['AMP', 'Diphosphate', 'L-Histidyl-tRNA(His)']
+> Getting reaction id for 6.1.1.12
+  Reaction list: ['R05577']
+  > Extracting R05577
+    Substrates: ['tRNA(Asp)', 'L-Aspartate', 'ATP']
+    Products: ['L-Aspartyl-tRNA(Asp)', 'Diphosphate', 'AMP']
+> Getting reaction id for 6.3.4.21
+  Reaction list: ['R01724']
+  > Extracting R01724
+    Substrates: ['Nicotinate D-ribonucleotide', 'Diphosphate', 'ADP', 'Orthophosphate']
+    Products: ['Nicotinate', '5-Phospho-alpha-D-ribose 1-diphosphate', 'ATP']
+> Getting reaction id for 2.7.1.30
+  Reaction list: ['R00847']
+  > Extracting R00847
+    Substrates: ['ATP', 'Glycerol']
+    Products: ['ADP', 'sn-Glycerol 3-phosphate']
+> Getting reaction id for 2.3.1.234
+  Reaction list: ['R10648']
+  > Extracting R10648
+    Substrates: ['L-Threonylcarbamoyladenylate', 'tRNA adenine']
+    Products: ['AMP', 'N6-L-Threonylcarbamoyladenine in tRNA']
+> Getting reaction id for 2.5.1.6
+  Reaction list: ['R00177', 'R04771']
+  > Extracting R00177
+    Substrates: ['Orthophosphate', 'Diphosphate', 'S-Adenosyl-L-methionine']
+    Products: ['ATP', 'L-Methionine']
+  > Extracting R04771
+    Substrates: ['ATP', 'L-Selenomethionine']
+    Products: ['Orthophosphate', 'Diphosphate', 'Se-Adenosylselenomethionine']
+> Getting reaction id for 2.4.2.1
+  Reaction list: ['R08368', 'R01561', 'R01863', 'R02147', 'R02297', 'R10244', 'R01969', 'R02557', 'R02748', 'R02294', 'R02295']
+  > Extracting R08368
+    Substrates: ['N-D-Ribosylpurine', 'Orthophosphate']
+    Products: ['Purine', 'alpha-D-Ribose 1-phosphate']
+  > Extracting R01561
+    Substrates: ['Adenosine', 'Orthophosphate']
+    Products: ['Adenine', 'alpha-D-Ribose 1-phosphate']
+  > Extracting R01863
+    Substrates: ['Inosine', 'Orthophosphate']
+    Products: ['Hypoxanthine', 'alpha-D-Ribose 1-phosphate']
+  > Extracting R02147
+    Substrates: ['Guanosine', 'Orthophosphate']
+    Products: ['Guanine', 'alpha-D-Ribose 1-phosphate']
+  > Extracting R02297
+    Substrates: ['Xanthosine', 'Orthophosphate']
+    Products: ['Xanthine', 'alpha-D-Ribose 1-phosphate']
+  > Extracting R10244
+    Substrates: ['Purine deoxyribonucleoside', 'Orthophosphate']
+    Products: ['Purine', '2-Deoxy-D-ribose 1-phosphate']
+  > Extracting R01969
+    Substrates: ['Deoxyguanosine', 'Orthophosphate']
+    Products: ['Guanine', '2-Deoxy-D-ribose 1-phosphate']
+  > Extracting R02557
+    Substrates: ['Deoxyadenosine', 'Orthophosphate']
+    Products: ['Adenine', '2-Deoxy-D-ribose 1-phosphate']
+  > Extracting R02748
+    Substrates: ['Deoxyinosine', 'Orthophosphate']
+    Products: ['Hypoxanthine', '2-Deoxy-D-ribose 1-phosphate']
+  > Extracting R02294
+    Substrates: ['Nicotinamide-beta-riboside', 'Orthophosphate']
+    Products: ['Nicotinamide', 'alpha-D-Ribose 1-phosphate']
+  > Extracting R02295
+    Substrates: ['Nicotinate D-ribonucleoside', 'Orthophosphate']
+    Products: ['Nicotinate', 'alpha-D-Ribose 1-phosphate']
+> Getting reaction id for 4.1.2.4
+  Reaction list: ['R01066']
+  > Extracting R01066
+    Substrates: ['2-Deoxy-D-ribose 5-phosphate']
+    Products: ['D-Glyceraldehyde 3-phosphate', 'Acetaldehyde']
+> Getting reaction id for 3.5.4.5
+  Reaction list: ['R01878', 'R02485', 'R08221']
+  > Extracting R01878
+    Substrates: ['Cytidine']
+    Products: ['Uridine', 'Ammonia']
+  > Extracting R02485
+    Substrates: ['Deoxycytidine']
+    Products: ['Deoxyuridine', 'Ammonia']
+  > Extracting R08221
+    Substrates: ["5'-Deoxy-5-fluorocytidine"]
+    Products: ["5'-Deoxy-5-fluorouridine", 'Ammonia']
+> Getting reaction id for 5.4.2.2
+  Reaction list: ['R08639', 'R00959', 'R01057', 'R03319']
+  > Extracting R08639
+    Substrates: ['D-Glucose 1-phosphate']
+    Products: ['D-Glucose 6-phosphate']
+  > Extracting R00959
+    Substrates: ['D-Glucose 1-phosphate']
+    Products: ['alpha-D-Glucose 6-phosphate']
+  > Extracting R01057
+    Substrates: ['alpha-D-Ribose 1-phosphate']
+    Products: ['D-Ribose 5-phosphate']
+  > Extracting R03319
+    Substrates: ['alpha-D-Hexose 1-phosphate']
+    Products: ['alpha-D-Hexose 6-phosphate']
+> Getting reaction id for 3.1.26.8
+  Look at this enzyme manually, no reaction
+> Getting reaction id for 2.7.6.1
+  Reaction list: ['R01049']
+  > Extracting R01049
+    Substrates: ['ATP', 'D-Ribose 5-phosphate']
+    Products: ['AMP', '5-Phospho-alpha-D-ribose 1-diphosphate']
+> Getting reaction id for 3.1.1.29
+  Reaction list: ['R04238']
+  > Extracting R04238
+    Substrates: ['N-Substituted aminoacyl-tRNA']
+    Products: ['N-Substituted amino acid', 'tRNA']
+> Getting reaction id for 6.3.4.19
+  Reaction list: ['R09597']
+  > Extracting R09597
+    Substrates: ['[tRNA(Ile2)]-cytidine34', 'L-Lysine', 'ATP']
+    Products: ['[tRNA(Ile2)]-lysidine34', 'AMP', 'Diphosphate']
+> Getting reaction id for 2.5.1.145
+  Look at this enzyme manually, no reaction
+> Getting reaction id for 3.2.2.27
+  Look at this enzyme manually, no reaction
+> Getting reaction id for 1.8.1.9
+  Reaction list: ['R02016', 'R00900', 'R03596', 'R09372']
+  > Extracting R02016
+    Substrates: ['Thioredoxin', 'NADP+']
+    Products: ['Thioredoxin disulfide', 'NADPH']
+  > Extracting R00900
+    Substrates: ['L-Cysteine', 'Glutathione', 'NADP+']
+    Products: ['S-Glutathionyl-L-cysteine', 'NADPH']
+  > Extracting R03596
+    Substrates: ['Hydrogen selenide', '3 NADP+', '3 H2O']
+    Products: ['Selenite', '3 NADPH', '5 H+']
+  > Extracting R09372
+    Substrates: ['2 NADPH', '2 H+', 'Methylselenic acid']
+    Products: ['2 NADP+', '2 H2O', 'Methaneselenol']
+> Getting reaction id for 3.5.1.88
+  Reaction list: ['R05635', 'R04268']
+  > Extracting R05635
+    Substrates: ['Formyl-L-methionyl peptide']
+    Products: ['Methionyl peptide', 'Formate']
+  > Extracting R04268
+    Substrates: ['N-Formyl-L-methionylaminoacyl-tRNA']
+    Products: ['Formate', 'L-Methionylaminoacyl-tRNA']
+> Getting reaction id for 2.7.4.8
+  Reaction list: ['R00332', 'R02090', 'R12852']
+  > Extracting R00332
+    Substrates: ['ATP', 'GMP']
+    Products: ['ADP', 'GDP']
+  > Extracting R02090
+    Substrates: ['ATP', 'dGMP']
+    Products: ['ADP', 'dGDP']
+  > Extracting R12852
+    Substrates: ['dZMP', 'ATP']
+    Products: ['dZDP', 'ADP']
+> Getting reaction id for 2.7.11.1
+  Reaction list: ['R00162', 'R03632']
+  > Extracting R00162
+    Substrates: ['ATP', 'Protein']
+    Products: ['ADP', 'Phosphoprotein']
+  > Extracting R03632
+    Substrates: ['ATP', 'Protamine']
+    Products: ['ADP', 'O-Phosphoprotamine']
+> Getting reaction id for 5.3.1.9
+  Reaction list: ['R02740', 'R00771', 'R02739', 'R03321', 'R13199']
+  > Extracting R02740
+    Substrates: ['alpha-D-Glucose 6-phosphate']
+    Products: ['beta-D-Fructose 6-phosphate']
+  > Extracting R00771
+    Substrates: ['D-Glucose 6-phosphate']
+    Products: ['D-Fructose 6-phosphate']
+  > Extracting R02739
+    Substrates: ['alpha-D-Glucose 6-phosphate']
+    Products: ['beta-D-Glucose 6-phosphate']
+  > Extracting R03321
+    Substrates: ['beta-D-Glucose 6-phosphate']
+    Products: ['beta-D-Fructose 6-phosphate']
+  > Extracting R13199
+    Substrates: ['alpha-D-Glucose 6-phosphate']
+    Products: ['D-Fructose 6-phosphate']
+> Getting reaction id for 6.1.1.22
+  Reaction list: ['R03648']
+  > Extracting R03648
+    Substrates: ['ATP', 'L-Asparagine', 'tRNA(Asn)']
+    Products: ['AMP', 'Diphosphate', 'L-Asparaginyl-tRNA(Asn)']
+> Getting reaction id for 5.1.3.2
+  Reaction list: ['R00291', 'R00418', 'R02984']
+  > Extracting R00291
+    Substrates: ['UDP-glucose']
+    Products: ['UDP-alpha-D-galactose']
+  > Extracting R00418
+    Substrates: ['UDP-N-acetyl-alpha-D-glucosamine']
+    Products: ['UDP-N-acetyl-D-galactosamine']
+  > Extracting R02984
+    Substrates: ['dTDP-glucose']
+    Products: ['dTDP-galactose']
+> Getting reaction id for 5.6.2.1
+  Look at this enzyme manually, no reaction
+> Getting reaction id for 6.1.1.2
+  Reaction list: ['R03664']
+  > Extracting R03664
+    Substrates: ['ATP', 'L-Tryptophan', 'tRNA(Trp)']
+    Products: ['AMP', 'Diphosphate', 'L-Tryptophanyl-tRNA(Trp)']
+> Getting reaction id for 2.7.1.23
+  Reaction list: ['R00104']
+  > Extracting R00104
+    Substrates: ['ATP', 'NAD+']
+    Products: ['ADP', 'NADP+']
+> Getting reaction id for 6.1.1.6
+  Reaction list: ['R03658']
+  > Extracting R03658
+    Substrates: ['ATP', 'L-Lysine', 'tRNA(Lys)']
+    Products: ['AMP', 'Diphosphate', 'L-Lysyl-tRNA']
+> Getting reaction id for 5.4.99.9
+  Reaction list: ['R00505', 'R09009']
+  > Extracting R00505
+    Substrates: ['UDP-alpha-D-galactose']
+    Products: ['UDP-alpha-D-galactofuranose']
+  > Extracting R09009
+    Substrates: ['UDP-L-arabinose']
+    Products: ['UDP-L-arabinofuranose']
+> Getting reaction id for 2.7.1.26
+  Reaction list: ['R00549']
+  > Extracting R00549
+    Substrates: ['ATP', 'Riboflavin']
+    Products: ['ADP', 'FMN']
+> Getting reaction id for 2.7.7.2
+  Reaction list: ['R00161']
+  > Extracting R00161
+    Substrates: ['ATP', 'FMN']
+    Products: ['Diphosphate', 'FAD']
+> Getting reaction id for 3.4.11.18
+  Look at this enzyme manually, no reaction
+> Getting reaction id for 5.4.99.12
+  Reaction list: ['R03020']
+  > Extracting R03020
+    Substrates: ['tRNA uridine']
+    Products: ['tRNA pseudouridine']
+> Getting reaction id for 3.1.3.7
+  Reaction list: ['R00188', 'R00508']
+  > Extracting R00188
+    Substrates: ["Adenosine 3',5'-bisphosphate"]
+    Products: ['AMP', 'Orthophosphate']
+  > Extracting R00508
+    Substrates: ["3'-Phosphoadenylyl sulfate"]
+    Products: ['Adenylyl sulfate', 'Orthophosphate']
+> Getting reaction id for 6.1.1.20
+  Reaction list: ['R03660']
+  > Extracting R03660
+    Substrates: ['ATP', 'L-Phenylalanine', 'tRNA(Phe)']
+    Products: ['AMP', 'Diphosphate', 'L-Phenylalanyl-tRNA(Phe)']
+> Getting reaction id for 2.7.8.7
+  Reaction list: ['R01625']
+  > Extracting R01625
+    Substrates: ['CoA', 'Apo-[acyl-carrier-protein]']
+    Products: ["Adenosine 3',5'-bisphosphate", 'Acyl-carrier protein']
+> Getting reaction id for 2.7.1.11
+  Reaction list: ['R04779', 'R00756', 'R00767', 'R00769', 'R00770', 'R01843', 'R03236', 'R03237', 'R03238', 'R03239']
+  > Extracting R04779
+    Substrates: ['ATP', 'beta-D-Fructose 6-phosphate']
+    Products: ['ADP', 'beta-D-Fructose 1,6-bisphosphate']
+  > Extracting R00756
+    Substrates: ['ATP', 'D-Fructose 6-phosphate']
+    Products: ['ADP', 'D-Fructose 1,6-bisphosphate']
+  > Extracting R00767
+    Substrates: ['CTP', 'D-Fructose 6-phosphate']
+    Products: ['CDP', 'D-Fructose 1,6-bisphosphate']
+  > Extracting R00769
+    Substrates: ['UTP', 'D-Fructose 6-phosphate']
+    Products: ['UDP', 'D-Fructose 1,6-bisphosphate']
+  > Extracting R00770
+    Substrates: ['ITP', 'D-Fructose 6-phosphate']
+    Products: ['IDP', 'D-Fructose 1,6-bisphosphate']
+  > Extracting R01843
+    Substrates: ['ATP', 'Sedoheptulose 7-phosphate']
+    Products: ['ADP', 'Sedoheptulose 1,7-bisphosphate']
+  > Extracting R03236
+    Substrates: ['D-Tagatose 6-phosphate', 'ATP']
+    Products: ['D-Tagatose 1,6-bisphosphate', 'ADP']
+  > Extracting R03237
+    Substrates: ['CTP', 'D-Tagatose 6-phosphate']
+    Products: ['CDP', 'D-Tagatose 1,6-bisphosphate']
+  > Extracting R03238
+    Substrates: ['UTP', 'D-Tagatose 6-phosphate']
+    Products: ['UDP', 'D-Tagatose 1,6-bisphosphate']
+  > Extracting R03239
+    Substrates: ['ITP', 'D-Tagatose 6-phosphate']
+    Products: ['IDP', 'D-Tagatose 1,6-bisphosphate']
+> Getting reaction id for 2.7.1.40
+  Reaction list: ['R00200', 'R00430', 'R00572', 'R00659', 'R00724', 'R01138', 'R01858', 'R02320']
+  > Extracting R00200
+    Substrates: ['ATP', 'Pyruvate']
+    Products: ['ADP', 'Phosphoenolpyruvate']
+  > Extracting R00430
+    Substrates: ['GTP', 'Pyruvate']
+    Products: ['GDP', 'Phosphoenolpyruvate']
+  > Extracting R00572
+    Substrates: ['CTP', 'Pyruvate']
+    Products: ['CDP', 'Phosphoenolpyruvate']
+  > Extracting R00659
+    Substrates: ['UTP', 'Pyruvate']
+    Products: ['UDP', 'Phosphoenolpyruvate']
+  > Extracting R00724
+    Substrates: ['ITP', 'Pyruvate']
+    Products: ['IDP', 'Phosphoenolpyruvate']
+  > Extracting R01138
+    Substrates: ['dATP', 'Pyruvate']
+    Products: ['dADP', 'Phosphoenolpyruvate']
+  > Extracting R01858
+    Substrates: ['dGTP', 'Pyruvate']
+    Products: ['dGDP', 'Phosphoenolpyruvate']
+  > Extracting R02320
+    Substrates: ['Nucleoside triphosphate', 'Pyruvate']
+    Products: ['NDP', 'Phosphoenolpyruvate']
+> Getting reaction id for 2.1.1.199
+  Look at this enzyme manually, no reaction
+> Getting reaction id for 1.5.1.3
+  Reaction list: ['R00939', 'R00936', 'R00937', 'R00940', 'R02235', 'R02236', 'R11765']
+  > Extracting R00939
+    Substrates: ['Tetrahydrofolate', 'NADP+']
+    Products: ['Dihydrofolate', 'NADPH']
+  > Extracting R00936
+    Substrates: ['Tetrahydrofolate', 'NAD+']
+    Products: ['Dihydrofolate', 'NADH']
+  > Extracting R00937
+    Substrates: ['Tetrahydrofolate', '2 NAD+']
+    Products: ['Folate', '2 NADH', '2 H+']
+  > Extracting R00940
+    Substrates: ['Tetrahydrofolate', '2 NADP+']
+    Products: ['Folate', '2 NADPH', '2 H+']
+  > Extracting R02235
+    Substrates: ['Dihydrofolate', 'NAD+']
+    Products: ['Folate', 'NADH']
+  > Extracting R02236
+    Substrates: ['Dihydrofolate', 'NADP+']
+    Products: ['Folate', 'NADPH']
+  > Extracting R11765
+    Substrates: ['Tetrahydrobiopterin', 'NADP+']
+    Products: ['7,8-Dihydrobiopterin', 'NADPH']
+> Getting reaction id for 1.17.4.1
+  Reaction list: ['R04294', 'R02017', 'R02018', 'R02019', 'R02024', 'R08363', 'R08364', 'R11893']
+  > Extracting R04294
+    Substrates: ["2'-Deoxyribonucleoside diphosphate", 'Thioredoxin disulfide']
+    Products: ['Ribonucleoside diphosphate', 'Thioredoxin']
+  > Extracting R02017
+    Substrates: ['dADP', 'Thioredoxin disulfide']
+    Products: ['Thioredoxin', 'ADP']
+  > Extracting R02018
+    Substrates: ['dUDP', 'Thioredoxin disulfide']
+    Products: ['Thioredoxin', 'UDP']
+  > Extracting R02019
+    Substrates: ['dGDP', 'Thioredoxin disulfide']
+    Products: ['GDP', 'Thioredoxin']
+  > Extracting R02024
+    Substrates: ['dCDP', 'Thioredoxin disulfide']
+    Products: ['Thioredoxin', 'CDP']
+  > Extracting R08363
+    Substrates: ["2'-Deoxyribonucleoside diphosphate", 'Tryparedoxin disulfide']
+    Products: ['Ribonucleoside diphosphate', 'Tryparedoxin']
+  > Extracting R08364
+    Substrates: ["2'-Deoxyribonucleoside diphosphate", 'Trypanothione disulfide']
+    Products: ['Ribonucleoside diphosphate', 'Trypanothione']
+  > Extracting R11893
+    Substrates: ['5-Fluorodeoxyuridine diphosphate', 'Thioredoxin disulfide']
+    Products: ['5-Fluorouridine diphosphate', 'Thioredoxin']
+> Getting reaction id for 3.1.21.2
+  Look at this enzyme manually, no reaction
+> Getting reaction id for 3.4.21.53
+  Look at this enzyme manually, no reaction
+> Getting reaction id for 2.7.7.18
+  Reaction list: ['R03005', 'R00137']
+  > Extracting R03005
+    Substrates: ['ATP', 'Nicotinate D-ribonucleotide']
+    Products: ['Diphosphate', 'Deamino-NAD+']
+  > Extracting R00137
+    Substrates: ['ATP', 'Nicotinamide D-ribonucleotide']
+    Products: ['Diphosphate', 'NAD+']
+> Getting reaction id for 2.3.1.15
+  Reaction list: ['R00851', 'R02617', 'R09380']
+  > Extracting R00851
+    Substrates: ['sn-Glycerol 3-phosphate', 'Acyl-CoA']
+    Products: ['1-Acyl-sn-glycerol 3-phosphate', 'CoA']
+  > Extracting R02617
+    Substrates: ['2,3-Dehydroacyl-CoA', 'sn-Glycerol 3-phosphate']
+    Products: ['CoA', '1-Acyl-sn-glycerol 3-phosphate']
+  > Extracting R09380
+    Substrates: ['Acyl-[acyl-carrier protein]', 'sn-Glycerol 3-phosphate']
+    Products: ['1-Acyl-sn-glycerol 3-phosphate', 'Acyl-carrier protein']

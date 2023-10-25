@@ -1,0 +1,27 @@
+nodedef>name INTEGER,label VARCHAR,class VARCHAR,module VARCHAR
+0,3.1.4.14,enzyme,Metabolism of cofactors and vitamins
+2000,Acyl-carrier protein,metabolite
+2001,Pantetheine 4'-phosphate,metabolite
+2002,Apo-[acyl-carrier-protein],metabolite
+1,2.7.4.22,enzyme,Nucleotide metabolism
+2003,ATP,metabolite
+2004,UMP,metabolite
+2005,ADP,metabolite
+2006,UDP,metabolite
+2,2.7.7.9,enzyme,Carbohydrate metabolism
+2007,UTP,metabolite
+2008,Glucose 1-phosphate,metabolite
+2009,Diphosphate,metabolite
+2010,UDP-glucose,metabolite
+edgedef>source INTEGER,target INTEGER,directed BOOLEAN,weight DOUBLE
+2000,0,true,1.0
+0,2001,true,1.0
+0,2002,true,1.0
+2003,1,true,1.0
+2004,1,true,1.0
+1,2005,true,1.0
+1,2006,true,1.0
+2007,2,true,1.0
+2008,2,true,1.0
+2,2009,true,1.0
+2,2010,true,1.0

@@ -40,35 +40,35 @@ Response: https://rest.kegg.jp/get/ec:2.7.1.69
 Response: https://rest.kegg.jp/get/ec:5.4.2.1
 Response: https://rest.kegg.jp/get/ec:2.7.4.14
 Response: https://rest.kegg.jp/get/ec:3.1.3.37
-Response: https://rest.kegg.jp/get/ec:2.7.8.8
 Response: https://rest.kegg.jp/get/ec:1.1.1.27
+Response: https://rest.kegg.jp/get/ec:2.7.8.8
+Response: https://rest.kegg.jp/get/ec:1.1.1.94
 Response: https://rest.kegg.jp/get/ec:2.3.1.15
 Response: https://rest.kegg.jp/get/ec:3.5.4.13
 Response: https://rest.kegg.jp/get/ec:2.1.1.45
-Response: https://rest.kegg.jp/get/ec:1.5.1.3
-Response: https://rest.kegg.jp/get/ec:4.1.1.65
 Response: https://rest.kegg.jp/get/ec:2.4.2.8
-Response: https://rest.kegg.jp/get/ec:2.7.4.9
+Response: https://rest.kegg.jp/get/ec:4.1.1.65
 Response: https://rest.kegg.jp/get/ec:2.7.2.3
-Response: https://rest.kegg.jp/get/ec:2.4.2.9
-Response: https://rest.kegg.jp/get/ec:2.7.7.41
-Response: https://rest.kegg.jp/get/ec:2.1.2.1
-Response: https://rest.kegg.jp/get/ec:3.6.1.1
-Response: https://rest.kegg.jp/get/ec:2.7.4.8
 Response: https://rest.kegg.jp/get/ec:2.7.4.6
+Response: https://rest.kegg.jp/get/ec:2.7.4.8
+Response: https://rest.kegg.jp/get/ec:3.6.1.1
+Response: https://rest.kegg.jp/get/ec:2.1.2.1
+Response: https://rest.kegg.jp/get/ec:1.5.1.3
+Response: https://rest.kegg.jp/get/ec:2.7.4.9
+Response: https://rest.kegg.jp/get/ec:5.3.1.1
+Response: https://rest.kegg.jp/get/ec:2.7.7.41
+Response: https://rest.kegg.jp/get/ec:2.7.1.40
+Response: https://rest.kegg.jp/get/ec:5.3.1.9
+Response: https://rest.kegg.jp/get/ec:2.4.2.9
 Response: https://rest.kegg.jp/get/ec:5.1.3.1
 Response: https://rest.kegg.jp/get/ec:2.7.1.11
-Response: https://rest.kegg.jp/get/ec:5.3.1.9
-Response: https://rest.kegg.jp/get/ec:1.2.1.12
-Response: https://rest.kegg.jp/get/ec:5.3.1.1
-Response: https://rest.kegg.jp/get/ec:1.1.1.94
-Response: https://rest.kegg.jp/get/ec:2.7.1.40
 Response: https://rest.kegg.jp/get/ec:5.3.1.6
 Response: https://rest.kegg.jp/get/ec:2.3.1.51
-Response: https://rest.kegg.jp/get/ec:2.7.4.3
 Response: https://rest.kegg.jp/get/ec:2.2.1.1
 Response: https://rest.kegg.jp/get/ec:1.17.4.1
-Took 5.347 seconds for all requests
+Response: https://rest.kegg.jp/get/ec:1.2.1.12
+Response: https://rest.kegg.jp/get/ec:2.7.4.3
+Took 5.279 seconds for all requests
 Transferred entry for https://rest.kegg.jp/get/ec:2.7.1.69, sending it through to next batch
 Transferred entry for https://rest.kegg.jp/get/ec:5.4.2.1, sending it through to next batch
 Removing entry from results: https://rest.kegg.jp/get/ec:2.7.1.69
@@ -77,7 +77,7 @@ Adding these ecs to enzyme_list: ['2.7.1.191', '2.7.1.192', '2.7.1.193', '2.7.1.
 Request sent: https://rest.kegg.jp/get/ec:2.7.1.191
 Request sent: https://rest.kegg.jp/get/ec:2.7.1.192
 Request sent: https://rest.kegg.jp/get/ec:2.7.1.193
-Request sent: https://rest.kegg.jp/get/ec:2.7.1.194
+Reading file: https://rest.kegg.jp/get/ec:2.7.1.194
 Request sent: https://rest.kegg.jp/get/ec:2.7.1.195
 Request sent: https://rest.kegg.jp/get/ec:2.7.1.196
 Request sent: https://rest.kegg.jp/get/ec:2.7.1.197
@@ -94,27 +94,26 @@ Request sent: https://rest.kegg.jp/get/ec:2.7.1.207
 Request sent: https://rest.kegg.jp/get/ec:2.7.1.208
 Request sent: https://rest.kegg.jp/get/ec:5.4.2.11
 Request sent: https://rest.kegg.jp/get/ec:5.4.2.12
-Response: https://rest.kegg.jp/get/ec:2.7.1.203
-Response: https://rest.kegg.jp/get/ec:2.7.1.206
 Response: https://rest.kegg.jp/get/ec:2.7.1.192
 Response: https://rest.kegg.jp/get/ec:2.7.1.195
 Response: https://rest.kegg.jp/get/ec:2.7.1.204
+Response: https://rest.kegg.jp/get/ec:2.7.1.203
+Response: https://rest.kegg.jp/get/ec:2.7.1.206
 Response: https://rest.kegg.jp/get/ec:2.7.1.207
-Response: https://rest.kegg.jp/get/ec:2.7.1.198
 Response: https://rest.kegg.jp/get/ec:2.7.1.200
+Response: https://rest.kegg.jp/get/ec:2.7.1.198
 Response: https://rest.kegg.jp/get/ec:2.7.1.201
-Response: https://rest.kegg.jp/get/ec:2.7.1.197
 Response: https://rest.kegg.jp/get/ec:2.7.1.193
 Response: https://rest.kegg.jp/get/ec:2.7.1.208
-Response: https://rest.kegg.jp/get/ec:2.7.1.191
+Response: https://rest.kegg.jp/get/ec:2.7.1.197
 Response: https://rest.kegg.jp/get/ec:2.7.1.199
-Response: https://rest.kegg.jp/get/ec:2.7.1.194
 Response: https://rest.kegg.jp/get/ec:2.7.1.205
-Response: https://rest.kegg.jp/get/ec:2.7.1.196
+Response: https://rest.kegg.jp/get/ec:2.7.1.191
 Response: https://rest.kegg.jp/get/ec:5.4.2.12
 Response: https://rest.kegg.jp/get/ec:2.7.1.202
+Response: https://rest.kegg.jp/get/ec:2.7.1.196
 Response: https://rest.kegg.jp/get/ec:5.4.2.11
-Took 3.791 seconds for all requests
+Took 3.795 seconds for all requests
 https://rest.kegg.jp/get/ec:5.3.1.9   : 200
 https://rest.kegg.jp/get/ec:2.7.1.11  : 200
 https://rest.kegg.jp/get/ec:4.1.2.13  : 200
@@ -170,7 +169,21 @@ https://rest.kegg.jp/get/ec:2.7.1.208 : 200
 https://rest.kegg.jp/get/ec:5.4.2.11  : 200
 https://rest.kegg.jp/get/ec:5.4.2.12  : 200
 
-> Getting reaction id for 5.3.1.9
+> Working with 5.3.1.9
+  > Getting pathway ids for 5.3.1.9
+    Adding pathway ec00010
+    Adding pathway ec00030
+    Adding pathway ec00500
+    Adding pathway ec00520
+  > Getting module ids
+    > Finding modules for ec00010
+    > Finding modules for ec00030
+    > Finding modules for ec00500
+    > Finding modules for ec00520
+  > Assigning modules to 5.3.1.9
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 5.3.1.9: {'Carbohydrate metabolism': 24, 'Energy metabolism': 1}
+  > Getting reaction id for 5.3.1.9
   Reaction list: ['R02740', 'R00771', 'R02739', 'R03321', 'R13199']
   > Extracting R02740
     Substrates: ['alpha-D-Glucose 6-phosphate']
@@ -186,7 +199,23 @@ https://rest.kegg.jp/get/ec:5.4.2.12  : 200
     Products: ['beta-D-Fructose 6-phosphate']
   > Extracting R13199
     Reaction is not in the list
-> Getting reaction id for 2.7.1.11
+> Working with 2.7.1.11
+  > Getting pathway ids for 2.7.1.11
+    Adding pathway ec00010
+    Adding pathway ec00030
+    Adding pathway ec00051
+    Adding pathway ec00052
+    Adding pathway ec00680
+  > Getting module ids
+    > Finding modules for ec00010
+    > Finding modules for ec00030
+    > Finding modules for ec00051
+    > Finding modules for ec00052
+    > Finding modules for ec00680
+  > Assigning modules to 2.7.1.11
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 2.7.1.11: {'Carbohydrate metabolism': 22, 'Energy metabolism': 14, 'Amino acid metabolism': 1}
+  > Getting reaction id for 2.7.1.11
   Reaction list: ['R04779', 'R00756', 'R00767', 'R00769', 'R00770', 'R01843', 'R03236', 'R03237', 'R03238', 'R03239']
   > Extracting R04779
     Substrates: ['ATP', 'beta-D-Fructose 6-phosphate']
@@ -210,7 +239,12 @@ https://rest.kegg.jp/get/ec:5.4.2.12  : 200
     Reaction is not in the list
   > Extracting R03239
     Reaction is not in the list
-> Getting reaction id for 4.1.2.13
+> Working with 4.1.2.13
+  > Getting pathway ids for 4.1.2.13
+  > Getting module ids
+  > Assigning modules to 4.1.2.13
+    Enzyme not in the list yet, creating a new set.
+  > Getting reaction id for 4.1.2.13
   Reaction list: ['R01068', 'R01070', 'R01829', 'R02568']
   > Extracting R01068
     Substrates: ['D-Fructose 1,6-bisphosphate']
@@ -224,29 +258,78 @@ https://rest.kegg.jp/get/ec:5.4.2.12  : 200
   > Extracting R02568
     Substrates: ['D-Fructose 1-phosphate']
     Products: ['Glycerone phosphate', 'D-Glyceraldehyde']
-> Getting reaction id for 5.3.1.1
+> Working with 5.3.1.1
+  > Getting pathway ids for 5.3.1.1
+    Adding pathway ec00010
+    Adding pathway ec00051
+    Adding pathway ec00562
+    Adding pathway ec00710
+  > Getting module ids
+    > Finding modules for ec00010
+    > Finding modules for ec00051
+    > Finding modules for ec00562
+    > Finding modules for ec00710
+  > Assigning modules to 5.3.1.1
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 5.3.1.1: {'Carbohydrate metabolism': 8, 'Energy metabolism': 6}
+  > Getting reaction id for 5.3.1.1
   Reaction list: ['R01015']
   > Extracting R01015
     Substrates: ['D-Glyceraldehyde 3-phosphate']
     Products: ['Glycerone phosphate']
-> Getting reaction id for 1.2.1.12
+> Working with 1.2.1.12
+  > Getting pathway ids for 1.2.1.12
+    Adding pathway ec00010
+    Adding pathway ec00710
+  > Getting module ids
+    > Finding modules for ec00010
+    > Finding modules for ec00710
+  > Assigning modules to 1.2.1.12
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 1.2.1.12: {'Carbohydrate metabolism': 4, 'Energy metabolism': 6}
+  > Getting reaction id for 1.2.1.12
   Reaction list: ['R01061']
   > Extracting R01061
     Substrates: ['D-Glyceraldehyde 3-phosphate', 'Orthophosphate', 'NAD+']
     Products: ['3-Phospho-D-glyceroyl phosphate', 'NADH']
-> Getting reaction id for 2.7.2.3
+> Working with 2.7.2.3
+  > Getting pathway ids for 2.7.2.3
+    Adding pathway ec00010
+    Adding pathway ec00710
+  > Getting module ids
+    > Finding modules for ec00010
+    > Finding modules for ec00710
+  > Assigning modules to 2.7.2.3
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 2.7.2.3: {'Carbohydrate metabolism': 4, 'Energy metabolism': 6}
+  > Getting reaction id for 2.7.2.3
   Reaction list: ['R01512']
   > Extracting R01512
     Substrates: ['ATP', '3-Phospho-D-glycerate']
     Products: ['ADP', '3-Phospho-D-glyceroyl phosphate']
-> Getting reaction id for 4.2.1.11
+> Working with 4.2.1.11
+  > Getting pathway ids for 4.2.1.11
+  > Getting module ids
+  > Assigning modules to 4.2.1.11
+    Enzyme not in the list yet, creating a new set.
+  > Getting reaction id for 4.2.1.11
   Reaction list: ['R00658', 'R04206']
   > Extracting R00658
     Substrates: ['2-Phospho-D-glycerate']
     Products: ['Phosphoenolpyruvate']
   > Extracting R04206
     Reaction is not in the list
-> Getting reaction id for 2.7.1.40
+> Working with 2.7.1.40
+  > Getting pathway ids for 2.7.1.40
+    Adding pathway ec00010
+    Adding pathway ec00620
+  > Getting module ids
+    > Finding modules for ec00010
+    > Finding modules for ec00620
+  > Assigning modules to 2.7.1.40
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 2.7.1.40: {'Carbohydrate metabolism': 5, 'Energy metabolism': 4}
+  > Getting reaction id for 2.7.1.40
   Reaction list: ['R00200', 'R00430', 'R00572', 'R00659', 'R00724', 'R01138', 'R01858', 'R02320']
   > Extracting R00200
     Substrates: ['ATP', 'Pyruvate']
@@ -268,7 +351,21 @@ https://rest.kegg.jp/get/ec:5.4.2.12  : 200
     Products: ['dGDP', 'Phosphoenolpyruvate']
   > Extracting R02320
     Reaction is not in the list
-> Getting reaction id for 1.1.1.27
+> Working with 1.1.1.27
+  > Getting pathway ids for 1.1.1.27
+    Adding pathway ec00010
+    Adding pathway ec00270
+    Adding pathway ec00620
+    Adding pathway ec00640
+  > Getting module ids
+    > Finding modules for ec00010
+    > Finding modules for ec00270
+    > Finding modules for ec00620
+    > Finding modules for ec00640
+  > Assigning modules to 1.1.1.27
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 1.1.1.27: {'Carbohydrate metabolism': 7, 'Amino acid metabolism': 7, 'Energy metabolism': 4}
+  > Getting reaction id for 1.1.1.27
   Reaction list: ['R00703', 'R01000', 'R03104']
   > Extracting R00703
     Substrates: ['(S)-Lactate', 'NAD+']
@@ -277,14 +374,32 @@ https://rest.kegg.jp/get/ec:5.4.2.12  : 200
     Reaction is not in the list
   > Extracting R03104
     Reaction is not in the list
-> Getting reaction id for 1.1.1.94
+> Working with 1.1.1.94
+  > Getting pathway ids for 1.1.1.94
+    Adding pathway ec00564
+  > Getting module ids
+    > Finding modules for ec00564
+  > Assigning modules to 1.1.1.94
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 1.1.1.94: {'Lipid metabolism': 4}
+  > Getting reaction id for 1.1.1.94
   Reaction list: ['R00842', 'R00844']
   > Extracting R00842
     Substrates: ['sn-Glycerol 3-phosphate', 'NAD+']
     Products: ['Glycerone phosphate', 'NADH']
   > Extracting R00844
     Reaction is not in the list
-> Getting reaction id for 2.3.1.15
+> Working with 2.3.1.15
+  > Getting pathway ids for 2.3.1.15
+    Adding pathway ec00561
+    Adding pathway ec00564
+  > Getting module ids
+    > Finding modules for ec00561
+    > Finding modules for ec00564
+  > Assigning modules to 2.3.1.15
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 2.3.1.15: {'Lipid metabolism': 6}
+  > Getting reaction id for 2.3.1.15
   Reaction list: ['R00851', 'R02617', 'R09380']
   > Extracting R00851
     Substrates: ['sn-Glycerol 3-phosphate', 'Acyl-CoA']
@@ -293,7 +408,17 @@ https://rest.kegg.jp/get/ec:5.4.2.12  : 200
     Reaction is not in the list
   > Extracting R09380
     Reaction is not in the list
-> Getting reaction id for 2.3.1.51
+> Working with 2.3.1.51
+  > Getting pathway ids for 2.3.1.51
+    Adding pathway ec00561
+    Adding pathway ec00564
+  > Getting module ids
+    > Finding modules for ec00561
+    > Finding modules for ec00564
+  > Assigning modules to 2.3.1.51
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 2.3.1.51: {'Lipid metabolism': 6}
+  > Getting reaction id for 2.3.1.51
   Reaction list: ['R02241', 'R02760', 'R09381']
   > Extracting R02241
     Substrates: ['Phosphatidate', 'CoA']
@@ -302,26 +427,72 @@ https://rest.kegg.jp/get/ec:5.4.2.12  : 200
     Reaction is not in the list
   > Extracting R09381
     Reaction is not in the list
-> Getting reaction id for 2.7.7.41
+> Working with 2.7.7.41
+  > Getting pathway ids for 2.7.7.41
+    Adding pathway ec00564
+  > Getting module ids
+    > Finding modules for ec00564
+  > Assigning modules to 2.7.7.41
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 2.7.7.41: {'Lipid metabolism': 4}
+  > Getting reaction id for 2.7.7.41
   Reaction list: ['R01799']
   > Extracting R01799
     Substrates: ['CTP', 'Phosphatidate']
     Products: ['Diphosphate', 'CDP-diacylglycerol']
-> Getting reaction id for 2.7.8.8
+> Working with 2.7.8.8
+  > Getting pathway ids for 2.7.8.8
+    Adding pathway ec00260
+    Adding pathway ec00564
+  > Getting module ids
+    > Finding modules for ec00260
+    > Finding modules for ec00564
+  > Assigning modules to 2.7.8.8
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 2.7.8.8: {'Amino acid metabolism': 8, 'Lipid metabolism': 4}
+  > Getting reaction id for 2.7.8.8
   Reaction list: ['R01800']
   > Extracting R01800
     Substrates: ['CDP-diacylglycerol', 'L-Serine']
     Products: ['CMP', 'Phosphatidylserine']
-> Getting reaction id for 4.1.1.65
+> Working with 4.1.1.65
+  > Getting pathway ids for 4.1.1.65
+    Adding pathway ec00564
+  > Getting module ids
+    > Finding modules for ec00564
+  > Assigning modules to 4.1.1.65
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 4.1.1.65: {'Lipid metabolism': 4}
+  > Getting reaction id for 4.1.1.65
   Reaction list: ['R02055']
   > Extracting R02055
     Substrates: ['Phosphatidylserine']
     Products: ['Phosphatidylethanolamine']
-> Getting reaction id for 3.1.3.37
+> Working with 3.1.3.37
+  > Getting pathway ids for 3.1.3.37
+    Adding pathway ec00710
+  > Getting module ids
+    > Finding modules for ec00710
+  > Assigning modules to 3.1.3.37
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 3.1.3.37: {'Energy metabolism': 6}
+  > Getting reaction id for 3.1.3.37
   Reaction list: ['R01845']
   > Extracting R01845
     Reaction is not in the list
-> Getting reaction id for 2.2.1.1
+> Working with 2.2.1.1
+  > Getting pathway ids for 2.2.1.1
+    Adding pathway ec00030
+    Adding pathway ec00710
+    Adding pathway ec01051
+  > Getting module ids
+    > Finding modules for ec00030
+    > Finding modules for ec00710
+    > Finding modules for ec01051
+  > Assigning modules to 2.2.1.1
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 2.2.1.1: {'Carbohydrate metabolism': 12, 'Energy metabolism': 7}
+  > Getting reaction id for 2.2.1.1
   Reaction list: ['R01641', 'R01067', 'R01830', 'R06590', 'R06861', 'R06863']
   > Extracting R01641
     Substrates: ['Sedoheptulose 7-phosphate', 'D-Glyceraldehyde 3-phosphate']
@@ -339,12 +510,36 @@ https://rest.kegg.jp/get/ec:5.4.2.12  : 200
     Reaction is not in the list
   > Extracting R06863
     Reaction is not in the list
-> Getting reaction id for 5.1.3.1
+> Working with 5.1.3.1
+  > Getting pathway ids for 5.1.3.1
+    Adding pathway ec00030
+    Adding pathway ec00040
+    Adding pathway ec00710
+  > Getting module ids
+    > Finding modules for ec00030
+    > Finding modules for ec00040
+    > Finding modules for ec00710
+  > Assigning modules to 5.1.3.1
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 5.1.3.1: {'Carbohydrate metabolism': 18, 'Energy metabolism': 7}
+  > Getting reaction id for 5.1.3.1
   Reaction list: ['R01529']
   > Extracting R01529
     Substrates: ['D-Ribulose 5-phosphate']
     Products: ['D-Xylulose 5-phosphate']
-> Getting reaction id for 5.3.1.6
+> Working with 5.3.1.6
+  > Getting pathway ids for 5.3.1.6
+    Adding pathway ec00030
+    Adding pathway ec00051
+    Adding pathway ec00710
+  > Getting module ids
+    > Finding modules for ec00030
+    > Finding modules for ec00051
+    > Finding modules for ec00710
+  > Assigning modules to 5.3.1.6
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 5.3.1.6: {'Carbohydrate metabolism': 13, 'Energy metabolism': 7}
+  > Getting reaction id for 5.3.1.6
   Reaction list: ['R01056', 'R09030']
   > Extracting R01056
     Substrates: ['D-Ribose 5-phosphate']
@@ -352,12 +547,27 @@ https://rest.kegg.jp/get/ec:5.4.2.12  : 200
   > Extracting R09030
     Substrates: ['D-Allose 6-phosphate']
     Products: ['D-Allulose 6-phosphate']
-> Getting reaction id for 2.7.6.1
+> Working with 2.7.6.1
+  > Getting pathway ids for 2.7.6.1
+  > Getting module ids
+  > Assigning modules to 2.7.6.1
+    Enzyme not in the list yet, creating a new set.
+  > Getting reaction id for 2.7.6.1
   Reaction list: ['R01049']
   > Extracting R01049
     Substrates: ['ATP', 'D-Ribose 5-phosphate']
     Products: ['AMP', '5-Phospho-alpha-D-ribose 1-diphosphate']
-> Getting reaction id for 2.4.2.8
+> Working with 2.4.2.8
+  > Getting pathway ids for 2.4.2.8
+    Adding pathway ec00230
+    Adding pathway ec00983
+  > Getting module ids
+    > Finding modules for ec00230
+    > Finding modules for ec00983
+  > Assigning modules to 2.4.2.8
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 2.4.2.8: {'Carbohydrate metabolism': 2, 'Nucleotide metabolism': 7}
+  > Getting reaction id for 2.4.2.8
   Reaction list: ['R01132', 'R01229', 'R02142', 'R08237', 'R08238', 'R08245']
   > Extracting R01132
     Substrates: ['IMP', 'Diphosphate']
@@ -377,16 +587,42 @@ https://rest.kegg.jp/get/ec:5.4.2.12  : 200
   > Extracting R08245
     Substrates: ['Thioguanine', '5-Phospho-alpha-D-ribose 1-diphosphate']
     Products: ['6-Thioguanosine monophosphate', 'Diphosphate']
-> Getting reaction id for 2.4.2.9
+> Working with 2.4.2.9
+  > Getting pathway ids for 2.4.2.9
+    Adding pathway ec00240
+  > Getting module ids
+    > Finding modules for ec00240
+  > Assigning modules to 2.4.2.9
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 2.4.2.9: {'Nucleotide metabolism': 6, 'Carbohydrate metabolism': 1}
+  > Getting reaction id for 2.4.2.9
   Reaction list: ['R00966']
   > Extracting R00966
     Substrates: ['UMP', 'Diphosphate']
     Products: ['Uracil', '5-Phospho-alpha-D-ribose 1-diphosphate']
-> Getting reaction id for 3.6.1.1
+> Working with 3.6.1.1
+  > Getting pathway ids for 3.6.1.1
+    Adding pathway ec00190
+  > Getting module ids
+    > Finding modules for ec00190
+  > Assigning modules to 3.6.1.1
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 3.6.1.1: {'Energy metabolism': 21}
+  > Getting reaction id for 3.6.1.1
   Reaction list: ['R00004']
   > Extracting R00004
     Reaction is not in the list
-> Getting reaction id for 2.7.4.3
+> Working with 2.7.4.3
+  > Getting pathway ids for 2.7.4.3
+    Adding pathway ec00230
+    Adding pathway ec00730
+  > Getting module ids
+    > Finding modules for ec00230
+    > Finding modules for ec00730
+  > Assigning modules to 2.7.4.3
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 2.7.4.3: {'Carbohydrate metabolism': 2, 'Nucleotide metabolism': 7, 'Metabolism of cofactors and vitamins': 6}
+  > Getting reaction id for 2.7.4.3
   Reaction list: ['R00127', 'R01547', 'R11319']
   > Extracting R00127
     Substrates: ['ATP', 'AMP']
@@ -397,7 +633,15 @@ https://rest.kegg.jp/get/ec:5.4.2.12  : 200
   > Extracting R11319
     Substrates: ['Thiamin diphosphate', 'ADP']
     Products: ['Thiamin triphosphate', 'AMP']
-> Getting reaction id for 2.7.4.8
+> Working with 2.7.4.8
+  > Getting pathway ids for 2.7.4.8
+    Adding pathway ec00230
+  > Getting module ids
+    > Finding modules for ec00230
+  > Assigning modules to 2.7.4.8
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 2.7.4.8: {'Carbohydrate metabolism': 2, 'Nucleotide metabolism': 7}
+  > Getting reaction id for 2.7.4.8
   Reaction list: ['R00332', 'R02090', 'R12852']
   > Extracting R00332
     Substrates: ['ATP', 'GMP']
@@ -407,7 +651,17 @@ https://rest.kegg.jp/get/ec:5.4.2.12  : 200
     Products: ['ADP', 'dGDP']
   > Extracting R12852
     Reaction is not in the list
-> Getting reaction id for 2.7.4.14
+> Working with 2.7.4.14
+  > Getting pathway ids for 2.7.4.14
+    Adding pathway ec00240
+    Adding pathway ec00983
+  > Getting module ids
+    > Finding modules for ec00240
+    > Finding modules for ec00983
+  > Assigning modules to 2.7.4.14
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 2.7.4.14: {'Nucleotide metabolism': 6, 'Carbohydrate metabolism': 1}
+  > Getting reaction id for 2.7.4.14
   Reaction list: ['R00158', 'R00512', 'R01665', 'R11891', 'R11892']
   > Extracting R00158
     Substrates: ['ATP', 'UMP']
@@ -422,7 +676,19 @@ https://rest.kegg.jp/get/ec:5.4.2.12  : 200
     Reaction is not in the list
   > Extracting R11892
     Reaction is not in the list
-> Getting reaction id for 2.7.4.6
+> Working with 2.7.4.6
+  > Getting pathway ids for 2.7.4.6
+    Adding pathway ec00230
+    Adding pathway ec00240
+    Adding pathway ec00983
+  > Getting module ids
+    > Finding modules for ec00230
+    > Finding modules for ec00240
+    > Finding modules for ec00983
+  > Assigning modules to 2.7.4.6
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 2.7.4.6: {'Carbohydrate metabolism': 3, 'Nucleotide metabolism': 13}
+  > Getting reaction id for 2.7.4.6
   Reaction list: ['R00331', 'R00124', 'R00139', 'R00156', 'R00330', 'R00570', 'R00722', 'R01137', 'R01857', 'R02093', 'R02326', 'R02331', 'R03530', 'R12853', 'R11894', 'R11895']
   > Extracting R00331
     Reaction is not in the list
@@ -461,7 +727,21 @@ https://rest.kegg.jp/get/ec:5.4.2.12  : 200
     Reaction is not in the list
   > Extracting R11895
     Reaction is not in the list
-> Getting reaction id for 1.17.4.1
+> Working with 1.17.4.1
+  > Getting pathway ids for 1.17.4.1
+    Adding pathway ec00230
+    Adding pathway ec00240
+    Adding pathway ec00480
+    Adding pathway ec00983
+  > Getting module ids
+    > Finding modules for ec00230
+    > Finding modules for ec00240
+    > Finding modules for ec00480
+    > Finding modules for ec00983
+  > Assigning modules to 1.17.4.1
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 1.17.4.1: {'Carbohydrate metabolism': 3, 'Nucleotide metabolism': 13, 'Amino acid metabolism': 1}
+  > Getting reaction id for 1.17.4.1
   Reaction list: ['R04294', 'R02017', 'R02018', 'R02019', 'R02024', 'R08363', 'R08364', 'R11893']
   > Extracting R04294
     Reaction is not in the list
@@ -486,7 +766,12 @@ https://rest.kegg.jp/get/ec:5.4.2.12  : 200
   > Extracting R11893
     Substrates: ['5-Fluorodeoxyuridine diphosphate', 'Thioredoxin disulfide']
     Products: ['5-Fluorouridine diphosphate', 'Thioredoxin']
-> Getting reaction id for 6.3.4.2
+> Working with 6.3.4.2
+  > Getting pathway ids for 6.3.4.2
+  > Getting module ids
+  > Assigning modules to 6.3.4.2
+    Enzyme not in the list yet, creating a new set.
+  > Getting reaction id for 6.3.4.2
   Reaction list: ['R00256', 'R00571', 'R00573']
   > Extracting R00256
     Reaction is not in the list
@@ -496,12 +781,28 @@ https://rest.kegg.jp/get/ec:5.4.2.12  : 200
   > Extracting R00573
     Substrates: ['ATP', 'UTP', 'L-Glutamine']
     Products: ['ADP', 'Orthophosphate', 'CTP', 'L-Glutamate']
-> Getting reaction id for 3.5.4.13
+> Working with 3.5.4.13
+  > Getting pathway ids for 3.5.4.13
+    Adding pathway ec00240
+  > Getting module ids
+    > Finding modules for ec00240
+  > Assigning modules to 3.5.4.13
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 3.5.4.13: {'Nucleotide metabolism': 6, 'Carbohydrate metabolism': 1}
+  > Getting reaction id for 3.5.4.13
   Reaction list: ['R02325']
   > Extracting R02325
     Substrates: ['dCTP']
     Products: ['dUTP', 'Ammonia']
-> Getting reaction id for 2.7.4.9
+> Working with 2.7.4.9
+  > Getting pathway ids for 2.7.4.9
+    Adding pathway ec00240
+  > Getting module ids
+    > Finding modules for ec00240
+  > Assigning modules to 2.7.4.9
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 2.7.4.9: {'Nucleotide metabolism': 6, 'Carbohydrate metabolism': 1}
+  > Getting reaction id for 2.7.4.9
   Reaction list: ['R02094', 'R02098']
   > Extracting R02094
     Substrates: ['ATP', 'dTMP']
@@ -509,12 +810,32 @@ https://rest.kegg.jp/get/ec:5.4.2.12  : 200
   > Extracting R02098
     Substrates: ['ATP', 'dUMP']
     Products: ['ADP', 'dUDP']
-> Getting reaction id for 2.1.1.45
+> Working with 2.1.1.45
+  > Getting pathway ids for 2.1.1.45
+    Adding pathway ec00240
+    Adding pathway ec00670
+  > Getting module ids
+    > Finding modules for ec00240
+    > Finding modules for ec00670
+  > Assigning modules to 2.1.1.45
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 2.1.1.45: {'Nucleotide metabolism': 6, 'Carbohydrate metabolism': 1, 'Metabolism of cofactors and vitamins': 3}
+  > Getting reaction id for 2.1.1.45
   Reaction list: ['R02101']
   > Extracting R02101
     Substrates: ['dUMP', '5,10-Methylenetetrahydrofolate']
     Products: ['Dihydrofolate', 'dTMP']
-> Getting reaction id for 1.5.1.3
+> Working with 1.5.1.3
+  > Getting pathway ids for 1.5.1.3
+    Adding pathway ec00670
+    Adding pathway ec00790
+  > Getting module ids
+    > Finding modules for ec00670
+    > Finding modules for ec00790
+  > Assigning modules to 1.5.1.3
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 1.5.1.3: {'Metabolism of cofactors and vitamins': 9}
+  > Getting reaction id for 1.5.1.3
   Reaction list: ['R00939', 'R00936', 'R00937', 'R00940', 'R02235', 'R02236', 'R11765']
   > Extracting R00939
     Substrates: ['Tetrahydrofolate', 'NADP+']
@@ -532,7 +853,23 @@ https://rest.kegg.jp/get/ec:5.4.2.12  : 200
     Reaction is not in the list
   > Extracting R11765
     Reaction is not in the list
-> Getting reaction id for 2.1.2.1
+> Working with 2.1.2.1
+  > Getting pathway ids for 2.1.2.1
+    Adding pathway ec00260
+    Adding pathway ec00460
+    Adding pathway ec00630
+    Adding pathway ec00670
+    Adding pathway ec00680
+  > Getting module ids
+    > Finding modules for ec00260
+    > Finding modules for ec00460
+    > Finding modules for ec00630
+    > Finding modules for ec00670
+    > Finding modules for ec00680
+  > Assigning modules to 2.1.2.1
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 2.1.2.1: {'Amino acid metabolism': 11, 'Carbohydrate metabolism': 6, 'Metabolism of cofactors and vitamins': 3, 'Energy metabolism': 13}
+  > Getting reaction id for 2.1.2.1
   Reaction list: ['R00945', 'R09099']
   > Extracting R00945
     Substrates: ['5,10-Methylenetetrahydrofolate', 'Glycine']
@@ -540,93 +877,253 @@ https://rest.kegg.jp/get/ec:5.4.2.12  : 200
   > Extracting R09099
     Substrates: ['L-Serine', '5,6,7,8-Tetrahydromethanopterin']
     Products: ['5,10-Methylenetetrahydromethanopterin', 'Glycine']
-> Getting reaction id for 2.7.1.191
+> Working with 2.7.1.191
+  > Getting pathway ids for 2.7.1.191
+    Adding pathway ec00051
+    Adding pathway ec00520
+  > Getting module ids
+    > Finding modules for ec00051
+    > Finding modules for ec00520
+  > Assigning modules to 2.7.1.191
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 2.7.1.191: {'Carbohydrate metabolism': 6}
+  > Getting reaction id for 2.7.1.191
   Reaction list: ['R02630']
   > Extracting R02630
     Reaction is not in the list
-> Getting reaction id for 2.7.1.192
+> Working with 2.7.1.192
+  > Getting pathway ids for 2.7.1.192
+    Adding pathway ec00520
+  > Getting module ids
+    > Finding modules for ec00520
+  > Assigning modules to 2.7.1.192
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 2.7.1.192: {'Carbohydrate metabolism': 5}
+  > Getting reaction id for 2.7.1.192
   Reaction list: ['R08559']
   > Extracting R08559
     Reaction is not in the list
-> Getting reaction id for 2.7.1.193
+> Working with 2.7.1.193
+  > Getting pathway ids for 2.7.1.193
+    Adding pathway ec00520
+  > Getting module ids
+    > Finding modules for ec00520
+  > Assigning modules to 2.7.1.193
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 2.7.1.193: {'Carbohydrate metabolism': 5}
+  > Getting reaction id for 2.7.1.193
   Reaction list: ['R05199']
   > Extracting R05199
     Reaction is not in the list
-> Getting reaction id for 2.7.1.194
+> Working with 2.7.1.194
+  > Getting pathway ids for 2.7.1.194
+  > Getting module ids
+  > Assigning modules to 2.7.1.194
+    Enzyme not in the list yet, creating a new set.
+  > Getting reaction id for 2.7.1.194
   Reaction list: ['R07671']
   > Extracting R07671
     Reaction is not in the list
-> Getting reaction id for 2.7.1.195
+> Working with 2.7.1.195
+  > Getting pathway ids for 2.7.1.195
+  > Getting module ids
+  > Assigning modules to 2.7.1.195
+    Enzyme not in the list yet, creating a new set.
+  > Getting reaction id for 2.7.1.195
   Reaction list: ['R11169']
   > Extracting R11169
     Reaction is not in the list
-> Getting reaction id for 2.7.1.196
+> Working with 2.7.1.196
+  > Getting pathway ids for 2.7.1.196
+  > Getting module ids
+  > Assigning modules to 2.7.1.196
+    Enzyme not in the list yet, creating a new set.
+  > Getting reaction id for 2.7.1.196
   Reaction list: ['R11170']
   > Extracting R11170
     Reaction is not in the list
-> Getting reaction id for 2.7.1.197
+> Working with 2.7.1.197
+  > Getting pathway ids for 2.7.1.197
+    Adding pathway ec00051
+  > Getting module ids
+    > Finding modules for ec00051
+  > Assigning modules to 2.7.1.197
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 2.7.1.197: {'Carbohydrate metabolism': 1}
+  > Getting reaction id for 2.7.1.197
   Reaction list: ['R02704']
   > Extracting R02704
     Reaction is not in the list
-> Getting reaction id for 2.7.1.198
+> Working with 2.7.1.198
+  > Getting pathway ids for 2.7.1.198
+    Adding pathway ec00051
+  > Getting module ids
+    > Finding modules for ec00051
+  > Assigning modules to 2.7.1.198
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 2.7.1.198: {'Carbohydrate metabolism': 1}
+  > Getting reaction id for 2.7.1.198
   Reaction list: ['R05820']
   > Extracting R05820
     Reaction is not in the list
-> Getting reaction id for 2.7.1.199
+> Working with 2.7.1.199
+  > Getting pathway ids for 2.7.1.199
+    Adding pathway ec00010
+    Adding pathway ec00520
+  > Getting module ids
+    > Finding modules for ec00010
+    > Finding modules for ec00520
+  > Assigning modules to 2.7.1.199
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 2.7.1.199: {'Carbohydrate metabolism': 9}
+  > Getting reaction id for 2.7.1.199
   Reaction list: ['R02738']
   > Extracting R02738
     Substrates: ['Protein N(pi)-phospho-L-histidine', 'D-Glucose']
     Products: ['Protein histidine', 'alpha-D-Glucose 6-phosphate']
-> Getting reaction id for 2.7.1.200
+> Working with 2.7.1.200
+  > Getting pathway ids for 2.7.1.200
+    Adding pathway ec00052
+  > Getting module ids
+    > Finding modules for ec00052
+  > Assigning modules to 2.7.1.200
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 2.7.1.200: {'Carbohydrate metabolism': 5}
+  > Getting reaction id for 2.7.1.200
   Reaction list: ['R05570']
   > Extracting R05570
     Reaction is not in the list
-> Getting reaction id for 2.7.1.201
+> Working with 2.7.1.201
+  > Getting pathway ids for 2.7.1.201
+    Adding pathway ec00500
+  > Getting module ids
+    > Finding modules for ec00500
+  > Assigning modules to 2.7.1.201
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 2.7.1.201: {'Carbohydrate metabolism': 3}
+  > Getting reaction id for 2.7.1.201
   Reaction list: ['R02780', 'R06229']
   > Extracting R02780
     Reaction is not in the list
   > Extracting R06229
     Reaction is not in the list
-> Getting reaction id for 2.7.1.202
+> Working with 2.7.1.202
+  > Getting pathway ids for 2.7.1.202
+    Adding pathway ec00051
+  > Getting module ids
+    > Finding modules for ec00051
+  > Assigning modules to 2.7.1.202
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 2.7.1.202: {'Carbohydrate metabolism': 1}
+  > Getting reaction id for 2.7.1.202
   Reaction list: ['R03232']
   > Extracting R03232
     Reaction is not in the list
-> Getting reaction id for 2.7.1.203
+> Working with 2.7.1.203
+  > Getting pathway ids for 2.7.1.203
+    Adding pathway ec00030
+  > Getting module ids
+    > Finding modules for ec00030
+  > Assigning modules to 2.7.1.203
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 2.7.1.203: {'Carbohydrate metabolism': 12, 'Energy metabolism': 1}
+  > Getting reaction id for 2.7.1.203
   Reaction list: ['R10407']
   > Extracting R10407
     Reaction is not in the list
-> Getting reaction id for 2.7.1.204
+> Working with 2.7.1.204
+  > Getting pathway ids for 2.7.1.204
+  > Getting module ids
+  > Assigning modules to 2.7.1.204
+    Enzyme not in the list yet, creating a new set.
+  > Getting reaction id for 2.7.1.204
   Reaction list: ['R11171']
   > Extracting R11171
     Reaction is not in the list
-> Getting reaction id for 2.7.1.205
+> Working with 2.7.1.205
+  > Getting pathway ids for 2.7.1.205
+    Adding pathway ec00500
+  > Getting module ids
+    > Finding modules for ec00500
+  > Assigning modules to 2.7.1.205
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 2.7.1.205: {'Carbohydrate metabolism': 3}
+  > Getting reaction id for 2.7.1.205
   Reaction list: ['R11172']
   > Extracting R11172
     Reaction is not in the list
-> Getting reaction id for 2.7.1.206
+> Working with 2.7.1.206
+  > Getting pathway ids for 2.7.1.206
+    Adding pathway ec00051
+  > Getting module ids
+    > Finding modules for ec00051
+  > Assigning modules to 2.7.1.206
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 2.7.1.206: {'Carbohydrate metabolism': 1}
+  > Getting reaction id for 2.7.1.206
   Reaction list: ['R04076']
   > Extracting R04076
     Reaction is not in the list
-> Getting reaction id for 2.7.1.207
+> Working with 2.7.1.207
+  > Getting pathway ids for 2.7.1.207
+    Adding pathway ec00052
+  > Getting module ids
+    > Finding modules for ec00052
+  > Assigning modules to 2.7.1.207
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 2.7.1.207: {'Carbohydrate metabolism': 5}
+  > Getting reaction id for 2.7.1.207
   Reaction list: ['R04393', 'R06237']
   > Extracting R04393
     Reaction is not in the list
   > Extracting R06237
     Reaction is not in the list
-> Getting reaction id for 2.7.1.208
+> Working with 2.7.1.208
+  > Getting pathway ids for 2.7.1.208
+    Adding pathway ec00500
+  > Getting module ids
+    > Finding modules for ec00500
+  > Assigning modules to 2.7.1.208
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 2.7.1.208: {'Carbohydrate metabolism': 3}
+  > Getting reaction id for 2.7.1.208
   Reaction list: ['R04111', 'R06236']
   > Extracting R04111
     Reaction is not in the list
   > Extracting R06236
     Reaction is not in the list
-> Getting reaction id for 5.4.2.11
+> Working with 5.4.2.11
+  > Getting pathway ids for 5.4.2.11
+    Adding pathway ec00010
+    Adding pathway ec00260
+    Adding pathway ec00680
+  > Getting module ids
+    > Finding modules for ec00010
+    > Finding modules for ec00260
+    > Finding modules for ec00680
+  > Assigning modules to 5.4.2.11
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 5.4.2.11: {'Carbohydrate metabolism': 4, 'Amino acid metabolism': 9, 'Energy metabolism': 13}
+  > Getting reaction id for 5.4.2.11
   Reaction list: ['R01516', 'R01518']
   > Extracting R01516
     Reaction is not in the list
   > Extracting R01518
     Substrates: ['2-Phospho-D-glycerate']
     Products: ['3-Phospho-D-glycerate']
-> Getting reaction id for 5.4.2.12
+> Working with 5.4.2.12
+  > Getting pathway ids for 5.4.2.12
+    Adding pathway ec00010
+    Adding pathway ec00260
+    Adding pathway ec00680
+  > Getting module ids
+    > Finding modules for ec00010
+    > Finding modules for ec00260
+    > Finding modules for ec00680
+  > Assigning modules to 5.4.2.12
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 5.4.2.12: {'Carbohydrate metabolism': 4, 'Amino acid metabolism': 9, 'Energy metabolism': 13}
+  > Getting reaction id for 5.4.2.12
   Reaction list: ['R01518']
   > Extracting R01518
     Substrates: ['2-Phospho-D-glycerate']
@@ -1149,4 +1646,4 @@ Found metabolite already, has id 2017
 Found metabolite already, has id 2016
 
 <== Finished ==>
-Took 157.3399 seconds to run.
+Took 114.5247 seconds to run.

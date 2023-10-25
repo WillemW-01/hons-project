@@ -1,0 +1,997 @@
+nodedef>name INTEGER,label VARCHAR,class VARCHAR,module VARCHAR
+0,2.7.7.7,enzyme
+2000,Deoxynucleoside triphosphate,metabolite
+2001,DNA(n),metabolite
+2002,Diphosphate,metabolite
+2003,DNA(n+1),metabolite
+2004,dATP,metabolite
+2005,DNA,metabolite
+2006,dGTP,metabolite
+2007,dCTP,metabolite
+2008,dTTP,metabolite
+2009,2'-Deoxy-5-hydroxymethylcytidine-5'-triphosphate,metabolite
+2010,5-Hydroxymethylcytosine in DNA,metabolite
+2,6.1.1.11,enzyme
+2011,ATP,metabolite
+2012,L-Serine,metabolite
+2013,tRNA(Ser),metabolite
+2014,AMP,metabolite
+2015,L-Seryl-tRNA(Ser),metabolite
+2016,tRNA(Sec),metabolite
+2017,L-Seryl-tRNA(Sec),metabolite
+3,2.7.4.9,enzyme,Nucleotide metabolism
+2018,dTMP,metabolite
+2019,ADP,metabolite
+2020,dTDP,metabolite
+2021,dUMP,metabolite
+2022,dUDP,metabolite
+5,6.1.1.10,enzyme
+2023,L-Methionine,metabolite
+2024,tRNA(Met),metabolite
+2025,L-Methionyl-tRNA,metabolite
+2026,L-Selenomethionine,metabolite
+2027,Selenomethionyl-tRNA(Met),metabolite
+6,2.7.7.6,enzyme
+2028,Nucleoside triphosphate,metabolite
+2029,RNA,metabolite
+2030,GTP,metabolite
+2031,CTP,metabolite
+2032,UTP,metabolite
+2033,n Nucleoside triphosphate,metabolite
+2034,5'-Triphospho-[mRNA]#(n),metabolite
+2035,(n-1) Diphosphate,metabolite
+7,4.1.2.13,enzyme
+2036,Fructose 1#6-bisphosphate,metabolite
+2037,Glycerone phosphate,metabolite
+2038,Glyceraldehyde 3-phosphate,metabolite
+2039,Sedoheptulose 1#7-bisphosphate,metabolite
+2040,Erythrose 4-phosphate,metabolite
+2041,Fructose 1-phosphate,metabolite
+2042,Glyceraldehyde,metabolite
+8,2.4.2.9,enzyme
+2043,UMP,metabolite
+2044,Uracil,metabolite
+2045,5-Phospho-alpha-D-ribose 1-diphosphate,metabolite
+9,2.7.1.21,enzyme,Nucleotide metabolism
+2046,Thymidine,metabolite
+2047,Deoxyuridine,metabolite
+2048,5-Fluorodeoxyuridine,metabolite
+2049,5-Fluorodeoxyuridine monophosphate,metabolite
+10,6.1.1.21,enzyme
+2050,L-Histidine,metabolite
+2051,tRNA(His),metabolite
+2052,L-Histidyl-tRNA(His),metabolite
+11,6.1.1.12,enzyme
+2053,tRNA(Asp),metabolite
+2054,L-Aspartate,metabolite
+2055,L-Aspartyl-tRNA(Asp),metabolite
+12,6.3.4.21,enzyme,Metabolism of cofactors and vitamins
+2056,Nicotinate D-ribonucleotide,metabolite
+2057,Orthophosphate,metabolite
+2058,Nicotinate,metabolite
+13,2.7.1.30,enzyme
+2059,Glycerol,metabolite
+2060,sn-Glycerol 3-phosphate,metabolite
+14,2.3.1.234,enzyme
+2061,L-Threonylcarbamoyladenylate,metabolite
+2062,tRNA adenine,metabolite
+2063,N6-L-Threonylcarbamoyladenine in tRNA,metabolite
+15,2.5.1.6,enzyme
+2064,Adenosyl-L-methionine,metabolite
+2065,Se-Adenosylselenomethionine,metabolite
+16,2.4.2.1,enzyme
+2066,N-D-Ribosylpurine,metabolite
+2067,Purine,metabolite
+2068,Ribose 1-phosphate,metabolite
+2069,Adenosine,metabolite
+2070,Adenine,metabolite
+2071,Inosine,metabolite
+2072,Hypoxanthine,metabolite
+2073,Guanosine,metabolite
+2074,Guanine,metabolite
+2075,Xanthosine,metabolite
+2076,Xanthine,metabolite
+2077,Purine deoxyribonucleoside,metabolite
+2078,2-Deoxy-D-ribose 1-phosphate,metabolite
+2079,Deoxyguanosine,metabolite
+2080,Deoxyadenosine,metabolite
+2081,Deoxyinosine,metabolite
+2082,Nicotinamide-beta-riboside,metabolite
+2083,Nicotinamide,metabolite
+2084,Nicotinate D-ribonucleoside,metabolite
+17,4.1.2.4,enzyme,Carbohydrate metabolism
+2085,2-Deoxy-D-ribose 5-phosphate,metabolite
+2086,Acetaldehyde,metabolite
+18,5.4.2.2,enzyme
+2087,Glucose 1-phosphate,metabolite
+2088,Glucose 6-phosphate,metabolite
+2089,Ribose 5-phosphate,metabolite
+2090,Hexose 1-phosphate,metabolite
+2091,Hexose 6-phosphate,metabolite
+21,2.7.6.1,enzyme
+22,6.1.1.20,enzyme
+2092,L-Phenylalanine,metabolite
+2093,tRNA(Phe),metabolite
+2094,L-Phenylalanyl-tRNA(Phe),metabolite
+23,3.1.3.7,enzyme
+2095,Adenosine 3#5'-bisphosphate,metabolite
+2096,3'-Phosphoadenylyl sulfate,metabolite
+2097,Adenylyl sulfate,metabolite
+24,2.7.1.26,enzyme,Metabolism of cofactors and vitamins
+2098,Riboflavin,metabolite
+2099,FMN,metabolite
+25,2.7.7.2,enzyme,Metabolism of cofactors and vitamins
+2100,FAD,metabolite
+27,3.1.1.29,enzyme
+2101,N-Substituted aminoacyl-tRNA,metabolite
+2102,N-Substituted amino acid,metabolite
+2103,tRNA,metabolite
+28,6.3.4.19,enzyme
+2104,[tRNA(Ile2)]-cytidine34,metabolite
+2105,L-Lysine,metabolite
+2106,[tRNA(Ile2)]-lysidine34,metabolite
+30,1.8.1.9,enzyme
+2107,Thioredoxin,metabolite
+2108,NADP+,metabolite
+2109,Thioredoxin disulfide,metabolite
+2110,NADPH,metabolite
+2111,L-Cysteine,metabolite
+2112,Glutathione,metabolite
+2113,Glutathionyl-L-cysteine,metabolite
+2114,Hydrogen selenide,metabolite
+2115,H2O,metabolite
+2116,Selenite,metabolite
+2117,H+,metabolite
+2118,Methylselenic acid,metabolite
+2119,Methaneselenol,metabolite
+31,3.5.1.88,enzyme
+2120,Formyl-L-methionyl peptide,metabolite
+2121,Methionyl peptide,metabolite
+2122,Formate,metabolite
+2123,N-Formyl-L-methionylaminoacyl-tRNA,metabolite
+2124,L-Methionylaminoacyl-tRNA,metabolite
+32,2.7.4.8,enzyme,Nucleotide metabolism
+2125,GMP,metabolite
+2126,GDP,metabolite
+2127,dGMP,metabolite
+2128,dGDP,metabolite
+2129,dZMP,metabolite
+2130,dZDP,metabolite
+33,5.3.1.9,enzyme
+2131,Fructose 6-phosphate,metabolite
+34,6.1.1.22,enzyme
+2132,L-Asparagine,metabolite
+2133,tRNA(Asn),metabolite
+2134,L-Asparaginyl-tRNA(Asn),metabolite
+35,2.7.8.5,enzyme,Lipid metabolism
+2135,CDP-diacylglycerol,metabolite
+2136,CMP,metabolite
+2137,Phosphatidylglycerophosphate,metabolite
+36,5.1.3.2,enzyme
+2138,UDP-glucose,metabolite
+2139,UDP-alpha-D-galactose,metabolite
+2140,UDP-N-acetyl-alpha-D-glucosamine,metabolite
+2141,UDP-N-acetyl-D-galactosamine,metabolite
+2142,dTDP-glucose,metabolite
+2143,dTDP-galactose,metabolite
+38,6.1.1.2,enzyme
+2144,L-Tryptophan,metabolite
+2145,tRNA(Trp),metabolite
+2146,L-Tryptophanyl-tRNA(Trp),metabolite
+39,2.7.1.23,enzyme
+2147,NAD+,metabolite
+40,6.1.1.6,enzyme
+2148,tRNA(Lys),metabolite
+2149,L-Lysyl-tRNA,metabolite
+41,3.1.3.100,enzyme,Metabolism of cofactors and vitamins
+2150,Thiamin monophosphate,metabolite
+2151,Thiamine,metabolite
+43,2.7.8.7,enzyme
+2152,CoA,metabolite
+2153,Apo-[acyl-carrier-protein]#,metabolite
+2154,Acyl-carrier protein,metabolite
+44,2.7.1.11,enzyme,Carbohydrate metabolism
+2155,CDP,metabolite
+2156,UDP,metabolite
+2157,ITP,metabolite
+2158,IDP,metabolite
+2159,Sedoheptulose 7-phosphate,metabolite
+2160,Tagatose 6-phosphate,metabolite
+2161,Tagatose 1#6-bisphosphate,metabolite
+45,2.7.1.40,enzyme
+2162,Pyruvate,metabolite
+2163,Phosphoenolpyruvate,metabolite
+2164,dADP,metabolite
+2165,NDP,metabolite
+46,1.5.1.3,enzyme,Metabolism of cofactors and vitamins
+2166,Tetrahydrofolate,metabolite
+2167,Dihydrofolate,metabolite
+2168,NADH,metabolite
+2169,Folate,metabolite
+2170,Tetrahydrobiopterin,metabolite
+2171,7#8-Dihydrobiopterin,metabolite
+49,2.7.7.18,enzyme
+2172,Deamino-NAD+,metabolite
+2173,Nicotinamide D-ribonucleotide,metabolite
+50,2.3.1.15,enzyme,Lipid metabolism
+2174,Acyl-CoA,metabolite
+2175,1-Acyl-sn-glycerol 3-phosphate,metabolite
+2176,2#3-Dehydroacyl-CoA,metabolite
+2177,Acyl-[acyl-carrier protein],metabolite
+51,6.1.1.14,enzyme
+2178,Glycine,metabolite
+2179,tRNA(Gly),metabolite
+2180,Glycyl-tRNA(Gly),metabolite
+52,6.1.1.16,enzyme
+2181,tRNA(Cys),metabolite
+2182,L-Cysteinyl-tRNA(Cys),metabolite
+53,6.5.1.2,enzyme
+2183,5'-Phospho-DNA(m),metabolite
+2184,DNA(n+m),metabolite
+54,3.1.3.16,enzyme
+2185,Phosphoprotein,metabolite
+2186,Protein,metabolite
+55,6.1.1.4,enzyme
+2187,L-Leucine,metabolite
+2188,tRNA(Leu),metabolite
+2189,L-Leucyl-tRNA,metabolite
+56,1.2.4.1,enzyme,Carbohydrate metabolism
+2190,Enzyme N6-(lipoyl)lysine,metabolite
+2191,[Dihydrolipoyllysine-residue acetyltransferase] S-acetyldihydrolipoyllysine,metabolite
+2192,Thiamin diphosphate,metabolite
+2193,2-(alpha-Hydroxyethyl)thiamine diphosphate,metabolite
+2194,[Dihydrolipoyllysine-residue acetyltransferase]# S-acetyldihydrolipoyllysine,metabolite
+57,2.4.2.7,enzyme,Nucleotide metabolism
+2195,1-(5'-Phosphoribosyl)-5-amino-4-imidazolecarboxamide,metabolite
+2196,5-Amino-4-imidazolecarboxyamide,metabolite
+58,6.1.1.15,enzyme
+2197,L-Proline,metabolite
+2198,tRNA(Pro),metabolite
+2199,L-Prolyl-tRNA(Pro),metabolite
+60,6.1.1.7,enzyme
+2200,L-Alanine,metabolite
+2201,tRNA(Ala),metabolite
+2202,L-Alanyl-tRNA,metabolite
+61,2.8.1.13,enzyme
+2203,tRNA uridine,metabolite
+2204,[Enzyme]-S-sulfanylcysteine,metabolite
+2205,tRNA containing 2-thiouridine,metabolite
+2206,[Enzyme]-cysteine,metabolite
+62,2.7.4.25,enzyme,Nucleotide metabolism
+2207,dCMP,metabolite
+2208,dCDP,metabolite
+63,1.7.1.17,enzyme
+2209,Anthranilate,metabolite
+2210,N#N-Dimethyl-1#4-phenylenediamine,metabolite
+2211,Methyl red,metabolite
+64,6.1.1.9,enzyme
+2212,L-Valine,metabolite
+2213,tRNA(Val),metabolite
+2214,L-Valyl-tRNA(Val),metabolite
+65,6.1.1.5,enzyme
+2215,L-Isoleucine,metabolite
+2216,tRNA(Ile),metabolite
+2217,L-Isoleucyl-tRNA(Ile),metabolite
+66,2.7.2.1,enzyme,Energy metabolism
+2218,Acetate,metabolite
+2219,Acetyl phosphate,metabolite
+2220,Propanoate,metabolite
+2221,Propanoyl phosphate,metabolite
+67,2.1.2.9,enzyme,Metabolism of cofactors and vitamins
+2222,10-Formyltetrahydrofolate,metabolite
+2223,N-Formylmethionyl-tRNA,metabolite
+68,2.3.1.274,enzyme,Lipid metabolism
+2224,Acyl phosphate,metabolite
+69,6.1.1.3,enzyme
+2225,L-Threonine,metabolite
+2226,tRNA(Thr),metabolite
+2227,L-Threonyl-tRNA(Thr),metabolite
+70,6.1.1.19,enzyme
+2228,L-Arginine,metabolite
+2229,tRNA(Arg),metabolite
+2230,L-Arginyl-tRNA(Arg),metabolite
+71,6.3.1.5,enzyme,Metabolism of cofactors and vitamins
+2231,Ammonia,metabolite
+73,2.1.2.1,enzyme,Energy metabolism
+2232,5#10-Methylenetetrahydrofolate,metabolite
+2233,5#6#7#8-Tetrahydromethanopterin,metabolite
+2234,5#10-Methylenetetrahydromethanopterin,metabolite
+74,5.3.1.6,enzyme,Carbohydrate metabolism
+2235,Ribulose 5-phosphate,metabolite
+2236,Allose 6-phosphate,metabolite
+2237,Allulose 6-phosphate,metabolite
+76,4.2.1.11,enzyme
+2238,2-Phospho-D-glycerate,metabolite
+2239,3-Phospho-D-erythronate,metabolite
+2240,Phosphoenol-4-deoxy-3-tetrulosonate,metabolite
+79,2.7.3.9,enzyme
+2241,Protein histidine,metabolite
+2242,Protein N(pi)-phospho-L-histidine,metabolite
+80,5.4.2.12,enzyme,Energy metabolism
+2243,3-Phospho-D-glycerate,metabolite
+81,5.3.1.1,enzyme,Carbohydrate metabolism
+82,2.7.4.22,enzyme,Nucleotide metabolism
+83,2.1.1.228,enzyme
+2244,tRNA guanine,metabolite
+2245,Adenosyl-L-homocysteine,metabolite
+2246,tRNA containing N1-methylguanine,metabolite
+84,2.7.7.9,enzyme,Carbohydrate metabolism
+85,6.1.1.1,enzyme
+2247,L-Tyrosine,metabolite
+2248,tRNA(Tyr),metabolite
+2249,L-Tyrosyl-tRNA(Tyr),metabolite
+86,2.4.2.8,enzyme,Nucleotide metabolism
+2250,IMP,metabolite
+2251,Xanthosine 5'-phosphate,metabolite
+2252,6-Mercaptopurine,metabolite
+2253,6-Thioinosine-5'-monophosphate,metabolite
+2254,6-Methylmercaptopurine,metabolite
+2255,6-Methylthiopurine 5'-monophosphate ribonucleotide,metabolite
+2256,Thioguanine,metabolite
+2257,6-Thioguanosine monophosphate,metabolite
+87,1.1.1.27,enzyme,Carbohydrate metabolism
+2258,Lactate,metabolite
+2259,2-Hydroxybutanoic acid,metabolite
+2260,2-Oxobutanoate,metabolite
+2261,3-Mercaptolactate,metabolite
+2262,Mercaptopyruvate,metabolite
+88,6.1.1.17,enzyme,Metabolism of cofactors and vitamins
+2263,tRNA(Glu),metabolite
+2264,L-Glutamate,metabolite
+2265,L-Glutamyl-tRNA(Glu),metabolite
+89,2.1.1.182,enzyme
+2266,Adenine in rRNA,metabolite
+2267,N6-Dimethyladenine in rRNA,metabolite
+edgedef>source INTEGER,target INTEGER,directed BOOLEAN,weight DOUBLE
+2000,0,true,1.0
+2001,0,true,1.0
+0,2002,true,1.0
+0,2003,true,1.0
+2004,0,true,1.0
+2005,0,true,1.0
+0,2002,true,1.0
+0,2005,true,1.0
+2006,0,true,1.0
+2005,0,true,1.0
+0,2002,true,1.0
+0,2005,true,1.0
+2007,0,true,1.0
+2005,0,true,1.0
+0,2002,true,1.0
+0,2005,true,1.0
+2008,0,true,1.0
+2005,0,true,1.0
+0,2002,true,1.0
+0,2005,true,1.0
+2009,0,true,1.0
+0,2010,true,1.0
+2011,2,true,1.0
+2012,2,true,1.0
+2013,2,true,1.0
+2,2014,true,1.0
+2,2002,true,1.0
+2,2015,true,1.0
+2011,2,true,1.0
+2012,2,true,1.0
+2016,2,true,1.0
+2,2014,true,1.0
+2,2002,true,1.0
+2,2017,true,1.0
+2011,3,true,1.0
+2018,3,true,1.0
+3,2019,true,1.0
+3,2020,true,1.0
+2011,3,true,1.0
+2021,3,true,1.0
+3,2019,true,1.0
+3,2022,true,1.0
+2011,5,true,1.0
+2023,5,true,1.0
+2024,5,true,1.0
+5,2014,true,1.0
+5,2002,true,1.0
+5,2025,true,1.0
+2011,5,true,1.0
+2026,5,true,1.0
+2024,5,true,1.0
+5,2014,true,1.0
+5,2002,true,1.0
+5,2027,true,1.0
+2028,6,true,1.0
+2029,6,true,1.0
+6,2002,true,1.0
+6,2029,true,1.0
+2011,6,true,1.0
+2029,6,true,1.0
+6,2002,true,1.0
+6,2029,true,1.0
+2030,6,true,1.0
+2029,6,true,1.0
+6,2002,true,1.0
+6,2029,true,1.0
+2031,6,true,1.0
+2029,6,true,1.0
+6,2002,true,1.0
+6,2029,true,1.0
+2032,6,true,1.0
+2029,6,true,1.0
+6,2002,true,1.0
+6,2029,true,1.0
+2033,6,true,1.0
+6,2034,true,1.0
+6,2035,true,1.0
+2036,7,true,1.0
+7,2037,true,1.0
+7,2038,true,1.0
+2036,7,true,1.0
+7,2037,true,1.0
+7,2038,true,1.0
+2039,7,true,1.0
+7,2037,true,1.0
+7,2040,true,1.0
+2041,7,true,1.0
+7,2037,true,1.0
+7,2042,true,1.0
+2043,8,true,1.0
+2002,8,true,1.0
+8,2044,true,1.0
+8,2045,true,1.0
+2011,9,true,1.0
+2046,9,true,1.0
+9,2019,true,1.0
+9,2018,true,1.0
+2011,9,true,1.0
+2047,9,true,1.0
+9,2019,true,1.0
+9,2021,true,1.0
+2048,9,true,1.0
+2011,9,true,1.0
+9,2049,true,1.0
+9,2019,true,1.0
+2011,10,true,1.0
+2050,10,true,1.0
+2051,10,true,1.0
+10,2014,true,1.0
+10,2002,true,1.0
+10,2052,true,1.0
+2053,11,true,1.0
+2054,11,true,1.0
+2011,11,true,1.0
+11,2055,true,1.0
+11,2002,true,1.0
+11,2014,true,1.0
+2056,12,true,1.0
+2002,12,true,1.0
+2019,12,true,1.0
+2057,12,true,1.0
+12,2058,true,1.0
+12,2045,true,1.0
+12,2011,true,1.0
+2011,13,true,1.0
+2059,13,true,1.0
+13,2019,true,1.0
+13,2060,true,1.0
+2061,14,true,1.0
+2062,14,true,1.0
+14,2014,true,1.0
+14,2063,true,1.0
+2057,15,true,1.0
+2002,15,true,1.0
+2064,15,true,1.0
+15,2011,true,1.0
+15,2023,true,1.0
+2011,15,true,1.0
+2026,15,true,1.0
+15,2057,true,1.0
+15,2002,true,1.0
+15,2065,true,1.0
+2066,16,true,1.0
+2057,16,true,1.0
+16,2067,true,1.0
+16,2068,true,1.0
+2069,16,true,1.0
+2057,16,true,1.0
+16,2070,true,1.0
+16,2068,true,1.0
+2071,16,true,1.0
+2057,16,true,1.0
+16,2072,true,1.0
+16,2068,true,1.0
+2073,16,true,1.0
+2057,16,true,1.0
+16,2074,true,1.0
+16,2068,true,1.0
+2075,16,true,1.0
+2057,16,true,1.0
+16,2076,true,1.0
+16,2068,true,1.0
+2077,16,true,1.0
+2057,16,true,1.0
+16,2067,true,1.0
+16,2078,true,1.0
+2079,16,true,1.0
+2057,16,true,1.0
+16,2074,true,1.0
+16,2078,true,1.0
+2080,16,true,1.0
+2057,16,true,1.0
+16,2070,true,1.0
+16,2078,true,1.0
+2081,16,true,1.0
+2057,16,true,1.0
+16,2072,true,1.0
+16,2078,true,1.0
+2082,16,true,1.0
+2057,16,true,1.0
+16,2083,true,1.0
+16,2068,true,1.0
+2084,16,true,1.0
+2057,16,true,1.0
+16,2058,true,1.0
+16,2068,true,1.0
+2085,17,true,1.0
+17,2038,true,1.0
+17,2086,true,1.0
+2087,18,true,1.0
+18,2088,true,1.0
+2087,18,true,1.0
+18,2088,true,1.0
+2068,18,true,1.0
+18,2089,true,1.0
+2090,18,true,1.0
+18,2091,true,1.0
+2011,21,true,1.0
+2089,21,true,1.0
+21,2014,true,1.0
+21,2045,true,1.0
+2011,22,true,1.0
+2092,22,true,1.0
+2093,22,true,1.0
+22,2014,true,1.0
+22,2002,true,1.0
+22,2094,true,1.0
+2095,23,true,1.0
+23,2014,true,1.0
+23,2057,true,1.0
+2096,23,true,1.0
+23,2097,true,1.0
+23,2057,true,1.0
+2011,24,true,1.0
+2098,24,true,1.0
+24,2019,true,1.0
+24,2099,true,1.0
+2011,25,true,1.0
+2099,25,true,1.0
+25,2002,true,1.0
+25,2100,true,1.0
+2101,27,true,1.0
+27,2102,true,1.0
+27,2103,true,1.0
+2104,28,true,1.0
+2105,28,true,1.0
+2011,28,true,1.0
+28,2106,true,1.0
+28,2014,true,1.0
+28,2002,true,1.0
+2107,30,true,1.0
+2108,30,true,1.0
+30,2109,true,1.0
+30,2110,true,1.0
+2111,30,true,1.0
+2112,30,true,1.0
+2108,30,true,1.0
+30,2113,true,1.0
+30,2110,true,1.0
+2114,30,true,1.0
+2108,30,true,1.0
+2115,30,true,1.0
+30,2116,true,1.0
+30,2110,true,1.0
+30,2117,true,1.0
+2110,30,true,1.0
+2117,30,true,1.0
+2118,30,true,1.0
+30,2108,true,1.0
+30,2115,true,1.0
+30,2119,true,1.0
+2120,31,true,1.0
+31,2121,true,1.0
+31,2122,true,1.0
+2123,31,true,1.0
+31,2122,true,1.0
+31,2124,true,1.0
+2011,32,true,1.0
+2125,32,true,1.0
+32,2019,true,1.0
+32,2126,true,1.0
+2011,32,true,1.0
+2127,32,true,1.0
+32,2019,true,1.0
+32,2128,true,1.0
+2129,32,true,1.0
+2011,32,true,1.0
+32,2130,true,1.0
+32,2019,true,1.0
+2088,33,true,1.0
+33,2131,true,1.0
+2088,33,true,1.0
+33,2131,true,1.0
+2088,33,true,1.0
+33,2088,true,1.0
+2088,33,true,1.0
+33,2131,true,1.0
+2088,33,true,1.0
+33,2131,true,1.0
+2011,34,true,1.0
+2132,34,true,1.0
+2133,34,true,1.0
+34,2014,true,1.0
+34,2002,true,1.0
+34,2134,true,1.0
+2135,35,true,1.0
+2060,35,true,1.0
+35,2136,true,1.0
+35,2137,true,1.0
+2138,36,true,1.0
+36,2139,true,1.0
+2140,36,true,1.0
+36,2141,true,1.0
+2142,36,true,1.0
+36,2143,true,1.0
+2011,38,true,1.0
+2144,38,true,1.0
+2145,38,true,1.0
+38,2014,true,1.0
+38,2002,true,1.0
+38,2146,true,1.0
+2011,39,true,1.0
+2147,39,true,1.0
+39,2019,true,1.0
+39,2108,true,1.0
+2011,40,true,1.0
+2105,40,true,1.0
+2148,40,true,1.0
+40,2014,true,1.0
+40,2002,true,1.0
+40,2149,true,1.0
+2150,41,true,1.0
+41,2151,true,1.0
+41,2057,true,1.0
+2152,43,true,1.0
+2153,43,true,1.0
+43,2095,true,1.0
+43,2154,true,1.0
+2011,44,true,1.0
+2131,44,true,1.0
+44,2019,true,1.0
+44,2036,true,1.0
+2011,44,true,1.0
+2131,44,true,1.0
+44,2019,true,1.0
+44,2036,true,1.0
+2031,44,true,1.0
+2131,44,true,1.0
+44,2155,true,1.0
+44,2036,true,1.0
+2032,44,true,1.0
+2131,44,true,1.0
+44,2156,true,1.0
+44,2036,true,1.0
+2157,44,true,1.0
+2131,44,true,1.0
+44,2158,true,1.0
+44,2036,true,1.0
+2011,44,true,1.0
+2159,44,true,1.0
+44,2019,true,1.0
+44,2039,true,1.0
+2160,44,true,1.0
+2011,44,true,1.0
+44,2161,true,1.0
+44,2019,true,1.0
+2031,44,true,1.0
+2160,44,true,1.0
+44,2155,true,1.0
+44,2161,true,1.0
+2032,44,true,1.0
+2160,44,true,1.0
+44,2156,true,1.0
+44,2161,true,1.0
+2157,44,true,1.0
+2160,44,true,1.0
+44,2158,true,1.0
+44,2161,true,1.0
+2011,45,true,1.0
+2162,45,true,1.0
+45,2019,true,1.0
+45,2163,true,1.0
+2030,45,true,1.0
+2162,45,true,1.0
+45,2126,true,1.0
+45,2163,true,1.0
+2031,45,true,1.0
+2162,45,true,1.0
+45,2155,true,1.0
+45,2163,true,1.0
+2032,45,true,1.0
+2162,45,true,1.0
+45,2156,true,1.0
+45,2163,true,1.0
+2157,45,true,1.0
+2162,45,true,1.0
+45,2158,true,1.0
+45,2163,true,1.0
+2004,45,true,1.0
+2162,45,true,1.0
+45,2164,true,1.0
+45,2163,true,1.0
+2006,45,true,1.0
+2162,45,true,1.0
+45,2128,true,1.0
+45,2163,true,1.0
+2028,45,true,1.0
+2162,45,true,1.0
+45,2165,true,1.0
+45,2163,true,1.0
+2166,46,true,1.0
+2108,46,true,1.0
+46,2167,true,1.0
+46,2110,true,1.0
+2166,46,true,1.0
+2147,46,true,1.0
+46,2167,true,1.0
+46,2168,true,1.0
+2166,46,true,1.0
+2147,46,true,1.0
+46,2169,true,1.0
+46,2168,true,1.0
+46,2117,true,1.0
+2166,46,true,1.0
+2108,46,true,1.0
+46,2169,true,1.0
+46,2110,true,1.0
+46,2117,true,1.0
+2167,46,true,1.0
+2147,46,true,1.0
+46,2169,true,1.0
+46,2168,true,1.0
+2167,46,true,1.0
+2108,46,true,1.0
+46,2169,true,1.0
+46,2110,true,1.0
+2170,46,true,1.0
+2108,46,true,1.0
+46,2171,true,1.0
+46,2110,true,1.0
+2011,49,true,1.0
+2056,49,true,1.0
+49,2002,true,1.0
+49,2172,true,1.0
+2011,49,true,1.0
+2173,49,true,1.0
+49,2002,true,1.0
+49,2147,true,1.0
+2060,50,true,1.0
+2174,50,true,1.0
+50,2175,true,1.0
+50,2152,true,1.0
+2176,50,true,1.0
+2060,50,true,1.0
+50,2152,true,1.0
+50,2175,true,1.0
+2177,50,true,1.0
+2060,50,true,1.0
+50,2175,true,1.0
+50,2154,true,1.0
+2011,51,true,1.0
+2178,51,true,1.0
+2179,51,true,1.0
+51,2014,true,1.0
+51,2002,true,1.0
+51,2180,true,1.0
+2011,52,true,1.0
+2111,52,true,1.0
+2181,52,true,1.0
+52,2014,true,1.0
+52,2002,true,1.0
+52,2182,true,1.0
+2147,53,true,1.0
+2001,53,true,1.0
+2183,53,true,1.0
+53,2014,true,1.0
+53,2173,true,1.0
+53,2184,true,1.0
+2185,54,true,1.0
+54,2186,true,1.0
+54,2057,true,1.0
+2011,55,true,1.0
+2187,55,true,1.0
+2188,55,true,1.0
+55,2014,true,1.0
+55,2002,true,1.0
+55,2189,true,1.0
+2162,56,true,1.0
+2190,56,true,1.0
+56,2191,true,1.0
+2162,56,true,1.0
+2192,56,true,1.0
+56,2193,true,1.0
+2193,56,true,1.0
+2190,56,true,1.0
+56,2194,true,1.0
+56,2192,true,1.0
+2014,57,true,1.0
+2002,57,true,1.0
+57,2070,true,1.0
+57,2045,true,1.0
+2195,57,true,1.0
+2002,57,true,1.0
+57,2196,true,1.0
+57,2045,true,1.0
+2011,58,true,1.0
+2197,58,true,1.0
+2198,58,true,1.0
+58,2014,true,1.0
+58,2002,true,1.0
+58,2199,true,1.0
+2011,60,true,1.0
+2200,60,true,1.0
+2201,60,true,1.0
+60,2014,true,1.0
+60,2002,true,1.0
+60,2202,true,1.0
+2203,61,true,1.0
+2204,61,true,1.0
+2011,61,true,1.0
+61,2205,true,1.0
+61,2206,true,1.0
+61,2014,true,1.0
+61,2002,true,1.0
+2011,62,true,1.0
+2136,62,true,1.0
+62,2019,true,1.0
+62,2155,true,1.0
+2011,62,true,1.0
+2207,62,true,1.0
+62,2019,true,1.0
+62,2208,true,1.0
+2209,63,true,1.0
+2210,63,true,1.0
+2147,63,true,1.0
+63,2211,true,1.0
+63,2168,true,1.0
+63,2117,true,1.0
+2011,64,true,1.0
+2212,64,true,1.0
+2213,64,true,1.0
+64,2014,true,1.0
+64,2002,true,1.0
+64,2214,true,1.0
+2011,65,true,1.0
+2215,65,true,1.0
+2216,65,true,1.0
+65,2014,true,1.0
+65,2002,true,1.0
+65,2217,true,1.0
+2011,66,true,1.0
+2218,66,true,1.0
+66,2019,true,1.0
+66,2219,true,1.0
+2011,66,true,1.0
+2220,66,true,1.0
+66,2019,true,1.0
+66,2221,true,1.0
+2025,67,true,1.0
+2222,67,true,1.0
+67,2166,true,1.0
+67,2223,true,1.0
+2177,68,true,1.0
+2057,68,true,1.0
+68,2224,true,1.0
+68,2154,true,1.0
+2011,69,true,1.0
+2225,69,true,1.0
+2226,69,true,1.0
+69,2014,true,1.0
+69,2002,true,1.0
+69,2227,true,1.0
+2011,70,true,1.0
+2228,70,true,1.0
+2229,70,true,1.0
+70,2014,true,1.0
+70,2002,true,1.0
+70,2230,true,1.0
+2011,71,true,1.0
+2172,71,true,1.0
+2231,71,true,1.0
+71,2014,true,1.0
+71,2002,true,1.0
+71,2147,true,1.0
+2232,73,true,1.0
+2178,73,true,1.0
+73,2166,true,1.0
+73,2012,true,1.0
+2012,73,true,1.0
+2233,73,true,1.0
+73,2234,true,1.0
+73,2178,true,1.0
+2089,74,true,1.0
+74,2235,true,1.0
+2236,74,true,1.0
+74,2237,true,1.0
+2238,76,true,1.0
+76,2163,true,1.0
+2239,76,true,1.0
+76,2240,true,1.0
+2163,79,true,1.0
+2241,79,true,1.0
+79,2162,true,1.0
+79,2242,true,1.0
+2238,80,true,1.0
+80,2243,true,1.0
+2038,81,true,1.0
+81,2037,true,1.0
+2011,82,true,1.0
+2043,82,true,1.0
+82,2019,true,1.0
+82,2156,true,1.0
+2064,83,true,1.0
+2244,83,true,1.0
+83,2245,true,1.0
+83,2246,true,1.0
+2032,84,true,1.0
+2087,84,true,1.0
+84,2002,true,1.0
+84,2138,true,1.0
+2011,85,true,1.0
+2247,85,true,1.0
+2248,85,true,1.0
+85,2014,true,1.0
+85,2002,true,1.0
+85,2249,true,1.0
+2250,86,true,1.0
+2002,86,true,1.0
+86,2072,true,1.0
+86,2045,true,1.0
+2125,86,true,1.0
+2002,86,true,1.0
+86,2074,true,1.0
+86,2045,true,1.0
+2251,86,true,1.0
+2002,86,true,1.0
+86,2076,true,1.0
+86,2045,true,1.0
+2252,86,true,1.0
+2045,86,true,1.0
+86,2253,true,1.0
+86,2002,true,1.0
+2254,86,true,1.0
+2045,86,true,1.0
+86,2255,true,1.0
+86,2002,true,1.0
+2256,86,true,1.0
+2045,86,true,1.0
+86,2257,true,1.0
+86,2002,true,1.0
+2258,87,true,1.0
+2147,87,true,1.0
+87,2162,true,1.0
+87,2168,true,1.0
+2259,87,true,1.0
+2147,87,true,1.0
+87,2260,true,1.0
+87,2168,true,1.0
+2261,87,true,1.0
+2147,87,true,1.0
+87,2262,true,1.0
+87,2168,true,1.0
+2263,88,true,1.0
+2264,88,true,1.0
+2011,88,true,1.0
+88,2265,true,1.0
+88,2002,true,1.0
+88,2014,true,1.0
+2064,89,true,1.0
+2266,89,true,1.0
+89,2245,true,1.0
+89,2267,true,1.0

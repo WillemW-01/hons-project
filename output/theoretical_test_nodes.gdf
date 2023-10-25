@@ -8,21 +8,21 @@ nodedef>name INTEGER,label VARCHAR,class VARCHAR,module VARCHAR
 2004,Fructose 1#6-bisphosphate,metabolite
 2005,Sedoheptulose 7-phosphate,metabolite
 2006,Sedoheptulose 1#7-bisphosphate,metabolite
-3,4.1.2.13,enzyme,Carbohydrate metabolism
+3,4.1.2.13,enzyme
 2007,Glycerone phosphate,metabolite
 2008,Glyceraldehyde 3-phosphate,metabolite
 2009,Erythrose 4-phosphate,metabolite
 2010,Fructose 1-phosphate,metabolite
 2011,Glyceraldehyde,metabolite
 4,5.3.1.1,enzyme,Carbohydrate metabolism
-5,1.2.1.12,enzyme,Carbohydrate metabolism
+5,1.2.1.12,enzyme,Energy metabolism
 2012,Orthophosphate,metabolite
 2013,NAD+,metabolite
 2014,3-Phospho-D-glyceroyl phosphate,metabolite
 2015,NADH,metabolite
-6,2.7.2.3,enzyme,Carbohydrate metabolism
+6,2.7.2.3,enzyme,Energy metabolism
 2016,3-Phospho-D-glycerate,metabolite
-8,4.2.1.11,enzyme,Carbohydrate metabolism
+8,4.2.1.11,enzyme
 2017,2-Phospho-D-glycerate,metabolite
 2018,Phosphoenolpyruvate,metabolite
 9,2.7.1.40,enzyme,Carbohydrate metabolism
@@ -33,25 +33,25 @@ nodedef>name INTEGER,label VARCHAR,class VARCHAR,module VARCHAR
 2023,dADP,metabolite
 2024,dGTP,metabolite
 2025,dGDP,metabolite
-10,1.1.1.27,enzyme,None
+10,1.1.1.27,enzyme,Carbohydrate metabolism
 2026,Lactate,metabolite
-11,1.1.1.94,enzyme,None
+11,1.1.1.94,enzyme,Lipid metabolism
 2027,sn-Glycerol 3-phosphate,metabolite
-12,2.3.1.15,enzyme,Energy metabolism
+12,2.3.1.15,enzyme,Lipid metabolism
 2028,Acyl-CoA,metabolite
 2029,1-Acyl-sn-glycerol 3-phosphate,metabolite
 2030,CoA,metabolite
-13,2.3.1.51,enzyme,Energy metabolism
+13,2.3.1.51,enzyme,Lipid metabolism
 2031,Phosphatidate,metabolite
-14,2.7.7.41,enzyme,Energy metabolism
+14,2.7.7.41,enzyme,Lipid metabolism
 2032,CTP,metabolite
 2033,Diphosphate,metabolite
 2034,CDP-diacylglycerol,metabolite
-15,2.7.8.8,enzyme,Energy metabolism
+15,2.7.8.8,enzyme,Amino acid metabolism
 2035,L-Serine,metabolite
 2036,CMP,metabolite
 2037,Phosphatidylserine,metabolite
-16,4.1.1.65,enzyme,Energy metabolism
+16,4.1.1.65,enzyme,Lipid metabolism
 2038,Phosphatidylethanolamine,metabolite
 18,2.2.1.1,enzyme,Carbohydrate metabolism
 2039,Ribose 5-phosphate,metabolite
@@ -63,10 +63,10 @@ nodedef>name INTEGER,label VARCHAR,class VARCHAR,module VARCHAR
 20,5.3.1.6,enzyme,Carbohydrate metabolism
 2044,Allose 6-phosphate,metabolite
 2045,Allulose 6-phosphate,metabolite
-21,2.7.6.1,enzyme,Carbohydrate metabolism
+21,2.7.6.1,enzyme
 2046,AMP,metabolite
 2047,5-Phospho-alpha-D-ribose 1-diphosphate,metabolite
-22,2.4.2.8,enzyme,None
+22,2.4.2.8,enzyme,Nucleotide metabolism
 2048,IMP,metabolite
 2049,Hypoxanthine,metabolite
 2050,GMP,metabolite
@@ -79,7 +79,7 @@ nodedef>name INTEGER,label VARCHAR,class VARCHAR,module VARCHAR
 2057,6-Methylthiopurine 5'-monophosphate ribonucleotide,metabolite
 2058,Thioguanine,metabolite
 2059,6-Thioguanosine monophosphate,metabolite
-23,2.4.2.9,enzyme,None
+23,2.4.2.9,enzyme,Nucleotide metabolism
 2060,UMP,metabolite
 2061,Uracil,metabolite
 25,2.7.4.3,enzyme,Nucleotide metabolism
@@ -111,11 +111,11 @@ nodedef>name INTEGER,label VARCHAR,class VARCHAR,module VARCHAR
 2083,Trypanothione,metabolite
 2084,5-Fluorodeoxyuridine diphosphate,metabolite
 2085,5-Fluorouridine diphosphate,metabolite
-30,6.3.4.2,enzyme,Nucleotide metabolism
+30,6.3.4.2,enzyme
 2086,Ammonia,metabolite
 2087,L-Glutamine,metabolite
 2088,L-Glutamate,metabolite
-31,3.5.4.13,enzyme,None
+31,3.5.4.13,enzyme,Nucleotide metabolism
 32,2.7.4.9,enzyme,Nucleotide metabolism
 2089,dTMP,metabolite
 2090,dUMP,metabolite
@@ -127,16 +127,16 @@ nodedef>name INTEGER,label VARCHAR,class VARCHAR,module VARCHAR
 2094,NADP+,metabolite
 2095,NADPH,metabolite
 2096,Folate,metabolite
-35,2.1.2.1,enzyme,Carbohydrate metabolism
+35,2.1.2.1,enzyme,Energy metabolism
 2097,Glycine,metabolite
 2098,5#6#7#8-Tetrahydromethanopterin,metabolite
 2099,5#10-Methylenetetrahydromethanopterin,metabolite
-44,2.7.1.199,enzyme,None
+44,2.7.1.199,enzyme,Carbohydrate metabolism
 2100,Protein N(pi)-phospho-L-histidine,metabolite
 2101,Glucose,metabolite
 2102,Protein histidine,metabolite
-54,5.4.2.11,enzyme,Carbohydrate metabolism
-55,5.4.2.12,enzyme,Carbohydrate metabolism
+54,5.4.2.11,enzyme,Energy metabolism
+55,5.4.2.12,enzyme,Energy metabolism
 edgedef>source INTEGER,target INTEGER,directed BOOLEAN,weight DOUBLE
 2000,1,true,1.0
 1,2001,true,1.0

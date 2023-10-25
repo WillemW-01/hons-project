@@ -1,0 +1,63 @@
+Before updating ecs: ['2.7.7.7', '5.6.2.2', '6.1.1.11', '2.7.4.9', '3.6.4.', '6.1.1.10', '2.7.7.6', '4.1.2.13', '2.4.2.9', '2.7.1.21', '6.1.1.21', '6.1.1.', '6.3.4.21', '2.7.1.30', '2.3.1.234', '2.5.1.6', '2.4.2.1', '4.1.2.4', '5.4.2.', '2.1.1.198', '3.1.26.8', '2.7.6.1', '6.1.1.20', '3.1.3.7', '2.7.1.26', '2.7.7.2', '3.4.11.18', '3.1.1.29', '6.3.4.19', '2.5.1.145', '1.8.1.9', '3.5.1.88', '2.7.4.8', '5.3.1.9', '6.1.1.22', '2.7.8.5', '5.1.3.2', '5.6.2.1', '6.1.1.2', '2.7.1.23', '6.1.1.6', '3.6.5.', '3.4.23.36', '2.7.8.7', '2.7.1.11', '2.7.1.40', '1.5.1.3', '3.1.21.2', '3.4.21.53', '2.7.7.18', '2.3.1.15', '6.1.1.14', '6.1.1.16', '6.5.1.2', '3.1.3.', '6.1.1.4', '1.2.4.1', '2.4.2.7', '6.1.1.15', '3.1.21.10', '6.1.1.7', '2.8.1.13', '2.7.4.25', '1.7.1.17', '6.1.1.9', '6.1.1.5', '2.7.2.1', '2.1.2.9', '2.3.1.274', '6.1.1.3', '6.1.1.19', '6.3.1.5', '3.4.11.1', '2.1.2.1', '5.3.1.6', '7.1.2.2', '4.2.1.11', '7.3.2.1', '3.1.21.', '2.7.3.9', '5.4.2.12', '5.3.1.1', '2.7.4.22', '2.1.1.228', '2.7.7.9', '6.1.1.1', '2.4.2.8', '1.1.1.27', '6.1.1.17', '2.1.1.182', '3.1.26.5']
+After updating ecs: ['2.7.7.7', '5.6.2.2', '6.1.1.11', '2.7.4.9', '3.6.4.13', '6.1.1.10', '2.7.7.6', '4.1.2.13', '2.4.2.9', '2.7.1.21', '6.1.1.21', '6.1.1.12', '6.3.4.21', '2.7.1.30', '2.3.1.234', '2.5.1.6', '2.4.2.1', '4.1.2.4', '5.4.2.2', '2.1.1.198', '3.1.26.8', '2.7.6.1', '6.1.1.20', '3.1.3.7', '2.7.1.26', '2.7.7.2', '3.4.11.18', '3.1.1.29', '6.3.4.19', '2.5.1.145', '1.8.1.9', '3.5.1.88', '2.7.4.8', '5.3.1.9', '6.1.1.22', '2.7.8.5', '5.1.3.2', '5.6.2.1', '6.1.1.2', '2.7.1.23', '6.1.1.6', '3.1.3.100', '3.4.23.36', '2.7.8.7', '2.7.1.11', '2.7.1.40', '1.5.1.3', '3.1.21.2', '3.4.21.53', '2.7.7.18', '2.3.1.15', '6.1.1.14', '6.1.1.16', '6.5.1.2', '3.1.3.16', '6.1.1.4', '1.2.4.1', '2.4.2.7', '6.1.1.15', '3.1.21.10', '6.1.1.7', '2.8.1.13', '2.7.4.25', '1.7.1.17', '6.1.1.9', '6.1.1.5', '2.7.2.1', '2.1.2.9', '2.3.1.274', '6.1.1.3', '6.1.1.19', '6.3.1.5', '3.4.11.1', '2.1.2.1', '5.3.1.6', '7.1.2.2', '4.2.1.11', '7.3.2.1', '3.1.21.3', '2.7.3.9', '5.4.2.12', '5.3.1.1', '2.7.4.22', '2.1.1.228', '2.7.7.9', '6.1.1.1', '2.4.2.8', '1.1.1.27', '6.1.1.17', '2.1.1.182', '3.1.26.5']
+Reading file: https://rest.kegg.jp/get/ec:2.7.7.7
+Reading file: https://rest.kegg.jp/get/ec:5.6.2.2
+Reading file: https://rest.kegg.jp/get/ec:6.1.1.11
+Request sent: https://rest.kegg.jp/get/ec:2.7.4.9
+Reading file: https://rest.kegg.jp/get/ec:3.6.4.13
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.10
+Reading file: https://rest.kegg.jp/get/ec:2.7.7.6
+Reading file: https://rest.kegg.jp/get/ec:4.1.2.13
+Reading file: https://rest.kegg.jp/get/ec:2.4.2.9
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.21
+Reading file: https://rest.kegg.jp/get/ec:6.1.1.21
+Reading file: https://rest.kegg.jp/get/ec:6.1.1.12
+Request sent: https://rest.kegg.jp/get/ec:6.3.4.21
+Reading file: https://rest.kegg.jp/get/ec:2.7.1.30
+Request sent: https://rest.kegg.jp/get/ec:2.3.1.234
+Reading file: https://rest.kegg.jp/get/ec:2.5.1.6
+Reading file: https://rest.kegg.jp/get/ec:2.4.2.1
+Request sent: https://rest.kegg.jp/get/ec:4.1.2.4
+Reading file: https://rest.kegg.jp/get/ec:5.4.2.2
+Request sent: https://rest.kegg.jp/get/ec:2.1.1.198
+Request sent: https://rest.kegg.jp/get/ec:3.1.26.8
+Reading file: https://rest.kegg.jp/get/ec:2.7.6.1
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.20
+Reading file: https://rest.kegg.jp/get/ec:3.1.3.7
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.26
+Request sent: https://rest.kegg.jp/get/ec:2.7.7.2
+Reading file: https://rest.kegg.jp/get/ec:3.4.11.18
+Reading file: https://rest.kegg.jp/get/ec:3.1.1.29
+Request sent: https://rest.kegg.jp/get/ec:6.3.4.19
+Reading file: https://rest.kegg.jp/get/ec:2.5.1.145
+Request sent: https://rest.kegg.jp/get/ec:1.8.1.9
+Reading file: https://rest.kegg.jp/get/ec:3.5.1.88
+Request sent: https://rest.kegg.jp/get/ec:2.7.4.8
+Reading file: https://rest.kegg.jp/get/ec:5.3.1.9
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.22
+Request sent: https://rest.kegg.jp/get/ec:2.7.8.5
+Reading file: https://rest.kegg.jp/get/ec:5.1.3.2
+Request sent: https://rest.kegg.jp/get/ec:5.6.2.1
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.2
+Reading file: https://rest.kegg.jp/get/ec:2.7.1.23
+Reading file: https://rest.kegg.jp/get/ec:6.1.1.6
+Request sent: https://rest.kegg.jp/get/ec:3.1.3.100
+Reading file: https://rest.kegg.jp/get/ec:3.4.23.36
+Reading file: https://rest.kegg.jp/get/ec:2.7.8.7
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.11
+Reading file: https://rest.kegg.jp/get/ec:2.7.1.40
+Request sent: https://rest.kegg.jp/get/ec:1.5.1.3
+Request sent: https://rest.kegg.jp/get/ec:3.1.21.2
+Request sent: https://rest.kegg.jp/get/ec:3.4.21.53
+Reading file: https://rest.kegg.jp/get/ec:2.7.7.18
+Response: https://rest.kegg.jp/get/ec:3.1.26.8
+Response: https://rest.kegg.jp/get/ec:2.7.1.21
+Response: https://rest.kegg.jp/get/ec:6.1.1.22
+Response: https://rest.kegg.jp/get/ec:1.5.1.3
+Response: https://rest.kegg.jp/get/ec:3.1.3.100
+Response: https://rest.kegg.jp/get/ec:2.7.4.9
+Response: https://rest.kegg.jp/get/ec:2.7.4.8
+Response: https://rest.kegg.jp/get/ec:2.7.1.26
+Response: https://rest.kegg.jp/get/ec:6.3.4.19
+Response: https://rest.kegg.jp/get/ec:2.3.1.234
+Response: https://rest.kegg.jp/get/ec:5.6.2.1

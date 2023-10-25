@@ -1,0 +1,1501 @@
+Before updating ecs: ['2.7.7.7', '5.6.2.2', '6.1.1.11', '2.7.4.9', '1.8.4.', '3.4.11.5', '6.1.1.10', '2.7.7.6', '4.1.2.13', '2.4.2.9', '2.7.1.21', '6.1.1.21', '6.1.1.', '6.3.4.21', '2.7.1.30', '2.3.1.234', '2.5.1.6', '2.4.2.1', '4.1.2.4', '3.5.4.5', '5.4.2.', '3.1.26.8', '2.7.6.1', '3.1.1.29', '6.3.4.19', '2.5.1.145', '3.2.2.27', '1.8.1.9', '3.5.1.88', '2.7.4.8', '2.7.11.1', '5.3.1.9', '6.1.1.22', '5.1.3.2', '5.6.2.1', '6.1.1.2', '2.7.1.23', '6.1.1.6', '5.4.99.9', '2.7.1.26', '2.7.7.2', '3.4.11.18', '5.4.99.12', '3.1.3.7', '6.1.1.20', '2.7.8.7', '2.7.1.11', '2.7.1.40', '2.1.1.199', '1.5.1.3', '1.17.4.1', '3.1.21.2', '3.4.21.53', '2.7.7.18', '2.3.1.15', '6.1.1.14', '6.1.1.16', '6.5.1.2', '3.2.2.23', '3.1.3.', '6.1.1.4', '6.3.1.20', '2.3.1.12', '1.6.3.4', '1.2.4.', '2.4.2.7', '6.1.1.15', '3.1.21.10', '6.1.1.7', '2.8.1.13', '2.3.1.8', '3.6.4.', '3.4.11.9', '3.6.5.', '2.7.4.25', '6.1.1.9', '6.1.1.5', '2.1.1.33', '2.7.2.1', '2.7.2.3', '2.1.2.9', '2.3.1.274', '2.8.1.4', '6.1.1.3', '6.1.1.19', '2.7.1.48', '6.3.1.5', '3.4.11.1', '2.1.2.1', '5.3.1.6', '7.1.2.2', '4.2.1.11', '2.7.3.9', '5.4.2.12', '5.3.1.1', '2.7.4.22', '2.1.1.228', '1.8.4.12', '2.7.7.9', '6.1.1.1', '2.4.2.8', '6.1.1.17', '3.1.26.5', '1.2.4.2', '1.2.4.1', '1.8.1.4', '2.3.1.51', '3.1.4.14', '2.7.1.32', '2.7.1.82']
+After updating ecs: ['2.7.7.7', '5.6.2.2', '6.1.1.11', '2.7.4.9', '1.8.4.', '3.4.11.5', '6.1.1.10', '2.7.7.6', '4.1.2.13', '2.4.2.9', '2.7.1.21', '6.1.1.21', '6.1.1.12', '6.3.4.21', '2.7.1.30', '2.3.1.234', '2.5.1.6', '2.4.2.1', '4.1.2.4', '3.5.4.5', '5.4.2.2', '3.1.26.8', '2.7.6.1', '3.1.1.29', '6.3.4.19', '2.5.1.145', '3.2.2.27', '1.8.1.9', '3.5.1.88', '2.7.4.8', '2.7.11.1', '5.3.1.9', '6.1.1.22', '5.1.3.2', '5.6.2.1', '6.1.1.2', '2.7.1.23', '6.1.1.6', '5.4.99.9', '2.7.1.26', '2.7.7.2', '3.4.11.18', '5.4.99.12', '3.1.3.7', '6.1.1.20', '2.7.8.7', '2.7.1.11', '2.7.1.40', '2.1.1.199', '1.5.1.3', '1.17.4.1', '3.1.21.2', '3.4.21.53', '2.7.7.18', '2.3.1.15', '6.1.1.14', '6.1.1.16', '6.5.1.2', '3.2.2.23', '3.1.3.16', '6.1.1.4', '6.3.1.20', '2.3.1.12', '1.6.3.4', '2.3.1.61', '2.4.2.7', '6.1.1.15', '3.1.21.10', '6.1.1.7', '2.8.1.13', '2.3.1.8', '3.6.4.13', '3.4.11.9', '3.1.3.100', '2.7.4.25', '6.1.1.9', '6.1.1.5', '2.1.1.33', '2.7.2.1', '2.7.2.3', '2.1.2.9', '2.3.1.274', '2.8.1.4', '6.1.1.3', '6.1.1.19', '2.7.1.48', '6.3.1.5', '3.4.11.1', '2.1.2.1', '5.3.1.6', '7.1.2.2', '4.2.1.11', '2.7.3.9', '5.4.2.12', '5.3.1.1', '2.7.4.22', '2.1.1.228', '1.8.4.12', '2.7.7.9', '6.1.1.1', '2.4.2.8', '6.1.1.17', '3.1.26.5', '1.2.4.2', '1.2.4.1', '1.8.1.4', '2.3.1.51', '3.1.4.14', '2.7.1.32', '2.7.1.82']
+Reading file: https://rest.kegg.jp/get/ec:2.7.7.7
+Request sent: https://rest.kegg.jp/get/ec:5.6.2.2
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.11
+Request sent: https://rest.kegg.jp/get/ec:2.7.4.9
+Request sent: https://rest.kegg.jp/get/ec:1.8.4.
+Request sent: https://rest.kegg.jp/get/ec:3.4.11.5
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.10
+Reading file: https://rest.kegg.jp/get/ec:2.7.7.6
+Reading file: https://rest.kegg.jp/get/ec:4.1.2.13
+Request sent: https://rest.kegg.jp/get/ec:2.4.2.9
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.21
+Reading file: https://rest.kegg.jp/get/ec:6.1.1.21
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.12
+Request sent: https://rest.kegg.jp/get/ec:6.3.4.21
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.30
+Request sent: https://rest.kegg.jp/get/ec:2.3.1.234
+Request sent: https://rest.kegg.jp/get/ec:2.5.1.6
+Request sent: https://rest.kegg.jp/get/ec:2.4.2.1
+Request sent: https://rest.kegg.jp/get/ec:4.1.2.4
+Request sent: https://rest.kegg.jp/get/ec:3.5.4.5
+Request sent: https://rest.kegg.jp/get/ec:5.4.2.2
+Request sent: https://rest.kegg.jp/get/ec:3.1.26.8
+Reading file: https://rest.kegg.jp/get/ec:2.7.6.1
+Request sent: https://rest.kegg.jp/get/ec:3.1.1.29
+Request sent: https://rest.kegg.jp/get/ec:6.3.4.19
+Request sent: https://rest.kegg.jp/get/ec:2.5.1.145
+Request sent: https://rest.kegg.jp/get/ec:3.2.2.27
+Request sent: https://rest.kegg.jp/get/ec:1.8.1.9
+Request sent: https://rest.kegg.jp/get/ec:3.5.1.88
+Request sent: https://rest.kegg.jp/get/ec:2.7.4.8
+Reading file: https://rest.kegg.jp/get/ec:2.7.11.1
+Request sent: https://rest.kegg.jp/get/ec:5.3.1.9
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.22
+Request sent: https://rest.kegg.jp/get/ec:5.1.3.2
+Request sent: https://rest.kegg.jp/get/ec:5.6.2.1
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.2
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.23
+Reading file: https://rest.kegg.jp/get/ec:6.1.1.6
+Request sent: https://rest.kegg.jp/get/ec:5.4.99.9
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.26
+Request sent: https://rest.kegg.jp/get/ec:2.7.7.2
+Reading file: https://rest.kegg.jp/get/ec:3.4.11.18
+Request sent: https://rest.kegg.jp/get/ec:5.4.99.12
+Request sent: https://rest.kegg.jp/get/ec:3.1.3.7
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.20
+Request sent: https://rest.kegg.jp/get/ec:2.7.8.7
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.11
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.40
+Request sent: https://rest.kegg.jp/get/ec:2.1.1.199
+Request sent: https://rest.kegg.jp/get/ec:1.5.1.3
+Request sent: https://rest.kegg.jp/get/ec:1.17.4.1
+Request sent: https://rest.kegg.jp/get/ec:3.1.21.2
+Request sent: https://rest.kegg.jp/get/ec:3.4.21.53
+Request sent: https://rest.kegg.jp/get/ec:2.7.7.18
+Request sent: https://rest.kegg.jp/get/ec:2.3.1.15
+Response: https://rest.kegg.jp/get/ec:1.8.4.
+Response: https://rest.kegg.jp/get/ec:3.1.26.8
+Response: https://rest.kegg.jp/get/ec:3.4.11.5
+Response: https://rest.kegg.jp/get/ec:5.4.99.9
+Response: https://rest.kegg.jp/get/ec:3.1.21.2
+Response: https://rest.kegg.jp/get/ec:2.7.1.21
+Response: https://rest.kegg.jp/get/ec:2.7.8.7
+Response: https://rest.kegg.jp/get/ec:2.3.1.15
+Response: https://rest.kegg.jp/get/ec:6.1.1.22
+Response: https://rest.kegg.jp/get/ec:6.3.4.21
+Response: https://rest.kegg.jp/get/ec:5.4.2.2
+Response: https://rest.kegg.jp/get/ec:3.5.4.5
+Response: https://rest.kegg.jp/get/ec:4.1.2.4
+Response: https://rest.kegg.jp/get/ec:1.5.1.3
+Response: https://rest.kegg.jp/get/ec:6.3.4.19
+Response: https://rest.kegg.jp/get/ec:2.1.1.199
+Response: https://rest.kegg.jp/get/ec:3.1.3.7
+Response: https://rest.kegg.jp/get/ec:2.4.2.9
+Response: https://rest.kegg.jp/get/ec:6.1.1.11
+Response: https://rest.kegg.jp/get/ec:2.5.1.145
+Response: https://rest.kegg.jp/get/ec:2.7.1.30
+Response: https://rest.kegg.jp/get/ec:2.7.7.2
+Response: https://rest.kegg.jp/get/ec:6.1.1.10
+Response: https://rest.kegg.jp/get/ec:5.3.1.9
+Response: https://rest.kegg.jp/get/ec:2.7.4.8
+Response: https://rest.kegg.jp/get/ec:2.7.1.23
+Response: https://rest.kegg.jp/get/ec:5.4.99.12
+Response: https://rest.kegg.jp/get/ec:2.7.7.18
+Response: https://rest.kegg.jp/get/ec:3.4.21.53
+Response: https://rest.kegg.jp/get/ec:6.1.1.12
+Response: https://rest.kegg.jp/get/ec:2.3.1.234
+Response: https://rest.kegg.jp/get/ec:3.1.1.29
+Response: https://rest.kegg.jp/get/ec:2.5.1.6
+Response: https://rest.kegg.jp/get/ec:3.5.1.88
+Response: https://rest.kegg.jp/get/ec:2.7.1.11
+Response: https://rest.kegg.jp/get/ec:2.4.2.1
+Response: https://rest.kegg.jp/get/ec:6.1.1.2
+Response: https://rest.kegg.jp/get/ec:2.7.1.40
+Response: https://rest.kegg.jp/get/ec:2.7.1.26
+Response: https://rest.kegg.jp/get/ec:1.8.1.9
+Response: https://rest.kegg.jp/get/ec:3.2.2.27
+Response: https://rest.kegg.jp/get/ec:5.6.2.1
+Response: https://rest.kegg.jp/get/ec:1.17.4.1
+Response: https://rest.kegg.jp/get/ec:2.7.4.9
+Response: https://rest.kegg.jp/get/ec:5.1.3.2
+Response: https://rest.kegg.jp/get/ec:6.1.1.20
+Response: https://rest.kegg.jp/get/ec:5.6.2.2
+Took 16.51 seconds for all requests
+https://rest.kegg.jp/get/ec:2.7.7.7   : 200
+https://rest.kegg.jp/get/ec:5.6.2.2   : 200
+https://rest.kegg.jp/get/ec:6.1.1.11  : 200
+https://rest.kegg.jp/get/ec:2.7.4.9   : 200
+https://rest.kegg.jp/get/ec:1.8.4.    : 404
+https://rest.kegg.jp/get/ec:3.4.11.5  : 200
+https://rest.kegg.jp/get/ec:6.1.1.10  : 200
+https://rest.kegg.jp/get/ec:2.7.7.6   : 200
+https://rest.kegg.jp/get/ec:4.1.2.13  : 200
+https://rest.kegg.jp/get/ec:2.4.2.9   : 200
+https://rest.kegg.jp/get/ec:2.7.1.21  : 200
+https://rest.kegg.jp/get/ec:6.1.1.21  : 200
+https://rest.kegg.jp/get/ec:6.1.1.12  : 200
+https://rest.kegg.jp/get/ec:6.3.4.21  : 200
+https://rest.kegg.jp/get/ec:2.7.1.30  : 200
+https://rest.kegg.jp/get/ec:2.3.1.234 : 200
+https://rest.kegg.jp/get/ec:2.5.1.6   : 200
+https://rest.kegg.jp/get/ec:2.4.2.1   : 200
+https://rest.kegg.jp/get/ec:4.1.2.4   : 200
+https://rest.kegg.jp/get/ec:3.5.4.5   : 200
+https://rest.kegg.jp/get/ec:5.4.2.2   : 200
+https://rest.kegg.jp/get/ec:3.1.26.8  : 200
+https://rest.kegg.jp/get/ec:2.7.6.1   : 200
+https://rest.kegg.jp/get/ec:3.1.1.29  : 200
+https://rest.kegg.jp/get/ec:6.3.4.19  : 200
+https://rest.kegg.jp/get/ec:2.5.1.145 : 200
+https://rest.kegg.jp/get/ec:3.2.2.27  : 200
+https://rest.kegg.jp/get/ec:1.8.1.9   : 200
+https://rest.kegg.jp/get/ec:3.5.1.88  : 200
+https://rest.kegg.jp/get/ec:2.7.4.8   : 200
+https://rest.kegg.jp/get/ec:2.7.11.1  : 200
+https://rest.kegg.jp/get/ec:5.3.1.9   : 200
+https://rest.kegg.jp/get/ec:6.1.1.22  : 200
+https://rest.kegg.jp/get/ec:5.1.3.2   : 200
+https://rest.kegg.jp/get/ec:5.6.2.1   : 200
+https://rest.kegg.jp/get/ec:6.1.1.2   : 200
+https://rest.kegg.jp/get/ec:2.7.1.23  : 200
+https://rest.kegg.jp/get/ec:6.1.1.6   : 200
+https://rest.kegg.jp/get/ec:5.4.99.9  : 200
+https://rest.kegg.jp/get/ec:2.7.1.26  : 200
+https://rest.kegg.jp/get/ec:2.7.7.2   : 200
+https://rest.kegg.jp/get/ec:3.4.11.18 : 200
+https://rest.kegg.jp/get/ec:5.4.99.12 : 200
+https://rest.kegg.jp/get/ec:3.1.3.7   : 200
+https://rest.kegg.jp/get/ec:6.1.1.20  : 200
+https://rest.kegg.jp/get/ec:2.7.8.7   : 200
+https://rest.kegg.jp/get/ec:2.7.1.11  : 200
+https://rest.kegg.jp/get/ec:2.7.1.40  : 200
+https://rest.kegg.jp/get/ec:2.1.1.199 : 200
+https://rest.kegg.jp/get/ec:1.5.1.3   : 200
+https://rest.kegg.jp/get/ec:1.17.4.1  : 200
+https://rest.kegg.jp/get/ec:3.1.21.2  : 200
+https://rest.kegg.jp/get/ec:3.4.21.53 : 200
+https://rest.kegg.jp/get/ec:2.7.7.18  : 200
+https://rest.kegg.jp/get/ec:2.3.1.15  : 200
+
+> Getting reaction id for 2.7.7.7
+  Reaction list: ['R00379', 'R00375', 'R00376', 'R00377', 'R00378', 'R11029']
+  > Extracting R00379
+    Reaction is not in the list
+  > Extracting R00375
+    Reaction is not in the list
+  > Extracting R00376
+    Reaction is not in the list
+  > Extracting R00377
+    Reaction is not in the list
+  > Extracting R00378
+    Reaction is not in the list
+  > Extracting R11029
+    Reaction is not in the list
+> Getting reaction id for 5.6.2.2
+  Look at this enzyme manually, no reaction
+> Getting reaction id for 6.1.1.11
+  Reaction list: ['R03662', 'R08218']
+  > Extracting R03662
+    Reaction is not in the list
+  > Extracting R08218
+    Reaction is not in the list
+> Getting reaction id for 2.7.4.9
+  Reaction list: ['R02094', 'R02098']
+  > Extracting R02094
+    Substrates: ['ATP', 'dTMP']
+    Products: ['ADP', 'dTDP']
+  > Extracting R02098
+    Reaction is not in the list
+ERR: look into this url: https://rest.kegg.jp/get/ec:1.8.4. (status 404)
+> Getting reaction id for 3.4.11.5
+  Look at this enzyme manually, no reaction end
+> Getting reaction id for 6.1.1.10
+  Reaction list: ['R03659', 'R04773']
+  > Extracting R03659
+    Reaction is not in the list
+  > Extracting R04773
+    Reaction is not in the list
+> Getting reaction id for 2.7.7.6
+  Reaction list: ['R00444', 'R00435', 'R00441', 'R00442', 'R00443', 'R10813']
+  > Extracting R00444
+    Reaction is not in the list
+  > Extracting R00435
+    Reaction is not in the list
+  > Extracting R00441
+    Reaction is not in the list
+  > Extracting R00442
+    Reaction is not in the list
+  > Extracting R00443
+    Reaction is not in the list
+  > Extracting R10813
+    Reaction is not in the list
+> Getting reaction id for 4.1.2.13
+  Reaction list: ['R01068', 'R01070', 'R01829', 'R02568']
+  > Extracting R01068
+    Substrates: ['D-Fructose 1,6-bisphosphate']
+    Products: ['Glycerone phosphate', 'D-Glyceraldehyde 3-phosphate']
+  > Extracting R01070
+    Substrates: ['beta-D-Fructose 1,6-bisphosphate']
+    Products: ['Glycerone phosphate', 'D-Glyceraldehyde 3-phosphate']
+  > Extracting R01829
+    Substrates: ['Sedoheptulose 1,7-bisphosphate']
+    Products: ['Glycerone phosphate', 'D-Erythrose 4-phosphate']
+  > Extracting R02568
+    Reaction is not in the list
+> Getting reaction id for 2.4.2.9
+  Reaction list: ['R00966']
+  > Extracting R00966
+    Reaction is not in the list
+> Getting reaction id for 2.7.1.21
+  Reaction list: ['R01567', 'R02099', 'R08233']
+  > Extracting R01567
+    Reaction is not in the list
+  > Extracting R02099
+    Reaction is not in the list
+  > Extracting R08233
+    Reaction is not in the list
+> Getting reaction id for 6.1.1.21
+  Reaction list: ['R03655']
+  > Extracting R03655
+    Reaction is not in the list
+> Getting reaction id for 6.1.1.12
+  Reaction list: ['R05577']
+  > Extracting R05577
+    Reaction is not in the list
+> Getting reaction id for 6.3.4.21
+  Reaction list: ['R01724']
+  > Extracting R01724
+    Reaction is not in the list
+> Getting reaction id for 2.7.1.30
+  Reaction list: ['R00847']
+  > Extracting R00847
+    Reaction is not in the list
+> Getting reaction id for 2.3.1.234
+  Reaction list: ['R10648']
+  > Extracting R10648
+    Reaction is not in the list
+> Getting reaction id for 2.5.1.6
+  Reaction list: ['R00177', 'R04771']
+  > Extracting R00177
+    Substrates: ['Orthophosphate', 'Diphosphate', 'S-Adenosyl-L-methionine']
+    Products: ['ATP', 'L-Methionine']
+  > Extracting R04771
+    Reaction is not in the list
+> Getting reaction id for 2.4.2.1
+  Reaction list: ['R08368', 'R01561', 'R01863', 'R02147', 'R02297', 'R10244', 'R01969', 'R02557', 'R02748', 'R02294', 'R02295']
+  > Extracting R08368
+    Reaction is not in the list
+  > Extracting R01561
+    Reaction is not in the list
+  > Extracting R01863
+    Substrates: ['Inosine', 'Orthophosphate']
+    Products: ['Hypoxanthine', 'alpha-D-Ribose 1-phosphate']
+  > Extracting R02147
+    Substrates: ['Guanosine', 'Orthophosphate']
+    Products: ['Guanine', 'alpha-D-Ribose 1-phosphate']
+  > Extracting R02297
+    Reaction is not in the list
+  > Extracting R10244
+    Reaction is not in the list
+  > Extracting R01969
+    Reaction is not in the list
+  > Extracting R02557
+    Reaction is not in the list
+  > Extracting R02748
+    Reaction is not in the list
+  > Extracting R02294
+    Reaction is not in the list
+  > Extracting R02295
+    Reaction is not in the list
+> Getting reaction id for 4.1.2.4
+  Reaction list: ['R01066']
+  > Extracting R01066
+    Reaction is not in the list
+> Getting reaction id for 3.5.4.5
+  Reaction list: ['R01878', 'R02485', 'R08221']
+  > Extracting R01878
+    Reaction is not in the list
+  > Extracting R02485
+    Reaction is not in the list
+  > Extracting R08221
+    Reaction is not in the list
+> Getting reaction id for 5.4.2.2
+  Reaction list: ['R08639', 'R00959', 'R01057', 'R03319']
+  > Extracting R08639
+    Substrates: ['D-Glucose 1-phosphate']
+    Products: ['D-Glucose 6-phosphate']
+  > Extracting R00959
+    Substrates: ['D-Glucose 1-phosphate']
+    Products: ['alpha-D-Glucose 6-phosphate']
+  > Extracting R01057
+    Reaction is not in the list
+  > Extracting R03319
+    Reaction is not in the list
+> Getting reaction id for 3.1.26.8
+  Look at this enzyme manually, no reaction
+> Getting reaction id for 2.7.6.1
+  Reaction list: ['R01049']
+  > Extracting R01049
+    Substrates: ['ATP', 'D-Ribose 5-phosphate']
+    Products: ['AMP', '5-Phospho-alpha-D-ribose 1-diphosphate']
+> Getting reaction id for 3.1.1.29
+  Reaction list: ['R04238']
+  > Extracting R04238
+    Reaction is not in the list
+> Getting reaction id for 6.3.4.19
+  Reaction list: ['R09597']
+  > Extracting R09597
+    Reaction is not in the list
+> Getting reaction id for 2.5.1.145
+  Look at this enzyme manually, no reaction
+> Getting reaction id for 3.2.2.27
+  Look at this enzyme manually, no reaction
+> Getting reaction id for 1.8.1.9
+  Reaction list: ['R02016', 'R00900', 'R03596', 'R09372']
+  > Extracting R02016
+    Reaction is not in the list
+  > Extracting R00900
+    Reaction is not in the list
+  > Extracting R03596
+    Reaction is not in the list
+  > Extracting R09372
+    Reaction is not in the list
+> Getting reaction id for 3.5.1.88
+  Reaction list: ['R05635', 'R04268']
+  > Extracting R05635
+    Reaction is not in the list
+  > Extracting R04268
+    Reaction is not in the list
+> Getting reaction id for 2.7.4.8
+  Reaction list: ['R00332', 'R02090', 'R12852']
+  > Extracting R00332
+    Substrates: ['ATP', 'GMP']
+    Products: ['ADP', 'GDP']
+  > Extracting R02090
+    Reaction is not in the list
+  > Extracting R12852
+    Reaction is not in the list
+> Getting reaction id for 2.7.11.1
+  Reaction list: ['R00162', 'R03632']
+  > Extracting R00162
+    Reaction is not in the list
+  > Extracting R03632
+    Reaction is not in the list
+> Getting reaction id for 5.3.1.9
+  Reaction list: ['R02740', 'R00771', 'R02739', 'R03321', 'R13199']
+  > Extracting R02740
+    Reaction is not in the list
+  > Extracting R00771
+    Reaction is not in the list
+  > Extracting R02739
+    Substrates: ['alpha-D-Glucose 6-phosphate']
+    Products: ['beta-D-Glucose 6-phosphate']
+  > Extracting R03321
+    Reaction is not in the list
+  > Extracting R13199
+    Substrates: ['alpha-D-Glucose 6-phosphate']
+    Products: ['D-Fructose 6-phosphate']
+> Getting reaction id for 6.1.1.22
+  Reaction list: ['R03648']
+  > Extracting R03648
+    Reaction is not in the list
+> Getting reaction id for 5.1.3.2
+  Reaction list: ['R00291', 'R00418', 'R02984']
+  > Extracting R00291
+    Substrates: ['UDP-glucose']
+    Products: ['UDP-alpha-D-galactose']
+  > Extracting R00418
+    Reaction is not in the list
+  > Extracting R02984
+    Reaction is not in the list
+> Getting reaction id for 5.6.2.1
+  Look at this enzyme manually, no reaction
+> Getting reaction id for 6.1.1.2
+  Reaction list: ['R03664']
+  > Extracting R03664
+    Reaction is not in the list
+> Getting reaction id for 2.7.1.23
+  Reaction list: ['R00104']
+  > Extracting R00104
+    Reaction is not in the list
+> Getting reaction id for 6.1.1.6
+  Reaction list: ['R03658']
+  > Extracting R03658
+    Reaction is not in the list
+> Getting reaction id for 5.4.99.9
+  Reaction list: ['R00505', 'R09009']
+  > Extracting R00505
+    Reaction is not in the list
+  > Extracting R09009
+    Reaction is not in the list
+> Getting reaction id for 2.7.1.26
+  Reaction list: ['R00549']
+  > Extracting R00549
+    Substrates: ['ATP', 'Riboflavin']
+    Products: ['ADP', 'FMN']
+> Getting reaction id for 2.7.7.2
+  Reaction list: ['R00161']
+  > Extracting R00161
+    Substrates: ['ATP', 'FMN']
+    Products: ['Diphosphate', 'FAD']
+> Getting reaction id for 3.4.11.18
+  Look at this enzyme manually, no reaction
+> Getting reaction id for 5.4.99.12
+  Reaction list: ['R03020']
+  > Extracting R03020
+    Reaction is not in the list
+> Getting reaction id for 3.1.3.7
+  Reaction list: ['R00188', 'R00508']
+  > Extracting R00188
+    Reaction is not in the list
+  > Extracting R00508
+    Reaction is not in the list
+> Getting reaction id for 6.1.1.20
+  Reaction list: ['R03660']
+  > Extracting R03660
+    Reaction is not in the list
+> Getting reaction id for 2.7.8.7
+  Reaction list: ['R01625']
+  > Extracting R01625
+    Reaction is not in the list
+> Getting reaction id for 2.7.1.11
+  Reaction list: ['R04779', 'R00756', 'R00767', 'R00769', 'R00770', 'R01843', 'R03236', 'R03237', 'R03238', 'R03239']
+  > Extracting R04779
+    Reaction is not in the list
+  > Extracting R00756
+    Substrates: ['ATP', 'D-Fructose 6-phosphate']
+    Products: ['ADP', 'D-Fructose 1,6-bisphosphate']
+  > Extracting R00767
+    Reaction is not in the list
+  > Extracting R00769
+    Reaction is not in the list
+  > Extracting R00770
+    Reaction is not in the list
+  > Extracting R01843
+    Reaction is not in the list
+  > Extracting R03236
+    Reaction is not in the list
+  > Extracting R03237
+    Reaction is not in the list
+  > Extracting R03238
+    Reaction is not in the list
+  > Extracting R03239
+    Reaction is not in the list
+> Getting reaction id for 2.7.1.40
+  Reaction list: ['R00200', 'R00430', 'R00572', 'R00659', 'R00724', 'R01138', 'R01858', 'R02320']
+  > Extracting R00200
+    Substrates: ['ATP', 'Pyruvate']
+    Products: ['ADP', 'Phosphoenolpyruvate']
+  > Extracting R00430
+    Reaction is not in the list
+  > Extracting R00572
+    Reaction is not in the list
+  > Extracting R00659
+    Reaction is not in the list
+  > Extracting R00724
+    Reaction is not in the list
+  > Extracting R01138
+    Reaction is not in the list
+  > Extracting R01858
+    Reaction is not in the list
+  > Extracting R02320
+    Reaction is not in the list
+> Getting reaction id for 2.1.1.199
+  Look at this enzyme manually, no reaction
+> Getting reaction id for 1.5.1.3
+  Reaction list: ['R00939', 'R00936', 'R00937', 'R00940', 'R02235', 'R02236', 'R11765']
+  > Extracting R00939
+    Substrates: ['Tetrahydrofolate', 'NADP+']
+    Products: ['Dihydrofolate', 'NADPH']
+  > Extracting R00936
+    Substrates: ['Tetrahydrofolate', 'NAD+']
+    Products: ['Dihydrofolate', 'NADH']
+  > Extracting R00937
+    Reaction is not in the list
+  > Extracting R00940
+    Reaction is not in the list
+  > Extracting R02235
+    Reaction is not in the list
+  > Extracting R02236
+    Reaction is not in the list
+  > Extracting R11765
+    Reaction is not in the list
+> Getting reaction id for 1.17.4.1
+  Reaction list: ['R04294', 'R02017', 'R02018', 'R02019', 'R02024', 'R08363', 'R08364', 'R11893']
+  > Extracting R04294
+    Reaction is not in the list
+  > Extracting R02017
+    Substrates: ['dADP', 'Thioredoxin disulfide']
+    Products: ['Thioredoxin', 'ADP']
+  > Extracting R02018
+    Substrates: ['dUDP', 'Thioredoxin disulfide']
+    Products: ['Thioredoxin', 'UDP']
+  > Extracting R02019
+    Substrates: ['dGDP', 'Thioredoxin disulfide']
+    Products: ['GDP', 'Thioredoxin']
+  > Extracting R02024
+    Substrates: ['dCDP', 'Thioredoxin disulfide']
+    Products: ['Thioredoxin', 'CDP']
+  > Extracting R08363
+    Reaction is not in the list
+  > Extracting R08364
+    Reaction is not in the list
+  > Extracting R11893
+    Reaction is not in the list
+> Getting reaction id for 3.1.21.2
+  Look at this enzyme manually, no reaction
+> Getting reaction id for 3.4.21.53
+  Look at this enzyme manually, no reaction
+> Getting reaction id for 2.7.7.18
+  Reaction list: ['R03005', 'R00137']
+  > Extracting R03005
+    Substrates: ['ATP', 'Nicotinate D-ribonucleotide']
+    Products: ['Diphosphate', 'Deamino-NAD+']
+  > Extracting R00137
+    Reaction is not in the list
+> Getting reaction id for 2.3.1.15
+  Reaction list: ['R00851', 'R02617', 'R09380']
+  > Extracting R00851
+    Substrates: ['sn-Glycerol 3-phosphate', 'Acyl-CoA']
+    Products: ['1-Acyl-sn-glycerol 3-phosphate', 'CoA']
+  > Extracting R02617
+    Reaction is not in the list
+  > Extracting R09380
+    Reaction is not in the list
+
+Reading file: https://rest.kegg.jp/get/ec:6.1.1.14
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.16
+Request sent: https://rest.kegg.jp/get/ec:6.5.1.2
+Reading file: https://rest.kegg.jp/get/ec:3.2.2.23
+Request sent: https://rest.kegg.jp/get/ec:3.1.3.16
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.4
+Request sent: https://rest.kegg.jp/get/ec:6.3.1.20
+Request sent: https://rest.kegg.jp/get/ec:2.3.1.12
+Request sent: https://rest.kegg.jp/get/ec:1.6.3.4
+Request sent: https://rest.kegg.jp/get/ec:2.3.1.61
+Request sent: https://rest.kegg.jp/get/ec:2.4.2.7
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.15
+Request sent: https://rest.kegg.jp/get/ec:3.1.21.10
+Reading file: https://rest.kegg.jp/get/ec:6.1.1.7
+Request sent: https://rest.kegg.jp/get/ec:2.8.1.13
+Request sent: https://rest.kegg.jp/get/ec:2.3.1.8
+Reading file: https://rest.kegg.jp/get/ec:3.6.4.13
+Request sent: https://rest.kegg.jp/get/ec:3.4.11.9
+Request sent: https://rest.kegg.jp/get/ec:3.1.3.100
+Request sent: https://rest.kegg.jp/get/ec:2.7.4.25
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.9
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.5
+Request sent: https://rest.kegg.jp/get/ec:2.1.1.33
+Request sent: https://rest.kegg.jp/get/ec:2.7.2.1
+Request sent: https://rest.kegg.jp/get/ec:2.7.2.3
+Request sent: https://rest.kegg.jp/get/ec:2.1.2.9
+Request sent: https://rest.kegg.jp/get/ec:2.3.1.274
+Request sent: https://rest.kegg.jp/get/ec:2.8.1.4
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.3
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.19
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.48
+Request sent: https://rest.kegg.jp/get/ec:6.3.1.5
+Request sent: https://rest.kegg.jp/get/ec:3.4.11.1
+Request sent: https://rest.kegg.jp/get/ec:2.1.2.1
+Request sent: https://rest.kegg.jp/get/ec:5.3.1.6
+Request sent: https://rest.kegg.jp/get/ec:7.1.2.2
+Reading file: https://rest.kegg.jp/get/ec:4.2.1.11
+Request sent: https://rest.kegg.jp/get/ec:2.7.3.9
+Request sent: https://rest.kegg.jp/get/ec:5.4.2.12
+Request sent: https://rest.kegg.jp/get/ec:5.3.1.1
+Request sent: https://rest.kegg.jp/get/ec:2.7.4.22
+Request sent: https://rest.kegg.jp/get/ec:2.1.1.228
+Request sent: https://rest.kegg.jp/get/ec:1.8.4.12
+Request sent: https://rest.kegg.jp/get/ec:2.7.7.9
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.1
+Request sent: https://rest.kegg.jp/get/ec:2.4.2.8
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.17
+Request sent: https://rest.kegg.jp/get/ec:3.1.26.5
+Request sent: https://rest.kegg.jp/get/ec:1.2.4.2
+Request sent: https://rest.kegg.jp/get/ec:1.2.4.1
+Request sent: https://rest.kegg.jp/get/ec:1.8.1.4
+Request sent: https://rest.kegg.jp/get/ec:2.3.1.51
+Request sent: https://rest.kegg.jp/get/ec:3.1.4.14
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.32
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.82
+Response: https://rest.kegg.jp/get/ec:1.6.3.4
+Response: https://rest.kegg.jp/get/ec:2.7.1.32
+Response: https://rest.kegg.jp/get/ec:3.1.4.14
+Response: https://rest.kegg.jp/get/ec:2.7.1.82
+Response: https://rest.kegg.jp/get/ec:2.3.1.8
+Response: https://rest.kegg.jp/get/ec:6.3.1.20
+Response: https://rest.kegg.jp/get/ec:5.4.2.12
+Response: https://rest.kegg.jp/get/ec:6.3.1.5
+Response: https://rest.kegg.jp/get/ec:2.3.1.274
+Response: https://rest.kegg.jp/get/ec:2.7.1.48
+Response: https://rest.kegg.jp/get/ec:3.1.21.10
+Response: https://rest.kegg.jp/get/ec:2.3.1.61
+Response: https://rest.kegg.jp/get/ec:2.7.3.9
+Response: https://rest.kegg.jp/get/ec:2.7.4.22
+Response: https://rest.kegg.jp/get/ec:2.7.2.1
+Response: https://rest.kegg.jp/get/ec:3.4.11.1
+Response: https://rest.kegg.jp/get/ec:2.3.1.12
+Response: https://rest.kegg.jp/get/ec:2.7.4.25
+Response: https://rest.kegg.jp/get/ec:2.4.2.8
+Response: https://rest.kegg.jp/get/ec:1.2.4.2
+Response: https://rest.kegg.jp/get/ec:6.5.1.2
+Response: https://rest.kegg.jp/get/ec:2.4.2.7
+Response: https://rest.kegg.jp/get/ec:6.1.1.4
+Response: https://rest.kegg.jp/get/ec:3.4.11.9
+Response: https://rest.kegg.jp/get/ec:2.8.1.13
+Response: https://rest.kegg.jp/get/ec:2.1.1.228
+Response: https://rest.kegg.jp/get/ec:2.7.2.3
+Response: https://rest.kegg.jp/get/ec:6.1.1.3
+Response: https://rest.kegg.jp/get/ec:1.8.4.12
+Response: https://rest.kegg.jp/get/ec:2.1.1.33
+Response: https://rest.kegg.jp/get/ec:6.1.1.19
+Response: https://rest.kegg.jp/get/ec:5.3.1.1
+Response: https://rest.kegg.jp/get/ec:6.1.1.9
+Response: https://rest.kegg.jp/get/ec:6.1.1.16
+Response: https://rest.kegg.jp/get/ec:6.1.1.5
+Response: https://rest.kegg.jp/get/ec:5.3.1.6
+Response: https://rest.kegg.jp/get/ec:2.3.1.51
+Response: https://rest.kegg.jp/get/ec:1.2.4.1
+Response: https://rest.kegg.jp/get/ec:2.1.2.9
+Response: https://rest.kegg.jp/get/ec:3.1.26.5
+Response: https://rest.kegg.jp/get/ec:2.8.1.4
+Response: https://rest.kegg.jp/get/ec:7.1.2.2
+Response: https://rest.kegg.jp/get/ec:6.1.1.15
+Response: https://rest.kegg.jp/get/ec:3.1.3.100
+Response: https://rest.kegg.jp/get/ec:1.8.1.4
+Response: https://rest.kegg.jp/get/ec:2.7.7.9
+Response: https://rest.kegg.jp/get/ec:6.1.1.17
+Response: https://rest.kegg.jp/get/ec:6.1.1.1
+Response: https://rest.kegg.jp/get/ec:3.1.3.16
+Response: https://rest.kegg.jp/get/ec:2.1.2.1
+Took 11.28 seconds for all requests
+https://rest.kegg.jp/get/ec:6.1.1.14  : 200
+https://rest.kegg.jp/get/ec:6.1.1.16  : 200
+https://rest.kegg.jp/get/ec:6.5.1.2   : 200
+https://rest.kegg.jp/get/ec:3.2.2.23  : 200
+https://rest.kegg.jp/get/ec:3.1.3.16  : 200
+https://rest.kegg.jp/get/ec:6.1.1.4   : 200
+https://rest.kegg.jp/get/ec:6.3.1.20  : 200
+https://rest.kegg.jp/get/ec:2.3.1.12  : 200
+https://rest.kegg.jp/get/ec:1.6.3.4   : 200
+https://rest.kegg.jp/get/ec:2.3.1.61  : 200
+https://rest.kegg.jp/get/ec:2.4.2.7   : 200
+https://rest.kegg.jp/get/ec:6.1.1.15  : 200
+https://rest.kegg.jp/get/ec:3.1.21.10 : 200
+https://rest.kegg.jp/get/ec:6.1.1.7   : 200
+https://rest.kegg.jp/get/ec:2.8.1.13  : 200
+https://rest.kegg.jp/get/ec:2.3.1.8   : 200
+https://rest.kegg.jp/get/ec:3.6.4.13  : 200
+https://rest.kegg.jp/get/ec:3.4.11.9  : 200
+https://rest.kegg.jp/get/ec:3.1.3.100 : 200
+https://rest.kegg.jp/get/ec:2.7.4.25  : 200
+https://rest.kegg.jp/get/ec:6.1.1.9   : 200
+https://rest.kegg.jp/get/ec:6.1.1.5   : 200
+https://rest.kegg.jp/get/ec:2.1.1.33  : 200
+https://rest.kegg.jp/get/ec:2.7.2.1   : 200
+https://rest.kegg.jp/get/ec:2.7.2.3   : 200
+https://rest.kegg.jp/get/ec:2.1.2.9   : 200
+https://rest.kegg.jp/get/ec:2.3.1.274 : 200
+https://rest.kegg.jp/get/ec:2.8.1.4   : 200
+https://rest.kegg.jp/get/ec:6.1.1.3   : 200
+https://rest.kegg.jp/get/ec:6.1.1.19  : 200
+https://rest.kegg.jp/get/ec:2.7.1.48  : 200
+https://rest.kegg.jp/get/ec:6.3.1.5   : 200
+https://rest.kegg.jp/get/ec:3.4.11.1  : 200
+https://rest.kegg.jp/get/ec:2.1.2.1   : 200
+https://rest.kegg.jp/get/ec:5.3.1.6   : 200
+https://rest.kegg.jp/get/ec:7.1.2.2   : 200
+https://rest.kegg.jp/get/ec:4.2.1.11  : 200
+https://rest.kegg.jp/get/ec:2.7.3.9   : 200
+https://rest.kegg.jp/get/ec:5.4.2.12  : 200
+https://rest.kegg.jp/get/ec:5.3.1.1   : 200
+https://rest.kegg.jp/get/ec:2.7.4.22  : 200
+https://rest.kegg.jp/get/ec:2.1.1.228 : 200
+https://rest.kegg.jp/get/ec:1.8.4.12  : 200
+https://rest.kegg.jp/get/ec:2.7.7.9   : 200
+https://rest.kegg.jp/get/ec:6.1.1.1   : 200
+https://rest.kegg.jp/get/ec:2.4.2.8   : 200
+https://rest.kegg.jp/get/ec:6.1.1.17  : 200
+https://rest.kegg.jp/get/ec:3.1.26.5  : 200
+https://rest.kegg.jp/get/ec:1.2.4.2   : 200
+https://rest.kegg.jp/get/ec:1.2.4.1   : 200
+https://rest.kegg.jp/get/ec:1.8.1.4   : 200
+https://rest.kegg.jp/get/ec:2.3.1.51  : 200
+https://rest.kegg.jp/get/ec:3.1.4.14  : 200
+https://rest.kegg.jp/get/ec:2.7.1.32  : 200
+https://rest.kegg.jp/get/ec:2.7.1.82  : 200
+
+> Getting reaction id for 6.1.1.14
+  Reaction list: ['R03654']
+  > Extracting R03654
+    Reaction is not in the list
+> Getting reaction id for 6.1.1.16
+  Reaction list: ['R03650']
+  > Extracting R03650
+    Reaction is not in the list
+> Getting reaction id for 6.5.1.2
+  Reaction list: ['R00382']
+  > Extracting R00382
+    Reaction is not in the list
+> Getting reaction id for 3.2.2.23
+  Look at this enzyme manually, no reaction
+> Getting reaction id for 3.1.3.16
+  Reaction list: ['R00164']
+  > Extracting R00164
+    Reaction is not in the list
+> Getting reaction id for 6.1.1.4
+  Reaction list: ['R03657']
+  > Extracting R03657
+    Reaction is not in the list
+> Getting reaction id for 6.3.1.20
+  Reaction list: ['R11143', 'R12433', 'R12449', 'R07770', 'R07771', 'R12429']
+  > Extracting R11143
+    Reaction is not in the list
+  > Extracting R12433
+    Reaction is not in the list
+  > Extracting R12449
+    Reaction is not in the list
+  > Extracting R07770
+    Reaction is not in the list
+  > Extracting R07771
+    Reaction is not in the list
+  > Extracting R12429
+    Reaction is not in the list
+> Getting reaction id for 2.3.1.12
+  Reaction list: ['R02569']
+  > Extracting R02569
+    Substrates: ['Acetyl-CoA', 'Enzyme N6-(dihydrolipoyl)lysine']
+    Products: ['CoA', '[Dihydrolipoyllysine-residue acetyltransferase] S-acetyldihydrolipoyllysine']
+> Getting reaction id for 1.6.3.4
+  Reaction list: ['R10517']
+  > Extracting R10517
+    Reaction is not in the list
+> Getting reaction id for 2.3.1.61
+  Reaction list: ['R02570', 'R02571']
+  > Extracting R02570
+    Substrates: ['Succinyl-CoA', 'Enzyme N6-(dihydrolipoyl)lysine']
+    Products: ['CoA', '[Dihydrolipoyllysine-residue succinyltransferase] S-succinyldihydrolipoyllysine']
+  > Extracting R02571
+    Substrates: ['Glutaryl-CoA', 'Enzyme N6-(dihydrolipoyl)lysine']
+    Products: ['CoA', '[Dihydrolipoyllysine-residue succinyltransferase] S-glutaryldihydrolipoyllysine']
+> Getting reaction id for 2.4.2.7
+  Reaction list: ['R00190', 'R04378']
+  > Extracting R00190
+    Reaction is not in the list
+  > Extracting R04378
+    Reaction is not in the list
+> Getting reaction id for 6.1.1.15
+  Reaction list: ['R03661']
+  > Extracting R03661
+    Reaction is not in the list
+> Getting reaction id for 3.1.21.10
+  Look at this enzyme manually, no reaction
+> Getting reaction id for 6.1.1.7
+  Reaction list: ['R03038']
+  > Extracting R03038
+    Reaction is not in the list
+> Getting reaction id for 2.8.1.13
+  Reaction list: ['R08700']
+  > Extracting R08700
+    Reaction is not in the list
+> Getting reaction id for 2.3.1.8
+  Reaction list: ['R00230', 'R00921']
+  > Extracting R00230
+    Substrates: ['Acetyl-CoA', 'Orthophosphate']
+    Products: ['CoA', 'Acetyl phosphate']
+  > Extracting R00921
+    Reaction is not in the list
+> Getting reaction id for 3.6.4.13
+  Look at this enzyme manually, no reaction
+> Getting reaction id for 3.4.11.9
+  Look at this enzyme manually, no reaction
+> Getting reaction id for 3.1.3.100
+  Reaction list: ['R02135']
+  > Extracting R02135
+    Substrates: ['Thiamin monophosphate']
+    Products: ['Thiamine', 'Orthophosphate']
+> Getting reaction id for 2.7.4.25
+  Reaction list: ['R00512', 'R01665']
+  > Extracting R00512
+    Reaction is not in the list
+  > Extracting R01665
+    Reaction is not in the list
+> Getting reaction id for 6.1.1.9
+  Reaction list: ['R03665']
+  > Extracting R03665
+    Reaction is not in the list
+> Getting reaction id for 6.1.1.5
+  Reaction list: ['R03656']
+  > Extracting R03656
+    Reaction is not in the list
+> Getting reaction id for 2.1.1.33
+  Reaction list: ['R00600']
+  > Extracting R00600
+    Reaction is not in the list
+> Getting reaction id for 2.7.2.1
+  Reaction list: ['R00315', 'R01353']
+  > Extracting R00315
+    Substrates: ['ATP', 'Acetate']
+    Products: ['ADP', 'Acetyl phosphate']
+  > Extracting R01353
+    Reaction is not in the list
+> Getting reaction id for 2.7.2.3
+  Reaction list: ['R01512']
+  > Extracting R01512
+    Substrates: ['ATP', '3-Phospho-D-glycerate']
+    Products: ['ADP', '3-Phospho-D-glyceroyl phosphate']
+> Getting reaction id for 2.1.2.9
+  Reaction list: ['R03940']
+  > Extracting R03940
+    Reaction is not in the list
+> Getting reaction id for 2.3.1.274
+  Reaction list: ['R12240']
+  > Extracting R12240
+    Reaction is not in the list
+> Getting reaction id for 2.8.1.4
+  Reaction list: ['R03923', 'R07461']
+  > Extracting R03923
+    Reaction is not in the list
+  > Extracting R07461
+    Substrates: ['[Enzyme]-S-sulfanylcysteine', 'Adenylyl-[sulfur-carrier protein]', 'Reduced acceptor']
+    Products: ['AMP', 'Thiocarboxy-[sulfur-carrier protein]', '[Enzyme]-cysteine', 'Acceptor']
+> Getting reaction id for 6.1.1.3
+  Reaction list: ['R03663']
+  > Extracting R03663
+    Reaction is not in the list
+> Getting reaction id for 6.1.1.19
+  Reaction list: ['R03646']
+  > Extracting R03646
+    Reaction is not in the list
+> Getting reaction id for 2.7.1.48
+  Reaction list: ['R00513', 'R00964', 'R00517', 'R00968', 'R08232']
+  > Extracting R00513
+    Reaction is not in the list
+  > Extracting R00964
+    Reaction is not in the list
+  > Extracting R00517
+    Reaction is not in the list
+  > Extracting R00968
+    Reaction is not in the list
+  > Extracting R08232
+    Reaction is not in the list
+> Getting reaction id for 6.3.1.5
+  Reaction list: ['R00189']
+  > Extracting R00189
+    Substrates: ['ATP', 'Deamino-NAD+', 'Ammonia']
+    Products: ['AMP', 'Diphosphate', 'NAD+']
+> Getting reaction id for 3.4.11.1
+  Look at this enzyme manually, no reaction end
+> Getting reaction id for 2.1.2.1
+  Reaction list: ['R00945', 'R09099']
+  > Extracting R00945
+    Substrates: ['5,10-Methylenetetrahydrofolate', 'Glycine']
+    Products: ['Tetrahydrofolate', 'L-Serine']
+  > Extracting R09099
+    Reaction is not in the list
+> Getting reaction id for 5.3.1.6
+  Reaction list: ['R01056', 'R09030']
+  > Extracting R01056
+    Substrates: ['D-Ribose 5-phosphate']
+    Products: ['D-Ribulose 5-phosphate']
+  > Extracting R09030
+    Reaction is not in the list
+> Getting reaction id for 7.1.2.2
+  Look at this enzyme manually, no reaction
+> Getting reaction id for 4.2.1.11
+  Reaction list: ['R00658', 'R04206']
+  > Extracting R00658
+    Substrates: ['2-Phospho-D-glycerate']
+    Products: ['Phosphoenolpyruvate']
+  > Extracting R04206
+    Reaction is not in the list
+> Getting reaction id for 2.7.3.9
+  Reaction list: ['R02628']
+  > Extracting R02628
+    Reaction is not in the list
+> Getting reaction id for 5.4.2.12
+  Reaction list: ['R01518']
+  > Extracting R01518
+    Substrates: ['2-Phospho-D-glycerate']
+    Products: ['3-Phospho-D-glycerate']
+> Getting reaction id for 5.3.1.1
+  Reaction list: ['R01015']
+  > Extracting R01015
+    Substrates: ['D-Glyceraldehyde 3-phosphate']
+    Products: ['Glycerone phosphate']
+> Getting reaction id for 2.7.4.22
+  Reaction list: ['R00158']
+  > Extracting R00158
+    Substrates: ['ATP', 'UMP']
+    Products: ['ADP', 'UDP']
+> Getting reaction id for 2.1.1.228
+  Reaction list: ['R00597']
+  > Extracting R00597
+    Reaction is not in the list
+> Getting reaction id for 1.8.4.12
+  Reaction list: ['R07607']
+  > Extracting R07607
+    Reaction is not in the list
+> Getting reaction id for 2.7.7.9
+  Reaction list: ['R00289']
+  > Extracting R00289
+    Substrates: ['UTP', 'D-Glucose 1-phosphate']
+    Products: ['Diphosphate', 'UDP-glucose']
+> Getting reaction id for 6.1.1.1
+  Reaction list: ['R02918']
+  > Extracting R02918
+    Reaction is not in the list
+> Getting reaction id for 2.4.2.8
+  Reaction list: ['R01132', 'R01229', 'R02142', 'R08237', 'R08238', 'R08245']
+  > Extracting R01132
+    Reaction is not in the list
+  > Extracting R01229
+    Reaction is not in the list
+  > Extracting R02142
+    Reaction is not in the list
+  > Extracting R08237
+    Reaction is not in the list
+  > Extracting R08238
+    Reaction is not in the list
+  > Extracting R08245
+    Reaction is not in the list
+> Getting reaction id for 6.1.1.17
+  Reaction list: ['R05578']
+  > Extracting R05578
+    Substrates: ['tRNA(Glu)', 'L-Glutamate', 'ATP']
+    Products: ['L-Glutamyl-tRNA(Glu)', 'Diphosphate', 'AMP']
+> Getting reaction id for 3.1.26.5
+  Look at this enzyme manually, no reaction
+> Getting reaction id for 1.2.4.2
+  Reaction list: ['R01700', 'R00621', 'R03316']
+  > Extracting R01700
+    Substrates: ['2-Oxoglutarate', 'Enzyme N6-(lipoyl)lysine']
+    Products: ['[Dihydrolipoyllysine-residue succinyltransferase] S-succinyldihydrolipoyllysine']
+  > Extracting R00621
+    Substrates: ['2-Oxoglutarate', 'Thiamin diphosphate']
+    Products: ['3-Carboxy-1-hydroxypropyl-ThPP']
+  > Extracting R03316
+    Substrates: ['3-Carboxy-1-hydroxypropyl-ThPP', 'Enzyme N6-(lipoyl)lysine']
+    Products: ['[Dihydrolipoyllysine-residue succinyltransferase] S-succinyldihydrolipoyllysine', 'Thiamin diphosphate']
+> Getting reaction id for 1.2.4.1
+  Reaction list: ['R01699', 'R00014', 'R03270']
+  > Extracting R01699
+    Reaction is not in the list
+  > Extracting R00014
+    Substrates: ['Pyruvate', 'Thiamin diphosphate']
+    Products: ['2-(alpha-Hydroxyethyl)thiamine diphosphate']
+  > Extracting R03270
+    Substrates: ['2-(alpha-Hydroxyethyl)thiamine diphosphate', 'Enzyme N6-(lipoyl)lysine']
+    Products: ['[Dihydrolipoyllysine-residue acetyltransferase] S-acetyldihydrolipoyllysine', 'Thiamin diphosphate']
+> Getting reaction id for 1.8.1.4
+  Reaction list: ['R08550', 'R03815', 'R07618', 'R01698']
+  > Extracting R08550
+    Reaction is not in the list
+  > Extracting R03815
+    Substrates: ['Dihydrolipoylprotein', 'NAD+']
+    Products: ['Lipoylprotein', 'NADH']
+  > Extracting R07618
+    Substrates: ['Enzyme N6-(dihydrolipoyl)lysine', 'NAD+']
+    Products: ['Enzyme N6-(lipoyl)lysine', 'NADH']
+  > Extracting R01698
+    Reaction is not in the list
+> Getting reaction id for 2.3.1.51
+  Reaction list: ['R02241', 'R02760', 'R09381']
+  > Extracting R02241
+    Substrates: ['Phosphatidate', 'CoA']
+    Products: ['1-Acyl-sn-glycerol 3-phosphate', 'Acyl-CoA']
+  > Extracting R02760
+    Reaction is not in the list
+  > Extracting R09381
+    Reaction is not in the list
+> Getting reaction id for 3.1.4.14
+  Reaction list: ['R01623']
+  > Extracting R01623
+    Reaction is not in the list
+> Getting reaction id for 2.7.1.32
+  Reaction list: ['R01021']
+  > Extracting R01021
+    Substrates: ['ATP', 'Choline']
+    Products: ['ADP', 'Choline phosphate']
+> Getting reaction id for 2.7.1.82
+  Reaction list: ['R01468']
+  > Extracting R01468
+    Substrates: ['ATP', 'Ethanolamine']
+    Products: ['ADP', 'Ethanolamine phosphate']
+
+
+
+
+
+
+
+
+
+Writing metabolites to graph
+Writing enzyme 3
+Did not find metabolite yet, creating id 2000 (len: 0)
+Did not find metabolite yet, creating id 2001 (len: 0)
+Did not find metabolite yet, creating id 2002 (len: 2)
+Did not find metabolite yet, creating id 2003 (len: 2)
+
+
+
+
+
+
+
+
+
+
+Writing metabolites to graph
+Writing enzyme 8
+Did not find metabolite yet, creating id 2004 (len: 4)
+Did not find metabolite yet, creating id 2005 (len: 5)
+Did not find metabolite yet, creating id 2006 (len: 5)
+
+Writing metabolites to graph
+Found metabolite already, has id 2004
+Found metabolite already, has id 2005
+Found metabolite already, has id 2006
+
+Writing metabolites to graph
+Did not find metabolite yet, creating id 2007 (len: 7)
+Found metabolite already, has id 2005
+Did not find metabolite yet, creating id 2008 (len: 8)
+
+
+
+
+
+
+
+
+
+
+
+Writing metabolites to graph
+Writing enzyme 16
+Did not find metabolite yet, creating id 2009 (len: 9)
+Did not find metabolite yet, creating id 2010 (len: 9)
+Did not find metabolite yet, creating id 2011 (len: 9)
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2012 (len: 12)
+
+
+
+
+Writing metabolites to graph
+Writing enzyme 17
+Did not find metabolite yet, creating id 2013 (len: 13)
+Found metabolite already, has id 2009
+Did not find metabolite yet, creating id 2014 (len: 14)
+Did not find metabolite yet, creating id 2015 (len: 14)
+
+Writing metabolites to graph
+Did not find metabolite yet, creating id 2016 (len: 16)
+Found metabolite already, has id 2009
+Did not find metabolite yet, creating id 2017 (len: 17)
+Found metabolite already, has id 2015
+
+
+
+
+
+
+
+
+
+
+
+
+Writing metabolites to graph
+Writing enzyme 20
+Did not find metabolite yet, creating id 2018 (len: 18)
+Did not find metabolite yet, creating id 2019 (len: 19)
+
+Writing metabolites to graph
+Found metabolite already, has id 2018
+Found metabolite already, has id 2019
+
+
+
+Writing metabolites to graph
+Writing enzyme 22
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2020 (len: 20)
+Did not find metabolite yet, creating id 2021 (len: 21)
+Did not find metabolite yet, creating id 2022 (len: 21)
+
+
+
+
+
+
+
+
+
+Writing metabolites to graph
+Writing enzyme 29
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2023 (len: 23)
+Found metabolite already, has id 2002
+Did not find metabolite yet, creating id 2024 (len: 24)
+
+
+
+
+
+
+
+Writing metabolites to graph
+Writing enzyme 31
+Found metabolite already, has id 2019
+Found metabolite already, has id 2019
+
+
+Writing metabolites to graph
+Found metabolite already, has id 2019
+Did not find metabolite yet, creating id 2025 (len: 25)
+
+
+Writing metabolites to graph
+Writing enzyme 33
+Did not find metabolite yet, creating id 2026 (len: 26)
+Did not find metabolite yet, creating id 2027 (len: 27)
+
+
+
+
+
+
+
+
+Writing metabolites to graph
+Writing enzyme 39
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2028 (len: 28)
+Found metabolite already, has id 2002
+Did not find metabolite yet, creating id 2029 (len: 29)
+
+Writing metabolites to graph
+Writing enzyme 40
+Found metabolite already, has id 2000
+Found metabolite already, has id 2029
+Found metabolite already, has id 2010
+Did not find metabolite yet, creating id 2030 (len: 30)
+
+
+
+
+
+
+
+Writing metabolites to graph
+Writing enzyme 46
+Found metabolite already, has id 2000
+Found metabolite already, has id 2025
+Found metabolite already, has id 2002
+Found metabolite already, has id 2004
+
+
+
+
+
+
+
+
+
+Writing metabolites to graph
+Writing enzyme 47
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2031 (len: 31)
+Found metabolite already, has id 2002
+Did not find metabolite yet, creating id 2032 (len: 32)
+
+
+
+
+
+
+
+
+Writing metabolites to graph
+Writing enzyme 49
+Did not find metabolite yet, creating id 2033 (len: 33)
+Did not find metabolite yet, creating id 2034 (len: 33)
+Did not find metabolite yet, creating id 2035 (len: 35)
+Did not find metabolite yet, creating id 2036 (len: 35)
+
+Writing metabolites to graph
+Found metabolite already, has id 2033
+Did not find metabolite yet, creating id 2037 (len: 37)
+Found metabolite already, has id 2035
+Did not find metabolite yet, creating id 2038 (len: 38)
+
+
+
+
+
+
+
+Writing metabolites to graph
+Writing enzyme 50
+Did not find metabolite yet, creating id 2039 (len: 39)
+Did not find metabolite yet, creating id 2040 (len: 39)
+Did not find metabolite yet, creating id 2041 (len: 41)
+Found metabolite already, has id 2002
+
+Writing metabolites to graph
+Did not find metabolite yet, creating id 2042 (len: 42)
+Found metabolite already, has id 2040
+Found metabolite already, has id 2041
+Did not find metabolite yet, creating id 2043 (len: 43)
+
+Writing metabolites to graph
+Did not find metabolite yet, creating id 2044 (len: 44)
+Found metabolite already, has id 2040
+Found metabolite already, has id 2024
+Found metabolite already, has id 2041
+
+Writing metabolites to graph
+Did not find metabolite yet, creating id 2045 (len: 45)
+Found metabolite already, has id 2040
+Found metabolite already, has id 2041
+Did not find metabolite yet, creating id 2046 (len: 46)
+
+
+
+
+Writing metabolites to graph
+Writing enzyme 53
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2047 (len: 47)
+Found metabolite already, has id 2010
+Did not find metabolite yet, creating id 2048 (len: 48)
+
+
+Writing metabolites to graph
+Writing enzyme 54
+Did not find metabolite yet, creating id 2049 (len: 49)
+Did not find metabolite yet, creating id 2050 (len: 49)
+Did not find metabolite yet, creating id 2051 (len: 51)
+Did not find metabolite yet, creating id 2052 (len: 51)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Writing metabolites to graph
+Writing enzyme 62
+Did not find metabolite yet, creating id 2053 (len: 53)
+Did not find metabolite yet, creating id 2054 (len: 53)
+Found metabolite already, has id 2052
+Did not find metabolite yet, creating id 2055 (len: 55)
+
+
+Writing metabolites to graph
+Writing enzyme 64
+Did not find metabolite yet, creating id 2056 (len: 56)
+Found metabolite already, has id 2054
+Found metabolite already, has id 2052
+Did not find metabolite yet, creating id 2057 (len: 57)
+
+Writing metabolites to graph
+Did not find metabolite yet, creating id 2058 (len: 58)
+Found metabolite already, has id 2054
+Found metabolite already, has id 2052
+Did not find metabolite yet, creating id 2059 (len: 59)
+
+
+
+
+
+
+Writing metabolites to graph
+Writing enzyme 70
+Found metabolite already, has id 2053
+Found metabolite already, has id 2009
+Found metabolite already, has id 2052
+Did not find metabolite yet, creating id 2060 (len: 60)
+
+
+Writing metabolites to graph
+Writing enzyme 73
+Did not find metabolite yet, creating id 2061 (len: 61)
+Did not find metabolite yet, creating id 2062 (len: 62)
+Found metabolite already, has id 2009
+
+
+
+
+
+
+Writing metabolites to graph
+Writing enzyme 78
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2063 (len: 63)
+Found metabolite already, has id 2002
+Found metabolite already, has id 2060
+
+
+Writing metabolites to graph
+Writing enzyme 79
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2064 (len: 64)
+Found metabolite already, has id 2002
+Did not find metabolite yet, creating id 2065 (len: 65)
+
+
+
+
+Writing metabolites to graph
+Writing enzyme 82
+Did not find metabolite yet, creating id 2066 (len: 66)
+Did not find metabolite yet, creating id 2067 (len: 66)
+Did not find metabolite yet, creating id 2068 (len: 66)
+Found metabolite already, has id 2021
+Did not find metabolite yet, creating id 2069 (len: 69)
+Did not find metabolite yet, creating id 2070 (len: 69)
+Did not find metabolite yet, creating id 2071 (len: 69)
+
+
+
+
+
+
+
+
+Writing metabolites to graph
+Writing enzyme 86
+Found metabolite already, has id 2000
+Found metabolite already, has id 2048
+Did not find metabolite yet, creating id 2072 (len: 72)
+Found metabolite already, has id 2021
+Found metabolite already, has id 2010
+Found metabolite already, has id 2037
+
+Writing metabolites to graph
+Writing enzyme 88
+Did not find metabolite yet, creating id 2073 (len: 73)
+Did not find metabolite yet, creating id 2074 (len: 73)
+Found metabolite already, has id 2033
+Did not find metabolite yet, creating id 2075 (len: 75)
+
+
+Writing metabolites to graph
+Writing enzyme 89
+Found metabolite already, has id 2020
+Did not find metabolite yet, creating id 2076 (len: 76)
+
+
+Writing metabolites to graph
+Writing enzyme 91
+Did not find metabolite yet, creating id 2077 (len: 77)
+Found metabolite already, has id 2032
+
+
+
+Writing metabolites to graph
+Writing enzyme 93
+Found metabolite already, has id 2077
+Found metabolite already, has id 2064
+
+Writing metabolites to graph
+Writing enzyme 94
+Found metabolite already, has id 2006
+Found metabolite already, has id 2005
+
+Writing metabolites to graph
+Writing enzyme 95
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2078 (len: 78)
+Found metabolite already, has id 2002
+Found metabolite already, has id 2043
+
+
+
+Writing metabolites to graph
+Writing enzyme 98
+Did not find metabolite yet, creating id 2079 (len: 79)
+Found metabolite already, has id 2018
+Found metabolite already, has id 2010
+Found metabolite already, has id 2026
+
+
+
+
+
+
+
+
+Writing metabolites to graph
+Writing enzyme 101
+Did not find metabolite yet, creating id 2080 (len: 80)
+Did not find metabolite yet, creating id 2081 (len: 80)
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2082 (len: 82)
+Found metabolite already, has id 2010
+Found metabolite already, has id 2021
+
+Writing metabolites to graph
+Writing enzyme 103
+Did not find metabolite yet, creating id 2083 (len: 83)
+Did not find metabolite yet, creating id 2084 (len: 83)
+Found metabolite already, has id 2057
+
+Writing metabolites to graph
+Found metabolite already, has id 2083
+Did not find metabolite yet, creating id 2085 (len: 85)
+Did not find metabolite yet, creating id 2086 (len: 86)
+
+Writing metabolites to graph
+Found metabolite already, has id 2086
+Found metabolite already, has id 2084
+Found metabolite already, has id 2057
+Found metabolite already, has id 2085
+
+
+Writing metabolites to graph
+Writing enzyme 104
+Found metabolite already, has id 2031
+Found metabolite already, has id 2085
+Did not find metabolite yet, creating id 2087 (len: 87)
+
+Writing metabolites to graph
+Found metabolite already, has id 2087
+Found metabolite already, has id 2084
+Found metabolite already, has id 2055
+Found metabolite already, has id 2085
+
+
+Writing metabolites to graph
+Writing enzyme 105
+Did not find metabolite yet, creating id 2088 (len: 88)
+Found metabolite already, has id 2037
+Did not find metabolite yet, creating id 2089 (len: 89)
+Found metabolite already, has id 2038
+
+Writing metabolites to graph
+Found metabolite already, has id 2054
+Found metabolite already, has id 2037
+Found metabolite already, has id 2084
+Found metabolite already, has id 2038
+
+
+Writing metabolites to graph
+Writing enzyme 106
+Did not find metabolite yet, creating id 2090 (len: 90)
+Found metabolite already, has id 2052
+Found metabolite already, has id 2051
+Found metabolite already, has id 2050
+
+
+
+
+Writing metabolites to graph
+Writing enzyme 108
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2091 (len: 91)
+Found metabolite already, has id 2002
+Did not find metabolite yet, creating id 2092 (len: 92)
+
+Writing metabolites to graph
+Writing enzyme 109
+Found metabolite already, has id 2000
+Did not find metabolite yet, creating id 2093 (len: 93)
+Found metabolite already, has id 2002
+Did not find metabolite yet, creating id 2094 (len: 94)
+
+<== Finished ==>
+Took 109.0770 seconds to run.
