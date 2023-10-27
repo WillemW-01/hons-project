@@ -21,11 +21,12 @@ EDGE_HEADER_1 = (
     "edgedef>source INTEGER,target INTEGER,directed BOOLEAN,weight DOUBLE"
 )
 EDGE_HEADER_2 = "edgedef>source INTEGER,target INTEGER,label VARCHAR,directed BOOLEAN,weight DOUBLE"
-NODE_HEADER = "nodedef>name INTEGER,label VARCHAR,class VARCHAR,module VARCHAR"
+NODE_HEADER = "nodedef>name INTEGER,label VARCHAR,class VARCHAR,module VARCHAR,color VARCHAR"
 THREAD_INPUT_STR = "Enzyme list size is %d. Enter size of batches: "
 USAGE_STR = "ERR: not enough arguments.\nUsage: python main.py <input_file> <job_name> [reaction_file]"
 
 # fmt: off
+MODULE_COLORS = json.load(open("modules/module_colors.json"))
 CACHED_REACTIONS = json.load(open("modules/cached_reactions.json"))
 CACHED_REACTION_IDS = json.load(open("modules/cached_reaction_ids.json"))
 CACHED_PATHWAYS = json.load(open("modules/map_conversion.json"))
@@ -253,7 +254,7 @@ def get_pathway_ids(text: str, ec_num: str):
     for line in text.split(split_string):
         if line.startswith("PATHWAY"):
             should_add = True
-        if line.startswith("ORTHOLOGY") or line.startswith("GENES"):
+        if line.startswith("ORTHOLOGY") or line.startswith("GENES") or line.startswith("DBLINKS"):
             should_add = False
 
         if should_add:
@@ -674,9 +675,9 @@ def write_reaction(
         log(f"Writing enzyme {ec_id}")
         module = get_one_module(ec)
         if module is None:
-            nodes_file.write(f"{ec_id},{ec},enzyme\n")
+            nodes_file.write(f"{ec_id},{ec},enzyme,,{MODULE_COLORS['None']}\n")
         else:
-            nodes_file.write(f"{ec_id},{ec},enzyme,{module}\n")
+            nodes_file.write(f"{ec_id},{ec},enzyme,{module},{MODULE_COLORS[module]}\n")
         has_written[ec_id] = True
 
     remove_coefficients(substrates, products)
@@ -691,7 +692,7 @@ def write_reaction(
             log(
                 f"Did not find metabolite yet, creating id {met_id} (len: {len(metabolites)})"
             )
-            nodes_file.write(f"{met_id},{fmt_met(substrate)},metabolite\n")
+            nodes_file.write(f"{met_id},{fmt_met(substrate)},metabolite,,{MODULE_COLORS['None']}\n")
             i += 1
         else:  # don't write in nodes file, already has id
             met_id += START_ID
@@ -711,7 +712,7 @@ def write_reaction(
             log(
                 f"Did not find metabolite yet, creating id {met_id} (len: {len(metabolites)})"
             )
-            nodes_file.write(f"{met_id},{fmt_met(product)},metabolite\n")
+            nodes_file.write(f"{met_id},{fmt_met(product)},metabolite,,{MODULE_COLORS['None']}\n")
             i += 1
         else:  # don't write in nodes file, found already
             met_id += START_ID
