@@ -30,3 +30,7 @@ The program will output the following:
 1. Run `main.py` with the required input paramers. Files in the `input/` folder are all valid.
 1. [Download](https://gephi.org/users/download/) and open the program Gephi.
 1. Create a new project and import the nodes file from `output/job_name_nodes.gdf`
+
+### Gephi Exploration
+
+`TODO`
