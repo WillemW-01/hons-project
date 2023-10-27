@@ -1,0 +1,961 @@
+nodedef>name INTEGER,label VARCHAR,class VARCHAR,module VARCHAR,color VARCHAR
+0,2.7.7.7,enzyme,,'192,192,192'
+2000,Deoxynucleoside triphosphate,metabolite,,'192,192,192'
+2001,DNA(n),metabolite,,'192,192,192'
+2002,Diphosphate,metabolite,,'192,192,192'
+2003,DNA(n+1),metabolite,,'192,192,192'
+2004,dATP,metabolite,,'192,192,192'
+2005,DNA,metabolite,,'192,192,192'
+2006,dGTP,metabolite,,'192,192,192'
+2007,dCTP,metabolite,,'192,192,192'
+2008,dTTP,metabolite,,'192,192,192'
+2009,2'-Deoxy-5-hydroxymethylcytidine-5'-triphosphate,metabolite,,'192,192,192'
+2010,5-Hydroxymethylcytosine in DNA,metabolite,,'192,192,192'
+2,6.1.1.11,enzyme,Amino acid metabolism,'46,144,114'
+2011,ATP,metabolite,,'192,192,192'
+2012,L-Serine,metabolite,,'192,192,192'
+2013,tRNA(Ser),metabolite,,'192,192,192'
+2014,AMP,metabolite,,'192,192,192'
+2015,L-Seryl-tRNA(Ser),metabolite,,'192,192,192'
+2016,tRNA(Sec),metabolite,,'192,192,192'
+2017,L-Seryl-tRNA(Sec),metabolite,,'192,192,192'
+3,2.7.4.9,enzyme,Nucleotide metabolism,'255,92,129'
+2018,dTMP,metabolite,,'192,192,192'
+2019,ADP,metabolite,,'192,192,192'
+2020,dTDP,metabolite,,'192,192,192'
+2021,dUMP,metabolite,,'192,192,192'
+2022,dUDP,metabolite,,'192,192,192'
+6,6.1.1.10,enzyme,Amino acid metabolism,'46,144,114'
+2023,L-Methionine,metabolite,,'192,192,192'
+2024,tRNA(Met),metabolite,,'192,192,192'
+2025,L-Methionyl-tRNA,metabolite,,'192,192,192'
+2026,L-Selenomethionine,metabolite,,'192,192,192'
+2027,Selenomethionyl-tRNA(Met),metabolite,,'192,192,192'
+7,2.7.7.6,enzyme,,'192,192,192'
+2028,Nucleoside triphosphate,metabolite,,'192,192,192'
+2029,RNA,metabolite,,'192,192,192'
+2030,GTP,metabolite,,'192,192,192'
+2031,CTP,metabolite,,'192,192,192'
+2032,UTP,metabolite,,'192,192,192'
+2033,n Nucleoside triphosphate,metabolite,,'192,192,192'
+2034,5'-Triphospho-[mRNA]#(n),metabolite,,'192,192,192'
+2035,(n-1) Diphosphate,metabolite,,'192,192,192'
+8,4.1.2.13,enzyme,Energy metabolism,'0,202,255'
+2036,Fructose 1#6-bisphosphate,metabolite,,'192,192,192'
+2037,Glycerone phosphate,metabolite,,'192,192,192'
+2038,Glyceraldehyde 3-phosphate,metabolite,,'192,192,192'
+2039,Sedoheptulose 1#7-bisphosphate,metabolite,,'192,192,192'
+2040,Erythrose 4-phosphate,metabolite,,'192,192,192'
+2041,Fructose 1-phosphate,metabolite,,'192,192,192'
+2042,Glyceraldehyde,metabolite,,'192,192,192'
+9,2.4.2.9,enzyme,Nucleotide metabolism,'255,92,129'
+2043,UMP,metabolite,,'192,192,192'
+2044,Uracil,metabolite,,'192,192,192'
+2045,5-Phospho-alpha-D-ribose 1-diphosphate,metabolite,,'192,192,192'
+10,6.1.1.21,enzyme,Amino acid metabolism,'46,144,114'
+2046,L-Histidine,metabolite,,'192,192,192'
+2047,tRNA(His),metabolite,,'192,192,192'
+2048,L-Histidyl-tRNA(His),metabolite,,'192,192,192'
+11,6.1.1.12,enzyme,Amino acid metabolism,'46,144,114'
+2049,tRNA(Asp),metabolite,,'192,192,192'
+2050,L-Aspartate,metabolite,,'192,192,192'
+2051,L-Aspartyl-tRNA(Asp),metabolite,,'192,192,192'
+12,2.7.1.30,enzyme,Lipid metabolism,'198,134,233'
+2052,Glycerol,metabolite,,'192,192,192'
+2053,sn-Glycerol 3-phosphate,metabolite,,'192,192,192'
+13,2.3.1.234,enzyme,,'192,192,192'
+2054,L-Threonylcarbamoyladenylate,metabolite,,'192,192,192'
+2055,tRNA adenine,metabolite,,'192,192,192'
+2056,N6-L-Threonylcarbamoyladenine in tRNA,metabolite,,'192,192,192'
+14,2.5.1.6,enzyme,Amino acid metabolism,'46,144,114'
+2057,Orthophosphate,metabolite,,'192,192,192'
+2058,Adenosyl-L-methionine,metabolite,,'192,192,192'
+2059,Se-Adenosylselenomethionine,metabolite,,'192,192,192'
+15,2.4.2.1,enzyme,Nucleotide metabolism,'255,92,129'
+2060,N-D-Ribosylpurine,metabolite,,'192,192,192'
+2061,Purine,metabolite,,'192,192,192'
+2062,Ribose 1-phosphate,metabolite,,'192,192,192'
+2063,Adenosine,metabolite,,'192,192,192'
+2064,Adenine,metabolite,,'192,192,192'
+2065,Inosine,metabolite,,'192,192,192'
+2066,Hypoxanthine,metabolite,,'192,192,192'
+2067,Guanosine,metabolite,,'192,192,192'
+2068,Guanine,metabolite,,'192,192,192'
+2069,Xanthosine,metabolite,,'192,192,192'
+2070,Xanthine,metabolite,,'192,192,192'
+2071,Purine deoxyribonucleoside,metabolite,,'192,192,192'
+2072,2-Deoxy-D-ribose 1-phosphate,metabolite,,'192,192,192'
+2073,Deoxyguanosine,metabolite,,'192,192,192'
+2074,Deoxyadenosine,metabolite,,'192,192,192'
+2075,Deoxyinosine,metabolite,,'192,192,192'
+2076,Nicotinamide-beta-riboside,metabolite,,'192,192,192'
+2077,Nicotinamide,metabolite,,'192,192,192'
+2078,Nicotinate D-ribonucleoside,metabolite,,'192,192,192'
+2079,Nicotinate,metabolite,,'192,192,192'
+16,4.1.2.4,enzyme,Carbohydrate metabolism,'234,134,21'
+2080,2-Deoxy-D-ribose 5-phosphate,metabolite,,'192,192,192'
+2081,Acetaldehyde,metabolite,,'192,192,192'
+17,3.5.4.5,enzyme,Nucleotide metabolism,'255,92,129'
+2082,Cytidine,metabolite,,'192,192,192'
+2083,Uridine,metabolite,,'192,192,192'
+2084,Ammonia,metabolite,,'192,192,192'
+2085,Deoxycytidine,metabolite,,'192,192,192'
+2086,Deoxyuridine,metabolite,,'192,192,192'
+2087,5'-Deoxy-5-fluorocytidine,metabolite,,'192,192,192'
+2088,5'-Deoxy-5-fluorouridine,metabolite,,'192,192,192'
+20,3.1.1.29,enzyme,,'192,192,192'
+2089,N-Substituted aminoacyl-tRNA,metabolite,,'192,192,192'
+2090,N-Substituted amino acid,metabolite,,'192,192,192'
+2091,tRNA,metabolite,,'192,192,192'
+21,6.3.4.19,enzyme,,'192,192,192'
+2092,[tRNA(Ile2)]-cytidine34,metabolite,,'192,192,192'
+2093,L-Lysine,metabolite,,'192,192,192'
+2094,[tRNA(Ile2)]-lysidine34,metabolite,,'192,192,192'
+24,1.8.1.9,enzyme,,'192,192,192'
+2095,Thioredoxin,metabolite,,'192,192,192'
+2096,NADP+,metabolite,,'192,192,192'
+2097,Thioredoxin disulfide,metabolite,,'192,192,192'
+2098,NADPH,metabolite,,'192,192,192'
+2099,L-Cysteine,metabolite,,'192,192,192'
+2100,Glutathione,metabolite,,'192,192,192'
+2101,Glutathionyl-L-cysteine,metabolite,,'192,192,192'
+2102,Hydrogen selenide,metabolite,,'192,192,192'
+2103,H2O,metabolite,,'192,192,192'
+2104,Selenite,metabolite,,'192,192,192'
+2105,H+,metabolite,,'192,192,192'
+2106,Methylselenic acid,metabolite,,'192,192,192'
+2107,Methaneselenol,metabolite,,'192,192,192'
+25,3.5.1.88,enzyme,,'192,192,192'
+2108,Formyl-L-methionyl peptide,metabolite,,'192,192,192'
+2109,Methionyl peptide,metabolite,,'192,192,192'
+2110,Formate,metabolite,,'192,192,192'
+2111,N-Formyl-L-methionylaminoacyl-tRNA,metabolite,,'192,192,192'
+2112,L-Methionylaminoacyl-tRNA,metabolite,,'192,192,192'
+26,2.7.4.8,enzyme,Nucleotide metabolism,'255,92,129'
+2113,GMP,metabolite,,'192,192,192'
+2114,GDP,metabolite,,'192,192,192'
+2115,dGMP,metabolite,,'192,192,192'
+2116,dGDP,metabolite,,'192,192,192'
+2117,dZMP,metabolite,,'192,192,192'
+2118,dZDP,metabolite,,'192,192,192'
+27,6.1.1.22,enzyme,Amino acid metabolism,'46,144,114'
+2119,L-Asparagine,metabolite,,'192,192,192'
+2120,tRNA(Asn),metabolite,,'192,192,192'
+2121,L-Asparaginyl-tRNA(Asn),metabolite,,'192,192,192'
+28,2.7.8.5,enzyme,Lipid metabolism,'198,134,233'
+2122,CDP-diacylglycerol,metabolite,,'192,192,192'
+2123,CMP,metabolite,,'192,192,192'
+2124,Phosphatidylglycerophosphate,metabolite,,'192,192,192'
+29,5.1.3.2,enzyme,Carbohydrate metabolism,'234,134,21'
+2125,UDP-glucose,metabolite,,'192,192,192'
+2126,UDP-alpha-D-galactose,metabolite,,'192,192,192'
+2127,UDP-N-acetyl-alpha-D-glucosamine,metabolite,,'192,192,192'
+2128,UDP-N-acetyl-D-galactosamine,metabolite,,'192,192,192'
+2129,dTDP-glucose,metabolite,,'192,192,192'
+2130,dTDP-galactose,metabolite,,'192,192,192'
+31,6.1.1.2,enzyme,Amino acid metabolism,'46,144,114'
+2131,L-Tryptophan,metabolite,,'192,192,192'
+2132,tRNA(Trp),metabolite,,'192,192,192'
+2133,L-Tryptophanyl-tRNA(Trp),metabolite,,'192,192,192'
+32,6.1.1.6,enzyme,Amino acid metabolism,'46,144,114'
+2134,tRNA(Lys),metabolite,,'192,192,192'
+2135,L-Lysyl-tRNA,metabolite,,'192,192,192'
+33,5.4.99.9,enzyme,Carbohydrate metabolism,'234,134,21'
+2136,UDP-alpha-D-galactofuranose,metabolite,,'192,192,192'
+2137,UDP-L-arabinose,metabolite,,'192,192,192'
+2138,UDP-L-arabinofuranose,metabolite,,'192,192,192'
+34,3.6.5.1,enzyme,,'192,192,192'
+35,2.7.1.26,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2139,Riboflavin,metabolite,,'192,192,192'
+2140,FMN,metabolite,,'192,192,192'
+36,2.7.7.2,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2141,FAD,metabolite,,'192,192,192'
+38,5.4.99.12,enzyme,,'192,192,192'
+2142,tRNA uridine,metabolite,,'192,192,192'
+2143,tRNA pseudouridine,metabolite,,'192,192,192'
+39,6.1.1.20,enzyme,Amino acid metabolism,'46,144,114'
+2144,L-Phenylalanine,metabolite,,'192,192,192'
+2145,tRNA(Phe),metabolite,,'192,192,192'
+2146,L-Phenylalanyl-tRNA(Phe),metabolite,,'192,192,192'
+41,2.7.1.40,enzyme,Carbohydrate metabolism,'234,134,21'
+2147,Pyruvate,metabolite,,'192,192,192'
+2148,Phosphoenolpyruvate,metabolite,,'192,192,192'
+2149,CDP,metabolite,,'192,192,192'
+2150,UDP,metabolite,,'192,192,192'
+2151,ITP,metabolite,,'192,192,192'
+2152,IDP,metabolite,,'192,192,192'
+2153,dADP,metabolite,,'192,192,192'
+2154,NDP,metabolite,,'192,192,192'
+43,1.17.4.1,enzyme,Nucleotide metabolism,'255,92,129'
+2155,2'-Deoxyribonucleoside diphosphate,metabolite,,'192,192,192'
+2156,Ribonucleoside diphosphate,metabolite,,'192,192,192'
+2157,dCDP,metabolite,,'192,192,192'
+2158,Tryparedoxin disulfide,metabolite,,'192,192,192'
+2159,Tryparedoxin,metabolite,,'192,192,192'
+2160,Trypanothione disulfide,metabolite,,'192,192,192'
+2161,Trypanothione,metabolite,,'192,192,192'
+2162,5-Fluorodeoxyuridine diphosphate,metabolite,,'192,192,192'
+2163,5-Fluorouridine diphosphate,metabolite,,'192,192,192'
+44,5.2.1.8,enzyme,,'192,192,192'
+2164,Peptidylproline (omega=180),metabolite,,'192,192,192'
+2165,Peptidylproline (omega=0),metabolite,,'192,192,192'
+46,2.3.1.15,enzyme,Lipid metabolism,'198,134,233'
+2166,Acyl-CoA,metabolite,,'192,192,192'
+2167,1-Acyl-sn-glycerol 3-phosphate,metabolite,,'192,192,192'
+2168,CoA,metabolite,,'192,192,192'
+2169,2#3-Dehydroacyl-CoA,metabolite,,'192,192,192'
+2170,Acyl-[acyl-carrier protein],metabolite,,'192,192,192'
+2171,Acyl-carrier protein,metabolite,,'192,192,192'
+47,6.1.1.14,enzyme,Amino acid metabolism,'46,144,114'
+2172,Glycine,metabolite,,'192,192,192'
+2173,tRNA(Gly),metabolite,,'192,192,192'
+2174,Glycyl-tRNA(Gly),metabolite,,'192,192,192'
+48,6.1.1.16,enzyme,Amino acid metabolism,'46,144,114'
+2175,tRNA(Cys),metabolite,,'192,192,192'
+2176,L-Cysteinyl-tRNA(Cys),metabolite,,'192,192,192'
+49,6.5.1.2,enzyme,,'192,192,192'
+2177,NAD+,metabolite,,'192,192,192'
+2178,5'-Phospho-DNA(m),metabolite,,'192,192,192'
+2179,Nicotinamide D-ribonucleotide,metabolite,,'192,192,192'
+2180,DNA(n+m),metabolite,,'192,192,192'
+51,2.7.1.24,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2181,Dephospho-CoA,metabolite,,'192,192,192'
+52,6.1.1.4,enzyme,Amino acid metabolism,'46,144,114'
+2182,L-Leucine,metabolite,,'192,192,192'
+2183,tRNA(Leu),metabolite,,'192,192,192'
+2184,L-Leucyl-tRNA,metabolite,,'192,192,192'
+53,1.8.1.4,enzyme,Amino acid metabolism,'46,144,114'
+2185,[Protein]-N6-[(R)-dihydrolipoyl]-L-lysine,metabolite,,'192,192,192'
+2186,Protein N6-(lipoyl)lysine,metabolite,,'192,192,192'
+2187,NADH,metabolite,,'192,192,192'
+2188,Dihydrolipoylprotein,metabolite,,'192,192,192'
+2189,Lipoylprotein,metabolite,,'192,192,192'
+2190,Enzyme N6-(dihydrolipoyl)lysine,metabolite,,'192,192,192'
+2191,Enzyme N6-(lipoyl)lysine,metabolite,,'192,192,192'
+2192,Dihydrolipoamide,metabolite,,'192,192,192'
+2193,Lipoamide,metabolite,,'192,192,192'
+54,2.4.2.7,enzyme,Nucleotide metabolism,'255,92,129'
+2194,1-(5'-Phosphoribosyl)-5-amino-4-imidazolecarboxamide,metabolite,,'192,192,192'
+2195,5-Amino-4-imidazolecarboxyamide,metabolite,,'192,192,192'
+55,6.1.1.15,enzyme,Amino acid metabolism,'46,144,114'
+2196,L-Proline,metabolite,,'192,192,192'
+2197,tRNA(Pro),metabolite,,'192,192,192'
+2198,L-Prolyl-tRNA(Pro),metabolite,,'192,192,192'
+57,6.1.1.7,enzyme,Amino acid metabolism,'46,144,114'
+2199,L-Alanine,metabolite,,'192,192,192'
+2200,tRNA(Ala),metabolite,,'192,192,192'
+2201,L-Alanyl-tRNA,metabolite,,'192,192,192'
+58,2.8.1.13,enzyme,,'192,192,192'
+2202,[Enzyme]-S-sulfanylcysteine,metabolite,,'192,192,192'
+2203,tRNA containing 2-thiouridine,metabolite,,'192,192,192'
+2204,[Enzyme]-cysteine,metabolite,,'192,192,192'
+59,2.3.1.8,enzyme,Energy metabolism,'0,202,255'
+2205,Acetyl-CoA,metabolite,,'192,192,192'
+2206,Acetyl phosphate,metabolite,,'192,192,192'
+2207,Propanoyl-CoA,metabolite,,'192,192,192'
+2208,Propanoyl phosphate,metabolite,,'192,192,192'
+60,3.1.3.100,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2209,Thiamin monophosphate,metabolite,,'192,192,192'
+2210,Thiamine,metabolite,,'192,192,192'
+61,2.7.4.25,enzyme,Nucleotide metabolism,'255,92,129'
+2211,dCMP,metabolite,,'192,192,192'
+62,6.1.1.9,enzyme,Amino acid metabolism,'46,144,114'
+2212,L-Valine,metabolite,,'192,192,192'
+2213,tRNA(Val),metabolite,,'192,192,192'
+2214,L-Valyl-tRNA(Val),metabolite,,'192,192,192'
+63,6.1.1.5,enzyme,Amino acid metabolism,'46,144,114'
+2215,L-Isoleucine,metabolite,,'192,192,192'
+2216,tRNA(Ile),metabolite,,'192,192,192'
+2217,L-Isoleucyl-tRNA(Ile),metabolite,,'192,192,192'
+65,2.1.1.33,enzyme,,'192,192,192'
+2218,tRNA guanine,metabolite,,'192,192,192'
+2219,Adenosyl-L-homocysteine,metabolite,,'192,192,192'
+2220,tRNA containing N7-methylguanine,metabolite,,'192,192,192'
+67,2.1.2.9,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2221,10-Formyltetrahydrofolate,metabolite,,'192,192,192'
+2222,Tetrahydrofolate,metabolite,,'192,192,192'
+2223,N-Formylmethionyl-tRNA,metabolite,,'192,192,192'
+68,2.3.1.274,enzyme,Lipid metabolism,'198,134,233'
+2224,Acyl phosphate,metabolite,,'192,192,192'
+69,2.8.1.4,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2225,'Activated' tRNA,metabolite,,'192,192,192'
+2226,tRNA containing a thionucleotide,metabolite,,'192,192,192'
+2227,Adenylyl-[sulfur-carrier protein],metabolite,,'192,192,192'
+2228,Reduced acceptor,metabolite,,'192,192,192'
+2229,Thiocarboxy-[sulfur-carrier protein],metabolite,,'192,192,192'
+2230,Acceptor,metabolite,,'192,192,192'
+70,6.1.1.3,enzyme,Amino acid metabolism,'46,144,114'
+2231,L-Threonine,metabolite,,'192,192,192'
+2232,tRNA(Thr),metabolite,,'192,192,192'
+2233,L-Threonyl-tRNA(Thr),metabolite,,'192,192,192'
+71,6.1.1.19,enzyme,Amino acid metabolism,'46,144,114'
+2234,L-Arginine,metabolite,,'192,192,192'
+2235,tRNA(Arg),metabolite,,'192,192,192'
+2236,L-Arginyl-tRNA(Arg),metabolite,,'192,192,192'
+73,2.7.1.48,enzyme,Nucleotide metabolism,'255,92,129'
+2237,5-Fluorouridine,metabolite,,'192,192,192'
+2238,5-Fluorouridine monophosphate,metabolite,,'192,192,192'
+74,6.3.1.5,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2239,Deamino-NAD+,metabolite,,'192,192,192'
+75,5.3.1.6,enzyme,Carbohydrate metabolism,'234,134,21'
+2240,Ribose 5-phosphate,metabolite,,'192,192,192'
+2241,Ribulose 5-phosphate,metabolite,,'192,192,192'
+2242,Allose 6-phosphate,metabolite,,'192,192,192'
+2243,Allulose 6-phosphate,metabolite,,'192,192,192'
+77,4.2.1.11,enzyme,Energy metabolism,'0,202,255'
+2244,2-Phospho-D-glycerate,metabolite,,'192,192,192'
+2245,3-Phospho-D-erythronate,metabolite,,'192,192,192'
+2246,Phosphoenol-4-deoxy-3-tetrulosonate,metabolite,,'192,192,192'
+78,1.8.4.11,enzyme,,'192,192,192'
+2247,Peptide-L-methionine,metabolite,,'192,192,192'
+2248,Peptide-L-methionine (S)-S-oxide,metabolite,,'192,192,192'
+2249,L-Methionine (S)-S-oxide,metabolite,,'192,192,192'
+80,2.7.3.9,enzyme,,'192,192,192'
+2250,Protein histidine,metabolite,,'192,192,192'
+2251,Protein N(pi)-phospho-L-histidine,metabolite,,'192,192,192'
+81,5.4.2.12,enzyme,Energy metabolism,'0,202,255'
+2252,3-Phospho-D-glycerate,metabolite,,'192,192,192'
+82,5.3.1.1,enzyme,Carbohydrate metabolism,'234,134,21'
+83,2.7.4.22,enzyme,Nucleotide metabolism,'255,92,129'
+84,2.1.1.228,enzyme,,'192,192,192'
+2253,tRNA containing N1-methylguanine,metabolite,,'192,192,192'
+85,1.8.4.12,enzyme,,'192,192,192'
+2254,Peptide-L-methionine (R)-S-oxide,metabolite,,'192,192,192'
+86,2.7.7.9,enzyme,Carbohydrate metabolism,'234,134,21'
+2255,Glucose 1-phosphate,metabolite,,'192,192,192'
+87,6.1.1.1,enzyme,Amino acid metabolism,'46,144,114'
+2256,L-Tyrosine,metabolite,,'192,192,192'
+2257,tRNA(Tyr),metabolite,,'192,192,192'
+2258,L-Tyrosyl-tRNA(Tyr),metabolite,,'192,192,192'
+88,2.4.2.8,enzyme,Nucleotide metabolism,'255,92,129'
+2259,IMP,metabolite,,'192,192,192'
+2260,Xanthosine 5'-phosphate,metabolite,,'192,192,192'
+2261,6-Mercaptopurine,metabolite,,'192,192,192'
+2262,6-Thioinosine-5'-monophosphate,metabolite,,'192,192,192'
+2263,6-Methylmercaptopurine,metabolite,,'192,192,192'
+2264,6-Methylthiopurine 5'-monophosphate ribonucleotide,metabolite,,'192,192,192'
+2265,Thioguanine,metabolite,,'192,192,192'
+2266,6-Thioguanosine monophosphate,metabolite,,'192,192,192'
+89,6.1.1.17,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2267,tRNA(Glu),metabolite,,'192,192,192'
+2268,L-Glutamate,metabolite,,'192,192,192'
+2269,L-Glutamyl-tRNA(Glu),metabolite,,'192,192,192'
+90,2.1.1.182,enzyme,,'192,192,192'
+2270,Adenine in rRNA,metabolite,,'192,192,192'
+2271,N6-Dimethyladenine in rRNA,metabolite,,'192,192,192'
+92,1.2.4.2,enzyme,Carbohydrate metabolism,'234,134,21'
+2272,2-Oxoglutarate,metabolite,,'192,192,192'
+2273,[Dihydrolipoyllysine-residue succinyltransferase] S-succinyldihydrolipoyllysine,metabolite,,'192,192,192'
+2274,Thiamin diphosphate,metabolite,,'192,192,192'
+2275,3-Carboxy-1-hydroxypropyl-ThPP,metabolite,,'192,192,192'
+2276,[Dihydrolipoyllysine-residue succinyltransferase]# S-succinyldihydrolipoyllysine,metabolite,,'192,192,192'
+edgedef>source INTEGER,target INTEGER,directed BOOLEAN,weight DOUBLE
+2000,0,true,1.0
+2001,0,true,1.0
+0,2002,true,1.0
+0,2003,true,1.0
+2004,0,true,1.0
+2005,0,true,1.0
+0,2002,true,1.0
+0,2005,true,1.0
+2006,0,true,1.0
+2005,0,true,1.0
+0,2002,true,1.0
+0,2005,true,1.0
+2007,0,true,1.0
+2005,0,true,1.0
+0,2002,true,1.0
+0,2005,true,1.0
+2008,0,true,1.0
+2005,0,true,1.0
+0,2002,true,1.0
+0,2005,true,1.0
+2009,0,true,1.0
+0,2010,true,1.0
+2011,2,true,1.0
+2012,2,true,1.0
+2013,2,true,1.0
+2,2014,true,1.0
+2,2002,true,1.0
+2,2015,true,1.0
+2011,2,true,1.0
+2012,2,true,1.0
+2016,2,true,1.0
+2,2014,true,1.0
+2,2002,true,1.0
+2,2017,true,1.0
+2011,3,true,1.0
+2018,3,true,1.0
+3,2019,true,1.0
+3,2020,true,1.0
+2011,3,true,1.0
+2021,3,true,1.0
+3,2019,true,1.0
+3,2022,true,1.0
+2011,6,true,1.0
+2023,6,true,1.0
+2024,6,true,1.0
+6,2014,true,1.0
+6,2002,true,1.0
+6,2025,true,1.0
+2011,6,true,1.0
+2026,6,true,1.0
+2024,6,true,1.0
+6,2014,true,1.0
+6,2002,true,1.0
+6,2027,true,1.0
+2028,7,true,1.0
+2029,7,true,1.0
+7,2002,true,1.0
+7,2029,true,1.0
+2011,7,true,1.0
+2029,7,true,1.0
+7,2002,true,1.0
+7,2029,true,1.0
+2030,7,true,1.0
+2029,7,true,1.0
+7,2002,true,1.0
+7,2029,true,1.0
+2031,7,true,1.0
+2029,7,true,1.0
+7,2002,true,1.0
+7,2029,true,1.0
+2032,7,true,1.0
+2029,7,true,1.0
+7,2002,true,1.0
+7,2029,true,1.0
+2033,7,true,1.0
+7,2034,true,1.0
+7,2035,true,1.0
+2036,8,true,1.0
+8,2037,true,1.0
+8,2038,true,1.0
+2036,8,true,1.0
+8,2037,true,1.0
+8,2038,true,1.0
+2039,8,true,1.0
+8,2037,true,1.0
+8,2040,true,1.0
+2041,8,true,1.0
+8,2037,true,1.0
+8,2042,true,1.0
+2043,9,true,1.0
+2002,9,true,1.0
+9,2044,true,1.0
+9,2045,true,1.0
+2011,10,true,1.0
+2046,10,true,1.0
+2047,10,true,1.0
+10,2014,true,1.0
+10,2002,true,1.0
+10,2048,true,1.0
+2049,11,true,1.0
+2050,11,true,1.0
+2011,11,true,1.0
+11,2051,true,1.0
+11,2002,true,1.0
+11,2014,true,1.0
+2011,12,true,1.0
+2052,12,true,1.0
+12,2019,true,1.0
+12,2053,true,1.0
+2054,13,true,1.0
+2055,13,true,1.0
+13,2014,true,1.0
+13,2056,true,1.0
+2057,14,true,1.0
+2002,14,true,1.0
+2058,14,true,1.0
+14,2011,true,1.0
+14,2023,true,1.0
+2011,14,true,1.0
+2026,14,true,1.0
+14,2057,true,1.0
+14,2002,true,1.0
+14,2059,true,1.0
+2060,15,true,1.0
+2057,15,true,1.0
+15,2061,true,1.0
+15,2062,true,1.0
+2063,15,true,1.0
+2057,15,true,1.0
+15,2064,true,1.0
+15,2062,true,1.0
+2065,15,true,1.0
+2057,15,true,1.0
+15,2066,true,1.0
+15,2062,true,1.0
+2067,15,true,1.0
+2057,15,true,1.0
+15,2068,true,1.0
+15,2062,true,1.0
+2069,15,true,1.0
+2057,15,true,1.0
+15,2070,true,1.0
+15,2062,true,1.0
+2071,15,true,1.0
+2057,15,true,1.0
+15,2061,true,1.0
+15,2072,true,1.0
+2073,15,true,1.0
+2057,15,true,1.0
+15,2068,true,1.0
+15,2072,true,1.0
+2074,15,true,1.0
+2057,15,true,1.0
+15,2064,true,1.0
+15,2072,true,1.0
+2075,15,true,1.0
+2057,15,true,1.0
+15,2066,true,1.0
+15,2072,true,1.0
+2076,15,true,1.0
+2057,15,true,1.0
+15,2077,true,1.0
+15,2062,true,1.0
+2078,15,true,1.0
+2057,15,true,1.0
+15,2079,true,1.0
+15,2062,true,1.0
+2080,16,true,1.0
+16,2038,true,1.0
+16,2081,true,1.0
+2082,17,true,1.0
+17,2083,true,1.0
+17,2084,true,1.0
+2085,17,true,1.0
+17,2086,true,1.0
+17,2084,true,1.0
+2087,17,true,1.0
+17,2088,true,1.0
+17,2084,true,1.0
+2089,20,true,1.0
+20,2090,true,1.0
+20,2091,true,1.0
+2092,21,true,1.0
+2093,21,true,1.0
+2011,21,true,1.0
+21,2094,true,1.0
+21,2014,true,1.0
+21,2002,true,1.0
+2095,24,true,1.0
+2096,24,true,1.0
+24,2097,true,1.0
+24,2098,true,1.0
+2099,24,true,1.0
+2100,24,true,1.0
+2096,24,true,1.0
+24,2101,true,1.0
+24,2098,true,1.0
+2102,24,true,1.0
+2096,24,true,1.0
+2103,24,true,1.0
+24,2104,true,1.0
+24,2098,true,1.0
+24,2105,true,1.0
+2098,24,true,1.0
+2105,24,true,1.0
+2106,24,true,1.0
+24,2096,true,1.0
+24,2103,true,1.0
+24,2107,true,1.0
+2108,25,true,1.0
+25,2109,true,1.0
+25,2110,true,1.0
+2111,25,true,1.0
+25,2110,true,1.0
+25,2112,true,1.0
+2011,26,true,1.0
+2113,26,true,1.0
+26,2019,true,1.0
+26,2114,true,1.0
+2011,26,true,1.0
+2115,26,true,1.0
+26,2019,true,1.0
+26,2116,true,1.0
+2117,26,true,1.0
+2011,26,true,1.0
+26,2118,true,1.0
+26,2019,true,1.0
+2011,27,true,1.0
+2119,27,true,1.0
+2120,27,true,1.0
+27,2014,true,1.0
+27,2002,true,1.0
+27,2121,true,1.0
+2122,28,true,1.0
+2053,28,true,1.0
+28,2123,true,1.0
+28,2124,true,1.0
+2125,29,true,1.0
+29,2126,true,1.0
+2127,29,true,1.0
+29,2128,true,1.0
+2129,29,true,1.0
+29,2130,true,1.0
+2011,31,true,1.0
+2131,31,true,1.0
+2132,31,true,1.0
+31,2014,true,1.0
+31,2002,true,1.0
+31,2133,true,1.0
+2011,32,true,1.0
+2093,32,true,1.0
+2134,32,true,1.0
+32,2014,true,1.0
+32,2002,true,1.0
+32,2135,true,1.0
+2126,33,true,1.0
+33,2136,true,1.0
+2137,33,true,1.0
+33,2138,true,1.0
+2030,34,true,1.0
+34,2114,true,1.0
+34,2057,true,1.0
+2011,35,true,1.0
+2139,35,true,1.0
+35,2019,true,1.0
+35,2140,true,1.0
+2011,36,true,1.0
+2140,36,true,1.0
+36,2002,true,1.0
+36,2141,true,1.0
+2142,38,true,1.0
+38,2143,true,1.0
+2011,39,true,1.0
+2144,39,true,1.0
+2145,39,true,1.0
+39,2014,true,1.0
+39,2002,true,1.0
+39,2146,true,1.0
+2011,41,true,1.0
+2147,41,true,1.0
+41,2019,true,1.0
+41,2148,true,1.0
+2030,41,true,1.0
+2147,41,true,1.0
+41,2114,true,1.0
+41,2148,true,1.0
+2031,41,true,1.0
+2147,41,true,1.0
+41,2149,true,1.0
+41,2148,true,1.0
+2032,41,true,1.0
+2147,41,true,1.0
+41,2150,true,1.0
+41,2148,true,1.0
+2151,41,true,1.0
+2147,41,true,1.0
+41,2152,true,1.0
+41,2148,true,1.0
+2004,41,true,1.0
+2147,41,true,1.0
+41,2153,true,1.0
+41,2148,true,1.0
+2006,41,true,1.0
+2147,41,true,1.0
+41,2116,true,1.0
+41,2148,true,1.0
+2028,41,true,1.0
+2147,41,true,1.0
+41,2154,true,1.0
+41,2148,true,1.0
+2155,43,true,1.0
+2097,43,true,1.0
+43,2156,true,1.0
+43,2095,true,1.0
+2153,43,true,1.0
+2097,43,true,1.0
+43,2095,true,1.0
+43,2019,true,1.0
+2022,43,true,1.0
+2097,43,true,1.0
+43,2095,true,1.0
+43,2150,true,1.0
+2116,43,true,1.0
+2097,43,true,1.0
+43,2114,true,1.0
+43,2095,true,1.0
+2157,43,true,1.0
+2097,43,true,1.0
+43,2095,true,1.0
+43,2149,true,1.0
+2155,43,true,1.0
+2158,43,true,1.0
+43,2156,true,1.0
+43,2159,true,1.0
+2155,43,true,1.0
+2160,43,true,1.0
+43,2156,true,1.0
+43,2161,true,1.0
+2162,43,true,1.0
+2097,43,true,1.0
+43,2163,true,1.0
+43,2095,true,1.0
+2164,44,true,1.0
+44,2165,true,1.0
+2053,46,true,1.0
+2166,46,true,1.0
+46,2167,true,1.0
+46,2168,true,1.0
+2169,46,true,1.0
+2053,46,true,1.0
+46,2168,true,1.0
+46,2167,true,1.0
+2170,46,true,1.0
+2053,46,true,1.0
+46,2167,true,1.0
+46,2171,true,1.0
+2011,47,true,1.0
+2172,47,true,1.0
+2173,47,true,1.0
+47,2014,true,1.0
+47,2002,true,1.0
+47,2174,true,1.0
+2011,48,true,1.0
+2099,48,true,1.0
+2175,48,true,1.0
+48,2014,true,1.0
+48,2002,true,1.0
+48,2176,true,1.0
+2177,49,true,1.0
+2001,49,true,1.0
+2178,49,true,1.0
+49,2014,true,1.0
+49,2179,true,1.0
+49,2180,true,1.0
+2011,51,true,1.0
+2181,51,true,1.0
+51,2019,true,1.0
+51,2168,true,1.0
+2011,52,true,1.0
+2182,52,true,1.0
+2183,52,true,1.0
+52,2014,true,1.0
+52,2002,true,1.0
+52,2184,true,1.0
+2185,53,true,1.0
+2177,53,true,1.0
+53,2186,true,1.0
+53,2187,true,1.0
+2188,53,true,1.0
+2177,53,true,1.0
+53,2189,true,1.0
+53,2187,true,1.0
+2190,53,true,1.0
+2177,53,true,1.0
+53,2191,true,1.0
+53,2187,true,1.0
+2192,53,true,1.0
+2177,53,true,1.0
+53,2193,true,1.0
+53,2187,true,1.0
+2014,54,true,1.0
+2002,54,true,1.0
+54,2064,true,1.0
+54,2045,true,1.0
+2194,54,true,1.0
+2002,54,true,1.0
+54,2195,true,1.0
+54,2045,true,1.0
+2011,55,true,1.0
+2196,55,true,1.0
+2197,55,true,1.0
+55,2014,true,1.0
+55,2002,true,1.0
+55,2198,true,1.0
+2011,57,true,1.0
+2199,57,true,1.0
+2200,57,true,1.0
+57,2014,true,1.0
+57,2002,true,1.0
+57,2201,true,1.0
+2142,58,true,1.0
+2202,58,true,1.0
+2011,58,true,1.0
+58,2203,true,1.0
+58,2204,true,1.0
+58,2014,true,1.0
+58,2002,true,1.0
+2205,59,true,1.0
+2057,59,true,1.0
+59,2168,true,1.0
+59,2206,true,1.0
+2207,59,true,1.0
+2057,59,true,1.0
+59,2208,true,1.0
+59,2168,true,1.0
+2209,60,true,1.0
+60,2210,true,1.0
+60,2057,true,1.0
+2011,61,true,1.0
+2123,61,true,1.0
+61,2019,true,1.0
+61,2149,true,1.0
+2011,61,true,1.0
+2211,61,true,1.0
+61,2019,true,1.0
+61,2157,true,1.0
+2011,62,true,1.0
+2212,62,true,1.0
+2213,62,true,1.0
+62,2014,true,1.0
+62,2002,true,1.0
+62,2214,true,1.0
+2011,63,true,1.0
+2215,63,true,1.0
+2216,63,true,1.0
+63,2014,true,1.0
+63,2002,true,1.0
+63,2217,true,1.0
+2058,65,true,1.0
+2218,65,true,1.0
+65,2219,true,1.0
+65,2220,true,1.0
+2025,67,true,1.0
+2221,67,true,1.0
+67,2222,true,1.0
+67,2223,true,1.0
+2170,68,true,1.0
+2057,68,true,1.0
+68,2224,true,1.0
+68,2171,true,1.0
+2099,69,true,1.0
+2225,69,true,1.0
+69,2012,true,1.0
+69,2226,true,1.0
+2202,69,true,1.0
+2227,69,true,1.0
+2228,69,true,1.0
+69,2014,true,1.0
+69,2229,true,1.0
+69,2204,true,1.0
+69,2230,true,1.0
+2011,70,true,1.0
+2231,70,true,1.0
+2232,70,true,1.0
+70,2014,true,1.0
+70,2002,true,1.0
+70,2233,true,1.0
+2011,71,true,1.0
+2234,71,true,1.0
+2235,71,true,1.0
+71,2014,true,1.0
+71,2002,true,1.0
+71,2236,true,1.0
+2011,73,true,1.0
+2082,73,true,1.0
+73,2019,true,1.0
+73,2123,true,1.0
+2011,73,true,1.0
+2083,73,true,1.0
+73,2019,true,1.0
+73,2043,true,1.0
+2030,73,true,1.0
+2082,73,true,1.0
+73,2114,true,1.0
+73,2123,true,1.0
+2030,73,true,1.0
+2083,73,true,1.0
+73,2114,true,1.0
+73,2043,true,1.0
+2237,73,true,1.0
+2011,73,true,1.0
+73,2238,true,1.0
+73,2019,true,1.0
+2011,74,true,1.0
+2239,74,true,1.0
+2084,74,true,1.0
+74,2014,true,1.0
+74,2002,true,1.0
+74,2177,true,1.0
+2240,75,true,1.0
+75,2241,true,1.0
+2242,75,true,1.0
+75,2243,true,1.0
+2244,77,true,1.0
+77,2148,true,1.0
+2245,77,true,1.0
+77,2246,true,1.0
+2247,78,true,1.0
+2097,78,true,1.0
+78,2248,true,1.0
+78,2095,true,1.0
+2023,78,true,1.0
+2097,78,true,1.0
+78,2249,true,1.0
+78,2095,true,1.0
+2148,80,true,1.0
+2250,80,true,1.0
+80,2147,true,1.0
+80,2251,true,1.0
+2244,81,true,1.0
+81,2252,true,1.0
+2038,82,true,1.0
+82,2037,true,1.0
+2011,83,true,1.0
+2043,83,true,1.0
+83,2019,true,1.0
+83,2150,true,1.0
+2058,84,true,1.0
+2218,84,true,1.0
+84,2219,true,1.0
+84,2253,true,1.0
+2247,85,true,1.0
+2097,85,true,1.0
+85,2254,true,1.0
+85,2095,true,1.0
+2032,86,true,1.0
+2255,86,true,1.0
+86,2002,true,1.0
+86,2125,true,1.0
+2011,87,true,1.0
+2256,87,true,1.0
+2257,87,true,1.0
+87,2014,true,1.0
+87,2002,true,1.0
+87,2258,true,1.0
+2259,88,true,1.0
+2002,88,true,1.0
+88,2066,true,1.0
+88,2045,true,1.0
+2113,88,true,1.0
+2002,88,true,1.0
+88,2068,true,1.0
+88,2045,true,1.0
+2260,88,true,1.0
+2002,88,true,1.0
+88,2070,true,1.0
+88,2045,true,1.0
+2261,88,true,1.0
+2045,88,true,1.0
+88,2262,true,1.0
+88,2002,true,1.0
+2263,88,true,1.0
+2045,88,true,1.0
+88,2264,true,1.0
+88,2002,true,1.0
+2265,88,true,1.0
+2045,88,true,1.0
+88,2266,true,1.0
+88,2002,true,1.0
+2267,89,true,1.0
+2268,89,true,1.0
+2011,89,true,1.0
+89,2269,true,1.0
+89,2002,true,1.0
+89,2014,true,1.0
+2058,90,true,1.0
+2270,90,true,1.0
+90,2219,true,1.0
+90,2271,true,1.0
+2272,92,true,1.0
+2191,92,true,1.0
+92,2273,true,1.0
+2272,92,true,1.0
+2274,92,true,1.0
+92,2275,true,1.0
+2275,92,true,1.0
+2191,92,true,1.0
+92,2276,true,1.0
+92,2274,true,1.0

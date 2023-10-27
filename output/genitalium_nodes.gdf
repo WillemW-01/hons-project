@@ -1,411 +1,415 @@
-nodedef>name INTEGER,label VARCHAR,class VARCHAR,module VARCHAR
-0,2.7.7.7,enzyme
-2000,Deoxynucleoside triphosphate,metabolite
-2001,DNA(n),metabolite
-2002,Diphosphate,metabolite
-2003,DNA(n+1),metabolite
-2004,dATP,metabolite
-2005,DNA,metabolite
-2006,dGTP,metabolite
-2007,dCTP,metabolite
-2008,dTTP,metabolite
-2009,2'-Deoxy-5-hydroxymethylcytidine-5'-triphosphate,metabolite
-2010,5-Hydroxymethylcytosine in DNA,metabolite
-2,6.1.1.11,enzyme
-2011,ATP,metabolite
-2012,L-Serine,metabolite
-2013,tRNA(Ser),metabolite
-2014,AMP,metabolite
-2015,L-Seryl-tRNA(Ser),metabolite
-2016,tRNA(Sec),metabolite
-2017,L-Seryl-tRNA(Sec),metabolite
-3,2.7.4.9,enzyme,Nucleotide metabolism
-2018,dTMP,metabolite
-2019,ADP,metabolite
-2020,dTDP,metabolite
-2021,dUMP,metabolite
-2022,dUDP,metabolite
-6,6.1.1.10,enzyme
-2023,L-Methionine,metabolite
-2024,tRNA(Met),metabolite
-2025,L-Methionyl-tRNA,metabolite
-2026,L-Selenomethionine,metabolite
-2027,Selenomethionyl-tRNA(Met),metabolite
-7,2.7.7.6,enzyme
-2028,Nucleoside triphosphate,metabolite
-2029,RNA,metabolite
-2030,GTP,metabolite
-2031,CTP,metabolite
-2032,UTP,metabolite
-2033,n Nucleoside triphosphate,metabolite
-2034,5'-Triphospho-[mRNA](n),metabolite
-2035,(n-1) Diphosphate,metabolite
-8,4.1.2.13,enzyme
-2036,Fructose 1#6-bisphosphate,metabolite
-2037,Glycerone phosphate,metabolite
-2038,Glyceraldehyde 3-phosphate,metabolite
-2039,Sedoheptulose 1#7-bisphosphate,metabolite
-2040,Erythrose 4-phosphate,metabolite
-2041,Fructose 1-phosphate,metabolite
-2042,Glyceraldehyde,metabolite
-9,2.4.2.9,enzyme,Nucleotide metabolism
-2043,UMP,metabolite
-2044,Uracil,metabolite
-2045,5-Phospho-alpha-D-ribose 1-diphosphate,metabolite
-10,2.7.1.21,enzyme,Nucleotide metabolism
-2046,Thymidine,metabolite
-2047,Deoxyuridine,metabolite
-2048,5-Fluorodeoxyuridine,metabolite
-2049,5-Fluorodeoxyuridine monophosphate,metabolite
-11,6.1.1.21,enzyme
-2050,L-Histidine,metabolite
-2051,tRNA(His),metabolite
-2052,L-Histidyl-tRNA(His),metabolite
-12,6.1.1.12,enzyme
-2053,tRNA(Asp),metabolite
-2054,L-Aspartate,metabolite
-2055,L-Aspartyl-tRNA(Asp),metabolite
-13,6.3.4.21,enzyme,Metabolism of cofactors and vitamins
-2056,Nicotinate D-ribonucleotide,metabolite
-2057,Orthophosphate,metabolite
-2058,Nicotinate,metabolite
-14,2.7.1.30,enzyme,Lipid metabolism
-2059,Glycerol,metabolite
-2060,sn-Glycerol 3-phosphate,metabolite
-15,2.3.1.234,enzyme
-2061,L-Threonylcarbamoyladenylate,metabolite
-2062,tRNA adenine,metabolite
-2063,N6-L-Threonylcarbamoyladenine in tRNA,metabolite
-16,2.5.1.6,enzyme,Amino acid metabolism
-2064,Adenosyl-L-methionine,metabolite
-2065,Se-Adenosylselenomethionine,metabolite
-17,2.4.2.1,enzyme,Nucleotide metabolism
-2066,N-D-Ribosylpurine,metabolite
-2067,Purine,metabolite
-2068,Ribose 1-phosphate,metabolite
-2069,Adenosine,metabolite
-2070,Adenine,metabolite
-2071,Inosine,metabolite
-2072,Hypoxanthine,metabolite
-2073,Guanosine,metabolite
-2074,Guanine,metabolite
-2075,Xanthosine,metabolite
-2076,Xanthine,metabolite
-2077,Purine deoxyribonucleoside,metabolite
-2078,2-Deoxy-D-ribose 1-phosphate,metabolite
-2079,Deoxyguanosine,metabolite
-2080,Deoxyadenosine,metabolite
-2081,Deoxyinosine,metabolite
-2082,Nicotinamide-beta-riboside,metabolite
-2083,Nicotinamide,metabolite
-2084,Nicotinate D-ribonucleoside,metabolite
-18,4.1.2.4,enzyme,Carbohydrate metabolism
-2085,2-Deoxy-D-ribose 5-phosphate,metabolite
-2086,Acetaldehyde,metabolite
-19,3.5.4.5,enzyme,Nucleotide metabolism
-2087,Cytidine,metabolite
-2088,Uridine,metabolite
-2089,Ammonia,metabolite
-2090,Deoxycytidine,metabolite
-2091,5'-Deoxy-5-fluorocytidine,metabolite
-2092,5'-Deoxy-5-fluorouridine,metabolite
-20,5.4.2.2,enzyme,Carbohydrate metabolism
-2093,Glucose 1-phosphate,metabolite
-2094,Glucose 6-phosphate,metabolite
-2095,Ribose 5-phosphate,metabolite
-2096,Hexose 1-phosphate,metabolite
-2097,Hexose 6-phosphate,metabolite
-22,2.7.6.1,enzyme
-23,3.1.1.29,enzyme
-2098,N-Substituted aminoacyl-tRNA,metabolite
-2099,N-Substituted amino acid,metabolite
-2100,tRNA,metabolite
-24,6.3.4.19,enzyme
-2101,[tRNA(Ile2)]-cytidine34,metabolite
-2102,L-Lysine,metabolite
-2103,[tRNA(Ile2)]-lysidine34,metabolite
-27,1.8.1.9,enzyme
-2104,Thioredoxin,metabolite
-2105,NADP+,metabolite
-2106,Thioredoxin disulfide,metabolite
-2107,NADPH,metabolite
-2108,L-Cysteine,metabolite
-2109,Glutathione,metabolite
-2110,Glutathionyl-L-cysteine,metabolite
-2111,Hydrogen selenide,metabolite
-2112,H2O,metabolite
-2113,Selenite,metabolite
-2114,H+,metabolite
-2115,Methylselenic acid,metabolite
-2116,Methaneselenol,metabolite
-28,3.5.1.88,enzyme
-2117,Formyl-L-methionyl peptide,metabolite
-2118,Methionyl peptide,metabolite
-2119,Formate,metabolite
-2120,N-Formyl-L-methionylaminoacyl-tRNA,metabolite
-2121,L-Methionylaminoacyl-tRNA,metabolite
-29,2.7.4.8,enzyme,Nucleotide metabolism
-2122,GMP,metabolite
-2123,GDP,metabolite
-2124,dGMP,metabolite
-2125,dGDP,metabolite
-2126,dZMP,metabolite
-2127,dZDP,metabolite
-30,2.7.11.1,enzyme
-2128,Protein,metabolite
-2129,Phosphoprotein,metabolite
-2130,Protamine,metabolite
-2131,O-Phosphoprotamine,metabolite
-31,5.3.1.9,enzyme,Carbohydrate metabolism
-2132,Fructose 6-phosphate,metabolite
-32,6.1.1.22,enzyme
-2133,L-Asparagine,metabolite
-2134,tRNA(Asn),metabolite
-2135,L-Asparaginyl-tRNA(Asn),metabolite
-33,5.1.3.2,enzyme,Carbohydrate metabolism
-2136,UDP-glucose,metabolite
-2137,UDP-alpha-D-galactose,metabolite
-2138,UDP-N-acetyl-alpha-D-glucosamine,metabolite
-2139,UDP-N-acetyl-D-galactosamine,metabolite
-2140,dTDP-glucose,metabolite
-2141,dTDP-galactose,metabolite
-35,6.1.1.2,enzyme
-2142,L-Tryptophan,metabolite
-2143,tRNA(Trp),metabolite
-2144,L-Tryptophanyl-tRNA(Trp),metabolite
-36,2.7.1.23,enzyme,Metabolism of cofactors and vitamins
-2145,NAD+,metabolite
-37,6.1.1.6,enzyme
-2146,tRNA(Lys),metabolite
-2147,L-Lysyl-tRNA,metabolite
-38,5.4.99.9,enzyme,Carbohydrate metabolism
-2148,UDP-alpha-D-galactofuranose,metabolite
-2149,UDP-L-arabinose,metabolite
-2150,UDP-L-arabinofuranose,metabolite
-39,2.7.1.26,enzyme,Metabolism of cofactors and vitamins
-2151,Riboflavin,metabolite
-2152,FMN,metabolite
-40,2.7.7.2,enzyme,Metabolism of cofactors and vitamins
-2153,FAD,metabolite
-42,5.4.99.12,enzyme
-2154,tRNA uridine,metabolite
-2155,tRNA pseudouridine,metabolite
-43,3.1.3.7,enzyme,Energy metabolism
-2156,Adenosine 3'#5'-bisphosphate,metabolite
-2157,3'-Phosphoadenylyl sulfate,metabolite
-2158,Adenylyl sulfate,metabolite
-44,6.1.1.20,enzyme
-2159,L-Phenylalanine,metabolite
-2160,tRNA(Phe),metabolite
-2161,L-Phenylalanyl-tRNA(Phe),metabolite
-45,2.7.8.7,enzyme,Metabolism of cofactors and vitamins
-2162,CoA,metabolite
-2163,Apo-[acyl-carrier-protein],metabolite
-2164,Acyl-carrier protein,metabolite
-46,2.7.1.11,enzyme,Carbohydrate metabolism
-2165,CDP,metabolite
-2166,UDP,metabolite
-2167,ITP,metabolite
-2168,IDP,metabolite
-2169,Sedoheptulose 7-phosphate,metabolite
-2170,Tagatose 6-phosphate,metabolite
-2171,Tagatose 1#6-bisphosphate,metabolite
-47,2.7.1.40,enzyme,Carbohydrate metabolism
-2172,Pyruvate,metabolite
-2173,Phosphoenolpyruvate,metabolite
-2174,dADP,metabolite
-2175,NDP,metabolite
-49,1.5.1.3,enzyme,Metabolism of cofactors and vitamins
-2176,Tetrahydrofolate,metabolite
-2177,Dihydrofolate,metabolite
-2178,NADH,metabolite
-2179,Folate,metabolite
-2180,Tetrahydrobiopterin,metabolite
-2181,7#8-Dihydrobiopterin,metabolite
-50,1.17.4.1,enzyme,Nucleotide metabolism
-2182,2'-Deoxyribonucleoside diphosphate,metabolite
-2183,Ribonucleoside diphosphate,metabolite
-2184,dCDP,metabolite
-2185,Tryparedoxin disulfide,metabolite
-2186,Tryparedoxin,metabolite
-2187,Trypanothione disulfide,metabolite
-2188,Trypanothione,metabolite
-2189,5-Fluorodeoxyuridine diphosphate,metabolite
-2190,5-Fluorouridine diphosphate,metabolite
-53,2.7.7.18,enzyme,Metabolism of cofactors and vitamins
-2191,Deamino-NAD+,metabolite
-2192,Nicotinamide D-ribonucleotide,metabolite
-54,2.3.1.15,enzyme,Lipid metabolism
-2193,Acyl-CoA,metabolite
-2194,1-Acyl-sn-glycerol 3-phosphate,metabolite
-2195,2#3-Dehydroacyl-CoA,metabolite
-2196,Acyl-[acyl-carrier protein],metabolite
-55,6.1.1.14,enzyme
-2197,Glycine,metabolite
-2198,tRNA(Gly),metabolite
-2199,Glycyl-tRNA(Gly),metabolite
-56,6.1.1.16,enzyme
-2200,tRNA(Cys),metabolite
-2201,L-Cysteinyl-tRNA(Cys),metabolite
-57,6.5.1.2,enzyme
-2202,5'-Phospho-DNA(m),metabolite
-2203,DNA(n+m),metabolite
-59,3.1.3.16,enzyme
-60,6.1.1.4,enzyme
-2204,L-Leucine,metabolite
-2205,tRNA(Leu),metabolite
-2206,L-Leucyl-tRNA,metabolite
-61,6.3.1.20,enzyme,Metabolism of cofactors and vitamins
-2207,(R)-Lipoate,metabolite
-2208,[Lipoyl-carrier protein]-L-lysine,metabolite
-2209,Protein N6-(lipoyl)lysine,metabolite
-2210,Glycine cleavage system H,metabolite
-2211,Lipoylprotein,metabolite
-2212,Lipoyl-carrier protein E2,metabolite
-2213,Enzyme N6-(lipoyl)lysine,metabolite
-2214,Lipoyl-AMP,metabolite
-2215,Octanoic acid,metabolite
-2216,[Lipoyl-carrier protein E2]-N6-octanoyl-L-lysine,metabolite
-62,2.3.1.12,enzyme,Carbohydrate metabolism
-2217,Acetyl-CoA,metabolite
-2218,Enzyme N6-(dihydrolipoyl)lysine,metabolite
-2219,[Dihydrolipoyllysine-residue acetyltransferase] S-acetyldihydrolipoyllysine,metabolite
-63,1.6.3.4,enzyme
-2220,Oxygen,metabolite
-64,2.3.1.61,enzyme,Amino acid metabolism
-2221,Succinyl-CoA,metabolite
-2222,[Dihydrolipoyllysine-residue succinyltransferase] S-succinyldihydrolipoyllysine,metabolite
-2223,Glutaryl-CoA,metabolite
-2224,[Dihydrolipoyllysine-residue succinyltransferase] S-glutaryldihydrolipoyllysine,metabolite
-65,2.4.2.7,enzyme,Nucleotide metabolism
-2225,1-(5'-Phosphoribosyl)-5-amino-4-imidazolecarboxamide,metabolite
-2226,5-Amino-4-imidazolecarboxyamide,metabolite
-66,6.1.1.15,enzyme
-2227,L-Proline,metabolite
-2228,tRNA(Pro),metabolite
-2229,L-Prolyl-tRNA(Pro),metabolite
-68,6.1.1.7,enzyme
-2230,L-Alanine,metabolite
-2231,tRNA(Ala),metabolite
-2232,L-Alanyl-tRNA,metabolite
-69,2.8.1.13,enzyme
-2233,[Enzyme]-S-sulfanylcysteine,metabolite
-2234,tRNA containing 2-thiouridine,metabolite
-2235,[Enzyme]-cysteine,metabolite
-70,2.3.1.8,enzyme,Energy metabolism
-2236,Acetyl phosphate,metabolite
-2237,Propanoyl-CoA,metabolite
-2238,Propanoyl phosphate,metabolite
-73,3.1.3.100,enzyme,Metabolism of cofactors and vitamins
-2239,Thiamin monophosphate,metabolite
-2240,Thiamine,metabolite
-74,2.7.4.25,enzyme,Nucleotide metabolism
-2241,CMP,metabolite
-2242,dCMP,metabolite
-75,6.1.1.9,enzyme
-2243,L-Valine,metabolite
-2244,tRNA(Val),metabolite
-2245,L-Valyl-tRNA(Val),metabolite
-76,6.1.1.5,enzyme
-2246,L-Isoleucine,metabolite
-2247,tRNA(Ile),metabolite
-2248,L-Isoleucyl-tRNA(Ile),metabolite
-77,2.1.1.33,enzyme
-2249,tRNA guanine,metabolite
-2250,Adenosyl-L-homocysteine,metabolite
-2251,tRNA containing N7-methylguanine,metabolite
-78,2.7.2.1,enzyme,Energy metabolism
-2252,Acetate,metabolite
-2253,Propanoate,metabolite
-79,2.7.2.3,enzyme,Energy metabolism
-2254,3-Phospho-D-glycerate,metabolite
-2255,3-Phospho-D-glyceroyl phosphate,metabolite
-80,2.1.2.9,enzyme,Metabolism of cofactors and vitamins
-2256,10-Formyltetrahydrofolate,metabolite
-2257,N-Formylmethionyl-tRNA,metabolite
-81,2.3.1.274,enzyme,Lipid metabolism
-2258,Acyl phosphate,metabolite
-82,2.8.1.4,enzyme,Metabolism of cofactors and vitamins
-2259,'Activated' tRNA,metabolite
-2260,tRNA containing a thionucleotide,metabolite
-2261,Adenylyl-[sulfur-carrier protein],metabolite
-2262,Reduced acceptor,metabolite
-2263,Thiocarboxy-[sulfur-carrier protein],metabolite
-2264,Acceptor,metabolite
-83,6.1.1.3,enzyme
-2265,L-Threonine,metabolite
-2266,tRNA(Thr),metabolite
-2267,L-Threonyl-tRNA(Thr),metabolite
-84,6.1.1.19,enzyme
-2268,L-Arginine,metabolite
-2269,tRNA(Arg),metabolite
-2270,L-Arginyl-tRNA(Arg),metabolite
-85,2.7.1.48,enzyme,Nucleotide metabolism
-2271,5-Fluorouridine,metabolite
-2272,5-Fluorouridine monophosphate,metabolite
-86,6.3.1.5,enzyme,Metabolism of cofactors and vitamins
-88,2.1.2.1,enzyme,Energy metabolism
-2273,5#10-Methylenetetrahydrofolate,metabolite
-2274,5#6#7#8-Tetrahydromethanopterin,metabolite
-2275,5#10-Methylenetetrahydromethanopterin,metabolite
-89,5.3.1.6,enzyme,Carbohydrate metabolism
-2276,Ribulose 5-phosphate,metabolite
-2277,Allose 6-phosphate,metabolite
-2278,Allulose 6-phosphate,metabolite
-91,4.2.1.11,enzyme
-2279,2-Phospho-D-glycerate,metabolite
-2280,3-Phospho-D-erythronate,metabolite
-2281,Phosphoenol-4-deoxy-3-tetrulosonate,metabolite
-92,2.7.3.9,enzyme
-2282,Protein histidine,metabolite
-2283,Protein N(pi)-phospho-L-histidine,metabolite
-93,5.4.2.12,enzyme,Energy metabolism
-94,5.3.1.1,enzyme,Carbohydrate metabolism
-95,2.7.4.22,enzyme,Nucleotide metabolism
-96,2.1.1.228,enzyme
-2284,tRNA containing N1-methylguanine,metabolite
-97,1.8.4.12,enzyme
-2285,Peptide-L-methionine,metabolite
-2286,Peptide-L-methionine (R)-S-oxide,metabolite
-98,2.7.7.9,enzyme,Carbohydrate metabolism
-99,6.1.1.1,enzyme
-2287,L-Tyrosine,metabolite
-2288,tRNA(Tyr),metabolite
-2289,L-Tyrosyl-tRNA(Tyr),metabolite
-100,2.4.2.8,enzyme,Nucleotide metabolism
-2290,IMP,metabolite
-2291,Xanthosine 5'-phosphate,metabolite
-2292,6-Mercaptopurine,metabolite
-2293,6-Thioinosine-5'-monophosphate,metabolite
-2294,6-Methylmercaptopurine,metabolite
-2295,6-Methylthiopurine 5'-monophosphate ribonucleotide,metabolite
-2296,Thioguanine,metabolite
-2297,6-Thioguanosine monophosphate,metabolite
-101,6.1.1.17,enzyme,Metabolism of cofactors and vitamins
-2298,tRNA(Glu),metabolite
-2299,L-Glutamate,metabolite
-2300,L-Glutamyl-tRNA(Glu),metabolite
-103,1.2.4.2,enzyme,Carbohydrate metabolism
-2301,2-Oxoglutarate,metabolite
-2302,Thiamin diphosphate,metabolite
-2303,3-Carboxy-1-hydroxypropyl-ThPP,metabolite
-104,1.2.4.1,enzyme,Carbohydrate metabolism
-2304,2-(alpha-Hydroxyethyl)thiamine diphosphate,metabolite
-105,1.8.1.4,enzyme,Amino acid metabolism
-2305,[Protein]-N6-[(R)-dihydrolipoyl]-L-lysine,metabolite
-2306,Dihydrolipoylprotein,metabolite
-2307,Dihydrolipoamide,metabolite
-2308,Lipoamide,metabolite
-106,2.3.1.51,enzyme,Lipid metabolism
-2309,Phosphatidate,metabolite
-107,3.1.4.14,enzyme,Metabolism of cofactors and vitamins
-2310,Pantetheine 4'-phosphate,metabolite
-108,2.7.1.32,enzyme,Lipid metabolism
-2311,Choline,metabolite
-2312,Choline phosphate,metabolite
-109,2.7.1.82,enzyme,Lipid metabolism
-2313,Ethanolamine,metabolite
-2314,Ethanolamine phosphate,metabolite
+nodedef>name INTEGER,label VARCHAR,class VARCHAR,module VARCHAR,color VARCHAR
+0,2.7.7.7,enzyme,,'192,192,192'
+2000,Deoxynucleoside triphosphate,metabolite,,'192,192,192'
+2001,DNA(n),metabolite,,'192,192,192'
+2002,Diphosphate,metabolite,,'192,192,192'
+2003,DNA(n+1),metabolite,,'192,192,192'
+2004,dATP,metabolite,,'192,192,192'
+2005,DNA,metabolite,,'192,192,192'
+2006,dGTP,metabolite,,'192,192,192'
+2007,dCTP,metabolite,,'192,192,192'
+2008,dTTP,metabolite,,'192,192,192'
+2009,2'-Deoxy-5-hydroxymethylcytidine-5'-triphosphate,metabolite,,'192,192,192'
+2010,5-Hydroxymethylcytosine in DNA,metabolite,,'192,192,192'
+2,6.1.1.11,enzyme,Amino acid metabolism,'46,144,114'
+2011,ATP,metabolite,,'192,192,192'
+2012,L-Serine,metabolite,,'192,192,192'
+2013,tRNA(Ser),metabolite,,'192,192,192'
+2014,AMP,metabolite,,'192,192,192'
+2015,L-Seryl-tRNA(Ser),metabolite,,'192,192,192'
+2016,tRNA(Sec),metabolite,,'192,192,192'
+2017,L-Seryl-tRNA(Sec),metabolite,,'192,192,192'
+3,2.7.4.9,enzyme,Nucleotide metabolism,'255,92,129'
+2018,dTMP,metabolite,,'192,192,192'
+2019,ADP,metabolite,,'192,192,192'
+2020,dTDP,metabolite,,'192,192,192'
+2021,dUMP,metabolite,,'192,192,192'
+2022,dUDP,metabolite,,'192,192,192'
+6,6.1.1.10,enzyme,Amino acid metabolism,'46,144,114'
+2023,L-Methionine,metabolite,,'192,192,192'
+2024,tRNA(Met),metabolite,,'192,192,192'
+2025,L-Methionyl-tRNA,metabolite,,'192,192,192'
+2026,L-Selenomethionine,metabolite,,'192,192,192'
+2027,Selenomethionyl-tRNA(Met),metabolite,,'192,192,192'
+7,2.7.7.6,enzyme,,'192,192,192'
+2028,Nucleoside triphosphate,metabolite,,'192,192,192'
+2029,RNA,metabolite,,'192,192,192'
+2030,GTP,metabolite,,'192,192,192'
+2031,CTP,metabolite,,'192,192,192'
+2032,UTP,metabolite,,'192,192,192'
+2033,n Nucleoside triphosphate,metabolite,,'192,192,192'
+2034,5'-Triphospho-[mRNA]#(n),metabolite,,'192,192,192'
+2035,(n-1) Diphosphate,metabolite,,'192,192,192'
+8,4.1.2.13,enzyme,Energy metabolism,'0,202,255'
+2036,Fructose 1#6-bisphosphate,metabolite,,'192,192,192'
+2037,Glycerone phosphate,metabolite,,'192,192,192'
+2038,Glyceraldehyde 3-phosphate,metabolite,,'192,192,192'
+2039,Sedoheptulose 1#7-bisphosphate,metabolite,,'192,192,192'
+2040,Erythrose 4-phosphate,metabolite,,'192,192,192'
+2041,Fructose 1-phosphate,metabolite,,'192,192,192'
+2042,Glyceraldehyde,metabolite,,'192,192,192'
+9,2.4.2.9,enzyme,Nucleotide metabolism,'255,92,129'
+2043,UMP,metabolite,,'192,192,192'
+2044,Uracil,metabolite,,'192,192,192'
+2045,5-Phospho-alpha-D-ribose 1-diphosphate,metabolite,,'192,192,192'
+10,2.7.1.21,enzyme,Nucleotide metabolism,'255,92,129'
+2046,Thymidine,metabolite,,'192,192,192'
+2047,Deoxyuridine,metabolite,,'192,192,192'
+2048,5-Fluorodeoxyuridine,metabolite,,'192,192,192'
+2049,5-Fluorodeoxyuridine monophosphate,metabolite,,'192,192,192'
+11,6.1.1.21,enzyme,Amino acid metabolism,'46,144,114'
+2050,L-Histidine,metabolite,,'192,192,192'
+2051,tRNA(His),metabolite,,'192,192,192'
+2052,L-Histidyl-tRNA(His),metabolite,,'192,192,192'
+12,6.1.1.12,enzyme,Amino acid metabolism,'46,144,114'
+2053,tRNA(Asp),metabolite,,'192,192,192'
+2054,L-Aspartate,metabolite,,'192,192,192'
+2055,L-Aspartyl-tRNA(Asp),metabolite,,'192,192,192'
+13,6.3.4.21,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2056,Nicotinate D-ribonucleotide,metabolite,,'192,192,192'
+2057,Orthophosphate,metabolite,,'192,192,192'
+2058,Nicotinate,metabolite,,'192,192,192'
+14,2.7.1.30,enzyme,Lipid metabolism,'198,134,233'
+2059,Glycerol,metabolite,,'192,192,192'
+2060,sn-Glycerol 3-phosphate,metabolite,,'192,192,192'
+15,2.3.1.234,enzyme,,'192,192,192'
+2061,L-Threonylcarbamoyladenylate,metabolite,,'192,192,192'
+2062,tRNA adenine,metabolite,,'192,192,192'
+2063,N6-L-Threonylcarbamoyladenine in tRNA,metabolite,,'192,192,192'
+16,2.5.1.6,enzyme,Amino acid metabolism,'46,144,114'
+2064,Adenosyl-L-methionine,metabolite,,'192,192,192'
+2065,Se-Adenosylselenomethionine,metabolite,,'192,192,192'
+17,2.4.2.1,enzyme,Nucleotide metabolism,'255,92,129'
+2066,N-D-Ribosylpurine,metabolite,,'192,192,192'
+2067,Purine,metabolite,,'192,192,192'
+2068,Ribose 1-phosphate,metabolite,,'192,192,192'
+2069,Adenosine,metabolite,,'192,192,192'
+2070,Adenine,metabolite,,'192,192,192'
+2071,Inosine,metabolite,,'192,192,192'
+2072,Hypoxanthine,metabolite,,'192,192,192'
+2073,Guanosine,metabolite,,'192,192,192'
+2074,Guanine,metabolite,,'192,192,192'
+2075,Xanthosine,metabolite,,'192,192,192'
+2076,Xanthine,metabolite,,'192,192,192'
+2077,Purine deoxyribonucleoside,metabolite,,'192,192,192'
+2078,2-Deoxy-D-ribose 1-phosphate,metabolite,,'192,192,192'
+2079,Deoxyguanosine,metabolite,,'192,192,192'
+2080,Deoxyadenosine,metabolite,,'192,192,192'
+2081,Deoxyinosine,metabolite,,'192,192,192'
+2082,Nicotinamide-beta-riboside,metabolite,,'192,192,192'
+2083,Nicotinamide,metabolite,,'192,192,192'
+2084,Nicotinate D-ribonucleoside,metabolite,,'192,192,192'
+18,4.1.2.4,enzyme,Carbohydrate metabolism,'234,134,21'
+2085,2-Deoxy-D-ribose 5-phosphate,metabolite,,'192,192,192'
+2086,Acetaldehyde,metabolite,,'192,192,192'
+19,3.5.4.5,enzyme,Nucleotide metabolism,'255,92,129'
+2087,Cytidine,metabolite,,'192,192,192'
+2088,Uridine,metabolite,,'192,192,192'
+2089,Ammonia,metabolite,,'192,192,192'
+2090,Deoxycytidine,metabolite,,'192,192,192'
+2091,5'-Deoxy-5-fluorocytidine,metabolite,,'192,192,192'
+2092,5'-Deoxy-5-fluorouridine,metabolite,,'192,192,192'
+20,5.4.2.2,enzyme,Carbohydrate metabolism,'234,134,21'
+2093,Glucose 1-phosphate,metabolite,,'192,192,192'
+2094,Glucose 6-phosphate,metabolite,,'192,192,192'
+2095,Ribose 5-phosphate,metabolite,,'192,192,192'
+2096,Hexose 1-phosphate,metabolite,,'192,192,192'
+2097,Hexose 6-phosphate,metabolite,,'192,192,192'
+22,2.7.6.1,enzyme,Carbohydrate metabolism,'234,134,21'
+23,3.1.1.29,enzyme,,'192,192,192'
+2098,N-Substituted aminoacyl-tRNA,metabolite,,'192,192,192'
+2099,N-Substituted amino acid,metabolite,,'192,192,192'
+2100,tRNA,metabolite,,'192,192,192'
+24,6.3.4.19,enzyme,,'192,192,192'
+2101,[tRNA(Ile2)]-cytidine34,metabolite,,'192,192,192'
+2102,L-Lysine,metabolite,,'192,192,192'
+2103,[tRNA(Ile2)]-lysidine34,metabolite,,'192,192,192'
+27,1.8.1.9,enzyme,,'192,192,192'
+2104,Thioredoxin,metabolite,,'192,192,192'
+2105,NADP+,metabolite,,'192,192,192'
+2106,Thioredoxin disulfide,metabolite,,'192,192,192'
+2107,NADPH,metabolite,,'192,192,192'
+2108,L-Cysteine,metabolite,,'192,192,192'
+2109,Glutathione,metabolite,,'192,192,192'
+2110,Glutathionyl-L-cysteine,metabolite,,'192,192,192'
+2111,Hydrogen selenide,metabolite,,'192,192,192'
+2112,H2O,metabolite,,'192,192,192'
+2113,Selenite,metabolite,,'192,192,192'
+2114,H+,metabolite,,'192,192,192'
+2115,Methylselenic acid,metabolite,,'192,192,192'
+2116,Methaneselenol,metabolite,,'192,192,192'
+28,3.5.1.88,enzyme,,'192,192,192'
+2117,Formyl-L-methionyl peptide,metabolite,,'192,192,192'
+2118,Methionyl peptide,metabolite,,'192,192,192'
+2119,Formate,metabolite,,'192,192,192'
+2120,N-Formyl-L-methionylaminoacyl-tRNA,metabolite,,'192,192,192'
+2121,L-Methionylaminoacyl-tRNA,metabolite,,'192,192,192'
+29,2.7.4.8,enzyme,Nucleotide metabolism,'255,92,129'
+2122,GMP,metabolite,,'192,192,192'
+2123,GDP,metabolite,,'192,192,192'
+2124,dGMP,metabolite,,'192,192,192'
+2125,dGDP,metabolite,,'192,192,192'
+2126,dZMP,metabolite,,'192,192,192'
+2127,dZDP,metabolite,,'192,192,192'
+30,2.7.11.1,enzyme,,'192,192,192'
+2128,Protein,metabolite,,'192,192,192'
+2129,Phosphoprotein,metabolite,,'192,192,192'
+2130,Protamine,metabolite,,'192,192,192'
+2131,O-Phosphoprotamine,metabolite,,'192,192,192'
+31,5.3.1.9,enzyme,Carbohydrate metabolism,'234,134,21'
+2132,Fructose 6-phosphate,metabolite,,'192,192,192'
+32,6.1.1.22,enzyme,Amino acid metabolism,'46,144,114'
+2133,L-Asparagine,metabolite,,'192,192,192'
+2134,tRNA(Asn),metabolite,,'192,192,192'
+2135,L-Asparaginyl-tRNA(Asn),metabolite,,'192,192,192'
+33,5.1.3.2,enzyme,Carbohydrate metabolism,'234,134,21'
+2136,UDP-glucose,metabolite,,'192,192,192'
+2137,UDP-alpha-D-galactose,metabolite,,'192,192,192'
+2138,UDP-N-acetyl-alpha-D-glucosamine,metabolite,,'192,192,192'
+2139,UDP-N-acetyl-D-galactosamine,metabolite,,'192,192,192'
+2140,dTDP-glucose,metabolite,,'192,192,192'
+2141,dTDP-galactose,metabolite,,'192,192,192'
+35,6.1.1.2,enzyme,Amino acid metabolism,'46,144,114'
+2142,L-Tryptophan,metabolite,,'192,192,192'
+2143,tRNA(Trp),metabolite,,'192,192,192'
+2144,L-Tryptophanyl-tRNA(Trp),metabolite,,'192,192,192'
+36,2.7.1.23,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2145,NAD+,metabolite,,'192,192,192'
+37,6.1.1.6,enzyme,Amino acid metabolism,'46,144,114'
+2146,tRNA(Lys),metabolite,,'192,192,192'
+2147,L-Lysyl-tRNA,metabolite,,'192,192,192'
+38,5.4.99.9,enzyme,Carbohydrate metabolism,'234,134,21'
+2148,UDP-alpha-D-galactofuranose,metabolite,,'192,192,192'
+2149,UDP-L-arabinose,metabolite,,'192,192,192'
+2150,UDP-L-arabinofuranose,metabolite,,'192,192,192'
+39,2.7.1.26,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2151,Riboflavin,metabolite,,'192,192,192'
+2152,FMN,metabolite,,'192,192,192'
+40,2.7.7.2,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2153,FAD,metabolite,,'192,192,192'
+42,5.4.99.12,enzyme,,'192,192,192'
+2154,tRNA uridine,metabolite,,'192,192,192'
+2155,tRNA pseudouridine,metabolite,,'192,192,192'
+43,3.1.3.7,enzyme,Energy metabolism,'0,202,255'
+2156,Adenosine 3#5'-bisphosphate,metabolite,,'192,192,192'
+2157,3'-Phosphoadenylyl sulfate,metabolite,,'192,192,192'
+2158,Adenylyl sulfate,metabolite,,'192,192,192'
+44,6.1.1.20,enzyme,Amino acid metabolism,'46,144,114'
+2159,L-Phenylalanine,metabolite,,'192,192,192'
+2160,tRNA(Phe),metabolite,,'192,192,192'
+2161,L-Phenylalanyl-tRNA(Phe),metabolite,,'192,192,192'
+45,2.7.8.7,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2162,CoA,metabolite,,'192,192,192'
+2163,Apo-[acyl-carrier-protein]#,metabolite,,'192,192,192'
+2164,Acyl-carrier protein,metabolite,,'192,192,192'
+46,2.7.1.11,enzyme,Carbohydrate metabolism,'234,134,21'
+2165,CDP,metabolite,,'192,192,192'
+2166,UDP,metabolite,,'192,192,192'
+2167,ITP,metabolite,,'192,192,192'
+2168,IDP,metabolite,,'192,192,192'
+2169,Sedoheptulose 7-phosphate,metabolite,,'192,192,192'
+2170,Tagatose 6-phosphate,metabolite,,'192,192,192'
+2171,Tagatose 1#6-bisphosphate,metabolite,,'192,192,192'
+47,2.7.1.40,enzyme,Carbohydrate metabolism,'234,134,21'
+2172,Pyruvate,metabolite,,'192,192,192'
+2173,Phosphoenolpyruvate,metabolite,,'192,192,192'
+2174,dADP,metabolite,,'192,192,192'
+2175,NDP,metabolite,,'192,192,192'
+49,1.5.1.3,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2176,Tetrahydrofolate,metabolite,,'192,192,192'
+2177,Dihydrofolate,metabolite,,'192,192,192'
+2178,NADH,metabolite,,'192,192,192'
+2179,Folate,metabolite,,'192,192,192'
+2180,Tetrahydrobiopterin,metabolite,,'192,192,192'
+2181,7#8-Dihydrobiopterin,metabolite,,'192,192,192'
+50,1.17.4.1,enzyme,Nucleotide metabolism,'255,92,129'
+2182,2'-Deoxyribonucleoside diphosphate,metabolite,,'192,192,192'
+2183,Ribonucleoside diphosphate,metabolite,,'192,192,192'
+2184,dCDP,metabolite,,'192,192,192'
+2185,Tryparedoxin disulfide,metabolite,,'192,192,192'
+2186,Tryparedoxin,metabolite,,'192,192,192'
+2187,Trypanothione disulfide,metabolite,,'192,192,192'
+2188,Trypanothione,metabolite,,'192,192,192'
+2189,5-Fluorodeoxyuridine diphosphate,metabolite,,'192,192,192'
+2190,5-Fluorouridine diphosphate,metabolite,,'192,192,192'
+53,2.7.7.18,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2191,Deamino-NAD+,metabolite,,'192,192,192'
+2192,Nicotinamide D-ribonucleotide,metabolite,,'192,192,192'
+54,2.3.1.15,enzyme,Lipid metabolism,'198,134,233'
+2193,Acyl-CoA,metabolite,,'192,192,192'
+2194,1-Acyl-sn-glycerol 3-phosphate,metabolite,,'192,192,192'
+2195,2#3-Dehydroacyl-CoA,metabolite,,'192,192,192'
+2196,Acyl-[acyl-carrier protein],metabolite,,'192,192,192'
+55,6.1.1.14,enzyme,Amino acid metabolism,'46,144,114'
+2197,Glycine,metabolite,,'192,192,192'
+2198,tRNA(Gly),metabolite,,'192,192,192'
+2199,Glycyl-tRNA(Gly),metabolite,,'192,192,192'
+56,6.1.1.16,enzyme,Amino acid metabolism,'46,144,114'
+2200,tRNA(Cys),metabolite,,'192,192,192'
+2201,L-Cysteinyl-tRNA(Cys),metabolite,,'192,192,192'
+57,6.5.1.2,enzyme,,'192,192,192'
+2202,5'-Phospho-DNA(m),metabolite,,'192,192,192'
+2203,DNA(n+m),metabolite,,'192,192,192'
+59,3.1.3.16,enzyme,,'192,192,192'
+60,6.1.1.4,enzyme,Amino acid metabolism,'46,144,114'
+2204,L-Leucine,metabolite,,'192,192,192'
+2205,tRNA(Leu),metabolite,,'192,192,192'
+2206,L-Leucyl-tRNA,metabolite,,'192,192,192'
+61,6.3.1.20,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2207,(R)-Lipoate,metabolite,,'192,192,192'
+2208,[Lipoyl-carrier protein]-L-lysine,metabolite,,'192,192,192'
+2209,Protein N6-(lipoyl)lysine,metabolite,,'192,192,192'
+2210,Glycine cleavage system H,metabolite,,'192,192,192'
+2211,Lipoylprotein,metabolite,,'192,192,192'
+2212,Lipoyl-carrier protein E2,metabolite,,'192,192,192'
+2213,Enzyme N6-(lipoyl)lysine,metabolite,,'192,192,192'
+2214,Lipoyl-AMP,metabolite,,'192,192,192'
+2215,Octanoic acid,metabolite,,'192,192,192'
+2216,[Lipoyl-carrier protein E2]-N6-octanoyl-L-lysine,metabolite,,'192,192,192'
+62,2.3.1.12,enzyme,Carbohydrate metabolism,'234,134,21'
+2217,Acetyl-CoA,metabolite,,'192,192,192'
+2218,Enzyme N6-(dihydrolipoyl)lysine,metabolite,,'192,192,192'
+2219,[Dihydrolipoyllysine-residue acetyltransferase] S-acetyldihydrolipoyllysine,metabolite,,'192,192,192'
+63,1.6.3.4,enzyme,,'192,192,192'
+2220,Oxygen,metabolite,,'192,192,192'
+64,2.3.1.61,enzyme,Amino acid metabolism,'46,144,114'
+2221,Succinyl-CoA,metabolite,,'192,192,192'
+2222,[Dihydrolipoyllysine-residue succinyltransferase]# S-succinyldihydrolipoyllysine,metabolite,,'192,192,192'
+2223,Glutaryl-CoA,metabolite,,'192,192,192'
+2224,[Dihydrolipoyllysine-residue succinyltransferase]# S-glutaryldihydrolipoyllysine,metabolite,,'192,192,192'
+65,2.4.2.7,enzyme,Nucleotide metabolism,'255,92,129'
+2225,1-(5'-Phosphoribosyl)-5-amino-4-imidazolecarboxamide,metabolite,,'192,192,192'
+2226,5-Amino-4-imidazolecarboxyamide,metabolite,,'192,192,192'
+66,6.1.1.15,enzyme,Amino acid metabolism,'46,144,114'
+2227,L-Proline,metabolite,,'192,192,192'
+2228,tRNA(Pro),metabolite,,'192,192,192'
+2229,L-Prolyl-tRNA(Pro),metabolite,,'192,192,192'
+68,6.1.1.7,enzyme,Amino acid metabolism,'46,144,114'
+2230,L-Alanine,metabolite,,'192,192,192'
+2231,tRNA(Ala),metabolite,,'192,192,192'
+2232,L-Alanyl-tRNA,metabolite,,'192,192,192'
+69,2.8.1.13,enzyme,,'192,192,192'
+2233,[Enzyme]-S-sulfanylcysteine,metabolite,,'192,192,192'
+2234,tRNA containing 2-thiouridine,metabolite,,'192,192,192'
+2235,[Enzyme]-cysteine,metabolite,,'192,192,192'
+70,2.3.1.8,enzyme,Energy metabolism,'0,202,255'
+2236,Acetyl phosphate,metabolite,,'192,192,192'
+2237,Propanoyl-CoA,metabolite,,'192,192,192'
+2238,Propanoyl phosphate,metabolite,,'192,192,192'
+73,3.1.3.100,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2239,Thiamin monophosphate,metabolite,,'192,192,192'
+2240,Thiamine,metabolite,,'192,192,192'
+74,2.7.4.25,enzyme,Nucleotide metabolism,'255,92,129'
+2241,CMP,metabolite,,'192,192,192'
+2242,dCMP,metabolite,,'192,192,192'
+75,6.1.1.9,enzyme,Amino acid metabolism,'46,144,114'
+2243,L-Valine,metabolite,,'192,192,192'
+2244,tRNA(Val),metabolite,,'192,192,192'
+2245,L-Valyl-tRNA(Val),metabolite,,'192,192,192'
+76,6.1.1.5,enzyme,Amino acid metabolism,'46,144,114'
+2246,L-Isoleucine,metabolite,,'192,192,192'
+2247,tRNA(Ile),metabolite,,'192,192,192'
+2248,L-Isoleucyl-tRNA(Ile),metabolite,,'192,192,192'
+77,2.1.1.33,enzyme,,'192,192,192'
+2249,tRNA guanine,metabolite,,'192,192,192'
+2250,Adenosyl-L-homocysteine,metabolite,,'192,192,192'
+2251,tRNA containing N7-methylguanine,metabolite,,'192,192,192'
+78,2.7.2.1,enzyme,Energy metabolism,'0,202,255'
+2252,Acetate,metabolite,,'192,192,192'
+2253,Propanoate,metabolite,,'192,192,192'
+79,2.7.2.3,enzyme,Energy metabolism,'0,202,255'
+2254,3-Phospho-D-glycerate,metabolite,,'192,192,192'
+2255,3-Phospho-D-glyceroyl phosphate,metabolite,,'192,192,192'
+80,2.1.2.9,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2256,10-Formyltetrahydrofolate,metabolite,,'192,192,192'
+2257,N-Formylmethionyl-tRNA,metabolite,,'192,192,192'
+81,2.3.1.274,enzyme,Lipid metabolism,'198,134,233'
+2258,Acyl phosphate,metabolite,,'192,192,192'
+82,2.8.1.4,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2259,'Activated' tRNA,metabolite,,'192,192,192'
+2260,tRNA containing a thionucleotide,metabolite,,'192,192,192'
+2261,Adenylyl-[sulfur-carrier protein],metabolite,,'192,192,192'
+2262,Reduced acceptor,metabolite,,'192,192,192'
+2263,Thiocarboxy-[sulfur-carrier protein],metabolite,,'192,192,192'
+2264,Acceptor,metabolite,,'192,192,192'
+83,6.1.1.3,enzyme,Amino acid metabolism,'46,144,114'
+2265,L-Threonine,metabolite,,'192,192,192'
+2266,tRNA(Thr),metabolite,,'192,192,192'
+2267,L-Threonyl-tRNA(Thr),metabolite,,'192,192,192'
+84,6.1.1.19,enzyme,Amino acid metabolism,'46,144,114'
+2268,L-Arginine,metabolite,,'192,192,192'
+2269,tRNA(Arg),metabolite,,'192,192,192'
+2270,L-Arginyl-tRNA(Arg),metabolite,,'192,192,192'
+85,2.7.1.48,enzyme,Nucleotide metabolism,'255,92,129'
+2271,5-Fluorouridine,metabolite,,'192,192,192'
+2272,5-Fluorouridine monophosphate,metabolite,,'192,192,192'
+86,6.3.1.5,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+88,2.1.2.1,enzyme,Energy metabolism,'0,202,255'
+2273,5#10-Methylenetetrahydrofolate,metabolite,,'192,192,192'
+2274,5#6#7#8-Tetrahydromethanopterin,metabolite,,'192,192,192'
+2275,5#10-Methylenetetrahydromethanopterin,metabolite,,'192,192,192'
+89,5.3.1.6,enzyme,Carbohydrate metabolism,'234,134,21'
+2276,Ribulose 5-phosphate,metabolite,,'192,192,192'
+2277,Allose 6-phosphate,metabolite,,'192,192,192'
+2278,Allulose 6-phosphate,metabolite,,'192,192,192'
+91,4.2.1.11,enzyme,Energy metabolism,'0,202,255'
+2279,2-Phospho-D-glycerate,metabolite,,'192,192,192'
+2280,3-Phospho-D-erythronate,metabolite,,'192,192,192'
+2281,Phosphoenol-4-deoxy-3-tetrulosonate,metabolite,,'192,192,192'
+92,2.7.3.9,enzyme,,'192,192,192'
+2282,Protein histidine,metabolite,,'192,192,192'
+2283,Protein N(pi)-phospho-L-histidine,metabolite,,'192,192,192'
+93,5.4.2.12,enzyme,Energy metabolism,'0,202,255'
+94,5.3.1.1,enzyme,Carbohydrate metabolism,'234,134,21'
+95,2.7.4.22,enzyme,Nucleotide metabolism,'255,92,129'
+96,2.1.1.228,enzyme,,'192,192,192'
+2284,tRNA containing N1-methylguanine,metabolite,,'192,192,192'
+97,1.8.4.12,enzyme,,'192,192,192'
+2285,Peptide-L-methionine,metabolite,,'192,192,192'
+2286,Peptide-L-methionine (R)-S-oxide,metabolite,,'192,192,192'
+98,2.7.7.9,enzyme,Carbohydrate metabolism,'234,134,21'
+99,6.1.1.1,enzyme,Amino acid metabolism,'46,144,114'
+2287,L-Tyrosine,metabolite,,'192,192,192'
+2288,tRNA(Tyr),metabolite,,'192,192,192'
+2289,L-Tyrosyl-tRNA(Tyr),metabolite,,'192,192,192'
+100,2.4.2.8,enzyme,Nucleotide metabolism,'255,92,129'
+2290,IMP,metabolite,,'192,192,192'
+2291,Xanthosine 5'-phosphate,metabolite,,'192,192,192'
+2292,6-Mercaptopurine,metabolite,,'192,192,192'
+2293,6-Thioinosine-5'-monophosphate,metabolite,,'192,192,192'
+2294,6-Methylmercaptopurine,metabolite,,'192,192,192'
+2295,6-Methylthiopurine 5'-monophosphate ribonucleotide,metabolite,,'192,192,192'
+2296,Thioguanine,metabolite,,'192,192,192'
+2297,6-Thioguanosine monophosphate,metabolite,,'192,192,192'
+101,6.1.1.17,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2298,tRNA(Glu),metabolite,,'192,192,192'
+2299,L-Glutamate,metabolite,,'192,192,192'
+2300,L-Glutamyl-tRNA(Glu),metabolite,,'192,192,192'
+103,1.2.4.2,enzyme,Carbohydrate metabolism,'234,134,21'
+2301,2-Oxoglutarate,metabolite,,'192,192,192'
+2302,[Dihydrolipoyllysine-residue succinyltransferase] S-succinyldihydrolipoyllysine,metabolite,,'192,192,192'
+2303,Thiamin diphosphate,metabolite,,'192,192,192'
+2304,3-Carboxy-1-hydroxypropyl-ThPP,metabolite,,'192,192,192'
+104,1.2.4.1,enzyme,Carbohydrate metabolism,'234,134,21'
+2305,2-(alpha-Hydroxyethyl)thiamine diphosphate,metabolite,,'192,192,192'
+2306,[Dihydrolipoyllysine-residue acetyltransferase]# S-acetyldihydrolipoyllysine,metabolite,,'192,192,192'
+105,1.8.1.4,enzyme,Amino acid metabolism,'46,144,114'
+2307,[Protein]-N6-[(R)-dihydrolipoyl]-L-lysine,metabolite,,'192,192,192'
+2308,Dihydrolipoylprotein,metabolite,,'192,192,192'
+2309,Dihydrolipoamide,metabolite,,'192,192,192'
+2310,Lipoamide,metabolite,,'192,192,192'
+106,2.3.1.51,enzyme,Lipid metabolism,'198,134,233'
+2311,Phosphatidate,metabolite,,'192,192,192'
+2312,Acyl-[acyl-carrier protein]#,metabolite,,'192,192,192'
+107,3.1.4.14,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2313,Pantetheine 4'-phosphate,metabolite,,'192,192,192'
+2314,Apo-[acyl-carrier-protein],metabolite,,'192,192,192'
+108,2.7.1.32,enzyme,Lipid metabolism,'198,134,233'
+2315,Choline,metabolite,,'192,192,192'
+2316,Choline phosphate,metabolite,,'192,192,192'
+109,2.7.1.82,enzyme,Lipid metabolism,'198,134,233'
+2317,Ethanolamine,metabolite,,'192,192,192'
+2318,Ethanolamine phosphate,metabolite,,'192,192,192'
 edgedef>source INTEGER,target INTEGER,directed BOOLEAN,weight DOUBLE
 2000,0,true,1.0
 2001,0,true,1.0
@@ -679,8 +683,6 @@ edgedef>source INTEGER,target INTEGER,directed BOOLEAN,weight DOUBLE
 31,2132,true,1.0
 2094,31,true,1.0
 31,2094,true,1.0
-2094,31,true,1.0
-31,2132,true,1.0
 2094,31,true,1.0
 31,2132,true,1.0
 2011,32,true,1.0
@@ -1180,29 +1182,29 @@ edgedef>source INTEGER,target INTEGER,directed BOOLEAN,weight DOUBLE
 101,2014,true,1.0
 2301,103,true,1.0
 2213,103,true,1.0
-103,2222,true,1.0
+103,2302,true,1.0
 2301,103,true,1.0
-2302,103,true,1.0
-103,2303,true,1.0
 2303,103,true,1.0
+103,2304,true,1.0
+2304,103,true,1.0
 2213,103,true,1.0
 103,2222,true,1.0
-103,2302,true,1.0
+103,2303,true,1.0
 2172,104,true,1.0
 2213,104,true,1.0
 104,2219,true,1.0
 2172,104,true,1.0
-2302,104,true,1.0
-104,2304,true,1.0
-2304,104,true,1.0
+2303,104,true,1.0
+104,2305,true,1.0
+2305,104,true,1.0
 2213,104,true,1.0
-104,2219,true,1.0
-104,2302,true,1.0
-2305,105,true,1.0
+104,2306,true,1.0
+104,2303,true,1.0
+2307,105,true,1.0
 2145,105,true,1.0
 105,2209,true,1.0
 105,2178,true,1.0
-2306,105,true,1.0
+2308,105,true,1.0
 2145,105,true,1.0
 105,2211,true,1.0
 105,2178,true,1.0
@@ -1210,30 +1212,30 @@ edgedef>source INTEGER,target INTEGER,directed BOOLEAN,weight DOUBLE
 2145,105,true,1.0
 105,2213,true,1.0
 105,2178,true,1.0
-2307,105,true,1.0
+2309,105,true,1.0
 2145,105,true,1.0
-105,2308,true,1.0
+105,2310,true,1.0
 105,2178,true,1.0
-2309,106,true,1.0
+2311,106,true,1.0
 2162,106,true,1.0
 106,2194,true,1.0
 106,2193,true,1.0
 2195,106,true,1.0
 2194,106,true,1.0
 106,2162,true,1.0
-106,2309,true,1.0
-2196,106,true,1.0
+106,2311,true,1.0
+2312,106,true,1.0
 2194,106,true,1.0
 106,2164,true,1.0
-106,2309,true,1.0
+106,2311,true,1.0
 2164,107,true,1.0
-107,2310,true,1.0
-107,2163,true,1.0
+107,2313,true,1.0
+107,2314,true,1.0
 2011,108,true,1.0
-2311,108,true,1.0
+2315,108,true,1.0
 108,2019,true,1.0
-108,2312,true,1.0
+108,2316,true,1.0
 2011,109,true,1.0
-2313,109,true,1.0
+2317,109,true,1.0
 109,2019,true,1.0
-109,2314,true,1.0
+109,2318,true,1.0

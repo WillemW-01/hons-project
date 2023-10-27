@@ -1,5 +1,5 @@
-Before updating ecs: ['2.7.7.7', '5.6.2.2', '6.1.1.11', '2.7.4.9', '1.8.4.', '3.4.11.5', '6.1.1.10', '2.7.7.6', '4.1.2.13', '2.4.2.9', '2.7.1.21', '6.1.1.21', '6.1.1.', '6.3.4.21', '2.7.1.30', '2.3.1.234', '2.5.1.6', '2.4.2.1', '4.1.2.4', '3.5.4.5', '5.4.2.', '3.1.26.8', '2.7.6.1', '3.1.1.29', '6.3.4.19', '2.5.1.145', '3.2.2.27', '1.8.1.9', '3.5.1.88', '2.7.4.8', '2.7.11.1', '5.3.1.9', '6.1.1.22', '5.1.3.2', '5.6.2.1', '6.1.1.2', '2.7.1.23', '6.1.1.6', '5.4.99.9', '2.7.1.26', '2.7.7.2', '3.4.11.18', '5.4.99.12', '3.1.3.7', '6.1.1.20', '2.7.8.7', '2.7.1.11', '2.7.1.40', '2.1.1.199', '1.5.1.3', '1.17.4.1', '3.1.21.2', '3.4.21.53', '2.7.7.18', '2.3.1.15', '6.1.1.14', '6.1.1.16', '6.5.1.2', '3.2.2.23', '3.1.3.', '6.1.1.4', '6.3.1.20', '2.3.1.12', '1.6.3.4', '1.2.4.', '2.4.2.7', '6.1.1.15', '3.1.21.10', '6.1.1.7', '2.8.1.13', '2.3.1.8', '3.6.4.', '3.4.11.9', '3.6.5.', '2.7.4.25', '6.1.1.9', '6.1.1.5', '2.1.1.33', '2.7.2.1', '2.7.2.3', '2.1.2.9', '2.3.1.274', '2.8.1.4', '6.1.1.3', '6.1.1.19', '2.7.1.48', '6.3.1.5', '3.4.11.1', '2.1.2.1', '5.3.1.6', '7.1.2.2', '4.2.1.11', '2.7.3.9', '5.4.2.12', '5.3.1.1', '2.7.4.22', '2.1.1.228', '1.8.4.12', '2.7.7.9', '6.1.1.1', '2.4.2.8', '6.1.1.17', '3.1.26.5', '1.2.4.2', '1.2.4.1', '1.8.1.4', '2.3.1.51', '3.1.4.14', '2.7.1.32', '2.7.1.82']
-After updating ecs: ['2.7.7.7', '5.6.2.2', '6.1.1.11', '2.7.4.9', '1.8.4.', '3.4.11.5', '6.1.1.10', '2.7.7.6', '4.1.2.13', '2.4.2.9', '2.7.1.21', '6.1.1.21', '6.1.1.12', '6.3.4.21', '2.7.1.30', '2.3.1.234', '2.5.1.6', '2.4.2.1', '4.1.2.4', '3.5.4.5', '5.4.2.2', '3.1.26.8', '2.7.6.1', '3.1.1.29', '6.3.4.19', '2.5.1.145', '3.2.2.27', '1.8.1.9', '3.5.1.88', '2.7.4.8', '2.7.11.1', '5.3.1.9', '6.1.1.22', '5.1.3.2', '5.6.2.1', '6.1.1.2', '2.7.1.23', '6.1.1.6', '5.4.99.9', '2.7.1.26', '2.7.7.2', '3.4.11.18', '5.4.99.12', '3.1.3.7', '6.1.1.20', '2.7.8.7', '2.7.1.11', '2.7.1.40', '2.1.1.199', '1.5.1.3', '1.17.4.1', '3.1.21.2', '3.4.21.53', '2.7.7.18', '2.3.1.15', '6.1.1.14', '6.1.1.16', '6.5.1.2', '3.2.2.23', '3.1.3.16', '6.1.1.4', '6.3.1.20', '2.3.1.12', '1.6.3.4', '2.3.1.61', '2.4.2.7', '6.1.1.15', '3.1.21.10', '6.1.1.7', '2.8.1.13', '2.3.1.8', '3.6.4.13', '3.4.11.9', '3.1.3.100', '2.7.4.25', '6.1.1.9', '6.1.1.5', '2.1.1.33', '2.7.2.1', '2.7.2.3', '2.1.2.9', '2.3.1.274', '2.8.1.4', '6.1.1.3', '6.1.1.19', '2.7.1.48', '6.3.1.5', '3.4.11.1', '2.1.2.1', '5.3.1.6', '7.1.2.2', '4.2.1.11', '2.7.3.9', '5.4.2.12', '5.3.1.1', '2.7.4.22', '2.1.1.228', '1.8.4.12', '2.7.7.9', '6.1.1.1', '2.4.2.8', '6.1.1.17', '3.1.26.5', '1.2.4.2', '1.2.4.1', '1.8.1.4', '2.3.1.51', '3.1.4.14', '2.7.1.32', '2.7.1.82']
+Before updating ecs: ['2.7.7.7', '5.6.2.2', '6.1.1.11', '2.7.4.9', '1.8.4.', '3.4.11.5', '6.1.1.10', '2.7.7.6', '4.1.2.13', '2.4.2.9', '6.1.1.21', '6.1.1.', '2.7.1.30', '2.3.1.234', '2.5.1.6', '2.4.2.1', '4.1.2.4', '3.5.4.5', '2.1.1.198', '3.1.26.8', '3.1.1.29', '6.3.4.19', '2.5.1.145', '3.2.2.27', '1.8.1.9', '3.5.1.88', '2.7.4.8', '6.1.1.22', '2.7.8.5', '5.1.3.2', '5.6.2.1', '6.1.1.2', '6.1.1.6', '5.4.99.9', '3.6.5.1', '2.7.1.26', '2.7.7.2', '3.4.11.18', '5.4.99.12', '6.1.1.20', '3.4.23.36', '2.7.1.40', '2.1.1.199', '1.17.4.1', '5.2.1.8', '3.4.21.53', '2.3.1.15', '6.1.1.14', '6.1.1.16', '6.5.1.2', '3.2.2.23', '2.7.1.24', '6.1.1.4', '1.8.1.4', '2.4.2.7', '6.1.1.15', '3.1.21.10', '6.1.1.7', '2.8.1.13', '2.3.1.8', '3.6.5.', '2.7.4.25', '6.1.1.9', '6.1.1.5', '2.1.1.207', '2.1.1.33', '3.6.4.12', '2.1.2.9', '2.3.1.274', '2.8.1.4', '6.1.1.3', '6.1.1.19', '2.1.1.170', '2.7.1.48', '6.3.1.5', '5.3.1.6', '7.1.2.2', '4.2.1.11', '1.8.4.11', '7.3.2.1', '2.7.3.9', '5.4.2.12', '5.3.1.1', '2.7.4.22', '2.1.1.228', '1.8.4.12', '2.7.7.9', '6.1.1.1', '2.4.2.8', '6.1.1.17', '2.1.1.182', '3.1.26.5', '1.2.4.2']
+After updating ecs: ['2.7.7.7', '5.6.2.2', '6.1.1.11', '2.7.4.9', '1.8.4.', '3.4.11.5', '6.1.1.10', '2.7.7.6', '4.1.2.13', '2.4.2.9', '6.1.1.21', '6.1.1.12', '2.7.1.30', '2.3.1.234', '2.5.1.6', '2.4.2.1', '4.1.2.4', '3.5.4.5', '2.1.1.198', '3.1.26.8', '3.1.1.29', '6.3.4.19', '2.5.1.145', '3.2.2.27', '1.8.1.9', '3.5.1.88', '2.7.4.8', '6.1.1.22', '2.7.8.5', '5.1.3.2', '5.6.2.1', '6.1.1.2', '6.1.1.6', '5.4.99.9', '3.6.5.1', '2.7.1.26', '2.7.7.2', '3.4.11.18', '5.4.99.12', '6.1.1.20', '3.4.23.36', '2.7.1.40', '2.1.1.199', '1.17.4.1', '5.2.1.8', '3.4.21.53', '2.3.1.15', '6.1.1.14', '6.1.1.16', '6.5.1.2', '3.2.2.23', '2.7.1.24', '6.1.1.4', '1.8.1.4', '2.4.2.7', '6.1.1.15', '3.1.21.10', '6.1.1.7', '2.8.1.13', '2.3.1.8', '3.1.3.100', '2.7.4.25', '6.1.1.9', '6.1.1.5', '2.1.1.207', '2.1.1.33', '3.6.4.12', '2.1.2.9', '2.3.1.274', '2.8.1.4', '6.1.1.3', '6.1.1.19', '2.1.1.170', '2.7.1.48', '6.3.1.5', '5.3.1.6', '7.1.2.2', '4.2.1.11', '1.8.4.11', '7.3.2.1', '2.7.3.9', '5.4.2.12', '5.3.1.1', '2.7.4.22', '2.1.1.228', '1.8.4.12', '2.7.7.9', '6.1.1.1', '2.4.2.8', '6.1.1.17', '2.1.1.182', '3.1.26.5', '1.2.4.2']
 Reading file: https://rest.kegg.jp/get/ec:2.7.7.7
 Reading file: https://rest.kegg.jp/get/ec:5.6.2.2
 Reading file: https://rest.kegg.jp/get/ec:6.1.1.11
@@ -10,19 +10,16 @@ Reading file: https://rest.kegg.jp/get/ec:6.1.1.10
 Reading file: https://rest.kegg.jp/get/ec:2.7.7.6
 Reading file: https://rest.kegg.jp/get/ec:4.1.2.13
 Reading file: https://rest.kegg.jp/get/ec:2.4.2.9
-Request sent: https://rest.kegg.jp/get/ec:2.7.1.21
 Reading file: https://rest.kegg.jp/get/ec:6.1.1.21
 Reading file: https://rest.kegg.jp/get/ec:6.1.1.12
-Reading file: https://rest.kegg.jp/get/ec:6.3.4.21
 Reading file: https://rest.kegg.jp/get/ec:2.7.1.30
 Reading file: https://rest.kegg.jp/get/ec:2.3.1.234
 Reading file: https://rest.kegg.jp/get/ec:2.5.1.6
 Reading file: https://rest.kegg.jp/get/ec:2.4.2.1
 Request sent: https://rest.kegg.jp/get/ec:4.1.2.4
 Request sent: https://rest.kegg.jp/get/ec:3.5.4.5
-Reading file: https://rest.kegg.jp/get/ec:5.4.2.2
+Reading file: https://rest.kegg.jp/get/ec:2.1.1.198
 Request sent: https://rest.kegg.jp/get/ec:3.1.26.8
-Reading file: https://rest.kegg.jp/get/ec:2.7.6.1
 Reading file: https://rest.kegg.jp/get/ec:3.1.1.29
 Request sent: https://rest.kegg.jp/get/ec:6.3.4.19
 Reading file: https://rest.kegg.jp/get/ec:2.5.1.145
@@ -30,50 +27,50 @@ Request sent: https://rest.kegg.jp/get/ec:3.2.2.27
 Request sent: https://rest.kegg.jp/get/ec:1.8.1.9
 Reading file: https://rest.kegg.jp/get/ec:3.5.1.88
 Reading file: https://rest.kegg.jp/get/ec:2.7.4.8
-Reading file: https://rest.kegg.jp/get/ec:2.7.11.1
-Reading file: https://rest.kegg.jp/get/ec:5.3.1.9
 Request sent: https://rest.kegg.jp/get/ec:6.1.1.22
+Reading file: https://rest.kegg.jp/get/ec:2.7.8.5
 Reading file: https://rest.kegg.jp/get/ec:5.1.3.2
 Reading file: https://rest.kegg.jp/get/ec:5.6.2.1
 Reading file: https://rest.kegg.jp/get/ec:6.1.1.2
-Reading file: https://rest.kegg.jp/get/ec:2.7.1.23
 Reading file: https://rest.kegg.jp/get/ec:6.1.1.6
 Request sent: https://rest.kegg.jp/get/ec:5.4.99.9
+Request sent: https://rest.kegg.jp/get/ec:3.6.5.1
 Request sent: https://rest.kegg.jp/get/ec:2.7.1.26
 Reading file: https://rest.kegg.jp/get/ec:2.7.7.2
 Reading file: https://rest.kegg.jp/get/ec:3.4.11.18
 Request sent: https://rest.kegg.jp/get/ec:5.4.99.12
-Reading file: https://rest.kegg.jp/get/ec:3.1.3.7
 Reading file: https://rest.kegg.jp/get/ec:6.1.1.20
-Reading file: https://rest.kegg.jp/get/ec:2.7.8.7
-Reading file: https://rest.kegg.jp/get/ec:2.7.1.11
+Reading file: https://rest.kegg.jp/get/ec:3.4.23.36
 Reading file: https://rest.kegg.jp/get/ec:2.7.1.40
 Request sent: https://rest.kegg.jp/get/ec:2.1.1.199
-Reading file: https://rest.kegg.jp/get/ec:1.5.1.3
 Request sent: https://rest.kegg.jp/get/ec:1.17.4.1
-Request sent: https://rest.kegg.jp/get/ec:3.1.21.2
+Request sent: https://rest.kegg.jp/get/ec:5.2.1.8
 Reading file: https://rest.kegg.jp/get/ec:3.4.21.53
-Reading file: https://rest.kegg.jp/get/ec:2.7.7.18
 Request sent: https://rest.kegg.jp/get/ec:2.3.1.15
+Reading file: https://rest.kegg.jp/get/ec:6.1.1.14
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.16
+Request sent: https://rest.kegg.jp/get/ec:6.5.1.2
 Response: https://rest.kegg.jp/get/ec:1.8.4.
+Response: https://rest.kegg.jp/get/ec:3.6.5.1
 Response: https://rest.kegg.jp/get/ec:3.1.26.8
 Response: https://rest.kegg.jp/get/ec:5.4.99.9
-Response: https://rest.kegg.jp/get/ec:2.3.1.15
-Response: https://rest.kegg.jp/get/ec:3.1.21.2
 Response: https://rest.kegg.jp/get/ec:3.4.11.5
-Response: https://rest.kegg.jp/get/ec:2.7.1.21
-Response: https://rest.kegg.jp/get/ec:3.5.4.5
+Response: https://rest.kegg.jp/get/ec:2.3.1.15
 Response: https://rest.kegg.jp/get/ec:6.1.1.22
-Response: https://rest.kegg.jp/get/ec:2.1.1.199
-Response: https://rest.kegg.jp/get/ec:2.7.1.26
-Response: https://rest.kegg.jp/get/ec:6.3.4.19
 Response: https://rest.kegg.jp/get/ec:4.1.2.4
+Response: https://rest.kegg.jp/get/ec:3.5.4.5
+Response: https://rest.kegg.jp/get/ec:2.1.1.199
+Response: https://rest.kegg.jp/get/ec:6.1.1.16
+Response: https://rest.kegg.jp/get/ec:6.5.1.2
 Response: https://rest.kegg.jp/get/ec:2.7.4.9
+Response: https://rest.kegg.jp/get/ec:6.3.4.19
 Response: https://rest.kegg.jp/get/ec:5.4.99.12
-Response: https://rest.kegg.jp/get/ec:3.2.2.27
+Response: https://rest.kegg.jp/get/ec:2.7.1.26
 Response: https://rest.kegg.jp/get/ec:1.8.1.9
+Response: https://rest.kegg.jp/get/ec:3.2.2.27
 Response: https://rest.kegg.jp/get/ec:1.17.4.1
-Took 5.186 seconds for all requests
+Response: https://rest.kegg.jp/get/ec:5.2.1.8
+Took 8.477 seconds for all requests
 https://rest.kegg.jp/get/ec:2.7.7.7   : 200
 https://rest.kegg.jp/get/ec:5.6.2.2   : 200
 https://rest.kegg.jp/get/ec:6.1.1.11  : 200
@@ -84,19 +81,16 @@ https://rest.kegg.jp/get/ec:6.1.1.10  : 200
 https://rest.kegg.jp/get/ec:2.7.7.6   : 200
 https://rest.kegg.jp/get/ec:4.1.2.13  : 200
 https://rest.kegg.jp/get/ec:2.4.2.9   : 200
-https://rest.kegg.jp/get/ec:2.7.1.21  : 200
 https://rest.kegg.jp/get/ec:6.1.1.21  : 200
 https://rest.kegg.jp/get/ec:6.1.1.12  : 200
-https://rest.kegg.jp/get/ec:6.3.4.21  : 200
 https://rest.kegg.jp/get/ec:2.7.1.30  : 200
 https://rest.kegg.jp/get/ec:2.3.1.234 : 200
 https://rest.kegg.jp/get/ec:2.5.1.6   : 200
 https://rest.kegg.jp/get/ec:2.4.2.1   : 200
 https://rest.kegg.jp/get/ec:4.1.2.4   : 200
 https://rest.kegg.jp/get/ec:3.5.4.5   : 200
-https://rest.kegg.jp/get/ec:5.4.2.2   : 200
+https://rest.kegg.jp/get/ec:2.1.1.198 : 200
 https://rest.kegg.jp/get/ec:3.1.26.8  : 200
-https://rest.kegg.jp/get/ec:2.7.6.1   : 200
 https://rest.kegg.jp/get/ec:3.1.1.29  : 200
 https://rest.kegg.jp/get/ec:6.3.4.19  : 200
 https://rest.kegg.jp/get/ec:2.5.1.145 : 200
@@ -104,31 +98,29 @@ https://rest.kegg.jp/get/ec:3.2.2.27  : 200
 https://rest.kegg.jp/get/ec:1.8.1.9   : 200
 https://rest.kegg.jp/get/ec:3.5.1.88  : 200
 https://rest.kegg.jp/get/ec:2.7.4.8   : 200
-https://rest.kegg.jp/get/ec:2.7.11.1  : 200
-https://rest.kegg.jp/get/ec:5.3.1.9   : 200
 https://rest.kegg.jp/get/ec:6.1.1.22  : 200
+https://rest.kegg.jp/get/ec:2.7.8.5   : 200
 https://rest.kegg.jp/get/ec:5.1.3.2   : 200
 https://rest.kegg.jp/get/ec:5.6.2.1   : 200
 https://rest.kegg.jp/get/ec:6.1.1.2   : 200
-https://rest.kegg.jp/get/ec:2.7.1.23  : 200
 https://rest.kegg.jp/get/ec:6.1.1.6   : 200
 https://rest.kegg.jp/get/ec:5.4.99.9  : 200
+https://rest.kegg.jp/get/ec:3.6.5.1   : 200
 https://rest.kegg.jp/get/ec:2.7.1.26  : 200
 https://rest.kegg.jp/get/ec:2.7.7.2   : 200
 https://rest.kegg.jp/get/ec:3.4.11.18 : 200
 https://rest.kegg.jp/get/ec:5.4.99.12 : 200
-https://rest.kegg.jp/get/ec:3.1.3.7   : 200
 https://rest.kegg.jp/get/ec:6.1.1.20  : 200
-https://rest.kegg.jp/get/ec:2.7.8.7   : 200
-https://rest.kegg.jp/get/ec:2.7.1.11  : 200
+https://rest.kegg.jp/get/ec:3.4.23.36 : 200
 https://rest.kegg.jp/get/ec:2.7.1.40  : 200
 https://rest.kegg.jp/get/ec:2.1.1.199 : 200
-https://rest.kegg.jp/get/ec:1.5.1.3   : 200
 https://rest.kegg.jp/get/ec:1.17.4.1  : 200
-https://rest.kegg.jp/get/ec:3.1.21.2  : 200
+https://rest.kegg.jp/get/ec:5.2.1.8   : 200
 https://rest.kegg.jp/get/ec:3.4.21.53 : 200
-https://rest.kegg.jp/get/ec:2.7.7.18  : 200
 https://rest.kegg.jp/get/ec:2.3.1.15  : 200
+https://rest.kegg.jp/get/ec:6.1.1.14  : 200
+https://rest.kegg.jp/get/ec:6.1.1.16  : 200
+https://rest.kegg.jp/get/ec:6.5.1.2   : 200
 
 > Working with 2.7.7.7
   > Getting pathway ids for 2.7.7.7
@@ -301,29 +293,6 @@ ERR: look into this url: https://rest.kegg.jp/get/ec:1.8.4. (status 404)
   > Extracting R00966
     Substrates: ['UMP', 'Diphosphate']
     Products: ['Uracil', '5-Phospho-alpha-D-ribose 1-diphosphate']
-> Working with 2.7.1.21
-  > Getting pathway ids for 2.7.1.21
-    Adding pathway ec00240
-    Adding pathway ec00983
-  > Getting module ids
-    > Finding modules for ec00240
-      Modules were cached. Found: ['M00046', 'M00051', 'M00052', 'M00053', 'M00938', 'M00939', 'M00968']
-    > Finding modules for ec00983
-      Modules were cached. Found: []
-  > Assigning modules to 2.7.1.21
-    Enzyme not in the list yet, creating a new set.
-    Modules assigned to 2.7.1.21: {'Nucleotide metabolism': 6, 'Carbohydrate metabolism': 1}
-  > Getting reaction id for 2.7.1.21
-  Reaction list: ['R01567', 'R02099', 'R08233']
-  > Extracting R01567
-    Substrates: ['ATP', 'Thymidine']
-    Products: ['ADP', 'dTMP']
-  > Extracting R02099
-    Substrates: ['ATP', 'Deoxyuridine']
-    Products: ['ADP', 'dUMP']
-  > Extracting R08233
-    Substrates: ['5-Fluorodeoxyuridine', 'ATP']
-    Products: ['5-Fluorodeoxyuridine monophosphate', 'ADP']
 > Working with 6.1.1.21
   > Getting pathway ids for 6.1.1.21
     Adding pathway ec00970
@@ -352,20 +321,6 @@ ERR: look into this url: https://rest.kegg.jp/get/ec:1.8.4. (status 404)
   > Extracting R05577
     Substrates: ['tRNA(Asp)', 'L-Aspartate', 'ATP']
     Products: ['L-Aspartyl-tRNA(Asp)', 'Diphosphate', 'AMP']
-> Working with 6.3.4.21
-  > Getting pathway ids for 6.3.4.21
-    Adding pathway ec00760
-  > Getting module ids
-    > Finding modules for ec00760
-      Modules were cached. Found: ['M00115', 'M00622', 'M00810', 'M00811', 'M00912']
-  > Assigning modules to 6.3.4.21
-    Enzyme not in the list yet, creating a new set.
-    Modules assigned to 6.3.4.21: {'Metabolism of cofactors and vitamins': 5}
-  > Getting reaction id for 6.3.4.21
-  Reaction list: ['R01724']
-  > Extracting R01724
-    Substrates: ['Nicotinate D-ribonucleotide', 'Diphosphate', 'ADP', 'Orthophosphate']
-    Products: ['Nicotinate', '5-Phospho-alpha-D-ribose 1-diphosphate', 'ATP']
 > Working with 2.7.1.30
   > Getting pathway ids for 2.7.1.30
     Adding pathway ec00561
@@ -494,47 +449,13 @@ ERR: look into this url: https://rest.kegg.jp/get/ec:1.8.4. (status 404)
   > Extracting R08221
     Substrates: ["5'-Deoxy-5-fluorocytidine"]
     Products: ["5'-Deoxy-5-fluorouridine", 'Ammonia']
-> Working with 5.4.2.2
-  > Getting pathway ids for 5.4.2.2
-    Adding pathway ec00010
-    Adding pathway ec00030
-    Adding pathway ec00052
-    Adding pathway ec00230
-    Adding pathway ec00500
-    Adding pathway ec00520
-    Adding pathway ec00521
+> Working with 2.1.1.198
+  > Getting pathway ids for 2.1.1.198
   > Getting module ids
-    > Finding modules for ec00010
-      Modules were cached. Found: ['M00001', 'M00002', 'M00003', 'M00307']
-    > Finding modules for ec00030
-      Modules were cached. Found: ['M00004', 'M00005', 'M00006', 'M00007', 'M00008', 'M00061', 'M00308', 'M00309', 'M00345', 'M00580', 'M00631', 'M00633', 'M00968']
-    > Finding modules for ec00052
-      Modules were cached. Found: ['M00309', 'M00552', 'M00554', 'M00632', 'M00633']
-    > Finding modules for ec00230
-      Modules were cached. Found: ['M00005', 'M00048', 'M00049', 'M00050', 'M00053', 'M00546', 'M00958', 'M00959', 'M00968']
-    > Finding modules for ec00500
-      Modules were cached. Found: ['M00565', 'M00854', 'M00855']
-    > Finding modules for ec00520
-      Modules were cached. Found: ['M00549', 'M00554', 'M00761', 'M00892', 'M00909']
-    > Finding modules for ec00521
-      Modules were cached. Found: ['M00793']
-  > Assigning modules to 5.4.2.2
+  > Assigning modules to 2.1.1.198
     Enzyme not in the list yet, creating a new set.
-    Modules assigned to 5.4.2.2: {'Carbohydrate metabolism': 31, 'Energy metabolism': 1, 'Nucleotide metabolism': 7, 'Biosynthesis of terpenoids and polyketides': 1}
-  > Getting reaction id for 5.4.2.2
-  Reaction list: ['R08639', 'R00959', 'R01057', 'R03319']
-  > Extracting R08639
-    Substrates: ['D-Glucose 1-phosphate']
-    Products: ['D-Glucose 6-phosphate']
-  > Extracting R00959
-    Substrates: ['D-Glucose 1-phosphate']
-    Products: ['alpha-D-Glucose 6-phosphate']
-  > Extracting R01057
-    Substrates: ['alpha-D-Ribose 1-phosphate']
-    Products: ['D-Ribose 5-phosphate']
-  > Extracting R03319
-    Substrates: ['alpha-D-Hexose 1-phosphate']
-    Products: ['alpha-D-Hexose 6-phosphate']
+  > Getting reaction id for 2.1.1.198
+    Look at this enzyme manually, no reaction
 > Working with 3.1.26.8
   > Getting pathway ids for 3.1.26.8
   > Getting module ids
@@ -542,23 +463,6 @@ ERR: look into this url: https://rest.kegg.jp/get/ec:1.8.4. (status 404)
     Enzyme not in the list yet, creating a new set.
   > Getting reaction id for 3.1.26.8
     Look at this enzyme manually, no reaction
-> Working with 2.7.6.1
-  > Getting pathway ids for 2.7.6.1
-    Adding pathway ec00030
-    Adding pathway ec00230
-  > Getting module ids
-    > Finding modules for ec00030
-      Modules were cached. Found: ['M00004', 'M00005', 'M00006', 'M00007', 'M00008', 'M00061', 'M00308', 'M00309', 'M00345', 'M00580', 'M00631', 'M00633', 'M00968']
-    > Finding modules for ec00230
-      Modules were cached. Found: ['M00005', 'M00048', 'M00049', 'M00050', 'M00053', 'M00546', 'M00958', 'M00959', 'M00968']
-  > Assigning modules to 2.7.6.1
-    Enzyme not in the list yet, creating a new set.
-    Modules assigned to 2.7.6.1: {'Carbohydrate metabolism': 14, 'Energy metabolism': 1, 'Nucleotide metabolism': 7}
-  > Getting reaction id for 2.7.6.1
-  Reaction list: ['R01049']
-  > Extracting R01049
-    Substrates: ['ATP', 'D-Ribose 5-phosphate']
-    Products: ['AMP', '5-Phospho-alpha-D-ribose 1-diphosphate']
 > Working with 3.1.1.29
   > Getting pathway ids for 3.1.1.29
   > Getting module ids
@@ -647,51 +551,6 @@ ERR: look into this url: https://rest.kegg.jp/get/ec:1.8.4. (status 404)
   > Extracting R12852
     Substrates: ['dZMP', 'ATP']
     Products: ['dZDP', 'ADP']
-> Working with 2.7.11.1
-  > Getting pathway ids for 2.7.11.1
-  > Getting module ids
-  > Assigning modules to 2.7.11.1
-    Enzyme not in the list yet, creating a new set.
-  > Getting reaction id for 2.7.11.1
-  Reaction list: ['R00162', 'R03632']
-  > Extracting R00162
-    Substrates: ['ATP', 'Protein']
-    Products: ['ADP', 'Phosphoprotein']
-  > Extracting R03632
-    Substrates: ['ATP', 'Protamine']
-    Products: ['ADP', 'O-Phosphoprotamine']
-> Working with 5.3.1.9
-  > Getting pathway ids for 5.3.1.9
-    Adding pathway ec00010
-    Adding pathway ec00030
-    Adding pathway ec00500
-    Adding pathway ec00520
-  > Getting module ids
-    > Finding modules for ec00010
-      Modules were cached. Found: ['M00001', 'M00002', 'M00003', 'M00307']
-    > Finding modules for ec00030
-      Modules were cached. Found: ['M00004', 'M00005', 'M00006', 'M00007', 'M00008', 'M00061', 'M00308', 'M00309', 'M00345', 'M00580', 'M00631', 'M00633', 'M00968']
-    > Finding modules for ec00500
-      Modules were cached. Found: ['M00565', 'M00854', 'M00855']
-    > Finding modules for ec00520
-      Modules were cached. Found: ['M00549', 'M00554', 'M00761', 'M00892', 'M00909']
-  > Assigning modules to 5.3.1.9
-    Enzyme not in the list yet, creating a new set.
-    Modules assigned to 5.3.1.9: {'Carbohydrate metabolism': 24, 'Energy metabolism': 1}
-  > Getting reaction id for 5.3.1.9
-  Reaction list: ['R02740', 'R00771', 'R02739', 'R03321']
-  > Extracting R02740
-    Substrates: ['alpha-D-Glucose 6-phosphate']
-    Products: ['beta-D-Fructose 6-phosphate']
-  > Extracting R00771
-    Substrates: ['D-Glucose 6-phosphate']
-    Products: ['D-Fructose 6-phosphate']
-  > Extracting R02739
-    Substrates: ['alpha-D-Glucose 6-phosphate']
-    Products: ['beta-D-Glucose 6-phosphate']
-  > Extracting R03321
-    Substrates: ['beta-D-Glucose 6-phosphate']
-    Products: ['beta-D-Fructose 6-phosphate']
 > Working with 6.1.1.22
   > Getting pathway ids for 6.1.1.22
     Adding pathway ec00970
@@ -706,6 +565,20 @@ ERR: look into this url: https://rest.kegg.jp/get/ec:1.8.4. (status 404)
   > Extracting R03648
     Substrates: ['ATP', 'L-Asparagine', 'tRNA(Asn)']
     Products: ['AMP', 'Diphosphate', 'L-Asparaginyl-tRNA(Asn)']
+> Working with 2.7.8.5
+  > Getting pathway ids for 2.7.8.5
+    Adding pathway ec00564
+  > Getting module ids
+    > Finding modules for ec00564
+      Modules were cached. Found: ['M00090', 'M00091', 'M00092', 'M00093']
+  > Assigning modules to 2.7.8.5
+    Enzyme not in the list yet, creating a new set.
+    Modules assigned to 2.7.8.5: {'Lipid metabolism': 4}
+  > Getting reaction id for 2.7.8.5
+  Reaction list: ['R01801']
+  > Extracting R01801
+    Substrates: ['CDP-diacylglycerol', 'sn-Glycerol 3-phosphate']
+    Products: ['CMP', 'Phosphatidylglycerophosphate']
 > Working with 5.1.3.2
   > Getting pathway ids for 5.1.3.2
     Adding pathway ec00052
@@ -753,20 +626,6 @@ ERR: look into this url: https://rest.kegg.jp/get/ec:1.8.4. (status 404)
   > Extracting R03664
     Substrates: ['ATP', 'L-Tryptophan', 'tRNA(Trp)']
     Products: ['AMP', 'Diphosphate', 'L-Tryptophanyl-tRNA(Trp)']
-> Working with 2.7.1.23
-  > Getting pathway ids for 2.7.1.23
-    Adding pathway ec00760
-  > Getting module ids
-    > Finding modules for ec00760
-      Modules were cached. Found: ['M00115', 'M00622', 'M00810', 'M00811', 'M00912']
-  > Assigning modules to 2.7.1.23
-    Enzyme not in the list yet, creating a new set.
-    Modules assigned to 2.7.1.23: {'Metabolism of cofactors and vitamins': 5}
-  > Getting reaction id for 2.7.1.23
-  Reaction list: ['R00104']
-  > Extracting R00104
-    Substrates: ['ATP', 'NAD+']
-    Products: ['ADP', 'NADP+']
 > Working with 6.1.1.6
   > Getting pathway ids for 6.1.1.6
     Adding pathway ec00970
@@ -804,6 +663,16 @@ ERR: look into this url: https://rest.kegg.jp/get/ec:1.8.4. (status 404)
   > Extracting R09009
     Substrates: ['UDP-L-arabinose']
     Products: ['UDP-L-arabinofuranose']
+> Working with 3.6.5.1
+  > Getting pathway ids for 3.6.5.1
+  > Getting module ids
+  > Assigning modules to 3.6.5.1
+    Enzyme not in the list yet, creating a new set.
+  > Getting reaction id for 3.6.5.1
+  Reaction list: ['R00335']
+  > Extracting R00335
+    Substrates: ['GTP']
+    Products: ['GDP', 'Orthophosphate']
 > Working with 2.7.1.26
   > Getting pathway ids for 2.7.1.26
     Adding pathway ec00740
@@ -849,23 +718,6 @@ ERR: look into this url: https://rest.kegg.jp/get/ec:1.8.4. (status 404)
   > Extracting R03020
     Substrates: ['tRNA uridine']
     Products: ['tRNA pseudouridine']
-> Working with 3.1.3.7
-  > Getting pathway ids for 3.1.3.7
-    Adding pathway ec00920
-  > Getting module ids
-    > Finding modules for ec00920
-      Modules were cached. Found: ['M00021', 'M00176', 'M00595', 'M00596']
-  > Assigning modules to 3.1.3.7
-    Enzyme not in the list yet, creating a new set.
-    Modules assigned to 3.1.3.7: {'Amino acid metabolism': 1, 'Energy metabolism': 3}
-  > Getting reaction id for 3.1.3.7
-  Reaction list: ['R00188', 'R00508']
-  > Extracting R00188
-    Substrates: ["Adenosine 3,5'-bisphosphate"]
-    Products: ['AMP', 'Orthophosphate']
-  > Extracting R00508
-    Substrates: ["3'-Phosphoadenylyl sulfate"]
-    Products: ['Adenylyl sulfate', 'Orthophosphate']
 > Working with 6.1.1.20
   > Getting pathway ids for 6.1.1.20
     Adding pathway ec00970
@@ -880,73 +732,13 @@ ERR: look into this url: https://rest.kegg.jp/get/ec:1.8.4. (status 404)
   > Extracting R03660
     Substrates: ['ATP', 'L-Phenylalanine', 'tRNA(Phe)']
     Products: ['AMP', 'Diphosphate', 'L-Phenylalanyl-tRNA(Phe)']
-> Working with 2.7.8.7
-  > Getting pathway ids for 2.7.8.7
-    Adding pathway ec00770
+> Working with 3.4.23.36
+  > Getting pathway ids for 3.4.23.36
   > Getting module ids
-    > Finding modules for ec00770
-      Modules were cached. Found: ['M00019', 'M00046', 'M00119', 'M00120', 'M00913', 'M00914']
-  > Assigning modules to 2.7.8.7
+  > Assigning modules to 3.4.23.36
     Enzyme not in the list yet, creating a new set.
-    Modules assigned to 2.7.8.7: {'Amino acid metabolism': 1, 'Nucleotide metabolism': 1, 'Metabolism of cofactors and vitamins': 4}
-  > Getting reaction id for 2.7.8.7
-  Reaction list: ['R01625']
-  > Extracting R01625
-    Substrates: ['CoA', 'Apo-[acyl-carrier-protein],']
-    Products: ["Adenosine 3,5'-bisphosphate", 'Acyl-carrier protein']
-> Working with 2.7.1.11
-  > Getting pathway ids for 2.7.1.11
-    Adding pathway ec00010
-    Adding pathway ec00030
-    Adding pathway ec00051
-    Adding pathway ec00052
-    Adding pathway ec00680
-  > Getting module ids
-    > Finding modules for ec00010
-      Modules were cached. Found: ['M00001', 'M00002', 'M00003', 'M00307']
-    > Finding modules for ec00030
-      Modules were cached. Found: ['M00004', 'M00005', 'M00006', 'M00007', 'M00008', 'M00061', 'M00308', 'M00309', 'M00345', 'M00580', 'M00631', 'M00633', 'M00968']
-    > Finding modules for ec00051
-      Modules were cached. Found: ['M00114']
-    > Finding modules for ec00052
-      Modules were cached. Found: ['M00309', 'M00552', 'M00554', 'M00632', 'M00633']
-    > Finding modules for ec00680
-      Modules were cached. Found: ['M00020', 'M00174', 'M00344', 'M00345', 'M00346', 'M00356', 'M00357', 'M00358', 'M00378', 'M00422', 'M00563', 'M00567', 'M00608', 'M00935']
-  > Assigning modules to 2.7.1.11
-    Enzyme not in the list yet, creating a new set.
-    Modules assigned to 2.7.1.11: {'Carbohydrate metabolism': 22, 'Energy metabolism': 14, 'Amino acid metabolism': 1}
-  > Getting reaction id for 2.7.1.11
-  Reaction list: ['R04779', 'R00756', 'R00767', 'R00769', 'R00770', 'R01843', 'R03236', 'R03237', 'R03238', 'R03239']
-  > Extracting R04779
-    Substrates: ['ATP', 'beta-D-Fructose 6-phosphate']
-    Products: ['ADP', 'beta-D-Fructose 1,6-bisphosphate']
-  > Extracting R00756
-    Substrates: ['ATP', 'D-Fructose 6-phosphate']
-    Products: ['ADP', 'D-Fructose 1,6-bisphosphate']
-  > Extracting R00767
-    Substrates: ['CTP', 'D-Fructose 6-phosphate']
-    Products: ['CDP', 'D-Fructose 1,6-bisphosphate']
-  > Extracting R00769
-    Substrates: ['UTP', 'D-Fructose 6-phosphate']
-    Products: ['UDP', 'D-Fructose 1,6-bisphosphate']
-  > Extracting R00770
-    Substrates: ['ITP', 'D-Fructose 6-phosphate']
-    Products: ['IDP', 'D-Fructose 1,6-bisphosphate']
-  > Extracting R01843
-    Substrates: ['ATP', 'Sedoheptulose 7-phosphate']
-    Products: ['ADP', 'Sedoheptulose 1,7-bisphosphate']
-  > Extracting R03236
-    Substrates: ['D-Tagatose 6-phosphate', 'ATP']
-    Products: ['D-Tagatose 1,6-bisphosphate', 'ADP']
-  > Extracting R03237
-    Substrates: ['CTP', 'D-Tagatose 6-phosphate']
-    Products: ['CDP', 'D-Tagatose 1,6-bisphosphate']
-  > Extracting R03238
-    Substrates: ['UTP', 'D-Tagatose 6-phosphate']
-    Products: ['UDP', 'D-Tagatose 1,6-bisphosphate']
-  > Extracting R03239
-    Substrates: ['ITP', 'D-Tagatose 6-phosphate']
-    Products: ['IDP', 'D-Tagatose 1,6-bisphosphate']
+  > Getting reaction id for 3.4.23.36
+    Look at this enzyme manually, no reaction
 > Working with 2.7.1.40
   > Getting pathway ids for 2.7.1.40
     Adding pathway ec00010
@@ -992,41 +784,6 @@ ERR: look into this url: https://rest.kegg.jp/get/ec:1.8.4. (status 404)
     Enzyme not in the list yet, creating a new set.
   > Getting reaction id for 2.1.1.199
     Look at this enzyme manually, no reaction
-> Working with 1.5.1.3
-  > Getting pathway ids for 1.5.1.3
-    Adding pathway ec00670
-    Adding pathway ec00790
-  > Getting module ids
-    > Finding modules for ec00670
-      Modules were cached. Found: ['M00126', 'M00140', 'M00141']
-    > Finding modules for ec00790
-      Modules were cached. Found: ['M00126', 'M00840', 'M00841', 'M00842', 'M00843', 'M00880']
-  > Assigning modules to 1.5.1.3
-    Enzyme not in the list yet, creating a new set.
-    Modules assigned to 1.5.1.3: {'Metabolism of cofactors and vitamins': 9}
-  > Getting reaction id for 1.5.1.3
-  Reaction list: ['R00939', 'R00936', 'R00937', 'R00940', 'R02235', 'R02236', 'R11765']
-  > Extracting R00939
-    Substrates: ['Tetrahydrofolate', 'NADP+']
-    Products: ['Dihydrofolate', 'NADPH']
-  > Extracting R00936
-    Substrates: ['Tetrahydrofolate', 'NAD+']
-    Products: ['Dihydrofolate', 'NADH']
-  > Extracting R00937
-    Substrates: ['Tetrahydrofolate', '2 NAD+']
-    Products: ['Folate', '2 NADH', '2 H+']
-  > Extracting R00940
-    Substrates: ['Tetrahydrofolate', '2 NADP+']
-    Products: ['Folate', '2 NADPH', '2 H+']
-  > Extracting R02235
-    Substrates: ['Dihydrofolate', 'NAD+']
-    Products: ['Folate', 'NADH']
-  > Extracting R02236
-    Substrates: ['Dihydrofolate', 'NADP+']
-    Products: ['Folate', 'NADPH']
-  > Extracting R11765
-    Substrates: ['Tetrahydrobiopterin', 'NADP+']
-    Products: ['7,8-Dihydrobiopterin', 'NADPH']
 > Working with 1.17.4.1
   > Getting pathway ids for 1.17.4.1
     Adding pathway ec00230
@@ -1071,13 +828,16 @@ ERR: look into this url: https://rest.kegg.jp/get/ec:1.8.4. (status 404)
   > Extracting R11893
     Substrates: ['5-Fluorodeoxyuridine diphosphate', 'Thioredoxin disulfide']
     Products: ['5-Fluorouridine diphosphate', 'Thioredoxin']
-> Working with 3.1.21.2
-  > Getting pathway ids for 3.1.21.2
+> Working with 5.2.1.8
+  > Getting pathway ids for 5.2.1.8
   > Getting module ids
-  > Assigning modules to 3.1.21.2
+  > Assigning modules to 5.2.1.8
     Enzyme not in the list yet, creating a new set.
-  > Getting reaction id for 3.1.21.2
-    Look at this enzyme manually, no reaction
+  > Getting reaction id for 5.2.1.8
+  Reaction list: ['R04273']
+  > Extracting R04273
+    Substrates: ['Peptidylproline (omega=180)']
+    Products: ['Peptidylproline (omega=0)']
 > Working with 3.4.21.53
   > Getting pathway ids for 3.4.21.53
   > Getting module ids
@@ -1085,23 +845,6 @@ ERR: look into this url: https://rest.kegg.jp/get/ec:1.8.4. (status 404)
     Enzyme not in the list yet, creating a new set.
   > Getting reaction id for 3.4.21.53
     Look at this enzyme manually, no reaction
-> Working with 2.7.7.18
-  > Getting pathway ids for 2.7.7.18
-    Adding pathway ec00760
-  > Getting module ids
-    > Finding modules for ec00760
-      Modules were cached. Found: ['M00115', 'M00622', 'M00810', 'M00811', 'M00912']
-  > Assigning modules to 2.7.7.18
-    Enzyme not in the list yet, creating a new set.
-    Modules assigned to 2.7.7.18: {'Metabolism of cofactors and vitamins': 5}
-  > Getting reaction id for 2.7.7.18
-  Reaction list: ['R03005', 'R00137']
-  > Extracting R03005
-    Substrates: ['ATP', 'Nicotinate D-ribonucleotide']
-    Products: ['Diphosphate', 'Deamino-NAD+']
-  > Extracting R00137
-    Substrates: ['ATP', 'Nicotinamide D-ribonucleotide']
-    Products: ['Diphosphate', 'NAD+']
 > Working with 2.3.1.15
   > Getting pathway ids for 2.3.1.15
     Adding pathway ec00561
@@ -1125,168 +868,6 @@ ERR: look into this url: https://rest.kegg.jp/get/ec:1.8.4. (status 404)
   > Extracting R09380
     Substrates: ['Acyl-[acyl-carrier protein]', 'sn-Glycerol 3-phosphate']
     Products: ['1-Acyl-sn-glycerol 3-phosphate', 'Acyl-carrier protein']
-
-Reading file: https://rest.kegg.jp/get/ec:6.1.1.14
-Request sent: https://rest.kegg.jp/get/ec:6.1.1.16
-Request sent: https://rest.kegg.jp/get/ec:6.5.1.2
-Reading file: https://rest.kegg.jp/get/ec:3.2.2.23
-Request sent: https://rest.kegg.jp/get/ec:3.1.3.16
-Request sent: https://rest.kegg.jp/get/ec:6.1.1.4
-Request sent: https://rest.kegg.jp/get/ec:6.3.1.20
-Request sent: https://rest.kegg.jp/get/ec:2.3.1.12
-Request sent: https://rest.kegg.jp/get/ec:1.6.3.4
-Request sent: https://rest.kegg.jp/get/ec:2.3.1.61
-Request sent: https://rest.kegg.jp/get/ec:2.4.2.7
-Request sent: https://rest.kegg.jp/get/ec:6.1.1.15
-Reading file: https://rest.kegg.jp/get/ec:3.1.21.10
-Reading file: https://rest.kegg.jp/get/ec:6.1.1.7
-Request sent: https://rest.kegg.jp/get/ec:2.8.1.13
-Request sent: https://rest.kegg.jp/get/ec:2.3.1.8
-Reading file: https://rest.kegg.jp/get/ec:3.6.4.13
-Request sent: https://rest.kegg.jp/get/ec:3.4.11.9
-Request sent: https://rest.kegg.jp/get/ec:3.1.3.100
-Request sent: https://rest.kegg.jp/get/ec:2.7.4.25
-Request sent: https://rest.kegg.jp/get/ec:6.1.1.9
-Request sent: https://rest.kegg.jp/get/ec:6.1.1.5
-Request sent: https://rest.kegg.jp/get/ec:2.1.1.33
-Request sent: https://rest.kegg.jp/get/ec:2.7.2.1
-Request sent: https://rest.kegg.jp/get/ec:2.7.2.3
-Request sent: https://rest.kegg.jp/get/ec:2.1.2.9
-Request sent: https://rest.kegg.jp/get/ec:2.3.1.274
-Request sent: https://rest.kegg.jp/get/ec:2.8.1.4
-Request sent: https://rest.kegg.jp/get/ec:6.1.1.3
-Request sent: https://rest.kegg.jp/get/ec:6.1.1.19
-Request sent: https://rest.kegg.jp/get/ec:2.7.1.48
-Request sent: https://rest.kegg.jp/get/ec:6.3.1.5
-Request sent: https://rest.kegg.jp/get/ec:3.4.11.1
-Request sent: https://rest.kegg.jp/get/ec:2.1.2.1
-Request sent: https://rest.kegg.jp/get/ec:5.3.1.6
-Request sent: https://rest.kegg.jp/get/ec:7.1.2.2
-Reading file: https://rest.kegg.jp/get/ec:4.2.1.11
-Request sent: https://rest.kegg.jp/get/ec:2.7.3.9
-Request sent: https://rest.kegg.jp/get/ec:5.4.2.12
-Request sent: https://rest.kegg.jp/get/ec:5.3.1.1
-Request sent: https://rest.kegg.jp/get/ec:2.7.4.22
-Request sent: https://rest.kegg.jp/get/ec:2.1.1.228
-Request sent: https://rest.kegg.jp/get/ec:1.8.4.12
-Request sent: https://rest.kegg.jp/get/ec:2.7.7.9
-Request sent: https://rest.kegg.jp/get/ec:6.1.1.1
-Request sent: https://rest.kegg.jp/get/ec:2.4.2.8
-Request sent: https://rest.kegg.jp/get/ec:6.1.1.17
-Request sent: https://rest.kegg.jp/get/ec:3.1.26.5
-Request sent: https://rest.kegg.jp/get/ec:1.2.4.2
-Request sent: https://rest.kegg.jp/get/ec:1.2.4.1
-Request sent: https://rest.kegg.jp/get/ec:1.8.1.4
-Request sent: https://rest.kegg.jp/get/ec:2.3.1.51
-Request sent: https://rest.kegg.jp/get/ec:3.1.4.14
-Request sent: https://rest.kegg.jp/get/ec:2.7.1.32
-Request sent: https://rest.kegg.jp/get/ec:2.7.1.82
-Response: https://rest.kegg.jp/get/ec:1.6.3.4
-Response: https://rest.kegg.jp/get/ec:2.7.1.32
-Response: https://rest.kegg.jp/get/ec:2.7.1.82
-Response: https://rest.kegg.jp/get/ec:3.1.4.14
-Response: https://rest.kegg.jp/get/ec:2.8.1.4
-Response: https://rest.kegg.jp/get/ec:5.4.2.12
-Response: https://rest.kegg.jp/get/ec:6.3.1.20
-Response: https://rest.kegg.jp/get/ec:2.3.1.8
-Response: https://rest.kegg.jp/get/ec:2.7.2.1
-Response: https://rest.kegg.jp/get/ec:2.7.1.48
-Response: https://rest.kegg.jp/get/ec:1.2.4.2
-Response: https://rest.kegg.jp/get/ec:6.3.1.5
-Response: https://rest.kegg.jp/get/ec:2.4.2.7
-Response: https://rest.kegg.jp/get/ec:2.3.1.274
-Response: https://rest.kegg.jp/get/ec:6.1.1.16
-Response: https://rest.kegg.jp/get/ec:3.1.3.100
-Response: https://rest.kegg.jp/get/ec:2.7.2.3
-Response: https://rest.kegg.jp/get/ec:2.1.2.9
-Response: https://rest.kegg.jp/get/ec:2.3.1.61
-Response: https://rest.kegg.jp/get/ec:2.1.1.33
-Response: https://rest.kegg.jp/get/ec:6.1.1.9
-Response: https://rest.kegg.jp/get/ec:3.4.11.1
-Response: https://rest.kegg.jp/get/ec:2.7.7.9
-Response: https://rest.kegg.jp/get/ec:6.1.1.17
-Response: https://rest.kegg.jp/get/ec:2.4.2.8
-Response: https://rest.kegg.jp/get/ec:2.7.4.22
-Response: https://rest.kegg.jp/get/ec:2.7.4.25
-Response: https://rest.kegg.jp/get/ec:2.7.3.9
-Response: https://rest.kegg.jp/get/ec:6.5.1.2
-Response: https://rest.kegg.jp/get/ec:6.1.1.15
-Response: https://rest.kegg.jp/get/ec:6.1.1.5
-Response: https://rest.kegg.jp/get/ec:2.3.1.12
-Response: https://rest.kegg.jp/get/ec:2.8.1.13
-Response: https://rest.kegg.jp/get/ec:1.8.1.4
-Response: https://rest.kegg.jp/get/ec:1.2.4.1
-Response: https://rest.kegg.jp/get/ec:3.4.11.9
-Response: https://rest.kegg.jp/get/ec:6.1.1.19
-Response: https://rest.kegg.jp/get/ec:6.1.1.1
-Response: https://rest.kegg.jp/get/ec:2.1.1.228
-Response: https://rest.kegg.jp/get/ec:5.3.1.1
-Response: https://rest.kegg.jp/get/ec:6.1.1.4
-Response: https://rest.kegg.jp/get/ec:2.1.2.1
-Response: https://rest.kegg.jp/get/ec:2.3.1.51
-Response: https://rest.kegg.jp/get/ec:5.3.1.6
-Response: https://rest.kegg.jp/get/ec:3.1.26.5
-Response: https://rest.kegg.jp/get/ec:6.1.1.3
-Response: https://rest.kegg.jp/get/ec:1.8.4.12
-Response: https://rest.kegg.jp/get/ec:7.1.2.2
-Response: https://rest.kegg.jp/get/ec:3.1.3.16
-Took 7.988 seconds for all requests
-https://rest.kegg.jp/get/ec:6.1.1.14  : 200
-https://rest.kegg.jp/get/ec:6.1.1.16  : 200
-https://rest.kegg.jp/get/ec:6.5.1.2   : 200
-https://rest.kegg.jp/get/ec:3.2.2.23  : 200
-https://rest.kegg.jp/get/ec:3.1.3.16  : 200
-https://rest.kegg.jp/get/ec:6.1.1.4   : 200
-https://rest.kegg.jp/get/ec:6.3.1.20  : 200
-https://rest.kegg.jp/get/ec:2.3.1.12  : 200
-https://rest.kegg.jp/get/ec:1.6.3.4   : 200
-https://rest.kegg.jp/get/ec:2.3.1.61  : 200
-https://rest.kegg.jp/get/ec:2.4.2.7   : 200
-https://rest.kegg.jp/get/ec:6.1.1.15  : 200
-https://rest.kegg.jp/get/ec:3.1.21.10 : 200
-https://rest.kegg.jp/get/ec:6.1.1.7   : 200
-https://rest.kegg.jp/get/ec:2.8.1.13  : 200
-https://rest.kegg.jp/get/ec:2.3.1.8   : 200
-https://rest.kegg.jp/get/ec:3.6.4.13  : 200
-https://rest.kegg.jp/get/ec:3.4.11.9  : 200
-https://rest.kegg.jp/get/ec:3.1.3.100 : 200
-https://rest.kegg.jp/get/ec:2.7.4.25  : 200
-https://rest.kegg.jp/get/ec:6.1.1.9   : 200
-https://rest.kegg.jp/get/ec:6.1.1.5   : 200
-https://rest.kegg.jp/get/ec:2.1.1.33  : 200
-https://rest.kegg.jp/get/ec:2.7.2.1   : 200
-https://rest.kegg.jp/get/ec:2.7.2.3   : 200
-https://rest.kegg.jp/get/ec:2.1.2.9   : 200
-https://rest.kegg.jp/get/ec:2.3.1.274 : 200
-https://rest.kegg.jp/get/ec:2.8.1.4   : 200
-https://rest.kegg.jp/get/ec:6.1.1.3   : 200
-https://rest.kegg.jp/get/ec:6.1.1.19  : 200
-https://rest.kegg.jp/get/ec:2.7.1.48  : 200
-https://rest.kegg.jp/get/ec:6.3.1.5   : 200
-https://rest.kegg.jp/get/ec:3.4.11.1  : 200
-https://rest.kegg.jp/get/ec:2.1.2.1   : 200
-https://rest.kegg.jp/get/ec:5.3.1.6   : 200
-https://rest.kegg.jp/get/ec:7.1.2.2   : 200
-https://rest.kegg.jp/get/ec:4.2.1.11  : 200
-https://rest.kegg.jp/get/ec:2.7.3.9   : 200
-https://rest.kegg.jp/get/ec:5.4.2.12  : 200
-https://rest.kegg.jp/get/ec:5.3.1.1   : 200
-https://rest.kegg.jp/get/ec:2.7.4.22  : 200
-https://rest.kegg.jp/get/ec:2.1.1.228 : 200
-https://rest.kegg.jp/get/ec:1.8.4.12  : 200
-https://rest.kegg.jp/get/ec:2.7.7.9   : 200
-https://rest.kegg.jp/get/ec:6.1.1.1   : 200
-https://rest.kegg.jp/get/ec:2.4.2.8   : 200
-https://rest.kegg.jp/get/ec:6.1.1.17  : 200
-https://rest.kegg.jp/get/ec:3.1.26.5  : 200
-https://rest.kegg.jp/get/ec:1.2.4.2   : 200
-https://rest.kegg.jp/get/ec:1.2.4.1   : 200
-https://rest.kegg.jp/get/ec:1.8.1.4   : 200
-https://rest.kegg.jp/get/ec:2.3.1.51  : 200
-https://rest.kegg.jp/get/ec:3.1.4.14  : 200
-https://rest.kegg.jp/get/ec:2.7.1.32  : 200
-https://rest.kegg.jp/get/ec:2.7.1.82  : 200
-
 > Working with 6.1.1.14
   > Getting pathway ids for 6.1.1.14
     Adding pathway ec00970
@@ -1325,6 +906,143 @@ https://rest.kegg.jp/get/ec:2.7.1.82  : 200
   > Extracting R00382
     Substrates: ['NAD+', 'DNA(n)', "5'-Phospho-DNA(m)"]
     Products: ['AMP', 'Nicotinamide D-ribonucleotide', 'DNA(n+m)']
+
+Reading file: https://rest.kegg.jp/get/ec:3.2.2.23
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.24
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.4
+Request sent: https://rest.kegg.jp/get/ec:1.8.1.4
+Request sent: https://rest.kegg.jp/get/ec:2.4.2.7
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.15
+Reading file: https://rest.kegg.jp/get/ec:3.1.21.10
+Reading file: https://rest.kegg.jp/get/ec:6.1.1.7
+Request sent: https://rest.kegg.jp/get/ec:2.8.1.13
+Request sent: https://rest.kegg.jp/get/ec:2.3.1.8
+Request sent: https://rest.kegg.jp/get/ec:3.1.3.100
+Request sent: https://rest.kegg.jp/get/ec:2.7.4.25
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.9
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.5
+Request sent: https://rest.kegg.jp/get/ec:2.1.1.207
+Request sent: https://rest.kegg.jp/get/ec:2.1.1.33
+Request sent: https://rest.kegg.jp/get/ec:3.6.4.12
+Request sent: https://rest.kegg.jp/get/ec:2.1.2.9
+Request sent: https://rest.kegg.jp/get/ec:2.3.1.274
+Request sent: https://rest.kegg.jp/get/ec:2.8.1.4
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.3
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.19
+Request sent: https://rest.kegg.jp/get/ec:2.1.1.170
+Request sent: https://rest.kegg.jp/get/ec:2.7.1.48
+Request sent: https://rest.kegg.jp/get/ec:6.3.1.5
+Request sent: https://rest.kegg.jp/get/ec:5.3.1.6
+Request sent: https://rest.kegg.jp/get/ec:7.1.2.2
+Reading file: https://rest.kegg.jp/get/ec:4.2.1.11
+Request sent: https://rest.kegg.jp/get/ec:1.8.4.11
+Request sent: https://rest.kegg.jp/get/ec:7.3.2.1
+Request sent: https://rest.kegg.jp/get/ec:2.7.3.9
+Request sent: https://rest.kegg.jp/get/ec:5.4.2.12
+Request sent: https://rest.kegg.jp/get/ec:5.3.1.1
+Request sent: https://rest.kegg.jp/get/ec:2.7.4.22
+Request sent: https://rest.kegg.jp/get/ec:2.1.1.228
+Request sent: https://rest.kegg.jp/get/ec:1.8.4.12
+Request sent: https://rest.kegg.jp/get/ec:2.7.7.9
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.1
+Request sent: https://rest.kegg.jp/get/ec:2.4.2.8
+Request sent: https://rest.kegg.jp/get/ec:6.1.1.17
+Request sent: https://rest.kegg.jp/get/ec:2.1.1.182
+Request sent: https://rest.kegg.jp/get/ec:3.1.26.5
+Request sent: https://rest.kegg.jp/get/ec:1.2.4.2
+Response: https://rest.kegg.jp/get/ec:3.6.4.12
+Response: https://rest.kegg.jp/get/ec:2.8.1.4
+Response: https://rest.kegg.jp/get/ec:2.1.1.207
+Response: https://rest.kegg.jp/get/ec:2.3.1.274
+Response: https://rest.kegg.jp/get/ec:2.3.1.8
+Response: https://rest.kegg.jp/get/ec:2.7.4.22
+Response: https://rest.kegg.jp/get/ec:2.4.2.8
+Response: https://rest.kegg.jp/get/ec:2.7.1.48
+Response: https://rest.kegg.jp/get/ec:5.4.2.12
+Response: https://rest.kegg.jp/get/ec:3.1.3.100
+Response: https://rest.kegg.jp/get/ec:6.3.1.5
+Response: https://rest.kegg.jp/get/ec:2.7.1.24
+Response: https://rest.kegg.jp/get/ec:2.7.7.9
+Response: https://rest.kegg.jp/get/ec:2.1.1.170
+Response: https://rest.kegg.jp/get/ec:6.1.1.15
+Response: https://rest.kegg.jp/get/ec:2.4.2.7
+Response: https://rest.kegg.jp/get/ec:6.1.1.9
+Response: https://rest.kegg.jp/get/ec:6.1.1.19
+Response: https://rest.kegg.jp/get/ec:2.8.1.13
+Response: https://rest.kegg.jp/get/ec:1.2.4.2
+Response: https://rest.kegg.jp/get/ec:5.3.1.1
+Response: https://rest.kegg.jp/get/ec:2.7.4.25
+Response: https://rest.kegg.jp/get/ec:6.1.1.17
+Response: https://rest.kegg.jp/get/ec:7.3.2.1
+Response: https://rest.kegg.jp/get/ec:2.7.3.9
+Response: https://rest.kegg.jp/get/ec:2.1.1.182
+Response: https://rest.kegg.jp/get/ec:2.1.1.228
+Response: https://rest.kegg.jp/get/ec:2.1.2.9
+Response: https://rest.kegg.jp/get/ec:2.1.1.33
+Response: https://rest.kegg.jp/get/ec:6.1.1.3
+Response: https://rest.kegg.jp/get/ec:6.1.1.4
+Response: https://rest.kegg.jp/get/ec:1.8.4.12
+Response: https://rest.kegg.jp/get/ec:5.3.1.6
+Response: https://rest.kegg.jp/get/ec:1.8.4.11
+Response: https://rest.kegg.jp/get/ec:6.1.1.1
+Response: https://rest.kegg.jp/get/ec:6.1.1.5
+Response: https://rest.kegg.jp/get/ec:1.8.1.4
+Response: https://rest.kegg.jp/get/ec:3.1.26.5
+Response: https://rest.kegg.jp/get/ec:7.1.2.2
+Took 4.824 seconds for all requests
+Transferred entry for https://rest.kegg.jp/get/ec:3.6.4.12, sending it through to next batch
+Removing entry from results: https://rest.kegg.jp/get/ec:3.6.4.12
+Adding these ecs to enzyme_list: ['5.6.2.3', '5.6.2.4']
+Request sent: https://rest.kegg.jp/get/ec:5.6.2.3
+Request sent: https://rest.kegg.jp/get/ec:5.6.2.4
+Response: https://rest.kegg.jp/get/ec:5.6.2.3
+Response: https://rest.kegg.jp/get/ec:5.6.2.4
+Took 10.07 seconds for all requests
+https://rest.kegg.jp/get/ec:3.2.2.23  : 200
+https://rest.kegg.jp/get/ec:2.7.1.24  : 200
+https://rest.kegg.jp/get/ec:6.1.1.4   : 200
+https://rest.kegg.jp/get/ec:1.8.1.4   : 200
+https://rest.kegg.jp/get/ec:2.4.2.7   : 200
+https://rest.kegg.jp/get/ec:6.1.1.15  : 200
+https://rest.kegg.jp/get/ec:3.1.21.10 : 200
+https://rest.kegg.jp/get/ec:6.1.1.7   : 200
+https://rest.kegg.jp/get/ec:2.8.1.13  : 200
+https://rest.kegg.jp/get/ec:2.3.1.8   : 200
+https://rest.kegg.jp/get/ec:3.1.3.100 : 200
+https://rest.kegg.jp/get/ec:2.7.4.25  : 200
+https://rest.kegg.jp/get/ec:6.1.1.9   : 200
+https://rest.kegg.jp/get/ec:6.1.1.5   : 200
+https://rest.kegg.jp/get/ec:2.1.1.207 : 200
+https://rest.kegg.jp/get/ec:2.1.1.33  : 200
+https://rest.kegg.jp/get/ec:2.1.2.9   : 200
+https://rest.kegg.jp/get/ec:2.3.1.274 : 200
+https://rest.kegg.jp/get/ec:2.8.1.4   : 200
+https://rest.kegg.jp/get/ec:6.1.1.3   : 200
+https://rest.kegg.jp/get/ec:6.1.1.19  : 200
+https://rest.kegg.jp/get/ec:2.1.1.170 : 200
+https://rest.kegg.jp/get/ec:2.7.1.48  : 200
+https://rest.kegg.jp/get/ec:6.3.1.5   : 200
+https://rest.kegg.jp/get/ec:5.3.1.6   : 200
+https://rest.kegg.jp/get/ec:7.1.2.2   : 200
+https://rest.kegg.jp/get/ec:4.2.1.11  : 200
+https://rest.kegg.jp/get/ec:1.8.4.11  : 200
+https://rest.kegg.jp/get/ec:7.3.2.1   : 200
+https://rest.kegg.jp/get/ec:2.7.3.9   : 200
+https://rest.kegg.jp/get/ec:5.4.2.12  : 200
+https://rest.kegg.jp/get/ec:5.3.1.1   : 200
+https://rest.kegg.jp/get/ec:2.7.4.22  : 200
+https://rest.kegg.jp/get/ec:2.1.1.228 : 200
+https://rest.kegg.jp/get/ec:1.8.4.12  : 200
+https://rest.kegg.jp/get/ec:2.7.7.9   : 200
+https://rest.kegg.jp/get/ec:6.1.1.1   : 200
+https://rest.kegg.jp/get/ec:2.4.2.8   : 200
+https://rest.kegg.jp/get/ec:6.1.1.17  : 200
+https://rest.kegg.jp/get/ec:2.1.1.182 : 200
+https://rest.kegg.jp/get/ec:3.1.26.5  : 200
+https://rest.kegg.jp/get/ec:1.2.4.2   : 200
+https://rest.kegg.jp/get/ec:5.6.2.3   : 200
+https://rest.kegg.jp/get/ec:5.6.2.4   : 200
+
 > Working with 3.2.2.23
   > Getting pathway ids for 3.2.2.23
   > Getting module ids
@@ -1332,16 +1050,20 @@ https://rest.kegg.jp/get/ec:2.7.1.82  : 200
     Enzyme not in the list yet, creating a new set.
   > Getting reaction id for 3.2.2.23
     Look at this enzyme manually, no reaction
-> Working with 3.1.3.16
-  > Getting pathway ids for 3.1.3.16
+> Working with 2.7.1.24
+  > Getting pathway ids for 2.7.1.24
+    Adding pathway ec00770
   > Getting module ids
-  > Assigning modules to 3.1.3.16
+    > Finding modules for ec00770
+      Modules were cached. Found: ['M00019', 'M00046', 'M00119', 'M00120', 'M00913', 'M00914']
+  > Assigning modules to 2.7.1.24
     Enzyme not in the list yet, creating a new set.
-  > Getting reaction id for 3.1.3.16
-  Reaction list: ['R00164']
-  > Extracting R00164
-    Substrates: ['Phosphoprotein']
-    Products: ['Protein', 'Orthophosphate']
+    Modules assigned to 2.7.1.24: {'Amino acid metabolism': 1, 'Nucleotide metabolism': 1, 'Metabolism of cofactors and vitamins': 4}
+  > Getting reaction id for 2.7.1.24
+  Reaction list: ['R00130']
+  > Extracting R00130
+    Substrates: ['ATP', 'Dephospho-CoA']
+    Products: ['ADP', 'CoA']
 > Working with 6.1.1.4
   > Getting pathway ids for 6.1.1.4
     Adding pathway ec00970
@@ -1356,94 +1078,53 @@ https://rest.kegg.jp/get/ec:2.7.1.82  : 200
   > Extracting R03657
     Substrates: ['ATP', 'L-Leucine', 'tRNA(Leu)']
     Products: ['AMP', 'Diphosphate', 'L-Leucyl-tRNA']
-> Working with 6.3.1.20
-  > Getting pathway ids for 6.3.1.20
-    Adding pathway ec00785
-  > Getting module ids
-    > Finding modules for ec00785
-      Modules were cached. Found: ['M00307', 'M00621', 'M00881', 'M00882', 'M00883', 'M00884']
-  > Assigning modules to 6.3.1.20
-    Enzyme not in the list yet, creating a new set.
-    Modules assigned to 6.3.1.20: {'Carbohydrate metabolism': 1, 'Amino acid metabolism': 1, 'Metabolism of cofactors and vitamins': 4}
-  > Getting reaction id for 6.3.1.20
-  Reaction list: ['R11143', 'R12433', 'R12449', 'R07770', 'R07771', 'R12429']
-  > Extracting R11143
-    Substrates: ['ATP', '(R)-Lipoate', '[Lipoyl-carrier protein]-L-lysine']
-    Products: ['Protein N6-(lipoyl)lysine', 'AMP', 'Diphosphate']
-  > Extracting R12433
-    Substrates: ['ATP', '(R)-Lipoate', 'Glycine cleavage system H']
-    Products: ['Lipoylprotein', 'AMP', 'Diphosphate']
-  > Extracting R12449
-    Substrates: ['ATP', '(R)-Lipoate', 'Lipoyl-carrier protein E2']
-    Products: ['Enzyme N6-(lipoyl)lysine', 'AMP', 'Diphosphate']
-  > Extracting R07770
-    Substrates: ['ATP', '(R)-Lipoate']
-    Products: ['Diphosphate', 'Lipoyl-AMP']
-  > Extracting R07771
-    Substrates: ['Lipoyl-AMP', '[Lipoyl-carrier protein]-L-lysine']
-    Products: ['Protein N6-(lipoyl)lysine', 'AMP']
-  > Extracting R12429
-    Substrates: ['ATP', 'Octanoic acid', 'Lipoyl-carrier protein E2']
-    Products: ['[Lipoyl-carrier protein E2]-N6-octanoyl-L-lysine', 'AMP', 'Diphosphate']
-> Working with 2.3.1.12
-  > Getting pathway ids for 2.3.1.12
+> Working with 1.8.1.4
+  > Getting pathway ids for 1.8.1.4
     Adding pathway ec00010
     Adding pathway ec00020
+    Adding pathway ec00260
+    Adding pathway ec00280
+    Adding pathway ec00310
+    Adding pathway ec00380
     Adding pathway ec00620
+    Adding pathway ec00640
     Adding pathway ec00785
   > Getting module ids
     > Finding modules for ec00010
       Modules were cached. Found: ['M00001', 'M00002', 'M00003', 'M00307']
     > Finding modules for ec00020
       Modules were cached. Found: ['M00003', 'M00009', 'M00010', 'M00011', 'M00307', 'M00740']
-    > Finding modules for ec00620
-      Modules were cached. Found: ['M00168', 'M00169', 'M00172', 'M00307', 'M00579']
-    > Finding modules for ec00785
-      Modules were cached. Found: ['M00307', 'M00621', 'M00881', 'M00882', 'M00883', 'M00884']
-  > Assigning modules to 2.3.1.12
-    Enzyme not in the list yet, creating a new set.
-    Modules assigned to 2.3.1.12: {'Carbohydrate metabolism': 12, 'Energy metabolism': 4, 'Amino acid metabolism': 1, 'Metabolism of cofactors and vitamins': 4}
-  > Getting reaction id for 2.3.1.12
-  Reaction list: ['R02569']
-  > Extracting R02569
-    Substrates: ['Acetyl-CoA', 'Enzyme N6-(dihydrolipoyl)lysine']
-    Products: ['CoA', '[Dihydrolipoyllysine-residue acetyltransferase] S-acetyldihydrolipoyllysine']
-> Working with 1.6.3.4
-  > Getting pathway ids for 1.6.3.4
-  > Getting module ids
-  > Assigning modules to 1.6.3.4
-    Enzyme not in the list yet, creating a new set.
-  > Getting reaction id for 1.6.3.4
-  Reaction list: ['R10517']
-  > Extracting R10517
-    Substrates: ['2 NADH', '2 H+', 'Oxygen']
-    Products: ['2 NAD+', '2 H2O']
-> Working with 2.3.1.61
-  > Getting pathway ids for 2.3.1.61
-    Adding pathway ec00020
-    Adding pathway ec00310
-    Adding pathway ec00380
-    Adding pathway ec00785
-  > Getting module ids
-    > Finding modules for ec00020
-      Modules were cached. Found: ['M00003', 'M00009', 'M00010', 'M00011', 'M00307', 'M00740']
+    > Finding modules for ec00260
+      Modules were cached. Found: ['M00018', 'M00020', 'M00033', 'M00047', 'M00338', 'M00555', 'M00621', 'M00919']
+    > Finding modules for ec00280
+      Modules were cached. Found: ['M00036', 'M00741']
     > Finding modules for ec00310
       Modules were cached. Found: ['M00032', 'M00956', 'M00957', 'M00960']
     > Finding modules for ec00380
       Modules were cached. Found: ['M00037', 'M00038', 'M00370', 'M00912', 'M00936']
+    > Finding modules for ec00620
+      Modules were cached. Found: ['M00168', 'M00169', 'M00172', 'M00307', 'M00579']
+    > Finding modules for ec00640
+      Modules were cached. Found: ['M00013', 'M00741']
     > Finding modules for ec00785
       Modules were cached. Found: ['M00307', 'M00621', 'M00881', 'M00882', 'M00883', 'M00884']
-  > Assigning modules to 2.3.1.61
+  > Assigning modules to 1.8.1.4
     Enzyme not in the list yet, creating a new set.
-    Modules assigned to 2.3.1.61: {'Carbohydrate metabolism': 7, 'Amino acid metabolism': 8, 'Biosynthesis of other secondary metabolites': 1, 'Metabolism of cofactors and vitamins': 5}
-  > Getting reaction id for 2.3.1.61
-  Reaction list: ['R02570', 'R02571']
-  > Extracting R02570
-    Substrates: ['Succinyl-CoA', 'Enzyme N6-(dihydrolipoyl)lysine']
-    Products: ['CoA', '[Dihydrolipoyllysine-residue succinyltransferase], S-succinyldihydrolipoyllysine']
-  > Extracting R02571
-    Substrates: ['Glutaryl-CoA', 'Enzyme N6-(dihydrolipoyl)lysine']
-    Products: ['CoA', '[Dihydrolipoyllysine-residue succinyltransferase], S-glutaryldihydrolipoyllysine']
+    Modules assigned to 1.8.1.4: {'Carbohydrate metabolism': 15, 'Amino acid metabolism': 17, 'Biosynthesis of other secondary metabolites': 1, 'Metabolism of cofactors and vitamins': 5, 'Energy metabolism': 4}
+  > Getting reaction id for 1.8.1.4
+  Reaction list: ['R08550', 'R03815', 'R07618', 'R01698']
+  > Extracting R08550
+    Substrates: ['[Protein]-N6-[(R)-dihydrolipoyl]-L-lysine', 'NAD+']
+    Products: ['Protein N6-(lipoyl)lysine', 'NADH']
+  > Extracting R03815
+    Substrates: ['Dihydrolipoylprotein', 'NAD+']
+    Products: ['Lipoylprotein', 'NADH']
+  > Extracting R07618
+    Substrates: ['Enzyme N6-(dihydrolipoyl)lysine', 'NAD+']
+    Products: ['Enzyme N6-(lipoyl)lysine', 'NADH']
+  > Extracting R01698
+    Substrates: ['Dihydrolipoamide', 'NAD+']
+    Products: ['Lipoamide', 'NADH']
 > Working with 2.4.2.7
   > Getting pathway ids for 2.4.2.7
     Adding pathway ec00230
@@ -1535,20 +1216,6 @@ https://rest.kegg.jp/get/ec:2.7.1.82  : 200
   > Extracting R00921
     Substrates: ['Propanoyl-CoA', 'Orthophosphate']
     Products: ['Propanoyl phosphate', 'CoA']
-> Working with 3.6.4.13
-  > Getting pathway ids for 3.6.4.13
-  > Getting module ids
-  > Assigning modules to 3.6.4.13
-    Enzyme not in the list yet, creating a new set.
-  > Getting reaction id for 3.6.4.13
-    Look at this enzyme manually, no reaction
-> Working with 3.4.11.9
-  > Getting pathway ids for 3.4.11.9
-  > Getting module ids
-  > Assigning modules to 3.4.11.9
-    Enzyme not in the list yet, creating a new set.
-  > Getting reaction id for 3.4.11.9
-    Look at this enzyme manually, no reaction
 > Working with 3.1.3.100
   > Getting pathway ids for 3.1.3.100
     Adding pathway ec00730
@@ -1608,6 +1275,13 @@ https://rest.kegg.jp/get/ec:2.7.1.82  : 200
   > Extracting R03656
     Substrates: ['ATP', 'L-Isoleucine', 'tRNA(Ile)']
     Products: ['AMP', 'Diphosphate', 'L-Isoleucyl-tRNA(Ile)']
+> Working with 2.1.1.207
+  > Getting pathway ids for 2.1.1.207
+  > Getting module ids
+  > Assigning modules to 2.1.1.207
+    Enzyme not in the list yet, creating a new set.
+  > Getting reaction id for 2.1.1.207
+    Look at this enzyme manually, no reaction
 > Working with 2.1.1.33
   > Getting pathway ids for 2.1.1.33
   > Getting module ids
@@ -1618,52 +1292,6 @@ https://rest.kegg.jp/get/ec:2.7.1.82  : 200
   > Extracting R00600
     Substrates: ['S-Adenosyl-L-methionine', 'tRNA guanine']
     Products: ['S-Adenosyl-L-homocysteine', 'tRNA containing N7-methylguanine']
-> Working with 2.7.2.1
-  > Getting pathway ids for 2.7.2.1
-    Adding pathway ec00430
-    Adding pathway ec00620
-    Adding pathway ec00640
-    Adding pathway ec00680
-    Adding pathway ec00720
-  > Getting module ids
-    > Finding modules for ec00430
-      Modules were cached. Found: ['M00579']
-    > Finding modules for ec00620
-      Modules were cached. Found: ['M00168', 'M00169', 'M00172', 'M00307', 'M00579']
-    > Finding modules for ec00640
-      Modules were cached. Found: ['M00013', 'M00741']
-    > Finding modules for ec00680
-      Modules were cached. Found: ['M00020', 'M00174', 'M00344', 'M00345', 'M00346', 'M00356', 'M00357', 'M00358', 'M00378', 'M00422', 'M00563', 'M00567', 'M00608', 'M00935']
-    > Finding modules for ec00720
-      Modules were cached. Found: ['M00173', 'M00374', 'M00375', 'M00376', 'M00377', 'M00579', 'M00620']
-  > Assigning modules to 2.7.2.1
-    Enzyme not in the list yet, creating a new set.
-    Modules assigned to 2.7.2.1: {'Energy metabolism': 25, 'Carbohydrate metabolism': 3, 'Amino acid metabolism': 1}
-  > Getting reaction id for 2.7.2.1
-  Reaction list: ['R00315', 'R01353']
-  > Extracting R00315
-    Substrates: ['ATP', 'Acetate']
-    Products: ['ADP', 'Acetyl phosphate']
-  > Extracting R01353
-    Substrates: ['ATP', 'Propanoate']
-    Products: ['ADP', 'Propanoyl phosphate']
-> Working with 2.7.2.3
-  > Getting pathway ids for 2.7.2.3
-    Adding pathway ec00010
-    Adding pathway ec00710
-  > Getting module ids
-    > Finding modules for ec00010
-      Modules were cached. Found: ['M00001', 'M00002', 'M00003', 'M00307']
-    > Finding modules for ec00710
-      Modules were cached. Found: ['M00165', 'M00168', 'M00169', 'M00170', 'M00171', 'M00172']
-  > Assigning modules to 2.7.2.3
-    Enzyme not in the list yet, creating a new set.
-    Modules assigned to 2.7.2.3: {'Carbohydrate metabolism': 4, 'Energy metabolism': 6}
-  > Getting reaction id for 2.7.2.3
-  Reaction list: ['R01512']
-  > Extracting R01512
-    Substrates: ['ATP', '3-Phospho-D-glycerate']
-    Products: ['ADP', '3-Phospho-D-glyceroyl phosphate']
 > Working with 2.1.2.9
   > Getting pathway ids for 2.1.2.9
     Adding pathway ec00670
@@ -1740,6 +1368,13 @@ https://rest.kegg.jp/get/ec:2.7.1.82  : 200
   > Extracting R03646
     Substrates: ['ATP', 'L-Arginine', 'tRNA(Arg)']
     Products: ['AMP', 'Diphosphate', 'L-Arginyl-tRNA(Arg)']
+> Working with 2.1.1.170
+  > Getting pathway ids for 2.1.1.170
+  > Getting module ids
+  > Assigning modules to 2.1.1.170
+    Enzyme not in the list yet, creating a new set.
+  > Getting reaction id for 2.1.1.170
+    Look at this enzyme manually, no reaction
 > Working with 2.7.1.48
   > Getting pathway ids for 2.7.1.48
     Adding pathway ec00240
@@ -1783,46 +1418,6 @@ https://rest.kegg.jp/get/ec:2.7.1.82  : 200
   > Extracting R00189
     Substrates: ['ATP', 'Deamino-NAD+', 'Ammonia']
     Products: ['AMP', 'Diphosphate', 'NAD+']
-> Working with 3.4.11.1
-  > Getting pathway ids for 3.4.11.1
-    Adding pathway ec00480
-  > Getting module ids
-    > Finding modules for ec00480
-      Modules were cached. Found: ['M00118']
-  > Assigning modules to 3.4.11.1
-    Enzyme not in the list yet, creating a new set.
-    Modules assigned to 3.4.11.1: {'Amino acid metabolism': 1}
-  > Getting reaction id for 3.4.11.1
-    Look at this enzyme manually, no reaction end
-> Working with 2.1.2.1
-  > Getting pathway ids for 2.1.2.1
-    Adding pathway ec00260
-    Adding pathway ec00460
-    Adding pathway ec00630
-    Adding pathway ec00670
-    Adding pathway ec00680
-  > Getting module ids
-    > Finding modules for ec00260
-      Modules were cached. Found: ['M00018', 'M00020', 'M00033', 'M00047', 'M00338', 'M00555', 'M00621', 'M00919']
-    > Finding modules for ec00460
-      Modules were cached. Found: ['M00369']
-    > Finding modules for ec00630
-      Modules were cached. Found: ['M00012', 'M00373', 'M00532', 'M00621', 'M00740', 'M00741', 'M00968']
-    > Finding modules for ec00670
-      Modules were cached. Found: ['M00126', 'M00140', 'M00141']
-    > Finding modules for ec00680
-      Modules were cached. Found: ['M00020', 'M00174', 'M00344', 'M00345', 'M00346', 'M00356', 'M00357', 'M00358', 'M00378', 'M00422', 'M00563', 'M00567', 'M00608', 'M00935']
-  > Assigning modules to 2.1.2.1
-    Enzyme not in the list yet, creating a new set.
-    Modules assigned to 2.1.2.1: {'Amino acid metabolism': 11, 'Carbohydrate metabolism': 6, 'Metabolism of cofactors and vitamins': 3, 'Energy metabolism': 13}
-  > Getting reaction id for 2.1.2.1
-  Reaction list: ['R00945', 'R09099']
-  > Extracting R00945
-    Substrates: ['5,10-Methylenetetrahydrofolate', 'Glycine']
-    Products: ['Tetrahydrofolate', 'L-Serine']
-  > Extracting R09099
-    Substrates: ['L-Serine', '5,6,7,8-Tetrahydromethanopterin']
-    Products: ['5,10-Methylenetetrahydromethanopterin', 'Glycine']
 > Working with 5.3.1.6
   > Getting pathway ids for 5.3.1.6
     Adding pathway ec00030
@@ -1880,6 +1475,26 @@ https://rest.kegg.jp/get/ec:2.7.1.82  : 200
   > Extracting R04206
     Substrates: ['3-Phospho-D-erythronate']
     Products: ['Phosphoenol-4-deoxy-3-tetrulosonate']
+> Working with 1.8.4.11
+  > Getting pathway ids for 1.8.4.11
+  > Getting module ids
+  > Assigning modules to 1.8.4.11
+    Enzyme not in the list yet, creating a new set.
+  > Getting reaction id for 1.8.4.11
+  Reaction list: ['R04120', 'R07606']
+  > Extracting R04120
+    Substrates: ['Peptide-L-methionine', 'Thioredoxin disulfide']
+    Products: ['Peptide-L-methionine (S)-S-oxide', 'Thioredoxin']
+  > Extracting R07606
+    Substrates: ['L-Methionine', 'Thioredoxin disulfide']
+    Products: ['L-Methionine (S)-S-oxide', 'Thioredoxin']
+> Working with 7.3.2.1
+  > Getting pathway ids for 7.3.2.1
+  > Getting module ids
+  > Assigning modules to 7.3.2.1
+    Enzyme not in the list yet, creating a new set.
+  > Getting reaction id for 7.3.2.1
+    Look at this enzyme manually, no reaction
 > Working with 2.7.3.9
   > Getting pathway ids for 2.7.3.9
   > Getting module ids
@@ -2059,6 +1674,16 @@ https://rest.kegg.jp/get/ec:2.7.1.82  : 200
   > Extracting R05578
     Substrates: ['tRNA(Glu)', 'L-Glutamate', 'ATP']
     Products: ['L-Glutamyl-tRNA(Glu)', 'Diphosphate', 'AMP']
+> Working with 2.1.1.182
+  > Getting pathway ids for 2.1.1.182
+  > Getting module ids
+  > Assigning modules to 2.1.1.182
+    Enzyme not in the list yet, creating a new set.
+  > Getting reaction id for 2.1.1.182
+  Reaction list: ['R10716']
+  > Extracting R10716
+    Substrates: ['2 S-Adenosyl-L-methionine', 'Adenine in rRNA']
+    Products: ['2 S-Adenosyl-L-homocysteine', 'N6-Dimethyladenine in rRNA']
 > Working with 3.1.26.5
   > Getting pathway ids for 3.1.26.5
   > Getting module ids
@@ -2089,149 +1714,20 @@ https://rest.kegg.jp/get/ec:2.7.1.82  : 200
   > Extracting R03316
     Substrates: ['3-Carboxy-1-hydroxypropyl-ThPP', 'Enzyme N6-(lipoyl)lysine']
     Products: ['[Dihydrolipoyllysine-residue succinyltransferase], S-succinyldihydrolipoyllysine', 'Thiamin diphosphate']
-> Working with 1.2.4.1
-  > Getting pathway ids for 1.2.4.1
-    Adding pathway ec00010
-    Adding pathway ec00020
-    Adding pathway ec00620
-    Adding pathway ec00785
+> Working with 5.6.2.3
+  > Getting pathway ids for 5.6.2.3
   > Getting module ids
-    > Finding modules for ec00010
-      Modules were cached. Found: ['M00001', 'M00002', 'M00003', 'M00307']
-    > Finding modules for ec00020
-      Modules were cached. Found: ['M00003', 'M00009', 'M00010', 'M00011', 'M00307', 'M00740']
-    > Finding modules for ec00620
-      Modules were cached. Found: ['M00168', 'M00169', 'M00172', 'M00307', 'M00579']
-    > Finding modules for ec00785
-      Modules were cached. Found: ['M00307', 'M00621', 'M00881', 'M00882', 'M00883', 'M00884']
-  > Assigning modules to 1.2.4.1
+  > Assigning modules to 5.6.2.3
     Enzyme not in the list yet, creating a new set.
-    Modules assigned to 1.2.4.1: {'Carbohydrate metabolism': 12, 'Energy metabolism': 4, 'Amino acid metabolism': 1, 'Metabolism of cofactors and vitamins': 4}
-  > Getting reaction id for 1.2.4.1
-  Reaction list: ['R01699', 'R00014', 'R03270']
-  > Extracting R01699
-    Substrates: ['Pyruvate', 'Enzyme N6-(lipoyl)lysine']
-    Products: ['[Dihydrolipoyllysine-residue acetyltransferase] S-acetyldihydrolipoyllysine']
-  > Extracting R00014
-    Substrates: ['Pyruvate', 'Thiamin diphosphate']
-    Products: ['2-(alpha-Hydroxyethyl)thiamine diphosphate']
-  > Extracting R03270
-    Substrates: ['2-(alpha-Hydroxyethyl)thiamine diphosphate', 'Enzyme N6-(lipoyl)lysine']
-    Products: ['[Dihydrolipoyllysine-residue acetyltransferase], S-acetyldihydrolipoyllysine', 'Thiamin diphosphate']
-> Working with 1.8.1.4
-  > Getting pathway ids for 1.8.1.4
-    Adding pathway ec00010
-    Adding pathway ec00020
-    Adding pathway ec00260
-    Adding pathway ec00280
-    Adding pathway ec00310
-    Adding pathway ec00380
-    Adding pathway ec00620
-    Adding pathway ec00640
-    Adding pathway ec00785
+  > Getting reaction id for 5.6.2.3
+    Look at this enzyme manually, no reaction
+> Working with 5.6.2.4
+  > Getting pathway ids for 5.6.2.4
   > Getting module ids
-    > Finding modules for ec00010
-      Modules were cached. Found: ['M00001', 'M00002', 'M00003', 'M00307']
-    > Finding modules for ec00020
-      Modules were cached. Found: ['M00003', 'M00009', 'M00010', 'M00011', 'M00307', 'M00740']
-    > Finding modules for ec00260
-      Modules were cached. Found: ['M00018', 'M00020', 'M00033', 'M00047', 'M00338', 'M00555', 'M00621', 'M00919']
-    > Finding modules for ec00280
-      Modules were cached. Found: ['M00036', 'M00741']
-    > Finding modules for ec00310
-      Modules were cached. Found: ['M00032', 'M00956', 'M00957', 'M00960']
-    > Finding modules for ec00380
-      Modules were cached. Found: ['M00037', 'M00038', 'M00370', 'M00912', 'M00936']
-    > Finding modules for ec00620
-      Modules were cached. Found: ['M00168', 'M00169', 'M00172', 'M00307', 'M00579']
-    > Finding modules for ec00640
-      Modules were cached. Found: ['M00013', 'M00741']
-    > Finding modules for ec00785
-      Modules were cached. Found: ['M00307', 'M00621', 'M00881', 'M00882', 'M00883', 'M00884']
-  > Assigning modules to 1.8.1.4
+  > Assigning modules to 5.6.2.4
     Enzyme not in the list yet, creating a new set.
-    Modules assigned to 1.8.1.4: {'Carbohydrate metabolism': 15, 'Amino acid metabolism': 17, 'Biosynthesis of other secondary metabolites': 1, 'Metabolism of cofactors and vitamins': 5, 'Energy metabolism': 4}
-  > Getting reaction id for 1.8.1.4
-  Reaction list: ['R08550', 'R03815', 'R07618', 'R01698']
-  > Extracting R08550
-    Substrates: ['[Protein]-N6-[(R)-dihydrolipoyl]-L-lysine', 'NAD+']
-    Products: ['Protein N6-(lipoyl)lysine', 'NADH']
-  > Extracting R03815
-    Substrates: ['Dihydrolipoylprotein', 'NAD+']
-    Products: ['Lipoylprotein', 'NADH']
-  > Extracting R07618
-    Substrates: ['Enzyme N6-(dihydrolipoyl)lysine', 'NAD+']
-    Products: ['Enzyme N6-(lipoyl)lysine', 'NADH']
-  > Extracting R01698
-    Substrates: ['Dihydrolipoamide', 'NAD+']
-    Products: ['Lipoamide', 'NADH']
-> Working with 2.3.1.51
-  > Getting pathway ids for 2.3.1.51
-    Adding pathway ec00561
-    Adding pathway ec00564
-  > Getting module ids
-    > Finding modules for ec00561
-      Modules were cached. Found: ['M00089', 'M00098']
-    > Finding modules for ec00564
-      Modules were cached. Found: ['M00090', 'M00091', 'M00092', 'M00093']
-  > Assigning modules to 2.3.1.51
-    Enzyme not in the list yet, creating a new set.
-    Modules assigned to 2.3.1.51: {'Lipid metabolism': 6}
-  > Getting reaction id for 2.3.1.51
-  Reaction list: ['R02241', 'R02760', 'R09381']
-  > Extracting R02241
-    Substrates: ['Phosphatidate', 'CoA']
-    Products: ['1-Acyl-sn-glycerol 3-phosphate', 'Acyl-CoA']
-  > Extracting R02760
-    Substrates: ['2,3-Dehydroacyl-CoA', '1-Acyl-sn-glycerol 3-phosphate']
-    Products: ['CoA', 'Phosphatidate']
-  > Extracting R09381
-    Substrates: ['Acyl-[acyl-carrier protein],', '1-Acyl-sn-glycerol 3-phosphate']
-    Products: ['Acyl-carrier protein', 'Phosphatidate']
-> Working with 3.1.4.14
-  > Getting pathway ids for 3.1.4.14
-    Adding pathway ec00770
-  > Getting module ids
-    > Finding modules for ec00770
-      Modules were cached. Found: ['M00019', 'M00046', 'M00119', 'M00120', 'M00913', 'M00914']
-  > Assigning modules to 3.1.4.14
-    Enzyme not in the list yet, creating a new set.
-    Modules assigned to 3.1.4.14: {'Amino acid metabolism': 1, 'Nucleotide metabolism': 1, 'Metabolism of cofactors and vitamins': 4}
-  > Getting reaction id for 3.1.4.14
-  Reaction list: ['R01623']
-  > Extracting R01623
-    Substrates: ['Acyl-carrier protein']
-    Products: ["Pantetheine 4'-phosphate", 'Apo-[acyl-carrier-protein]']
-> Working with 2.7.1.32
-  > Getting pathway ids for 2.7.1.32
-    Adding pathway ec00552
-    Adding pathway ec00564
-  > Getting module ids
-    > Finding modules for ec00552
-    > Finding modules for ec00564
-      Modules were cached. Found: ['M00090', 'M00091', 'M00092', 'M00093']
-  > Assigning modules to 2.7.1.32
-    Enzyme not in the list yet, creating a new set.
-    Modules assigned to 2.7.1.32: {'Lipid metabolism': 4}
-  > Getting reaction id for 2.7.1.32
-  Reaction list: ['R01021']
-  > Extracting R01021
-    Substrates: ['ATP', 'Choline']
-    Products: ['ADP', 'Choline phosphate']
-> Working with 2.7.1.82
-  > Getting pathway ids for 2.7.1.82
-    Adding pathway ec00564
-  > Getting module ids
-    > Finding modules for ec00564
-      Modules were cached. Found: ['M00090', 'M00091', 'M00092', 'M00093']
-  > Assigning modules to 2.7.1.82
-    Enzyme not in the list yet, creating a new set.
-    Modules assigned to 2.7.1.82: {'Lipid metabolism': 4}
-  > Getting reaction id for 2.7.1.82
-  Reaction list: ['R01468']
-  > Extracting R01468
-    Substrates: ['ATP', 'Ethanolamine']
-    Products: ['ADP', 'Ethanolamine phosphate']
+  > Getting reaction id for 5.6.2.4
+    Look at this enzyme manually, no reaction
 
 Writing metabolites to graph
 Writing enzyme 0
@@ -2383,68 +1879,39 @@ Writing metabolites to graph
 Writing enzyme 10
 Found metabolite already, has id 2011
 Did not find metabolite yet, creating id 2046 (len: 46)
-Found metabolite already, has id 2019
-Found metabolite already, has id 2018
-
-Writing metabolites to graph
-Found metabolite already, has id 2011
-Did not find metabolite yet, creating id 2047 (len: 47)
-Found metabolite already, has id 2019
-Found metabolite already, has id 2021
-
-Writing metabolites to graph
+Did not find metabolite yet, creating id 2047 (len: 46)
+Found metabolite already, has id 2014
+Found metabolite already, has id 2002
 Did not find metabolite yet, creating id 2048 (len: 48)
-Found metabolite already, has id 2011
-Did not find metabolite yet, creating id 2049 (len: 49)
-Found metabolite already, has id 2019
 
 Writing metabolites to graph
 Writing enzyme 11
+Did not find metabolite yet, creating id 2049 (len: 49)
+Did not find metabolite yet, creating id 2050 (len: 49)
 Found metabolite already, has id 2011
-Did not find metabolite yet, creating id 2050 (len: 50)
-Did not find metabolite yet, creating id 2051 (len: 50)
-Found metabolite already, has id 2014
+Did not find metabolite yet, creating id 2051 (len: 51)
 Found metabolite already, has id 2002
-Did not find metabolite yet, creating id 2052 (len: 52)
+Found metabolite already, has id 2014
 
 Writing metabolites to graph
 Writing enzyme 12
-Did not find metabolite yet, creating id 2053 (len: 53)
-Did not find metabolite yet, creating id 2054 (len: 53)
 Found metabolite already, has id 2011
-Did not find metabolite yet, creating id 2055 (len: 55)
-Found metabolite already, has id 2002
-Found metabolite already, has id 2014
+Did not find metabolite yet, creating id 2052 (len: 52)
+Found metabolite already, has id 2019
+Did not find metabolite yet, creating id 2053 (len: 53)
 
 Writing metabolites to graph
 Writing enzyme 13
+Did not find metabolite yet, creating id 2054 (len: 54)
+Did not find metabolite yet, creating id 2055 (len: 54)
+Found metabolite already, has id 2014
 Did not find metabolite yet, creating id 2056 (len: 56)
-Found metabolite already, has id 2002
-Found metabolite already, has id 2019
-Did not find metabolite yet, creating id 2057 (len: 56)
-Did not find metabolite yet, creating id 2058 (len: 58)
-Found metabolite already, has id 2045
-Found metabolite already, has id 2011
 
 Writing metabolites to graph
 Writing enzyme 14
-Found metabolite already, has id 2011
-Did not find metabolite yet, creating id 2059 (len: 59)
-Found metabolite already, has id 2019
-Did not find metabolite yet, creating id 2060 (len: 60)
-
-Writing metabolites to graph
-Writing enzyme 15
-Did not find metabolite yet, creating id 2061 (len: 61)
-Did not find metabolite yet, creating id 2062 (len: 61)
-Found metabolite already, has id 2014
-Did not find metabolite yet, creating id 2063 (len: 63)
-
-Writing metabolites to graph
-Writing enzyme 16
-Found metabolite already, has id 2057
+Did not find metabolite yet, creating id 2057 (len: 57)
 Found metabolite already, has id 2002
-Did not find metabolite yet, creating id 2064 (len: 64)
+Did not find metabolite yet, creating id 2058 (len: 57)
 Found metabolite already, has id 2011
 Found metabolite already, has id 2023
 
@@ -2453,1113 +1920,792 @@ Found metabolite already, has id 2011
 Found metabolite already, has id 2026
 Found metabolite already, has id 2057
 Found metabolite already, has id 2002
-Did not find metabolite yet, creating id 2065 (len: 65)
+Did not find metabolite yet, creating id 2059 (len: 59)
 
 Writing metabolites to graph
-Writing enzyme 17
-Did not find metabolite yet, creating id 2066 (len: 66)
+Writing enzyme 15
+Did not find metabolite yet, creating id 2060 (len: 60)
 Found metabolite already, has id 2057
+Did not find metabolite yet, creating id 2061 (len: 61)
+Did not find metabolite yet, creating id 2062 (len: 61)
+
+Writing metabolites to graph
+Did not find metabolite yet, creating id 2063 (len: 63)
+Found metabolite already, has id 2057
+Did not find metabolite yet, creating id 2064 (len: 64)
+Found metabolite already, has id 2062
+
+Writing metabolites to graph
+Did not find metabolite yet, creating id 2065 (len: 65)
+Found metabolite already, has id 2057
+Did not find metabolite yet, creating id 2066 (len: 66)
+Found metabolite already, has id 2062
+
+Writing metabolites to graph
 Did not find metabolite yet, creating id 2067 (len: 67)
-Did not find metabolite yet, creating id 2068 (len: 67)
+Found metabolite already, has id 2057
+Did not find metabolite yet, creating id 2068 (len: 68)
+Found metabolite already, has id 2062
 
 Writing metabolites to graph
 Did not find metabolite yet, creating id 2069 (len: 69)
 Found metabolite already, has id 2057
 Did not find metabolite yet, creating id 2070 (len: 70)
-Found metabolite already, has id 2068
+Found metabolite already, has id 2062
 
 Writing metabolites to graph
 Did not find metabolite yet, creating id 2071 (len: 71)
 Found metabolite already, has id 2057
+Found metabolite already, has id 2061
 Did not find metabolite yet, creating id 2072 (len: 72)
-Found metabolite already, has id 2068
 
 Writing metabolites to graph
 Did not find metabolite yet, creating id 2073 (len: 73)
 Found metabolite already, has id 2057
-Did not find metabolite yet, creating id 2074 (len: 74)
 Found metabolite already, has id 2068
+Found metabolite already, has id 2072
+
+Writing metabolites to graph
+Did not find metabolite yet, creating id 2074 (len: 74)
+Found metabolite already, has id 2057
+Found metabolite already, has id 2064
+Found metabolite already, has id 2072
 
 Writing metabolites to graph
 Did not find metabolite yet, creating id 2075 (len: 75)
 Found metabolite already, has id 2057
-Did not find metabolite yet, creating id 2076 (len: 76)
-Found metabolite already, has id 2068
-
-Writing metabolites to graph
-Did not find metabolite yet, creating id 2077 (len: 77)
-Found metabolite already, has id 2057
-Found metabolite already, has id 2067
-Did not find metabolite yet, creating id 2078 (len: 78)
-
-Writing metabolites to graph
-Did not find metabolite yet, creating id 2079 (len: 79)
-Found metabolite already, has id 2057
-Found metabolite already, has id 2074
-Found metabolite already, has id 2078
-
-Writing metabolites to graph
-Did not find metabolite yet, creating id 2080 (len: 80)
-Found metabolite already, has id 2057
-Found metabolite already, has id 2070
-Found metabolite already, has id 2078
-
-Writing metabolites to graph
-Did not find metabolite yet, creating id 2081 (len: 81)
-Found metabolite already, has id 2057
+Found metabolite already, has id 2066
 Found metabolite already, has id 2072
-Found metabolite already, has id 2078
 
 Writing metabolites to graph
-Did not find metabolite yet, creating id 2082 (len: 82)
+Did not find metabolite yet, creating id 2076 (len: 76)
 Found metabolite already, has id 2057
-Did not find metabolite yet, creating id 2083 (len: 83)
-Found metabolite already, has id 2068
+Did not find metabolite yet, creating id 2077 (len: 77)
+Found metabolite already, has id 2062
 
 Writing metabolites to graph
-Did not find metabolite yet, creating id 2084 (len: 84)
+Did not find metabolite yet, creating id 2078 (len: 78)
 Found metabolite already, has id 2057
-Found metabolite already, has id 2058
-Found metabolite already, has id 2068
+Did not find metabolite yet, creating id 2079 (len: 79)
+Found metabolite already, has id 2062
 
 Writing metabolites to graph
-Writing enzyme 18
-Did not find metabolite yet, creating id 2085 (len: 85)
+Writing enzyme 16
+Did not find metabolite yet, creating id 2080 (len: 80)
 Found metabolite already, has id 2038
-Did not find metabolite yet, creating id 2086 (len: 86)
+Did not find metabolite yet, creating id 2081 (len: 81)
 
 Writing metabolites to graph
-Writing enzyme 19
+Writing enzyme 17
+Did not find metabolite yet, creating id 2082 (len: 82)
+Did not find metabolite yet, creating id 2083 (len: 83)
+Did not find metabolite yet, creating id 2084 (len: 83)
+
+Writing metabolites to graph
+Did not find metabolite yet, creating id 2085 (len: 85)
+Did not find metabolite yet, creating id 2086 (len: 86)
+Found metabolite already, has id 2084
+
+Writing metabolites to graph
 Did not find metabolite yet, creating id 2087 (len: 87)
 Did not find metabolite yet, creating id 2088 (len: 88)
-Did not find metabolite yet, creating id 2089 (len: 88)
-
-Writing metabolites to graph
-Did not find metabolite yet, creating id 2090 (len: 90)
-Found metabolite already, has id 2047
-Found metabolite already, has id 2089
-
-Writing metabolites to graph
-Did not find metabolite yet, creating id 2091 (len: 91)
-Did not find metabolite yet, creating id 2092 (len: 92)
-Found metabolite already, has id 2089
+Found metabolite already, has id 2084
 
 Writing metabolites to graph
 Writing enzyme 20
-Did not find metabolite yet, creating id 2093 (len: 93)
+Did not find metabolite yet, creating id 2089 (len: 89)
+Did not find metabolite yet, creating id 2090 (len: 90)
+Did not find metabolite yet, creating id 2091 (len: 90)
+
+Writing metabolites to graph
+Writing enzyme 21
+Did not find metabolite yet, creating id 2092 (len: 92)
+Did not find metabolite yet, creating id 2093 (len: 92)
+Found metabolite already, has id 2011
 Did not find metabolite yet, creating id 2094 (len: 94)
-
-Writing metabolites to graph
-Found metabolite already, has id 2093
-Found metabolite already, has id 2094
-
-Writing metabolites to graph
-Found metabolite already, has id 2068
-Did not find metabolite yet, creating id 2095 (len: 95)
-
-Writing metabolites to graph
-Did not find metabolite yet, creating id 2096 (len: 96)
-Did not find metabolite yet, creating id 2097 (len: 97)
-
-Writing metabolites to graph
-Writing enzyme 22
-Found metabolite already, has id 2011
-Found metabolite already, has id 2095
-Found metabolite already, has id 2014
-Found metabolite already, has id 2045
-
-Writing metabolites to graph
-Writing enzyme 23
-Did not find metabolite yet, creating id 2098 (len: 98)
-Did not find metabolite yet, creating id 2099 (len: 99)
-Did not find metabolite yet, creating id 2100 (len: 99)
-
-Writing metabolites to graph
-Writing enzyme 24
-Did not find metabolite yet, creating id 2101 (len: 101)
-Did not find metabolite yet, creating id 2102 (len: 101)
-Found metabolite already, has id 2011
-Did not find metabolite yet, creating id 2103 (len: 103)
 Found metabolite already, has id 2014
 Found metabolite already, has id 2002
 
 Writing metabolites to graph
-Writing enzyme 27
-Did not find metabolite yet, creating id 2104 (len: 104)
-Did not find metabolite yet, creating id 2105 (len: 104)
-Did not find metabolite yet, creating id 2106 (len: 106)
-Did not find metabolite yet, creating id 2107 (len: 106)
+Writing enzyme 24
+Did not find metabolite yet, creating id 2095 (len: 95)
+Did not find metabolite yet, creating id 2096 (len: 95)
+Did not find metabolite yet, creating id 2097 (len: 97)
+Did not find metabolite yet, creating id 2098 (len: 97)
 
 Writing metabolites to graph
-Did not find metabolite yet, creating id 2108 (len: 108)
-Did not find metabolite yet, creating id 2109 (len: 108)
+Did not find metabolite yet, creating id 2099 (len: 99)
+Did not find metabolite yet, creating id 2100 (len: 99)
+Found metabolite already, has id 2096
+Did not find metabolite yet, creating id 2101 (len: 101)
+Found metabolite already, has id 2098
+
+Writing metabolites to graph
+Did not find metabolite yet, creating id 2102 (len: 102)
+Found metabolite already, has id 2096
+Did not find metabolite yet, creating id 2103 (len: 102)
+Did not find metabolite yet, creating id 2104 (len: 104)
+Found metabolite already, has id 2098
+Did not find metabolite yet, creating id 2105 (len: 104)
+
+Writing metabolites to graph
+Found metabolite already, has id 2098
 Found metabolite already, has id 2105
-Did not find metabolite yet, creating id 2110 (len: 110)
-Found metabolite already, has id 2107
+Did not find metabolite yet, creating id 2106 (len: 106)
+Found metabolite already, has id 2096
+Found metabolite already, has id 2103
+Did not find metabolite yet, creating id 2107 (len: 107)
+
+Writing metabolites to graph
+Writing enzyme 25
+Did not find metabolite yet, creating id 2108 (len: 108)
+Did not find metabolite yet, creating id 2109 (len: 109)
+Did not find metabolite yet, creating id 2110 (len: 109)
 
 Writing metabolites to graph
 Did not find metabolite yet, creating id 2111 (len: 111)
-Found metabolite already, has id 2105
-Did not find metabolite yet, creating id 2112 (len: 111)
-Did not find metabolite yet, creating id 2113 (len: 113)
-Found metabolite already, has id 2107
-Did not find metabolite yet, creating id 2114 (len: 113)
+Found metabolite already, has id 2110
+Did not find metabolite yet, creating id 2112 (len: 112)
 
 Writing metabolites to graph
-Found metabolite already, has id 2107
-Found metabolite already, has id 2114
+Writing enzyme 26
+Found metabolite already, has id 2011
+Did not find metabolite yet, creating id 2113 (len: 113)
+Found metabolite already, has id 2019
+Did not find metabolite yet, creating id 2114 (len: 114)
+
+Writing metabolites to graph
+Found metabolite already, has id 2011
 Did not find metabolite yet, creating id 2115 (len: 115)
-Found metabolite already, has id 2105
-Found metabolite already, has id 2112
+Found metabolite already, has id 2019
 Did not find metabolite yet, creating id 2116 (len: 116)
 
 Writing metabolites to graph
-Writing enzyme 28
 Did not find metabolite yet, creating id 2117 (len: 117)
+Found metabolite already, has id 2011
 Did not find metabolite yet, creating id 2118 (len: 118)
-Did not find metabolite yet, creating id 2119 (len: 118)
+Found metabolite already, has id 2019
 
 Writing metabolites to graph
-Did not find metabolite yet, creating id 2120 (len: 120)
-Found metabolite already, has id 2119
+Writing enzyme 27
+Found metabolite already, has id 2011
+Did not find metabolite yet, creating id 2119 (len: 119)
+Did not find metabolite yet, creating id 2120 (len: 119)
+Found metabolite already, has id 2014
+Found metabolite already, has id 2002
 Did not find metabolite yet, creating id 2121 (len: 121)
 
 Writing metabolites to graph
-Writing enzyme 29
-Found metabolite already, has id 2011
+Writing enzyme 28
 Did not find metabolite yet, creating id 2122 (len: 122)
-Found metabolite already, has id 2019
+Found metabolite already, has id 2053
 Did not find metabolite yet, creating id 2123 (len: 123)
+Did not find metabolite yet, creating id 2124 (len: 123)
 
 Writing metabolites to graph
-Found metabolite already, has id 2011
-Did not find metabolite yet, creating id 2124 (len: 124)
-Found metabolite already, has id 2019
+Writing enzyme 29
 Did not find metabolite yet, creating id 2125 (len: 125)
-
-Writing metabolites to graph
 Did not find metabolite yet, creating id 2126 (len: 126)
-Found metabolite already, has id 2011
+
+Writing metabolites to graph
 Did not find metabolite yet, creating id 2127 (len: 127)
-Found metabolite already, has id 2019
-
-Writing metabolites to graph
-Writing enzyme 30
-Found metabolite already, has id 2011
 Did not find metabolite yet, creating id 2128 (len: 128)
-Found metabolite already, has id 2019
-Did not find metabolite yet, creating id 2129 (len: 129)
 
 Writing metabolites to graph
-Found metabolite already, has id 2011
+Did not find metabolite yet, creating id 2129 (len: 129)
 Did not find metabolite yet, creating id 2130 (len: 130)
-Found metabolite already, has id 2019
-Did not find metabolite yet, creating id 2131 (len: 131)
 
 Writing metabolites to graph
 Writing enzyme 31
-Found metabolite already, has id 2094
-Did not find metabolite yet, creating id 2132 (len: 132)
-
-Writing metabolites to graph
-Found metabolite already, has id 2094
-Found metabolite already, has id 2132
-
-Writing metabolites to graph
-Found metabolite already, has id 2094
-Found metabolite already, has id 2094
-
-Writing metabolites to graph
-Found metabolite already, has id 2094
-Found metabolite already, has id 2132
+Found metabolite already, has id 2011
+Did not find metabolite yet, creating id 2131 (len: 131)
+Did not find metabolite yet, creating id 2132 (len: 131)
+Found metabolite already, has id 2014
+Found metabolite already, has id 2002
+Did not find metabolite yet, creating id 2133 (len: 133)
 
 Writing metabolites to graph
 Writing enzyme 32
 Found metabolite already, has id 2011
-Did not find metabolite yet, creating id 2133 (len: 133)
-Did not find metabolite yet, creating id 2134 (len: 133)
+Found metabolite already, has id 2093
+Did not find metabolite yet, creating id 2134 (len: 134)
 Found metabolite already, has id 2014
 Found metabolite already, has id 2002
 Did not find metabolite yet, creating id 2135 (len: 135)
 
 Writing metabolites to graph
 Writing enzyme 33
+Found metabolite already, has id 2126
 Did not find metabolite yet, creating id 2136 (len: 136)
+
+Writing metabolites to graph
 Did not find metabolite yet, creating id 2137 (len: 137)
-
-Writing metabolites to graph
 Did not find metabolite yet, creating id 2138 (len: 138)
-Did not find metabolite yet, creating id 2139 (len: 139)
 
 Writing metabolites to graph
-Did not find metabolite yet, creating id 2140 (len: 140)
-Did not find metabolite yet, creating id 2141 (len: 141)
+Writing enzyme 34
+Found metabolite already, has id 2030
+Found metabolite already, has id 2114
+Found metabolite already, has id 2057
 
 Writing metabolites to graph
 Writing enzyme 35
 Found metabolite already, has id 2011
-Did not find metabolite yet, creating id 2142 (len: 142)
-Did not find metabolite yet, creating id 2143 (len: 142)
-Found metabolite already, has id 2014
-Found metabolite already, has id 2002
-Did not find metabolite yet, creating id 2144 (len: 144)
+Did not find metabolite yet, creating id 2139 (len: 139)
+Found metabolite already, has id 2019
+Did not find metabolite yet, creating id 2140 (len: 140)
 
 Writing metabolites to graph
 Writing enzyme 36
 Found metabolite already, has id 2011
-Did not find metabolite yet, creating id 2145 (len: 145)
-Found metabolite already, has id 2019
-Found metabolite already, has id 2105
-
-Writing metabolites to graph
-Writing enzyme 37
-Found metabolite already, has id 2011
-Found metabolite already, has id 2102
-Did not find metabolite yet, creating id 2146 (len: 146)
-Found metabolite already, has id 2014
+Found metabolite already, has id 2140
 Found metabolite already, has id 2002
-Did not find metabolite yet, creating id 2147 (len: 147)
+Did not find metabolite yet, creating id 2141 (len: 141)
 
 Writing metabolites to graph
 Writing enzyme 38
-Found metabolite already, has id 2137
-Did not find metabolite yet, creating id 2148 (len: 148)
-
-Writing metabolites to graph
-Did not find metabolite yet, creating id 2149 (len: 149)
-Did not find metabolite yet, creating id 2150 (len: 150)
+Did not find metabolite yet, creating id 2142 (len: 142)
+Did not find metabolite yet, creating id 2143 (len: 143)
 
 Writing metabolites to graph
 Writing enzyme 39
 Found metabolite already, has id 2011
-Did not find metabolite yet, creating id 2151 (len: 151)
-Found metabolite already, has id 2019
-Did not find metabolite yet, creating id 2152 (len: 152)
-
-Writing metabolites to graph
-Writing enzyme 40
-Found metabolite already, has id 2011
-Found metabolite already, has id 2152
+Did not find metabolite yet, creating id 2144 (len: 144)
+Did not find metabolite yet, creating id 2145 (len: 144)
+Found metabolite already, has id 2014
 Found metabolite already, has id 2002
-Did not find metabolite yet, creating id 2153 (len: 153)
+Did not find metabolite yet, creating id 2146 (len: 146)
 
 Writing metabolites to graph
-Writing enzyme 42
+Writing enzyme 41
+Found metabolite already, has id 2011
+Did not find metabolite yet, creating id 2147 (len: 147)
+Found metabolite already, has id 2019
+Did not find metabolite yet, creating id 2148 (len: 148)
+
+Writing metabolites to graph
+Found metabolite already, has id 2030
+Found metabolite already, has id 2147
+Found metabolite already, has id 2114
+Found metabolite already, has id 2148
+
+Writing metabolites to graph
+Found metabolite already, has id 2031
+Found metabolite already, has id 2147
+Did not find metabolite yet, creating id 2149 (len: 149)
+Found metabolite already, has id 2148
+
+Writing metabolites to graph
+Found metabolite already, has id 2032
+Found metabolite already, has id 2147
+Did not find metabolite yet, creating id 2150 (len: 150)
+Found metabolite already, has id 2148
+
+Writing metabolites to graph
+Did not find metabolite yet, creating id 2151 (len: 151)
+Found metabolite already, has id 2147
+Did not find metabolite yet, creating id 2152 (len: 152)
+Found metabolite already, has id 2148
+
+Writing metabolites to graph
+Found metabolite already, has id 2004
+Found metabolite already, has id 2147
+Did not find metabolite yet, creating id 2153 (len: 153)
+Found metabolite already, has id 2148
+
+Writing metabolites to graph
+Found metabolite already, has id 2006
+Found metabolite already, has id 2147
+Found metabolite already, has id 2116
+Found metabolite already, has id 2148
+
+Writing metabolites to graph
+Found metabolite already, has id 2028
+Found metabolite already, has id 2147
 Did not find metabolite yet, creating id 2154 (len: 154)
-Did not find metabolite yet, creating id 2155 (len: 155)
+Found metabolite already, has id 2148
 
 Writing metabolites to graph
 Writing enzyme 43
+Did not find metabolite yet, creating id 2155 (len: 155)
+Found metabolite already, has id 2097
 Did not find metabolite yet, creating id 2156 (len: 156)
-Found metabolite already, has id 2014
-Found metabolite already, has id 2057
+Found metabolite already, has id 2095
+
+Writing metabolites to graph
+Found metabolite already, has id 2153
+Found metabolite already, has id 2097
+Found metabolite already, has id 2095
+Found metabolite already, has id 2019
+
+Writing metabolites to graph
+Found metabolite already, has id 2022
+Found metabolite already, has id 2097
+Found metabolite already, has id 2095
+Found metabolite already, has id 2150
+
+Writing metabolites to graph
+Found metabolite already, has id 2116
+Found metabolite already, has id 2097
+Found metabolite already, has id 2114
+Found metabolite already, has id 2095
 
 Writing metabolites to graph
 Did not find metabolite yet, creating id 2157 (len: 157)
-Did not find metabolite yet, creating id 2158 (len: 158)
-Found metabolite already, has id 2057
+Found metabolite already, has id 2097
+Found metabolite already, has id 2095
+Found metabolite already, has id 2149
 
 Writing metabolites to graph
-Writing enzyme 44
-Found metabolite already, has id 2011
+Found metabolite already, has id 2155
+Did not find metabolite yet, creating id 2158 (len: 158)
+Found metabolite already, has id 2156
 Did not find metabolite yet, creating id 2159 (len: 159)
-Did not find metabolite yet, creating id 2160 (len: 159)
-Found metabolite already, has id 2014
-Found metabolite already, has id 2002
+
+Writing metabolites to graph
+Found metabolite already, has id 2155
+Did not find metabolite yet, creating id 2160 (len: 160)
+Found metabolite already, has id 2156
 Did not find metabolite yet, creating id 2161 (len: 161)
 
 Writing metabolites to graph
-Writing enzyme 45
 Did not find metabolite yet, creating id 2162 (len: 162)
-Did not find metabolite yet, creating id 2163 (len: 162)
-Found metabolite already, has id 2156
+Found metabolite already, has id 2097
+Did not find metabolite yet, creating id 2163 (len: 163)
+Found metabolite already, has id 2095
+
+Writing metabolites to graph
+Writing enzyme 44
 Did not find metabolite yet, creating id 2164 (len: 164)
+Did not find metabolite yet, creating id 2165 (len: 165)
 
 Writing metabolites to graph
 Writing enzyme 46
-Found metabolite already, has id 2011
-Found metabolite already, has id 2132
-Found metabolite already, has id 2019
-Found metabolite already, has id 2036
-
-Writing metabolites to graph
-Found metabolite already, has id 2011
-Found metabolite already, has id 2132
-Found metabolite already, has id 2019
-Found metabolite already, has id 2036
-
-Writing metabolites to graph
-Found metabolite already, has id 2031
-Found metabolite already, has id 2132
-Did not find metabolite yet, creating id 2165 (len: 165)
-Found metabolite already, has id 2036
-
-Writing metabolites to graph
-Found metabolite already, has id 2032
-Found metabolite already, has id 2132
+Found metabolite already, has id 2053
 Did not find metabolite yet, creating id 2166 (len: 166)
-Found metabolite already, has id 2036
-
-Writing metabolites to graph
 Did not find metabolite yet, creating id 2167 (len: 167)
-Found metabolite already, has id 2132
-Did not find metabolite yet, creating id 2168 (len: 168)
-Found metabolite already, has id 2036
+Did not find metabolite yet, creating id 2168 (len: 167)
 
 Writing metabolites to graph
-Found metabolite already, has id 2011
 Did not find metabolite yet, creating id 2169 (len: 169)
-Found metabolite already, has id 2019
-Found metabolite already, has id 2039
+Found metabolite already, has id 2053
+Found metabolite already, has id 2168
+Found metabolite already, has id 2167
 
 Writing metabolites to graph
 Did not find metabolite yet, creating id 2170 (len: 170)
-Found metabolite already, has id 2011
-Did not find metabolite yet, creating id 2171 (len: 171)
-Found metabolite already, has id 2019
-
-Writing metabolites to graph
-Found metabolite already, has id 2031
-Found metabolite already, has id 2170
-Found metabolite already, has id 2165
-Found metabolite already, has id 2171
-
-Writing metabolites to graph
-Found metabolite already, has id 2032
-Found metabolite already, has id 2170
-Found metabolite already, has id 2166
-Found metabolite already, has id 2171
-
-Writing metabolites to graph
+Found metabolite already, has id 2053
 Found metabolite already, has id 2167
-Found metabolite already, has id 2170
-Found metabolite already, has id 2168
-Found metabolite already, has id 2171
+Did not find metabolite yet, creating id 2171 (len: 171)
 
 Writing metabolites to graph
 Writing enzyme 47
 Found metabolite already, has id 2011
 Did not find metabolite yet, creating id 2172 (len: 172)
-Found metabolite already, has id 2019
-Did not find metabolite yet, creating id 2173 (len: 173)
-
-Writing metabolites to graph
-Found metabolite already, has id 2030
-Found metabolite already, has id 2172
-Found metabolite already, has id 2123
-Found metabolite already, has id 2173
-
-Writing metabolites to graph
-Found metabolite already, has id 2031
-Found metabolite already, has id 2172
-Found metabolite already, has id 2165
-Found metabolite already, has id 2173
-
-Writing metabolites to graph
-Found metabolite already, has id 2032
-Found metabolite already, has id 2172
-Found metabolite already, has id 2166
-Found metabolite already, has id 2173
-
-Writing metabolites to graph
-Found metabolite already, has id 2167
-Found metabolite already, has id 2172
-Found metabolite already, has id 2168
-Found metabolite already, has id 2173
-
-Writing metabolites to graph
-Found metabolite already, has id 2004
-Found metabolite already, has id 2172
+Did not find metabolite yet, creating id 2173 (len: 172)
+Found metabolite already, has id 2014
+Found metabolite already, has id 2002
 Did not find metabolite yet, creating id 2174 (len: 174)
-Found metabolite already, has id 2173
 
 Writing metabolites to graph
-Found metabolite already, has id 2006
-Found metabolite already, has id 2172
-Found metabolite already, has id 2125
-Found metabolite already, has id 2173
-
-Writing metabolites to graph
-Found metabolite already, has id 2028
-Found metabolite already, has id 2172
+Writing enzyme 48
+Found metabolite already, has id 2011
+Found metabolite already, has id 2099
 Did not find metabolite yet, creating id 2175 (len: 175)
-Found metabolite already, has id 2173
+Found metabolite already, has id 2014
+Found metabolite already, has id 2002
+Did not find metabolite yet, creating id 2176 (len: 176)
 
 Writing metabolites to graph
 Writing enzyme 49
-Did not find metabolite yet, creating id 2176 (len: 176)
-Found metabolite already, has id 2105
 Did not find metabolite yet, creating id 2177 (len: 177)
-Found metabolite already, has id 2107
-
-Writing metabolites to graph
-Found metabolite already, has id 2176
-Found metabolite already, has id 2145
-Found metabolite already, has id 2177
-Did not find metabolite yet, creating id 2178 (len: 178)
-
-Writing metabolites to graph
-Found metabolite already, has id 2176
-Found metabolite already, has id 2145
+Found metabolite already, has id 2001
+Did not find metabolite yet, creating id 2178 (len: 177)
+Found metabolite already, has id 2014
 Did not find metabolite yet, creating id 2179 (len: 179)
-Found metabolite already, has id 2178
-Found metabolite already, has id 2114
+Did not find metabolite yet, creating id 2180 (len: 179)
 
 Writing metabolites to graph
-Found metabolite already, has id 2176
-Found metabolite already, has id 2105
-Found metabolite already, has id 2179
-Found metabolite already, has id 2107
-Found metabolite already, has id 2114
-
-Writing metabolites to graph
-Found metabolite already, has id 2177
-Found metabolite already, has id 2145
-Found metabolite already, has id 2179
-Found metabolite already, has id 2178
-
-Writing metabolites to graph
-Found metabolite already, has id 2177
-Found metabolite already, has id 2105
-Found metabolite already, has id 2179
-Found metabolite already, has id 2107
-
-Writing metabolites to graph
-Did not find metabolite yet, creating id 2180 (len: 180)
-Found metabolite already, has id 2105
+Writing enzyme 51
+Found metabolite already, has id 2011
 Did not find metabolite yet, creating id 2181 (len: 181)
-Found metabolite already, has id 2107
-
-Writing metabolites to graph
-Writing enzyme 50
-Did not find metabolite yet, creating id 2182 (len: 182)
-Found metabolite already, has id 2106
-Did not find metabolite yet, creating id 2183 (len: 183)
-Found metabolite already, has id 2104
-
-Writing metabolites to graph
-Found metabolite already, has id 2174
-Found metabolite already, has id 2106
-Found metabolite already, has id 2104
 Found metabolite already, has id 2019
+Found metabolite already, has id 2168
 
 Writing metabolites to graph
-Found metabolite already, has id 2022
-Found metabolite already, has id 2106
-Found metabolite already, has id 2104
-Found metabolite already, has id 2166
-
-Writing metabolites to graph
-Found metabolite already, has id 2125
-Found metabolite already, has id 2106
-Found metabolite already, has id 2123
-Found metabolite already, has id 2104
-
-Writing metabolites to graph
+Writing enzyme 52
+Found metabolite already, has id 2011
+Did not find metabolite yet, creating id 2182 (len: 182)
+Did not find metabolite yet, creating id 2183 (len: 182)
+Found metabolite already, has id 2014
+Found metabolite already, has id 2002
 Did not find metabolite yet, creating id 2184 (len: 184)
-Found metabolite already, has id 2106
-Found metabolite already, has id 2104
-Found metabolite already, has id 2165
-
-Writing metabolites to graph
-Found metabolite already, has id 2182
-Did not find metabolite yet, creating id 2185 (len: 185)
-Found metabolite already, has id 2183
-Did not find metabolite yet, creating id 2186 (len: 186)
-
-Writing metabolites to graph
-Found metabolite already, has id 2182
-Did not find metabolite yet, creating id 2187 (len: 187)
-Found metabolite already, has id 2183
-Did not find metabolite yet, creating id 2188 (len: 188)
-
-Writing metabolites to graph
-Did not find metabolite yet, creating id 2189 (len: 189)
-Found metabolite already, has id 2106
-Did not find metabolite yet, creating id 2190 (len: 190)
-Found metabolite already, has id 2104
 
 Writing metabolites to graph
 Writing enzyme 53
-Found metabolite already, has id 2011
-Found metabolite already, has id 2056
-Found metabolite already, has id 2002
-Did not find metabolite yet, creating id 2191 (len: 191)
+Did not find metabolite yet, creating id 2185 (len: 185)
+Found metabolite already, has id 2177
+Did not find metabolite yet, creating id 2186 (len: 186)
+Did not find metabolite yet, creating id 2187 (len: 186)
 
 Writing metabolites to graph
-Found metabolite already, has id 2011
+Did not find metabolite yet, creating id 2188 (len: 188)
+Found metabolite already, has id 2177
+Did not find metabolite yet, creating id 2189 (len: 189)
+Found metabolite already, has id 2187
+
+Writing metabolites to graph
+Did not find metabolite yet, creating id 2190 (len: 190)
+Found metabolite already, has id 2177
+Did not find metabolite yet, creating id 2191 (len: 191)
+Found metabolite already, has id 2187
+
+Writing metabolites to graph
 Did not find metabolite yet, creating id 2192 (len: 192)
-Found metabolite already, has id 2002
-Found metabolite already, has id 2145
+Found metabolite already, has id 2177
+Did not find metabolite yet, creating id 2193 (len: 193)
+Found metabolite already, has id 2187
 
 Writing metabolites to graph
 Writing enzyme 54
-Found metabolite already, has id 2060
-Did not find metabolite yet, creating id 2193 (len: 193)
+Found metabolite already, has id 2014
+Found metabolite already, has id 2002
+Found metabolite already, has id 2064
+Found metabolite already, has id 2045
+
+Writing metabolites to graph
 Did not find metabolite yet, creating id 2194 (len: 194)
-Found metabolite already, has id 2162
-
-Writing metabolites to graph
+Found metabolite already, has id 2002
 Did not find metabolite yet, creating id 2195 (len: 195)
-Found metabolite already, has id 2060
-Found metabolite already, has id 2162
-Found metabolite already, has id 2194
-
-Writing metabolites to graph
-Did not find metabolite yet, creating id 2196 (len: 196)
-Found metabolite already, has id 2060
-Found metabolite already, has id 2194
-Found metabolite already, has id 2164
+Found metabolite already, has id 2045
 
 Writing metabolites to graph
 Writing enzyme 55
 Found metabolite already, has id 2011
-Did not find metabolite yet, creating id 2197 (len: 197)
-Did not find metabolite yet, creating id 2198 (len: 197)
+Did not find metabolite yet, creating id 2196 (len: 196)
+Did not find metabolite yet, creating id 2197 (len: 196)
 Found metabolite already, has id 2014
 Found metabolite already, has id 2002
-Did not find metabolite yet, creating id 2199 (len: 199)
+Did not find metabolite yet, creating id 2198 (len: 198)
 
 Writing metabolites to graph
-Writing enzyme 56
+Writing enzyme 57
 Found metabolite already, has id 2011
-Found metabolite already, has id 2108
-Did not find metabolite yet, creating id 2200 (len: 200)
+Did not find metabolite yet, creating id 2199 (len: 199)
+Did not find metabolite yet, creating id 2200 (len: 199)
 Found metabolite already, has id 2014
 Found metabolite already, has id 2002
 Did not find metabolite yet, creating id 2201 (len: 201)
 
 Writing metabolites to graph
-Writing enzyme 57
-Found metabolite already, has id 2145
-Found metabolite already, has id 2001
+Writing enzyme 58
+Found metabolite already, has id 2142
 Did not find metabolite yet, creating id 2202 (len: 202)
-Found metabolite already, has id 2014
-Found metabolite already, has id 2192
+Found metabolite already, has id 2011
 Did not find metabolite yet, creating id 2203 (len: 203)
+Did not find metabolite yet, creating id 2204 (len: 203)
+Found metabolite already, has id 2014
+Found metabolite already, has id 2002
 
 Writing metabolites to graph
 Writing enzyme 59
-Found metabolite already, has id 2129
-Found metabolite already, has id 2128
+Did not find metabolite yet, creating id 2205 (len: 205)
 Found metabolite already, has id 2057
+Found metabolite already, has id 2168
+Did not find metabolite yet, creating id 2206 (len: 206)
+
+Writing metabolites to graph
+Did not find metabolite yet, creating id 2207 (len: 207)
+Found metabolite already, has id 2057
+Did not find metabolite yet, creating id 2208 (len: 208)
+Found metabolite already, has id 2168
 
 Writing metabolites to graph
 Writing enzyme 60
-Found metabolite already, has id 2011
-Did not find metabolite yet, creating id 2204 (len: 204)
-Did not find metabolite yet, creating id 2205 (len: 204)
-Found metabolite already, has id 2014
-Found metabolite already, has id 2002
-Did not find metabolite yet, creating id 2206 (len: 206)
+Did not find metabolite yet, creating id 2209 (len: 209)
+Did not find metabolite yet, creating id 2210 (len: 210)
+Found metabolite already, has id 2057
 
 Writing metabolites to graph
 Writing enzyme 61
 Found metabolite already, has id 2011
-Did not find metabolite yet, creating id 2207 (len: 207)
-Did not find metabolite yet, creating id 2208 (len: 207)
-Did not find metabolite yet, creating id 2209 (len: 209)
-Found metabolite already, has id 2014
-Found metabolite already, has id 2002
+Found metabolite already, has id 2123
+Found metabolite already, has id 2019
+Found metabolite already, has id 2149
 
 Writing metabolites to graph
 Found metabolite already, has id 2011
-Found metabolite already, has id 2207
-Did not find metabolite yet, creating id 2210 (len: 210)
 Did not find metabolite yet, creating id 2211 (len: 211)
-Found metabolite already, has id 2014
-Found metabolite already, has id 2002
+Found metabolite already, has id 2019
+Found metabolite already, has id 2157
 
 Writing metabolites to graph
+Writing enzyme 62
 Found metabolite already, has id 2011
-Found metabolite already, has id 2207
 Did not find metabolite yet, creating id 2212 (len: 212)
-Did not find metabolite yet, creating id 2213 (len: 213)
+Did not find metabolite yet, creating id 2213 (len: 212)
 Found metabolite already, has id 2014
-Found metabolite already, has id 2002
-
-Writing metabolites to graph
-Found metabolite already, has id 2011
-Found metabolite already, has id 2207
 Found metabolite already, has id 2002
 Did not find metabolite yet, creating id 2214 (len: 214)
 
 Writing metabolites to graph
-Found metabolite already, has id 2214
-Found metabolite already, has id 2208
-Found metabolite already, has id 2209
-Found metabolite already, has id 2014
-
-Writing metabolites to graph
+Writing enzyme 63
 Found metabolite already, has id 2011
 Did not find metabolite yet, creating id 2215 (len: 215)
-Found metabolite already, has id 2212
-Did not find metabolite yet, creating id 2216 (len: 216)
+Did not find metabolite yet, creating id 2216 (len: 215)
 Found metabolite already, has id 2014
 Found metabolite already, has id 2002
-
-Writing metabolites to graph
-Writing enzyme 62
 Did not find metabolite yet, creating id 2217 (len: 217)
-Did not find metabolite yet, creating id 2218 (len: 217)
-Found metabolite already, has id 2162
-Did not find metabolite yet, creating id 2219 (len: 219)
-
-Writing metabolites to graph
-Writing enzyme 63
-Found metabolite already, has id 2178
-Found metabolite already, has id 2114
-Did not find metabolite yet, creating id 2220 (len: 220)
-Found metabolite already, has id 2145
-Found metabolite already, has id 2112
-
-Writing metabolites to graph
-Writing enzyme 64
-Did not find metabolite yet, creating id 2221 (len: 221)
-Found metabolite already, has id 2218
-Found metabolite already, has id 2162
-Did not find metabolite yet, creating id 2222 (len: 222)
-
-Writing metabolites to graph
-Did not find metabolite yet, creating id 2223 (len: 223)
-Found metabolite already, has id 2218
-Found metabolite already, has id 2162
-Did not find metabolite yet, creating id 2224 (len: 224)
 
 Writing metabolites to graph
 Writing enzyme 65
-Found metabolite already, has id 2014
-Found metabolite already, has id 2002
-Found metabolite already, has id 2070
-Found metabolite already, has id 2045
+Found metabolite already, has id 2058
+Did not find metabolite yet, creating id 2218 (len: 218)
+Did not find metabolite yet, creating id 2219 (len: 219)
+Did not find metabolite yet, creating id 2220 (len: 219)
 
 Writing metabolites to graph
-Did not find metabolite yet, creating id 2225 (len: 225)
-Found metabolite already, has id 2002
-Did not find metabolite yet, creating id 2226 (len: 226)
-Found metabolite already, has id 2045
-
-Writing metabolites to graph
-Writing enzyme 66
-Found metabolite already, has id 2011
-Did not find metabolite yet, creating id 2227 (len: 227)
-Did not find metabolite yet, creating id 2228 (len: 227)
-Found metabolite already, has id 2014
-Found metabolite already, has id 2002
-Did not find metabolite yet, creating id 2229 (len: 229)
+Writing enzyme 67
+Found metabolite already, has id 2025
+Did not find metabolite yet, creating id 2221 (len: 221)
+Did not find metabolite yet, creating id 2222 (len: 222)
+Did not find metabolite yet, creating id 2223 (len: 222)
 
 Writing metabolites to graph
 Writing enzyme 68
-Found metabolite already, has id 2011
-Did not find metabolite yet, creating id 2230 (len: 230)
-Did not find metabolite yet, creating id 2231 (len: 230)
-Found metabolite already, has id 2014
-Found metabolite already, has id 2002
-Did not find metabolite yet, creating id 2232 (len: 232)
+Found metabolite already, has id 2170
+Found metabolite already, has id 2057
+Did not find metabolite yet, creating id 2224 (len: 224)
+Found metabolite already, has id 2171
 
 Writing metabolites to graph
 Writing enzyme 69
-Found metabolite already, has id 2154
+Found metabolite already, has id 2099
+Did not find metabolite yet, creating id 2225 (len: 225)
+Found metabolite already, has id 2012
+Did not find metabolite yet, creating id 2226 (len: 226)
+
+Writing metabolites to graph
+Found metabolite already, has id 2202
+Did not find metabolite yet, creating id 2227 (len: 227)
+Did not find metabolite yet, creating id 2228 (len: 227)
+Found metabolite already, has id 2014
+Did not find metabolite yet, creating id 2229 (len: 229)
+Found metabolite already, has id 2204
+Did not find metabolite yet, creating id 2230 (len: 229)
+
+Writing metabolites to graph
+Writing enzyme 70
+Found metabolite already, has id 2011
+Did not find metabolite yet, creating id 2231 (len: 231)
+Did not find metabolite yet, creating id 2232 (len: 231)
+Found metabolite already, has id 2014
+Found metabolite already, has id 2002
 Did not find metabolite yet, creating id 2233 (len: 233)
+
+Writing metabolites to graph
+Writing enzyme 71
 Found metabolite already, has id 2011
 Did not find metabolite yet, creating id 2234 (len: 234)
 Did not find metabolite yet, creating id 2235 (len: 234)
 Found metabolite already, has id 2014
 Found metabolite already, has id 2002
-
-Writing metabolites to graph
-Writing enzyme 70
-Found metabolite already, has id 2217
-Found metabolite already, has id 2057
-Found metabolite already, has id 2162
 Did not find metabolite yet, creating id 2236 (len: 236)
 
 Writing metabolites to graph
-Did not find metabolite yet, creating id 2237 (len: 237)
-Found metabolite already, has id 2057
-Did not find metabolite yet, creating id 2238 (len: 238)
-Found metabolite already, has id 2162
+Writing enzyme 73
+Found metabolite already, has id 2011
+Found metabolite already, has id 2082
+Found metabolite already, has id 2019
+Found metabolite already, has id 2123
 
 Writing metabolites to graph
-Writing enzyme 73
-Did not find metabolite yet, creating id 2239 (len: 239)
-Did not find metabolite yet, creating id 2240 (len: 240)
-Found metabolite already, has id 2057
+Found metabolite already, has id 2011
+Found metabolite already, has id 2083
+Found metabolite already, has id 2019
+Found metabolite already, has id 2043
+
+Writing metabolites to graph
+Found metabolite already, has id 2030
+Found metabolite already, has id 2082
+Found metabolite already, has id 2114
+Found metabolite already, has id 2123
+
+Writing metabolites to graph
+Found metabolite already, has id 2030
+Found metabolite already, has id 2083
+Found metabolite already, has id 2114
+Found metabolite already, has id 2043
+
+Writing metabolites to graph
+Did not find metabolite yet, creating id 2237 (len: 237)
+Found metabolite already, has id 2011
+Did not find metabolite yet, creating id 2238 (len: 238)
+Found metabolite already, has id 2019
 
 Writing metabolites to graph
 Writing enzyme 74
 Found metabolite already, has id 2011
-Did not find metabolite yet, creating id 2241 (len: 241)
-Found metabolite already, has id 2019
-Found metabolite already, has id 2165
-
-Writing metabolites to graph
-Found metabolite already, has id 2011
-Did not find metabolite yet, creating id 2242 (len: 242)
-Found metabolite already, has id 2019
-Found metabolite already, has id 2184
+Did not find metabolite yet, creating id 2239 (len: 239)
+Found metabolite already, has id 2084
+Found metabolite already, has id 2014
+Found metabolite already, has id 2002
+Found metabolite already, has id 2177
 
 Writing metabolites to graph
 Writing enzyme 75
-Found metabolite already, has id 2011
-Did not find metabolite yet, creating id 2243 (len: 243)
-Did not find metabolite yet, creating id 2244 (len: 243)
-Found metabolite already, has id 2014
-Found metabolite already, has id 2002
-Did not find metabolite yet, creating id 2245 (len: 245)
+Did not find metabolite yet, creating id 2240 (len: 240)
+Did not find metabolite yet, creating id 2241 (len: 241)
 
 Writing metabolites to graph
-Writing enzyme 76
-Found metabolite already, has id 2011
-Did not find metabolite yet, creating id 2246 (len: 246)
-Did not find metabolite yet, creating id 2247 (len: 246)
-Found metabolite already, has id 2014
-Found metabolite already, has id 2002
-Did not find metabolite yet, creating id 2248 (len: 248)
+Did not find metabolite yet, creating id 2242 (len: 242)
+Did not find metabolite yet, creating id 2243 (len: 243)
 
 Writing metabolites to graph
 Writing enzyme 77
-Found metabolite already, has id 2064
-Did not find metabolite yet, creating id 2249 (len: 249)
-Did not find metabolite yet, creating id 2250 (len: 250)
-Did not find metabolite yet, creating id 2251 (len: 250)
+Did not find metabolite yet, creating id 2244 (len: 244)
+Found metabolite already, has id 2148
+
+Writing metabolites to graph
+Did not find metabolite yet, creating id 2245 (len: 245)
+Did not find metabolite yet, creating id 2246 (len: 246)
 
 Writing metabolites to graph
 Writing enzyme 78
-Found metabolite already, has id 2011
-Did not find metabolite yet, creating id 2252 (len: 252)
-Found metabolite already, has id 2019
-Found metabolite already, has id 2236
+Did not find metabolite yet, creating id 2247 (len: 247)
+Found metabolite already, has id 2097
+Did not find metabolite yet, creating id 2248 (len: 248)
+Found metabolite already, has id 2095
 
 Writing metabolites to graph
-Found metabolite already, has id 2011
-Did not find metabolite yet, creating id 2253 (len: 253)
-Found metabolite already, has id 2019
-Found metabolite already, has id 2238
-
-Writing metabolites to graph
-Writing enzyme 79
-Found metabolite already, has id 2011
-Did not find metabolite yet, creating id 2254 (len: 254)
-Found metabolite already, has id 2019
-Did not find metabolite yet, creating id 2255 (len: 255)
+Found metabolite already, has id 2023
+Found metabolite already, has id 2097
+Did not find metabolite yet, creating id 2249 (len: 249)
+Found metabolite already, has id 2095
 
 Writing metabolites to graph
 Writing enzyme 80
-Found metabolite already, has id 2025
-Did not find metabolite yet, creating id 2256 (len: 256)
-Found metabolite already, has id 2176
-Did not find metabolite yet, creating id 2257 (len: 257)
+Found metabolite already, has id 2148
+Did not find metabolite yet, creating id 2250 (len: 250)
+Found metabolite already, has id 2147
+Did not find metabolite yet, creating id 2251 (len: 251)
 
 Writing metabolites to graph
 Writing enzyme 81
-Found metabolite already, has id 2196
-Found metabolite already, has id 2057
-Did not find metabolite yet, creating id 2258 (len: 258)
-Found metabolite already, has id 2164
+Found metabolite already, has id 2244
+Did not find metabolite yet, creating id 2252 (len: 252)
 
 Writing metabolites to graph
 Writing enzyme 82
-Found metabolite already, has id 2108
-Did not find metabolite yet, creating id 2259 (len: 259)
-Found metabolite already, has id 2012
-Did not find metabolite yet, creating id 2260 (len: 260)
-
-Writing metabolites to graph
-Found metabolite already, has id 2233
-Did not find metabolite yet, creating id 2261 (len: 261)
-Did not find metabolite yet, creating id 2262 (len: 261)
-Found metabolite already, has id 2014
-Did not find metabolite yet, creating id 2263 (len: 263)
-Found metabolite already, has id 2235
-Did not find metabolite yet, creating id 2264 (len: 263)
-
-Writing metabolites to graph
-Writing enzyme 83
-Found metabolite already, has id 2011
-Did not find metabolite yet, creating id 2265 (len: 265)
-Did not find metabolite yet, creating id 2266 (len: 265)
-Found metabolite already, has id 2014
-Found metabolite already, has id 2002
-Did not find metabolite yet, creating id 2267 (len: 267)
-
-Writing metabolites to graph
-Writing enzyme 84
-Found metabolite already, has id 2011
-Did not find metabolite yet, creating id 2268 (len: 268)
-Did not find metabolite yet, creating id 2269 (len: 268)
-Found metabolite already, has id 2014
-Found metabolite already, has id 2002
-Did not find metabolite yet, creating id 2270 (len: 270)
-
-Writing metabolites to graph
-Writing enzyme 85
-Found metabolite already, has id 2011
-Found metabolite already, has id 2087
-Found metabolite already, has id 2019
-Found metabolite already, has id 2241
-
-Writing metabolites to graph
-Found metabolite already, has id 2011
-Found metabolite already, has id 2088
-Found metabolite already, has id 2019
-Found metabolite already, has id 2043
-
-Writing metabolites to graph
-Found metabolite already, has id 2030
-Found metabolite already, has id 2087
-Found metabolite already, has id 2123
-Found metabolite already, has id 2241
-
-Writing metabolites to graph
-Found metabolite already, has id 2030
-Found metabolite already, has id 2088
-Found metabolite already, has id 2123
-Found metabolite already, has id 2043
-
-Writing metabolites to graph
-Did not find metabolite yet, creating id 2271 (len: 271)
-Found metabolite already, has id 2011
-Did not find metabolite yet, creating id 2272 (len: 272)
-Found metabolite already, has id 2019
-
-Writing metabolites to graph
-Writing enzyme 86
-Found metabolite already, has id 2011
-Found metabolite already, has id 2191
-Found metabolite already, has id 2089
-Found metabolite already, has id 2014
-Found metabolite already, has id 2002
-Found metabolite already, has id 2145
-
-Writing metabolites to graph
-Writing enzyme 88
-Did not find metabolite yet, creating id 2273 (len: 273)
-Found metabolite already, has id 2197
-Found metabolite already, has id 2176
-Found metabolite already, has id 2012
-
-Writing metabolites to graph
-Found metabolite already, has id 2012
-Did not find metabolite yet, creating id 2274 (len: 274)
-Did not find metabolite yet, creating id 2275 (len: 275)
-Found metabolite already, has id 2197
-
-Writing metabolites to graph
-Writing enzyme 89
-Found metabolite already, has id 2095
-Did not find metabolite yet, creating id 2276 (len: 276)
-
-Writing metabolites to graph
-Did not find metabolite yet, creating id 2277 (len: 277)
-Did not find metabolite yet, creating id 2278 (len: 278)
-
-Writing metabolites to graph
-Writing enzyme 91
-Did not find metabolite yet, creating id 2279 (len: 279)
-Found metabolite already, has id 2173
-
-Writing metabolites to graph
-Did not find metabolite yet, creating id 2280 (len: 280)
-Did not find metabolite yet, creating id 2281 (len: 281)
-
-Writing metabolites to graph
-Writing enzyme 92
-Found metabolite already, has id 2173
-Did not find metabolite yet, creating id 2282 (len: 282)
-Found metabolite already, has id 2172
-Did not find metabolite yet, creating id 2283 (len: 283)
-
-Writing metabolites to graph
-Writing enzyme 93
-Found metabolite already, has id 2279
-Found metabolite already, has id 2254
-
-Writing metabolites to graph
-Writing enzyme 94
 Found metabolite already, has id 2038
 Found metabolite already, has id 2037
 
 Writing metabolites to graph
-Writing enzyme 95
+Writing enzyme 83
 Found metabolite already, has id 2011
 Found metabolite already, has id 2043
 Found metabolite already, has id 2019
-Found metabolite already, has id 2166
+Found metabolite already, has id 2150
 
 Writing metabolites to graph
-Writing enzyme 96
-Found metabolite already, has id 2064
-Found metabolite already, has id 2249
-Found metabolite already, has id 2250
-Did not find metabolite yet, creating id 2284 (len: 284)
-
-Writing metabolites to graph
-Writing enzyme 97
-Did not find metabolite yet, creating id 2285 (len: 285)
-Found metabolite already, has id 2106
-Did not find metabolite yet, creating id 2286 (len: 286)
-Found metabolite already, has id 2104
-
-Writing metabolites to graph
-Writing enzyme 98
-Found metabolite already, has id 2032
-Found metabolite already, has id 2093
-Found metabolite already, has id 2002
-Found metabolite already, has id 2136
-
-Writing metabolites to graph
-Writing enzyme 99
-Found metabolite already, has id 2011
-Did not find metabolite yet, creating id 2287 (len: 287)
-Did not find metabolite yet, creating id 2288 (len: 287)
-Found metabolite already, has id 2014
-Found metabolite already, has id 2002
-Did not find metabolite yet, creating id 2289 (len: 289)
-
-Writing metabolites to graph
-Writing enzyme 100
-Did not find metabolite yet, creating id 2290 (len: 290)
-Found metabolite already, has id 2002
-Found metabolite already, has id 2072
-Found metabolite already, has id 2045
-
-Writing metabolites to graph
-Found metabolite already, has id 2122
-Found metabolite already, has id 2002
-Found metabolite already, has id 2074
-Found metabolite already, has id 2045
-
-Writing metabolites to graph
-Did not find metabolite yet, creating id 2291 (len: 291)
-Found metabolite already, has id 2002
-Found metabolite already, has id 2076
-Found metabolite already, has id 2045
-
-Writing metabolites to graph
-Did not find metabolite yet, creating id 2292 (len: 292)
-Found metabolite already, has id 2045
-Did not find metabolite yet, creating id 2293 (len: 293)
-Found metabolite already, has id 2002
-
-Writing metabolites to graph
-Did not find metabolite yet, creating id 2294 (len: 294)
-Found metabolite already, has id 2045
-Did not find metabolite yet, creating id 2295 (len: 295)
-Found metabolite already, has id 2002
-
-Writing metabolites to graph
-Did not find metabolite yet, creating id 2296 (len: 296)
-Found metabolite already, has id 2045
-Did not find metabolite yet, creating id 2297 (len: 297)
-Found metabolite already, has id 2002
-
-Writing metabolites to graph
-Writing enzyme 101
-Did not find metabolite yet, creating id 2298 (len: 298)
-Did not find metabolite yet, creating id 2299 (len: 298)
-Found metabolite already, has id 2011
-Did not find metabolite yet, creating id 2300 (len: 300)
-Found metabolite already, has id 2002
-Found metabolite already, has id 2014
-
-Writing metabolites to graph
-Writing enzyme 103
-Did not find metabolite yet, creating id 2301 (len: 301)
-Found metabolite already, has id 2213
-Did not find metabolite yet, creating id 2302 (len: 302)
-
-Writing metabolites to graph
-Found metabolite already, has id 2301
-Did not find metabolite yet, creating id 2303 (len: 303)
-Did not find metabolite yet, creating id 2304 (len: 304)
-
-Writing metabolites to graph
-Found metabolite already, has id 2304
-Found metabolite already, has id 2213
-Found metabolite already, has id 2222
-Found metabolite already, has id 2303
-
-Writing metabolites to graph
-Writing enzyme 104
-Found metabolite already, has id 2172
-Found metabolite already, has id 2213
-Found metabolite already, has id 2219
-
-Writing metabolites to graph
-Found metabolite already, has id 2172
-Found metabolite already, has id 2303
-Did not find metabolite yet, creating id 2305 (len: 305)
-
-Writing metabolites to graph
-Found metabolite already, has id 2305
-Found metabolite already, has id 2213
-Did not find metabolite yet, creating id 2306 (len: 306)
-Found metabolite already, has id 2303
-
-Writing metabolites to graph
-Writing enzyme 105
-Did not find metabolite yet, creating id 2307 (len: 307)
-Found metabolite already, has id 2145
-Found metabolite already, has id 2209
-Found metabolite already, has id 2178
-
-Writing metabolites to graph
-Did not find metabolite yet, creating id 2308 (len: 308)
-Found metabolite already, has id 2145
-Found metabolite already, has id 2211
-Found metabolite already, has id 2178
-
-Writing metabolites to graph
+Writing enzyme 84
+Found metabolite already, has id 2058
 Found metabolite already, has id 2218
-Found metabolite already, has id 2145
-Found metabolite already, has id 2213
-Found metabolite already, has id 2178
+Found metabolite already, has id 2219
+Did not find metabolite yet, creating id 2253 (len: 253)
 
 Writing metabolites to graph
-Did not find metabolite yet, creating id 2309 (len: 309)
-Found metabolite already, has id 2145
-Did not find metabolite yet, creating id 2310 (len: 310)
-Found metabolite already, has id 2178
+Writing enzyme 85
+Found metabolite already, has id 2247
+Found metabolite already, has id 2097
+Did not find metabolite yet, creating id 2254 (len: 254)
+Found metabolite already, has id 2095
 
 Writing metabolites to graph
-Writing enzyme 106
-Did not find metabolite yet, creating id 2311 (len: 311)
-Found metabolite already, has id 2162
-Found metabolite already, has id 2194
-Found metabolite already, has id 2193
+Writing enzyme 86
+Found metabolite already, has id 2032
+Did not find metabolite yet, creating id 2255 (len: 255)
+Found metabolite already, has id 2002
+Found metabolite already, has id 2125
 
 Writing metabolites to graph
-Found metabolite already, has id 2195
-Found metabolite already, has id 2194
-Found metabolite already, has id 2162
-Found metabolite already, has id 2311
-
-Writing metabolites to graph
-Did not find metabolite yet, creating id 2312 (len: 312)
-Found metabolite already, has id 2194
-Found metabolite already, has id 2164
-Found metabolite already, has id 2311
-
-Writing metabolites to graph
-Writing enzyme 107
-Found metabolite already, has id 2164
-Did not find metabolite yet, creating id 2313 (len: 313)
-Did not find metabolite yet, creating id 2314 (len: 313)
-
-Writing metabolites to graph
-Writing enzyme 108
+Writing enzyme 87
 Found metabolite already, has id 2011
-Did not find metabolite yet, creating id 2315 (len: 315)
-Found metabolite already, has id 2019
-Did not find metabolite yet, creating id 2316 (len: 316)
+Did not find metabolite yet, creating id 2256 (len: 256)
+Did not find metabolite yet, creating id 2257 (len: 256)
+Found metabolite already, has id 2014
+Found metabolite already, has id 2002
+Did not find metabolite yet, creating id 2258 (len: 258)
 
 Writing metabolites to graph
-Writing enzyme 109
+Writing enzyme 88
+Did not find metabolite yet, creating id 2259 (len: 259)
+Found metabolite already, has id 2002
+Found metabolite already, has id 2066
+Found metabolite already, has id 2045
+
+Writing metabolites to graph
+Found metabolite already, has id 2113
+Found metabolite already, has id 2002
+Found metabolite already, has id 2068
+Found metabolite already, has id 2045
+
+Writing metabolites to graph
+Did not find metabolite yet, creating id 2260 (len: 260)
+Found metabolite already, has id 2002
+Found metabolite already, has id 2070
+Found metabolite already, has id 2045
+
+Writing metabolites to graph
+Did not find metabolite yet, creating id 2261 (len: 261)
+Found metabolite already, has id 2045
+Did not find metabolite yet, creating id 2262 (len: 262)
+Found metabolite already, has id 2002
+
+Writing metabolites to graph
+Did not find metabolite yet, creating id 2263 (len: 263)
+Found metabolite already, has id 2045
+Did not find metabolite yet, creating id 2264 (len: 264)
+Found metabolite already, has id 2002
+
+Writing metabolites to graph
+Did not find metabolite yet, creating id 2265 (len: 265)
+Found metabolite already, has id 2045
+Did not find metabolite yet, creating id 2266 (len: 266)
+Found metabolite already, has id 2002
+
+Writing metabolites to graph
+Writing enzyme 89
+Did not find metabolite yet, creating id 2267 (len: 267)
+Did not find metabolite yet, creating id 2268 (len: 267)
 Found metabolite already, has id 2011
-Did not find metabolite yet, creating id 2317 (len: 317)
-Found metabolite already, has id 2019
-Did not find metabolite yet, creating id 2318 (len: 318)
+Did not find metabolite yet, creating id 2269 (len: 269)
+Found metabolite already, has id 2002
+Found metabolite already, has id 2014
+
+Writing metabolites to graph
+Writing enzyme 90
+Found metabolite already, has id 2058
+Did not find metabolite yet, creating id 2270 (len: 270)
+Found metabolite already, has id 2219
+Did not find metabolite yet, creating id 2271 (len: 271)
+
+Writing metabolites to graph
+Writing enzyme 92
+Did not find metabolite yet, creating id 2272 (len: 272)
+Found metabolite already, has id 2191
+Did not find metabolite yet, creating id 2273 (len: 273)
+
+Writing metabolites to graph
+Found metabolite already, has id 2272
+Did not find metabolite yet, creating id 2274 (len: 274)
+Did not find metabolite yet, creating id 2275 (len: 275)
+
+Writing metabolites to graph
+Found metabolite already, has id 2275
+Found metabolite already, has id 2191
+Did not find metabolite yet, creating id 2276 (len: 276)
+Found metabolite already, has id 2274
 
 <== Finished ==>
-Took 57.1180 seconds to run.
+Took 55.0636 seconds to run.
