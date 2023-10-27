@@ -1,0 +1,13 @@
+{
+  "Carbohydrate metabolism": "'234,134,21'",
+  "Energy metabolism": "'0,202,255'",
+  "Lipid metabolism": "'198,134,233'",
+  "Nucleotide metabolism": "'255,92,129'",
+  "Amino acid metabolism": "'46,144,114'",
+  "Glycan metabolism": "'167,226,137'",
+  "Metabolism of cofactors and vitamins": "'255,174,190'",
+  "Biosynthesis of terpenoids and polyketides": "'162,216,252'",
+  "Biosynthesis of other secondary metabolites": "'239,206,105'",
+  "Xenobiotics biodegradation": "'117,228,205'",
+  "None": "'192,192,192'"
+}
