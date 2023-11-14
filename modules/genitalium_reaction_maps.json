@@ -1,0 +1,30 @@
+{
+  "Carbohydrate metabolism": [
+    "rn00010",
+    "rn00020",
+    "rn00030",
+    "rn00040",
+    "rn00051",
+    "rn00052",
+    "rn00500",
+    "rn00520",
+    "rn00620",
+    "rn00630",
+    "rn00640"
+  ],
+  "Energy metabolism": ["rn00190", "rn00680"],
+  "Lipid metabolism": ["rn00561", "rn00564"],
+  "Nucleotide metabolism": ["rn00230", "rn00240"],
+  "Amino acid metabolism": ["rn00260", "rn00270", "rn00280"],
+  "Metabolism of other amino acids": ["rn00430", "rn00450", "rn00480"],
+  "Glycan biosynthesis and metabolism": ["rn00541"],
+  "Metabolism of cofactors and vitamins": [
+    "rn00730",
+    "rn00740",
+    "rn00760",
+    "rn00770",
+    "rn00785",
+    "rn00790",
+    "rn00670"
+  ]
+}

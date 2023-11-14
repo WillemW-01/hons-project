@@ -120,6 +120,7 @@ async def get_kegg_result(session: aiohttp.ClientSession, url: str) -> tuple:
             return response.status, str(text), url
     except Exception as e:
         print(f"Ran into exception with url {url}")
+        print(f"Exception: {e}")
         return None, None, None
 
 
@@ -254,7 +255,11 @@ def get_pathway_ids(text: str, ec_num: str):
     for line in text.split(split_string):
         if line.startswith("PATHWAY"):
             should_add = True
-        if line.startswith("ORTHOLOGY") or line.startswith("GENES") or line.startswith("DBLINKS"):
+        if (
+            line.startswith("ORTHOLOGY")
+            or line.startswith("GENES")
+            or line.startswith("DBLINKS")
+        ):
             should_add = False
 
         if should_add:
@@ -412,6 +417,46 @@ def assign_modules(enzyme, modules):
         log(f"No modules assigned to {enzyme}")
 
 
+def assign_reactions(enzyme, reaction_ids):
+    global enzyme_modules
+
+    log(f"> Assigning modules to {enzyme}", 1)
+
+    # reaction_file = open("modules/aureus_reactions.json")
+    # reactions_dict = json.load(reaction_file)
+    # module_id = ""
+    # for key in reactions_dict.keys():
+    #     if rxn_id in reactions_dict[key]:
+    #         module_id = key
+    #         break
+
+    if enzyme not in enzyme_modules.keys():
+        log(f"Enzyme not in the list yet, creating a new set.", 2)
+        enzyme_modules[enzyme] = {}
+
+    if len(reaction_ids) == 0:
+        return
+
+    modules_file = open("modules/all_reactions_new.json")
+    modules_dict = json.load(modules_file)
+
+    # for each of the found module ids, find the corresponding module
+    # e.g. M00019 -> Amino acid metabolism
+    for rxn in reaction_ids:
+        # for each of the possible modules (e.g. Carbohydrate metabolism, etc)
+        for key in modules_dict.keys():
+            if rxn in modules_dict[key]:
+                if key not in enzyme_modules[enzyme].keys():
+                    enzyme_modules[enzyme][key] = 1
+                else:
+                    enzyme_modules[enzyme][key] += 1
+
+    if len(enzyme_modules[enzyme]) != 0:
+        log(f"Modules assigned to {enzyme}: {enzyme_modules[enzyme]}", 2)
+    else:
+        log(f"No modules assigned to {enzyme}")
+
+
 async def process_all_urls(urls: list[str], enzyme_list: Set) -> list[tuple]:
     """
     Retrieves all reactions catalysed by the list of EC numbers in the urls.
@@ -463,11 +508,12 @@ async def process_all_urls(urls: list[str], enzyme_list: Set) -> list[tuple]:
             reactions = []
         else:
             log(f"> Working with {enzyme}")
-            pathways = get_pathway_ids(text, enzyme)
-            modules = get_module_ids(pathways)
-            assign_modules(enzyme, modules)
+            # pathways = get_pathway_ids(text, enzyme)
+            # modules = get_module_ids(pathways)
+            # assign_modules(enzyme, modules)
 
             reactions = get_reaction_ids(text, enzyme)[1]
+            assign_reactions(enzyme, reactions)
 
         if len(reactions) != 0:  # if the list of reactions contained something
             log(f"Reaction list: {reactions}", 1)
@@ -677,7 +723,9 @@ def write_reaction(
         if module is None:
             nodes_file.write(f"{ec_id},{ec},enzyme,,{MODULE_COLORS['None']}\n")
         else:
-            nodes_file.write(f"{ec_id},{ec},enzyme,{module},{MODULE_COLORS[module]}\n")
+            nodes_file.write(
+                f"{ec_id},{ec},enzyme,{module},{MODULE_COLORS[module]}\n"
+            )
         has_written[ec_id] = True
 
     remove_coefficients(substrates, products)
@@ -692,7 +740,9 @@ def write_reaction(
             log(
                 f"Did not find metabolite yet, creating id {met_id} (len: {len(metabolites)})"
             )
-            nodes_file.write(f"{met_id},{fmt_met(substrate)},metabolite,,{MODULE_COLORS['None']}\n")
+            nodes_file.write(
+                f"{met_id},{fmt_met(substrate)},metabolite,,{MODULE_COLORS['None']}\n"
+            )
             i += 1
         else:  # don't write in nodes file, already has id
             met_id += START_ID
@@ -712,7 +762,9 @@ def write_reaction(
             log(
                 f"Did not find metabolite yet, creating id {met_id} (len: {len(metabolites)})"
             )
-            nodes_file.write(f"{met_id},{fmt_met(product)},metabolite,,{MODULE_COLORS['None']}\n")
+            nodes_file.write(
+                f"{met_id},{fmt_met(product)},metabolite,,{MODULE_COLORS['None']}\n"
+            )
             i += 1
         else:  # don't write in nodes file, found already
             met_id += START_ID
@@ -769,6 +821,19 @@ def log(message: str, level=0):
     log_file.write(f"{indent}{message}\n")
     log_file.flush()
     os.fsync(log_file.fileno())
+
+
+def report_time(start):
+    end = time.time()
+    duration = end - start
+    if duration > 120:
+        minutes = int(duration // 60)
+        seconds = int(duration - minutes * 60)
+        print(f"Took {minutes:d} minutes and {seconds:d} seconds to run.")
+        log(f"Took {minutes:d} and {seconds:d} seconds to run.")
+    else:
+        print(f"Took {duration:.4f} seconds to run.")
+        log(f"Took {duration:.4f} seconds to run.")
 
 
 def main():
@@ -874,11 +939,13 @@ def main():
             nodes_file.write(line)
 
     nodes_file.close()
+    os.remove(
+        f"{OUT_FOLDER}/{sys.argv[2]}_edges.gdf"
+    )  # to clean up output folder
     print("  - Completed writing stage")
 
     log("<== Finished ==>")
-    print(f"Took {time.time() - start:.4f} seconds to run.")
-    log(f"Took {time.time() - start:.4f} seconds to run.")
+    report_time(start)
     log_file.close()
 
 

@@ -1,0 +1,2660 @@
+nodedef>name INTEGER,label VARCHAR,class VARCHAR,module VARCHAR,color VARCHAR
+0,1.1.1.1,enzyme,Amino acid metabolism,'46,144,114'
+2000,Ethanol,metabolite,,'192,192,192'
+2001,NAD+,metabolite,,'192,192,192'
+2002,Acetaldehyde,metabolite,,'192,192,192'
+2003,NADH,metabolite,,'192,192,192'
+2004,Choline,metabolite,,'192,192,192'
+2005,Betaine aldehyde,metabolite,,'192,192,192'
+1,1.1.1.14,enzyme,Carbohydrate metabolism,'234,134,21'
+2006,Sorbitol,metabolite,,'192,192,192'
+2007,Fructose,metabolite,,'192,192,192'
+2,1.1.1.15,enzyme,Carbohydrate metabolism,'234,134,21'
+3,1.1.1.169,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2008,(R)-Pantoate,metabolite,,'192,192,192'
+2009,NADP+,metabolite,,'192,192,192'
+2010,2-Dehydropantoate,metabolite,,'192,192,192'
+2011,NADPH,metabolite,,'192,192,192'
+4,1.1.1.17,enzyme,Carbohydrate metabolism,'234,134,21'
+2012,Mannitol 1-phosphate,metabolite,,'192,192,192'
+2013,Fructose 6-phosphate,metabolite,,'192,192,192'
+5,1.1.1.193,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2014,5-Amino-6-(5'-phospho-D-ribitylamino)uracil,metabolite,,'192,192,192'
+2015,5-Amino-6-(5'-phosphoribosylamino)uracil,metabolite,,'192,192,192'
+6,1.1.1.205,enzyme,Nucleotide metabolism,'255,92,129'
+2016,IMP,metabolite,,'192,192,192'
+2017,Xanthosine 5'-phosphate,metabolite,,'192,192,192'
+7,1.1.1.211,enzyme,Lipid metabolism,'198,134,233'
+2018,3-Hydroxyhexadecanoyl-CoA,metabolite,,'192,192,192'
+2019,3-Oxopalmitoyl-CoA,metabolite,,'192,192,192'
+2020,3-Hydroxytetradecanoyl-CoA,metabolite,,'192,192,192'
+2021,3-Oxotetradecanoyl-CoA,metabolite,,'192,192,192'
+2022,3-Hydroxydodecanoyl-CoA,metabolite,,'192,192,192'
+2023,3-Oxododecanoyl-CoA,metabolite,,'192,192,192'
+2024,Hydroxydecanoyl-CoA,metabolite,,'192,192,192'
+2025,3-Oxodecanoyl-CoA,metabolite,,'192,192,192'
+2026,3-Hydroxyoctanoyl-CoA,metabolite,,'192,192,192'
+2027,3-Oxooctanoyl-CoA,metabolite,,'192,192,192'
+2028,Hydroxyhexanoyl-CoA,metabolite,,'192,192,192'
+2029,3-Oxohexanoyl-CoA,metabolite,,'192,192,192'
+8,1.1.1.23,enzyme,Amino acid metabolism,'46,144,114'
+2030,L-Histidinol,metabolite,,'192,192,192'
+2031,L-Histidine,metabolite,,'192,192,192'
+2032,H+,metabolite,,'192,192,192'
+9,1.1.1.244,enzyme,Energy metabolism,'0,202,255'
+2033,Methanol,metabolite,,'192,192,192'
+2034,Formaldehyde,metabolite,,'192,192,192'
+10,1.1.1.25,enzyme,Amino acid metabolism,'46,144,114'
+2035,Shikimate,metabolite,,'192,192,192'
+2036,3-Dehydroshikimate,metabolite,,'192,192,192'
+11,1.1.1.26,enzyme,Carbohydrate metabolism,'234,134,21'
+2037,Glycerate,metabolite,,'192,192,192'
+2038,Hydroxypyruvate,metabolite,,'192,192,192'
+12,1.1.1.27,enzyme,Carbohydrate metabolism,'234,134,21'
+2039,Lactate,metabolite,,'192,192,192'
+2040,Pyruvate,metabolite,,'192,192,192'
+13,1.1.1.28,enzyme,Energy metabolism,'0,202,255'
+2041,(R)-Lactate,metabolite,,'192,192,192'
+14,1.1.1.282,enzyme,Amino acid metabolism,'46,144,114'
+15,1.1.1.29,enzyme,Energy metabolism,'0,202,255'
+16,1.1.1.299,enzyme,,'192,192,192'
+2042,Malate,metabolite,,'192,192,192'
+2043,Oxaloacetate,metabolite,,'192,192,192'
+17,1.1.1.3,enzyme,Amino acid metabolism,'46,144,114'
+2044,L-Homoserine,metabolite,,'192,192,192'
+2045,L-Aspartate 4-semialdehyde,metabolite,,'192,192,192'
+19,1.1.1.35,enzyme,Amino acid metabolism,'46,144,114'
+2046,3-Hydroxybutanoyl-CoA,metabolite,,'192,192,192'
+2047,Acetoacetyl-CoA,metabolite,,'192,192,192'
+20,1.1.1.351,enzyme,,'192,192,192'
+2048,6-Phospho-D-gluconate,metabolite,,'192,192,192'
+2049,Ribulose 5-phosphate,metabolite,,'192,192,192'
+21,1.1.1.363,enzyme,Carbohydrate metabolism,'234,134,21'
+2050,Glucose 6-phosphate,metabolite,,'192,192,192'
+2051,Glucono-1#5-lactone 6-phosphate,metabolite,,'192,192,192'
+22,1.1.1.37,enzyme,Energy metabolism,'0,202,255'
+23,1.1.1.38,enzyme,Energy metabolism,'0,202,255'
+24,1.1.1.383,enzyme,,'192,192,192'
+2052,(R)-2#3-Dihydroxy-3-methylbutanoate,metabolite,,'192,192,192'
+2053,2-Acetolactate,metabolite,,'192,192,192'
+25,1.1.1.39,enzyme,Energy metabolism,'0,202,255'
+26,1.1.1.42,enzyme,Energy metabolism,'0,202,255'
+2054,Isocitrate,metabolite,,'192,192,192'
+2055,2-Oxoglutarate,metabolite,,'192,192,192'
+27,1.1.1.44,enzyme,Carbohydrate metabolism,'234,134,21'
+28,1.1.1.49,enzyme,Carbohydrate metabolism,'234,134,21'
+29,1.1.1.71,enzyme,,'192,192,192'
+30,1.1.1.81,enzyme,Amino acid metabolism,'46,144,114'
+31,1.1.1.85,enzyme,Amino acid metabolism,'46,144,114'
+2056,4-Methyl-2-oxopentanoate,metabolite,,'192,192,192'
+2057,(2S)-2-Isopropyl-3-oxosuccinate,metabolite,,'192,192,192'
+2058,(2R#3S)-3-Isopropylmalate,metabolite,,'192,192,192'
+32,1.1.1.86,enzyme,Amino acid metabolism,'46,144,114'
+33,1.1.1.94,enzyme,Lipid metabolism,'198,134,233'
+2059,sn-Glycerol 3-phosphate,metabolite,,'192,192,192'
+2060,Glycerone phosphate,metabolite,,'192,192,192'
+34,1.1.1.95,enzyme,Amino acid metabolism,'46,144,114'
+2061,3-Phospho-D-glycerate,metabolite,,'192,192,192'
+2062,3-Phosphonooxypyruvate,metabolite,,'192,192,192'
+36,1.11.1.21,enzyme,Amino acid metabolism,'46,144,114'
+2063,Hydrogen peroxide,metabolite,,'192,192,192'
+2064,Oxygen,metabolite,,'192,192,192'
+2065,H2O,metabolite,,'192,192,192'
+37,1.11.1.6,enzyme,Carbohydrate metabolism,'234,134,21'
+38,1.11.1.9,enzyme,Amino acid metabolism,'46,144,114'
+2066,Glutathione,metabolite,,'192,192,192'
+2067,Glutathione disulfide,metabolite,,'192,192,192'
+39,1.15.1.1,enzyme,,'192,192,192'
+2068,Superoxide,metabolite,,'192,192,192'
+40,1.17.4.1,enzyme,Nucleotide metabolism,'255,92,129'
+2069,dADP,metabolite,,'192,192,192'
+2070,Thioredoxin disulfide,metabolite,,'192,192,192'
+2071,Thioredoxin,metabolite,,'192,192,192'
+2072,ADP,metabolite,,'192,192,192'
+2073,dUDP,metabolite,,'192,192,192'
+2074,UDP,metabolite,,'192,192,192'
+2075,dGDP,metabolite,,'192,192,192'
+2076,GDP,metabolite,,'192,192,192'
+2077,dCDP,metabolite,,'192,192,192'
+2078,CDP,metabolite,,'192,192,192'
+41,1.17.4.2,enzyme,Nucleotide metabolism,'255,92,129'
+2079,dATP,metabolite,,'192,192,192'
+2080,ATP,metabolite,,'192,192,192'
+2081,dGTP,metabolite,,'192,192,192'
+2082,GTP,metabolite,,'192,192,192'
+2083,dCTP,metabolite,,'192,192,192'
+2084,CTP,metabolite,,'192,192,192'
+2085,dUTP,metabolite,,'192,192,192'
+2086,UTP,metabolite,,'192,192,192'
+42,1.2.1.10,enzyme,Xenobiotics biodegradation,'117,228,205'
+2087,CoA,metabolite,,'192,192,192'
+2088,Acetyl-CoA,metabolite,,'192,192,192'
+43,1.2.1.11,enzyme,Amino acid metabolism,'46,144,114'
+2089,Orthophosphate,metabolite,,'192,192,192'
+2090,4-Phospho-L-aspartate,metabolite,,'192,192,192'
+44,1.2.1.12,enzyme,Energy metabolism,'0,202,255'
+2091,Glyceraldehyde 3-phosphate,metabolite,,'192,192,192'
+2092,3-Phospho-D-glyceroyl phosphate,metabolite,,'192,192,192'
+45,1.2.1.16,enzyme,Amino acid metabolism,'46,144,114'
+2093,Succinate semialdehyde,metabolite,,'192,192,192'
+2094,Succinate,metabolite,,'192,192,192'
+47,1.2.1.21,enzyme,Carbohydrate metabolism,'234,134,21'
+2095,Glycolaldehyde,metabolite,,'192,192,192'
+2096,Glycolate,metabolite,,'192,192,192'
+48,1.2.1.25,enzyme,,'192,192,192'
+2097,3-Methyl-2-oxobutanoic acid,metabolite,,'192,192,192'
+2098,2-Methylpropanoyl-CoA,metabolite,,'192,192,192'
+2099,3-Methylbutanoyl-CoA,metabolite,,'192,192,192'
+49,1.2.1.3,enzyme,Amino acid metabolism,'46,144,114'
+2100,Acetate,metabolite,,'192,192,192'
+50,1.2.1.38,enzyme,Amino acid metabolism,'46,144,114'
+2101,N-Acetyl-L-glutamate 5-semialdehyde,metabolite,,'192,192,192'
+2102,N-Acetyl-L-glutamate 5-phosphate,metabolite,,'192,192,192'
+51,1.2.1.5,enzyme,Amino acid metabolism,'46,144,114'
+53,1.2.1.59,enzyme,Energy metabolism,'0,202,255'
+54,1.2.1.70,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2103,L-Glutamyl-tRNA(Glu),metabolite,,'192,192,192'
+2104,4-Amino-5-oxopentanoate,metabolite,,'192,192,192'
+2105,tRNA(Glu),metabolite,,'192,192,192'
+55,1.2.1.79,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+56,1.2.1.8,enzyme,Amino acid metabolism,'46,144,114'
+2106,Betaine,metabolite,,'192,192,192'
+57,1.2.1.88,enzyme,Amino acid metabolism,'46,144,114'
+2107,1-Pyrroline-5-carboxylate,metabolite,,'192,192,192'
+2108,L-Glutamate,metabolite,,'192,192,192'
+62,1.3.1.12,enzyme,Amino acid metabolism,'46,144,114'
+2109,Prephenate,metabolite,,'192,192,192'
+2110,3-(4-Hydroxyphenyl)pyruvate,metabolite,,'192,192,192'
+64,1.3.1.44,enzyme,Lipid metabolism,'198,134,233'
+2111,Butanoyl-CoA,metabolite,,'192,192,192'
+2112,Crotonoyl-CoA,metabolite,,'192,192,192'
+65,1.3.1.76,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2113,Precorrin 2,metabolite,,'192,192,192'
+2114,Sirohydrochlorin,metabolite,,'192,192,192'
+67,1.3.1.98,enzyme,Carbohydrate metabolism,'234,134,21'
+2115,UDP-N-acetylmuramate,metabolite,,'192,192,192'
+2116,UDP-N-acetyl-3-(1-carboxyvinyl)-D-glucosamine,metabolite,,'192,192,192'
+68,1.3.3.3,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2117,Coproporphyrinogen III,metabolite,,'192,192,192'
+2118,Protoporphyrinogen IX,metabolite,,'192,192,192'
+2119,CO2,metabolite,,'192,192,192'
+545,1.17.1.9,enzyme,Energy metabolism,'0,202,255'
+2120,Formate,metabolite,,'192,192,192'
+73,1.4.1.1,enzyme,Carbohydrate metabolism,'234,134,21'
+2121,L-Alanine,metabolite,,'192,192,192'
+2122,Ammonia,metabolite,,'192,192,192'
+74,1.4.1.14,enzyme,Energy metabolism,'0,202,255'
+2123,L-Glutamine,metabolite,,'192,192,192'
+75,1.4.1.2,enzyme,Energy metabolism,'0,202,255'
+76,1.4.1.3,enzyme,Energy metabolism,'0,202,255'
+78,1.4.4.2,enzyme,Amino acid metabolism,'46,144,114'
+2124,Glycine,metabolite,,'192,192,192'
+2125,Lipoylprotein,metabolite,,'192,192,192'
+2126,[Protein]-S8-aminomethyldihydrolipoyllysine,metabolite,,'192,192,192'
+82,1.5.1.19,enzyme,Amino acid metabolism,'46,144,114'
+2127,Nopaline,metabolite,,'192,192,192'
+2128,L-Arginine,metabolite,,'192,192,192'
+83,1.5.1.2,enzyme,Amino acid metabolism,'46,144,114'
+2129,L-Proline,metabolite,,'192,192,192'
+84,1.5.1.20,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2130,5-Methyltetrahydrofolate,metabolite,,'192,192,192'
+2131,5#10-Methylenetetrahydrofolate,metabolite,,'192,192,192'
+85,1.5.1.3,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2132,Tetrahydrofolate,metabolite,,'192,192,192'
+2133,Dihydrofolate,metabolite,,'192,192,192'
+86,1.5.1.30,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2134,Reduced riboflavin,metabolite,,'192,192,192'
+2135,Riboflavin,metabolite,,'192,192,192'
+87,1.5.1.36,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2136,Reduced FMN,metabolite,,'192,192,192'
+2137,FMN,metabolite,,'192,192,192'
+88,1.5.1.38,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+89,1.5.1.39,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+90,1.5.1.41,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+91,1.5.1.42,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+92,1.5.1.5,enzyme,Energy metabolism,'0,202,255'
+2138,5#10-Methenyltetrahydrofolate,metabolite,,'192,192,192'
+94,1.6.1.1,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+96,1.6.1.3,enzyme,,'192,192,192'
+100,1.7.1.7,enzyme,Nucleotide metabolism,'255,92,129'
+2139,GMP,metabolite,,'192,192,192'
+101,1.8.1.2,enzyme,Energy metabolism,'0,202,255'
+2140,Hydrogen sulfide,metabolite,,'192,192,192'
+2141,Sulfite,metabolite,,'192,192,192'
+102,1.8.1.4,enzyme,Amino acid metabolism,'46,144,114'
+2142,Dihydrolipoylprotein,metabolite,,'192,192,192'
+2143,Dihydrolipoamide,metabolite,,'192,192,192'
+2144,Lipoamide,metabolite,,'192,192,192'
+103,1.8.1.9,enzyme,,'192,192,192'
+104,1.8.4.8,enzyme,Energy metabolism,'0,202,255'
+2145,3'-Phosphoadenylyl sulfate,metabolite,,'192,192,192'
+2146,Adenosine 3'#5'-bisphosphate,metabolite,,'192,192,192'
+105,2.1.1.10,enzyme,Amino acid metabolism,'46,144,114'
+2147,Adenosyl-L-methionine,metabolite,,'192,192,192'
+2148,L-Homocysteine,metabolite,,'192,192,192'
+2149,Adenosyl-L-homocysteine,metabolite,,'192,192,192'
+2150,L-Methionine,metabolite,,'192,192,192'
+106,2.1.1.107,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2151,Uroporphyrinogen III,metabolite,,'192,192,192'
+107,2.1.1.13,enzyme,Amino acid metabolism,'46,144,114'
+108,2.1.1.14,enzyme,Amino acid metabolism,'46,144,114'
+2152,5-Methyltetrahydropteroyltri-L-glutamate,metabolite,,'192,192,192'
+2153,Tetrahydropteroyltri-L-glutamate,metabolite,,'192,192,192'
+111,2.1.1.45,enzyme,Nucleotide metabolism,'255,92,129'
+2154,dUMP,metabolite,,'192,192,192'
+2155,dTMP,metabolite,,'192,192,192'
+112,2.1.2.1,enzyme,Energy metabolism,'0,202,255'
+2156,L-Serine,metabolite,,'192,192,192'
+113,2.1.2.10,enzyme,Amino acid metabolism,'46,144,114'
+2157,[Protein]#-S8-aminomethyldihydrolipoyllysine,metabolite,,'192,192,192'
+114,2.1.2.11,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+115,2.1.2.2,enzyme,Nucleotide metabolism,'255,92,129'
+2158,10-Formyltetrahydrofolate,metabolite,,'192,192,192'
+2159,5'-Phosphoribosylglycinamide,metabolite,,'192,192,192'
+2160,5'-Phosphoribosyl-N-formylglycinamide,metabolite,,'192,192,192'
+116,2.1.2.3,enzyme,Nucleotide metabolism,'255,92,129'
+2161,1-(5'-Phosphoribosyl)-5-amino-4-imidazolecarboxamide,metabolite,,'192,192,192'
+2162,1-(5'-Phosphoribosyl)-5-formamido-4-imidazolecarboxamide,metabolite,,'192,192,192'
+117,2.1.3.2,enzyme,Nucleotide metabolism,'255,92,129'
+2163,Carbamoyl phosphate,metabolite,,'192,192,192'
+2164,L-Aspartate,metabolite,,'192,192,192'
+2165,N-Carbamoyl-L-aspartate,metabolite,,'192,192,192'
+118,2.1.3.3,enzyme,Amino acid metabolism,'46,144,114'
+2166,L-Ornithine,metabolite,,'192,192,192'
+2167,L-Citrulline,metabolite,,'192,192,192'
+119,2.2.1.1,enzyme,Carbohydrate metabolism,'234,134,21'
+2168,Erythrose 4-phosphate,metabolite,,'192,192,192'
+2169,Xylulose 5-phosphate,metabolite,,'192,192,192'
+120,2.2.1.2,enzyme,Carbohydrate metabolism,'234,134,21'
+2170,Sedoheptulose 7-phosphate,metabolite,,'192,192,192'
+121,2.2.1.6,enzyme,Amino acid metabolism,'46,144,114'
+2171,2-Oxobutanoate,metabolite,,'192,192,192'
+2172,2-Aceto-2-hydroxybutanoate,metabolite,,'192,192,192'
+124,2.3.1.1,enzyme,Amino acid metabolism,'46,144,114'
+2173,N-Acetyl-L-glutamate,metabolite,,'192,192,192'
+125,2.3.1.117,enzyme,Amino acid metabolism,'46,144,114'
+2174,Succinyl-CoA,metabolite,,'192,192,192'
+2175,2#3#4#5-Tetrahydrodipicolinate,metabolite,,'192,192,192'
+2176,N-Succinyl-2-L-amino-6-oxoheptanedioate,metabolite,,'192,192,192'
+127,2.3.1.155,enzyme,,'192,192,192'
+2177,Tetradecanoyl-CoA,metabolite,,'192,192,192'
+129,2.3.1.16,enzyme,Lipid metabolism,'198,134,233'
+2178,Octanoyl-CoA,metabolite,,'192,192,192'
+2179,Lauroyl-CoA,metabolite,,'192,192,192'
+130,2.3.1.179,enzyme,Lipid metabolism,'198,134,233'
+2180,Acetyl-[acyl-carrier protein],metabolite,,'192,192,192'
+2181,Malonyl-[acyl-carrier protein],metabolite,,'192,192,192'
+2182,Acetoacetyl-[acp],metabolite,,'192,192,192'
+2183,Acyl-carrier protein,metabolite,,'192,192,192'
+131,2.3.1.180,enzyme,Lipid metabolism,'198,134,233'
+132,2.3.1.29,enzyme,Amino acid metabolism,'46,144,114'
+2184,L-2-Amino-3-oxobutanoic acid,metabolite,,'192,192,192'
+133,2.3.1.30,enzyme,Biosynthesis of other secondary metabolites,'239,206,105'
+2185,O-Acetyl-L-serine,metabolite,,'192,192,192'
+134,2.3.1.31,enzyme,Amino acid metabolism,'46,144,114'
+2186,O-Acetyl-L-homoserine,metabolite,,'192,192,192'
+135,2.3.1.35,enzyme,Amino acid metabolism,'46,144,114'
+2187,N-Acetylornithine,metabolite,,'192,192,192'
+137,2.3.1.38,enzyme,,'192,192,192'
+138,2.3.1.39,enzyme,Lipid metabolism,'198,134,233'
+2188,Malonyl-CoA,metabolite,,'192,192,192'
+2189,Malonyl-[acyl-carrier protein]#,metabolite,,'192,192,192'
+140,2.3.1.41,enzyme,Lipid metabolism,'198,134,233'
+141,2.3.1.47,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2190,Pimeloyl-CoA,metabolite,,'192,192,192'
+2191,8-Amino-7-oxononanoate,metabolite,,'192,192,192'
+142,2.3.1.54,enzyme,Energy metabolism,'0,202,255'
+145,2.3.1.8,enzyme,Energy metabolism,'0,202,255'
+2192,Acetyl phosphate,metabolite,,'192,192,192'
+146,2.3.1.85,enzyme,Lipid metabolism,'198,134,233'
+147,2.3.1.86,enzyme,Lipid metabolism,'198,134,233'
+148,2.3.1.9,enzyme,Energy metabolism,'0,202,255'
+149,2.3.3.1,enzyme,Carbohydrate metabolism,'234,134,21'
+2193,Citrate,metabolite,,'192,192,192'
+151,2.3.3.13,enzyme,Amino acid metabolism,'46,144,114'
+2194,Isopropylmalate,metabolite,,'192,192,192'
+152,2.3.3.16,enzyme,,'192,192,192'
+153,2.3.3.3,enzyme,Carbohydrate metabolism,'234,134,21'
+160,2.4.2.1,enzyme,Nucleotide metabolism,'255,92,129'
+2195,Adenosine,metabolite,,'192,192,192'
+2196,Adenine,metabolite,,'192,192,192'
+2197,Ribose 1-phosphate,metabolite,,'192,192,192'
+2198,Deoxyadenosine,metabolite,,'192,192,192'
+2199,2-Deoxy-D-ribose 1-phosphate,metabolite,,'192,192,192'
+161,2.4.2.10,enzyme,Nucleotide metabolism,'255,92,129'
+2200,Orotidine 5'-phosphate,metabolite,,'192,192,192'
+2201,Diphosphate,metabolite,,'192,192,192'
+2202,Orotate,metabolite,,'192,192,192'
+2203,5-Phospho-alpha-D-ribose 1-diphosphate,metabolite,,'192,192,192'
+163,2.4.2.14,enzyme,Nucleotide metabolism,'255,92,129'
+2204,5-Phosphoribosylamine,metabolite,,'192,192,192'
+164,2.4.2.17,enzyme,Amino acid metabolism,'46,144,114'
+2205,1-(5-Phospho-D-ribosyl)-ATP,metabolite,,'192,192,192'
+165,2.4.2.18,enzyme,Amino acid metabolism,'46,144,114'
+2206,N-(5-Phospho-D-ribosyl)anthranilate,metabolite,,'192,192,192'
+2207,Anthranilate,metabolite,,'192,192,192'
+166,2.4.2.2,enzyme,Nucleotide metabolism,'255,92,129'
+2208,Cytidine,metabolite,,'192,192,192'
+2209,Cytosine,metabolite,,'192,192,192'
+2210,Deoxyuridine,metabolite,,'192,192,192'
+2211,Uracil,metabolite,,'192,192,192'
+167,2.4.2.22,enzyme,Nucleotide metabolism,'255,92,129'
+2212,Xanthine,metabolite,,'192,192,192'
+2213,Guanine,metabolite,,'192,192,192'
+168,2.4.2.3,enzyme,Nucleotide metabolism,'255,92,129'
+169,2.4.2.4,enzyme,Nucleotide metabolism,'255,92,129'
+170,2.4.2.7,enzyme,Nucleotide metabolism,'255,92,129'
+2214,AMP,metabolite,,'192,192,192'
+171,2.4.2.8,enzyme,Nucleotide metabolism,'255,92,129'
+2215,Hypoxanthine,metabolite,,'192,192,192'
+172,2.4.2.9,enzyme,Nucleotide metabolism,'255,92,129'
+2216,UMP,metabolite,,'192,192,192'
+174,2.5.1.1,enzyme,Biosynthesis of terpenoids and polyketides,'162,216,252'
+2217,Dimethylallyl diphosphate,metabolite,,'192,192,192'
+2218,Isopentenyl diphosphate,metabolite,,'192,192,192'
+2219,Geranyl diphosphate,metabolite,,'192,192,192'
+175,2.5.1.10,enzyme,Biosynthesis of terpenoids and polyketides,'162,216,252'
+2220,trans#trans-Farnesyl diphosphate,metabolite,,'192,192,192'
+176,2.5.1.15,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2221,6-Hydroxymethyl-7#8-dihydropterin diphosphate,metabolite,,'192,192,192'
+2222,4-Aminobenzoate,metabolite,,'192,192,192'
+2223,Dihydropteroate,metabolite,,'192,192,192'
+177,2.5.1.16,enzyme,Amino acid metabolism,'46,144,114'
+2224,Adenosylmethioninamine,metabolite,,'192,192,192'
+2225,Putrescine,metabolite,,'192,192,192'
+2226,5'-Methylthioadenosine,metabolite,,'192,192,192'
+2227,Spermidine,metabolite,,'192,192,192'
+178,2.5.1.19,enzyme,Amino acid metabolism,'46,144,114'
+2228,Phosphoenolpyruvate,metabolite,,'192,192,192'
+2229,Shikimate 3-phosphate,metabolite,,'192,192,192'
+2230,5-O-(1-Carboxyvinyl)-3-phosphoshikimate,metabolite,,'192,192,192'
+179,2.5.1.21,enzyme,Lipid metabolism,'198,134,233'
+2231,Squalene,metabolite,,'192,192,192'
+180,2.5.1.3,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2232,4-Amino-5-hydroxymethyl-2-methylpyrimidine diphosphate,metabolite,,'192,192,192'
+2233,4-Methyl-5-(2-phosphooxyethyl)thiazole,metabolite,,'192,192,192'
+2234,Thiamin monophosphate,metabolite,,'192,192,192'
+181,2.5.1.47,enzyme,Amino acid metabolism,'46,144,114'
+2235,L-Cysteine,metabolite,,'192,192,192'
+182,2.5.1.48,enzyme,Amino acid metabolism,'46,144,114'
+2236,O-Succinyl-L-homoserine,metabolite,,'192,192,192'
+2237,L-Cystathionine,metabolite,,'192,192,192'
+183,2.5.1.54,enzyme,Amino acid metabolism,'46,144,114'
+2238,2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate,metabolite,,'192,192,192'
+184,2.5.1.6,enzyme,Amino acid metabolism,'46,144,114'
+185,2.5.1.61,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2239,Porphobilinogen,metabolite,,'192,192,192'
+2240,Hydroxymethylbilane,metabolite,,'192,192,192'
+186,2.5.1.65,enzyme,Amino acid metabolism,'46,144,114'
+187,2.5.1.7,enzyme,Carbohydrate metabolism,'234,134,21'
+2241,UDP-N-acetyl-alpha-D-glucosamine,metabolite,,'192,192,192'
+188,2.5.1.78,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2242,5-Amino-6-(1-D-ribitylamino)uracil,metabolite,,'192,192,192'
+2243,L-3#4-Dihydroxybutan-2-one 4-phosphate,metabolite,,'192,192,192'
+2244,6#7-Dimethyl-8-(D-ribityl)lumazine,metabolite,,'192,192,192'
+189,2.5.1.9,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+190,2.6.1.1,enzyme,Amino acid metabolism,'46,144,114'
+2245,L-Phenylalanine,metabolite,,'192,192,192'
+2246,Phenylpyruvate,metabolite,,'192,192,192'
+2247,L-Tyrosine,metabolite,,'192,192,192'
+191,2.6.1.11,enzyme,Amino acid metabolism,'46,144,114'
+192,2.6.1.13,enzyme,Amino acid metabolism,'46,144,114'
+2248,L-Glutamate 5-semialdehyde,metabolite,,'192,192,192'
+194,2.6.1.17,enzyme,Amino acid metabolism,'46,144,114'
+2249,N-Succinyl-LL-2#6-diaminoheptanedioate,metabolite,,'192,192,192'
+195,2.6.1.19,enzyme,Carbohydrate metabolism,'234,134,21'
+2250,4-Aminobutanoate,metabolite,,'192,192,192'
+196,2.6.1.21,enzyme,Amino acid metabolism,'46,144,114'
+2251,Alanine,metabolite,,'192,192,192'
+2252,Glutamate,metabolite,,'192,192,192'
+197,2.6.1.42,enzyme,Amino acid metabolism,'46,144,114'
+2253,L-Leucine,metabolite,,'192,192,192'
+2254,L-Valine,metabolite,,'192,192,192'
+2255,L-Isoleucine,metabolite,,'192,192,192'
+2256,3-Methyl-2-oxopentanoic acid,metabolite,,'192,192,192'
+198,2.6.1.5,enzyme,Amino acid metabolism,'46,144,114'
+2257,4-Methylthio-2-oxobutanoic acid,metabolite,,'192,192,192'
+199,2.6.1.52,enzyme,Amino acid metabolism,'46,144,114'
+2258,O-Phospho-L-serine,metabolite,,'192,192,192'
+200,2.6.1.57,enzyme,Amino acid metabolism,'46,144,114'
+201,2.6.1.6,enzyme,Amino acid metabolism,'46,144,114'
+202,2.6.1.62,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2259,Adenosyl-4-methylthio-2-oxobutanoate,metabolite,,'192,192,192'
+2260,7#8-Diaminononanoate,metabolite,,'192,192,192'
+203,2.6.1.67,enzyme,,'192,192,192'
+204,2.6.1.85,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2261,Chorismate,metabolite,,'192,192,192'
+2262,4-Amino-4-deoxychorismate,metabolite,,'192,192,192'
+205,2.6.1.9,enzyme,Amino acid metabolism,'46,144,114'
+2263,L-Histidinol phosphate,metabolite,,'192,192,192'
+2264,3-(Imidazol-4-yl)-2-oxopropyl phosphate,metabolite,,'192,192,192'
+206,2.7.1.1,enzyme,Carbohydrate metabolism,'234,134,21'
+2265,Glucose,metabolite,,'192,192,192'
+207,2.7.1.100,enzyme,Amino acid metabolism,'46,144,114'
+2266,5-Methylthio-D-ribose,metabolite,,'192,192,192'
+2267,Methyl-5-thio-D-ribose 1-phosphate,metabolite,,'192,192,192'
+208,2.7.1.11,enzyme,Carbohydrate metabolism,'234,134,21'
+2268,Tagatose 6-phosphate,metabolite,,'192,192,192'
+2269,Tagatose 1#6-bisphosphate,metabolite,,'192,192,192'
+209,2.7.1.12,enzyme,Carbohydrate metabolism,'234,134,21'
+2270,Gluconic acid,metabolite,,'192,192,192'
+210,2.7.1.144,enzyme,Carbohydrate metabolism,'234,134,21'
+211,2.7.1.145,enzyme,Nucleotide metabolism,'255,92,129'
+2271,Thymidine,metabolite,,'192,192,192'
+212,2.7.1.148,enzyme,Biosynthesis of terpenoids and polyketides,'162,216,252'
+2272,4-(Cytidine 5'-diphospho)-2-C-methyl-D-erythritol,metabolite,,'192,192,192'
+2273,2-Phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol,metabolite,,'192,192,192'
+213,2.7.1.15,enzyme,Carbohydrate metabolism,'234,134,21'
+2274,2-Deoxy-D-ribose 5-phosphate,metabolite,,'192,192,192'
+2275,Deoxyribose,metabolite,,'192,192,192'
+214,2.7.1.16,enzyme,Carbohydrate metabolism,'234,134,21'
+2276,L-Ribulose,metabolite,,'192,192,192'
+2277,L-Ribulose 5-phosphate,metabolite,,'192,192,192'
+215,2.7.1.2,enzyme,Carbohydrate metabolism,'234,134,21'
+216,2.7.1.21,enzyme,Nucleotide metabolism,'255,92,129'
+217,2.7.1.213,enzyme,Nucleotide metabolism,'255,92,129'
+2278,Uridine,metabolite,,'192,192,192'
+218,2.7.1.23,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+219,2.7.1.24,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2279,Dephospho-CoA,metabolite,,'192,192,192'
+220,2.7.1.25,enzyme,Nucleotide metabolism,'255,92,129'
+2280,Adenylyl sulfate,metabolite,,'192,192,192'
+221,2.7.1.26,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+222,2.7.1.29,enzyme,Energy metabolism,'0,202,255'
+2281,Glycerone,metabolite,,'192,192,192'
+223,2.7.1.30,enzyme,Lipid metabolism,'198,134,233'
+2282,Glycerol,metabolite,,'192,192,192'
+224,2.7.1.31,enzyme,Amino acid metabolism,'46,144,114'
+225,2.7.1.33,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2283,Pantothenate,metabolite,,'192,192,192'
+2284,4'-Phosphopantothenate,metabolite,,'192,192,192'
+226,2.7.1.36,enzyme,Biosynthesis of terpenoids and polyketides,'162,216,252'
+2285,(R)-Mevalonate,metabolite,,'192,192,192'
+2286,(R)-5-Phosphomevalonate,metabolite,,'192,192,192'
+227,2.7.1.39,enzyme,Amino acid metabolism,'46,144,114'
+2287,O-Phospho-L-homoserine,metabolite,,'192,192,192'
+228,2.7.1.4,enzyme,Carbohydrate metabolism,'234,134,21'
+229,2.7.1.40,enzyme,Carbohydrate metabolism,'234,134,21'
+230,2.7.1.48,enzyme,Nucleotide metabolism,'255,92,129'
+2288,CMP,metabolite,,'192,192,192'
+231,2.7.1.50,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2289,5-(2-Hydroxyethyl)-4-methylthiazole,metabolite,,'192,192,192'
+232,2.7.1.56,enzyme,Carbohydrate metabolism,'234,134,21'
+233,2.7.1.60,enzyme,Carbohydrate metabolism,'234,134,21'
+2290,N-Acetyl-D-mannosamine,metabolite,,'192,192,192'
+2291,N-Acetyl-D-mannosamine 6-phosphate,metabolite,,'192,192,192'
+235,2.7.1.71,enzyme,Amino acid metabolism,'46,144,114'
+236,2.7.2.1,enzyme,Energy metabolism,'0,202,255'
+237,2.7.2.15,enzyme,Carbohydrate metabolism,'234,134,21'
+238,2.7.2.2,enzyme,Nucleotide metabolism,'255,92,129'
+2292,HCO3-,metabolite,,'192,192,192'
+239,2.7.2.3,enzyme,Energy metabolism,'0,202,255'
+240,2.7.2.4,enzyme,Amino acid metabolism,'46,144,114'
+241,2.7.2.8,enzyme,Amino acid metabolism,'46,144,114'
+242,2.7.4.12,enzyme,Nucleotide metabolism,'255,92,129'
+2293,dGMP,metabolite,,'192,192,192'
+2294,dTDP,metabolite,,'192,192,192'
+244,2.7.4.14,enzyme,Nucleotide metabolism,'255,92,129'
+2295,dCMP,metabolite,,'192,192,192'
+245,2.7.4.2,enzyme,Biosynthesis of terpenoids and polyketides,'162,216,252'
+2296,(R)-5-Diphosphomevalonate,metabolite,,'192,192,192'
+246,2.7.4.22,enzyme,Nucleotide metabolism,'255,92,129'
+247,2.7.4.25,enzyme,Nucleotide metabolism,'255,92,129'
+248,2.7.4.3,enzyme,Nucleotide metabolism,'255,92,129'
+249,2.7.4.4,enzyme,,'192,192,192'
+250,2.7.4.6,enzyme,Nucleotide metabolism,'255,92,129'
+2297,IDP,metabolite,,'192,192,192'
+2298,ITP,metabolite,,'192,192,192'
+2299,dTTP,metabolite,,'192,192,192'
+252,2.7.4.8,enzyme,Nucleotide metabolism,'255,92,129'
+253,2.7.4.9,enzyme,Nucleotide metabolism,'255,92,129'
+255,2.7.6.3,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2300,6-(Hydroxymethyl)-7#8-dihydropterin,metabolite,,'192,192,192'
+256,2.7.6.5,enzyme,Nucleotide metabolism,'255,92,129'
+2301,Guanosine 3'-diphosphate 5'-triphosphate,metabolite,,'192,192,192'
+257,2.7.7.1,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2302,Nicotinate D-ribonucleotide,metabolite,,'192,192,192'
+2303,Deamino-NAD+,metabolite,,'192,192,192'
+258,2.7.7.18,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+259,2.7.7.2,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2304,FAD,metabolite,,'192,192,192'
+261,2.7.7.27,enzyme,Carbohydrate metabolism,'234,134,21'
+2305,Glucose 1-phosphate,metabolite,,'192,192,192'
+2306,ADP-glucose,metabolite,,'192,192,192'
+262,2.7.7.3,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2307,Pantetheine 4'-phosphate,metabolite,,'192,192,192'
+263,2.7.7.39,enzyme,Lipid metabolism,'198,134,233'
+2308,CDP-glycerol,metabolite,,'192,192,192'
+265,2.7.7.60,enzyme,Biosynthesis of terpenoids and polyketides,'162,216,252'
+2309,2-C-Methyl-D-erythritol 4-phosphate,metabolite,,'192,192,192'
+266,2.7.7.64,enzyme,Carbohydrate metabolism,'234,134,21'
+2310,UDP-glucose,metabolite,,'192,192,192'
+267,2.7.7.70,enzyme,Glycan metabolism,'167,226,137'
+2311,glycero-beta-D-manno-Heptose 1-phosphate,metabolite,,'192,192,192'
+2312,ADP-D-glycero-beta-D-manno-heptose,metabolite,,'192,192,192'
+268,2.7.7.9,enzyme,Carbohydrate metabolism,'234,134,21'
+273,3.1.3.1,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2313,7#8-Dihydroneopterin 3'-triphosphate,metabolite,,'192,192,192'
+2314,7#8-Dihydroneopterin,metabolite,,'192,192,192'
+274,3.1.3.104,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+276,3.1.3.15,enzyme,Amino acid metabolism,'46,144,114'
+277,3.1.3.18,enzyme,Carbohydrate metabolism,'234,134,21'
+2315,2-Phosphoglycolate,metabolite,,'192,192,192'
+278,3.1.3.2,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+279,3.1.3.25,enzyme,Carbohydrate metabolism,'234,134,21'
+2316,Inositol 1-phosphate,metabolite,,'192,192,192'
+2317,myo-Inositol,metabolite,,'192,192,192'
+280,3.1.3.3,enzyme,Energy metabolism,'0,202,255'
+281,3.1.3.7,enzyme,Energy metabolism,'0,202,255'
+2318,Adenosine 3#5'-bisphosphate,metabolite,,'192,192,192'
+282,3.1.3.97,enzyme,,'192,192,192'
+284,3.1.4.2,enzyme,Lipid metabolism,'198,134,233'
+2319,sn-Glycero-3-phosphocholine,metabolite,,'192,192,192'
+2320,sn-Glycero-3-phosphoethanolamine,metabolite,,'192,192,192'
+2321,Ethanolamine,metabolite,,'192,192,192'
+285,3.1.4.44,enzyme,,'192,192,192'
+2322,sn-Glycero-3-phospho-1-inositol,metabolite,,'192,192,192'
+286,3.1.4.46,enzyme,Lipid metabolism,'198,134,233'
+289,3.2.1.183,enzyme,Carbohydrate metabolism,'234,134,21'
+295,3.2.2.16,enzyme,Amino acid metabolism,'46,144,114'
+296,3.2.2.9,enzyme,Amino acid metabolism,'46,144,114'
+2323,Ribosyl-L-homocysteine,metabolite,,'192,192,192'
+297,3.5.1.1,enzyme,Amino acid metabolism,'46,144,114'
+2324,L-Asparagine,metabolite,,'192,192,192'
+298,3.5.1.107,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2325,Maleic acid,metabolite,,'192,192,192'
+2326,Maleamate,metabolite,,'192,192,192'
+299,3.5.1.18,enzyme,Amino acid metabolism,'46,144,114'
+2327,LL-2#6-Diaminoheptanedioate,metabolite,,'192,192,192'
+300,3.5.1.19,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2328,Nicotinamide,metabolite,,'192,192,192'
+2329,Nicotinate,metabolite,,'192,192,192'
+301,3.5.1.25,enzyme,Carbohydrate metabolism,'234,134,21'
+2330,N-Acetyl-D-glucosamine 6-phosphate,metabolite,,'192,192,192'
+2331,Glucosamine 6-phosphate,metabolite,,'192,192,192'
+303,3.5.1.32,enzyme,,'192,192,192'
+2332,Hippurate,metabolite,,'192,192,192'
+2333,Benzoate,metabolite,,'192,192,192'
+304,3.5.1.38,enzyme,Amino acid metabolism,'46,144,114'
+305,3.5.1.5,enzyme,Nucleotide metabolism,'255,92,129'
+2334,Urea,metabolite,,'192,192,192'
+306,3.5.2.3,enzyme,Nucleotide metabolism,'255,92,129'
+2335,Dihydroorotate,metabolite,,'192,192,192'
+307,3.5.2.7,enzyme,Amino acid metabolism,'46,144,114'
+2336,4-Imidazolone-5-propanoate,metabolite,,'192,192,192'
+2337,N-Formimino-L-glutamate,metabolite,,'192,192,192'
+308,3.5.3.1,enzyme,Amino acid metabolism,'46,144,114'
+309,3.5.3.11,enzyme,Amino acid metabolism,'46,144,114'
+2338,Agmatine,metabolite,,'192,192,192'
+310,3.5.3.6,enzyme,Amino acid metabolism,'46,144,114'
+311,3.5.3.8,enzyme,Amino acid metabolism,'46,144,114'
+2339,Formamide,metabolite,,'192,192,192'
+312,3.5.4.10,enzyme,Nucleotide metabolism,'255,92,129'
+313,3.5.4.12,enzyme,Nucleotide metabolism,'255,92,129'
+314,3.5.4.16,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+315,3.5.4.19,enzyme,Amino acid metabolism,'46,144,114'
+2340,Phosphoribosyl-AMP,metabolite,,'192,192,192'
+2341,5-(5-Phospho-D-ribosylaminoformimino)-1-(5-phosphoribosyl)-imidazole-4-carboxamide,metabolite,,'192,192,192'
+316,3.5.4.5,enzyme,Nucleotide metabolism,'255,92,129'
+317,3.5.4.9,enzyme,Energy metabolism,'0,202,255'
+318,3.5.5.4,enzyme,Amino acid metabolism,'46,144,114'
+319,3.5.99.6,enzyme,Carbohydrate metabolism,'234,134,21'
+321,3.6.1.1,enzyme,Energy metabolism,'0,202,255'
+323,3.6.1.15,enzyme,Nucleotide metabolism,'255,92,129'
+325,3.6.1.31,enzyme,Amino acid metabolism,'46,144,114'
+326,3.6.1.5,enzyme,Nucleotide metabolism,'255,92,129'
+327,3.6.1.67,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2342,Dihydroneopterin phosphate,metabolite,,'192,192,192'
+328,3.6.1.7,enzyme,Energy metabolism,'0,202,255'
+329,3.6.1.8,enzyme,Nucleotide metabolism,'255,92,129'
+395,4.1.1.11,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+396,4.1.1.15,enzyme,Amino acid metabolism,'46,144,114'
+397,4.1.1.17,enzyme,Amino acid metabolism,'46,144,114'
+398,4.1.1.18,enzyme,Amino acid metabolism,'46,144,114'
+2343,L-Lysine,metabolite,,'192,192,192'
+2344,Cadaverine,metabolite,,'192,192,192'
+399,4.1.1.19,enzyme,Amino acid metabolism,'46,144,114'
+400,4.1.1.20,enzyme,Amino acid metabolism,'46,144,114'
+2345,meso-2#6-Diaminoheptanedioate,metabolite,,'192,192,192'
+401,4.1.1.23,enzyme,Nucleotide metabolism,'255,92,129'
+402,4.1.1.33,enzyme,Biosynthesis of terpenoids and polyketides,'162,216,252'
+403,4.1.1.36,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2346,(R)-4'-Phosphopantothenoyl-L-cysteine,metabolite,,'192,192,192'
+404,4.1.1.37,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2347,Uroporphyrinogen I,metabolite,,'192,192,192'
+2348,Coproporphyrinogen I,metabolite,,'192,192,192'
+405,4.1.1.43,enzyme,Amino acid metabolism,'46,144,114'
+2349,Indolepyruvate,metabolite,,'192,192,192'
+2350,Indole-3-acetaldehyde,metabolite,,'192,192,192'
+406,4.1.1.48,enzyme,Amino acid metabolism,'46,144,114'
+2351,1-(2-Carboxyphenylamino)-1-deoxy-D-ribulose 5-phosphate,metabolite,,'192,192,192'
+2352,Indoleglycerol phosphate,metabolite,,'192,192,192'
+407,4.1.1.49,enzyme,Carbohydrate metabolism,'234,134,21'
+408,4.1.1.5,enzyme,Amino acid metabolism,'46,144,114'
+2353,(R)-Acetoin,metabolite,,'192,192,192'
+409,4.1.1.50,enzyme,Amino acid metabolism,'46,144,114'
+410,4.1.1.74,enzyme,Amino acid metabolism,'46,144,114'
+411,4.1.1.87,enzyme,,'192,192,192'
+412,4.1.2.13,enzyme,Energy metabolism,'0,202,255'
+2354,Fructose 1#6-bisphosphate,metabolite,,'192,192,192'
+413,4.1.2.25,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+414,4.1.2.4,enzyme,Carbohydrate metabolism,'234,134,21'
+415,4.1.2.40,enzyme,Carbohydrate metabolism,'234,134,21'
+416,4.1.2.48,enzyme,Amino acid metabolism,'46,144,114'
+2355,L-Threonine,metabolite,,'192,192,192'
+417,4.1.2.5,enzyme,Amino acid metabolism,'46,144,114'
+419,4.1.3.27,enzyme,Amino acid metabolism,'46,144,114'
+420,4.1.3.3,enzyme,Carbohydrate metabolism,'234,134,21'
+2356,N-Acetylneuraminate,metabolite,,'192,192,192'
+421,4.1.3.36,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2357,2-Succinylbenzoyl-CoA,metabolite,,'192,192,192'
+2358,1#4-Dihydroxy-2-naphthoate,metabolite,,'192,192,192'
+422,4.1.3.38,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+423,4.1.99.12,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+425,4.2.1.10,enzyme,Amino acid metabolism,'46,144,114'
+2359,3-Dehydroquinate,metabolite,,'192,192,192'
+426,4.2.1.109,enzyme,Amino acid metabolism,'46,144,114'
+2360,Methyl-5-thio-D-ribulose 1-phosphate,metabolite,,'192,192,192'
+2361,2#3-Diketo-5-methylthiopentyl-1-phosphate,metabolite,,'192,192,192'
+427,4.2.1.11,enzyme,Energy metabolism,'0,202,255'
+2362,2-Phospho-D-glycerate,metabolite,,'192,192,192'
+428,4.2.1.113,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2363,2-Succinylbenzoate,metabolite,,'192,192,192'
+2364,(1R#6R)-6-Hydroxy-2-succinylcyclohexa-2#4-diene-1-carboxylate,metabolite,,'192,192,192'
+430,4.2.1.17,enzyme,Xenobiotics biodegradation,'117,228,205'
+2365,2-trans-Dodecenoyl-CoA,metabolite,,'192,192,192'
+2366,trans-Hexadec-2-enoyl-CoA,metabolite,,'192,192,192'
+2367,trans-Tetradec-2-enoyl-CoA,metabolite,,'192,192,192'
+2368,trans-Dec-2-enoyl-CoA,metabolite,,'192,192,192'
+2369,trans-Oct-2-enoyl-CoA,metabolite,,'192,192,192'
+2370,trans-Hex-2-enoyl-CoA,metabolite,,'192,192,192'
+431,4.2.1.19,enzyme,Amino acid metabolism,'46,144,114'
+2371,erythro-1-(Imidazol-4-yl)glycerol 3-phosphate,metabolite,,'192,192,192'
+432,4.2.1.2,enzyme,Energy metabolism,'0,202,255'
+2372,Fumarate,metabolite,,'192,192,192'
+433,4.2.1.20,enzyme,Amino acid metabolism,'46,144,114'
+2373,L-Tryptophan,metabolite,,'192,192,192'
+434,4.2.1.24,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2374,5-Aminolevulinate,metabolite,,'192,192,192'
+435,4.2.1.3,enzyme,Carbohydrate metabolism,'234,134,21'
+436,4.2.1.33,enzyme,Amino acid metabolism,'46,144,114'
+2375,2-Isopropylmaleate,metabolite,,'192,192,192'
+437,4.2.1.49,enzyme,Amino acid metabolism,'46,144,114'
+2376,Urocanate,metabolite,,'192,192,192'
+438,4.2.1.51,enzyme,Amino acid metabolism,'46,144,114'
+440,4.2.1.74,enzyme,Lipid metabolism,'198,134,233'
+441,4.2.1.75,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+442,4.2.1.9,enzyme,Amino acid metabolism,'46,144,114'
+2377,(R)-2#3-Dihydroxy-3-methylpentanoate,metabolite,,'192,192,192'
+443,4.2.1.91,enzyme,Amino acid metabolism,'46,144,114'
+444,4.2.3.1,enzyme,Amino acid metabolism,'46,144,114'
+445,4.2.3.12,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2378,6-Pyruvoyltetrahydropterin,metabolite,,'192,192,192'
+2379,Triphosphate,metabolite,,'192,192,192'
+446,4.2.3.4,enzyme,Amino acid metabolism,'46,144,114'
+447,4.2.3.5,enzyme,Amino acid metabolism,'46,144,114'
+449,4.3.1.12,enzyme,Amino acid metabolism,'46,144,114'
+452,4.3.1.19,enzyme,Amino acid metabolism,'46,144,114'
+453,4.3.1.3,enzyme,Amino acid metabolism,'46,144,114'
+455,4.3.2.1,enzyme,Amino acid metabolism,'46,144,114'
+2380,N-(L-Arginino)succinate,metabolite,,'192,192,192'
+456,4.3.2.2,enzyme,Nucleotide metabolism,'255,92,129'
+2381,N6-(1#2-Dicarboxyethyl)-AMP,metabolite,,'192,192,192'
+2382,1-(5'-Phosphoribosyl)-5-amino-4-(N-succinocarboxamide)-imidazole,metabolite,,'192,192,192'
+460,4.99.1.4,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2383,Siroheme,metabolite,,'192,192,192'
+2384,Fe2+,metabolite,,'192,192,192'
+461,5.1.1.1,enzyme,Amino acid metabolism,'46,144,114'
+462,5.1.1.3,enzyme,Amino acid metabolism,'46,144,114'
+463,5.1.1.7,enzyme,Amino acid metabolism,'46,144,114'
+464,5.1.3.1,enzyme,Carbohydrate metabolism,'234,134,21'
+465,5.1.3.14,enzyme,Carbohydrate metabolism,'234,134,21'
+2385,UDP-N-acetyl-D-mannosamine,metabolite,,'192,192,192'
+466,5.1.3.2,enzyme,Carbohydrate metabolism,'234,134,21'
+2386,UDP-alpha-D-galactose,metabolite,,'192,192,192'
+2387,UDP-N-acetyl-D-galactosamine,metabolite,,'192,192,192'
+467,5.1.3.20,enzyme,Glycan metabolism,'167,226,137'
+2388,ADP-L-glycero-beta-D-manno-heptose,metabolite,,'192,192,192'
+468,5.1.3.7,enzyme,Carbohydrate metabolism,'234,134,21'
+469,5.1.3.9,enzyme,Carbohydrate metabolism,'234,134,21'
+470,5.3.1.1,enzyme,Carbohydrate metabolism,'234,134,21'
+471,5.3.1.16,enzyme,Amino acid metabolism,'46,144,114'
+2389,N-(5'-Phospho-D-1'-ribulosylformimino)-5-amino-1-(5''-phospho-D-ribosyl)-4-imidazolecarboxamide,metabolite,,'192,192,192'
+472,5.3.1.23,enzyme,Amino acid metabolism,'46,144,114'
+473,5.3.1.24,enzyme,Amino acid metabolism,'46,144,114'
+476,5.3.1.8,enzyme,Carbohydrate metabolism,'234,134,21'
+2390,Mannose 6-phosphate,metabolite,,'192,192,192'
+478,5.3.3.2,enzyme,Biosynthesis of terpenoids and polyketides,'162,216,252'
+480,5.4.2.10,enzyme,Carbohydrate metabolism,'234,134,21'
+2391,Glucosamine 1-phosphate,metabolite,,'192,192,192'
+481,5.4.2.11,enzyme,Energy metabolism,'0,202,255'
+482,5.4.2.12,enzyme,Energy metabolism,'0,202,255'
+483,5.4.2.2,enzyme,Carbohydrate metabolism,'234,134,21'
+484,5.4.2.5,enzyme,Carbohydrate metabolism,'234,134,21'
+485,5.4.2.7,enzyme,Carbohydrate metabolism,'234,134,21'
+486,5.4.2.8,enzyme,Carbohydrate metabolism,'234,134,21'
+2392,Mannose 1-phosphate,metabolite,,'192,192,192'
+487,5.4.3.8,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+488,5.4.4.2,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2393,Isochorismate,metabolite,,'192,192,192'
+489,5.4.99.18,enzyme,Nucleotide metabolism,'255,92,129'
+2394,5-Carboxyamino-1-(5-phospho-D-ribosyl)imidazole,metabolite,,'192,192,192'
+2395,1-(5-Phospho-D-ribosyl)-5-amino-4-imidazolecarboxylate,metabolite,,'192,192,192'
+634,4.4.1.13,enzyme,Amino acid metabolism,'46,144,114'
+635,4.98.1.1,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2396,Protoporphyrin,metabolite,,'192,192,192'
+2397,Heme,metabolite,,'192,192,192'
+490,5.4.99.5,enzyme,Amino acid metabolism,'46,144,114'
+491,6.1.1.10,enzyme,Amino acid metabolism,'46,144,114'
+2398,tRNA(Met),metabolite,,'192,192,192'
+2399,L-Methionyl-tRNA,metabolite,,'192,192,192'
+492,6.1.1.11,enzyme,Amino acid metabolism,'46,144,114'
+2400,tRNA(Ser),metabolite,,'192,192,192'
+2401,L-Seryl-tRNA(Ser),metabolite,,'192,192,192'
+493,6.1.1.12,enzyme,Amino acid metabolism,'46,144,114'
+2402,tRNA(Asp),metabolite,,'192,192,192'
+2403,L-Aspartyl-tRNA(Asp),metabolite,,'192,192,192'
+494,6.1.1.14,enzyme,Amino acid metabolism,'46,144,114'
+2404,tRNA(Gly),metabolite,,'192,192,192'
+2405,Glycyl-tRNA(Gly),metabolite,,'192,192,192'
+496,6.1.1.16,enzyme,Amino acid metabolism,'46,144,114'
+2406,tRNA(Cys),metabolite,,'192,192,192'
+2407,L-Cysteinyl-tRNA(Cys),metabolite,,'192,192,192'
+497,6.1.1.17,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+498,6.1.1.19,enzyme,Amino acid metabolism,'46,144,114'
+2408,tRNA(Arg),metabolite,,'192,192,192'
+2409,L-Arginyl-tRNA(Arg),metabolite,,'192,192,192'
+499,6.1.1.22,enzyme,Amino acid metabolism,'46,144,114'
+2410,tRNA(Asn),metabolite,,'192,192,192'
+2411,L-Asparaginyl-tRNA(Asn),metabolite,,'192,192,192'
+500,6.1.1.23,enzyme,Amino acid metabolism,'46,144,114'
+501,6.1.1.24,enzyme,Amino acid metabolism,'46,144,114'
+502,6.1.1.3,enzyme,Amino acid metabolism,'46,144,114'
+2412,tRNA(Thr),metabolite,,'192,192,192'
+2413,L-Threonyl-tRNA(Thr),metabolite,,'192,192,192'
+503,6.1.1.5,enzyme,Amino acid metabolism,'46,144,114'
+2414,tRNA(Ile),metabolite,,'192,192,192'
+2415,L-Isoleucyl-tRNA(Ile),metabolite,,'192,192,192'
+504,6.1.1.6,enzyme,Amino acid metabolism,'46,144,114'
+2416,tRNA(Lys),metabolite,,'192,192,192'
+2417,L-Lysyl-tRNA,metabolite,,'192,192,192'
+506,6.2.1.1,enzyme,Energy metabolism,'0,202,255'
+508,6.2.1.14,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2418,Pimelate,metabolite,,'192,192,192'
+509,6.2.1.26,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+510,6.2.1.3,enzyme,Lipid metabolism,'198,134,233'
+2419,Hexadecanoic acid,metabolite,,'192,192,192'
+2420,Palmitoyl-CoA,metabolite,,'192,192,192'
+511,6.2.1.5,enzyme,Carbohydrate metabolism,'234,134,21'
+512,6.3.1.2,enzyme,Amino acid metabolism,'46,144,114'
+513,6.3.1.5,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+514,6.3.2.1,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+516,6.3.2.12,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+518,6.3.2.17,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2421,THF-L-glutamate,metabolite,,'192,192,192'
+519,6.3.2.4,enzyme,Amino acid metabolism,'46,144,114'
+2422,Alanyl-D-alanine,metabolite,,'192,192,192'
+520,6.3.2.5,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+521,6.3.2.6,enzyme,Nucleotide metabolism,'255,92,129'
+522,6.3.2.8,enzyme,,'192,192,192'
+2423,UDP-N-acetylmuramoyl-L-alanine,metabolite,,'192,192,192'
+523,6.3.2.9,enzyme,Amino acid metabolism,'46,144,114'
+2424,UDP-N-acetylmuramoyl-L-alanyl-D-glutamate,metabolite,,'192,192,192'
+525,6.3.3.3,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+2425,Dethiobiotin,metabolite,,'192,192,192'
+528,6.3.4.13,enzyme,Nucleotide metabolism,'255,92,129'
+531,6.3.4.2,enzyme,Nucleotide metabolism,'255,92,129'
+532,6.3.4.3,enzyme,Energy metabolism,'0,202,255'
+533,6.3.4.4,enzyme,Nucleotide metabolism,'255,92,129'
+534,6.3.4.5,enzyme,Amino acid metabolism,'46,144,114'
+536,6.3.5.1,enzyme,Metabolism of cofactors and vitamins,'255,174,190'
+538,6.3.5.2,enzyme,Nucleotide metabolism,'255,92,129'
+540,6.3.5.4,enzyme,Carbohydrate metabolism,'234,134,21'
+541,6.3.5.5,enzyme,Nucleotide metabolism,'255,92,129'
+542,6.4.1.1,enzyme,Energy metabolism,'0,202,255'
+543,6.4.1.2,enzyme,Energy metabolism,'0,202,255'
+edgedef>source INTEGER,target INTEGER,directed BOOLEAN,weight DOUBLE
+2000,0,true,1.0
+2001,0,true,1.0
+0,2002,true,1.0
+0,2003,true,1.0
+2004,0,true,1.0
+2001,0,true,1.0
+0,2005,true,1.0
+0,2003,true,1.0
+2006,1,true,1.0
+2001,1,true,1.0
+1,2007,true,1.0
+1,2003,true,1.0
+2006,2,true,1.0
+2001,2,true,1.0
+2,2007,true,1.0
+2,2003,true,1.0
+2008,3,true,1.0
+2009,3,true,1.0
+3,2010,true,1.0
+3,2011,true,1.0
+2012,4,true,1.0
+2001,4,true,1.0
+4,2013,true,1.0
+4,2003,true,1.0
+2014,5,true,1.0
+2009,5,true,1.0
+5,2015,true,1.0
+5,2011,true,1.0
+2016,6,true,1.0
+2001,6,true,1.0
+6,2017,true,1.0
+6,2003,true,1.0
+2018,7,true,1.0
+2001,7,true,1.0
+7,2019,true,1.0
+7,2003,true,1.0
+2020,7,true,1.0
+2001,7,true,1.0
+7,2021,true,1.0
+7,2003,true,1.0
+2022,7,true,1.0
+2001,7,true,1.0
+7,2023,true,1.0
+7,2003,true,1.0
+2024,7,true,1.0
+2001,7,true,1.0
+7,2025,true,1.0
+7,2003,true,1.0
+2026,7,true,1.0
+2001,7,true,1.0
+7,2027,true,1.0
+7,2003,true,1.0
+2028,7,true,1.0
+2001,7,true,1.0
+7,2029,true,1.0
+7,2003,true,1.0
+2030,8,true,1.0
+2001,8,true,1.0
+8,2031,true,1.0
+8,2003,true,1.0
+8,2032,true,1.0
+2033,9,true,1.0
+2001,9,true,1.0
+9,2034,true,1.0
+9,2003,true,1.0
+2035,10,true,1.0
+2009,10,true,1.0
+10,2036,true,1.0
+10,2011,true,1.0
+2037,11,true,1.0
+2001,11,true,1.0
+11,2038,true,1.0
+11,2003,true,1.0
+2039,12,true,1.0
+2001,12,true,1.0
+12,2040,true,1.0
+12,2003,true,1.0
+2041,13,true,1.0
+2001,13,true,1.0
+13,2040,true,1.0
+13,2003,true,1.0
+2035,14,true,1.0
+2009,14,true,1.0
+14,2036,true,1.0
+14,2011,true,1.0
+2037,15,true,1.0
+2001,15,true,1.0
+15,2038,true,1.0
+15,2003,true,1.0
+2042,16,true,1.0
+2001,16,true,1.0
+16,2043,true,1.0
+16,2003,true,1.0
+2044,17,true,1.0
+2009,17,true,1.0
+17,2045,true,1.0
+17,2011,true,1.0
+2046,19,true,1.0
+2001,19,true,1.0
+19,2047,true,1.0
+19,2003,true,1.0
+2018,19,true,1.0
+2001,19,true,1.0
+19,2019,true,1.0
+19,2003,true,1.0
+2020,19,true,1.0
+2001,19,true,1.0
+19,2021,true,1.0
+19,2003,true,1.0
+2022,19,true,1.0
+2001,19,true,1.0
+19,2023,true,1.0
+19,2003,true,1.0
+2024,19,true,1.0
+2001,19,true,1.0
+19,2025,true,1.0
+19,2003,true,1.0
+2026,19,true,1.0
+2001,19,true,1.0
+19,2027,true,1.0
+19,2003,true,1.0
+2028,19,true,1.0
+2001,19,true,1.0
+19,2029,true,1.0
+19,2003,true,1.0
+2048,20,true,1.0
+2009,20,true,1.0
+20,2049,true,1.0
+20,2011,true,1.0
+2050,21,true,1.0
+2009,21,true,1.0
+21,2051,true,1.0
+21,2011,true,1.0
+2042,22,true,1.0
+2001,22,true,1.0
+22,2043,true,1.0
+22,2003,true,1.0
+2042,23,true,1.0
+2001,23,true,1.0
+23,2040,true,1.0
+23,2003,true,1.0
+2052,24,true,1.0
+2009,24,true,1.0
+24,2053,true,1.0
+24,2011,true,1.0
+2042,25,true,1.0
+2001,25,true,1.0
+25,2040,true,1.0
+25,2003,true,1.0
+2054,26,true,1.0
+2009,26,true,1.0
+26,2055,true,1.0
+26,2011,true,1.0
+2048,27,true,1.0
+2009,27,true,1.0
+27,2049,true,1.0
+27,2011,true,1.0
+2050,28,true,1.0
+2009,28,true,1.0
+28,2051,true,1.0
+28,2011,true,1.0
+2000,29,true,1.0
+2001,29,true,1.0
+29,2002,true,1.0
+29,2003,true,1.0
+2037,30,true,1.0
+2001,30,true,1.0
+30,2038,true,1.0
+30,2003,true,1.0
+2056,31,true,1.0
+31,2057,true,1.0
+2058,31,true,1.0
+2001,31,true,1.0
+31,2057,true,1.0
+31,2003,true,1.0
+2052,32,true,1.0
+2009,32,true,1.0
+32,2053,true,1.0
+32,2011,true,1.0
+2059,33,true,1.0
+2009,33,true,1.0
+33,2060,true,1.0
+33,2011,true,1.0
+2061,34,true,1.0
+2001,34,true,1.0
+34,2062,true,1.0
+34,2003,true,1.0
+2063,36,true,1.0
+36,2064,true,1.0
+36,2065,true,1.0
+2063,37,true,1.0
+37,2064,true,1.0
+37,2065,true,1.0
+2063,38,true,1.0
+2066,38,true,1.0
+38,2067,true,1.0
+38,2065,true,1.0
+2068,39,true,1.0
+2032,39,true,1.0
+39,2063,true,1.0
+39,2064,true,1.0
+2069,40,true,1.0
+2070,40,true,1.0
+40,2071,true,1.0
+40,2072,true,1.0
+2073,40,true,1.0
+2070,40,true,1.0
+40,2071,true,1.0
+40,2074,true,1.0
+2075,40,true,1.0
+2070,40,true,1.0
+40,2076,true,1.0
+40,2071,true,1.0
+2077,40,true,1.0
+2070,40,true,1.0
+40,2071,true,1.0
+40,2078,true,1.0
+2079,41,true,1.0
+2070,41,true,1.0
+41,2080,true,1.0
+41,2071,true,1.0
+2081,41,true,1.0
+2070,41,true,1.0
+41,2082,true,1.0
+41,2071,true,1.0
+2083,41,true,1.0
+2070,41,true,1.0
+41,2084,true,1.0
+41,2071,true,1.0
+2085,41,true,1.0
+2070,41,true,1.0
+41,2086,true,1.0
+41,2071,true,1.0
+2002,42,true,1.0
+2087,42,true,1.0
+2001,42,true,1.0
+42,2088,true,1.0
+42,2003,true,1.0
+2045,43,true,1.0
+2089,43,true,1.0
+2009,43,true,1.0
+43,2090,true,1.0
+43,2011,true,1.0
+2091,44,true,1.0
+2089,44,true,1.0
+2001,44,true,1.0
+44,2092,true,1.0
+44,2003,true,1.0
+2093,45,true,1.0
+2009,45,true,1.0
+45,2094,true,1.0
+45,2011,true,1.0
+2095,47,true,1.0
+2001,47,true,1.0
+47,2096,true,1.0
+47,2003,true,1.0
+2097,48,true,1.0
+2087,48,true,1.0
+2001,48,true,1.0
+48,2098,true,1.0
+48,2003,true,1.0
+2056,48,true,1.0
+2087,48,true,1.0
+2001,48,true,1.0
+48,2099,true,1.0
+48,2003,true,1.0
+2002,49,true,1.0
+2001,49,true,1.0
+49,2100,true,1.0
+49,2003,true,1.0
+2101,50,true,1.0
+2089,50,true,1.0
+2009,50,true,1.0
+50,2102,true,1.0
+50,2011,true,1.0
+2002,51,true,1.0
+2001,51,true,1.0
+51,2100,true,1.0
+51,2003,true,1.0
+2091,53,true,1.0
+2089,53,true,1.0
+2001,53,true,1.0
+53,2092,true,1.0
+53,2003,true,1.0
+2103,54,true,1.0
+2011,54,true,1.0
+54,2104,true,1.0
+54,2105,true,1.0
+54,2009,true,1.0
+2093,55,true,1.0
+2009,55,true,1.0
+55,2094,true,1.0
+55,2011,true,1.0
+2005,56,true,1.0
+2001,56,true,1.0
+56,2106,true,1.0
+56,2003,true,1.0
+56,2032,true,1.0
+2005,56,true,1.0
+2009,56,true,1.0
+56,2106,true,1.0
+56,2011,true,1.0
+56,2032,true,1.0
+2107,57,true,1.0
+2001,57,true,1.0
+2065,57,true,1.0
+57,2108,true,1.0
+57,2003,true,1.0
+2109,62,true,1.0
+2001,62,true,1.0
+62,2110,true,1.0
+62,2003,true,1.0
+2111,64,true,1.0
+2001,64,true,1.0
+64,2112,true,1.0
+64,2003,true,1.0
+2113,65,true,1.0
+2001,65,true,1.0
+65,2114,true,1.0
+65,2003,true,1.0
+2115,67,true,1.0
+2009,67,true,1.0
+67,2116,true,1.0
+67,2011,true,1.0
+2117,68,true,1.0
+2064,68,true,1.0
+68,2118,true,1.0
+68,2119,true,1.0
+68,2065,true,1.0
+2120,545,true,1.0
+2001,545,true,1.0
+545,2003,true,1.0
+2121,73,true,1.0
+2001,73,true,1.0
+73,2040,true,1.0
+73,2122,true,1.0
+73,2003,true,1.0
+2108,74,true,1.0
+2001,74,true,1.0
+74,2123,true,1.0
+74,2055,true,1.0
+74,2003,true,1.0
+2108,74,true,1.0
+2001,74,true,1.0
+74,2055,true,1.0
+74,2122,true,1.0
+74,2003,true,1.0
+2108,75,true,1.0
+2001,75,true,1.0
+75,2055,true,1.0
+75,2122,true,1.0
+75,2003,true,1.0
+2108,76,true,1.0
+2001,76,true,1.0
+76,2055,true,1.0
+76,2122,true,1.0
+76,2003,true,1.0
+2124,78,true,1.0
+2125,78,true,1.0
+78,2126,true,1.0
+2127,82,true,1.0
+2009,82,true,1.0
+82,2128,true,1.0
+82,2055,true,1.0
+82,2011,true,1.0
+2129,83,true,1.0
+2009,83,true,1.0
+83,2107,true,1.0
+83,2011,true,1.0
+2130,84,true,1.0
+2001,84,true,1.0
+84,2131,true,1.0
+84,2003,true,1.0
+2132,85,true,1.0
+2009,85,true,1.0
+85,2133,true,1.0
+85,2011,true,1.0
+2134,86,true,1.0
+2009,86,true,1.0
+86,2135,true,1.0
+86,2011,true,1.0
+2136,87,true,1.0
+2001,87,true,1.0
+87,2137,true,1.0
+87,2003,true,1.0
+2134,87,true,1.0
+2001,87,true,1.0
+87,2135,true,1.0
+87,2003,true,1.0
+2136,88,true,1.0
+2009,88,true,1.0
+88,2137,true,1.0
+88,2011,true,1.0
+2136,89,true,1.0
+2001,89,true,1.0
+89,2137,true,1.0
+89,2003,true,1.0
+2136,89,true,1.0
+2009,89,true,1.0
+89,2137,true,1.0
+89,2011,true,1.0
+2134,90,true,1.0
+2009,90,true,1.0
+90,2135,true,1.0
+90,2011,true,1.0
+2134,90,true,1.0
+2001,90,true,1.0
+90,2135,true,1.0
+90,2003,true,1.0
+2136,90,true,1.0
+2001,90,true,1.0
+90,2137,true,1.0
+90,2003,true,1.0
+2136,91,true,1.0
+2001,91,true,1.0
+91,2137,true,1.0
+91,2003,true,1.0
+2131,92,true,1.0
+2009,92,true,1.0
+92,2138,true,1.0
+92,2011,true,1.0
+2011,94,true,1.0
+2001,94,true,1.0
+94,2009,true,1.0
+94,2003,true,1.0
+2011,96,true,1.0
+2001,96,true,1.0
+96,2009,true,1.0
+96,2003,true,1.0
+2016,100,true,1.0
+2122,100,true,1.0
+2009,100,true,1.0
+100,2139,true,1.0
+100,2011,true,1.0
+2140,101,true,1.0
+2009,101,true,1.0
+2065,101,true,1.0
+101,2141,true,1.0
+101,2011,true,1.0
+101,2032,true,1.0
+2142,102,true,1.0
+2001,102,true,1.0
+102,2125,true,1.0
+102,2003,true,1.0
+2143,102,true,1.0
+2001,102,true,1.0
+102,2144,true,1.0
+102,2003,true,1.0
+2071,103,true,1.0
+2009,103,true,1.0
+103,2070,true,1.0
+103,2011,true,1.0
+2071,104,true,1.0
+2145,104,true,1.0
+104,2070,true,1.0
+104,2141,true,1.0
+104,2146,true,1.0
+2147,105,true,1.0
+2148,105,true,1.0
+105,2149,true,1.0
+105,2150,true,1.0
+2147,106,true,1.0
+2151,106,true,1.0
+106,2149,true,1.0
+106,2113,true,1.0
+2130,107,true,1.0
+2148,107,true,1.0
+107,2132,true,1.0
+107,2150,true,1.0
+2152,108,true,1.0
+2148,108,true,1.0
+108,2153,true,1.0
+108,2150,true,1.0
+2154,111,true,1.0
+2131,111,true,1.0
+111,2133,true,1.0
+111,2155,true,1.0
+2131,112,true,1.0
+2124,112,true,1.0
+112,2132,true,1.0
+112,2156,true,1.0
+2157,113,true,1.0
+2132,113,true,1.0
+113,2142,true,1.0
+113,2131,true,1.0
+113,2122,true,1.0
+2131,114,true,1.0
+2097,114,true,1.0
+114,2132,true,1.0
+114,2010,true,1.0
+2158,115,true,1.0
+2159,115,true,1.0
+115,2132,true,1.0
+115,2160,true,1.0
+2158,116,true,1.0
+2161,116,true,1.0
+116,2132,true,1.0
+116,2162,true,1.0
+2163,117,true,1.0
+2164,117,true,1.0
+117,2089,true,1.0
+117,2165,true,1.0
+2163,118,true,1.0
+2166,118,true,1.0
+118,2089,true,1.0
+118,2167,true,1.0
+2013,119,true,1.0
+2091,119,true,1.0
+119,2168,true,1.0
+119,2169,true,1.0
+2170,120,true,1.0
+2091,120,true,1.0
+120,2168,true,1.0
+120,2013,true,1.0
+2053,121,true,1.0
+121,2040,true,1.0
+2040,121,true,1.0
+2171,121,true,1.0
+121,2172,true,1.0
+2088,124,true,1.0
+2108,124,true,1.0
+124,2087,true,1.0
+124,2173,true,1.0
+2174,125,true,1.0
+2175,125,true,1.0
+125,2087,true,1.0
+125,2176,true,1.0
+2177,127,true,1.0
+2088,127,true,1.0
+127,2087,true,1.0
+127,2019,true,1.0
+2088,129,true,1.0
+129,2087,true,1.0
+129,2047,true,1.0
+2088,129,true,1.0
+2111,129,true,1.0
+129,2087,true,1.0
+129,2029,true,1.0
+2178,129,true,1.0
+2088,129,true,1.0
+129,2087,true,1.0
+129,2025,true,1.0
+2179,129,true,1.0
+2088,129,true,1.0
+129,2087,true,1.0
+129,2021,true,1.0
+2177,129,true,1.0
+2088,129,true,1.0
+129,2087,true,1.0
+129,2019,true,1.0
+2180,130,true,1.0
+2181,130,true,1.0
+130,2182,true,1.0
+130,2183,true,1.0
+2088,131,true,1.0
+2181,131,true,1.0
+131,2182,true,1.0
+131,2087,true,1.0
+2088,132,true,1.0
+2124,132,true,1.0
+132,2087,true,1.0
+132,2184,true,1.0
+2156,133,true,1.0
+2088,133,true,1.0
+133,2185,true,1.0
+133,2087,true,1.0
+2088,134,true,1.0
+2044,134,true,1.0
+134,2087,true,1.0
+134,2186,true,1.0
+2187,135,true,1.0
+2108,135,true,1.0
+135,2166,true,1.0
+135,2173,true,1.0
+2088,137,true,1.0
+2183,137,true,1.0
+137,2087,true,1.0
+137,2180,true,1.0
+2188,138,true,1.0
+2183,138,true,1.0
+138,2087,true,1.0
+138,2189,true,1.0
+2107,57,true,1.0
+2001,57,true,1.0
+2065,57,true,1.0
+57,2108,true,1.0
+57,2003,true,1.0
+2071,103,true,1.0
+2009,103,true,1.0
+103,2070,true,1.0
+103,2011,true,1.0
+2180,140,true,1.0
+2181,140,true,1.0
+140,2182,true,1.0
+140,2183,true,1.0
+2190,141,true,1.0
+2121,141,true,1.0
+141,2191,true,1.0
+141,2087,true,1.0
+2088,142,true,1.0
+2120,142,true,1.0
+142,2087,true,1.0
+142,2040,true,1.0
+2088,145,true,1.0
+2089,145,true,1.0
+145,2087,true,1.0
+145,2192,true,1.0
+2088,146,true,1.0
+2183,146,true,1.0
+146,2087,true,1.0
+146,2180,true,1.0
+2188,146,true,1.0
+2183,146,true,1.0
+146,2087,true,1.0
+146,2189,true,1.0
+2180,146,true,1.0
+2181,146,true,1.0
+146,2182,true,1.0
+146,2183,true,1.0
+2088,147,true,1.0
+2183,147,true,1.0
+147,2087,true,1.0
+147,2180,true,1.0
+2188,147,true,1.0
+2183,147,true,1.0
+147,2087,true,1.0
+147,2189,true,1.0
+2180,147,true,1.0
+2181,147,true,1.0
+147,2182,true,1.0
+147,2183,true,1.0
+2088,148,true,1.0
+148,2087,true,1.0
+148,2047,true,1.0
+2088,148,true,1.0
+2111,148,true,1.0
+148,2087,true,1.0
+148,2029,true,1.0
+2193,149,true,1.0
+2087,149,true,1.0
+149,2088,true,1.0
+149,2043,true,1.0
+2194,151,true,1.0
+2087,151,true,1.0
+151,2088,true,1.0
+151,2097,true,1.0
+2193,152,true,1.0
+2087,152,true,1.0
+152,2088,true,1.0
+152,2043,true,1.0
+2193,153,true,1.0
+2087,153,true,1.0
+153,2088,true,1.0
+153,2043,true,1.0
+2195,160,true,1.0
+2089,160,true,1.0
+160,2196,true,1.0
+160,2197,true,1.0
+2198,160,true,1.0
+2089,160,true,1.0
+160,2196,true,1.0
+160,2199,true,1.0
+2200,161,true,1.0
+2201,161,true,1.0
+161,2202,true,1.0
+161,2203,true,1.0
+2204,163,true,1.0
+2201,163,true,1.0
+2108,163,true,1.0
+163,2123,true,1.0
+163,2203,true,1.0
+2205,164,true,1.0
+2201,164,true,1.0
+164,2080,true,1.0
+164,2203,true,1.0
+2206,165,true,1.0
+2201,165,true,1.0
+165,2207,true,1.0
+165,2203,true,1.0
+2208,166,true,1.0
+2089,166,true,1.0
+166,2209,true,1.0
+166,2197,true,1.0
+2210,166,true,1.0
+2089,166,true,1.0
+166,2211,true,1.0
+166,2199,true,1.0
+2017,167,true,1.0
+2201,167,true,1.0
+167,2212,true,1.0
+167,2203,true,1.0
+2139,167,true,1.0
+2201,167,true,1.0
+167,2213,true,1.0
+167,2203,true,1.0
+2210,168,true,1.0
+2089,168,true,1.0
+168,2211,true,1.0
+168,2199,true,1.0
+2210,169,true,1.0
+2089,169,true,1.0
+169,2211,true,1.0
+169,2199,true,1.0
+2214,170,true,1.0
+2201,170,true,1.0
+170,2196,true,1.0
+170,2203,true,1.0
+2016,171,true,1.0
+2201,171,true,1.0
+171,2215,true,1.0
+171,2203,true,1.0
+2139,171,true,1.0
+2201,171,true,1.0
+171,2213,true,1.0
+171,2203,true,1.0
+2017,171,true,1.0
+2201,171,true,1.0
+171,2212,true,1.0
+171,2203,true,1.0
+2216,172,true,1.0
+2201,172,true,1.0
+172,2211,true,1.0
+172,2203,true,1.0
+2217,174,true,1.0
+2218,174,true,1.0
+174,2201,true,1.0
+174,2219,true,1.0
+2219,175,true,1.0
+2218,175,true,1.0
+175,2201,true,1.0
+175,2220,true,1.0
+2221,176,true,1.0
+2222,176,true,1.0
+176,2201,true,1.0
+176,2223,true,1.0
+2224,177,true,1.0
+2225,177,true,1.0
+177,2226,true,1.0
+177,2227,true,1.0
+2228,178,true,1.0
+2229,178,true,1.0
+178,2089,true,1.0
+178,2230,true,1.0
+2220,179,true,1.0
+2011,179,true,1.0
+179,2231,true,1.0
+179,2201,true,1.0
+179,2009,true,1.0
+2232,180,true,1.0
+2233,180,true,1.0
+180,2201,true,1.0
+180,2234,true,1.0
+2185,181,true,1.0
+2140,181,true,1.0
+181,2235,true,1.0
+181,2100,true,1.0
+2236,182,true,1.0
+2235,182,true,1.0
+182,2237,true,1.0
+182,2094,true,1.0
+2236,182,true,1.0
+182,2171,true,1.0
+182,2094,true,1.0
+182,2122,true,1.0
+2228,183,true,1.0
+2168,183,true,1.0
+183,2238,true,1.0
+183,2089,true,1.0
+2089,184,true,1.0
+2201,184,true,1.0
+2147,184,true,1.0
+184,2080,true,1.0
+184,2150,true,1.0
+2239,185,true,1.0
+185,2240,true,1.0
+185,2122,true,1.0
+2185,186,true,1.0
+2140,186,true,1.0
+186,2235,true,1.0
+186,2100,true,1.0
+2228,187,true,1.0
+2241,187,true,1.0
+187,2116,true,1.0
+187,2089,true,1.0
+2242,188,true,1.0
+2243,188,true,1.0
+188,2244,true,1.0
+188,2065,true,1.0
+188,2089,true,1.0
+2244,189,true,1.0
+189,2135,true,1.0
+189,2242,true,1.0
+2164,190,true,1.0
+2055,190,true,1.0
+190,2043,true,1.0
+190,2108,true,1.0
+2245,190,true,1.0
+2055,190,true,1.0
+190,2246,true,1.0
+190,2108,true,1.0
+2247,190,true,1.0
+2055,190,true,1.0
+190,2110,true,1.0
+190,2108,true,1.0
+2187,191,true,1.0
+2055,191,true,1.0
+191,2101,true,1.0
+191,2108,true,1.0
+2166,192,true,1.0
+2055,192,true,1.0
+192,2248,true,1.0
+192,2108,true,1.0
+2249,194,true,1.0
+2055,194,true,1.0
+194,2176,true,1.0
+194,2108,true,1.0
+2250,195,true,1.0
+2055,195,true,1.0
+195,2093,true,1.0
+195,2108,true,1.0
+2251,196,true,1.0
+2055,196,true,1.0
+196,2040,true,1.0
+196,2252,true,1.0
+2253,197,true,1.0
+2055,197,true,1.0
+197,2056,true,1.0
+197,2108,true,1.0
+2254,197,true,1.0
+2055,197,true,1.0
+197,2097,true,1.0
+197,2108,true,1.0
+2255,197,true,1.0
+2055,197,true,1.0
+197,2256,true,1.0
+197,2108,true,1.0
+2247,198,true,1.0
+2055,198,true,1.0
+198,2110,true,1.0
+198,2108,true,1.0
+2245,198,true,1.0
+2055,198,true,1.0
+198,2246,true,1.0
+198,2108,true,1.0
+2257,198,true,1.0
+2108,198,true,1.0
+198,2150,true,1.0
+198,2055,true,1.0
+2258,199,true,1.0
+2055,199,true,1.0
+199,2062,true,1.0
+199,2108,true,1.0
+2245,200,true,1.0
+2055,200,true,1.0
+200,2246,true,1.0
+200,2108,true,1.0
+2247,200,true,1.0
+2055,200,true,1.0
+200,2110,true,1.0
+200,2108,true,1.0
+2257,200,true,1.0
+2108,200,true,1.0
+200,2150,true,1.0
+200,2055,true,1.0
+2253,201,true,1.0
+2055,201,true,1.0
+201,2056,true,1.0
+201,2108,true,1.0
+2254,201,true,1.0
+2055,201,true,1.0
+201,2097,true,1.0
+201,2108,true,1.0
+2147,202,true,1.0
+2191,202,true,1.0
+202,2259,true,1.0
+202,2260,true,1.0
+2253,203,true,1.0
+2055,203,true,1.0
+203,2056,true,1.0
+203,2108,true,1.0
+2261,204,true,1.0
+2123,204,true,1.0
+204,2262,true,1.0
+204,2108,true,1.0
+2263,205,true,1.0
+2055,205,true,1.0
+205,2264,true,1.0
+205,2108,true,1.0
+2245,205,true,1.0
+2055,205,true,1.0
+205,2246,true,1.0
+205,2108,true,1.0
+2247,205,true,1.0
+2055,205,true,1.0
+205,2110,true,1.0
+205,2108,true,1.0
+2080,206,true,1.0
+2265,206,true,1.0
+206,2072,true,1.0
+206,2050,true,1.0
+2080,206,true,1.0
+2007,206,true,1.0
+206,2072,true,1.0
+206,2013,true,1.0
+2080,207,true,1.0
+2266,207,true,1.0
+207,2072,true,1.0
+207,2267,true,1.0
+2268,208,true,1.0
+2080,208,true,1.0
+208,2269,true,1.0
+208,2072,true,1.0
+2080,209,true,1.0
+2270,209,true,1.0
+209,2072,true,1.0
+209,2048,true,1.0
+2268,210,true,1.0
+2080,210,true,1.0
+210,2269,true,1.0
+210,2072,true,1.0
+2080,211,true,1.0
+2271,211,true,1.0
+211,2072,true,1.0
+211,2155,true,1.0
+2080,211,true,1.0
+2210,211,true,1.0
+211,2072,true,1.0
+211,2154,true,1.0
+2272,212,true,1.0
+2080,212,true,1.0
+212,2273,true,1.0
+212,2072,true,1.0
+2274,213,true,1.0
+2072,213,true,1.0
+213,2275,true,1.0
+213,2080,true,1.0
+2080,214,true,1.0
+2276,214,true,1.0
+214,2072,true,1.0
+214,2277,true,1.0
+2080,215,true,1.0
+2265,215,true,1.0
+215,2072,true,1.0
+215,2050,true,1.0
+2080,216,true,1.0
+2271,216,true,1.0
+216,2072,true,1.0
+216,2155,true,1.0
+2080,216,true,1.0
+2210,216,true,1.0
+216,2072,true,1.0
+216,2154,true,1.0
+2080,217,true,1.0
+2278,217,true,1.0
+217,2072,true,1.0
+217,2216,true,1.0
+2080,218,true,1.0
+2001,218,true,1.0
+218,2072,true,1.0
+218,2009,true,1.0
+2080,219,true,1.0
+2279,219,true,1.0
+219,2072,true,1.0
+219,2087,true,1.0
+2080,220,true,1.0
+2280,220,true,1.0
+220,2072,true,1.0
+220,2145,true,1.0
+2080,221,true,1.0
+2135,221,true,1.0
+221,2072,true,1.0
+221,2137,true,1.0
+2080,222,true,1.0
+2281,222,true,1.0
+222,2072,true,1.0
+222,2060,true,1.0
+2080,223,true,1.0
+2282,223,true,1.0
+223,2072,true,1.0
+223,2059,true,1.0
+2080,224,true,1.0
+2037,224,true,1.0
+224,2072,true,1.0
+224,2061,true,1.0
+2080,225,true,1.0
+2283,225,true,1.0
+225,2072,true,1.0
+225,2284,true,1.0
+2080,226,true,1.0
+2285,226,true,1.0
+226,2072,true,1.0
+226,2286,true,1.0
+2080,227,true,1.0
+2044,227,true,1.0
+227,2072,true,1.0
+227,2287,true,1.0
+2080,228,true,1.0
+2007,228,true,1.0
+228,2072,true,1.0
+228,2013,true,1.0
+2080,229,true,1.0
+2040,229,true,1.0
+229,2072,true,1.0
+229,2228,true,1.0
+2080,230,true,1.0
+2278,230,true,1.0
+230,2072,true,1.0
+230,2216,true,1.0
+2082,230,true,1.0
+2208,230,true,1.0
+230,2076,true,1.0
+230,2288,true,1.0
+2082,230,true,1.0
+2278,230,true,1.0
+230,2076,true,1.0
+230,2216,true,1.0
+2080,231,true,1.0
+2289,231,true,1.0
+231,2072,true,1.0
+231,2233,true,1.0
+2268,232,true,1.0
+2080,232,true,1.0
+232,2269,true,1.0
+232,2072,true,1.0
+2080,233,true,1.0
+2290,233,true,1.0
+233,2072,true,1.0
+233,2291,true,1.0
+2080,235,true,1.0
+2035,235,true,1.0
+235,2072,true,1.0
+235,2229,true,1.0
+2080,236,true,1.0
+2100,236,true,1.0
+236,2072,true,1.0
+236,2192,true,1.0
+2080,237,true,1.0
+2100,237,true,1.0
+237,2072,true,1.0
+237,2192,true,1.0
+2080,238,true,1.0
+2122,238,true,1.0
+2292,238,true,1.0
+238,2072,true,1.0
+238,2163,true,1.0
+2080,239,true,1.0
+2061,239,true,1.0
+239,2072,true,1.0
+239,2092,true,1.0
+2080,240,true,1.0
+2164,240,true,1.0
+240,2072,true,1.0
+240,2090,true,1.0
+2080,241,true,1.0
+2173,241,true,1.0
+241,2072,true,1.0
+241,2102,true,1.0
+2080,242,true,1.0
+2293,242,true,1.0
+242,2072,true,1.0
+242,2075,true,1.0
+2080,242,true,1.0
+2155,242,true,1.0
+242,2072,true,1.0
+242,2294,true,1.0
+2080,244,true,1.0
+2216,244,true,1.0
+244,2072,true,1.0
+244,2074,true,1.0
+2080,244,true,1.0
+2288,244,true,1.0
+244,2072,true,1.0
+244,2078,true,1.0
+2080,244,true,1.0
+2295,244,true,1.0
+244,2072,true,1.0
+244,2077,true,1.0
+2080,245,true,1.0
+2286,245,true,1.0
+245,2072,true,1.0
+245,2296,true,1.0
+2080,246,true,1.0
+2216,246,true,1.0
+246,2072,true,1.0
+246,2074,true,1.0
+2080,247,true,1.0
+2288,247,true,1.0
+247,2072,true,1.0
+247,2078,true,1.0
+2080,247,true,1.0
+2295,247,true,1.0
+247,2072,true,1.0
+247,2077,true,1.0
+2080,248,true,1.0
+2214,248,true,1.0
+248,2072,true,1.0
+2080,249,true,1.0
+2216,249,true,1.0
+249,2072,true,1.0
+249,2074,true,1.0
+2080,249,true,1.0
+2154,249,true,1.0
+249,2072,true,1.0
+249,2073,true,1.0
+2080,250,true,1.0
+2074,250,true,1.0
+250,2072,true,1.0
+250,2086,true,1.0
+2080,250,true,1.0
+2076,250,true,1.0
+250,2072,true,1.0
+250,2082,true,1.0
+2080,250,true,1.0
+2078,250,true,1.0
+250,2072,true,1.0
+250,2084,true,1.0
+2080,250,true,1.0
+2297,250,true,1.0
+250,2072,true,1.0
+250,2298,true,1.0
+2080,250,true,1.0
+2069,250,true,1.0
+250,2072,true,1.0
+250,2079,true,1.0
+2080,250,true,1.0
+2075,250,true,1.0
+250,2072,true,1.0
+250,2081,true,1.0
+2080,250,true,1.0
+2294,250,true,1.0
+250,2072,true,1.0
+250,2299,true,1.0
+2080,250,true,1.0
+2077,250,true,1.0
+250,2072,true,1.0
+250,2083,true,1.0
+2080,250,true,1.0
+2073,250,true,1.0
+250,2072,true,1.0
+250,2085,true,1.0
+2080,252,true,1.0
+2139,252,true,1.0
+252,2072,true,1.0
+252,2076,true,1.0
+2080,252,true,1.0
+2293,252,true,1.0
+252,2072,true,1.0
+252,2075,true,1.0
+2080,253,true,1.0
+2155,253,true,1.0
+253,2072,true,1.0
+253,2294,true,1.0
+2080,253,true,1.0
+2154,253,true,1.0
+253,2072,true,1.0
+253,2073,true,1.0
+2080,255,true,1.0
+2300,255,true,1.0
+255,2214,true,1.0
+255,2221,true,1.0
+2080,256,true,1.0
+2082,256,true,1.0
+256,2214,true,1.0
+256,2301,true,1.0
+2080,257,true,1.0
+2302,257,true,1.0
+257,2201,true,1.0
+257,2303,true,1.0
+2080,258,true,1.0
+2302,258,true,1.0
+258,2201,true,1.0
+258,2303,true,1.0
+2080,259,true,1.0
+2137,259,true,1.0
+259,2201,true,1.0
+259,2304,true,1.0
+2080,261,true,1.0
+2305,261,true,1.0
+261,2201,true,1.0
+261,2306,true,1.0
+2080,262,true,1.0
+2307,262,true,1.0
+262,2201,true,1.0
+262,2279,true,1.0
+2084,263,true,1.0
+2059,263,true,1.0
+263,2201,true,1.0
+263,2308,true,1.0
+2309,265,true,1.0
+2084,265,true,1.0
+265,2272,true,1.0
+265,2201,true,1.0
+2086,266,true,1.0
+2305,266,true,1.0
+266,2201,true,1.0
+266,2310,true,1.0
+2080,267,true,1.0
+2311,267,true,1.0
+267,2201,true,1.0
+267,2312,true,1.0
+2086,268,true,1.0
+2305,268,true,1.0
+268,2201,true,1.0
+268,2310,true,1.0
+2060,273,true,1.0
+273,2281,true,1.0
+273,2089,true,1.0
+2313,273,true,1.0
+2065,273,true,1.0
+273,2314,true,1.0
+273,2089,true,1.0
+2014,274,true,1.0
+274,2242,true,1.0
+274,2089,true,1.0
+2263,276,true,1.0
+276,2030,true,1.0
+276,2089,true,1.0
+2315,277,true,1.0
+277,2096,true,1.0
+277,2089,true,1.0
+2060,278,true,1.0
+278,2281,true,1.0
+278,2089,true,1.0
+2316,279,true,1.0
+279,2317,true,1.0
+279,2089,true,1.0
+2258,280,true,1.0
+280,2156,true,1.0
+280,2089,true,1.0
+2318,281,true,1.0
+281,2214,true,1.0
+281,2089,true,1.0
+2318,282,true,1.0
+282,2214,true,1.0
+282,2089,true,1.0
+2319,284,true,1.0
+284,2004,true,1.0
+284,2059,true,1.0
+2320,284,true,1.0
+284,2321,true,1.0
+284,2059,true,1.0
+2322,285,true,1.0
+285,2317,true,1.0
+285,2059,true,1.0
+2319,286,true,1.0
+286,2004,true,1.0
+286,2059,true,1.0
+2320,286,true,1.0
+286,2321,true,1.0
+286,2059,true,1.0
+2241,289,true,1.0
+289,2290,true,1.0
+289,2074,true,1.0
+2226,295,true,1.0
+295,2196,true,1.0
+295,2266,true,1.0
+2149,296,true,1.0
+296,2323,true,1.0
+296,2196,true,1.0
+2226,296,true,1.0
+296,2196,true,1.0
+296,2266,true,1.0
+2324,297,true,1.0
+297,2164,true,1.0
+297,2122,true,1.0
+2325,298,true,1.0
+2122,298,true,1.0
+298,2326,true,1.0
+2249,299,true,1.0
+299,2094,true,1.0
+299,2327,true,1.0
+2328,300,true,1.0
+300,2329,true,1.0
+300,2122,true,1.0
+2330,301,true,1.0
+301,2331,true,1.0
+301,2100,true,1.0
+2332,303,true,1.0
+303,2333,true,1.0
+303,2124,true,1.0
+2324,304,true,1.0
+304,2164,true,1.0
+304,2122,true,1.0
+2334,305,true,1.0
+305,2122,true,1.0
+2335,306,true,1.0
+306,2165,true,1.0
+2336,307,true,1.0
+307,2337,true,1.0
+2128,308,true,1.0
+308,2166,true,1.0
+308,2334,true,1.0
+2338,309,true,1.0
+309,2225,true,1.0
+309,2334,true,1.0
+2128,310,true,1.0
+310,2167,true,1.0
+310,2122,true,1.0
+2337,311,true,1.0
+311,2108,true,1.0
+311,2339,true,1.0
+2016,312,true,1.0
+312,2162,true,1.0
+2295,313,true,1.0
+313,2154,true,1.0
+313,2122,true,1.0
+2082,314,true,1.0
+314,2313,true,1.0
+314,2120,true,1.0
+2340,315,true,1.0
+315,2341,true,1.0
+2208,316,true,1.0
+316,2278,true,1.0
+316,2122,true,1.0
+2138,317,true,1.0
+317,2158,true,1.0
+2324,318,true,1.0
+318,2164,true,1.0
+318,2122,true,1.0
+2331,319,true,1.0
+319,2013,true,1.0
+319,2122,true,1.0
+2201,321,true,1.0
+321,2089,true,1.0
+2080,323,true,1.0
+323,2072,true,1.0
+323,2089,true,1.0
+2205,325,true,1.0
+325,2340,true,1.0
+325,2201,true,1.0
+2080,326,true,1.0
+326,2072,true,1.0
+326,2089,true,1.0
+2313,327,true,1.0
+327,2342,true,1.0
+327,2201,true,1.0
+2192,328,true,1.0
+328,2100,true,1.0
+328,2089,true,1.0
+2080,329,true,1.0
+329,2072,true,1.0
+329,2089,true,1.0
+2164,395,true,1.0
+395,2251,true,1.0
+2164,396,true,1.0
+396,2251,true,1.0
+2166,397,true,1.0
+397,2225,true,1.0
+2343,398,true,1.0
+398,2344,true,1.0
+2128,399,true,1.0
+399,2338,true,1.0
+2345,400,true,1.0
+400,2343,true,1.0
+2200,401,true,1.0
+401,2216,true,1.0
+2080,402,true,1.0
+2296,402,true,1.0
+402,2072,true,1.0
+402,2089,true,1.0
+402,2218,true,1.0
+2346,403,true,1.0
+403,2307,true,1.0
+2151,404,true,1.0
+404,2117,true,1.0
+404,2119,true,1.0
+2347,404,true,1.0
+404,2348,true,1.0
+404,2119,true,1.0
+2349,405,true,1.0
+405,2350,true,1.0
+2351,406,true,1.0
+406,2352,true,1.0
+2080,407,true,1.0
+2043,407,true,1.0
+407,2072,true,1.0
+407,2228,true,1.0
+2053,408,true,1.0
+408,2353,true,1.0
+2147,409,true,1.0
+409,2224,true,1.0
+2349,410,true,1.0
+410,2350,true,1.0
+2181,411,true,1.0
+411,2180,true,1.0
+2354,412,true,1.0
+412,2060,true,1.0
+412,2091,true,1.0
+2314,413,true,1.0
+413,2095,true,1.0
+413,2300,true,1.0
+2274,414,true,1.0
+414,2091,true,1.0
+414,2002,true,1.0
+2269,415,true,1.0
+415,2060,true,1.0
+415,2091,true,1.0
+2355,416,true,1.0
+416,2124,true,1.0
+416,2002,true,1.0
+2355,417,true,1.0
+417,2124,true,1.0
+417,2002,true,1.0
+2261,419,true,1.0
+2123,419,true,1.0
+419,2207,true,1.0
+419,2040,true,1.0
+419,2108,true,1.0
+2356,420,true,1.0
+420,2290,true,1.0
+420,2040,true,1.0
+2357,421,true,1.0
+421,2358,true,1.0
+421,2087,true,1.0
+2262,422,true,1.0
+422,2222,true,1.0
+422,2040,true,1.0
+2049,423,true,1.0
+423,2243,true,1.0
+423,2120,true,1.0
+2359,425,true,1.0
+425,2036,true,1.0
+2360,426,true,1.0
+426,2361,true,1.0
+2362,427,true,1.0
+427,2228,true,1.0
+2363,428,true,1.0
+428,2364,true,1.0
+2046,430,true,1.0
+430,2112,true,1.0
+2022,430,true,1.0
+430,2365,true,1.0
+2018,430,true,1.0
+430,2366,true,1.0
+2020,430,true,1.0
+430,2367,true,1.0
+2024,430,true,1.0
+430,2368,true,1.0
+2026,430,true,1.0
+430,2369,true,1.0
+2028,430,true,1.0
+430,2370,true,1.0
+2371,431,true,1.0
+431,2264,true,1.0
+2042,432,true,1.0
+432,2372,true,1.0
+2156,433,true,1.0
+2352,433,true,1.0
+433,2373,true,1.0
+433,2091,true,1.0
+2374,434,true,1.0
+434,2239,true,1.0
+434,2065,true,1.0
+2193,435,true,1.0
+435,2054,true,1.0
+2194,436,true,1.0
+436,2375,true,1.0
+2058,436,true,1.0
+436,2375,true,1.0
+2336,437,true,1.0
+437,2376,true,1.0
+2109,438,true,1.0
+438,2246,true,1.0
+2022,440,true,1.0
+440,2365,true,1.0
+2018,440,true,1.0
+440,2366,true,1.0
+2020,440,true,1.0
+440,2367,true,1.0
+2024,440,true,1.0
+440,2368,true,1.0
+2026,440,true,1.0
+440,2369,true,1.0
+2028,440,true,1.0
+440,2370,true,1.0
+2240,441,true,1.0
+441,2151,true,1.0
+2052,442,true,1.0
+442,2097,true,1.0
+2377,442,true,1.0
+442,2256,true,1.0
+2109,443,true,1.0
+443,2246,true,1.0
+2287,444,true,1.0
+444,2355,true,1.0
+444,2089,true,1.0
+2313,445,true,1.0
+445,2378,true,1.0
+445,2379,true,1.0
+2238,446,true,1.0
+446,2359,true,1.0
+446,2089,true,1.0
+2230,447,true,1.0
+447,2261,true,1.0
+447,2089,true,1.0
+2166,449,true,1.0
+449,2129,true,1.0
+449,2122,true,1.0
+2355,452,true,1.0
+452,2171,true,1.0
+452,2122,true,1.0
+2031,453,true,1.0
+453,2376,true,1.0
+453,2122,true,1.0
+2380,455,true,1.0
+455,2372,true,1.0
+455,2128,true,1.0
+2381,456,true,1.0
+456,2372,true,1.0
+456,2214,true,1.0
+2382,456,true,1.0
+456,2372,true,1.0
+456,2161,true,1.0
+2383,460,true,1.0
+2032,460,true,1.0
+460,2384,true,1.0
+460,2114,true,1.0
+2121,461,true,1.0
+461,2251,true,1.0
+2108,462,true,1.0
+462,2252,true,1.0
+2327,463,true,1.0
+463,2345,true,1.0
+2049,464,true,1.0
+464,2169,true,1.0
+2241,465,true,1.0
+465,2385,true,1.0
+2241,465,true,1.0
+465,2290,true,1.0
+465,2074,true,1.0
+2310,466,true,1.0
+466,2386,true,1.0
+2241,466,true,1.0
+466,2387,true,1.0
+2312,467,true,1.0
+467,2388,true,1.0
+2241,468,true,1.0
+468,2387,true,1.0
+2330,469,true,1.0
+469,2291,true,1.0
+2091,470,true,1.0
+470,2060,true,1.0
+2341,471,true,1.0
+471,2389,true,1.0
+2267,472,true,1.0
+472,2360,true,1.0
+2206,473,true,1.0
+473,2351,true,1.0
+2390,476,true,1.0
+476,2013,true,1.0
+2218,478,true,1.0
+478,2217,true,1.0
+2391,480,true,1.0
+480,2331,true,1.0
+2362,481,true,1.0
+481,2061,true,1.0
+2362,482,true,1.0
+482,2061,true,1.0
+2305,483,true,1.0
+483,2050,true,1.0
+2305,484,true,1.0
+484,2050,true,1.0
+2199,485,true,1.0
+485,2274,true,1.0
+2390,486,true,1.0
+486,2392,true,1.0
+2374,487,true,1.0
+487,2104,true,1.0
+2261,488,true,1.0
+488,2393,true,1.0
+2394,489,true,1.0
+489,2395,true,1.0
+2236,182,true,1.0
+2235,182,true,1.0
+182,2237,true,1.0
+182,2094,true,1.0
+2236,182,true,1.0
+182,2171,true,1.0
+182,2094,true,1.0
+182,2122,true,1.0
+2239,185,true,1.0
+185,2240,true,1.0
+185,2122,true,1.0
+2237,634,true,1.0
+634,2148,true,1.0
+634,2122,true,1.0
+634,2040,true,1.0
+2396,635,true,1.0
+2384,635,true,1.0
+635,2397,true,1.0
+635,2032,true,1.0
+2362,481,true,1.0
+481,2061,true,1.0
+2362,482,true,1.0
+482,2061,true,1.0
+2261,490,true,1.0
+490,2109,true,1.0
+2080,491,true,1.0
+2150,491,true,1.0
+2398,491,true,1.0
+491,2214,true,1.0
+491,2201,true,1.0
+491,2399,true,1.0
+2080,492,true,1.0
+2156,492,true,1.0
+2400,492,true,1.0
+492,2214,true,1.0
+492,2201,true,1.0
+492,2401,true,1.0
+2402,493,true,1.0
+2164,493,true,1.0
+2080,493,true,1.0
+493,2403,true,1.0
+493,2201,true,1.0
+493,2214,true,1.0
+2080,494,true,1.0
+2124,494,true,1.0
+2404,494,true,1.0
+494,2214,true,1.0
+494,2201,true,1.0
+494,2405,true,1.0
+2080,496,true,1.0
+2235,496,true,1.0
+2406,496,true,1.0
+496,2214,true,1.0
+496,2201,true,1.0
+496,2407,true,1.0
+2105,497,true,1.0
+2108,497,true,1.0
+2080,497,true,1.0
+497,2103,true,1.0
+497,2201,true,1.0
+497,2214,true,1.0
+2080,498,true,1.0
+2128,498,true,1.0
+2408,498,true,1.0
+498,2214,true,1.0
+498,2201,true,1.0
+498,2409,true,1.0
+2080,499,true,1.0
+2324,499,true,1.0
+2410,499,true,1.0
+499,2214,true,1.0
+499,2201,true,1.0
+499,2411,true,1.0
+2402,500,true,1.0
+2164,500,true,1.0
+2080,500,true,1.0
+500,2403,true,1.0
+500,2201,true,1.0
+500,2214,true,1.0
+2105,501,true,1.0
+2108,501,true,1.0
+2080,501,true,1.0
+501,2103,true,1.0
+501,2201,true,1.0
+501,2214,true,1.0
+2080,502,true,1.0
+2355,502,true,1.0
+2412,502,true,1.0
+502,2214,true,1.0
+502,2201,true,1.0
+502,2413,true,1.0
+2080,503,true,1.0
+2255,503,true,1.0
+2414,503,true,1.0
+503,2214,true,1.0
+503,2201,true,1.0
+503,2415,true,1.0
+2080,504,true,1.0
+2343,504,true,1.0
+2416,504,true,1.0
+504,2214,true,1.0
+504,2201,true,1.0
+504,2417,true,1.0
+2080,506,true,1.0
+2100,506,true,1.0
+2087,506,true,1.0
+506,2214,true,1.0
+506,2201,true,1.0
+506,2088,true,1.0
+2080,508,true,1.0
+2418,508,true,1.0
+2087,508,true,1.0
+508,2214,true,1.0
+508,2201,true,1.0
+508,2190,true,1.0
+2080,509,true,1.0
+2363,509,true,1.0
+2087,509,true,1.0
+509,2214,true,1.0
+509,2201,true,1.0
+509,2357,true,1.0
+2080,510,true,1.0
+2419,510,true,1.0
+2087,510,true,1.0
+510,2214,true,1.0
+510,2420,true,1.0
+510,2201,true,1.0
+2080,511,true,1.0
+2094,511,true,1.0
+2087,511,true,1.0
+511,2072,true,1.0
+511,2089,true,1.0
+511,2174,true,1.0
+2080,512,true,1.0
+2108,512,true,1.0
+2122,512,true,1.0
+512,2072,true,1.0
+512,2089,true,1.0
+512,2123,true,1.0
+2080,513,true,1.0
+2303,513,true,1.0
+2122,513,true,1.0
+513,2214,true,1.0
+513,2201,true,1.0
+513,2001,true,1.0
+2080,514,true,1.0
+2008,514,true,1.0
+2251,514,true,1.0
+514,2214,true,1.0
+514,2201,true,1.0
+514,2283,true,1.0
+2080,516,true,1.0
+2223,516,true,1.0
+2108,516,true,1.0
+516,2072,true,1.0
+516,2089,true,1.0
+516,2133,true,1.0
+2080,518,true,1.0
+2132,518,true,1.0
+2108,518,true,1.0
+518,2072,true,1.0
+518,2089,true,1.0
+518,2421,true,1.0
+2080,518,true,1.0
+2223,518,true,1.0
+2108,518,true,1.0
+518,2072,true,1.0
+518,2089,true,1.0
+518,2133,true,1.0
+2080,519,true,1.0
+2251,519,true,1.0
+519,2072,true,1.0
+519,2089,true,1.0
+519,2422,true,1.0
+2084,520,true,1.0
+2284,520,true,1.0
+2235,520,true,1.0
+520,2288,true,1.0
+520,2201,true,1.0
+520,2346,true,1.0
+2080,521,true,1.0
+2395,521,true,1.0
+2164,521,true,1.0
+521,2072,true,1.0
+521,2089,true,1.0
+521,2382,true,1.0
+2080,522,true,1.0
+2115,522,true,1.0
+2121,522,true,1.0
+522,2072,true,1.0
+522,2089,true,1.0
+522,2423,true,1.0
+2080,523,true,1.0
+2423,523,true,1.0
+2252,523,true,1.0
+523,2072,true,1.0
+523,2089,true,1.0
+523,2424,true,1.0
+2080,525,true,1.0
+2260,525,true,1.0
+525,2072,true,1.0
+525,2089,true,1.0
+525,2425,true,1.0
+2080,528,true,1.0
+2204,528,true,1.0
+2124,528,true,1.0
+528,2072,true,1.0
+528,2089,true,1.0
+528,2159,true,1.0
+2080,531,true,1.0
+2086,531,true,1.0
+2122,531,true,1.0
+531,2072,true,1.0
+531,2089,true,1.0
+531,2084,true,1.0
+2132,532,true,1.0
+2120,532,true,1.0
+2080,532,true,1.0
+532,2072,true,1.0
+532,2089,true,1.0
+532,2158,true,1.0
+2082,533,true,1.0
+2016,533,true,1.0
+2164,533,true,1.0
+533,2076,true,1.0
+533,2089,true,1.0
+533,2381,true,1.0
+2080,534,true,1.0
+2167,534,true,1.0
+2164,534,true,1.0
+534,2214,true,1.0
+534,2201,true,1.0
+534,2380,true,1.0
+2080,536,true,1.0
+2303,536,true,1.0
+2122,536,true,1.0
+536,2214,true,1.0
+536,2201,true,1.0
+536,2001,true,1.0
+2080,538,true,1.0
+2017,538,true,1.0
+2123,538,true,1.0
+538,2214,true,1.0
+538,2201,true,1.0
+538,2139,true,1.0
+538,2108,true,1.0
+2080,540,true,1.0
+2164,540,true,1.0
+2123,540,true,1.0
+540,2214,true,1.0
+540,2201,true,1.0
+540,2324,true,1.0
+540,2108,true,1.0
+2080,541,true,1.0
+2123,541,true,1.0
+2292,541,true,1.0
+541,2072,true,1.0
+541,2089,true,1.0
+541,2108,true,1.0
+541,2163,true,1.0
+2080,542,true,1.0
+2040,542,true,1.0
+2292,542,true,1.0
+542,2072,true,1.0
+542,2089,true,1.0
+542,2043,true,1.0
+2080,543,true,1.0
+2088,543,true,1.0
+2292,543,true,1.0
+543,2072,true,1.0
+543,2089,true,1.0
+543,2188,true,1.0
