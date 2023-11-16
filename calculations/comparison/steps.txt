@@ -1,0 +1,4 @@
+Extracting R\d{5}\n.*\n.*
+\n\s+
+Extracting 
+ \| (Substrates|Products): 
