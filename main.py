@@ -32,15 +32,7 @@ MODULE_COLORS = json.load(open("modules/module_colors.json"))
 CACHED_REACTIONS = json.load(open("modules/cached_reactions.json"))
 CACHED_REACTION_IDS = json.load(open("modules/cached_reaction_ids.json"))
 CACHED_PATHWAYS = json.load(open("modules/map_conversion.json"))
-CACHED_ECS = [
-  "1.5.1.3", "2.1.1.198", "2.3.1.234", "2.4.2.1", "2.4.2.9", "2.5.1.6", "2.5.1.145", "2.7.1.11",
-  "2.7.1.23", "2.7.1.30", "2.7.1.40", "2.7.1.194", "2.7.4.8", "2.7.6.1", "2.7.7.2", "2.7.7.6",
-  "2.7.7.7", "2.7.7.18", "2.7.8.5", "2.7.8.7", "2.7.11.1", "3.1.1.29", "3.1.3.7", "3.1.21.10",
-  "3.2.2.23", "3.4.11.18", "3.4.21.53", "3.4.23.36", "3.5.1.88", "3.6.4.13", "4.1.2.13", "4.2.1.11",
-  "5.1.3.2", "5.3.1.9", "5.4.2.2", "5.6.2.1", "5.6.2.2", "6.1.1.2", "6.1.1.6", "6.1.1.7",
-  "6.1.1.10", "6.1.1.11", "6.1.1.12", "6.1.1.14", "6.1.1.20", "6.1.1.21", "6.3.4.2", "6.3.4.21",
-  "7.1.1.2"
-]
+CACHED_ECS = [ec.rstrip(".txt") for ec in os.listdir("cached_ecs")]
 OVERVIEW_MAPS = [
   "ec01100", "ec01110", "ec01120", "ec01200", "ec01210", "ec01212",
   "ec01230", "ec01232", "ec01250", "ec01240", "ec01220",
@@ -65,7 +57,7 @@ def get_enzymes(filepath: str):
     The function searches line by line, and searches for the pattern
     `EC:a.b.c.d` where a,b,c,d are numbers.
     It adds matches of this pattern to a custom set object.
-    Only EC numbers with at least 3 numbers are retrieved (e.g. 1.8.4.-)
+    Only EC numbers with at all numbers are retrieved (e.g. 1.8.4.5, not 1.8.4.-)
 
     :param filepath: the path of the file to read
     :return: a set of non-duplicate EC numbers
@@ -172,7 +164,9 @@ async def gather_kegg_results(urls: list[str]) -> tuple[list[tuple], list[str]]:
             if "Transferred entry" in str(text):
                 log(f"Transferred entry for {url}, sending it through to next batch")
                 start = text.index("NAME        Transferred to ") + 27
-                end = text.index("\\n", start)
+                end = text.find("\\n", start)
+                if end == -1:
+                    end = text.find("\n", start)
                 if " and " in text[start:end]:
                     transferred_ecs = text[start:end].split(" and ")
                     for ec in transferred_ecs:
@@ -243,64 +237,6 @@ def get_reaction_ids(text: str, ec_num: str) -> tuple[str, list[str]]:
     return ec_num, reactions
 
 
-def get_pathway_ids(text: str, ec_num: str):
-    log(f"> Getting pathway ids for {ec_num}", 1)
-    should_add = False
-    pathways = []
-    split_string = "\\n" if "\\n" in text else "\n"
-    for line in text.split(split_string):
-        if line.startswith("PATHWAY"):
-            should_add = True
-        if (
-            line.startswith("ORTHOLOGY")
-            or line.startswith("GENES")
-            or line.startswith("DBLINKS")
-        ):
-            should_add = False
-
-        if should_add:
-            matches = re.findall(r"ec\d{5}", line)
-            if matches is not None and matches[0] not in OVERVIEW_MAPS:
-                log(f"Adding pathway {matches[0]}", 2)
-                pathways.append(matches[0])
-
-    return pathways
-
-
-def get_module_ids(pathways: list[str]):
-    log(f"> Getting module ids", 1)
-    module_ids = []
-    for pathway in pathways:
-        log(f"> Finding modules for {pathway}", 2)
-
-        if pathway in CACHED_PATHWAYS:
-            log(f"Modules were cached. Found: {CACHED_PATHWAYS[pathway]}", 3)
-            module_ids += CACHED_PATHWAYS[pathway]
-            continue
-
-        response = requests.get(f"https://rest.kegg.jp/get/{pathway}")
-        if response.ok:
-            text = response.text
-            should_add = False
-            for line in text.split("\n"):
-                if line.startswith("MODULE"):
-                    should_add = True
-                if (
-                    line.startswith("DBLINKS")
-                    or line.startswith("ENZYME")
-                    or line.startswith("REL_PATHWAY")
-                    or line.startswith("COMPOUND")
-                ):
-                    should_add = False
-
-                if should_add:
-                    matches = re.findall(r"M\d{5}", line)
-                    if matches is not None:
-                        log(f"Adding module id {matches[0]}", 3)
-                        module_ids.append(matches[0])
-    return module_ids
-
-
 def extract_reaction(reactionID: str) -> tuple[list[str], list[str]]:
     """
     Extracts substrates and products from a KEGG reaction entry.
@@ -369,58 +305,24 @@ def extract_reaction(reactionID: str) -> tuple[list[str], list[str]]:
         return [], []
 
 
-def assign_modules(enzyme, modules):
+def assign_reactions(enzyme: str, reaction_ids: list[str]):
+    """
+
+    Counts the number of times a certain module can be assigned to the given enzyme.
+    This is later used to assign the main module to this enzyme.
+
+    This is done by finding the reaction map of each reaction in reaction_ids.
+    Then if this reaction map was found, it increments the count in the dictionary
+    for this enzyme, and if not, will set its count to 1.
+
+    :param enzyme: the enzyme to which modules will be assigned.
+    :param reaction_ids: the list of reactions that are catalysed by this enzyme,
+        of which each belong to a certain functional module.
+
+    """
     global enzyme_modules
 
     log(f"> Assigning modules to {enzyme}", 1)
-
-    # reaction_file = open("modules/aureus_reactions.json")
-    # reactions_dict = json.load(reaction_file)
-    # module_id = ""
-    # for key in reactions_dict.keys():
-    #     if rxn_id in reactions_dict[key]:
-    #         module_id = key
-    #         break
-
-    if enzyme not in enzyme_modules.keys():
-        log(f"Enzyme not in the list yet, creating a new set.", 2)
-        enzyme_modules[enzyme] = {}
-
-    if len(modules) == 0:
-        return
-
-    modules_file = open("modules/all_modules.json")
-    modules_dict = json.load(modules_file)
-
-    # for each of the found module ids, find the corresponding module
-    # e.g. M00019 -> Amino acid metabolism
-    for module in modules:
-        # for each of the possible modules (e.g. Carbohydrate metabolism, etc)
-        for key in modules_dict.keys():
-            if module in modules_dict[key]:
-                if key not in enzyme_modules[enzyme].keys():
-                    enzyme_modules[enzyme][key] = 1
-                else:
-                    enzyme_modules[enzyme][key] += 1
-
-    if len(enzyme_modules[enzyme]) != 0:
-        log(f"Modules assigned to {enzyme}: {enzyme_modules[enzyme]}", 2)
-    else:
-        log(f"No modules assigned to {enzyme}")
-
-
-def assign_reactions(enzyme, reaction_ids):
-    global enzyme_modules
-
-    log(f"> Assigning modules to {enzyme}", 1)
-
-    # reaction_file = open("modules/aureus_reactions.json")
-    # reactions_dict = json.load(reaction_file)
-    # module_id = ""
-    # for key in reactions_dict.keys():
-    #     if rxn_id in reactions_dict[key]:
-    #         module_id = key
-    #         break
 
     if enzyme not in enzyme_modules.keys():
         log(f"Enzyme not in the list yet, creating a new set.", 2)
@@ -429,7 +331,7 @@ def assign_reactions(enzyme, reaction_ids):
     if len(reaction_ids) == 0:
         return
 
-    modules_file = open("modules/all_reactions_new.json")
+    modules_file = open("modules/all_reactions.json")
     modules_dict = json.load(modules_file)
 
     # for each of the found module ids, find the corresponding module
@@ -500,9 +402,6 @@ async def process_all_urls(urls: list[str], enzyme_list: Set) -> list[tuple]:
             reactions = []
         else:
             log(f"> Working with {enzyme}")
-            # pathways = get_pathway_ids(text, enzyme)
-            # modules = get_module_ids(pathways)
-            # assign_modules(enzyme, modules)
 
             reactions = get_reaction_ids(text, enzyme)[1]
             assign_reactions(enzyme, reactions)
@@ -625,20 +524,20 @@ def update_ec_annotation(enzyme_list: Set):
             enzyme_list[i] = updated[enzyme_list[i]]
 
 
-def get_one_module(ec):
+def get_one_module(ec: str):
+    """
+    This function takes the global dictionary of module counts for all enzymes,
+    and determines the main module that can be assigned to the given enzyme
+    to this function. It does by choosing the module with the highest count.
+
+    If all counts are equal to 1, then it simply chooses a module by priority as
+    listed below.
+
+    :param ec: the enzyme to be assigned a single, main module.
+    :returns the module that represents the main module of the given enzyme
+    """
     module_list = enzyme_modules[ec]
-    # priority_list = [
-    #     "Carbohydrate metabolism",
-    #     "Energy metabolism",
-    #     "Lipid metabolism",
-    #     "Nucleotide metabolism",
-    #     "Amino acid metabolism",
-    #     "Glycan metabolism",
-    #     "Metabolism of cofactors and vitamins",
-    #     "Biosynthesis of terpenoids and polyketides",
-    #     "Biosynthesis of other secondary metabolites",
-    #     "Xenobiotics biodegradation",
-    # ]
+
     if len(module_list) == 0:
         return None
     if len(module_list) == 1:
@@ -814,6 +713,17 @@ def log(message: str, level=0):
 
 
 def report_time(start):
+    """
+    This function simply reports the time taken since the given start time.
+
+    The start time must be produced by the time.time() function (time in seconds
+    since the epoch).
+
+    If the time is less than 2 minutes, it will only display the seconds of
+    duration, otherwise it will print minutes and seconds.
+
+    :param: start time in seconds since the epoch
+    """
     end = time.time()
     duration = end - start
     if duration > 120:
