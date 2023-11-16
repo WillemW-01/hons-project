@@ -1,0 +1,8 @@
+ENTRY       EC 4.99.1.1       Obsolete  Enzyme
+NAME        Transferred to 4.98.1.1
+CLASS       Lyases;
+            Other lyases;
+            Sole sub-subclass for lyases that do not belong in the other subclasses
+COMMENT     Transferred entry: protoporphyrin ferrochelatase, now classified as EC 4.98.1.1, protoporphyrin ferrochelatase
+HISTORY     EC 4.99.1.1 created 1965, modified 2016, deleted 2021
+///

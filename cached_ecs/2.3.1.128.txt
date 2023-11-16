@@ -1,0 +1,8 @@
+ENTRY       EC 2.3.1.128      Obsolete  Enzyme
+NAME        Transferred to 2.3.1.266 and 2.3.1.267
+CLASS       Transferases;
+            Acyltransferases;
+            Transferring groups other than aminoacyl groups
+COMMENT     Transferred entry: ribosomal-protein-alanine N-acetyltransferase, now classified as EC 2.3.1.266, [ribosomal protein S18]-alanine N-acetyltransferase, and EC 2.3.1.267, [ribosomal protein S5]-alanine N-acetyltransferase.
+HISTORY     EC 2.3.1.128 created 1990, deleted 2018
+///

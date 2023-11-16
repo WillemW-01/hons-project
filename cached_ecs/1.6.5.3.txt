@@ -1,0 +1,8 @@
+ENTRY       EC 1.6.5.3        Obsolete  Enzyme
+NAME        Transferred to 7.1.1.2
+CLASS       Oxidoreductases;
+            Acting on NADH or NADPH;
+            With a quinone or similar compound as acceptor
+COMMENT     Transferred entry: NADH:ubiquinone reductase (H+-translocating). Now EC 7.1.1.2, NADH:ubiquinone reductase (H+-translocating)
+HISTORY     EC 1.6.5.3 created 1961, deleted 1965, reinstated 1983, modified 2011, modified 2013, deleted 2018
+///

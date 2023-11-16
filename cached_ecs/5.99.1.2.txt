@@ -1,0 +1,8 @@
+ENTRY       EC 5.99.1.2       Obsolete  Enzyme
+NAME        Transferred to 5.6.2.1
+CLASS       Isomerases;
+            Other isomerases;
+            Sole sub-subclass for isomerases that do not belong in the other subclasses
+COMMENT     Transferred entry: DNA topoisomerase. Now EC 5.6.2.1, DNA topoisomerase
+HISTORY     EC 5.99.1.2 created 1984, deleted 2018
+///

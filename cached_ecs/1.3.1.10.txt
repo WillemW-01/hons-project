@@ -1,0 +1,4808 @@
+ENTRY       EC 1.3.1.10                 Enzyme
+NAME        enoyl-[acyl-carrier-protein] reductase (NADPH, Si-specific);
+            acyl-ACP dehydrogenase (ambiguous);
+            enoyl-[acyl carrier protein] (reduced nicotinamide adenine dinucleotide phosphate) reductase;
+            NADPH 2-enoyl Co A reductase;
+            enoyl acyl-carrier-protein reductase (ambiguous);
+            enoyl-ACP reductase (ambiguous);
+            acyl-[acyl-carrier-protein]:NADP+ oxidoreductase (B-specific);
+            acyl-[acyl-carrier protein]:NADP+ oxidoreductase (B-specific);
+            enoyl-[acyl-carrier-protein] reductase (NADPH, B-specific)
+CLASS       Oxidoreductases;
+            Acting on the CH-CH group of donors;
+            With NAD+ or NADP+ as acceptor
+SYSNAME     acyl-[acyl-carrier protein]:NADP+ oxidoreductase (Si-specific)
+REACTION    an acyl-[acyl-carrier protein] + NADP+ = a trans-2,3-dehydroacyl-[acyl-carrier protein] + NADPH + H+ [RN:R01404]
+ALL_REAC    R01404 > R04430 R04725 R04956 R04959 R04962 R04967 R04970;
+            (other) R10118 R10122
+SUBSTRATE   acyl-[acyl-carrier protein] [CPD:C00173];
+            NADP+ [CPD:C00006]
+PRODUCT     trans-2,3-dehydroacyl-[acyl-carrier protein] [CPD:C00693];
+            NADPH [CPD:C00005];
+            H+ [CPD:C00080]
+COMMENT     One of the activities of EC 2.3.1.86, fatty-acyl-CoA synthase system, an enzyme found in yeasts (Ascomycota and Basidiomycota). Catalyses the reduction of enoyl-acyl-[acyl-carrier protein] derivatives of carbon chain length from 4 to 16. The yeast enzyme is Si-specific with respect to NADP+. cf. EC 1.3.1.39, enoyl-[acyl-carrier-protein] reductase (NADPH, Re-specific) and EC 1.3.1.104, enoyl-[acyl-carrier-protein] reductase (NADPH), which describes enzymes whose stereo-specificity towards NADPH is not known. See also EC 1.3.1.9, enoyl-[acyl-carrier-protein] reductase (NADH).
+HISTORY     EC 1.3.1.10 created 1972, modified 1986, modified 2013, modified 2014, modified 2018
+REFERENCE   1  [PMID:338601]
+  AUTHORS   Seyama Y, Kasama T, Yamakawa T, Kawaguchi A, Saito K.
+  TITLE     Origin of hydrogen atoms in the fatty acids synthesized with yeast fatty acid synthetase.
+  JOURNAL   J Biochem (Tokyo) 82:1325-9 (1977)
+            DOI:10.1093/oxfordjournals.jbchem.a131820
+PATHWAY     ec00061  Fatty acid biosynthesis
+            ec00780  Biotin metabolism
+            ec01100  Metabolic pathways
+ORTHOLOGY   K00208  enoyl-[acyl-carrier protein] reductase I
+GENES       ATH: AT2G05990(MOD1)
+            ALY: 9319790
+            CRB: 17892079
+            CSAT: 104707142 104771328 104773724
+            EUS: EUTSA_v10002561mg
+            BRP: 103860354 103860355
+            BNA: 106357744 106411242 106418332 106439777
+            BOE: 106301323 106334402
+            RSZ: 108856477 108862429
+            THJ: 104815336 104826592
+            CPAP: 110807389
+            CIT: 102609936
+            CIC: CICLE_v10015082mg
+            PVY: 116136622 116141706
+            MINC: 123205653 123209812 123224846 123227926 123229338
+            TCC: 18589696 18599097
+            GRA: 105784067 105790105 105798751
+            GHI: 107898485 107945393 121204843 121212651 121216156 121220156
+            GAB: 108450512 108467560 108486972
+            DZI: 111295635 111302771 111311569
+            EGR: 104432956 104445826
+            GMX: 100777266 100779679 100785606 100810475
+            GSJ: 114376535 114379903 114394780 114423689
+            PVU: PHAVU_008G134300g PHAVU_011G030400g
+            VRA: 106755827 106758594 106762957
+            VAR: 108327767 108338389 108340338
+            VUN: 114169731
+            CCAJ: 109798476 109814288
+            APRC: 113849776 113864978
+            MTR: 11446620 25498181
+            TPRA: 123892478 123917742
+            CAM: 101501718 101503362
+            PSAT: 127101624 127103518 127127812
+            LJA: Lj0g3v0249039.2(Lj0g3v0249039.2) Lj3g3v3513650.1(Lj3g3v3513650.1)
+            ADU: 107459120
+            AIP: 107609228
+            AHF: 112703179 112765048
+            LANG: 109352518 109353180 109355527
+            PCIN: 129290372 129296043 129310604
+            FVE: 101291943 101303102
+            RCN: 112165883 112191350
+            PPER: 18770437 18772294
+            PMUM: 103339423 103341841
+            PAVI: 110770733 110770952
+            PDUL: 117631036 117634715
+            MDM: 103401557 103415756 103430993 103449707
+            MSYL: 126589861 126591944 126600782 126616098
+            PXB: 103940555 103940970 103953997 103959004 103963886 103964860
+            ZJU: 107412646 107432338
+            MNT: 21400995 21401382
+            CSAV: 115700720 115719029
+            CSV: 101210519 101217385
+            CMO: 103491549 103492498
+            BHJ: 120071562 120089455
+            MCHA: 111021238 111021451
+            CMAX: 111483686 111490746
+            CMOS: 111441005 111449071 111459757
+            CPEP: 111777869 111793288 111794995
+            RCU: 8266286 8280423
+            JCU: 105634472 105646511
+            HBR: 110638202 110640193 110647941 110652690 110652921
+            MESC: 110600842 110621720
+            POP: 127905084 7455770 7461391 7483981
+            PEU: 105118943 105126154 105131780 105134969
+            PALZ: 118031973 118049800 118052361
+            JRE: 108994493 109001699
+            CILL: 122292766 122294296
+            CAVE: 132163512 132192133
+            QSU: 112015283 112025575
+            QLO: 115954053 115977594 115977634
+            TWL: 119992612 119997361
+            VVI: 100241680 100250344
+            VRI: 117916768 117921263
+            SLY: 101248511 101252237
+            SPEN: 107002777 107008304
+            SOT: 102593496 102606380
+            SSTN: 125865498 125872811
+            CANN: 107843945 107873565
+            LBB: 132607511 132626001 132637080
+            NTA: 107769328 107777990 107779625(enr-T2) 107781379 107798520 107809441(enr-T1)
+            NSY: 104218384 104238749 104248523
+            NTO: 104104756 104109076 104110523
+            NAU: 109213320 109225480 109236471 109243227
+            INI: 109160361 109181670
+            ITR: 116004396 116006824
+            SIND: 105159689 105162497 105163601
+            OEU: 111380177 111392747 111399695
+            EGT: 105951211 105976719
+            SSPL: 121748867 121753174 121762717 121769373 121769709 121772129
+            SMIL: 130988845 130988883
+            APAN: 127242797 127257938
+            HAN: 110918310 110920857 110927155
+            ECAD: 122594264 122595172 122595613 122597971 122603967
+            LSV: 111890240 111891898
+            CCAV: 112519811 112521005 112523311
+            DCR: 108209856 108224380
+            CSIN: 114282302 114313857
+            RVL: 131313617 131322818
+            AEW: 130770834 130781463 130785559
+            BVG: 104889901
+            SOE: 110802204
+            CQI: 110686509 110724264 110739780
+            ATRI: 130796880 130817400
+            MOF: 131147678 131165022 131165026
+            NNU: 104603532
+            MING: 122062129 122088454
+            TSS: 122642983 122643124
+            PSOM: 113276929 113283183 113296950 113325077 113344434
+            OSA: 4345286 4346596
+            DOSA: Os08t0327400-01(Os08g0327400) Os09t0277800-01(Os09g0277800)
+            OBR: 102700544 102719321
+            OGL: 127782968 127785478
+            BDI: 100824053
+            ATS: 109748461 109775828
+            TDC: 119301183 119308721 119330092 119337378
+            TAES: 123103401 123120963 123148112 123157231 123166163 543343
+            TUA: 125509018 125509025 125521786
+            LPER: 127300513 127313398
+            LRD: 124652314 124653457 124683784 124683843
+            SBI: 110433149 110437358
+            ZMA: 100192829 100193519
+            SITA: 101763044 101774372
+            SVS: 117846320 117862187
+            PVIR: 120660159 120673796 120679230 120712057
+            PHAI: 112880560 112898463
+            PDA: 103713921 103720260 120109333
+            EGU: 105050202 105061231
+            MUS: 103983280 103993437
+            ZOF: 121972532 121990850 121992087 121996022 122022886 122029147 122035901 122037120 122043180 122047709 122054721
+            DCT: 110101270 110111160
+            PEQ: 110023773
+            AOF: 109831548 109835310 109846388
+            NCOL: 116256870 116261443
+            ATR: 18439789
+            SMO: SELMODRAFT_148643 SELMODRAFT_159210
+            PPP: 112287039 112292915
+            CRE: CHLRE_06g294950v5
+            VCN: VOLCADRAFT_83516
+            CSL: COCSUDRAFT_65820
+            CVR: CHLNCDRAFT_59537
+            APRO: F751_0649
+            OLU: OSTLU_32790
+            OTA: OT_ostta07g03880
+            BPG: Bathy04g03720
+            MIS: MICPUN_94478
+            MPP: MICPUCDRAFT_28287
+            CME: CYME_CMT381C
+            GSL: Gasu_47760
+            CCP: CHC_T00009325001
+            PFA: PF3D7_0615100
+            PFD: PFDG_02817
+            PFH: PFHG_00569
+            PREI: PRSY57_0613800
+            PGAB: PGSY75_0615100
+            PYO: PY17X_1233300
+            PCB: PCHAS_1230500
+            PBE: PBANKA_1229800
+            PVV: PVVCY_1203080
+            PKN: PKNH_1134900
+            PVX: PVX_113890
+            PCY: PCYB_114200
+            PMAL: PMUG01_11048100(ENR)
+            PREL: PRELSG_1133000(ENR)
+            TGO: TGME49_251930(ENR)
+            SMIN: v1.2.033200.t1(symbB.v1.2.033200.t1)
+            PTI: PHATRDRAFT_10068(FABI)
+            FCY: FRACYDRAFT_173527
+            TPS: THAPSDRAFT_32860(EAR1)
+            AAF: AURANDRAFT_19845(UGD1)
+            SPAR: SPRG_20215
+            EHX: EMIHUDRAFT_462385
+            GTT: GUITHDRAFT_159245 GUITHDRAFT_89799
+            ECO: b1288(fabI)
+            ECJ: JW1281(fabI)
+            ECD: ECDH10B_1405(fabI)
+            EBW: BWG_1120(fabI)
+            ECOK: ECMDS42_1086(fabI)
+            ECE: Z2512(fabI)
+            ECS: ECs_1861(fabI)
+            ECF: ECH74115_1925(fabI)
+            ETW: ECSP_1809(fabI)
+            ELX: CDCO157_1781
+            EOI: ECO111_1671(fabI)
+            EOJ: ECO26_1855(fabI)
+            EOH: ECO103_1452(fabI)
+            ECOO: ECRM13514_1708(fabI)
+            ECOH: ECRM13516_1675(fabI)
+            ESL: O3K_13890
+            ESO: O3O_11740
+            ESM: O3M_13865
+            ECK: EC55989_1450(fabI)
+            ECG: E2348C_1482(fabI)
+            EOK: G2583_1630(fabI)
+            ELR: ECO55CA74_07935
+            ELH: ETEC_1392
+            ECW: EcE24377A_1494(fabI)
+            EUN: UMNK88_1621
+            ECP: ECP_1342
+            ENA: ECNA114_1480(fabI)
+            ECOS: EC958_1622(fabI)
+            ECV: APECO1_447(fabI)
+            ECOA: APECO78_10315
+            ECX: EcHS_A1401(fabI)
+            ECM: EcSMS35_1839(fabI)
+            ECY: ECSE_1340
+            ECR: ECIAI1_1313(fabI)
+            ECQ: ECED1_1499(fabI)
+            EUM: ECUMN_1592(fabI)
+            ECT: ECIAI39_1630(fabI)
+            EOC: CE10_1532(fabI)
+            EBR: ECB_01265(fabI)
+            EBL: ECD_01265(fabI)
+            EBE: B21_01276(fabI)
+            EBD: ECBD_2329
+            ECI: UTI89_C1561(fabI)
+            EIH: ECOK1_1505(fabI)
+            ECZ: ECS88_1430(fabI)
+            ECC: c1759(fabI)
+            ELO: EC042_1414(fabI)
+            ELN: NRG857_06625
+            ESE: ECSF_1272
+            ECL: EcolC_2337
+            EKO: EKO11_2562
+            EKF: KO11_16370(fabI)
+            EAB: ECABU_c15740(fabI)
+            EDH: EcDH1_2358
+            EDJ: ECDH1ME8569_1230(fabI)
+            ELU: UM146_10320
+            ELW: ECW_m1384(fabI)
+            ELL: WFL_06745(fabI)
+            ELC: i14_1589(fabI)
+            ELD: i02_1589(fabI)
+            ELP: P12B_c1804(fabI)
+            ELF: LF82_0610(fabi)
+            ECOL: LY180_06560
+            ECOI: ECOPMV1_01487(fabI)
+            ECOJ: P423_07610
+            EFE: EFER_1665(fabI)
+            EAL: EAKF1_ch0142(fabI)
+            EMA: C1192_05605
+            ESZ: FEM44_21510(fabI)
+            ERUY: OSH18_01775(fabI)
+            STY: STY1352(fabI)
+            STT: t1613(fabI)
+            SEX: STBHUCCB_17110
+            SENT: TY21A_08175
+            STM: STM1700(fabI)
+            SEO: STM14_2053(fabI)
+            SEV: STMMW_16961
+            SEY: SL1344_1631(fabI)
+            SEM: STMDT12_C17210(fabI)
+            SEJ: STMUK_1670(fabI)
+            SEB: STM474_1714(fabI)
+            SEF: UMN798_1788(fabI)
+            SETU: STU288_04870
+            SETC: CFSAN001921_08595
+            SENR: STMDT2_16241(fabI)
+            SEND: DT104_16711(fabI)
+            SENI: CY43_08680
+            SEEN: SE451236_14430
+            SPT: SPA1177(fabI)
+            SEK: SSPA1095
+            SPQ: SPAB_01556
+            SEI: SPC_2032(fabI)
+            SEC: SCH_1694(fabI)
+            SEH: SeHA_C1885(fabI)
+            SHB: SU5_02309
+            SENH: CFSAN002069_00460
+            SEEH: SEEH1578_17760
+            SEE: SNSL254_A1823(fabI)
+            SENN: SN31241_27810
+            SEW: SeSA_A1828(fabI)
+            SEA: SeAg_B1450(fabI)
+            SENS: Q786_06700
+            SED: SeD_A1632(fabI)
+            SEG: SG1414(fabI)
+            SEL: SPUL_1509(fabI)
+            SEGA: SPUCDC_1509(fabI)
+            SET: SEN1332(fabI)
+            SENA: AU38_06870
+            SENO: AU37_06865
+            SENV: AU39_06875
+            SENQ: AU40_07760
+            SENL: IY59_07040
+            SENJ: CFSAN001992_02995
+            SEEC: CFSAN002050_14955
+            SEEB: SEEB0189_011010
+            SEEP: I137_06810
+            SENB: BN855_17510(fabI)
+            SENE: IA1_08425
+            SENC: SEET0819_15230
+            SES: SARI_01263
+            SBG: SBG_1562(fabI)
+            SBZ: A464_1791
+            SBV: N643_07510
+            SALZ: EOS98_10770(fabI)
+            SFL: SF1293(fabI)
+            SFX: S1375(fabI)
+            SFV: SFV_1302(fabI)
+            SFE: SFxv_1465(fabI)
+            SFN: SFy_1859
+            SFS: SFyv_1916
+            SFT: NCTC1_01368(fabI)
+            SSN: SSON_1852(fabI)
+            SBO: SBO_1774(fabI)
+            SBC: SbBS512_E1522(fabI)
+            SDY: SDY_1368(fabI)
+            SDZ: Asd1617_01794
+            SHQ: A0259_10560
+            ENC: ECL_01757
+            ENL: A3UG_12740
+            ECLG: EC036_24160
+            ECLE: ECNIH2_12385
+            ECLN: ECNIH4_10665
+            ECLI: ECNIH5_10190
+            ECLX: LI66_12125
+            ECLY: LI62_13945
+            ECLZ: LI64_11950
+            ECLO: ENC_08530
+            EHM: AB284_13240
+            EXF: BFV63_12130
+            ECLA: ECNIH3_11635
+            ECLC: ECR091_11575
+            EAU: DI57_06600
+            EKB: BFV64_12340
+            ENO: ECENHK_12295
+            EEC: EcWSU1_02491(fabI)
+            ELG: BH714_08280
+            ECAN: CWI88_10535
+            ERN: BFV67_11825
+            ECLS: LI67_013460
+            ECHG: FY206_13575(fabI)
+            ESH: C1N69_12440(fabI)
+            ENT: Ent638_2178
+            EAS: Entas_2349
+            ENR: H650_01995
+            ENX: NI40_012235
+            ENF: AKI40_3301
+            LNI: CWR52_22615(fabI)
+            EBG: FAI37_16770(fabI)
+            END: A4308_16660
+            ENZ: G0034_12400(fabI)
+            ENS: HWQ15_20785(fabI)
+            ENK: LOC22_00275(fabI)
+            EHU: D5067_0010435(fabI)
+            EMOR: L6Y89_11855(fabI)
+            ENB: ELK40_12885(fabI)
+            EQU: OM418_12195(fabI)
+            EPU: QVH39_12985(fabI)
+            ESA: ESA_01591
+            CSK: ES15_1818(fabI)
+            CSZ: CSSP291_07685
+            CSJ: CSK29544_02890
+            CCON: AFK62_10505
+            CDM: AFK67_10785
+            CSI: P262_02602
+            CMJ: AFK66_008605
+            CUI: AFK65_10970
+            CMW: AFK63_07685
+            CTU: CTU_23270(fabI)
+            KPN: KPN_01284(fabI)
+            KPU: KP1_2327(fabI)
+            KPM: KPHS_21940
+            KPP: A79E_2895
+            KPH: KPNIH24_17680
+            KPZ: KPNIH27_10635
+            KPV: KPNIH29_11165
+            KPW: KPNIH30_11430
+            KPY: KPNIH31_10815
+            KPG: KPNIH32_11270
+            KPC: KPNIH10_10850
+            KPQ: KPR0928_11020
+            KPT: VK055_1165(fabI)
+            KPO: KPN2242_09550
+            KPR: KPR_2335(fabI)
+            KPJ: N559_2990
+            KPI: D364_06675
+            KPA: KPNJ1_03215
+            KPS: KPNJ2_03206
+            KPX: PMK1_03670(fabI)
+            KPB: FH42_02315
+            KPNE: KU54_015230
+            KPNU: LI86_15540
+            KPNK: BN49_2422(fabI)
+            KVA: Kvar_3029
+            KPE: KPK_3148(fabI)
+            KPK: A593_21170
+            KVD: KR75_19010
+            KVQ: SP68_25450
+            KOX: KOX_18475
+            KOE: A225_2551
+            KOY: J415_19145
+            KOM: HR38_16770
+            KMI: VW41_12075
+            KOK: KONIH1_12270
+            KOC: AB185_23720
+            KQU: AVR78_15850
+            EAE: EAE_21270
+            EAR: CCG29682
+            KQV: B8P98_15905
+            KLL: BJF97_12805
+            KLW: DA718_16165(fabI)
+            KAR: LGL98_14560(fabI)
+            KGR: JJJ10_16050(fabI)
+            KPAS: LUW96_18830(fabI)
+            KLC: K7H21_16070(fabI)
+            KLM: BWI76_12000
+            ROR: RORB6_08220
+            RON: TE10_12600
+            RPLN: B1209_15520
+            RAO: DSD31_14795(fabI)
+            RTG: NCTC13098_04125(fabI)
+            REE: electrica_02926(fabI)
+            CRO: ROD_17111(fabI)
+            CKO: CKO_01375
+            CFD: CFNIH1_18785
+            CBRA: A6J81_05225(fabI)
+            CWE: CO701_09120
+            CYO: CD187_11005
+            CPOT: FOB25_22545(fabI)
+            CFQ: C2U38_11240
+            CSED: JY391_10445(fabI)
+            CAMA: F384_07950
+            CAF: AL524_14290(fabI)
+            CIF: AL515_13060(fabI)
+            CFAR: CI104_14025
+            CIR: C2U53_23030
+            CIE: AN232_17035(fabI)
+            CPAR: CUC49_08775
+            CTEL: GBC03_16530(fabI)
+            CITZ: E4Z61_05960(fabI)
+            CARS: E1B03_14235(fabI)
+            CIX: M4I31_10810(fabI)
+            CIB: HF677_011075(fabI)
+            BFL: Bfl424(fabI)
+            BPN: BPEN_436(fabI)
+            BVA: BVAF_425(fabI)
+            BCHR: BCHRO640_448(fabI)
+            BHB: M9394_00455
+            BVX: M9408_00455
+            BEN: BOBLI757_422(fabI)
+            BED: BTURN675_414(fabI)
+            BEC: GN160_00145
+            BEM: M9396_00275
+            BOCR: M9405_02040
+            WCA: WEOB_259(fabI)
+            HDE: HDEF_2100(fabI)
+            SECT: A359_01930
+            SEHC: A35E_00085
+            RIP: RIEPE_0128
+            RIG: AOQ88_00355
+            MEN: MEPCIT_037
+            MEO: MPC_344(fabI)
+            EBT: EBL_c16400
+            CNT: JT31_00220
+            CEM: LH23_18040
+            CEN: LH86_16845
+            CLAP: NCTC11466_01882(fabI)
+            PGE: LG71_18155
+            ESC: Entcl_2497
+            KLE: AO703_09750
+            KSA: C813_02550
+            KOR: AWR26_11950(fabI)
+            KRD: A3780_12135
+            KCO: BWI95_17330
+            KOT: EH164_10845(fabI)
+            KPSE: IP581_12085(fabI)
+            KOB: HF650_12115(fabI)
+            KOO: O9K67_11715(fabI)
+            KIE: NCTC12125_01587(fabI)
+            KAS: KATP_25110
+            KLU: K7B04_15945(fabI)
+            KCY: RIN60_12830(fabI)
+            ICP: ICMP_083(fabI)
+            LAX: APT61_09635
+            LEI: C2U54_17880
+            LEH: C3F35_21890
+            LEE: DVA44_10520(fabI)
+            LER: GNG29_12410(fabI)
+            LEA: GNG26_12715(fabI)
+            LPNU: KQ929_09010(fabI)
+            LEY: DVA43_04875(fabI)
+            LAZ: A8A57_11700
+            LEF: LJPFL01_2291
+            LEW: DAI21_14840(fabI)
+            BUF: D8682_03625(fabI)
+            BAGE: BADSM9389_20400(fabI)
+            BFT: MNO13_11870(fabI)
+            SBW: TGUWTKB_0500(fabI)
+            DEN: MHIR_DE00008(fabI)
+            HED: TPER_HE00031(fabI)
+            GED: FVIR_GE00158(fabI)
+            CMIK: PMARG_ME00134(fabI)
+            PPET: C9I82_362
+            SYM: K6K13_09115(fabI)
+            AHN: NCTC12129_02884(fabI)
+            ASUB: NLZ15_09775(fabI)
+            YRE: HEC60_04770(fabI)
+            SGOE: A8O29_012990(fabI)
+            KIN: AB182_13015
+            PDZ: HHA33_14435(fabI)
+            METY: MRY16398_30370(fabI)
+            IZH: FEM41_18860(fabI)
+            PTF: PROFFT_A_02430(fabI)
+            PLAR: GII40_00238(fabI)
+            SNY: KEC38_02540
+            PSHI: SAMEA2665130_1168(fabI)
+            PSGC: G163CM_14510(fabI)
+            SCOL: KFZ77_10575(fabI)
+            PVJ: LMA04_01350(fabI)
+            SUPE: P0H77_10175(fabI)
+            TOE: QMG90_10525(fabI)
+            EBF: D782_2413
+            EBC: C2U52_23925
+            EBU: CUC76_04265
+            PSTS: E05_16460
+            EEP: GJT83_00405
+            EEM: GJT87_00365
+            YRU: BD65_415(fabI)
+            YRB: UGYR_02140
+            YAS: N0H69_13660(fabI)
+            SERA: Ser39006_012375
+            SERQ: CWC46_12370
+            SOF: NCTC11214_04259(fabI)
+            FSM: CCS41_07600
+            CARU: P0E69_11355(fabI)
+            ECA: ECA1972(fabI)
+            PATR: EV46_09480
+            PATO: GZ59_26270(fabI)
+            PCT: PC1_2347
+            PCC: PCC21_024480
+            PCV: BCS7_11815
+            PWA: Pecwa_2618
+            PPAR: A8F97_05585
+            PEC: W5S_2588
+            PWS: A7983_20450
+            PPOA: BJK05_06570
+            PBRA: B5S52_10070
+            PPUJ: E2566_12115(fabI)
+            PARI: I2D83_12560(fabI)
+            PAQU: DMB82_0009850(fabI)
+            PVZ: OA04_19180(fabI)
+            PPAV: LOZ86_11740(fabI)
+            PQU: IG609_011070(fabI)
+            PPOO: LW347_11835(fabI)
+            PCAC: OI450_08675(fabI)
+            PACB: M9782_14270(fabI)
+            DDD: Dda3937_03108(fabI)
+            DZE: Dd1591_1747
+            DDC: Dd586_1705
+            DZC: W909_11500
+            DSO: A4U42_00390
+            CED: LH89_21885
+            DFN: CVE23_13125
+            DDQ: DDI_2361
+            DAQ: DAQ1742_02699(fabI)
+            DIC: Dpoa569_001612(fabI)
+            DLC: O1Q98_03775(fabI)
+            DDA: Dd703_1713
+            BGJ: AWC36_06685
+            BRB: EH207_08080(fabI)
+            BNG: EH206_09070(fabI)
+            BIZ: HC231_11960(fabI)
+            LBQ: CKQ53_12865
+            LPOP: I6N93_07280(fabI)
+            PROD: PCO85_12145(fabI)
+            SGL: SG1513
+            SOD: Sant_1884(fabI)
+            PES: SOPEG_2551(fabI)
+            SENY: HBA_0510(fabI)
+            SLIG: GTU79_15240(fabI)
+            ETO: RIN69_12335(fabI)
+            EGE: EM595_1917(fabI)
+            BUC: BU265(fabI)
+            BAP: BUAP5A_260(fabI)
+            BAU: BUAPTUC7_262(fabI)
+            BAW: CWU_01735
+            BAJC: CWS_01380
+            BUA: CWO_01385
+            BUP: CWQ_01410
+            BAK: BAKON_267(fabI)
+            BUH: BUAMB_247(fabI)
+            BAPF: BUMPF009_CDS00331(fabi)
+            BAPG: BUMPG002_CDS00332(fabi)
+            BAPU: BUMPUSDA_CDS00331(fabi)
+            BAPW: BUMPW106_CDS00331(fabi)
+            BAS: BUsg_255(fabI)
+            BAB: bbp_246(fabI)
+            BCC: BCc_167(fabI)
+            BAJ: BCTU_172(fabI)
+            BAPH: IX46_01390
+            WBR: fabI
+            WGL: WIGMOR_0405(fabI)
+            PAM: PANA_2035(fabI)
+            PLF: PANA5342_2140(fabI)
+            PAJ: PAJ_1359(fabI)
+            PAQ: PAGR_g2071
+            PVA: Pvag_1471(fabI)
+            PAGG: AL522_14580(fabI)
+            PAO: Pat9b_2054
+            KLN: LH22_12005
+            PANT: PSNIH1_13905
+            PANP: PSNIH2_07720
+            HHS: HHS_06340
+            PCK: BMSBPS_0263
+            PAGC: BEE12_17300
+            PSTW: DSJ_14395
+            PALH: B1H58_17025
+            PANS: FCN45_10270(fabI)
+            PEY: EE896_09055(fabI)
+            PDIS: D8B20_09035(fabI)
+            PER: LAC65_07945(fabI)
+            PJI: KTJ90_09160(fabI)
+            PANO: OJ965_11240(fabI)
+            KPIE: N5580_08150(fabI)
+            PALF: K6R05_08970(fabI)
+            PGZ: C2E15_11115
+            PCD: C2E16_10980
+            MINT: C7M51_01394(fabI)
+            MTHI: C7M52_01357(fabI)
+            MHAN: K6958_11065(fabI)
+            TCI: A7K98_10140
+            TPTY: NCTC11468_01987(fabI)
+            PLU: plu2592(fabI)
+            PLUM: A4R40_12885
+            PAY: PAU_01942(fabI)
+            PTT: VY86_18590
+            PAKH: B0X70_13160
+            PLUI: CE143_13160
+            PMR: PMI1383(fabI)
+            PMIB: BB2000_1406(fabI)
+            PVL: AOB99_08845
+            PVG: CRN77_13630
+            PHAU: PH4a_14540
+            PROT: BTA34_06750
+            PCOL: F1325_08690(fabI)
+            PCIB: F9282_08635(fabI)
+            PPEE: I6G31_01575(fabI)
+            XBO: XBJ1_2481(fabI)
+            XBV: XBW1_2965(fabI)
+            XNE: XNC1_2629(fabI)
+            XNM: XNC2_2526(fabI)
+            XDO: XDD1_1869(fabI)
+            XPO: XPG1_1592(fabI)
+            XHO: A9255_06665
+            XBU: HGO23_09265(fabI)
+            XGR: QL128_09475(fabI)
+            PSI: S70_19655
+            PSX: DR96_2840(fabI)
+            PSTA: BGK56_01705
+            PVC: G3341_11655(fabI)
+            PMAG: JI723_11565(fabI)
+            PTHA: OI982_03695(fabI)
+            MMK: MU9_2379
+            ASY: AUT07_00533(fabI)
+            AEN: ARADI_0558(fabI)
+            ANS: ArsFIN_21230(fabI)
+            AED: E3U36_10980(fabI)
+            AET: LDL57_07470(fabI)
+            AAPC: QG404_08010(fabI)
+            MWI: MNY66_07145(fabI)
+            HAV: AT03_10285
+            HPAR: AL518_13695(fabI)
+            OPO: DSM2777_17215
+            LPV: HYN51_01655(fabI)
+            PFQ: QQ39_09285
+            PRAG: EKN56_08340(fabI)
+            LRI: NCTC12151_01878(fabI)
+            HIN: HI_1734
+            HIT: NTHI2042(fabI)
+            HIP: CGSHiEE_03375(prfC)
+            HIQ: CGSHiGG_02410
+            HIF: HIBPF_04560
+            HIL: HICON_13570
+            HIU: HIB_19080
+            HIE: R2846_0663(fabI)
+            HIZ: R2866_0723(fabI)
+            HIK: HifGL_001409(fabI)
+            HIA: H733_0751
+            HIH: NF38_05570
+            HIW: NTHI477_00008(fabI)
+            HIC: NTHIC486_01060(fabI)
+            HIX: NTHI723_01734(fabI)
+            HPR: PARA_18890
+            HDU: HD_1266(fabI)
+            HPIT: NCTC13334_01339(fabI)
+            HHZ: NCTC10839_01168(fabI)
+            HAEG: NCTC8502_01915(fabI)
+            HPAA: E5Q53_00025(fabI)
+            HSEM: L3077_05410
+            HAP: HAPS_0512(fabI)
+            HPAZ: K756_03325
+            HPAS: JL26_03275
+            HPAK: JT17_01045
+            GLE: CJD39_04140
+            HSO: HS_0662(fabI)
+            HSM: HSM_1002
+            PMU: PM0182(fabI)
+            PMV: PMCN06_1119(fabI)
+            PUL: NT08PM_1150
+            PMP: Pmu_11310(fabI)
+            PMUL: DR93_1884(fabI)
+            PDAG: 4362423_01168(fabI)
+            PSKY: A6B44_02425
+            PATL: KGI96_07040
+            PCAI: K7G93_001114(fabI)
+            MSU: MS1467(fabI)
+            BSUN: A4G13_04815
+            MHT: D648_14300
+            MHQ: D650_12560
+            MHAT: B824_11900
+            MHX: MHH_c19090(fabI)
+            MHAE: F382_01950
+            MHAM: J450_01390
+            MHAO: J451_01430
+            MHAL: N220_06160
+            MHAQ: WC39_06450
+            MHAY: VK67_06455
+            MVR: X781_11320
+            MVI: X808_11630
+            MVG: X874_10730
+            MVE: X875_10010
+            MGRA: A4G16_03690
+            MBOS: ICJ55_08320
+            MPEG: HV560_07670
+            MANN: GM695_07655
+            APL: APL_0755(fabI)
+            APJ: APJL_0756(fabI)
+            APA: APP7_0798(fabI)
+            ASU: Asuc_1067
+            ASI: ASU2_03305
+            ASS: ASU1_03035
+            AEU: ACEE_03270
+            APOR: DDU33_07560
+            AIO: EXH44_00635
+            ADP: NCTC12871_01130(fabI)
+            ALIG: NCTC10568_00677(fabI)
+            AGP: NYR63_03860
+            AAP: NT05HA_0379
+            AAZ: ADJ80_06470
+            AAT: D11S_1076
+            AAO: ANH9381_1396
+            AAN: D7S_00552
+            AAH: CF65_01738
+            AACN: AANUM_1353
+            AACT: ACT75_02290
+            ASEG: NCTC10977_01784(fabI)
+            AGJ: J5A60_06175 J5A60_06205
+            GAN: UMN179_01854
+            GSS: NYR30_02115(fabI)
+            BTO: WQG_10900
+            BTRE: F542_11160
+            BTRH: F543_12620
+            BTRA: F544_11270
+            APAG: EIA51_04925
+            AVT: NCTC3438_01844(fabI)
+            RHEY: FEE42_00305
+            RHAE: IHV77_01235
+            OOI: A6A10_03785
+            FCL: A4G17_07725
+            BHUD: A6A11_07680
+            MSEP: CEP49_03245
+            PAET: NCTC13378_01280(fabI)
+            PWI: MWN52_06265
+            LMB: C9I47_1232
+            LYT: DWG18_08640
+            LUE: DCD74_02740
+            LYJ: FKV23_10990
+            LSOL: GOY17_12795
+            LSX: H8B22_02035
+            LARE: HIV01_001805
+            LHX: LYSHEL_02640
+            LCAS: LYSCAS_02640
+            LCIC: INQ41_09870
+            LAVI: INQ42_09315
+            LLZ: LYB30171_01811(fabI)
+            LAUX: LA521A_24740
+            LUG: FPZ22_11315
+            THES: FHQ07_03290
+            THEH: G7079_09935
+            TCN: H9L16_10405
+            TBV: H9L17_04615
+            XBC: ELE36_07760
+            FAU: Fraau_2502
+            FSG: LQ771_06290
+            FED: LQ772_07505
+            DTX: ATSB10_09510
+            DCS: ISN74_07290
+            DTL: H8F01_03545(fabI)
+            LRZ: BJI69_21725
+            XBA: C7S18_04225
+            SALY: E8E00_15630(fabI)
+            SKS: FCN78_14625(fabI)
+            SCOT: HBA18_15520(fabI)
+            SPRO: N7E60_14125(fabI)
+            PAE: PA1806(fabI)
+            PAEV: N297_1861(fabI)
+            PAEI: N296_1861(fabI)
+            PAU: PA14_41170(fabI)
+            PAP: PSPA7_3490
+            PAG: PLES_35211(fabI)
+            PAF: PAM18_3238(fabI)
+            PNC: NCGM2_2718(fabI)
+            PAEB: NCGM1900_4692(fabI)
+            PDK: PADK2_16635
+            PSG: G655_16125
+            PRP: M062_09450
+            PAEP: PA1S_16930
+            PAER: PA1R_gp5431
+            PAEM: U769_16645
+            PAEL: T223_17985
+            PAES: SCV20265_3597
+            PAEU: BN889_01942(fabI_1) BN889_01943(fabI_2)
+            PAEG: AI22_17060
+            PAEC: M802_1859(fabI)
+            PAEO: M801_1860(fabI)
+            PMY: Pmen_2056
+            PMK: MDS_2209
+            PRE: PCA10_36810
+            PPSE: BN5_2226(fabI1) BN5_4100(fabI3)
+            PFUW: KF707C_20140
+            PALC: A0T30_10580
+            PCQ: PcP3B5_22120(fabI)
+            PMUI: G4G71_11275
+            PNT: G5B91_12575
+            PPAA: B7D75_15970
+            POR: APT59_10940
+            PST: PSPTO_3721(fabI)
+            PSB: Psyr_1754
+            PSYR: N018_17505
+            PSP: PSPPH_1703(fabI)
+            PSAV: PSA3335_20250
+            PAMG: BKM19_011020
+            PCI: PCH70_15600
+            PAVL: BKM03_10460
+            PVD: CFBP1590__3711(fabI)
+            PCAB: JGS08_09510
+            PCOF: POR16_15955
+            PTRE: I9H09_09325
+            PSYI: MME58_08915(fabI)
+            PAST: N015_09275
+            PLIJ: KQP88_07505
+            PFL: PFL_3306(fabI)
+            PPRC: PFLCHA0_c33360(fabI)
+            PPRO: PPC_3330(fabI)
+            PFE: PSF113_3618(fabI)
+            PFO: Pfl01_2177(fabI)
+            PMAN: OU5_0684
+            PCG: AXG94_04080
+            PMED: E3Z27_16360
+            PKR: AYO71_13530
+            PLUL: FOB45_12685
+            PBA: PSEBR_a3293
+            PBC: CD58_12685
+            PPUU: PputUW4_02888(fabI)
+            PDR: H681_10805
+            PSK: U771_12480
+            PKC: PKB_1992(fabI)
+            PFZ: AV641_16325
+            PLQ: AA042_17235
+            PRH: LT40_02155
+            PSES: PSCI_3595
+            PPSY: AOC04_13685
+            PSOS: POS17_2765(fabI)
+            PFK: PFAS1_27085
+            PPSL: BJP27_02310
+            PSET: THL1_3638
+            PSIL: PMA3_15415
+            PKE: DLD99_11545
+            PALL: UYA_13410
+            PUM: HGP31_14355
+            POJ: PtoMrB4_36950(fabI)
+            PGG: FX982_02880
+            PPSH: G5J76_19940
+            PGY: AWU82_17940
+            PLAL: FXN65_18000
+            PSEJ: HNQ25_11985
+            PVK: EPZ47_12555
+            PEZ: HWQ56_21055
+            PBZ: GN234_05625
+            PKH: JLK41_10985
+            PTY: JWV26_23295
+            PMAO: PMYSY11_2506(fabI)
+            PATA: JWU58_16695
+            PZE: HU754_012625
+            PMOE: HV782_017435
+            PCAM: HNE05_06050
+            PTZ: HU718_018130
+            PQI: KH389_18090
+            PHV: HU739_006780
+            PAZE: KSS91_16140
+            PALV: KSS97_12320
+            PWZ: J7655_11875
+            PTW: TUM18999_20280
+            PZA: HU749_017700
+            PIE: HU724_011410
+            PTAE: NCTC10697_03170(fabI)
+            PGF: J0G10_18120
+            PHF: NLY38_13655(fabI)
+            PPHN: HU825_15480
+            PIZ: LAB08_R31950
+            PSII: NF676_10900(fabI)
+            PCAS: LOY40_11825(fabI)
+            PFIT: KJY40_12715
+            PNB: NK667_13685(fabI)
+            PSOA: PSm6_01650
+            PKJ: Q1W70_24500(fabI)
+            PSA: PST_0688 PST_2262
+            PSZ: PSTAB_2147(fabI)
+            PSR: PSTAA_2289
+            PSC: A458_09475
+            PSJ: PSJM300_10260
+            PSH: Psest_2063
+            PSTT: CH92_12090
+            PSTU: UIB01_10670 UIB01_20525
+            PSED: DM292_08070
+            PCHL: LLJ08_09950(fabI)
+            PBM: CL52_08895
+            PKG: LW136_12650(fabI)
+            SDEG: GOM96_02470
+            PZD: KQ248_16460
+            AVN: Avin_29690(fabI) Avin_44040
+            AVL: AvCA_29690(fabI) AvCA_44040
+            AVD: AvCA6_29690(fabI) AvCA6_44040
+            ACX: Achr_18170(fabI) Achr_40280
+            PBB: AKN87_05175
+            PAGR: E2H98_04410
+            EMO: DM558_13455
+            EAZ: JHT90_00090(fabI) JHT90_14660
+            HPEG: EAO82_14590
+            HAES: LO767_05040(fabI)
+            PDEN: F1C79_04180
+            HARR: HV822_15790
+            PNN: KEM63_09305
+            PPHA: BVH74_12295
+            DCE: O6P33_08235(fabI)
+            PBAU: OS670_03400(fabI)
+            MAQ: Maqu_1542
+            MHC: MARHY1744(fabI)
+            MAD: HP15_1811
+            MBS: MRBBS_2113(fabI)
+            MPQ: ABA45_09995
+            MARI: ACP86_21440
+            MLQ: ASQ50_00735
+            MSQ: BKP64_05085
+            MARA: D0851_02560
+            MARJ: MARI_12150(fabI)
+            MALL: PBN92_09675
+            MSHE: MAALD49_19210(fabI)
+            PAR: Psyc_1045(fabI)
+            PCR: Pcryo_1424
+            PRW: PsycPRwf_0956
+            PSO: PSYCG_07465
+            PUR: AOC03_00445
+            PALI: A3K91_1424
+            PSPG: AK823_06240
+            PSYG: AK825_06310
+            PSYC: DABAL43B_1391(fabI)
+            PSYA: AOT82_481
+            PSYY: DLE54_04825
+            PSYP: E5677_06270
+            PKY: PKHYL_18930(fabI)
+            PCIA: Q6344_07440
+            ACB: A1S_0534
+            ABM: ABSDF2986(fabI)
+            ABY: ABAYE3250(fabI)
+            ABC: ACICU_00543
+            ABN: AB57_0616
+            ABB: ABBFA_02995(fabI)
+            ABX: ABK1_0577
+            ABZ: ABZJ_00574
+            ABR: ABTJ_03242
+            ABD: ABTW07_0572
+            ABH: M3Q_787
+            ABAD: ABD1_05040(fabI)
+            ABJ: BJAB07104_00588
+            ABAB: BJAB0715_00554
+            ABAJ: BJAB0868_00592
+            ABAZ: P795_14720
+            ABK: LX00_02660
+            ABAU: IX87_17170
+            ABAA: IX88_04870
+            ABW: BL01_16860
+            ABAL: ABLAC_32690
+            ACC: BDGL_003446(fabI)
+            ANO: RR32_15475
+            ALC: OTEC02_16085
+            ACAL: BUM88_02630
+            ASEI: I8T81_16155
+            ACD: AOLE_16760
+            ACI: ACIAD3116(fabI)
+            ATT: AMQ28_05335
+            AEI: AOY20_01610
+            AJO: RZ95_02490 RZ95_19730
+            ACW: A0J50_14910
+            ACV: AMD27_13580
+            AHL: AHTJS_13870
+            AJN: BVL33_04045
+            ASOL: BEN76_10695
+            ALA: BFG52_13240
+            ASJ: AsACE_CH00489(fabI)
+            AID: CTZ23_12730
+            ADV: DJ533_15680
+            ARJ: DOM24_02275
+            AWU: BEN71_00110 BEN71_16215
+            ACUM: C9E88_006665
+            AGU: AS4_38330(fabI)
+            AUG: URS_0312
+            ALW: FOB21_12250
+            ADS: FPL17_11570
+            ABER: BSR55_02730
+            ATN: FM020_01565
+            ACHI: CDG60_15265
+            ALJ: G8D99_02360
+            AWG: GFH30_02195
+            ASHA: G8E00_13605
+            ATG: J4G44_00115
+            AVB: RYU24_25710(fabI)
+            ABOU: ACBO_26480(fabI)
+            AGYL: FPL18_04125
+            ACIU: A3K93_01720
+            AVZ: HWI77_14305
+            APOT: MZO21_02355
+            ATZ: M5E07_02280
+            ACOI: NQU59_00665
+            AVIV: LF296_02785
+            MCT: MCR_1078(fabI)
+            MCS: DR90_823
+            MCAT: MC25239_01061(fabI)
+            MOI: MOVS_04000
+            MOS: AXE82_01630
+            MBL: AAX09_03420
+            MBOI: DQF64_10125
+            MCUN: NCTC10297_01259(fabI)
+            MNN: I6G26_08975
+            MNS: LU293_08470
+            MNC: LU297_09530
+            MNJ: LU290_03885
+            MBAH: HYN46_07670
+            PLZ: S4054249_25120
+            HMI: soil367_09760
+            ALKM: NKI27_09105
+            ASEM: NNL22_05695
+            RVI: RVIR1_04380(fabI)
+            LPN: lpg1854(fabI)
+            LPH: LPV_2131(fabI)
+            LPO: LPO_1920(fabI) LPO_2824(fabI)
+            LPU: LPE509_01101 LPE509_01331
+            LPM: LP6_1833(fabI)
+            LPF: lpl1820(fabI)
+            LPP: lpp1821(fabI)
+            LPC: LPC_1299(fabI)
+            LPA: lpa_02680(fabI)
+            LPE: lp12_1793
+            LLO: LLO_0314(fabI) LLO_1044(fabI)
+            LFA: LFA_2019(fabI) LFA_2995(fabI) LFA_pA0057(fabI)
+            LHA: LHA_0719(fabI) LHA_2548(fabI)
+            LOK: Loa_00886
+            LCD: clem_11320(fabI)
+            LES: CCU22_01255
+            LSH: CAB17_05680(fabI) CAB17_09465
+            LLG: 44548918_00611(fabI)
+            LIB: E4T55_02715 E4T55_10830(fabI) E4T55_11220(fabI)
+            LGT: E4T54_04310
+            LJR: NCTC11533_00648(fabI)
+            LCJ: NCTC11976_01851(fabI)
+            LWA: SAMEA4504053_0245(fabI_1) SAMEA4504053_2052(fabI_2) SAMEA4504053_3227(fabI_3)
+            LSS: NCTC12082_01706(fabI_1) NCTC12082_02804(fabI_2)
+            LADL: NCTC12735_00345(fabI_1) NCTC12735_00484(fabI_2)
+            LANT: TUM19329_25630(fabI)
+            LLY: J2N86_06570 J2N86_07665(fabI)
+            LCAD: PXX05_00835(fabI) PXX05_10355
+            TMC: LMI_2296(fabI) LMI_2619(fabI)
+            MCA: MCA1263(fabI)
+            METU: GNH96_09935
+            MMEO: OOT43_03620
+            MPAD: KEF85_13680
+            MAH: MEALZ_3043(fabI)
+            MBUR: EQU24_15085
+            MPSY: CEK71_09420
+            MMAI: sS8_4965
+            MMOB: F6R98_00280
+            MEIN: methR_P0824
+            MOZ: MoryE10_19590
+            MISZ: MishRS11D_08180
+            MESL: KKZ03_11325
+            MEIY: MIN45_P0519
+            MCAU: MIT9_P1682
+            FTU: FTT_0782(fabI)
+            FTQ: RO31_0899
+            FTF: FTF0782(fabI)
+            FTW: FTW_0579(fabI)
+            FTR: NE061598_04500
+            FTT: FTV_0738(fabI)
+            FTG: FTU_0822(fabI)
+            FTL: FTL_1442
+            FTH: FTH_1403(fabI)
+            FTA: FTA_1529
+            FTS: F92_08030
+            FTI: FTS_1414(fabl)
+            FTO: X557_07470
+            FTC: DA46_1307(fabI)
+            FTV: CH67_1841(fabI)
+            FTZ: CH68_1570(fabI)
+            FTM: FTM_1056(fabI)
+            FTN: FTN_1228(fabl)
+            FTX: AW25_779(fabI)
+            FTD: AS84_1288
+            FTY: CH70_702(fabI)
+            FCF: FNFX1_1268
+            FCN: FN3523_1294
+            FHI: FSC454_03805
+            FPH: Fphi_1460
+            FPT: BZ13_523(fabI)
+            FPI: BF30_1724(fabI)
+            FPM: LA56_697(fabI)
+            FPX: KU46_1848(fabI)
+            FPZ: LA55_1382(fabI)
+            FPJ: LA02_1141(fabI)
+            FRT: F7308_1102
+            FNA: OOM_1600
+            FNL: M973_07070
+            FRF: LO80_02685
+            FPER: ACH24_04120
+            FHA: CDV26_03700
+            FRX: F7310_06865
+            FRM: BBG19_0591
+            FRC: KX01_1108(fabI)
+            FAD: CDH04_04330
+            FMI: F0R74_04895
+            FOO: CGC45_03005
+            FNN: FSC774_06370
+            FSR: KQR59_06285
+            FRL: FIP56_07025
+            FGU: SD28_03865
+            AFRI: E3E15_04730
+            AII: E4K63_03090
+            TCX: Tcr_1181
+            HTR: EPV75_06510
+            HMAR: HVMH_1187(fabI)
+            TCY: Thicy_0857
+            TAO: THIAE_04630
+            THIO: AYJ59_07375
+            TMH: JX580_04115
+            MEJ: Q7A_2205
+            MEC: Q7C_2516
+            MPIN: LGT42_007375
+            MMAF: GCM100_03780
+            CZA: CYCME_1286(fabI)
+            PSAL: PSLF89_37
+            THIG: FE785_05350
+            TXA: HQN79_05855
+            TIB: THMIRHAM_11140(fabI)
+            TLH: NR989_05490
+            TSE: THMIRHAS_13750(fabI)
+            TZO: THMIRHAT_12990(fabI)
+            TIG: THII_0862
+            BLEP: AL038_09530 AL038_13010(fabI)
+            THIS: HZT40_02265
+            TUN: J9260_02980
+            TLO: J9253_13150
+            TSB: HMY34_14575
+            TANI: J8380_00435
+            TWN: L2Y54_20870
+            TLC: RCF98_06075
+            CYS: NYP54_06650
+            NOC: Noc_1769
+            NHL: Nhal_0797
+            NWA: Nwat_1346
+            NWR: E3U44_00365
+            ALV: Alvin_1429
+            ATEP: Atep_21400
+            TVI: Thivi_0899 Thivi_0978
+            TMB: Thimo_0437
+            MPUR: MARPU_03420
+            TEE: Tel_10425
+            NTT: TAO_1465
+            TSY: THSYN_06285 THSYN_13045 THSYN_30770
+            TTP: E6P07_08080
+            NTG: NSCAC_1231(fabI)
+            THIP: N838_16990
+            CJAP: GWK36_04505
+            THIM: KFB96_23565
+            TBOG: LT988_19020
+            AEH: Mlg_2277 Mlg_2379
+            HHA: Hhal_0598
+            HHK: HH1059_05380
+            HHC: M911_04345 M911_07300
+            EBS: ECTOBSL9_0190 ECTOBSL9_2664
+            TGR: Tgr7_0946
+            TKM: TK90_0598
+            TNI: TVNIR_2729(fabI_[H])
+            TTI: THITH_07750 THITH_13205
+            TVR: TVD_10310
+            SSAL: SPISAL_02875
+            SPIU: SPICUR_02975 SPICUR_05660
+            SROS: BBH56_02080 BBH56_04815
+            SPIZ: GJ672_02845 GJ672_05170(fabI)
+            SHAI: LMH63_13405 LMH63_16500(fabI)
+            APRS: BI364_05590
+            NAX: HC341_12685 HC341_17115(fabI)
+            HNA: Hneap_0392
+            HAZ: A9404_11740
+            WMA: WM2015_1268
+            WEZ: IC757_10690
+            WOC: BA177_06575
+            GAI: IMCC3135_23485(fabI_1) IMCC3135_25550(fabI_2)
+            GHL: GM160_07965
+            TBN: TBH_C0725
+            EPS: L0Y14_04525
+            TTC: FOKN1_1592
+            THIC: TspCOW1_10540
+            HCH: HCH_02517
+            HAHE: ENC22_11420
+            HAHH: O5O45_06475
+            HCS: FF32_16265
+            HAK: KO116_P100002
+            HAM: HALO2717
+            HALO: BWR19_11530
+            HAG: BB497_05010
+            HAF: C8233_00775
+            HALK: CUU95_14605
+            HSX: HNO51_08150(fabI)
+            HQD: K1Y77_09230(fabI)
+            HBP: HPTD01_2909
+            CMAI: BFX80_07625
+            COBE: CLAM6_20120
+            ABO: ABO_1215(fabI)
+            ALN: AS19_12870
+            ADI: B5T_02375(fabI)
+            AXE: P40_11410
+            APAC: S7S_09860
+            TOL: TOL_1847
+            TOR: R615_08380
+            TWAN: HUF19_09165
+            OAI: OLEAN_C15520 OLEAN_C20470(fabI)
+            MARS: A8C75_14425
+            MGEO: CFI10_16595
+            MSEC: LN244_14455(fabI)
+            MRZ: KDW95_02550(fabI)
+            BSAN: CHH28_13965
+            NCU: F0U83_16490(fabI)
+            NJP: NEJAP_3582(fabI)
+            BMAR: HF888_08370
+            AJP: AMJAP_3295(fabI)
+            VCW: GJQ55_06225
+            OME: OLMES_3048(fabI)
+            LLP: GH975_03160(fabI) GH975_06780
+            DNO: DNO_0074
+            CHJ: NCTC10426_01298(fabI)
+            SUTR: L0B52_06805
+            IGN: MMG00_13620
+            GAP: GAPWK_0171
+            GAQ: RAM11_00325(fabI)
+            ORB: IPMB12_03575(fabI)
+            SDF: ACG33_04640
+            SOK: D0B54_02735
+            SINI: GT972_02975
+            FCE: JN531_001280
+            GBI: PG2T_08245
+            SLIM: SCL_1866
+            SVA: SVA_1312
+            ACII: C4901_05820
+            ATY: A9R16_010640
+            SALN: SALB1_2433
+            SEDS: AAY24_07550
+            TSN: W908_05890
+            THIN: CRN91_04530
+            THO: SP60_07125
+            REV: HUE57_08740
+            SADE: GFK82_00017(fabI)
+            BCI: BCI_0296(fabI)
+            BCIB: IM45_678
+            BCIG: AB162_243(fabI)
+            RMA: Rmag_0654
+            REO: HUE58_03195
+            VOK: COSY_0600(fabI)
+            EBH: BSEPE_0513(fabI)
+            BTHG: MS2017_0756
+            ENM: EBS_1357(fabI)
+            IFO: CVFO_1074(fabI)
+            APHF: CVPH_0525(fabI)
+            NME: NMB0336(fabI)
+            NMP: NMBB_0375
+            NMH: NMBH4476_0331
+            NMD: NMBG2136_1763
+            NMM: NMBM01240149_1748
+            NMS: NMBM01240355_0346
+            NMQ: NMBM04240196_0344(fabI)
+            NMZ: NMBNZ0533_1909(fabI)
+            NMA: NMA2152
+            NMW: NMAA_1653(fabI)
+            NMX: NMA510612_2439(fabI)
+            NMC: NMC1834(fabI)
+            NMN: NMCC_1807(fabI)
+            NMT: NMV_0372(fabI)
+            NMI: NMO_1705(fabI)
+            NGO: NGO_1666
+            NGK: NGK_2053
+            NLA: NLA_3930(fabI)
+            NEL: NELON_10485
+            NWE: SAMEA3174300_0100(fabI)
+            NSI: A6J88_02145
+            NMJ: NM96_10415
+            NEI: BG910_04075
+            NEK: CGZ77_01525
+            NFV: FAH67_09190(fabI)
+            NSF: FAH66_07995(fabI)
+            NZL: D0T92_03645(fabI)
+            NAQ: D0T90_06335(fabI)
+            NBL: GJV52_04365(fabI)
+            NZO: SAMEA4504057_0907(fabI)
+            NCI: NCTC10296_01433(fabI)
+            NCZ: NCTC10294_00049(fabI)
+            NANI: NCTC12227_00336(fabI)
+            NBC: H3L91_01330(fabI)
+            NWD: H3L96_07140(fabI)
+            NSG: H3L94_01450(fabI)
+            NMUS: H7A79_2467(fabI)
+            NSC: J7445_09335(fabI)
+            NPF: LPB400_02515(fabI)
+            NDN: H3L92_02630(fabI)
+            NWX: CGZ65_00510
+            NDU: LVJ88_02590(fabI)
+            NAW: LVJ86_09810(fabI)
+            NMB: MON40_11690(fabI)
+            NLS: PJU73_09125(fabI)
+            SALV: SALWKB2_1251
+            SCOM: PYG29_07260(fabI)
+            KKI: KKKWG1_1983(fabI)
+            KOA: H3L93_05695(fabI)
+            VFF: VITFI_CDS0892 VITFI_CDS1907
+            VIT: ADP71_12390
+            VST: LVJ81_07235(fabI)
+            VMS: LVJ82_16455(fabI)
+            ECOR: SAMEA4412678_2066(fabI)
+            EEX: EZJ17_05000(fabI)
+            SMUR: BWP33_10455
+            AFF: H3L97_10250(fabI)
+            CSTE: H3L98_09925(fabI)
+            NBA: CUN60_04740
+            PTES: JQU52_02480(fabI) JQU52_13225(fabI)
+            MCER: MON37_10580(fabI)
+            USU: LVJ78_02310(fabI)
+            UTE: LVJ83_02650(fabI)
+            WBO: MIS45_05660(fabI)
+            CVI: CV_1583(fabI) CV_3743
+            CVC: BKX93_09545 BKX93_21090
+            CHRO: CXB49_02695 CXB49_14605
+            CHRI: DK842_03785 DK842_22595
+            CHRB: DK843_05380 DK843_09270
+            CRZ: D1345_03305(fabI) D1345_06660(fabI)
+            CHRM: FYK34_03035(fabI) FYK34_13175(fabI)
+            CHAE: CH06BL_06290 CH06BL_14440
+            PSE: NH8B_0723 NH8B_3029
+            AMAH: DLM_0631 DLM_3185
+            AQS: DKK66_02040 DKK66_11130
+            VOG: LCH97_06040(fabI) LCH97_09020(fabI)
+            IOD: EJO50_09770 EJO50_14900(fabI)
+            IFL: C1H71_04490 C1H71_07785
+            JEU: BJP62_07590 BJP62_12255
+            JES: JHS3_18820(fabI) JHS3_27650(fabI1)
+            DEE: HQN60_03050(fabI) HQN60_03255 HQN60_06220(fabI)
+            DTK: K4H28_00665 K4H28_15220(fabI)
+            CHIZ: HQ393_09555(fabI) HQ393_16405
+            CFON: HZU75_10840 HZU75_12520(fabI)
+            CHIC: N8I74_07655(fabI) N8I74_17345(fabI)
+            CARI: FNU76_04210(fabI) FNU76_17315(fabI)
+            CKS: H9L41_05165(fabI)
+            LHK: LHK_01853(fabI)
+            AQL: BXU06_03555 BXU06_07855
+            RSO: RSc1172(fabI)
+            RSE: F504_1199
+            RPU: CDC45_06020
+            RNC: GO999_10590(fabI)
+            RSC: RCFBP_20261(fabI)
+            RSL: RPSI07_2205(fabI) RPSI07_mp1367(fabI)
+            RSN: RSPO_c02199(fabI) RSPO_m01227(fabI)
+            RSM: CMR15_20378(fabI)
+            RSY: RSUY_15920(fabI_1) RSUY_41190(fabI_2)
+            RPI: Rpic_1013
+            RPF: Rpic12D_1107
+            RPJ: N234_03370 N234_13915
+            RMN: TK49_09955
+            RIN: ACS15_2202(fabI)
+            RSG: JK151_09795(fabI) JK151_16835(fabI)
+            RWE: KOL96_13120(fabI)
+            REH: H16_A2410(fabI1) H16_B1629(fabI2)
+            CNC: CNE_1c06600(fabI1) CNE_1c23240(fabI2) CNE_BB1p10890(fabI)
+            CUH: BJN34_12315
+            REU: Reut_A0628 Reut_A2130
+            RME: Rmet_0565(fabI) Rmet_2147(fabI)
+            CTI: RALTA_A1398(fabI2) RALTA_A1954(fabI1)
+            CBW: RR42_m0787 RR42_m2717
+            CGD: CR3_1743(fabI)
+            CCUP: BKK81_05840 BKK81_14090
+            CUP: BKK80_05145 BKK80_15025
+            CUU: BKK79_07135 BKK79_17980
+            CPAU: EHF44_02570(fabI) EHF44_11930(fabI)
+            COX: E0W60_13850(fabI) E0W60_21540(fabI) E0W60_31100(fabI)
+            CCAM: M5D45_03060(fabI) M5D45_10280(fabI)
+            CCAX: KZ686_13405(fabI)
+            CUK: KB879_03550(fabI) KB879_23980(fabI) KB879_36985(fabI)
+            BMA: BMA1608(fabI) BMAA1403
+            BMV: BMASAVP1_0520 BMASAVP1_A2111(fabI)
+            BML: BMA10229_0128 BMA10229_A3203(fabI)
+            BMN: BMA10247_1384(fabI) BMA10247_A1486
+            BMAL: DM55_256(fabI) DM55_4432
+            BMAE: DM78_1918(fabI) DM78_3483
+            BMAQ: DM76_234(fabI) DM76_3382
+            BMAI: DM57_10030 DM57_431
+            BMAF: DM51_1307 DM51_5049
+            BMAZ: BM44_1750(fabI) BM44_4538
+            BMAB: BM45_1312 BM45_3663
+            BPS: BPSL2204(fabI) BPSS0721
+            BPM: BURPS1710b_2636(fabI) BURPS1710b_A2297(fabI-1)
+            BPL: BURPS1106A_2548(fabI) BURPS1106A_A0982
+            BPD: BURPS668_2494(fabI) BURPS668_A1065
+            BPR: GBP346_A2617
+            BPSE: BDL_3339(fabI) BDL_3957
+            BPSM: BBQ_1127(fabI) BBQ_5469
+            BPSU: BBN_1254(fabI) BBN_4125(fabI)
+            BPSD: BBX_1740(fabI) BBX_5795(fabI)
+            BPZ: BP1026B_I1187(fabI) BP1026B_II0795
+            BPQ: BPC006_I2594 BPC006_II1016
+            BPK: BBK_2754(fabI) BBK_3765(fabI)
+            BPSH: DR55_2375(fabI) DR55_4625
+            BPSA: BBU_3362(fabI) BBU_5319(fabI)
+            BPSO: X996_1962(fabI) X996_3907
+            BUT: X994_380 X994_3892
+            BTE: BTH_I1977 BTH_II1698
+            BTQ: BTQ_1933(fabI) BTQ_4985(fabI)
+            BTJ: BTJ_3612(fabI) BTJ_421(fabI)
+            BTZ: BTL_1662(fabI) BTL_4459
+            BTD: BTI_1422(fabI) BTI_5539(fabI)
+            BTV: BTHA_1816(fabI) BTHA_5759
+            BTHE: BTN_3106(fabI) BTN_4109
+            BTHM: BTRA_1941(fabI) BTRA_3984(fabI)
+            BTHA: DR62_3252 DR62_4145
+            BTHL: BG87_1886 BG87_4441
+            BOK: DM82_1793 DM82_4814
+            BOC: BG90_2927 BG90_5780
+            BUU: WS70_06615 WS70_20935
+            BSAV: WS86_07445 WS86_22330
+            BHG: I6G56_13290(fabI) I6G56_24430(fabI)
+            BUD: AQ610_07170 AQ610_27100
+            BVI: Bcep1808_6177
+            BUR: Bcep18194_B2636
+            BCM: Bcenmc03_5417
+            BCH: Bcen2424_4869
+            BMJ: BMULJ_05779(fabI)
+            BMU: Bmul_5744
+            BMK: DM80_6190
+            BCEP: APZ15_21870
+            BPYR: ABD05_25380
+            BCON: NL30_23105
+            BUB: BW23_3282
+            BSEM: WJ12_16445
+            BSTG: WT74_26660
+            BYI: BYI23_A017160 BYI23_D002740
+            BUE: BRPE67_ACDS17640 BRPE67_DCDS04550
+            BUL: BW21_1559 BW21_5221
+            BUQ: AC233_32230
+            BUM: AXG89_11675
+            BUI: AX768_05455
+            BURK: DM992_21850
+            BXE: Bxe_A1635 Bxe_B0355 Bxe_C0050
+            BXB: DR64_3795 DR64_5695 DR64_8374
+            BPH: Bphy_1384 Bphy_3687
+            BGE: BC1002_5544
+            BPY: Bphyt_2502
+            BUZ: AYM40_36450
+            BFN: OI25_7484
+            BCAI: K788_0003723 K788_0005180
+            PSPW: BJG93_19705(fabI)
+            PARA: BTO02_09455 BTO02_29805
+            PARB: CJU94_12615 CJU94_15695 CJU94_27595
+            PHS: C2L64_06325 C2L64_28865
+            PTER: C2L65_06060 C2L65_19635
+            PGP: CUJ91_25270
+            PCJ: CUJ87_24645
+            PTS: CUJ90_06745 CUJ90_22060
+            PMEG: FNZ07_24970(fabI)
+            PTRO: G5S35_00805(fabI) G5S35_06230(fabI)
+            PGIS: I6I06_02595(fabI) I6I06_26060(fabI)
+            PACP: FAZ97_00955(fabI) FAZ97_06045(fabI)
+            PACS: FAZ98_00890(fabI) FAZ98_05920(fabI)
+            PEW: KZJ38_13805(fabI) KZJ38_31400(fabI)
+            PDIO: PDMSB3_2648(fabI) PDMSB3_3093.1(fabI)
+            PSAA: QEN71_06165(fabI) QEN71_13540(fabI)
+            PKF: RW095_05535(fabI)
+            BRH: RBRH_02885
+            PNU: Pnuc_1238
+            PNE: Pnec_1105
+            PDQ: CL55_00006460
+            POH: DPM16_05605
+            PTRP: DCO17_03325 DCO17_04270
+            PANI: DCO16_02290
+            PPAL: AOC06_06075(fabI)
+            PCOS: C2747_03260(fabI)
+            PYT: PKF023_11770(fabI)
+            PTX: ABW99_09925
+            PLG: NCTC10937_03670(fabI)
+            HYF: DTO96_100212(fabI)
+            LMIR: NCTC12852_01468(fabI)
+            MCYS: MCB1EB_1241
+            CABA: SBC2_13950(fabI_1) SBC2_30110(inhA_1) SBC2_80640(fabI_2)
+            BUO: BRPE64_ACDS17670(fabI)
+            LIMN: HKT17_06435(fabI)
+            VTR: MYVALT_F_03900(fabI)
+            VLA: GKR41_00502(fabI)
+            VCV: GJV44_00195(fabI)
+            BPE: BP1002(fabI) BP3215(fabI)
+            BPC: BPTD_0997(fabI) BPTD_3175(fabI)
+            BPER: BN118_0217(fabI) BN118_1341(fabI)
+            BPET: B1917_0608(fabI) B1917_2845(fabI)
+            BPEU: Q425_31940(fabI) Q425_9390(fabI)
+            BPAR: BN117_3485(fabI) BN117_3890(fabI)
+            BPA: BPP1167(fabI) BPP3838(fabI)
+            BBH: BN112_2076(fabI) BN112_4134(fabI)
+            BBR: BB1383(fabI) BB4282(fabI)
+            BBM: BN115_1341(fabI) BN115_3964(fabI)
+            BBX: BBS798_1345(fabI) BBS798_4060(fabI)
+            BPT: Bpet0628(fabI)
+            BAV: BAV0867(fabI) BAV2938(fabI)
+            BHO: D560_2081 D560_2082 D560_3043
+            BHM: D558_2062(fabI) D558_3021
+            BHZ: ACR54_01500(fabI_1) ACR54_04020(fabI_2)
+            BTRM: SAMEA390648700619(envM)
+            BBRO: BAU06_22135 BAU06_24335
+            BFZ: BAU07_22340
+            BPDZ: BBN53_02965 BBN53_14340
+            BOH: AKI39_03515 AKI39_20105
+            BGM: CAL15_01455 CAL15_20365
+            BOJ: CBF45_09820 CBF45_15455
+            AXY: AXYL_00692 AXYL_05113
+            AXO: NH44784_014331 NH44784_034441
+            AXN: AX27061_0726 AX27061_4918
+            AXX: ERS451415_00713(fabI_1) ERS451415_04955(fabI_2)
+            ADT: APT56_03875 APT56_22580
+            AIS: BUW96_14350 BUW96_22140
+            ASW: CVS48_02860 CVS48_13155
+            ACHR: C2U31_08300 C2U31_11095 C2U31_28380
+            ACHB: DVB37_02950(fabI) DVB37_21615(fabI)
+            ADY: HLG70_18395(fabI) HLG70_28245(fabI)
+            ACHO: H4P35_03040(fabI) H4P35_20420(fabI)
+            AMUI: PE062_17080(fabI) PE062_27025(fabI)
+            APES: FOC84_08935(fabI) FOC84_20420(fabI)
+            AAEG: RA224_07065(fabI) RA224_28940(fabI)
+            TEQ: TEQUI_0916
+            TEA: KUI_0318(envM)
+            TEG: KUK_0961(envM)
+            TAS: TASI_0304
+            TAT: KUM_1308(envM)
+            PUT: PT7_3572
+            PUD: G9Q38_06330(fabI)
+            PUS: CKA81_10600
+            AMIM: MIM_c28670(fabI)
+            AALN: Q3V95_13045(fabI)
+            CDN: BN940_17576
+            BPSI: IX83_06795
+            AFA: UZ73_14465
+            AFQ: AFA_15225
+            AAQU: D3M96_16165(fabI)
+            AAMM: FE795_14065(fabI)
+            PHN: PAEH1_06450
+            ODI: ODI_R3460 ODI_R3717
+            BOZ: DBV39_11635 DBV39_19105
+            ODH: DHf2319_02735 DHf2319_03225(fabI)
+            OUR: CEQ07_02455 CEQ07_10805
+            OUE: I6G29_06670(fabI) I6G29_10475
+            PIG: EGT29_21665(fabI)
+            KGY: EHF36_09920(fabI) EHF36_15475(fabI)
+            PARK: LSG25_11545(fabI)
+            RFR: Rfer_2127
+            RSB: RS694_10115
+            RAC: RA876_10595
+            RHY: RD110_14510
+            RHF: EUB48_10170(fabI)
+            RHG: EXZ61_02810(fabI) EXZ61_09580(fabI)
+            RHOA: HZ993_02425(fabI)
+            RHOB: HTY51_07680(fabI)
+            POL: Bpro_2419
+            PNA: Pnap_2018 Pnap_3567 Pnap_4525
+            POS: DT070_16345
+            POO: F7R28_14245(fabI)
+            PVAC: HC248_01716(fabI)
+            AJS: Ajs_1809
+            ACK: C380_14885
+            ACRA: BSY15_4004
+            ACID: CBP33_11450
+            ACIP: CBP36_11920
+            ACIN: CBP34_11225
+            ACIS: CBP35_07000
+            ACIO: EAG14_06735(fabI)
+            ARAD: KI609_09960(fabI)
+            ATEM: PQV96_06235(fabI)
+            AAV: Aave_2051 Aave_3255
+            AAA: Acav_1993 Acav_3106
+            AMON: H9L24_01750(fabI) H9L24_17830(fabI)
+            VEI: Veis_3815
+            DAC: Daci_0762 Daci_2972
+            DEL: DelCs14_3769 DelCs14_5775
+            DTS: BI380_08450 BI380_20915
+            DHK: BO996_03855 BO996_13690
+            DLA: I6G47_08835(fabI) I6G47_20855(fabI)
+            VAP: Vapar_2740
+            VPE: Varpa_2841
+            VPD: VAPA_1c28180(fabI)
+            VAA: AX767_19480
+            VBO: CKY39_18025
+            VAM: C4F17_05885
+            CTT: CtCNB1_1785
+            CTES: O987_11170
+            CKE: B5M06_07385 B5M06_15550
+            CSER: CCO03_12285
+            COF: FOZ74_11290(fabI)
+            CAQT: KAQ61_09015(fabI) KAQ61_14660(fabI)
+            CODO: LAD35_12360(fabI)
+            CTEZ: CT3_16340(fabI) CT3_37450
+            AANT: HUK68_07195(fabI)
+            ADN: Alide_2682
+            ADK: Alide2_3038 Alide2_4415
+            RTA: Rta_19510(fabI)
+            CBX: Cenrod_0990(fabI)
+            OTO: ADJ79_09430
+            OTK: C6570_12240
+            OTD: J1M35_11085(fabI) J1M35_18005(fabI)
+            LIM: L103DPR2_01751(fabI)
+            LIH: L63ED372_01343(fabI)
+            HYR: BSY239_1760
+            HYB: Q5W_23250
+            HYL: LPB072_13120 LPB072_21830
+            HYC: E5678_18820(fabI)
+            HPSE: HPF_11105(fabI)
+            HYN: F9K07_15470(fabI)
+            HTN: KI616_12890(fabI)
+            HCZ: G9Q37_08125(fabI)
+            DPY: BA022_03970
+            DIH: G7047_11745(fabI)
+            DAER: H9K75_03025(fabI)
+            DRG: H9K76_10345(fabI)
+            DIA: Dtpsy_1919
+            SIMP: C6571_14310
+            MELM: C7H73_08390
+            MELA: C6568_00140
+            MJE: LVC68_02335(fabI) LVC68_06875(fabI)
+            CBAA: SRAA_0657 SRAA_2207(fabI)
+            CBAB: SMCB_1387 SMCB_2235(fabI)
+            KIA: G8A07_16545(fabI)
+            STHM: IS481_08205(fabI)
+            PBH: AAW51_2631(fabI) AAW51_3012(fabI)
+            SAQA: OMP39_07055(fabI)
+            MPT: Mpe_A1924
+            METP: C1M51_17985
+            RGE: RGE_28280(fabI)
+            RBN: RBXJA2T_19306
+            RDP: RD2015_2913
+            ROI: N4261_16260(fabI)
+            MIU: ABE85_12225 ABE85_22515
+            SNN: EWH46_02725(fabI) EWH46_10125(fabI)
+            IDC: LRM40_09705(fabI) LRM40_16955(fabI)
+            ATER: MW290_01220(fabI) MW290_03955(fabI) MW290_13010(fabI)
+            LCH: Lcho_1698 Lcho_2795
+            HAR: HEAR2327(fabI)
+            MMS: mma_1203(fabI)
+            JAG: GJA_678(fabI)
+            JAB: VN23_00645 VN23_16410
+            JAZ: YQ44_02125 YQ44_07800
+            JAL: BZG29_20030 BZG29_25480
+            JSV: CNX70_20190 CNX70_25810
+            JAJ: EKL02_07905(fabI) EKL02_10400(fabI)
+            JAS: FJQ89_09865(fabI) FJQ89_15025(fabI)
+            JLV: G3257_20670(fabI) G3257_26150(fabI)
+            JAH: JAB4_040730(fabI_1) JAB4_052450(fabI_2)
+            JRI: P9875_20580(fabI) P9875_26555(fabI)
+            HSE: Hsero_2406(fabI) Hsero_3424(fabI)
+            HSZ: ACP92_12020 ACP92_17130
+            HHT: F506_18465
+            HRB: Hrubri_3433(fabI)
+            HEE: hmeg3_06985
+            HHF: E2K99_17755(fabI)
+            HFR: G5S34_18805(fabI)
+            CFU: CFU_1463(fabI)
+            CARE: LT85_3304
+            CPRA: CPter91_3510(fabI)
+            MNR: ACZ75_09415 ACZ75_13025
+            MASW: AM586_09870
+            MTIM: DIR46_04145 DIR46_22195
+            MASY: DPH57_10195
+            MASZ: C9I28_11855
+            MALI: EYF70_17890(fabI)
+            MUM: FCL38_26040(fabI) FCL38_31160(fabI)
+            MFLA: GO485_05510(fabI) GO485_26435(fabI)
+            MPLI: E1742_25490(fabI)
+            TCT: PX653_11010(fabI)
+            DUG: HH213_21750(fabI) HH213_26195(fabI)
+            TMJ: P0M04_22650(fabI)
+            RUG: QC826_18365(fabI)
+            OFO: BRW83_0868(fabI)
+            OVB: NB640_03305(fabI)
+            OAL: NB647_03810(fabI)
+            UPV: EJN92_02645(fabI) EJN92_03315(fabI)
+            UPI: EJG51_006555(fabI)
+            UND: UNDKW_1854(fabI) UNDKW_3269
+            NOK: FAY22_04785(fabI) FAY22_16465(fabI)
+            GLC: JQN73_02795(fabI)
+            SUTT: SUTMEG_04850(fabI)
+            SUTK: FG381_09570(fabI)
+            SWS: I6J16_08860
+            TIN: Tint_1285
+            THI: THI_1608(fabI)
+            PKT: AT984_00705 AT984_08645
+            PAQA: K9V56_011250(fabI) K9V56_022880(fabI)
+            RGU: A4W93_10190 A4W93_10335
+            AON: DEH84_06680 DEH84_17970
+            XYK: GT347_01725(fabI)
+            TTW: LCC91_05730(fabI)
+            ETB: N7L95_00770(fabI) N7L95_08635 N7L95_26060(fabI)
+            BBAG: E1O_01300
+            BBAY: A4V04_01190 A4V04_04825
+            NEU: NE2205
+            NET: Neut_0663
+            NIT: NAL212_2150
+            NII: Nit79A3_0651
+            NCO: AAW31_07470
+            NUR: ATY38_10000
+            NST: Nstercoris_00651
+            NMU: Nmul_A2335
+            NLC: EBAPG3_000045
+            NIZ: NNRS527_02512
+            SHD: SUTH_02451
+            METR: BSY238_1389 BSY238_2918
+            DOE: DENOEST_1669(fabI)
+            RBU: PG1C_09520
+            TBD: Tbd_1672
+            MMB: Mmol_1312
+            MEH: M301_1528
+            MEI: Msip34_1456
+            MEP: MPQ_1531(fabI)
+            MBAC: BN1209_1020(fabI)
+            MBAT: BN1208_0834(fabI)
+            MEU: ACJ67_07545
+            MPAU: ZMTM_12150(fabI)
+            SLT: Slit_1799
+            GCA: Galf_1774
+            FAM: OYT1_ch2168
+            NIM: W01_00870(fabI)
+            NARC: NTG6680_1458(fabI)
+            FKU: FGKAn22_13450(fabI)
+            SEME: MIZ01_1564
+            SDR: SCD_n01159
+            SULF: CAP31_08090
+            SPLB: SFPGR_19840(fabI)
+            SNIV: SFSGTM_17470
+            SLAC: SKTS_16060(fabI)
+            URU: DSM104443_02745(fabI)
+            UPL: DSM104440_02469(fabI)
+            DSU: Dsui_2203 Dsui_3031
+            ARES: IWH25_03100(fabI) IWH25_14180(fabI)
+            AIQ: Azoinq_01580(fabI) Azoinq_13485
+            OTR: OTERR_11920(fabI) OTERR_19740(fabI)
+            NIV: JY500_13410(fabI)
+            EBA: ebA6664(fabI)
+            ABRE: pbN1_40890(fabI)
+            APET: ToN1_47770(fabI1) ToN1_49560(fabI2)
+            RBH: B4966_07860 B4966_08350
+            DAR: Daro_0978 Daro_1935
+            DEY: HYN24_07515(fabI) HYN24_11085(fabI)
+            DDEN: KI615_11205(fabI) KI615_16490(fabI)
+            DECH: GBK02_10755(fabI) GBK02_13360(fabI)
+            QAU: KI612_08635(fabI) KI612_15525(fabI)
+            FLE: KI610_05080(fabI) KI610_11750(fabI) KI610_13405(fabI)
+            AZO: azo1569(fabI1) azo2130(fabI2)
+            AOA: dqs_1692 dqs_2262
+            AZA: AZKH_1838(fabI) AZKH_2071
+            AZI: AzCIB_1559 AzCIB_1831
+            AZD: CDA09_13125
+            AZR: CJ010_09605 CJ010_13555
+            TMZ: Tmz1t_1674 Tmz1t_2643
+            THU: AC731_004050 AC731_007450
+            TCL: Tchl_0768 Tchl_2550
+            THK: CCZ27_06045 CCZ27_11005
+            TAK: Tharo_0841 Tharo_1719
+            AZQ: G3580_09255 G3580_15190(fabI)
+            ACOM: CEW83_05180 CEW83_07020
+            ATW: C0099_10200
+            ZPA: C3497_07440 C3497_07950
+            FPHO: SHINM1_009350(fabI) SHINM1_011610
+            FMY: HO273_03570
+            APP: CAP2UW1_0144 CAP2UW1_1516 CAP2UW1_3048
+            KCI: CKCE_0453
+            KCT: CDEE_0024
+            KBL: CKBE_00016
+            KBT: BCUE_0019
+            KDE: CDSE_0021
+            KGA: ST1E_0023
+            KON: CONE_0022
+            DDZ: DSYM_17390
+            BPRC: D521_0599
+            BEB: AEM42_08845
+            BEBA: BWI17_12925
+            RPR: RP365(RP365)
+            RPO: MA1_01775
+            RPW: M9W_01775
+            RPZ: MA3_01795
+            RPG: MA5_03135
+            RPS: M9Y_01780
+            RPV: MA7_01770
+            RPQ: rpr22_CDS357(fabI)
+            RPL: H375_2460
+            RPN: H374_7100
+            RTY: RT0353(fabI)
+            RTT: RTTH1527_01725
+            RTB: RTB9991CWPP_01735
+            RCM: A1E_03635
+            RCC: RCA_03295
+            RBE: RBE_1255(fabI)
+            RBO: A1I_01015
+            RCO: RC0494(fabI)
+            RHE: Rh054_02835
+            RFE: RF_0575(fabI)
+            RAK: A1C_02720
+            RRI: A1G_02800
+            RRJ: RrIowa_0588
+            RRA: RPO_02785
+            RRC: RPL_02770
+            RRH: RPM_02765
+            RRB: RPN_04120
+            RRN: RPJ_02765
+            RRP: RPK_03685
+            RRM: RRM_02645
+            RRR: RRR_02640
+            RMS: RMA_0512(fabI)
+            RMI: RMB_05565
+            RPK: RPR_06795
+            RAF: RAF_ORF0462(fabI)
+            RJA: RJP_0389(fabI)
+            RSV: Rsl_580(fabI)
+            RSW: MC3_02820
+            RPH: RSA_02740
+            RAU: MC5_05360
+            RMO: MCI_06690
+            RPP: MC1_02790
+            RRE: MCC_03355
+            RAM: MCE_03330
+            RAB: AL573_03085
+            RMC: RMONA_05365(fabI)
+            RAS: RAS_07730(fabI)
+            RTL: H6P87_00516(fabI)
+            RKT: FLA4_08920(fabI)
+            RIC: BA173_01405
+            OTS: OTBS_0706(fabI)
+            OTT: OTT_1881(fabI)
+            PTC: phytr_1680
+            MENM: LF888_02830
+            WOL: WD_0085(fabI)
+            WRI: WRi_001670(fabI)
+            WEN: wHa_01420(fabI)
+            WED: wNo_00550(fabI)
+            WPI: WP0066(fabI)
+            WBM: Wbm0470
+            WOO: wOo_02270
+            WCL: WCLE_008830(fabI)
+            WEO: ASM33_06060
+            WPP: DEJ70_03655
+            WEC: wCauA_02655
+            WDM: EJB00_03555
+            WEB: WBP_0255
+            WES: JKF54_06045
+            WEA: EA652_0159(fabI)
+            WEM: CAI20_05750
+            WEY: wYak_03790(fabI)
+            WEL: GOY07_02895
+            WET: GOY13_01150
+            WEW: HUB92_06115
+            WER: wSan_00720(fabI)
+            WEF: GOY12_03000
+            WEP: JSQ73_000300
+            WEH: J4T77_00410
+            WEE: LOK48_00310
+            WEG: L0Z57_00405
+            WEU: GOY14_00670
+            WEJ: L2227_04825
+            SSIV: MJ631_02275
+            WEX: M1L25_000520
+            WEK: M1L26_000623
+            WEQ: NHG98_02590
+            WEV: ONI09_05605
+            WEND: M3L71_04300
+            AMA: AM428(fabI)
+            AMF: AMF_313(fab1)
+            AMP: U128_01635
+            ACN: ACIS_00870(fabI)
+            APH: APH_0473(fabI)
+            APY: YYU_02315
+            APD: YYY_02345
+            APHA: WSQ_02310
+            AOH: AOV_01435
+            ERU: Erum2860(fabI)
+            ERW: ERWE_CDS_02920(fabI)
+            ERG: ERGA_CDS_02870(fabI)
+            ECN: Ecaj_0269
+            ECH: ECH_0811(fabI)
+            ECHA: ECHHL_0720(fabI)
+            ECHJ: ECHJAX_0332(fabI)
+            ECHL: ECHLIB_0328(fabI)
+            ECHS: ECHOSC_0730(fabI)
+            ECHV: ECHSTV_0321(fabI)
+            ECHW: ECHWAK_0328(fabI)
+            ECHP: ECHWP_0716(fabI)
+            EMR: EMUR_01390
+            EHH: EHF_0712(fabI)
+            NSE: NSE_0043(fabI)
+            NRI: NRI_0041
+            NHM: NHE_0045(fabI)
+            NEF: GP480_00165
+            NMIK: LUA81_03525
+            MMN: midi_00384(fabI)
+            FSO: Fsol_00720
+            BNU: N3Z17_01695
+            RBT: NOVO_07570(fabI)
+            REN: EF513_06605(fabI)
+            PACA: ID47_03440
+            CAQ: IM40_01805
+            NAF: GQ61_08820 GQ61_08935
+            GAGG: Gromo_00316
+            HEC: HYD_5200(fabI1)
+            EAA: I862_05595
+            MLO: mll5565 mlr7458
+            MLN: A9174_00060 A9174_28570
+            MCI: Mesci_0012 Mesci_5050
+            MCIC: A4R28_01830 A4R28_28330
+            MOP: Mesop_0012 Mesop_5636
+            MAM: Mesau_00012 Mesau_05134
+            MAMO: A6B35_07630 A6B35_11730
+            MESW: A9K65_000060 A9K65_027740
+            MESM: EJ066_11075(fabI) EJ066_16350(fabI)
+            MESP: C1M53_01600 C1M53_01935
+            MHUA: MCHK_0950(fabI) MCHK_6550(fabI)
+            MJR: EB229_00060(fabI) EB229_28850(fabI)
+            MERD: EB233_00060(fabI) EB233_25200(fabI)
+            MESR: FGU64_21925(fabI) FGU64_22225(fabI)
+            MOH: IHQ72_00055(fabI) IHQ72_29395(fabI)
+            MMEI: LRP31_00090(fabI) LRP31_29240(fabI)
+            MESO: BSQ44_03020 BSQ44_07245
+            MES: Meso_0727 Meso_3937
+            CHEA: PVE73_17315(fabI) PVE73_25130(fabI)
+            HOE: IMCC20628_02801 IMCC20628_03892
+            AAK: AA2016_0013 AA2016_4860
+            AMIH: CO731_00013(fabI_1) CO731_04581(fabI_2)
+            AMIS: Amn_07150 Amn_15940
+            PHT: BLM14_13245 BLM14_15700
+            PHYL: HB779_07450(fabI) HB779_09955(fabI)
+            RPOD: E0E05_03175(fabI) E0E05_04740(fabI)
+            NIY: FQ775_08875(fabI) FQ775_13245(fabI)
+            NKI: KW403_09685(fabI) KW403_14065(fabI)
+            ORM: HTY61_10745(fabI) HTY61_14225(fabI)
+            PLA: Plav_0786 Plav_3634
+            PMOB: HG718_09715(fabI) HG718_13075(fabI)
+            KMN: HW532_04720(fabI) HW532_12515(fabI)
+            RBS: RHODOSMS8_00327(fabI) RHODOSMS8_03221(fabI)
+            SME: SMc00005(fabI1) SMc00326(fabI2)
+            SMK: Sinme_0605 Sinme_3573
+            SMQ: SinmeB_0510 SinmeB_3350 SinmeB_5754
+            SMX: SM11_chr0553(fabI1) SM11_chr3721(fabI2) SM11_pC1355(fabI)
+            SMI: BN406_00553(fabI1) BN406_03377(fabI2) BN406_04095(fabI1)
+            SMEG: C770_GR4Chr0254 C770_GR4Chr0897 C770_GR4pC1173
+            SMEL: SM2011_c00005(fabI1) SM2011_c00326(fabI2)
+            SMER: DU99_01275 DU99_04630 DU99_24200
+            SMD: Smed_0512 Smed_3448
+            RHI: NGR_b13650(fabI1) NGR_c05170(fabI3) NGR_c35750(fabI2)
+            SFH: SFHH103_00575(fabi1) SFHH103_03810(fabi3) SFHH103_05680(fabI)
+            SFD: USDA257_c06130(fabI1) USDA257_c10550(fabI2) USDA257_c60870(fabI3)
+            SIX: BSY16_2073 BSY16_2575
+            SAME: SAMCFNEI73_Ch0271(fabI) SAMCFNEI73_Ch0949(fabI) SAMCFNEI73_Ch2306(fabI)
+            SINO: SS05631_c06130 SS05631_c20910 SS05631_c40510
+            ESJ: SJ05684_c05010 SJ05684_c35800
+            EAK: EKH55_0512 EKH55_3477 EKH55_5349
+            EMX: FKV68_01485(fabI) FKV68_04855(fabI) FKV68_28245(fabI)
+            ENU: PYH37_002427(fabI) PYH37_003110(fabI)
+            EGI: PZN02_000299(fabI) PZN02_001002(fabI) PZN02_004609(fabI)
+            SKM: PZL22_003862(fabI) PZL22_004509(fabI)
+            STEG: QA637_02570(fabI) QA637_17955(fabI) QA637_24135(fabI)
+            EAD: OV14_1100(fabI2) OV14_1835(fabI3) OV14_b0392(fabI1)
+            EAH: FA04_02650 FA04_18790 FA04_22670
+            ECAA: J3R84_02725(fabI) J3R84_18740(fabI) J3R84_35795(fabI)
+            ENP: JVX98_01425(fabI) JVX98_17800(fabI) JVX98_21455(fabI)
+            ATU: Atu0149(fabI) Atu0757(fabI)
+            ATA: AWN88_20350 AWN88_23425
+            AGR: AGROH133_03087(fabI) AGROH133_04373(fabI)
+            ATF: Ach5_01340(fabI) Ach5_06760(fabI)
+            AGC: BSY240_1673
+            AGT: EYD00_02020(fabI) EYD00_12990(fabI)
+            ALF: CFBP5473_00090(fabI) CFBP5473_11890(fabI)
+            ARUI: G6M88_08655(fabI) G6M88_10920(fabI)
+            AVQ: HRR99_00460(fabI) HRR99_02730(fabI)
+            AVV: RvVAT039_18070 RvVAT039_23770
+            AVF: RvVAR031_05230 RvVAR031_11040
+            ASAL: CFBP5507_01965(fabI) CFBP5507_13675(fabI)
+            RIR: BN877_I0147(fabI1) BN877_I0733(fabI2)
+            RPUS: CFBP5875_02310(fabI) CFBP5875_13320(fabI)
+            ACUC: KZ699_02290(fabI) KZ699_13490(fabI)
+            ALEG: CFBP4996_02105(fabI) CFBP4996_13695(fabI)
+            AVI: Avi_0179(fabI) Avi_1021(fabI)
+            RET: RHE_CH00109(fabI1) RHE_CH00938(fabI2)
+            REC: RHECIAT_CH0000145(fabI1) RHECIAT_CH0001035(fabI2)
+            REL: REMIM1_CH00113(fabI-1) REMIM1_CH00954(fabI-2)
+            REP: IE4803_CH00124(fabI-1) IE4803_CH00950(fabI-2)
+            REI: IE4771_CH00124(fabI-1) IE4771_CH00991(fabI-2)
+            RLE: RL0118(fabI1) RL1011(fabI2)
+            RLT: Rleg2_0591 Rleg2_4058
+            RLG: Rleg_0631 Rleg_4380
+            RLB: RLEG3_13360 RLEG3_33060
+            RLU: RLEG12_14280 RLEG12_31855
+            RTR: RTCIAT899_CH00540 RTCIAT899_CH04495
+            RHL: LPU83_0144(fabI1) LPU83_1040(fabI)
+            RGA: RGR602_CH00149(fabI-1) RGR602_CH00988(fabI-2)
+            RHN: AMJ98_CH00110(fabI-1) AMJ98_CH00956(fabI-2)
+            RPHA: AMC79_CH00148(fabI-1) AMC79_CH00968(fabI-2)
+            RHX: AMK02_CH00111(fabI-1) AMK02_CH00981(fabI-2)
+            RHV: BA939_09480 BA939_12720
+            RHK: Kim5_CH00123(fabI-1) Kim5_CH01053(fabI-2)
+            REZ: AMJ99_CH00110(fabI-1) AMJ99_CH00956(fabI-2)
+            RJG: CCGE525_00540(fabI) CCGE525_05555(fabI) CCGE525_22220(fabI)
+            RHR: CKA34_03500 CKA34_07625
+            RGR: FZ934_16920(fabI) FZ934_21875(fabI)
+            RAD: CO657_03125(fabI) CO657_20920(fabI)
+            ROY: G3A56_07035(fabI) G3A56_10755(fabI)
+            RII: FFM53_008165(fabI) FFM53_012705(fabI)
+            RHID: FFM81_016325(fabI) FFM81_020555(fabI)
+            RBQ: J2J99_00725(fabI) J2J99_04945(fabI) J2J99_13890(fabI)
+            RLN: J0663_09220(fabI) J0663_13390(fabI) J0663_17850(fabI)
+            RBAN: J2J98_00555(fabI) J2J98_04575(fabI)
+            RRG: J3P73_00825(fabI) J3P73_05695(fabI)
+            RLS: HB780_26315(fabI) HB780_30230(fabI)
+            RROS: D4A92_12225(fabI)
+            RAW: NE851_10560(fabI) NE851_14940(fabI)
+            RSUL: N2599_02585(fabI) N2599_18995(fabI)
+            RLW: RlegWSM1455_03050(fabI) RlegWSM1455_22235(fabI)
+            RRHO: PR018_02210(fabI) PR018_13300(fabI)
+            RTU: PR017_02340(fabI) PR017_13325(fabI)
+            RCT: PYR68_02955(fabI) PYR68_20290(fabI)
+            ARA: Arad_0161(fabI1) Arad_1217(fabI2)
+            ARO: B0909_09695(fabI) B0909_12745(fabI)
+            RBW: RLCC275e_03085(fabI) RLCC275e_22510(fabI)
+            NGL: RG1141_CH05900 RG1141_CH41480
+            NGG: RG540_CH05510 RG540_CH42000
+            NEO: CYG48_02125 CYG48_15480
+            NEN: NCHU2750_04990(fabI) NCHU2750_38340(fabI)
+            NPM: QEO92_02825(fabI) QEO92_25205(fabI)
+            RHT: NT26_0505(fabI) NT26_3965(fabI)
+            RFV: RFYW14_00801 RFYW14_03993
+            LAS: CLIBASIA_01735(fabI) CLIBASIA_05365
+            LAA: WSI_01645 WSI_05215
+            LAT: CGUJ_01735(fabI) CGUJ_05365
+            LSO: CKC_01695 CKC_04005
+            LCC: B488_01060 B488_02950
+            LAR: lam_091(fabI) lam_815(fabI)
+            LAU: G293_02825 G293_04525
+            SHZ: shn_01300 shn_04200 shn_17165 shn_20505 shn_22085
+            SZO: K8M09_01635(fabI) K8M09_02775(fabI) K8M09_03705(fabI)
+            SOJ: K6301_01300(fabI) K6301_02780(fabI)
+            SSUM: Q9314_06500(fabI) Q9314_07995(fabI) Q9314_12290(fabI)
+            ABAW: D5400_01230(fabI) D5400_17370(fabI)
+            PDES: FE840_005245(fabI) FE840_008845(fabI)
+            KAI: K32_11460 K32_46220
+            BME: BMEI1512 BMEI1958
+            BMEL: DK63_1532 DK63_1977
+            BMI: BMEA_A0451 BMEA_A2231
+            BMZ: BM28_A0442(fabI) BM28_A2159
+            BMG: BM590_A0441 BM590_A2159
+            BMW: BMNI_I0434 BMNI_I2068
+            BMEE: DK62_1417 DK62_977
+            BMF: BAB1_0447(fabI-1) BAB1_2172(fabI-2)
+            BMB: BruAb1_0443(fabI-1) BruAb1_2144(fabI-2)
+            BMC: BAbS19_I04130 BAbS19_I20330
+            BAA: BAA13334_I00498 BAA13334_I03256
+            BABO: DK55_456 DK55_8
+            BABR: DO74_1431 DO74_1875
+            BABT: DK49_1857 DK49_219
+            BABB: DK48_1670 DK48_17
+            BABU: DK53_3 DK53_446
+            BABS: DK51_1016 DK51_1458
+            BABC: DO78_2004 DO78_363
+            BMS: BR0420(fabI-1) BR2171(fabI-2)
+            BSI: BS1330_I0421(fabI-1) BS1330_I2165(fabI-2)
+            BSF: BSS2_I0412(fabI-1) BSS2_I2105(fabI-2)
+            BSUI: BSSP1_I1284(fabI-1) BSSP1_I1969(fabI-2)
+            BSUP: BSPT1_I1296(fabI-1) BSPT1_I1985(fabI-2)
+            BSUV: BSPT2_I1280(fabI-1) BSPT2_I1970(fabI-2)
+            BSUC: BSSP2_I0434(fabI-1) BSSP2_I1974(fabI-2)
+            BMT: BSUIS_A0445(fabI) BSUIS_A2008(fabI)
+            BSZ: DK67_1351 DK67_203
+            BSV: BSVBI22_A0421(fabI-1) BSVBI22_A2167(fabI-2)
+            BSW: IY71_02155 IY71_10940
+            BSG: IY72_01880 IY72_10670
+            BOV: BOV_0428(fabI-1) BOV_2083(fabI-2)
+            BCS: BCAN_A0424(fabI) BCAN_A2213(fabI)
+            BSK: BCA52141_I1020 BCA52141_I1721
+            BOL: BCOUA_I0420(fabI-1) BCOUA_I2171(fabI-2)
+            BCAR: DK60_504 DK60_98
+            BCAS: DA85_02005 DA85_10435
+            BMR: BMI_I2192(fabI-2) BMI_I424(fabI)
+            BPP: BPI_I2228(fabI-2) BPI_I451(fabI-1)
+            BPV: DK65_1373 DK65_937
+            BCET: V910_101537 V910_101978
+            BCEE: V568_101724 V568_102229
+            BVL: BF3285c1_0858 BF3285c1_1312
+            BRU: BFS01_02110 BFS01_10345
+            BRJ: BKD03_08690 BKD03_10940
+            OIN: IAR37_02565(fabI) IAR37_05355(fabI)
+            BIO: BR141012304_10140 BR141012304_10574
+            OAN: Oant_0535 Oant_0741
+            OAH: DR92_2406 DR92_277
+            OPS: A8A54_01895 A8A54_18115
+            BPSN: NIK97_09245(fabI) NIK97_11605(fabI)
+            OCH: CES85_0471(fabI2) CES85_2729
+            OCR: HGK82_01955(fabI) HGK82_12275(fabI)
+            OCL: GTN27_02420(fabI) GTN27_12510(fabI)
+            PSCQ: KHQ08_05500(fabI) KHQ08_17610(fabI)
+            BJA: blr0771(fabI) blr2629(fabI) blr3459(fabI)
+            BJU: BJ6T_07750 BJ6T_51530 BJ6T_71730
+            BJP: RN69_03810 RN69_25120 RN69_34775
+            BRA: BRADO0061(fabI) BRADO2151(fabI) BRADO6363(fabI)
+            BBT: BBta_0066(fabI) BBta_2468(fabI) BBta_2653(fabI)
+            BRS: S23_00580(fabI) S23_53350(fabI)
+            AOL: S58_00670 S58_53770
+            BRC: BCCGELA001_00270 BCCGELA001_11490 BCCGELA001_19275
+            BRAD: BF49_0064 BF49_2095 BF49_3548 BF49_5248
+            BIC: LMTR13_14330 LMTR13_30420
+            BRO: BRAD285_5104(fabI) BRAD285_7609(fabI)
+            BOT: CIT37_10390 CIT37_31505 CIT37_40430
+            BRQ: CIT40_07745 CIT40_31545
+            BGQ: X265_00280 X265_08185 X265_27770
+            BGZ: XH91_00305 XH91_10170 XH91_25725
+            BSYM: CIT39_06980 CIT39_30605
+            BBET: F8237_06655(fabI) F8237_14720(fabI)
+            BARH: WN72_00300 WN72_13725 WN72_18320
+            BVZ: BRAD3257_0057(fabI) BRAD3257_2347(fabI) BRAD3257_6391(fabI)
+            BDG: LPJ38_03645(fabI) LPJ38_16075(fabI) LPJ38_20525(fabI)
+            BQB: J4P68_0011305(fabI)
+            BSEI: KMZ68_00255(fabI) KMZ68_08260(fabI)
+            BBAN: J4G43_000335(fabI) J4G43_014535(fabI) J4G43_027265(fabI)
+            BCAN: BcanWSM471_00495(fabI) BcanWSM471_12335(fabI) BcanWSM471_19405(fabI) BcanWSM471_28100(fabI)
+            BBRA: QA636_15280(fabI)
+            BCOU: IC761_00290(fabI) IC761_10170(fabI) IC761_26105(fabI)
+            BXN: I3J27_00275(fabI) I3J27_09490(fabI) I3J27_19265(fabI)
+            RPA: TX73_002220(fabI) TX73_006160(fabI) TX73_023730(fabI)
+            RPB: RPB_0611 RPB_1025 RPB_1211
+            RPC: RPC_0347 RPC_1140 RPC_1999
+            RPD: RPD_0222 RPD_1126 RPD_1312
+            RPE: RPE_0255 RPE_3164 RPE_4591
+            RPT: Rpal_0431 Rpal_1392 Rpal_5048
+            RPX: Rpdx1_0264 Rpdx1_1371 Rpdx1_4750
+            RBK: E0H22_20845(fabI)
+            NWI: Nwi_0032
+            NHA: Nham_0040 Nham_0866
+            OCA: OCAR_4499 OCAR_4866 OCAR_6903
+            OCG: OCA5_c00350(fabI1) OCA5_c11800(fabI2) OCA5_c30840(fabI3)
+            OCO: OCA4_c00350(fabI1) OCA4_c11800(fabI2) OCA4_c30320(fabI3)
+            PCAX: AFIC_000038(fabI) AFIC_002299(fabI)
+            VGO: GJW-30_1_02393(fabI_1) GJW-30_1_04156(fabI_2)
+            TRB: HB776_16220(fabI) HB776_23485(fabI)
+            BOP: AXW83_13560 AXW83_21185 AXW83_24700
+            BOS: BSY19_1201 BSY19_3983
+            BVV: BHK69_07725 BHK69_27675
+            BOI: BLM15_17530 BLM15_24640
+            BOF: FQV39_14215(fabI) FQV39_17135(fabI) FQV39_26170(fabI)
+            BVES: QO058_12005(fabI) QO058_19575(fabI)
+            BHE: BH01270(fabI1) BH04310(fabI2)
+            BHN: PRJBM_00129(fabI1) PRJBM_00437(fabI2)
+            BHS: BM1374165_00131(fabI1) BM1374165_00410(fabI2)
+            BQU: BQ01200(fabI1) BQ03500(fabI2)
+            BQR: RM11_0113 RM11_0336
+            BBK: BARBAKC583_0396 BARBAKC583_1270
+            BTR: BT_0141(fabI1) BT_0644(fabI2)
+            BTX: BM1374166_00122(fabI1) BM1374166_00602(fabI2)
+            BGR: Bgr_01270(fabI1) Bgr_04630(fabI2)
+            BCD: BARCL_0139(fabI) BARCL_0426(fabI)
+            BAUS: BAnh1_01270(fabI1) BAnh1_03570(fabI2)
+            BVN: BVwin_01150(fabI1) BVwin_03290(fabI2)
+            BANC: PU02_0566 PU02_1250
+            BAPI: BBC0122_003020 BBC0122_007020
+            BART: BJB15x_000090 BJB15x_002810
+            BARA: BA1379B_000080 BA1379B_008270
+            BARW: BWD162_000090 BWD162_002470
+            BARR: Bra60_000080 Bra60_009190
+            BARO: B11Cv2_000090 B11Cv2_009030
+            BARJ: BJB63x_000090 BJB63x_002800
+            BEZ: NCTC12898_00011(fabI_1) NCTC12898_00283(fabI_2)
+            BARN: D1092_00050(fabI) D1092_01310(fabI)
+            BKY: D1093_01950(fabI) D1093_04840(fabI)
+            BALS: HWV54_04530(fabI) HWV54_05610(fabI)
+            BTAY: LAJ60_06805(fabI) LAJ60_08035(fabI)
+            BMAC: LNM86_00050(fabI) LNM86_04190(fabI)
+            BHAR: NMK50_00220(fabI) NMK50_05820(fabI)
+            BAPA: BBC0178_002990 BBC0178_006990
+            XAU: Xaut_0052 Xaut_3256 Xaut_4143
+            XDI: EZH22_04440(fabI) EZH22_15715(fabI) EZH22_19395(fabI)
+            AZC: AZC_1754 AZC_2769 AZC_4644
+            SNO: Snov_0248 Snov_0266 Snov_4212
+            STAR: G3545_16790(fabI) G3545_16880(fabI)
+            LNE: FZC33_14145(fabI) FZC33_26330(fabI)
+            ANC: GBB76_10075(fabI) GBB76_16085(fabI) GBB76_16160(fabI)
+            APRA: G3A50_08040(fabI) G3A50_08545(fabI)
+            APOL: K9D25_11145(fabI) K9D25_11230(fabI)
+            MEA: Mex_1p0342(fabI) Mex_1p4689(fabI)
+            MDI: METDI0293(fabI) METDI0497(fabI) METDI5295(fabI) p2METDI0040(fabI)
+            MEX: Mext_0426 Mext_4292
+            MCH: Mchl_0460 Mchl_4661
+            MPO: Mpop_0497 Mpop_4810
+            MZA: B2G69_03395 B2G69_09380
+            MRD: Mrad2831_2682 Mrad2831_5525
+            MET: M446_1565 M446_1759 M446_2227 M446_6100
+            MNO: Mnod_0384 Mnod_0682 Mnod_6912
+            MOR: MOC_3047 MOC_6103
+            META: Y590_01630 Y590_21450
+            MAQU: Maq22A_c04315(fabI) Maq22A_c08710(fabI)
+            MPHY: MCBMB27_02124 MCBMB27_04824
+            MEE: DA075_09020 DA075_14300 DA075_20880
+            METD: C0214_01860 C0214_23525
+            METX: A3862_03055 A3862_18335
+            METS: DK389_05115 DK389_07385 DK389_20195
+            METI: DK427_07715 DK427_25070
+            MMES: MMSR116_03185(fabI) MMSR116_06745(fabI) MMSR116_14870(fabI)
+            MTEA: DK419_04775 DK419_06905 DK419_12815
+            MIND: mvi_32150 mvi_44290(fabI)
+            MOG: MMB17_16800(fabI) MMB17_17975(fabI)
+            MTAD: M6G65_01225(fabI) M6G65_19580(fabI)
+            MOC: BB934_05545 BB934_12480 BB934_24245
+            MIV: C4E04_01095 C4E04_06845 C4E04_20270
+            MICO: GDR74_00375(fabI) GDR74_01065(fabI) GDR74_06425(fabI)
+            MTEZ: HPT29_000795(fabI) HPT29_014920(fabI) HPT29_018870(fabI)
+            BID: Bind_0201 Bind_0331 Bind_1103
+            MSL: Msil_1003 Msil_2204 Msil_2709 Msil_2975
+            MTUN: MTUNDRAET4_1409(fabI) MTUNDRAET4_3876(fabI)
+            MLG: CWB41_03255 CWB41_08650 CWB41_15380
+            RHJ: HZY79_02400(fabI) HZY79_06815(fabI) HZY79_15350(fabI)
+            MEDK: QEV83_02545(fabI) QEV83_11010(fabI) QEV83_15075(fabI)
+            BBAR: RHAL1_01623(fabI_1) RHAL1_03763(fabI_2)
+            CHEL: AL346_07060 AL346_13500 AL346_16115
+            CDQ: BOQ54_00205 BOQ54_06175
+            HDN: Hden_1970 Hden_2030 Hden_2051 Hden_3505
+            HDT: HYPDE_28668 HYPDE_39338 HYPDE_41618
+            HMC: HYPMC_2947(fabI) HYPMC_4042(fabI) HYPMC_4756(fabI)
+            HNI: W911_00910 W911_08225
+            RVA: Rvan_0455 Rvan_1561 Rvan_2597
+            RLAC: QMO75_07270(fabI) QMO75_08280(fabI) QMO75_09160(fabI)
+            FIL: BN1229_v1_2243(fabI) BN1229_v1_2341(fabI) BN1229_v1_3238 BN1229_v1_3822(fabI)
+            FIY: BN1229_v1_2242(fabI) BN1229_v1_2342(fabI) BN1229_v1_2686 BN1229_v1_3812(fabI)
+            RHZ: RHPLAN_03880 RHPLAN_26310
+            MCG: GL4_0386 GL4_0698 GL4_1089
+            METG: HT051_07300(fabI) HT051_12850(fabI) HT051_14945(fabI)
+            PHL: KKY_583
+            PEM: OF122_15485(fabI)
+            DEQ: XM25_01725
+            MMYR: MXMO3_02685
+            YTI: FNA67_05525(fabI)
+            MHAR: L1P08_07380(fabI)
+            BVR: BVIR_1962 BVIR_3154
+            BLAG: BLTE_09940 BLTE_25680(fabI1) BLTE_31510
+            MSC: BN69_1316 BN69_2322
+            MBRY: B1812_06235 B1812_12265
+            MROS: EHO51_05895(fabI) EHO51_12870(fabI) EHO51_13855(fabI)
+            MHEY: H2LOC_013300(fabI) H2LOC_018335(fabI)
+            MPAR: F7D14_04875(fabI) F7D14_05265(fabI) F7D14_08830(fabI) F7D14_09875(fabI)
+            MIWA: SS37A_03950(fabI) SS37A_35050
+            MTW: CQW49_09320 CQW49_16835
+            PLEO: OHA_1_00206(fabI_1) OHA_1_02396(fabI_2) OHA_1_03258(fabI_3)
+            HDI: HDIA_1202(fabI_1) HDIA_1597(fabI_2) HDIA_4401(fabI_3)
+            MEY: TM49_10830 TM49_20640
+            MAAD: AZF01_01015 AZF01_05025
+            MMED: Mame_03402(fabI_1) Mame_04110(fabI_2)
+            MLUT: JET14_02220(fabI) JET14_06320(fabI)
+            AUA: M673_00060 M673_09640
+            AALA: IGS74_00055(fabI) IGS74_08450(fabI)
+            AALM: LUX29_00055(fabI) LUX29_09300(fabI)
+            AUZ: Sa4125_06270(fabI3) Sa4125_46360(fabI2)
+            AUB: LXB15_15770(fabI) LXB15_18245(fabI)
+            JIE: OH818_20935(fabI)
+            BRN: D1F64_00540(fabI)
+            THD: BHV28_14740(fabI) BHV28_16160(fabI)
+            PSIN: CAK95_09105 CAK95_15865
+            NOH: G5V57_14220(fabI) G5V57_18470(fabI)
+            TSO: IZ6_00090 IZ6_09620
+            RBM: TEF_08025 TEF_15820 TEF_17020
+            PSF: PSE_0320 PSE_1643 PSE_p0034
+            PPHR: APZ00_01660 APZ00_06490 APZ00_16640
+            LAP: ACP90_00775 ACP90_20020 ACP90_22240
+            LABR: CHH27_00265 CHH27_19605 CHH27_26325
+            LABP: FJ695_04065(fabI) FJ695_23565(fabI) FJ695_25835(fabI)
+            LABT: FIU93_01665(fabI1) FIU93_05855(fabI2) FIU93_26565(fabI3) FIU93_28725(fabI4)
+            LAGG: B0E33_03740 B0E33_05670 B0E33_07285 B0E33_12280
+            SIW: GH266_13285(fabI) GH266_18735(fabI)
+            PHR: C6569_13825 C6569_18430
+            PSTG: E8M01_08225(fabI) E8M01_12910(fabI)
+            LIZ: LGH83_01385(fabI) LGH83_05555(fabI)
+            ACUT: MRB58_14305(fabI) MRB58_16250(fabI)
+            CCR: CC_3717
+            CCS: CCNA_03833(fabI)
+            CAK: Caul_5064
+            CSE: Cseg_4168
+            CHQ: AQ619_18030
+            CMB: CSW64_20865
+            CFH: C1707_05415
+            CAUF: CSW63_22955
+            CAUL: KCG34_15770
+            PZU: PHZ_c0026(fabI)
+            PHB: HYN04_13035
+            BSB: Bresu_0582
+            BRD: JL11_00985
+            BNE: DA69_12795
+            BRG: A4249_14885
+            BRL: BZG35_02920
+            BVC: CEP68_10160
+            BDM: EQG53_04630
+            BRF: E4M01_02850
+            BREV: E7T10_00455
+            BMED: GYM46_09975
+            BVY: NCTC9239_03124(fabI)
+            BND: KWG56_17080
+            BPON: IFE19_15980
+            BGOE: IFJ75_15420
+            BVIT: JIP62_09375
+            BALB: M8231_15925
+            BFQ: JX001_00480
+            BRES: E4341_00455
+            AEX: Astex_0783
+            TSV: DSM104635_03971(fabI)
+            APAH: KB221_00880
+            SIL: SPO0113(fabI-1) SPO2142(fabI-2) SPOA0439(fabI-3)
+            SIT: TM1040_0180 TM1040_1147
+            RUA: D1823_04795(fabI) D1823_10160
+            RUT: FIU92_03130(fabI1) FIU92_08220(fabI2)
+            RCON: K3740_09140(fabI) K3740_14575
+            JAN: Jann_1657 Jann_2476
+            RDE: RD1_3199(fabI-2) RD1_3925(fabI)
+            RLI: RLO149_c005070(fabI1) RLO149_c024210(fabI2)
+            RPON: G3256_07075(fabI) G3256_13680
+            DSH: Dshi_1008(fabI1) Dshi_1790(fabI2)
+            KVL: KVU_0617(fabI-2) KVU_2444(fabI-3)
+            KVU: EIO_0102 EIO_1110
+            KRO: BVG79_00118(fabI) BVG79_00872(fabI)
+            PGA: PGA1_c04640(fabI1) PGA1_c16810(fabI2)
+            PGL: PGA2_c04190(fabI1) PGA2_c16630(fabI2)
+            PGD: Gal_01662 Gal_03037
+            PHP: PhaeoP97_01688(fabI2) PhaeoP97_02891(fabI1)
+            PPIC: PhaeoP14_00382(fabI1) PhaeoP14_01581(fabI2)
+            PHQ: D1820_04375(fabI) D1820_15180
+            OAT: OAN307_c22190(fabI2) OAN307_c39760(fabI1)
+            OAR: OA238_c22390(fabI2) OA238_c30600(fabI1)
+            OTM: OSB_16470(fabI_1) OSB_24680(fabI_2)
+            OCT: FTO60_05995(fabI) FTO60_08340(fabI) FTO60_12745
+            LMD: METH_02170 METH_08880
+            LEJ: ETW24_10055(fabI) ETW24_16165
+            LAQU: R2C4_08970(fabI) R2C4_14675
+            LEV: ETW23_02760 ETW23_10150(fabI)
+            LCAE: K3721_02375 K3721_08240(fabI)
+            RED: roselon_02435 roselon_02679
+            CID: P73_1308 P73_2992
+            CMAR: IMCC12053_1429 IMCC12053_2144
+            CEH: CEW89_01230 CEW89_16750
+            MALG: MALG_01556 MALG_02886
+            CON: TQ29_03660 TQ29_04445 TQ29_10540
+            YPAC: CEW88_07590 CEW88_11545
+            YAN: AYJ57_01225 AYJ57_04930
+            TPRO: Ga0080559_TMP4056 Ga0080559_TMP690
+            PABY: Ga0080574_TMP1332 Ga0080574_TMP3546 Ga0080574_TMP4326
+            SUAM: BOO69_04520 BOO69_10375
+            SULZ: C1J03_05040 C1J03_09130 C1J03_23960
+            SULI: C1J05_03795 C1J05_15835
+            SULD: B5M07_05585 B5M07_08300
+            SDO: SD1155_07375
+            SPOT: G6548_10775(fabI) G6548_12810
+            SMED: JNX03_05715(fabI) JNX03_09120 JNX03_19320(fabI)
+            SINL: DSM14862_01727(fabI_1) DSM14862_02345(fabI_2)
+            SFAV: PL335_08640(fabI) PL335_11160
+            SUAL: KDD17_07820(fabI) KDD17_10550
+            SPSE: SULPSESMR1_01770(fabI) SULPSESMR1_02308(fabI)
+            TOM: BWR18_03395 BWR18_08260 BWR18_19545
+            RMM: ROSMUCSMR3_00937(fabI) ROSMUCSMR3_03842(fabI) ROSMUCSMR3_04179(fabI)
+            ROK: RAK1035_2688 RAK1035_3806 RAK1035_4104
+            RID: RIdsm_01680(fabI_1) RIdsm_02478(fabI_2)
+            ROM: EI983_07385(fabI) EI983_11595
+            ROH: FIU89_08810(fabI1) FIU89_13360(fabI2)
+            RPEL: N7U68_04420(fabI) N7U68_19650 N7U68_20575(fabI)
+            AHT: ANTHELSMS3_01871 ANTHELSMS3_03356
+            SAGU: CDO87_07105 CDO87_21510
+            THAA: CFI11_05750 CFI11_13280
+            OCD: FHY55_04320 FHY55_08785(fabI)
+            MARU: FIU81_06945(fabI1) FIU81_12415(fabI2)
+            ROT: FIV09_02430(fabI1) FIV09_10300(fabI2)
+            RMH: LVO79_02215 LVO79_08635(fabI)
+            MALU: KU6B_27850(fabI-2) KU6B_47390(fabI-3)
+            TGL: HFZ77_02210(fabI) HFZ77_14955
+            TMD: KUV46_07075
+            HAT: RC74_02875 RC74_15410
+            PALX: GQA70_09280(fabI) GQA70_16080
+            LSAL: KBK07_03210 KBK07_05970(fabI) KBK07_06120(fabI)
+            LALG: LentiSH36_00739(fabI1) LentiSH36_01321(fabI2)
+            TRY: QF118_07965 QF118_13425(fabI)
+            PLCG: RVY76_09280(fabI) RVY76_12125
+            RSP: RSP_1256 RSP_2344(fabI1) RSP_3176(fabI)
+            RSH: Rsph17029_1019 Rsph17029_2916 Rsph17029_3913
+            RSQ: Rsph17025_1051 Rsph17025_2694 Rsph17025_3934
+            RSK: RSKD131_0670 RSKD131_2655 RSKD131_3350
+            CAZT: LV780_04605(fabI) LV780_14570(fabI) LV780_16000
+            RCP: RCAP_rcc02350(fabI1) RCAP_rcc02667(fabI2) RCAP_rcc03371(fabI)
+            RHP: LPB142_04570 LPB142_05320 LPB142_06660
+            RBL: B6K69_04675 B6K69_06130
+            PDE: Pden_0857 Pden_1651
+            PAMI: JCM7686_0767 JCM7686_2878 JCM7686_pAMI8p186
+            PYE: A6J80_15005 A6J80_15245 A6J80_21295
+            PCON: B0A89_01090 B0A89_08130
+            PZH: CX676_02630 CX676_06440
+            PARO: CUV01_01965 CUV01_13615
+            PARU: CYR75_02665 CYR75_07095
+            PAMN: JCM7685_1931(fabI1) JCM7685_2330(fabI3)
+            PMUT: DPM13_13750 DPM13_13990
+            PARS: DRW48_09235 DRW48_15570
+            PARR: EOJ32_09510(fabI) EOJ32_13335
+            PAAK: FIU66_04625(fabI) FIU66_09085
+            PKD: F8A10_03155(fabI) F8A10_13040
+            PPAN: ESD82_00465 ESD82_13450(fabI)
+            PLIA: E4191_06965(fabI) E4191_12130
+            PSAN: HGN31_10240 HGN31_13770(fabI) HGN31_15305(fabI)
+            PMAU: CP157_00938(fabI_1) CP157_01742(fabI_2)
+            PMEH: JWJ88_05860 JWJ88_07855(fabI)
+            PSEW: JHW44_05235 JHW44_05655(fabI) JHW44_19795(fabI)
+            PSAP: JHX88_05225(fabI) JHX88_09300
+            PFIS: JHX87_01000(fabI) JHX87_06195
+            PAEX: JHW48_06195 JHW48_09755(fabI)
+            PSTL: JHW45_04005 JHW45_13120(fabI)
+            PALP: JHW40_00990 JHW40_15505(fabI)
+            PVER: E3U25_10465 E3U25_23425(fabI)
+            PAEZ: PAE61_00725(fabI) PAE61_06145 PAE61_11760(fabI)
+            PALS: PAF20_09365(fabI) PAF20_11390
+            PDIM: PAF18_05680(fabI) PAF18_08050
+            PTP: RCA23_c17170(fabI1) RCA23_c20170(fabI2)
+            RSU: NHU_01050 NHU_02694(fabI2) NHU_02772(fabI)
+            RHM: B5V46_11330 B5V46_11705 B5V46_13475
+            RHC: RGUI_0560 RGUI_1490 RGUI_2002
+            RMB: K529_007645 K529_018210
+            TSCO: R1T40_06135(fabI) R1T40_12220
+            DAA: AKL17_0873 AKL17_1438 AKL17_2987
+            DON: BSK21_07425 BSK21_12215
+            RBZ: B9057_01405 B9057_05905 B9057_06110 B9057_14605
+            THW: BMG03_14280 BMG03_14880
+            TEC: AKL02_013630(fabI) AKL02_014370
+            LVS: LOKVESSMR4R_01259(fabI) LOKVESSMR4R_02233(fabI)
+            RBG: BG454_08930 BG454_12515
+            GEH: HYN69_07390 HYN69_12775
+            GFU: KM031_04255 KM031_04345(fabI) KM031_21400(fabI)
+            TAW: EI545_06215 EI545_18520(fabI)
+            SALO: EF888_03945 EF888_12575(fabI)
+            SEDI: EBB79_09910(fabI) EBB79_17035
+            PPSO: QPJ95_11255 QPJ95_20830(fabI)
+            HML: HmaOT1_01100(fabI) HmaOT1_04885 HmaOT1_05745(fabI)
+            BOO: E2K80_03180 E2K80_06760(fabI)
+            PSEB: EOK75_03725(fabI) EOK75_09500 EOK75_19035(fabI)
+            LIT: FPZ52_02800 FPZ52_06045(fabI)
+            PPRU: FDP22_07255 FDP22_17435(fabI) FDP22_20365(fabI)
+            PAED: G5B38_00825(fabI) G5B38_04505 G5B38_18955(fabI)
+            MON: G8E03_07945(fabI) G8E03_14415
+            PAMO: BAR1_03280 BAR1_09835(fabI)
+            PSHQ: F3W81_02965(fabI) F3W81_12030 F3W81_15620(fabI)
+            POZ: I0K15_01770(fabI) I0K15_05510 I0K15_07110(fabI)
+            PALW: PSAL_010640(fabI_1) PSAL_031480(fabI_2)
+            PPAF: I8N54_02620 I8N54_04500(fabI) I8N54_08130(fabI)
+            PGV: SL003B_0064 SL003B_3317(fabI)
+            CACT: HZ995_10890 HZ995_13400(fabI)
+            THAS: C6Y53_10790 C6Y53_17140(fabI)
+            HDH: G5B40_01410(fabI) G5B40_04355(fabI) G5B40_13530
+            CMAG: CBW24_04515 CBW24_12605
+            FAP: GR316_02315(fabI) GR316_05825
+            GCE: KYE46_11105(fabI) KYE46_13125
+            NSM: JO391_00280(fabI) JO391_07945(fabI) JO391_12785
+            ACRO: K3J57_07515(fabI) K3J57_11020
+            SINR: O5O51_06360(fabI) O5O51_09490 O5O51_11840(fabI)
+            AALK: LGT41_0006575 LGT41_0009125(fabI) LGT41_0013435(fabI)
+            AMYL: QBD29_05770(fabI) QBD29_15815
+            AMAQ: GO499_07085(fabI) GO499_18135
+            RHOC: QTA57_14755(fabI)
+            PBAE: P8S53_08645(fabI) P8S53_15015
+            FAQ: G5B39_05935 G5B39_12100(fabI) G5B39_17075(fabI)
+            MMR: Mmar10_3058
+            GAK: X907_2777
+            HYT: HXX25_11140
+            HNE: HNE_3436
+            HBA: Hbal_3076
+            CBOT: ATE48_10880
+            HBC: AEM38_01650
+            ZMO: ZMO1692
+            ZMN: Za10_1527
+            ZMM: Zmob_1448
+            ZMB: ZZ6_1425
+            ZMI: ZCP4_1470
+            ZMC: A265_01469(fabI)
+            ZMR: A254_01468(fabI)
+            ZMP: Zymop_1424
+            NAR: Saro_0051
+            NPP: PP1Y_AT590
+            NPN: JI59_11310 JI59_23485
+            NRE: BES08_13905 BES08_27180 BES08_30920
+            NOV: TQ38_000390
+            NOT: C7W88_05890
+            NOR: FA702_11865(fabI)
+            NGF: FRF71_06575(fabI)
+            NOG: GKE62_10700
+            NDR: HT578_02530(fabI) HT578_12660(fabI)
+            NHUM: PQ457_04675(fabI) PQ457_15535(fabI)
+            SAL: Sala_0657
+            SPHK: SKP52_04980(fabI)
+            SPHP: LH20_02540
+            SMAG: AN936_15020
+            SMAZ: LH19_03315
+            STER: AOA14_12330
+            SGI: SGRAN_1356(fabI)
+            SPHQ: BWQ93_20100
+            SPHO: C3E99_03620
+            SPHX: E5675_14010
+            SINA: KNJ79_13085 KNJ79_21160
+            SPHU: SPPYR_2584(fabI)
+            SWI: Swit_4769
+            SPHD: HY78_01195
+            RDI: CMV14_17230 CMV14_25180
+            SPHM: G432_15220
+            STAX: MC45_10390
+            SPHI: TS85_18205
+            SSAN: NX02_02285 NX02_02715 NX02_09570 NX02_20865 NX02_27450
+            SNJ: A7E77_04795
+            SMY: BJP26_00075
+            SPAN: AWL63_03640 AWL63_23015
+            SKR: BRX40_04780
+            SPLM: BXU08_12610
+            SPLK: AV944_04660
+            SPKC: KC8_19965
+            SPHC: CVN68_11385
+            SPHF: DM480_09285
+            SPHA: D3Y57_10535(fabI)
+            SPAU: DRN02_009355(fabI)
+            SECH: B18_20895
+            SLUT: H9L13_12295(fabI)
+            SRHI: H9L12_00635(fabI)
+            SLAN: GV829_02620
+            SDH: H9L15_15405(fabI)
+            SSED: H9L14_01765(fabI)
+            SPAP: H3Z74_23105(fabI)
+            SXA: FMM02_07615(fabI)
+            SPAI: FPZ24_15640(fabI)
+            SPII: G7077_05675(fabI)
+            SSIN: G7078_03510(fabI)
+            SSAU: H8M03_06605(fabI)
+            SARI: H5J25_03305(fabI)
+            SCHY: GVO57_02795(fabI)
+            SSUA: FPZ54_17280(fabI)
+            SBIN: SBA_ch1_11640(fabI-2)
+            SAER: NEF64_03860(fabI)
+            SMOR: LHA26_08740(fabI)
+            SGLC: M1K48_12355(fabI)
+            SQO: NMP03_11570(fabI)
+            SCAB: LZK98_03340(fabI)
+            SRAD: LLW23_12890(fabI)
+            SHAN: PPZ50_06770(fabI)
+            SNAP: PQ455_18270(fabI)
+            SNOS: K8P63_00380(fabI)
+            SDON: M9980_00880(fabI)
+            SJP: SJA_C1-01740(fabI)
+            SINB: SIDU_17075
+            SCH: Sphch_1955
+            SSY: SLG_02660(fabI) SLG_25310
+            SYB: TZ53_10600
+            SBD: ATN00_16320
+            SPMI: K663_01335
+            SPHB: EP837_01629(fabI)
+            SPHR: BSY17_1775
+            SPHT: K426_20460
+            SHYD: CJD35_07185
+            SYA: A6768_23600
+            SCLO: SCLO_1001430 SCLO_1002110 SCLO_1029940 SCLO_2001280
+            SPYG: YGS_C1P3006 YGS_C2P0752
+            SUFL: FIL70_04270(fabI) FIL70_16650(fabI)
+            SBAR: H5V43_12720(fabI) H5V43_22950(fabI)
+            SAMI: SAMIE_1001360 SAMIE_1035790 SAMIE_3001030
+            SPPH: KFK14_17220(fabI)
+            CIJ: WG74_02985
+            SPHG: AZE99_01470
+            SFLA: SPHFLASMR4Y_02070(fabI)
+            SPHY: CHN51_04105
+            SPHL: LPB140_11265
+            BLAS: BSY18_370
+            BFW: B5J99_11080
+            SPHJ: BSL82_00275
+            SPZR: G5C33_03305(fabI)
+            HGN: E6W36_04875(fabI)
+            PALG: HFP57_08155(fabI) HFP57_16180(fabI)
+            PARJ: J4G78_07700(fabI)
+            PHAO: HF685_09765(fabI)
+            SMIC: SmB9_22100(fabI1)
+            SPHS: ETR14_06700(fabI)
+            SAND: H3309_11830(fabI)
+            POQ: KZX46_17075(fabI)
+            PMEA: KTC28_15260(fabI)
+            AEP: AMC99_02619
+            ALB: AEB_P0534
+            ALH: G6N82_00520 G6N82_09105(fabI)
+            ARUE: QQX03_02295(fabI) QQX03_07215
+            AAY: WYH_00780(fabI_1) WYH_02350(fabI_2) WYH_02400(fabI_3)
+            AMX: AM2010_2176
+            PMAS: NCF86_12625(fabI)
+            ANH: A6F65_00375(fabI)
+            ADO: A6F68_00390(fabI)
+            TFV: IDJ81_02305(fabI)
+            CNA: AB433_16250
+            CMAN: A9D14_13825
+            ERY: CP97_02355
+            EGN: BMF35_a0733
+            EFV: CHH26_01350 CHH26_07765
+            QCI: NCF85_14460(fabI)
+            QSP: L1F33_03555(fabI)
+            ELI: ELI_06735 ELI_13405
+            ELQ: Ga0102493_111024
+            ERK: CD351_01720 CD351_10610
+            ERR: DVR09_02970
+            ERF: FIU90_10715(fabI)
+            EMV: HQR01_05935(fabI)
+            PNS: A9D12_04250
+            PORL: BG023_11497
+            PHZ: CHX26_02140
+            POT: E2E27_03500(fabI)
+            NTD: EGO55_08325(fabI) EGO55_18515(fabI)
+            CAEN: K5X80_02045(fabI)
+            GOX: GOX1990
+            GOH: B932_3535
+            GOY: GLS_c21030(fabI)
+            GAL: A0U94_04055
+            GTI: FXF46_10485(fabI)
+            GSP: IGS75_11320(fabI)
+            GFA: MKW11_10295(fabI)
+            GBE: GbCGDNIH1_0225
+            GBH: GbCGDNIH2_0225
+            GBC: GbCGDNIH3_0225
+            GBS: GbCGDNIH4_0225
+            ACR: Acry_0830 Acry_3029
+            AMV: ACMV_10830(fabI) ACMV_33730(fabI)
+            GDI: GDI3231(fabI)
+            GDJ: Gdia_3131
+            GXY: GLX_06170
+            GXL: H845_1731
+            KNA: B0W47_02415
+            KEU: S101446_01001(fabI)
+            KSC: CD178_02336(fabI)
+            KRE: GWK63_08745(fabI)
+            KOI: LV478_15875(fabI)
+            APT: APA01_11520
+            APW: APA42C_11520
+            APF: APA03_11520
+            APU: APA07_11520
+            APG: APA12_11520
+            APQ: APA22_11520
+            APX: APA26_11520
+            APZ: APA32_11520
+            APK: APA386B_2672(fabI)
+            ASZ: ASN_3707(fabI)
+            ASV: WG31_06285
+            AACE: A0U92_05480
+            APER: A0U91_02390
+            APOM: CPF11_01665
+            ATO: CIW82_12635
+            AASC: A4S02_03715
+            ACET: DS739_06005
+            AOT: AcetOri_orf00342
+            AOY: EOV40_005320(fabI)
+            ACEK: FLP30_12095(fabI)
+            ABG: Asbog_01673
+            KBA: A0U89_04400
+            RGI: RGI145_07310 RGI145_18700
+            ROS: CTJ15_10110 CTJ15_17885
+            RMUC: FOB66_09355(fabI) FOB66_20645(fabI)
+            RMT: IAI58_15395(fabI)
+            RFL: Rmf_09060(fabI-2) Rmf_25550
+            RCV: PFY06_01970(fabI)
+            NCH: A0U93_04145
+            COQ: D9V35_00065(fabI)
+            COMM: GN303_00245(fabI)
+            NTN: D5366_09560(fabI)
+            NEH: E3E11_00315(fabI)
+            SSAM: E3D00_08860(fabI)
+            SWF: E3E12_00350(fabI)
+            BOB: GN304_04990(fabI)
+            BOMB: GT348_04575(fabI)
+            EBLA: JGUZn3_08140(fabI)
+            LCK: HN018_21160(fabI)
+            KHA: IFJ82_07280(fabI)
+            PARZ: DTQ13_00340
+            SRF: LHU95_07075(fabI) LHU95_13270(fabI)
+            RAP: RHOA_0527(fabI) RHOA_1655(fabI) RHOA_5222(fabI)
+            SHUM: STHU_04230(fabI-2)
+            SVC: STVA_05780(fabI-2) STVA_32390
+            STEL: STAQ_07370 STAQ_39930(fabI-2)
+            AZL: AZL_009910(fabI) AZL_021790(fabI)
+            ALI: AZOLI_0839(fabI1) AZOLI_2242(fabI2)
+            ABS: AZOBR_110041(fabI1) AZOBR_150088(fabI2)
+            ABQ: ABAZ39_04380 ABAZ39_07415
+            ABF: AMK58_07105 AMK58_09650
+            ATI: AL072_08020 AL072_09205
+            AHU: A6A40_03460 A6A40_08760
+            AZT: TSH58p_04960 TSH58p_15895
+            AZM: DM194_03120 DM194_08190
+            AZZ: DEW08_05195 DEW08_11865
+            AOZ: HUE56_13715(fabI) HUE56_19255(fabI)
+            AARE: D3093_02055(fabI) D3093_04845(fabI)
+            NAO: Y958_03630 Y958_15920
+            NCB: C0V82_06445 C0V82_17025
+            SKT: IGS68_09700(fabI) IGS68_16700(fabI) IGS68_33060
+            SMUC: JL100_009415(fabI) JL100_017485(fabI) JL100_022195(fabI) JL100_034100
+            SROE: JL101_009335(fabI) JL101_016365(fabI)
+            RRU: Rru_A2624 Rru_A3226
+            RRF: F11_13485 F11_16520
+            RCE: RC1_0577(fabI) RC1_0650
+            RPM: RSPPHO_00054
+            MAG: amb1591 amb4226
+            MGY: MGMSRv2__3561(fabI) MGMSRv2__4241(fabI)
+            MGRY: MSR1_32710(fabI_1) MSR1_39600(fabI_2)
+            MAGX: XM1_0393(fabI) XM1_3853(fabI)
+            MAGN: WV31_04365 WV31_20485
+            THAL: A1OE_114 A1OE_378(fabI)
+            EFK: P856_223 P856_72(fabI)
+            HJO: AY555_05885
+            FER: FNB15_07210(fabI) FNB15_07630
+            HTQ: FRZ44_39320
+            HADH: FRZ61_08750(fabI) FRZ61_37730
+            DEX: HWD60_10900(fabI) HWD60_12495(fabI)
+            DVN: HQ394_12250(fabI) HQ394_17440(fabI)
+            TMO: TMO_0984 TMO_2256
+            TXI: TH3_06685 TH3_18910
+            THAC: CSC3H3_06470 CSC3H3_18060
+            TII: DY252_02670(fabI) DY252_09650(fabI)
+            THAI: IT893_11605(fabI) IT893_18085(fabI)
+            TLU: R1T41_06445(fabI) R1T41_15275(fabI)
+            MAGQ: MGMAQ_0734(fabI)
+            VSU: P3M64_00915(fabI)
+            ELIO: KO353_13520(fabI) KO353_14665(fabI)
+            NACI: NUH88_03060(fabI) NUH88_07380(fabI) NUH88_10480
+            PBR: PB2503_03782
+            HFL: PUV54_05440
+            MGM: Mmc1_3620
+            PUB: SAR11_0395(fabI)
+            PEL: SAR11G3_00335
+            PEG: E5R92_04340
+            APC: HIMB59_00004820 HIMB59_00009780
+            APM: HIMB5_00013220
+            ECOG: FIV45_05790(fabI)
+            PAQI: KW060_12870(fabI)
+            APB: SAR116_1062 SAR116_1574
+            SNEA: NBZ79_08035(fabI)
+            KOZ: KFF44_07680(fabI)
+            TMK: QGN29_10325
+            AFR: AFE_0420(fabI)
+            AFE: Lferr_0582
+            ACU: Atc_2445
+            ACZ: Acaty_c2284
+            AFI: Acife_0623
+            AFJ: AFERRID_16510
+            ATX: GCD22_00495(fabI)
+            AFP: K1Y48_02610
+            ACIY: MQE22_02355
+            MAES: Ga0123461_0489
+            MFN: Ga0123462_1775
+            HTL: HPTL_1159(fabI)
+            HPY: HP_0195
+            HEO: C694_00970
+            HPJ: jhp_0181(fabI)
+            HPA: HPAG1_0189
+            HPS: HPSH_01000
+            HHP: HPSH112_00960
+            HHQ: HPSH169_00960
+            HHR: HPSH417_00975
+            HPG: HPG27_179
+            HPP: HPP12_0196(fabI)
+            HPB: HELPY_0198
+            HPL: HPB8_1372(fabI)
+            HPC: HPPC_00975
+            HCA: HPPC18_00970
+            HPM: HPSJM_01060
+            HPE: HPELS_05810
+            HPO: HMPREF4655_20435
+            HPI: hp908_0204
+            HPQ: hp2017_0199(fabI)
+            HPW: hp2018_0202
+            HPU: HPCU_00945
+            HEF: HPF16_0201(fabI)
+            HPF: HPF30_1099(fabI)
+            HEQ: HPF32_0203(fabI)
+            HEX: HPF57_0213(fabI)
+            HPT: HPSAT_00960
+            HPZ: HPKB_0203
+            HPV: HPV225_0209
+            HPX: HMPREF0462_0248
+            HEN: HPSNT_01155
+            HPH: HPLT_01020
+            HEG: HPGAM_00995
+            HPN: HPIN_06165
+            HEP: HPPN120_00990
+            HEU: HPPN135_00985
+            HES: HPSA_00980
+            HPYS: HPSA20_0215
+            HCN: HPB14_00945
+            HPD: KHP_0194(fabI)
+            HEY: MWE_0269(fabI)
+            HER: C695_00970
+            HEI: C730_00970
+            HPYA: HPAKL117_00970
+            HPYK: HPAKL86_06015
+            HPYO: HPOK113_0203(fabI)
+            HPYL: HPOK310_0200(fabI)
+            HPYB: HPOKI102_01270
+            HPYC: HPOKI112_01265
+            HPYD: HPOKI128_01070
+            HPYE: HPOKI154_01050
+            HPYF: HPOKI422_01265
+            HPYG: HPOKI673_01050
+            HPYH: HPOKI828_01050
+            HPYJ: HPOKI898_01275
+            HPYR: K747_09625
+            HPYI: K750_07580
+            HPYU: K751_06660
+            HPYM: K749_04710
+            HEM: K748_03130
+            HEB: U063_0535
+            HEZ: U064_0536
+            HHE: HH_1313
+            HAC: Hac_0380(fabI)
+            HCE: HCW_02995
+            HCM: HCD_00290
+            HCP: HCN_1899
+            HCB: HCBAA847_2187
+            HTY: BN2458_PEG2014
+            HET: BBW65_04535
+            HCL: NCTC13205_00940(fabI)
+            HWI: A0Z60_08465(fabI)
+            HPUL: NCTC13154_01479(fabI)
+            WSU: WS0423(FABI)
+            TDN: Suden_1751
+            SUA: Saut_0534
+            SULN: FJR47_07990(fabI)
+            SULG: FJR48_09615(fabI)
+            SULC: CVO_01580(fabI)
+            SPAL: FM071_01930(fabI)
+            SSEI: FJR45_02890(fabI)
+            SBAL: HUE88_01730(fabI)
+            SMAS: HUE87_10410(fabI)
+            SMAX: FJR03_02090(fabI)
+            SKU: Sulku_0290
+            SULR: B649_01265
+            CJE: Cj1400c(fabI)
+            CJB: BN148_1400c(fabI)
+            CJJ: CJJ81176_1399(fabI)
+            CJU: C8J_1314(fabI)
+            CJN: ICDCCJ07001_1331
+            CJI: CJSA_1331(fabI)
+            CJM: CJM1_1357(fabI)
+            CJS: CJS3_1495(fabI)
+            CJP: A911_06810
+            CJEJ: N564_01397
+            CJEU: N565_01437
+            CJEN: N755_01434
+            CJEI: N135_01489
+            CJER: H730_07955
+            CJV: MTVDSCj20_1376(fabI)
+            CJY: QZ67_01535(fabI)
+            CJQ: UC78_1342(fabI)
+            CJL: PJ17_07370
+            CJW: PJ18_07155
+            CJR: CJE1587(fabI)
+            CJD: JJD26997_1734(fabI)
+            CJZ: M635_02675
+            CJX: BN867_13800
+            CFF: CFF8240_1426
+            CFT: CFF04554_1439(fabI)
+            CFV: CFVI03293_1465(fabI)
+            CFX: CFV97608_1565(fabI)
+            CFZ: CSG_15660
+            CAMP: CFT03427_1390(fabI)
+            CFP: CR44_07035
+            CCV: CCV52592_1245(fabI)
+            CHA: CHAB381_0780
+            CCO: CCC13826_0513(fabI)
+            CCOC: CCON33237_1484(fabI)
+            CCOL: BN865_07370
+            CCC: G157_01845
+            CCQ: N149_1361(fabI)
+            CCF: YSQ_01870
+            CCY: YSS_07550
+            CCOI: YSU_01905
+            CCOF: VC76_07005(fabI)
+            CCOO: ATE51_00764(fabI)
+            CAJ: CIG1485E_1423(fabI)
+            CGRA: CGRAC_1502(fabI)
+            CURE: CUREO_1385(fabI)
+            CHYO: CHH_0333(fabI)
+            CHV: CHELV3228_0164(fabI)
+            CPIN: CPIN18020_0697(fabI)
+            CCUN: CCUN_0544(fabI)
+            CLX: CLAN_0239(fabI)
+            CHW: A2J15_004735(fabI)
+            CAMZ: CVIC12175_1272(fabI)
+            CAMY: CSUIS_0372(fabI)
+            CUX: CUP3940_1520(fabI)
+            CRX: CRECT_1755(fabI)
+            CGEO: CGEO_1588(fabI)
+            CCOR: CCORG_0280(fabI)
+            CMUC: CMCT_1361(fabI)
+            CSHO: CSHOW_1589(fabI)
+            CINF: CINF_1572(fabI)
+            CNV: CNZW441b_1280(fabI)
+            CVU: CVULP_1555(fabI)
+            SDL: Sdel_0424
+            SBA: Sulba_0469
+            SMUL: SMUL_0580(fabI)
+            SHAL: SHALO_0574
+            SULS: Sdiek1_0535
+            SULJ: SJPD1_0534
+            SULT: FA592_09725(fabI)
+            ABU: Abu_2135(fabI)
+            ABT: ABED_1930
+            ABL: A7H1H_2066(fabI)
+            ASK: EI285_08790(fabI)
+            ATP: ATR_0276(fabI)
+            ACIB: ACBT_0442(fabI)
+            ACRE: ACRYA_1741(fabI)
+            ALAN: ALANTH_2069(fabI)
+            AFC: AFAEC_0210(fabI)
+            ATHR: ATH_1799(fabI)
+            ANT: Arnit_0425
+            AELL: AELL_2596(fabI)
+            AAQI: AAQM_2284(fabI)
+            ASUI: ASUIS_2378(fabI)
+            ACLO: ACLO_2421(fabI)
+            AVP: AVENP_2808(fabI)
+            ADZ: ADFLV_2731(fabI)
+            ARC: ABLL_2606
+            PACO: AACT_2726(fabI)
+            APOC: APORC_1923(fabI)
+            AROS: NJU99_01515(fabI)
+            ALK: ALEK_0325(fabI)
+            ALP: LPB137_01640
+            AHS: AHALO_0263(fabI)
+            AMYT: AMYT_0299(fabI)
+            AMAR: AMRN_0303(fabI)
+            ACAA: ACAN_0341(fabI)
+            AMOL: AMOL_0264(fabI)
+            APAI: APAC_0252(fabI)
+            HBV: ABIV_2270(fabI)
+            HEBR: AEBR_0368(fabI)
+            AANA: AANAER_0361(fabI)
+            HYO: NNO_0264
+            HTM: RZR91_11175(fabI)
+            NSA: Nitsa_1135
+            SUN: SUN_0717(fabI)
+            SLH: YH65_06085
+            SINU: IMZ28_06280(fabI)
+            NIS: NIS_1489(fabI)
+            NAM: NAMH_0465
+            NAP: C3L23_02455
+            CMED: FE773_03240(fabI)
+            CPAF: C6V80_07485(fabI)
+            GSU: GSU1008(fabI)
+            GSK: KN400_0990(fabI)
+            GME: Gmet_2558(fabI)
+            GPI: GPICK_12320
+            GAO: A2G06_11715
+            GBZ: JZM60_01050
+            GEM: GM21_1396
+            GEB: GM18_2682
+            GEF: FO488_14590
+            GUR: Gura_0906
+            GEO: Geob_1709(fabI)
+            GLO: Glov_2912 Glov_3422
+            TAMM: GEAMG1_1195(fabI)
+            GBM: Gbem_2814(fabI)
+            GBN: GEOBRER4_14080(fabI)
+            GER: KP004_06615
+            GSUB: KP001_08740
+            GNT: KP003_06095
+            GPL: M1B72_14260
+            GSB: GSUB_05680
+            PCA: Pcar_2044(fabI)
+            PACE: A6070_08965
+            PEF: A7E78_00480
+            PPD: Ppro_2894
+            DEU: DBW_2590
+            DVE: DESUT3_15600
+            DEP: AOP6_1013
+            DES: DSOUD_2240(fabI)
+            DVU: DVU_0794(fabI)
+            DVL: Dvul_2180
+            DVM: DvMF_2816
+            DVG: Deval_0731
+            DDS: Ddes_1048
+            DFI: AXF13_07730
+            DPG: DESPIGER_0099
+            DEF: CNY67_06415
+            DTR: RSDT_0586(fabI)
+            PSYF: N1030_09605
+            DSB: LN040_07390
+            DMA: DMR_26340(fabI)
+            DCB: C3Y92_12170
+            DDE: Dde_1006
+            DSA: Desal_2022
+            DHY: DESAM_22228(fabI)
+            DAF: Desaf_3205
+            DPI: BN4_12149(fabI)
+            DEJ: AWY79_02725
+            PPRF: DPRO_1664(fabI)
+            PSEL: GM415_04930
+            DDN: DND132_2290
+            PSEF: PSDVSF_22850(fabI)
+            PNW: SYK_23350(fabI)
+            LIP: LI0350(fabI)
+            LIR: LAW_00363(fabI)
+            DSX: GD604_05020
+            DSD: GD606_07215
+            PBIZ: LWC08_01055
+            CLIH: KPS_003247
+            DBA: Dbac_0307
+            DOA: AXF15_05485
+            DESU: NLA06_11320
+            THEW: TDMWS_07220(fabI)
+            DRT: Dret_1971
+            DPS: DP0923 DP1027
+            DSF: UWK_00873
+            DLM: DPPLL_34240(fabI)
+            DPR: Despr_2663
+            DEO: CAY53_08345
+            DOG: HP555_05640
+            DBK: DGMP_33590(fabI)
+            DEK: DSLASN_33590(fabI) DSLASN_33600
+            DTI: Desti_5204
+            ADE: Adeh_3480
+            ACP: A2cp1_3632
+            AFW: Anae109_3591
+            ANK: AnaeK_3564
+            AORY: AMOR_11920
+            APAU: AMPC_19080(fabI)
+            VIN: AKJ08_3147
+            LLU: AKJ09_05596
+            HOH: Hoch_4907
+            MAI: MICA_1098 MICA_798(fabI)
+            MAN: A11S_1064 A11S_712
+            BMX: BMS_1433 BMS_2055(fabI)
+            HAX: BALOs_1356(fabI) BALOs_2019(fabI)
+            BSTO: C0V70_08390 C0V70_11235
+            PIJ: QEJ31_13500
+            BSU: BSU11720(fabI)
+            BSR: I33_1306
+            BSL: A7A1_0989
+            BSH: BSU6051_11720(fabI)
+            BSY: I653_05955
+            BSUT: BSUB_01274(fabI)
+            BSUL: BSUA_01274(fabI)
+            BSUS: Q433_06620
+            BSO: BSNT_07615(fabI)
+            BSN: BSn5_17775
+            BSQ: B657_11720(fabI)
+            BSX: C663_1200(fabI)
+            BSP: U712_06030
+            BSS: BSUW23_05925(fabI)
+            BST: GYO_1477
+            BIT: BIS30_16565
+            BLI: BL05113(fabI)
+            BLD: BLi01266(fabI)
+            BLH: BaLi_c14010(fabI)
+            BAY: RBAM_011730(fabI)
+            BAQ: BACAU_1134(fabI)
+            BYA: BANAU_1079(fabI)
+            BAMP: B938_05705
+            BQY: MUS_1217(fabI)
+            BAML: BAM5036_1073(fabI)
+            BAMA: RBAU_1135(fabI)
+            BAMN: BASU_1112(fabI)
+            BAMB: BAPNAU_2622(fabI)
+            BAMT: AJ82_06590
+            BAMY: V529_11210(fabI)
+            BMP: NG74_01187(fabI)
+            BAO: BAMF_1246(fabI)
+            BAZ: BAMTA208_11740(fabI)
+            BQL: LL3_01253(fabI)
+            BXH: BAXH7_02397(fabI)
+            BAMI: KSO_013975
+            BAMC: U471_11700
+            BAMF: U722_05980
+            BSIA: CWD84_15875
+            BAE: BATR1942_03505
+            BVM: B9C48_05895
+            BSON: S101395_03583(fabI)
+            BHT: DIC78_03715(fabI)
+            BMOJ: HC660_12300(fabI)
+            BTEQ: G4P54_06165(fabI)
+            BIQ: AN935_06085
+            BSTR: QI003_06315(fabI)
+            BAN: BA_1232(fabI)
+            BAR: GBAA_1232(fabI)
+            BAT: BAS1139
+            BAH: BAMEG_3358(fabI)
+            BAI: BAA_1308(fabI)
+            BAX: H9401_1158
+            BANT: A16_12830
+            BANR: A16R_13010
+            BANS: BAPAT_1161
+            BANH: HYU01_06320
+            BANV: DJ46_66(fabI)
+            BCE: BC1216
+            BCA: BCE_1339(fabI)
+            BCZ: BCE33L1113(fabI)
+            BCR: BCAH187_A1377(fabI)
+            BCB: BCB4264_A1272(fabI)
+            BCU: BCAH820_1300(fabI)
+            BCG: BCG9842_B4070(fabI)
+            BCQ: BCQ_1284(fabI)
+            BCX: BCA_1261(fabI)
+            BAL: BACI_c12570(fabI)
+            BNC: BCN_1197
+            BCF: bcf_06125
+            BCER: BCK_02255
+            BCEF: BcrFT9_01045(fabI)
+            BCY: Bcer98_0920
+            BTK: BT9727_1119(fabI)
+            BTL: BALH_1080
+            BTB: BMB171_C1076(fabI)
+            BTT: HD73_1447
+            BTHR: YBT1520_07185
+            BTHI: BTK_07395
+            BTC: CT43_CH1154(fabI)
+            BTF: YBT020_06755
+            BTM: MC28_0442(fabI)
+            BTG: BTB_c12690(fabI)
+            BTI: BTG_14660
+            BTN: BTF1_03830
+            BTHT: H175_ch1167
+            BTHU: YBT1518_07140
+            BTW: BF38_2450(fabI)
+            BTHY: AQ980_23725
+            BWE: BcerKBAB4_1126
+            BWW: bwei_3783(fabI)
+            BMYO: BG05_4677(fabI)
+            BTY: Btoyo_3856
+            BMYC: DJ92_3821(fabI)
+            BBY: CY96_05305
+            BWD: CT694_06625
+            BTRO: FJR70_28310(fabI)
+            BMOB: MLA2C4_06395(fabI)
+            BNT: GSN03_06210(fabI)
+            BPAC: LMD38_20300(fabI)
+            BPAN: NLJ82_06340(fabI)
+            BALU: QRY64_08580(fabI)
+            BPU: BPUM_1101
+            BPUM: BW16_06245
+            BPUS: UP12_05845
+            BIF: N288_07750
+            BMET: BMMGA3_04620(fabI)
+            BSM: BSM4216_1131
+            BGY: BGLY_1285(fabI)
+            BWH: A9C19_14740
+            BXI: BK049_02390
+            BALT: CFN77_05845(fabI)
+            BAER: BAE_13435
+            BSAF: BSL056_05785
+            BFD: NCTC4823_02764(fabI)
+            BDA: FSZ17_08335(fabI) FSZ17_15885(fabI)
+            BSHI: LGQ02_13895(fabI)
+            BBAD: K7T73_04185(fabI)
+            BCAB: EFK13_06540(fabI)
+            BRY: M0696_06455(fabI)
+            BJS: MY9_1277
+            BACI: B1NLA3E_04880
+            GST: HW35_15410
+            BACW: QR42_05680
+            BACP: SB24_04005
+            BACB: OY17_08565
+            BACO: OXB_3559
+            BACY: QF06_04810
+            BACL: BS34A_12950(fabI)
+            BALM: BsLM_1226
+            BACS: AUL54_04765
+            BACQ: DOE78_06715(fabI)
+            BACA: FAY30_07720(fabI)
+            BAQU: K6959_04305(fabI)
+            BZH: NF868_05255(fabI)
+            BHAI: KJK41_07765(fabI)
+            BCAO: LC087_01715(fabI)
+            BARD: QRY57_07745(fabI)
+            BAEI: RE735_13740(fabI)
+            BCO: Bcell_2889
+            BHK: B4U37_07220
+            BCOH: BC6307_04050
+            BCIR: C2I06_00740
+            NTX: NQZ71_17130(fabI) NQZ71_17250(fabI)
+            BMQ: BMQ_3348(fabI)
+            BMD: BMD_3353(fabI)
+            BMH: BMWSH_1841(fabI)
+            BMEG: BG04_262
+            BEO: BEH_03945
+            BFX: BC359_16690
+            PKS: IE339_04060(fabI)
+            BHA: BH2843
+            BKW: BkAM31D_17260(fabI_1) BkAM31D_22300(fabI_2)
+            BCL: ABC2517(fabI)
+            BLE: BleG1_2511
+            SHUA: PQ477_00590(fabI)
+            BGI: BGM20_00085
+            BPF: BpOF4_01810
+            BON: A361_07650
+            BKO: CKF48_01995
+            CGOT: J1899_07645(fabI)
+            CSUA: IM538_05555(fabI)
+            CFIR: NAF01_07350(fabI)
+            CSOA: LIS82_09490(fabI)
+            CSPG: LS684_06250(fabI)
+            CPSS: M5V91_13790(fabI)
+            OIH: OB0223
+            OCN: CUC15_01155
+            OCB: CV093_01200(fabI)
+            OJD: NP439_01435(fabI)
+            OON: NP440_01455(fabI)
+            GKA: GK0834
+            GTE: GTCCBUS3UF5_9920
+            GTK: GT3570_04070
+            GTM: GT3921_15245
+            GLI: GLN3_14420
+            BCAL: CWI35_06025
+            GTN: GTNG_0714(fabL)
+            GWC: GWCH70_0780
+            GYC: GYMC61_1636
+            GYA: GYMC52_0760
+            GCT: GC56T3_2710
+            GMC: GY4MC1_3015
+            GGH: GHH_c07780(fabI)
+            GJF: M493_04275
+            GEA: GARCT_00807(fabI)
+            GEL: IB49_14495
+            GSE: GT50_13855
+            GSR: GS3922_05905
+            GZA: IC807_00075(fabI) IC807_17795(fabI)
+            GTH: Geoth_3031
+            PTL: AOT13_07480
+            PTB: DER53_08555(fabI)
+            PCAL: BV455_00966(fabI)
+            PARG: PspKH34_29280(fabI)
+            AFL: Aflv_2107(fabI)
+            AGN: AFK25_03585
+            ANM: GFC28_1781(fabI)
+            AAMY: GFC30_1170(fabI)
+            ANL: GFC29_3653(fabI)
+            AND: GRQ40_04350(fabI)
+            ACAI: ISX45_01665(fabI)
+            ASED: IRT44_00050(fabI)
+            AXL: AXY_17770(fabI)
+            LSP: Bsph_1902
+            LGY: T479_07325
+            LFU: HR49_16755
+            LYS: LBYS11_06725
+            LYB: C3943_08235
+            LYZ: DCE79_05915(fabI)
+            LYG: C1N55_07925
+            LPAK: GDS87_07345
+            LAGR: FJQ98_08275
+            LMAC: I6G82_11295
+            LYC: FH508_0007745
+            LCAP: ICJ70_17490
+            HHD: HBHAL_1760 HBHAL_2345
+            HMN: HM131_14615 HM131_17145
+            HLI: HLI_04850 HLI_07120
+            HNZ: P9989_07440(fabI) P9989_08755(fabI)
+            HSAN: MUN89_16025(fabI) MUN89_18725(fabI)
+            TAP: GZ22_00885
+            TAID: KS242_02090(fabI)
+            VIR: X953_01175
+            VHL: BME96_01145
+            VIG: BKP57_12075
+            VIL: CFK37_11205
+            VNE: CFK40_06530
+            VPN: A21D_01109(fabI)
+            VIM: GWK91_05105(fabI)
+            VPT: KBP50_01650(fabI)
+            VNT: OLD84_01900(fabI)
+            VIK: KFZ58_01160(fabI)
+            LAO: AOX59_18075
+            LEX: Len3610_10590(fabI)
+            FPN: ABE65_007600
+            FAR: ABE41_008635
+            FEC: QNH15_09985(fabI)
+            SJE: AAV35_009145
+            APAK: AP3564_10240
+            ACOP: RI196_05570(fabI)
+            BSJ: UP17_06075
+            BMUR: ABE28_006220
+            PBUT: DTO10_18790(fabI)
+            PASA: BAOM_1173(fabI)
+            PPSR: I6J18_09440(fabI)
+            PFRI: L8956_06605(fabI)
+            AQT: FN924_06250(fabI) FN924_09360(fabI)
+            RAX: KO561_05070(fabI) KO561_06510(fabI)
+            BTHV: CQJ30_06690
+            PSYH: D0S48_14360(fabI)
+            PSYO: PB01_18655(fabI)
+            PRD: F7984_05010(fabI)
+            GRC: GI584_04540(fabI)
+            GCS: MUN88_01825(fabI)
+            RUE: DT065_06250(fabI)
+            SALE: EPH95_06515(fabI)
+            SCIB: HUG20_13365(fabI)
+            SCIA: HUG15_15995(fabI)
+            POF: GS400_05270(fabI)
+            PCHU: QNI29_05145(fabI) QNI29_16520(fabI)
+            NMK: CHR53_08390
+            NTM: BTDUT50_05095
+            NDT: L1999_06440(fabI)
+            NCM: QNK12_06975(fabI)
+            NNV: QNH39_08100(fabI)
+            MEKU: HUW50_13765(fabI)
+            MSEM: GMB29_05065(fabI)
+            MDG: K8L98_06050(fabI)
+            MLIT: KDJ21_000070(fabI)
+            AIA: AWH56_015810(fabI)
+            BLEN: NCTC4824_02962(fabI)
+            SEDD: ERJ70_04970(fabI) ERJ70_07670(fabI)
+            BVQ: FHE72_08300(fabI)
+            RMF: D5E69_08745(fabI)
+            BCK: BCO26_0847
+            BAG: Bcoa_0328
+            BCOA: BF29_3380(fabI)
+            BVJ: I5776_14085(fabI)
+            BOU: I5818_17250(fabI)
+            CTHU: HUR95_07860(fabI)
+            BBEV: BBEV_2008(fabI)
+            BSE: Bsel_1557
+            MCUI: G8O30_03525(fabI)
+            GAJ: MY490_16725(fabI)
+            PSUA: FLK61_34325(fabI)
+            SLMS: MM221_01725(fabI)
+            MJO: FOF60_06815(fabI)
+            MSUT: LC048_14960(fabI)
+            FHL: OE105_02830(fabI)
+            FAF: OE104_08260(fabI)
+            SFOR: QNH23_09335(fabI)
+            ECTO: MUG87_17270(fabI)
+            TEI: QS257_14950(fabI)
+            ALKL: MM271_18255(fabI)
+            PHJ: LC071_20840(fabI)
+            DOM: RRU94_05595(fabI) RRU94_21265(fabI)
+            HYI: K2M58_02405(fabI)
+            STEA: C0679_05850
+            PUK: PU629_17515(fabI)
+            SAU: SA0869(fabI)
+            SAV: SAV1011(fabI)
+            SAW: SAHV_1005(fabI)
+            SAH: SaurJH1_1028
+            SAJ: SaurJH9_1009
+            SAM: MW0892(fabI)
+            SAS: SAS0880
+            SAR: SAR0978(fabI)
+            SAC: SACOL1016(fabI)
+            SAX: USA300HOU_0969(fabI)
+            SAA: SAUSA300_0912
+            SAO: SAOUHSC_00947
+            SAE: NWMN_0881
+            SAD: SAAV_0973(fabI)
+            SUU: M013TW_0933(fabI)
+            SUV: SAVC_04220
+            SUE: SAOV_0956
+            SUJ: SAA6159_00867(fabI)
+            SUK: SAA6008_00965(fabI)
+            SUC: ECTR2_865
+            SUQ: HMPREF0772_12226(fabI)
+            SUZ: MS7_0966(fabI)
+            SUD: ST398NM01_1006 ST398NM01_2908
+            SUX: SAEMRSA15_08410(fabI)
+            SUW: SATW20_10080(fabI)
+            SUG: SAPIG1006
+            SUF: SARLGA251_09260(fabI)
+            SAUA: SAAG_02118
+            SAUE: RSAU_000889(fabI)
+            SAUN: SAKOR_00927
+            SAUS: SA40_0877(fabI)
+            SAUU: SA957_0892(fabI)
+            SAUG: SA268_0895(fabI)
+            SAUZ: SAZ172_0952(fabI)
+            SAUT: SAI1T1_2007130(fabI)
+            SAUJ: SAI2T2_1007150(fabI)
+            SAUK: SAI3T3_1007140(fabI)
+            SAUQ: SAI4T8_1007130(fabI)
+            SAUV: SAI7S6_1007140(fabI)
+            SAUW: SAI5S5_1007100(fabI)
+            SAUX: SAI6T6_1007110(fabI)
+            SAUY: SAI8T7_1007140(fabI)
+            SAUF: X998_1008(fabI)
+            SAB: SAB0877(fabI)
+            SUY: SA2981_0965(fabI)
+            SAUB: C248_1034(fabI)
+            SAUM: BN843_9150
+            SAUC: CA347_927(fabI)
+            SAUR: SABB_00979(fabI)
+            SAUI: AZ30_04805
+            SAUD: CH52_00830
+            SAMS: NI36_04800
+            SUH: SAMSHR1132_08580 SAMSHR1132_p110(fabI2)
+            SER: SERP0601(fabI)
+            SEP: SE_0712
+            SEPP: SEB_00691
+            SEPS: DP17_1997
+            SHA: SH1947(fabI)
+            SHH: ShL2_01809(fabI_1) ShL2_02408(fabI_2)
+            SSP: SSP1774
+            SCA: SCA_0612(fabI)
+            SLG: SLGD_01858
+            SLN: SLUG_18520(fabI)
+            SSD: SPSINT_0691
+            SDT: SPSE_1832(fabI)
+            SDP: NCTC12225_02061(fabI)
+            SWA: A284_08720
+            SPAS: STP1_2080
+            SXY: BE24_02400
+            SXL: SXYLSMQ121_1773
+            SXO: SXYL_01921(fabI)
+            SHU: SHYC_09290(fabI)
+            SCAP: AYP1020_0269(fabI)
+            SSCH: LH95_08740
+            SSCZ: RN70_09220
+            SAGQ: EP23_00700(fabI)
+            SEQO: SE1039_07660
+            SSIF: AL483_06920(fabI)
+            SCV: A4G25_04870
+            SPET: CEP67_11850(fabI)
+            SLZ: B5P37_09035
+            SCOH: BZ166_00790
+            SNL: BJD96_09830
+            SKL: C7J89_10960(fabI)
+            SFQ: C7J90_06750(fabI)
+            SHOM: EGX58_01830(fabI)
+            SMUS: C7J88_10275(fabI)
+            SCAR: DWB96_09590(fabI)
+            SCHR: DWB92_09050(fabI)
+            SARL: SAP2_18120
+            SPIC: SAMEA4384060_1950(fabI)
+            SSH: NCTC13712_00953(fabI)
+            SSIM: SAMEA4384339_0860(fabI)
+            SDB: CNQ82_04805(fabI)
+            SLLO: ISP08_08925(fabI)
+            SAUL: I6G39_08225(fabI)
+            SSAC: I6I31_07290(fabI)
+            SRAI: LN051_08230(fabI)
+            SPSD: JMB28_09630(fabI)
+            STAS: HYI43_09110(fabI)
+            SURY: MUA21_03590(fabI)
+            SEDA: MNY58_09505(fabI)
+            SCAQ: QMO72_09540(fabI)
+            SDEV: Q2T90_10285(fabI)
+            SSCU: CEP64_08655(fabI)
+            SFF: FOB90_10735(fabI)
+            SSTE: SAMEA4384403_1850(fabI)
+            MLEN: H3V22_13350(fabI)
+            MVT: I6J10_02095(fabI)
+            MCL: MCCL_0625
+            MCAK: MCCS_08490(fabI)
+            MACR: BHM04_06325
+            MBOE: HT586_04490(fabI)
+            MARY: LAU42_03670(fabI)
+            MBRU: MGG13_03880(fabI)
+            MEPI: KFV12_04660(fabI)
+            MEQU: KFV11_03645(fabI)
+            MBOC: QSV55_03875(fabI)
+            SHV: AAT16_03485
+            SBAC: BVH56_06370
+            JEA: JEM45_04570(fabI)
+            NAMP: KPF49_01985(fabI)
+            NMY: CJ229_008535(fabI)
+            LMO: lmo0970
+            LMN: LM5578_1051
+            LMY: LM5923_1005
+            LMT: LMRG_02069
+            LMOC: LMOSLCC5850_0974(fabI)
+            LMOE: BN418_1176
+            LMOB: BN419_1177
+            LMOD: LMON_0977
+            LMOW: AX10_13415
+            LMOQ: LM6179_01286(fabI)
+            LMR: LMR479A_0995(fabI)
+            LMOM: IJ09_05445
+            LMF: LMOf2365_0990(fabI)
+            LMC: Lm4b_00990
+            LMOG: BN389_10000(fabI)
+            LMP: MUO_05120
+            LMOL: LMOL312_0970(fabI)
+            LMOJ: LM220_04356
+            LMOZ: LM1816_13192(fabI)
+            LMOX: AX24_02230
+            LMH: LMHCC_1653
+            LMQ: LMM7_1006(fabI)
+            LML: lmo4a_0985(fabI)
+            LMG: LMKG_01955
+            LMS: LMLG_2712
+            LMJ: LMOG_00757
+            LMW: LMOSLCC2755_0971(fabI)
+            LMX: LMOSLCC2372_0983(fabI)
+            LMZ: LMOSLCC2482_1016(fabI)
+            LMON: LMOSLCC2376_0941(fabI)
+            LMOS: LMOSLCC7179_0950(fabI)
+            LMOO: LMOSLCC2378_0987(fabI)
+            LMOY: LMOSLCC2479_0982(fabI)
+            LMOT: LMOSLCC2540_0969(fabI)
+            LMOA: LMOATCC19117_0991(fabI)
+            LMOK: CQ02_05065
+            LMV: Y193_10900(fabI)
+            LIN: lin0969
+            LWE: lwe0952
+            LSG: lse_0872(fabI)
+            LIV: LIV_0917
+            LII: JL52_04905
+            LIW: AX25_04985
+            LIA: JL58_05115
+            LIO: JL53_05595
+            LWI: UE46_05595
+            LGZ: NCTC10812_01907(fabI)
+            LMAR: LAX80_004480(fabI)
+            LNW: OTR81_15905(fabI)
+            BTHS: CNY62_03050
+            ESI: Exig_2038
+            EAT: EAT1b_2757
+            EAN: Eab7_1885(fabI)
+            EXM: U719_11425
+            EXU: ESP131_13525
+            EAP: KB235_11655(fabI)
+            EACE: KKI46_11355(fabI)
+            EAUR: NMQ00_10300(fabI)
+            EMM: PTI97_04860(fabI)
+            EPF: OE059_09850(fabI)
+            BBE: BBR47_40230(fabI)
+            BLR: BRLA_c037550(fabI)
+            BFM: BP422_15850
+            BAGR: BA6348_10900
+            BRW: GOP56_11480(fabI)
+            BCHS: JNE38_20925(fabI)
+            BCOP: JD108_07260(fabI)
+            BPAB: PSE45_18715(fabI)
+            BHUI: LOK74_04045(fabI)
+            BAYD: BSPP4475_05850(fabI)
+            BBOR: RFB14_08335(fabI)
+            PPY: PPE_00077
+            PPM: PPSC2_00385(fusG)
+            PPO: PPM_0072(fabI)
+            PPOL: X809_00395
+            PPQ: PPSQR21_000770(fabI)
+            PPOY: RE92_11310
+            PMS: KNP414_00551(fabI)
+            PMQ: PM3016_496
+            PMW: B2K_02525
+            PLV: ERIC2_c07770(fabI)
+            PSAB: PSAB_02865
+            PDU: PDUR_03315
+            PSTE: PSTEL_03435
+            PBJ: VN24_07120
+            PPEO: ABE82_00390
+            PNP: IJ22_39000
+            POW: IJ21_46790
+            PBV: AR543_19510
+            PSWU: SY83_02740
+            PKB: B4V02_24850
+            PAIH: ASL14_11510
+            PLEN: EIM92_00245(fabI)
+            PALB: EJC50_07310(fabI)
+            PCHI: PC41400_27540
+            PPRT: ET464_05750(fabI)
+            PRZ: GZH47_12155(fabI)
+            PLYC: GXP70_04425(fabI)
+            PSOP: KP014_06475(fabI)
+            PCEL: HUB94_06085(fabI)
+            PTHI: NDS46_03095(fabI)
+            PDY: QJQ58_19600(fabI)
+            PMAE: LMZ02_10195(fabI)
+            PWN: QNH46_04130(fabI)
+            TCO: Theco_3027
+            ASOC: CB4_01616(fabI_1) CB4_02733(fabI_2)
+            COH: EAV92_23915(fabI)
+            COHN: KCTCHS21_51370(fabI)
+            CCHL: FPL14_09380(fabI)
+            CHEB: HH215_17420(fabI)
+            SACA: FFV09_14025(fabI)
+            AAC: Aaci_0980
+            AAD: TC41_0991(fabI)
+            AACO: K1I37_07660(fabI)
+            ADAU: NZD86_16355(fabI)
+            AFAS: NZD89_21535(fabI)
+            ACYC: JI721_02920(fabI)
+            BTS: Btus_1047
+            KYR: CVV65_10890
+            TUM: CBW65_01185
+            TAB: CIG75_05060
+            EFF: skT53_19890(fabI)
+            SIV: SSIL_2744
+            SSIL: SOLI23_04875
+            SOB: CSE16_05785
+            PLN: Plano_2086
+            PKU: AUO94_05235
+            PRT: AUC31_16475
+            PLL: I858_012385
+            PANA: BBH88_08620
+            PDG: BCM40_04815
+            PHC: BBI08_07685
+            PMAR: B0X71_12885
+            PPLA: BBI15_06160
+            PFAE: AJGP001_12310
+            PLX: CW734_12160
+            PMAT: BBI11_11595
+            PDEC: H1Q58_10860(fabI)
+            PGQ: FK545_01195(fabI)
+            JEO: JMA_14260
+            KUR: ASO14_2003
+            KZO: NCTC404_01681(fabI)
+            SPSY: AZE41_05835
+            SPOR: SporoP33_03250
+            SPOP: SporoP37_03945
+            SURE: SporoP32a_03845
+            SPOS: DV702_07580
+            SPAE: E2C16_05675(fabI) E2C16_06095(fabI)
+            SPOO: J3U78_07315
+            SURL: BI350_09550 BI350_10015
+            RST: ATY39_03655
+            PAEK: D3873_03750(fabI)
+            PANC: E2636_11290(fabI)
+            PLAY: DNR44_009210(fabI)
+            VIJ: JNUCC6_21090(fabI)
+            NTR: B0W44_08485
+            TVU: AB849_011085(fabI)
+            KEB: GXN75_15650(fabI)
+            PABS: JIR001_28300(fabI)
+            LLA: L161132(fabI)
+            LLK: LLKF_0544(fabI)
+            LLT: CVCAS_0475(fabI)
+            LLS: lilo_0455(fabI)
+            LLD: P620_03245
+            LLX: NCDO2118_0549(fabl)
+            LLJ: LG36_0491(fabI)
+            LLM: llmg_0539(fabI)
+            LLC: LACR_0587
+            LLR: llh_10175
+            LLN: LLNZ_02775
+            LLI: uc509_0574(fabI)
+            LLW: kw2_0534
+            LGR: LCGT_1579
+            LGV: LCGL_1601
+            LACT: D7I46_00260(fabI)
+            LACK: FLP15_05475(fabI)
+            LTI: JW886_03385(fabI)
+            LPET: lgb_01638(fabI)
+            LFO: LMK00_09235(fabI)
+            FPEN: KIW23_06055(fabI)
+            LDB: Ldb0910(fabI)
+            LBU: LBUL_0828
+            LDE: LDBND_0832
+            LDL: LBU_0771
+            LHE: lhv_1922
+            LHL: LBHH_1897
+            LHR: R0052_10980
+            LHV: lhe_0293
+            LHH: LBH_1613
+            LHD: HUO_00055
+            LAI: LAC30SC_08705
+            LKE: WANG_1775
+            LAE: LBAT_0620
+            LGL: AO203_04685
+            LAMY: B1745_07790
+            LUU: H4B44_03820(fabI)
+            LPL: lp_1681(fabI)
+            LPJ: JDM1_1414(fabI)
+            LPT: zj316_1679(fabI)
+            LPS: LPST_C1338(fabI)
+            LPR: LBP_cg1290
+            LPZ: Lp16_1292
+            LPB: SH83_06985
+            LPX: ASU28_06980
+            LPG: BB562_09080
+            LARG: LPA65_06705(fabI)
+            LRE: Lreu_0981
+            LRF: LAR_0917
+            LRU: HMPREF0538_20002(fabI)
+            LRT: LRI_0988
+            LRR: N134_05355
+            LFE: LAF_0320
+            LFR: LC40_0227
+            LFF: LBFF_0340
+            LMU: LBLM1_09355
+            LOR: AYI71_07635
+            LVA: LV515_09265(fabI)
+            LFN: LF145_08370(fabI)
+            LGAS: LG045_01490(fabI)
+            LPAS: KZE55_05620(fabI)
+            LPOR: PRK60_10020(fabI)
+            LNG: BSQ50_02985
+            LHW: BSQ49_03645
+            LMAL: LM596_03900(fabI)
+            LSN: LSA_11900(fabI)
+            LLE: AYR59_03030
+            LFV: LF543_01210(fabI)
+            FIX: M8332_00835(fabI)
+            FCLI: M3M38_03550(fabI)
+            FHIN: M3M39_00345(fabI)
+            FMT: M3M35_05625(fabI)
+            FCP: M3M37_05210(fabI)
+            LBH: Lbuc_1661
+            LBN: LBUCD034_1729(fabI)
+            LPAR: FAM21731_01770
+            LCU: PL11_006820
+            LKF: DNL43_00740
+            LHIL: G8J22_01950(fabI)
+            LBR: LVIS_0925
+            LBK: LVISKB_1046
+            LJI: ELX58_00550(fabI)
+            LSL: LSL_0461(fabI)
+            LSI: HN6_00428(fabI)
+            LSJ: LSJ_0490(fabI)
+            LRM: LRC_14050(fabI)
+            LAGL: BEN83_06325
+            LACA: LAC1533_1516
+            LANI: FAX13_03225(fabI)
+            LSW: GTO87_08500(fabI)
+            LFD: QFX10_08660(fabI)
+            LBT: AYR52_13230
+            LHO: LOOC260_200640(fabI)
+            LNN: F0161_11175(fabI)
+            LKU: APS55_04040
+            ABOM: D7I45_01275(fabI)
+            AAPI: MOO46_04310(fabI)
+            LPD: AYR62_02035
+            PPE: PEPE_0865
+            PPEN: T256_04225
+            PCE: PECL_115(fabI)
+            PDM: ADU72_0126
+            PACI: A4V11_01265
+            LSA: LCA_0823(fabI)
+            LCV: FBA2_05560
+            LHB: D1010_16200(fabI)
+            LCI: LCK_00827(fabI)
+            LKI: LKI_04040
+            LEC: LGMK_08330
+            LBE: MOO44_04575(fabI)
+            EFA: EF0282(fabI)
+            EFL: EF62_0670(fabI)
+            EFI: OG1RF_10225(fabI)
+            EFD: EFD32_0221
+            EFS: EFS1_0222(fabI)
+            EFN: DENG_00266(fabI)
+            EFQ: DR75_2330(fabI)
+            ENE: ENT_26490
+            EFC: EFAU004_01026(fabI)
+            EFAU: EFAU085_01319(fabI)
+            EFU: HMPREF0351_11295(fabI)
+            EFM: M7W_1803
+            EFT: M395_07960
+            EHR: EHR_12425
+            ECAS: ECBG_01055
+            EMU: EMQU_1260
+            EDU: LIU_07465
+            EGA: AL523_12885
+            ESS: ATZ33_15680
+            ETH: CK496_07310
+            EGV: EGCR1_05190
+            EAV: EH197_15015(fabI)
+            ESG: EsVE80_13750(fabI)
+            ELAC: I4Q40_06410(fabI)
+            ECEC: NCTC12421_01239(fabI)
+            ERAF: J9537_07390(fabI)
+            EIE: ENLAB_00620(fabI)
+            EDS: PML78_00630(fabI)
+            MPS: MPTP_0109
+            MPX: MPD5_0100
+            THL: TEH_13310(fabI)
+            TEY: GLW17_00615(fabI)
+            TOO: C7K38_09175
+            TKR: C7K43_02860
+            VHY: G7082_13565(fabI)
+            VFV: K5K99_10475(fabI)
+            CML: BN424_2478(fabI)
+            CDJ: BFC22_02990
+            ASF: SFBM_1299
+            ASM: MOUSESFB_1208(fabI)
+            ASO: SFBmNL_01370(fabI)
+            ASB: RATSFB_1127(fabI)
+            GFE: Gferi_05695
+            CRS: FQB35_11090(fabI)
+            CPRF: K7H06_03890(fabI)
+            CRAS: KVH43_01065(fabI)
+            CSPO: QNI18_11475(fabI)
+            CTH: Cthe_3169
+            CTX: Clo1313_0720
+            HSC: HVS_05505(fabI)
+            CSS: Cst_c09350(fabI)
+            CSD: Clst_0895
+            CTHD: CDO33_19295
+            STH: STH2927
+            CMIC: caldi_35410
+            TMR: Tmar_1305
+            THEF: E1B22_10200
+            THEP: DYI95_006505
+            SAY: TPY_3552(fabI)
+            SAP: Sulac_1365
+            STHR: BXT84_10095
+            HFV: R50_0866(fabI)
+            ADG: Adeg_0903
+            TNR: Thena_1678
+            TACI: TDSAC_1647
+            LPIL: LIP_0687
+            SACT: DMT42_20975
+            ACIT: HPK19_11990(fabI)
+            ACTW: F7P10_16305(fabI)
+            AAB: A4R43_12615
+            AMI: Amir_4851
+            SYN: slr1051(envM)
+            SYZ: MYO_14660(envM)
+            SYY: SYNGTS_0460(envM)
+            SYT: SYNGTI_0460(envM)
+            SYS: SYNPCCN_0460(envM)
+            SYQ: SYNPCCP_0460(envM)
+            SYJ: D082_24130(envM)
+            SYO: C7I86_02385
+            SYC: syc1378_d(fabI)
+            SYU: M744_02435
+            SYF: Synpcc7942_0126
+            SYD: Syncc9605_0219
+            SYE: Syncc9902_0246
+            SYG: sync_0258
+            SYR: SynRCC307_2289(fabI)
+            SYX: SynWH7803_0268(fabI)
+            CYA: CYA_1682
+            CYB: CYB_1160
+            SYNE: Syn6312_0505
+            SYNP: Syn7502_01866
+            SYNK: KR100_02420
+            SYNR: KR49_10060
+            SYND: KR52_01375
+            SYH: Syncc8109_0212(fabI)
+            SYNW: SynWH8103_00245(fabI)
+            SYNC: CB0101_09580(fabI)
+            SYNY: BM449_05625
+            DSL: Dacsa_0911
+            SYW: SYNW0225(fabI)
+            CGC: Cyagr_2116
+            CYI: CBM981_2048(fabI)
+            PMA: Pro_0314(fabI)
+            PMM: PMM0282(fabI)
+            PMT: PMT_1881
+            PMN: PMN2A_1648
+            PMI: PMT9312_0284
+            PMB: A9601_03051(fabI)
+            PMC: P9515_03151(fabI)
+            PMF: P9303_25131(fabI)
+            PMG: P9301_03061(fabI)
+            PMH: P9215_03071(fabI)
+            PMJ: P9211_03091(fabI)
+            PME: NATL1_03621(fabI)
+            PRC: EW14_0326
+            PRM: EW15_0375
+            WNA: KA717_07900(fabI)
+            CMP: Cha6605_0330
+            CYN: Cyan7425_4281
+            CEP: Cri9333_1408
+            TVN: NIES2134_116110
+            SLW: BRW62_04285
+            AMR: AM1_3154
+            TEL: tll1693
+            THN: NK55_05110(fabI)
+            THEC: FFX45_06960(fabI)
+            TSZ: OOK60_10060(fabI)
+            LEN: LEP3755_58220
+            LET: O77CONTIG1_01060(fabI)
+            LBO: LBWT_8490
+            KOV: K9N68_12465(fabI)
+            LSC: KIK02_06000(fabI)
+            LSK: J5X98_16360(fabI)
+            HHG: XM38_047400
+            PSEU: Pse7367_2641
+            PSER: ABRG53_3833
+            PGX: OA858_03590(fabI)
+            THEU: HPC62_00260(fabI)
+            TOG: HNI00_02390(fabI)
+            TSIN: OXH18_16840(fabI)
+            GLP: Glo7428_2211
+            CHON: NIES4102_25860
+            GEN: GM3709_2104
+            GEE: GM3708_1771
+            CAN: Cyan10605_0097
+            CSN: Cyast_0523
+            CYL: AA637_09035(fabI)
+            SYP: SYNPCC7002_A1676(envM)
+            SYV: AWQ23_08585
+            SYL: AWQ21_08210
+            LEP: Lepto7376_0671
+            MAR: MAE_01820
+            MPK: VL20_6259
+            MIQ: B5D77_04520
+            MVZ: myaer102_36920
+            HAO: PCC7418_2956
+            ENN: FRE64_10485(fabI)
+            CYU: UCYN_08930
+            CYT: cce_0460(fabI)
+            CWA: CwatDRAFT_0837
+            CYP: PCC8801_2057
+            CYH: Cyan8802_2081
+            CYC: PCC7424_0373
+            CYJ: Cyan7822_4386
+            TER: Tery_2024
+            ARP: NIES39_C02750
+            PAGH: NIES204_04380
+            PPSU: NO713_05421(fabI)
+            OXY: HCG48_19815(fabI)
+            MVAG: D0A34_26520(fabI)
+            LFS: HFV01_11690(fabI)
+            OAC: Oscil6304_4734
+            ONI: Osc7112_5424
+            MPRO: BJP34_05755
+            PHOR: JWS08_16850(fabI)
+            PYH: NEA10_16210(fabI)
+            MIC: Mic7113_2170
+            GEI: GEI7407_0918
+            GVI: glr4188
+            GLJ: GKIL_0113(fabI)
+            GML: ISF26_05690(fabI)
+            ANA: all4391
+            NPU: Npun_R5510
+            NOS: Nos7107_2479
+            NOP: Nos7524_5136
+            NON: NOS3756_03420
+            NFL: COO91_02425
+            NOE: CLI64_18575
+            NSH: GXM_05471
+            NED: HUN01_27135(fabI)
+            AVA: Ava_3284
+            NAZ: Aazo_1064
+            ANB: ANA_C12172
+            ACY: Anacy_2573
+            AWA: AA650_08580
+            ANN: EH233_24490(fabI)
+            CSG: Cylst_4513
+            RSIN: B6N60_05046
+            HBQ: QI031_12720(fabI)
+            CALO: Cal7507_2628
+            CALT: Cal6303_3272
+            CALH: IJ00_24580
+            CALN: NIES2098_64050
+            RIV: Riv7116_2495
+            FIS: FIS3754_47780
+            NSP: BMF81_03105(fabI)
+            NSPH: BDGGKGIB_00747(fabI)
+            DOU: BMF77_03248(fabI)
+            DFS: HGD76_07810(fabI)
+            DHT: NG743_25890(fabI)
+            CCUR: IAR63_05800(fabI)
+            CRK: L3I90_07280(fabI)
+            AFLO: HEQ12_03135(fabI) HEQ12_10820(fabI)
+            TOQ: HCG51_24100(fabI)
+            NCN: BZZ01_06515
+            CTHE: Chro_0552
+            PLP: Ple7327_2384
+            SCS: Sta7437_2485
+            STAN: STA3757_16180(envM)
+            GCY: LQF76_01660(fabI)
+            CEO: ETSB_1867(fabI)
+            CER: RGRSB_1138(fabI)
+            CEEC: P3F56_09605(fabI)
+            MBF: BHV42_03740
+            DET: DET1272
+            DEH: cbdbA1199(fabI)
+            DEB: DehaBAV1_1083
+            DEV: DhcVS_1055
+            DEG: DehalGT_1009
+            DMC: btf_1150(fabI)
+            DMD: dcmb_1131(fabI)
+            DMG: GY50_1104(fabI)
+            DMX: X792_05920
+            DMY: X793_05815
+            DMZ: X794_05325
+            DUC: UCH007_10380
+            RRS: RoseRS_1555
+            RCA: Rcas_3406
+            CAU: Caur_2911
+            CHL: Chy400_3149
+            CAG: Cagg_1033
+            HAU: Haur_3260
+            CAP: CLDAP_22380(fabI)
+            PBF: CFX0092_A0364(fabI)
+            KBS: EPA93_33155
+            TBH: Tbon_05105
+            TFLA: O0235_05140
+            THUG: KNN16_00035
+            PMET: G4Y79_21190
+            DRA: DR_1967
+            DGE: Dgeo_0260
+            DDR: Deide_19640(fabI)
+            DMR: Deima_0025
+            DPT: Deipr_1317
+            DGO: DGo_CA2321(fabL)
+            DPD: Deipe_2154
+            DSW: QR90_14665
+            DCH: SY84_10035
+            DAB: AUC44_01060
+            DPU: SU48_00190
+            DEZ: DKM44_00080
+            DWU: DVJ83_01585
+            DFC: DFI_02885
+            DEIN: DAAJ005_03200
+            DGA: DEGR_02010
+            DPH: EHF33_09820
+            DRD: LMT64_06125
+            DRB: N0D28_00835
+            DAH: DAETH_01800
+            DAQU: M8445_06310
+            DTAE: LAJ19_13770
+            TRA: Trad_2823
+            TTH: TT_C1678(fabL)
+            TTJ: TTHA0304(TTHA0304)
+            TTS: Ththe16_0075
+            TTL: TtJL18_0079
+            TSC: TSC_c24440
+            THC: TCCBUS3UF1_21930
+            TOS: Theos_0206
+            TAQ: TO73_2327
+            TBC: A0O31_00963
+            TANT: KNN15_03800
+            MRB: Mrub_0266
+            MRE: K649_00945
+            MTAI: Mtai_v1c25800
+            MSV: Mesil_0309
+            OPR: Ocepr_2031
+            MHD: Marky_0351
+            CCZ: CCALI_00466
+            FGI: OP10G_2266
+            NPY: NPRO_03690
+            CCOT: CCAX7_43540(fabI)
+            CTR: CT_104(fabI)
+            CTD: CTDEC_0104(fabI)
+            CTF: CTDLC_0104(fabI)
+            CTRD: SOTOND1_00106
+            CTRO: SOTOND5_00106
+            CTRT: SOTOND6_00106
+            CTA: CTA_0110(fabI)
+            CTY: CTR_1031(fabI)
+            CRA: CTO_0110
+            CTRQ: A363_00107
+            CTRX: A5291_00106
+            CTRZ: A7249_00106
+            CTRP: L11322_00105
+            CTLJ: L1115_00105
+            CTLX: L1224_00105
+            CTLL: L1440_00105
+            CTB: CTL0359(fabI)
+            CTRR: L225667R_00105
+            CTLF: CTLFINAL_01890
+            CTLI: CTLINITIAL_01890
+            CTL: CTLon_0355(fabI)
+            CTRU: L2BUCH2_00105
+            CTRL: L2BLST_00105
+            CTRV: L2BCV204_00105
+            CTRM: L2BAMS1_00105
+            CTLA: L2BAMS2_00105
+            CTLM: L2BAMS3_00105
+            CTLS: L2BAMS4_00105
+            CTLZ: L2BAMS5_00105
+            CTLC: L2BCAN1_00107
+            CTLN: L2BCAN2_00105
+            CTLB: L2B795_00105
+            CTLQ: L2B8200_00105
+            CTO: CTL2C_174
+            CTRN: L3404_00105
+            CTJ: JALI_1031(fabI)
+            CTZ: CTB_1031(fabI)
+            CTG: E11023_00540
+            CTK: E150_00550
+            CSW: SW2_1051(fabI)
+            CES: ESW3_1051(fabI)
+            CTRB: BOUR_00106
+            CTRE: SOTONE4_00106
+            CTRS: SOTONE8_00106
+            CTEC: EC599_1071(fabI)
+            CFS: FSW4_1051(fabI)
+            CFW: FSW5_1051(fabI)
+            CTFW: SWFP_1101(fabI)
+            CTRF: SOTONF3_00106
+            CTCH: O173_00565
+            CTN: G11074_00540
+            CTQ: G11222_00545
+            CTV: CTG9301_00540
+            CTW: G9768_00540
+            CTRG: SOTONG1_00105
+            CTRI: BN197_1051(fabI)
+            CTRA: BN442_1051(fabI)
+            CTRH: SOTONIA1_00106
+            CTRJ: SOTONIA3_00106
+            CTRK: SOTONK1_00106
+            CTJT: CTJTET1_00545
+            CTCF: CTRC69_00540
+            CTFS: CTRC342_00545
+            CTHF: CTRC852_00550
+            CTCJ: CTRC943_00535
+            CTHJ: CTRC953_00540
+            CTMJ: CTRC966_00545
+            CTTJ: CTRC971_00545
+            CTJS: CTRC122_00540
+            CTRC: CTRC55_00545
+            CTRW: CTRC3_00545
+            CTRY: CTRC46_00540
+            CTCT: CTW3_00555
+            CMU: TC_0380(fabI)
+            CMUR: Y015_01965
+            CMN: BB17_02005
+            CMM: NC80_01870
+            CMG: NC81_01885
+            CMX: DNC_01890
+            CMZ: TAC_01965
+            CPN: CPn_0406(fabI)
+            CPA: CP_0349
+            CPJ: fabI(fabI)
+            CPT: CpB0421
+            CLP: CPK_ORF00916
+            CPM: G5S_0728
+            CPEC: CPE3_0378
+            CPEO: CPE1_0378
+            CPER: CPE2_0378
+            CHP: CPSIT_0420
+            CHB: G5O_0416(enr-A)
+            CHS: CPS0A_0426
+            CHI: CPS0B_0424
+            CHT: CPS0D_0425
+            CHC: CPS0C_0428
+            CHR: Cpsi_3811
+            CPSC: B711_0448
+            CPSN: B712_0420
+            CPSB: B595_0447
+            CPSG: B598_0424
+            CPSM: B602_0421
+            CPSI: B599_0421
+            CPSV: B600_0451
+            CPSW: B603_0428
+            CPST: B601_0424
+            CPSD: BN356_3851
+            CPSA: AO9_02015
+            CAV: M832_01970
+            CCA: CCA_00388(fabI)
+            CAB: CAB375
+            CABO: AB7_4201
+            CFE: CF0620(fabI)
+            CGZ: M787_003725
+            CHLA: C834K_0410(fabI)
+            CSUI: Chls_402(fabI)
+            CBUE: HBN95_03570
+            CSEE: C10C_0370(fabI)
+            CCRD: H9Q19_04420
+            PCU: PC_RS05550
+            PNL: PNK_0716(fabI)
+            PUV: PUV_20570
+            NEY: NCS13_1_0836
+            WCH: wcw_0642(fabI)
+            SNG: SNE_A10990
+            RHAW: RHABOEDO_000922
+            RPOR: RHAB15C_0000557
+            OTE: Oter_3279
+            OBG: Verru16b_02926(fabI)
+            VBH: CMV30_00905
+            OLE: K0B96_08405
+            OBT: OPIT5_15390
+            CAA: Caka_1902
+            RUFI: K0V07_12830
+            PPHT: GA004_15450
+            PUO: RZN69_13245
+            AMU: Amuc_1642
+            AGL: PYTT_0007
+            ABIW: Abiwalacus_00990
+            AMAK: J5W79_09605
+            ROO: G5S37_31590
+            FPES: NXS98_17330
+            MIN: Minf_1633(fabI)
+            MKC: kam1_717
+            MFH: MFUM_0862(fabI)
+            MCAO: IT6_09195
+            MEAP: MTHMO_1079(fabI)
+            VBA: IMCC26134_06595
+            VBS: EGM51_10895
+            RBA: RB10790(fabI) RB8125(fabI)
+            PSL: Psta_2455 Psta_4248
+            PIR: VN12_07860(fabI_1) VN12_12275(fabI_2)
+            RUL: UC8_44520(fabI_1) UC8_44820(fabI_2)
+            RML: FF011L_21850(fabI_1) FF011L_41720(fabI_2)
+            MFF: MFFC18_00400(fabI_1) MFFC18_28750(fabI_2)
+            ROL: CA51_21640(fabI_1) CA51_37420(fabI_2)
+            AHEL: Q31a_24630(fabI_1) Q31a_32810(fabI_2)
+            LCRE: Pla8534_22170(fabI_1) Pla8534_61830(fabI_2)
+            AAGG: ETAA8_24730(fabI_1) ETAA8_64770(fabI_2)
+            BVO: Pan97_21910(fabI_1) Pan97_32990(fabI_2)
+            RLC: K227x_01930(fabI_1) K227x_20150(fabI_2)
+            TTF: THTE_1968
+            LPAV: PLANPX_2051 PLANPX_3130
+            AMUC: Pan181_26450(fabI_1) Pan181_33730(fabI_2)
+            PND: Pla175_20380(fabI_1) Pla175_39680(fabI_2)
+            AMOB: HG15A2_18070(fabI_1) HG15A2_28680(fabI_2)
+            PLM: Plim_3893
+            PEH: Spb1_02970(fabI)
+            PBS: Plabr_0842 Plabr_1269
+            PLS: VT03_04070(fabI_1) VT03_06460(fabI_2)
+            PLH: VT85_21880(fabI)
+            FMR: Fuma_04082(fabI_1) Fuma_05045(fabI_2)
+            GMR: GmarT_25160(fabI_1) GmarT_47590(fabI_2)
+            GIM: F1728_01955 F1728_21415
+            GPN: Pan110_24470(fabI_1) Pan110_47510(fabI_2)
+            MRI: Mal4_23090(fabI_1) Mal4_24200(fabI_2)
+            SDYN: Mal52_06410(fabI_1) Mal52_27330(fabI_2)
+            PLON: Pla110_02170(fabI_1) Pla110_23410(fabI_2)
+            GES: VT84_29865(fabI)
+            GOG: C1280_22930
+            GMS: SOIL9_50820
+            TIM: GMBLW1_03680
+            LRS: PX52LOC_03571
+            FTJ: FTUN_3602
+            ULI: ETAA1_60030(fabI)
+            TSPH: KIH39_21330
+            IPA: Isop_2372
+            SACI: Sinac_2577
+            PBOR: BSF38_00739(fabI)
+            AGV: OJF2_12450(fabI)
+            PHM: PSMK_20910(fabI)
+            PCOR: KS4_24290(fabI)
+            MCAD: Pan265_14520(fabI)
+            HBS: IPV69_06605
+            VBL: L21SP4_00598(fabI)
+            LPRO: PQO03_06285 PQO03_07110
+            LBI: LEPBI_I1195
+            LBF: LBF_1152
+            ABA: Acid345_3279
+            ACA: ACP_1013(fabI)
+            ACM: AciX9_1295
+            GMA: AciX8_2740
+            GRW: FTO74_15095
+            GRB: GOB94_14955
+            TSA: AciPR4_0933
+            TRS: Terro_3394
+            TALB: FTW19_24460
+            ABAS: ACPOL_0116
+            EDA: GWR55_00400
+            EDG: H7846_06550
+            ADIN: H7849_25455
+            ORP: MOP44_01395(fabI) MOP44_12575
+            SUS: Acid_7802
+            PFER: IRI77_19110
+            CTM: Cabther_A0782
+            CVL: J8C06_03960
+            CHLO: J8C02_03775
+            ABAC: LuPra_00736(fabI)
+            THYD: TTHT_2064(fabI)
+            SCOR: J3U87_14270
+            GEX: GETHOR_21530
+            MSIL: METEAL_39850
+            MSEA: METESE_36330
+            GAU: GAU_3591(fabI)
+            GPH: GEMMAAP_17210
+            GGR: HKW67_17080
+            GBA: J421_1669
+            BTH: BT_4188
+            BTHO: Btheta7330_03919(fabI)
+            BFR: BF0972
+            BFS: BF9343_0856
+            BFG: BF638R_0953
+            BFB: VU15_04160
+            BHL: Bache_1332
+            BXY: BXY_32950
+            BOA: Bovatus_04476(fabI)
+            BCEL: BcellWH2_04063(fabI)
+            BCAC: CGC64_07250
+            BCAE: A4V03_02500
+            BZG: C4H11_12715
+            BHF: C3V43_06670
+            BIS: DXK01_009825
+            BUN: Bun01g_15920
+            BEG: INE88_02604(fabI)
+            BSTE: K6V31_07905
+            BFE: K6V30_09500
+            BNO: K8P02_01000
+            BHUM: JXR92_007355
+            BFC: BacF7301_10765
+            BSAL: K6V25_08635
+            BVU: BVU_1986
+            BSA: Bacsa_1662
+            BDO: EL88_17345
+            BDH: GV66_10215
+            PCOP: I6J50_11590
+            PCAG: NCTC12856_02101(fabI)
+            PSOE: CE91St14_04640
+            PORP: J4862_03060
+            PBT: ING2E5B_2312
+            PMUC: ING2E5A_0316(fabI2)
+            PET: PEIBARAKI_6978
+            PSAC: PSM36_3448
+            PROJ: KDN43_04050
+            DYS: G7050_04965
+            PPN: Palpr_1739
+            PDI: BDI_3383
+            PARC: CI960_23010
+            PMER: INE87_02884(fabI)
+            PGOL: K6V26_25345
+            PJO: LK449_15320
+            PFAI: NXY11_23905
+            TFO: BFO_1782
+            TOH: BCB71_09560
+            PARY: A4V02_07315
+            DUN: FDZ78_01880
+            BVS: BARVI_04715
+            COPR: Cop2CBH44_19030
+            CFAS: Cfast33896_12520
+            OSP: Odosp_0765
+            BUY: D8S85_02600
+            BVIR: I6J59_11735
+            BFH: F1611_06355
+            PMZ: HMPREF0659_A6253
+            PDN: HMPREF9137_0362
+            PIT: PIN17_A1071
+            PDT: Prede_1165
+            PRO: HMPREF0669_01720
+            PFUS: ADJ77_07175
+            PJE: CRM71_07365
+            PNI: J5A59_11455
+            PMUF: J4864_05920
+            PHIS: J5A62_00865
+            PVF: J5A55_00510
+            PSCJ: J4856_11665
+            PBIV: QP022_03810
+            PCOI: LK433_02940
+            POC: NCTC13071_00257(fabI)
+            PEO: AS203_11290
+            PBUC: LK429_06445
+            PCLR: PC1C4_19630
+            AFD: Alfi_2059
+            ALD: GFH31_10455
+            AOK: A3BBH6_05270
+            ACOU: A5CBH24_11320
+            ADA: A5CPEGH6_16620
+            AIT: AI2BBH_03860
+            ASEN: NQ519_03425
+            AIU: NQ491_09525
+            RBC: BN938_2781
+            TTZ: FHG85_04605
+            BLQ: L21SP5_03095(fabI)
+            BACC: BRDCF_p1423(fabI2)
+            DORI: FH5T_19435
+            DRC: G0Q07_11370
+            MCOS: GM418_27970
+            ASX: CDL62_13515
+            ALKQ: M9189_08735
+            MBAS: ALGA_0636
+            CPI: Cpin_6892
+            CBAE: COR50_09345
+            CHIT: FW415_23425
+            CHIH: GWR21_13785
+            COY: HF329_30380
+            CFIL: MYF79_30145
+            CHF: KTO58_00740
+            CHOR: MKQ68_00535
+            NKO: Niako_5480
+            NSO: NIASO_06605
+            NIA: A8C56_09205
+            FLA: SY85_09500
+            FGG: FSB75_18645
+            ARB: A9P82_07115
+            ARK: D6B99_15895
+            AGI: FSB73_05830 FSB73_10240
+            ARAC: E0W69_017035
+            ATEE: K9M52_10580
+            PSEG: D3H65_27875
+            PGIN: FRZ67_17155
+            PGO: FSB84_11350
+            FLS: GLV81_04015
+            LACS: H4075_04145
+            FEI: K9M53_09100
+            FLP: LK994_14235
+            FLC: KJS93_11230
+            FLV: KJS94_08655
+            SEDT: TEGAF0_26610
+            HHY: Halhy_4515
+            SGN: SGRA_2103(fabI)
+            AUP: AsAng_0040540
+            PHE: Phep_1138
+            PCM: AY601_3324
+            PSTY: BFS30_14535
+            PGS: CPT03_00165
+            PEJ: FYC62_09095 FYC62_15770
+            PSN: Pedsa_0667
+            SHG: Sph21_0398
+            SCN: Solca_0026
+            MUP: A0256_02380
+            MUC: MuYL_1987 MuYL_4114
+            MGOT: MgSA37_03136(fabI_1) MgSA37_04287(fabI_2)
+            MUH: HYN43_000170
+            MGIN: FRZ54_09480
+            MGK: FSB76_18755
+            MRUB: DEO27_000150
+            MGOS: DIU38_000175
+            MMAB: HQ865_05480
+            MGIK: GO620_010400
+            MDJ: LLH06_19555
+            MROB: HH214_04195
+            MJJ: PQO05_23050
+            AGD: FRZ59_17905
+            OLI: FKG96_25570
+            CMR: Cycma_2384
+            CAMU: CA2015_2316
+            BBD: Belba_0404
+            EVI: Echvi_2066
+            EST: DN752_15975
+            ECHI: FKX85_09810
+            EMAI: KZP23_10280
+            ALM: AO498_05780
+            MDA: IPZ59_02345
+            CHU: CHU_3011(fabI)
+            SLI: Slin_5892
+            SRD: SD10_23470
+            SMON: AWR27_22615
+            SPIR: CWM47_16305
+            SPIK: EXU85_02930
+            SPIB: G8759_02570
+            STAE: HNV11_22585
+            SRHO: HH216_05950
+            SOQ: LQ777_00625
+            SFOL: H3H32_33270
+            PSEZ: HME7025_02163(fabI)
+            CHRW: KA713_10530
+            RHOZ: GXP67_22870
+            DFE: Dfer_3649
+            DSN: HWI92_18615
+            DYC: NFI80_19215
+            DFQ: NFI81_20365
+            DCN: MUK70_24320
+            LBY: Lbys_2165
+            RSI: Runsl_5185
+            RUN: DR864_27950
+            RUP: DTQ70_16535
+            EOL: Emtol_1921
+            EMZ: MB380_19595
+            FAE: FAES_1638
+            FIB: A6C57_02870
+            ALS: DJ013_17635
+            MAQA: LAG90_12780
+            FLI: Fleli_2095
+            HSW: Hsw_0866
+            HYM: N008_03685
+            HYD: PK28_05960
+            HYE: AM218_10275
+            HYG: AUC43_19465
+            HYP: A0257_02200
+            HYZ: AXW84_04900
+            HNV: DDQ68_20720
+            HYH: D3Y59_08885
+            HYJ: FHG12_03940
+            HQI: H9L05_02150
+            HRS: HER32_15765
+            HBN: GUY19_08665
+            HTS: HMJ29_11955
+            HMT: MTP16_12285
+            HTB: MTX78_05515
+            HYK: O9Z63_01940
+            HSK: H4317_14840
+            HCW: O3303_00330
+            HSB: MWH26_03020
+            HAEI: MUN82_13055
+            HCU: MUN79_11725
+            HCF: MUN80_10855
+            PKO: PKOR_02165
+            PACT: CA264_13230
+            RUD: TH61_01800
+            NIB: GU926_07085
+            ADD: HUW48_04855
+            ASWU: HUW51_06420
+            MTT: Ftrac_0317
+            MHAA: Q3Y49_14055
+            FPF: DCC35_08495
+            CLIT: OQ292_05100
+            IRO: RT717_14340
+            FBT: D770_25575
+            AAS: Aasi_0058
+            CHK: D4L85_12890
+            FUV: JR347_09925
+            FMM: LVD15_24965
+            FUA: LVD17_17420
+            FLW: LVD16_19730
+            REK: N6H18_09770
+            PRHO: PZB74_04845
+            TPEL: P0M28_09190
+            GFO: GFO_0653(fabI)
+            GRL: LPB144_00590
+            GFL: GRFL_0419
+            GRS: C7S20_00490
+            FGL: EM308_14935
+            FFA: FFWV33_12670
+            FAT: DVK85_08855
+            FKI: FK004_15880
+            FAK: FUA48_10340
+            FSD: LXD69_11135
+            FLO: K1I41_11015
+            FAZ: M0M57_00685
+            FCU: NOX80_17325
+            FOK: KK2020170_23640
+            COC: Coch_1495
+            COL: AM608_11105
+            CHG: AXF12_03855
+            CAPN: CBG49_12995
+            CGH: CGC50_12120
+            CLK: CGC53_08800
+            CSPU: CGC55_12820
+            CCYN: CGC48_03745
+            CAPH: CGC49_08515
+            CSTO: CGC58_08670
+            CAPQ: CGC52_08565
+            CAPF: FOC45_02685
+            CAPO: HW278_09615
+            RBI: RB2501_16004
+            ZPR: ZPR_3242
+            CAT: CA2559_09468
+            FBC: FB2170_13361
+            MARM: YQ22_18630
+            MART: BTR34_18340
+            MARB: CJ263_18185
+            MARE: EJ994_03895
+            MLIO: NYZ99_09350
+            CAO: Celal_4262
+            CLY: Celly_3288
+            CLH: IX49_16630
+            CBAL: M667_17645
+            CBAT: M666_17650
+            COMN: PBN93_16215
+            KDI: Krodi_0420
+            DOK: MED134_02130(fabI)
+            DDO: I597_2744(fabI)
+            DOD: DCS32_09980
+            LAN: Lacal_2960
+            LVN: BWR22_10065
+            LACI: CW733_07125
+            LNU: N7U66_20030
+            ZGA: ZOBELLIA_4763(fabI)
+            ZLA: Q5W13_17355 Q5W13_24140
+            MRS: Murru_3458
+            MLT: VC82_3031
+            MUT: GVT53_08720
+            MAQI: LDL77_19720
+            SPON: HME9304_03404
+            ASL: Aeqsu_3227
+            AEV: EI546_02405
+            AIC: JK629_15345
+            PTQ: P700755_000564 P700755_003928
+            NDO: DDD_3593(fabI)
+            NOM: AAT17_11800
+            NSD: BST91_06965
+            NOB: CW736_13730 CW736_13865
+            NOJ: EJ995_07165 EJ995_10920
+            NUL: R1T42_02500 R1T42_06715
+            POM: MED152_13264(fabI)
+            POB: LPB03_16295
+            PRN: BW723_10885
+            POLA: BXQ17_01450
+            PHAL: H9I45_16215
+            PLIT: K8354_04140
+            PBAT: JL193_03745
+            PCEA: J3359_16815
+            PUN: NQP51_06100
+            WIN: WPG_3504
+            WIJ: BWZ20_03610
+            SZE: AW14_13815
+            AHZ: APS56_16400
+            SYI: SB49_05350
+            TDI: AUW17_07550
+            TJE: TJEJU_1833(fabI)
+            TMAR: MARIT_1864(fabI)
+            TMP: F9Y86_13460
+            TOV: PG911_10790
+            TRT: PG912_09055
+            TPAC: PG913_07370
+            TFI: PJJ26_07655
+            LUT: Lupro_00205
+            LUL: LPB138_00155
+            WFU: AXE80_07485
+            FOR: FORMB_21620
+            FOH: FORMA_02970
+            FOP: FNB79_17005
+            SALT: AO058_16440
+            SMIS: LDL76_17280
+            SEON: BWZ22_00025
+            AALG: AREALGSMS7_04648(fabI)
+            OLL: CW732_10415
+            OAQ: DZC78_00120
+            FEK: C1H87_03480
+            TAJ: C1A40_17955
+            AUE: C5O00_05860 C5O00_10425
+            KOS: KORDIASMS9_03230(fabI)
+            KAN: IMCC3317_01330(fabI)
+            MARF: CJ739_4051
+            AQB: D1818_04435
+            AQA: D1815_03160
+            AQD: D1816_25235
+            EMAR: D1013_11135
+            MUR: EQY75_07405
+            PSYN: E9099_18950
+            PPON: MUN68_010570
+            AFLA: FHG64_14495
+            ANP: FK178_01040
+            OCI: FEZ18_14520
+            MGEL: G5B37_14465
+            MESQ: C7H62_2709
+            GAA: HX109_11615
+            CAGG: HYG79_00255
+            ALTI: ALE3EI_2703
+            MARX: INR76_13825
+            LPAL: LDL79_17090
+            SINH: LS482_18375
+            ASAG: FGM00_09085
+            FLG: LV716_15230
+            FLB: LV704_16550
+            SABU: MBM09_06520
+            ZSP: MQE36_14185
+            BIA: GMA17_02445
+            FBE: FF125_15525
+            FBM: MQE35_18280
+            SAHN: JRG66_15375
+            ALUT: O5O44_07820
+            LUY: QZH61_09765
+            AEST: RBH94_15965
+            MANG: RBH95_10660
+            HWS: RNZ46_16785
+            FBA: FIC_02396
+            FBU: UJ101_02004(fabI)
+            RAN: Riean_0061
+            RAI: RA0C_0263
+            RAR: RIA_0084
+            RAG: B739_2067
+            RAE: G148_1572
+            RAT: M949_0277
+            RCL: NYR17_05195
+            WVI: Weevi_0442
+            ORH: Ornrh_1250
+            ORI: Q785_03725
+            OHM: MSHRCOH1_09455
+            CHZ: CHSO_2283
+            CGN: OK18_16740
+            CIH: ATE47_06460
+            CHH: A0O34_17085 A0O34_20395
+            CIO: CEQ15_04985
+            CHRY: CEY12_02175
+            CPIP: CJF12_05670
+            CHRS: EAG08_20530
+            CHRZ: CO230_11105
+            CARH: EGY05_07275
+            CSHA: EG350_10985
+            CNK: EG343_00035
+            CJT: EG359_01485
+            CIL: EG358_11535
+            CCAU: EG346_20745
+            CBEN: EG339_16580
+            CGLE: NCTC11432_00330(fabI)
+            CTAI: NCTC12078_00363(fabI)
+            CLAC: EG342_16420
+            CSAL: NBC122_01091(fabI)
+            CBP: EB354_08380
+            CNP: M0D58_02010
+            CCAO: H5J24_11290
+            CFAE: LL667_06070
+            CRHI: KB553_02160
+            CORZ: MTP08_06670
+            CSUP: MTP09_14275
+            CDAE: MUU74_14565
+            CCAB: PFY12_01310
+            CTUR: LNP04_01570
+            CHRJ: CHRYMOREF3P_0002
+            CORA: N0B40_07245
+            CGAM: PFY09_01640
+            CHRA: F7R58_03760
+            CHRC: QGN23_10850
+            CJG: NCTC13459_01892(fabI)
+            CCAS: EIB73_09495
+            CANT: NCTC13489_01962(fabI)
+            KDA: EIB71_03775
+            KHI: EG338_02700 EG338_07700
+            KBE: J4771_09935
+            KFA: Q73A0000_11580
+            KAQ: L0B70_04835
+            EVA: EIB75_15065
+            EZE: KI430_16990
+            CBAU: H1R16_10935
+            CNR: EB819_05225 EB819_06120
+            BCAD: DBX24_00690
+            APIB: G8C43_05055
+            CIV: IMZ16_00630
+            FBO: J9309_12480
+            BBL: BLBBGE_346(fabI)
+            BPI: BPLAN_294(fabI)
+            BMM: MADAR_079(fabI)
+            BCP: BLBCPU_326(fabI)
+            BBG: BGIGA_288(fabI)
+            BBQ: BLBBOR_345
+            BLP: BPAA_298(fabI)
+            BLU: K645_1606
+            BLCK: DM815_01705
+            BPUN: DM780_01660
+            FTE: Fluta_0027
+            FLU: CHH17_10890
+            CRM: K6119_04020
+            OHO: Oweho_0824
+            CHYD: H4K34_00530
+            ISE: JBKA6_0171
+            PTAN: CRYO30217_01826(fabI)
+            SHYR: LA303_03700
+            BBAU: AEM51_08330
+            SRU: SRU_0532(fabI)
+            SRM: SRM_00615(fab1)
+            RMR: Rmar_0386
+            RMG: Rhom172_0384
+            RBAR: AWN76_007120
+            CTE: CT0350(fabI)
+            CPC: Cpar_1687
+            CLZ: BIU88_01700
+            CCH: Cag_1411
+            CPH: Cpha266_0679
+            CPB: Cphamn1_0798
+            CLI: Clim_0552
+            PVI: Cvib_0506
+            PLT: Plut_0458
+            PPH: Ppha_2214
+            PAA: Paes_1678
+            PROC: Ptc2401_00494(fabI)
+            PRS: B9H02_03315
+            PROS: CHL67_03100
+            CTS: Ctha_0633
+            CPRV: CYPRO_2804
+            AAE: aq_1552(fabI)
+            HYA: HY04AAS1_1585
+            HHO: HydHO_1565
+            HYS: HydSN_1609
+            HTH: HTH_0009(fabI)
+            HTE: Hydth_0010
+            TAL: Thal_0538
+            TRD: THERU_03180
+            SUL: SYO3AOP1_1263
+            SAF: SULAZ_1230
+            PMX: PERMA_1874
+            DDF: DEFDS_1807(fabI)
+            DAP: Dacet_2904
+            GTL: EP073_02705
+            CNI: Calni_0997
+            FSI: Flexsi_2154
+            MSCH: N508_000653(fabI)
+            DTH: DICTH_0279
+            DTU: Dtur_0407
+            NDE: NIDE1599(fabI)
+            NMV: NITMOv2_0232(fabI)
+            NIO: NITINOP_0846(fabI)
+            NJA: NSJP_1365(fabI)
+            NKF: Nkreftii_003971
+            NIF: W02_25810(fabI)
+            NTI: DNFV4_00501
+            LFC: LFE_1558
+            LFI: LFML04_1072
+            LFP: Y981_04905
+            LEG: ABH19_08315
+            NLI: G3M70_05305
+            SCHV: BRCON_0840
+            FSH: Q2T83_02845
+DBLINKS     ExplorEnz - The Enzyme Database: 1.3.1.10
+            IUBMB Enzyme Nomenclature: 1.3.1.10
+            ExPASy - ENZYME nomenclature database: 1.3.1.10
+            BRENDA, the Enzyme Database: 1.3.1.10
+            CAS: 37251-09-5
+///

@@ -1,0 +1,34 @@
+ENTRY       EC 3.4.24.57                Enzyme
+NAME        O-sialoglycoprotein endopeptidase;
+            glycoprotease;
+            glycophorin A proteinase;
+            glycoproteinase;
+            sialoglycoprotease;
+            sialoglycoproteinase
+CLASS       Hydrolases;
+            Acting on peptide bonds (peptidases);
+            Metalloendopeptidases
+REACTION    Hydrolysis of O-sialoglycoproteins; cleaves -Arg31!Asp- bond in glycophorin A. Does not cleave unglycosylated proteins, desialylated glycoproteins or glycoproteins that are only N-glycosylated
+COMMENT     An enzyme secreted by the bacterium Pasteurella haemolytica. Inhibited by EDTA (100 mM) and 1,10-phenanthroline. Type example of peptidase family M22
+HISTORY     EC 3.4.24.57 created 1993
+REFERENCE   1  [PMID:1885539]
+  AUTHORS   Abdullah KM, Lo RY, Mellors A
+  TITLE     Cloning, nucleotide sequence, and expression of the Pasteurella haemolytica A1 glycoprotease gene.
+  JOURNAL   J Bacteriol 173:5597-603 (1991)
+            DOI:10.1128/JB.173.18.5597-5603.1991
+  SEQUENCE  [mht:D648_7650]
+REFERENCE   2  [PMID:1729196]
+  AUTHORS   Abdullah KM, Udoh EA, Shewen PE, Mellors A.
+  TITLE     A neutral glycoprotease of Pasteurella haemolytica A1 specifically cleaves O-sialoglycoproteins.
+  JOURNAL   Infect Immun 60:56-62 (1992)
+            DOI:10.1128/IAI.60.1.56-62.1992
+REFERENCE   3  [PMID:1371528]
+  AUTHORS   Sutherland DR, Abdullah KM, Cyopick P, Mellors A.
+  TITLE     Cleavage of the cell-surface O-sialoglycoproteins CD34, CD43, CD44, and CD45 by a novel glycoprotease from Pasteurella haemolytica.
+  JOURNAL   J Immunol 148:1458-64 (1992)
+DBLINKS     ExplorEnz - The Enzyme Database: 3.4.24.57
+            IUBMB Enzyme Nomenclature: 3.4.24.57
+            ExPASy - ENZYME nomenclature database: 3.4.24.57
+            BRENDA, the Enzyme Database: 3.4.24.57
+            CAS: 129430-53-1
+///
