@@ -1,0 +1,8 @@
+ENTRY       EC 3.6.4.12       Obsolete  Enzyme
+NAME        Transferred to 5.6.2.3 and 5.6.2.4
+CLASS       Hydrolases;
+            Acting on acid anhydrides;
+            Acting on acid anhydrides to facilitate cellular and subcellular movement
+COMMENT     Transferred entry: DNA helicase. Now EC 5.6.2.3, DNA 5-3 helicase and EC 5.6.2.4, DNA 3-5 helicase
+HISTORY     EC 3.6.4.12 created 2009, deleted 2021
+///

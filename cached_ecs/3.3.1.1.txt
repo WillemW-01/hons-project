@@ -1,0 +1,8 @@
+ENTRY       EC 3.3.1.1        Obsolete  Enzyme
+NAME        Transferred to 3.13.2.1
+CLASS       Hydrolases;
+            Acting on ether bonds;
+            Thioether and trialkylsulfonium hydrolases (deleted sub-subclass)
+COMMENT     Transferred entry: adenosylhomocysteinase, now classified as EC 3.13.2.1, adenosylhomocysteinase
+HISTORY     EC 3.3.1.1 created 1961, modified 2004, deleted 2022
+///

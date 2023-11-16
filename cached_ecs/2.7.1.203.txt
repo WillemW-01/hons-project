@@ -1,0 +1,228 @@
+ENTRY       EC 2.7.1.203                Enzyme
+NAME        protein-Npi-phosphohistidine---D-glucosaminate phosphotransferase;
+            dgaABCD (gene names);
+            2-amino-2-deoxy-D-gluconate PTS permease
+CLASS       Transferases;
+            Transferring phosphorus-containing groups;
+            Phosphotransferases with an alcohol group as acceptor
+SYSNAME     protein-Npi-phospho-L-histidine:2-amino-2-deoxy-D-gluconate Npi-phosphotransferase
+REACTION    [protein]-Npi-phospho-L-histidine + 2-amino-2-deoxy-D-gluconate[side 1] = [protein]-L-histidine + 2-amino-2-deoxy-D-gluconate 6-phosphate[side 2] [RN:R10407]
+ALL_REAC    R10407
+SUBSTRATE   [protein]-Npi-phospho-L-histidine [CPD:C04261];
+            2-amino-2-deoxy-D-gluconate[side 1] [CPD:C03752]
+PRODUCT     [protein]-L-histidine [CPD:C00615];
+            2-amino-2-deoxy-D-gluconate 6-phosphate[side 2] [CPD:C20589]
+COMMENT     This enzyme is a component (known as enzyme II) of a phosphoenolpyruvate (PEP)-dependent, sugar transporting phosphotransferase system (PTS). The system, which is found only in prokaryotes, simultaneously transports its substrate from the periplasm or extracellular space into the cytoplasm and phosphorylates it. The phosphate donor, which is shared among the different systems, is a phospho-carrier protein of low molecular mass that has been phosphorylated by EC 2.7.3.9 (phosphoenolpyruvate---protein phosphotransferase). Enzyme II, on the other hand, is specific for a particular substrate, although in some cases alternative substrates can be transported with lower efficiency. The reaction involves a successive transfer of the phosphate group to several amino acids within the enzyme before the final transfer to the substrate.
+HISTORY     EC 2.7.1.203 created 1972 as EC 2.7.1.69, part transferred 2016 to EC 2.7.1.203
+REFERENCE   1  [PMID:23836865]
+  AUTHORS   Miller KA, Phillips RS, Mrazek J, Hoover TR
+  TITLE     Salmonella utilizes D-glucosaminate via a mannose family phosphotransferase system permease and associated enzymes.
+  JOURNAL   J Bacteriol 195:4057-66 (2013)
+            DOI:10.1128/JB.00290-13
+  SEQUENCE  [seo:STM14_4548 STM14_4547]
+PATHWAY     ec00030  Pentose phosphate pathway
+            ec01120  Microbial metabolism in diverse environments
+ORTHOLOGY   K17464  D-glucosaminate PTS system EIIA component
+            K17465  D-glucosaminate PTS system EIIB component
+GENES       EOI: ECO111_3681 ECO111_3682
+            EOJ: ECO26_4032 ECO26_4033
+            ECW: EcE24377A_3276 EcE24377A_3277
+            ECV: APECO1_2997 APECO1_2998
+            ECR: ECIAI1_3066 ECIAI1_3067
+            ECI: UTI89_C3970 UTI89_C3971
+            EIH: ECOK1_3884
+            ECZ: ECS88_3858 ECS88_3859
+            ELU: UM146_17400 UM146_17405
+            ECOI: ECOPMV1_03775(manX_5) ECOPMV1_03776(manX_6)
+            EAL: EAKF1_ch2499c EAKF1_ch2500c
+            EMA: C1192_15205 C1192_15210
+            STY: STY4013 STY4014
+            STT: t3746 t3747
+            SEX: STBHUCCB_39480 STBHUCCB_39490
+            SENT: TY21A_19000 TY21A_19005
+            STM: STM3771 STM3772
+            SEO: STM14_4547 STM14_4548
+            SEV: STMMW_37601 STMMW_37611
+            SEY: SL1344_3736 SL1344_3737
+            SEM: STMDT12_C38280 STMDT12_C38290
+            SEJ: STMUK_3757 STMUK_3758
+            SEB: STM474_3945 STM474_3946
+            SEF: UMN798_4099 UMN798_4100
+            SETU: STU288_19055 STU288_19060
+            SETC: CFSAN001921_21585 CFSAN001921_21590
+            SENR: STMDT2_36541 STMDT2_36551
+            SEND: DT104_37551 DT104_37561
+            SENI: CY43_19560 CY43_19565
+            SEEN: SE451236_02055 SE451236_02060
+            SPT: SPA3621 SPA3622
+            SEK: SSPA3383 SSPA3384
+            SPQ: SPAB_04687 SPAB_04688
+            SEI: SPC_3850 SPC_3851
+            SEC: SCH_3691(ptfB) SCH_3692
+            SEH: SeHA_C4101 SeHA_C4102
+            SHB: SU5_04247 SU5_04248
+            SENH: CFSAN002069_13175 CFSAN002069_13180
+            SEEH: SEEH1578_05005 SEEH1578_05010
+            SEE: SNSL254_A4050 SNSL254_A4051
+            SENN: SN31241_1070 SN31241_1080
+            SEW: SeSA_A3978 SeSA_A3979
+            SEA: SeAg_B3996 SeAg_B3997
+            SENS: Q786_18480 Q786_18485
+            SED: SeD_A4164 SeD_A4165
+            SEG: SG3656 SG3657
+            SEL: SPUL_3790 SPUL_3791
+            SEGA: SPUCDC_3776 SPUCDC_3777
+            SET: SEN3593 SEN3594
+            SENA: AU38_18345 AU38_18350
+            SENO: AU37_18535 AU37_18540
+            SENV: AU39_18540 AU39_18545
+            SENQ: AU40_20670 AU40_20675
+            SENL: IY59_18980 IY59_18985
+            SENJ: CFSAN001992_14785 CFSAN001992_14790
+            SEEC: CFSAN002050_01760 CFSAN002050_01765
+            SEEB: SEEB0189_001020 SEEB0189_001025
+            SEEP: I137_18190 I137_18195
+            SENB: BN855_38630 BN855_38640
+            SENE: IA1_18315 IA1_18320
+            SENC: SEET0819_02675 SEET0819_02680
+            SBG: SBG_3343 SBG_3344
+            SBZ: A464_3842 A464_3843
+            SBV: N643_16640 N643_16645
+            SALZ: EOS98_00335 EOS98_00340
+            KPY: KPNIH31_18240 KPNIH31_18245
+            KOX: KOX_02420 KOX_02425
+            KOE: A225_4922 A225_4923
+            KOY: J415_07360 J415_07365
+            KOM: HR38_00785 HR38_00790
+            KOK: KONIH1_24755 KONIH1_24760
+            KOC: AB185_11700 AB185_11705
+            EAE: EAE_10140 EAE_10145
+            EAR: CCG31961 CCG31962
+            KLL: BJF97_24605 BJF97_24610
+            KLW: DA718_04740 DA718_04745
+            KGR: JJJ10_04755 JJJ10_04760
+            KPAS: LUW96_02300 LUW96_02305
+            KLC: K7H21_04240 K7H21_04245
+            RAO: DSD31_22465 DSD31_22470
+            RTG: NCTC13098_03935(manX_7) NCTC13098_03936(manX_8) NCTC13098_06470 NCTC13098_06471(levE)
+            REE: electrica_04414 electrica_04415(levE)
+            CKO: CKO_05131 CKO_05132
+            CFD: CFNIH1_06355 CFNIH1_06360
+            CBRA: A6J81_17515 A6J81_17520
+            CWE: CO701_22375 CO701_22380
+            CYO: CD187_00250 CD187_00255
+            CPOT: FOB25_11655 FOB25_11660
+            CSED: JY391_00250 JY391_00255
+            CAMA: F384_19960 F384_19965
+            CAF: AL524_02745 AL524_02750
+            CIF: AL515_01055 AL515_01060
+            CFAR: CI104_00295 CI104_00300
+            CIR: C2U53_09400 C2U53_09405
+            CIE: AN232_04660 AN232_04665
+            CPAR: CUC49_18970 CUC49_18975
+            CTEL: GBC03_04065 GBC03_04070
+            CARS: E1B03_25895 E1B03_25900
+            CIX: M4I31_00235 M4I31_00240
+            CEM: LH23_01840 LH23_01845
+            CEN: LH86_01835 LH86_01840
+            ESC: Entcl_3811 Entcl_3812
+            KLE: AO703_02845 AO703_02850
+            YRE: HEC60_20740 HEC60_20745
+            SUPE: P0H77_00300 P0H77_00305
+            TOE: QMG90_02945 QMG90_02950
+            SFW: WN53_22590 WN53_22595
+            SFG: AV650_18420 AV650_18425
+            SOF: NCTC11214_04106 NCTC11214_04107(levE)
+            SGL: SG2426 SG2427
+            SOD: Sant_0067 Sant_0068
+            HAV: AT03_07685 AT03_07690
+            HPAR: AL518_17880 AL518_17885
+            OPO: DSM2777_12975 DSM2777_12980
+            PRAG: EKN56_11355 EKN56_11360
+            ORB: IPMB12_08385 IPMB12_08390 IPMB12_11185
+            JEU: BJP62_06010 BJP62_06015
+            JES: JHS3_16550 JHS3_16560
+            PMAS: NCF86_16805 NCF86_16810
+            DMA: DMR_25820
+            DCB: C3Y92_11925
+            OJD: NP439_23215 NP439_23220
+            OON: NP440_16450
+            VIR: X953_16400 X953_16405
+            PMAE: LMZ02_12140 LMZ02_12145
+            LPAA: BHS01_08870
+            LAW: LACWKB8_0071 LACWKB8_1712
+            LKL: DKL58_02470 DKL58_08925
+            LHS: DLD54_00345 DLD54_08120
+            LCZ: LCAZH_2764
+            LCS: LCBD_0390 LCBD_0415 LCBD_0416 LCBD_2951
+            LCE: LC2W_0385 LC2W_0410 LC2W_0411 LC2W_2925
+            LCW: BN194_03940 BN194_04200(manX) BN194_04210(manX_2) BN194_28660(levE_5)
+            LCL: LOCK919_0433 LOCK919_3015
+            LPI: LBPG_01356
+            LCB: LCABL_03870(sipB) LCABL_04120(ptnA) LCABL_04130(ptfB)
+            LCX: LCA12A_0450
+            LACA: LAC1533_2217
+            LHO: LOOC260_108700
+            EFA: EF2979 EF2980
+            EFL: EF62_0065(mopB) EF62_0066(mopA)
+            EFI: OG1RF_12261 OG1RF_12262
+            EFD: EFD32_2559 EFD32_2560
+            EFS: EFS1_2414 EFS1_2415
+            EFN: DENG_02865(manX) DENG_02866(manX)
+            EFQ: DR75_1709 DR75_1710
+            ENE: ENT_27240 ENT_27250
+            EGA: AL523_14025
+            EGV: EGCR1_00400 EGCR1_00405 EGCR1_06920
+            EAV: EH197_04875 EH197_05755 EH197_13405 EH197_13430 EH197_20170 EH197_22810
+            ERAF: J9537_02295 J9537_02300 J9537_17040
+            TOO: C7K38_07815
+            AUR: HMPREF9243_0281
+            AUN: AWM73_08030
+            ABAE: CL176_01980
+            MARR: BKP56_11400
+            CINT: HZF06_04025
+            GFE: Gferi_12420
+            PETR: QKW49_07350 QKW49_07375
+            CSH: Closa_1940
+            ARF: AR1Y2_0100 AR1Y2_0199 AR1Y2_0228 AR1Y2_0500 AR1Y2_0556 AR1Y2_0557 AR1Y2_0584 AR1Y2_1427 AR1Y2_2500 AR1Y2_3267 AR1Y2_3371 AR1Y2_3428
+            ACAC: EYQ97_00595 EYQ97_01005 EYQ97_01475 EYQ97_08030 EYQ97_11065 EYQ97_13895 EYQ97_14100 EYQ97_14110 EYQ97_15510 EYQ97_16525
+            CBOL: CGC65_04935
+            CDF: CD630_02860 CD630_02870
+            PDC: CDIF630_00410 CDIF630_00411 CDIF630_00621
+            CDC: CD196_0302 CD196_0303 CD196_0449
+            CDL: CDR20291_0289 CDR20291_0290 CDR20291_0435
+            PDF: CD630DERM_02860 CD630DERM_02870 CD630DERM_04920
+            TTE: TTE0193
+            TEX: Teth514_0135
+            THX: Thet_0171
+            TPD: Teth39_2067
+            TIT: Thit_0168
+            TMT: Tmath_0225
+            TBO: Thebr_2112
+            TWI: Thewi_1906 Thewi_1910 Thewi_2122
+            TTM: Tthe_1735 Tthe_2469
+            TXY: Thexy_0798
+            TSH: Tsac_2503
+            TEP: TepRe1_1694 TepRe1_1698 TepRe1_2538
+            TAE: TepiRe1_1826 TepiRe1_1830 TepiRe1_1831 TepiRe1_2736
+            TOC: Toce_0295 Toce_1900 Toce_1904
+            KME: H0A61_00398(sorB)
+            SPOA: EQM13_03010 EQM13_03935 EQM13_06690 EQM13_09900 EQM13_11945 EQM13_14140 EQM13_14145
+            PUF: UFO1_0311
+            PFT: JBW_03181 JBW_03182 JBW_04324
+            ERD: G7062_03590 G7062_03625
+            EIO: H9L01_05360
+            LCG: L3BBH23_01770
+            ERB: A4V01_00185 A4V01_00635 A4V01_01190 A4V01_02605 A4V01_02640 A4V01_03885 A4V01_04100 A4V01_04820 A4V01_09745 A4V01_21605 A4V01_21685
+            CIU: G4D55_00860 G4D55_00895 G4D55_02060 G4D55_02265 G4D55_03155 G4D55_08505 G4D55_17265 G4D55_18945 G4D55_19060 G4D55_19320 G4D55_19715 G4D55_20465
+            TIO: INP52_09200
+            CGO: Corgl_1551
+            STR: Sterm_0951 Sterm_3205 Sterm_3206 Sterm_3863 Sterm_3864
+            GGR: HKW67_06895
+            CPO: COPRO5265_1192
+            TMG: US01_C0001G0873
+DBLINKS     ExplorEnz - The Enzyme Database: 2.7.1.203
+            IUBMB Enzyme Nomenclature: 2.7.1.203
+            ExPASy - ENZYME nomenclature database: 2.7.1.203
+            BRENDA, the Enzyme Database: 2.7.1.203
+///

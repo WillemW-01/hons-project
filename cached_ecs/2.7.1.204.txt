@@ -1,0 +1,242 @@
+ENTRY       EC 2.7.1.204                Enzyme
+NAME        protein-Npi-phosphohistidine---D-galactose phosphotransferase;
+            D-galactose PTS permease;
+            EIIGal;
+            Enzyme IIGal
+CLASS       Transferases;
+            Transferring phosphorus-containing groups;
+            Phosphotransferases with an alcohol group as acceptor
+SYSNAME     protein-Npi-phospho-L-histidine:D-galactose Npi-phosphotransferase
+REACTION    [protein]-Npi-phospho-L-histidine + D-galactose[side 1] = [protein]-L-histidine + D-galactose 6-phosphate[side 2] [RN:R11171]
+ALL_REAC    R11171
+SUBSTRATE   [protein]-Npi-phospho-L-histidine [CPD:C04261];
+            D-galactose[side 1] [CPD:C00124]
+PRODUCT     [protein]-L-histidine [CPD:C00615];
+            D-galactose 6-phosphate[side 2] [CPD:C01113]
+COMMENT     This enzyme is a component (known as enzyme II) of a phosphoenolpyruvate (PEP)-dependent, sugar transporting phosphotransferase system (PTS). The system, which is found only in prokaryotes, simultaneously transports its substrate from the periplasm or extracellular space into the cytoplasm and phosphorylates it. The phosphate donor, which is shared among the different systems, is a phospho-carrier protein of low molecular mass that has been phosphorylated by EC 2.7.3.9 (phosphoenolpyruvate---protein phosphotransferase). Enzyme II, on the other hand, is specific for a particular substrate, although in some cases alternative substrates can be transported with lower efficiency. The reaction involves a successive transfer of the phosphate group to several amino acids within the enzyme before the final transfer to the substrate.
+HISTORY     EC 2.7.1.204 created 1972 as EC 2.7.1.69, part transferred 2016 to EC 2.7.1.204
+REFERENCE   1  [PMID:22660715]
+  AUTHORS   Zeng L, Martino NC, Burne RA
+  TITLE     Two gene clusters coordinate galactose and lactose metabolism in Streptococcus gordonii.
+  JOURNAL   Appl Environ Microbiol 78:5597-605 (2012)
+            DOI:10.1128/AEM.01393-12
+  SEQUENCE  [sgo:SGO_1521 SGO_1522]
+REFERENCE   2  [PMID:23421335]
+  AUTHORS   Zeng L, Xue P, Stanhope MJ, Burne RA
+  TITLE     A galactose-specific sugar: phosphotransferase permease is prevalent in the non-core genome of Streptococcus mutans.
+  JOURNAL   Mol Oral Microbiol 28:292-301 (2013)
+            DOI:10.1111/omi.12025
+ORTHOLOGY   K20112  galactose PTS system EIIA component
+            K20113  galactose PTS system EIIB component
+GENES       CTEL: GBC03_22350
+            DMS: E8L03_12365
+            BSON: S101395_04912 S101395_04913
+            OJD: NP439_07320 NP439_07325
+            VIG: BKP57_12195 BKP57_12200
+            VPN: A21D_01074 A21D_01075
+            VPT: KBP50_01775 KBP50_01780
+            LEX: Len3610_12830 Len3610_12835
+            SFOR: QNH23_14005
+            SCA: SCA_1696
+            SSIF: AL483_01340
+            SCV: A4G25_11645
+            SCHR: DWB92_02185 DWB92_02190
+            SPIC: SAMEA4384060_0832 SAMEA4384060_0834 SAMEA4384060_0835
+            SDB: CNQ82_10445
+            LWI: UE46_12420
+            SPY: SPy_1710 SPy_1711
+            SPZ: M5005_Spy1400 M5005_Spy1401
+            SPYM: M1GAS476_1479 M1GAS476_1480
+            SPYA: A20_1449c A20_1450c
+            SPM: spyM18_1720 spyM18_1721
+            SPG: SpyM3_1487 SpyM3_1488
+            SPS: SPs0379 SPs0380
+            SPH: MGAS10270_Spy1521 MGAS10270_Spy1522
+            SPI: MGAS10750_Spy1513 MGAS10750_Spy1514
+            SPJ: MGAS2096_Spy1427 MGAS2096_Spy1428
+            SPK: MGAS9429_Spy1403 MGAS9429_Spy1404
+            SPF: SpyM50389 SpyM50390
+            SPA: M6_Spy1449 M6_Spy1450
+            SPB: M28_Spy1443 M28_Spy1444
+            STG: MGAS15252_1298 MGAS15252_1299
+            STX: MGAS1882_1359 MGAS1882_1360
+            SOZ: Spy49_1328c Spy49_1329c
+            STZ: SPYALAB49_001445 SPYALAB49_001446
+            SPYH: L897_07010 L897_07015
+            SPYO: STAB901_07045 STAB901_07050
+            SPN: SP_0645 SP_0646 SP_1197 SP_1198
+            SPD: SPD_0559 SPD_0560 SPD_1057
+            SPR: spr0562(PTS-EII) spr0563 spr1080 spr1081
+            SPW: SPCG_0600 SPCG_0601 SPCG_1101 SPCG_1102
+            SJJ: SPJ_0593 SPJ_0594 SPJ_1114 SPJ_1115
+            SNV: SPNINV200_05670 SPNINV200_05680 SPNINV200_10320
+            SPX: SPG_0585 SPG_0586 SPG_1092 SPG_1093
+            SNT: SPT_0667 SPT_0668 SPT_1028 SPT_1029
+            SND: MYY_0689 MYY_0690 MYY_1037 MYY_1038
+            SPNN: T308_03030 T308_03035 T308_04775 T308_04780
+            SNE: SPN23F05800 SPN23F05810 SPN23F10980
+            SPV: SPH_0738 SPH_0739 SPH_1315
+            SNC: HMPREF0837_10934 HMPREF0837_10935 HMPREF0837_11301 HMPREF0837_11302
+            SNM: SP70585_0703 SP70585_0704 SP70585_1247 SP70585_1248
+            SPP: SPP_0661 SPP_0662 SPP_1238 SPP_1239
+            SNI: INV104_05370 INV104_05380
+            SPNG: HMPREF1038_00669 HMPREF1038_00670 HMPREF1038_01204 HMPREF1038_01205
+            SNB: SP670_0700 SP670_0701 SP670_1078 SP670_1079
+            SNP: SPAP_0631 SPAP_0632 SPAP_1224
+            SNX: SPNOXC05900 SPNOXC05910 SPNOXC10740
+            SNU: SPNA45_00986 SPNA45_00987 SPNA45_01458 SPNA45_01459
+            SPNE: SPN034156_01620 SPN034156_16390 SPN034156_16400
+            SPNU: SPN034183_05910 SPN034183_05920 SPN034183_10740
+            SPNM: SPN994038_05800 SPN994038_05810 SPN994038_10630
+            SPNO: SPN994039_05810 SPN994039_05820 SPN994039_10640
+            SAG: SAG1934 SAG1935
+            SAN: gbs1921 gbs1922
+            SAK: SAK_1894 SAK_1895
+            SGC: A964_1793(gatB) A964_1794(gatA)
+            SAGS: SaSA20_1590 SaSA20_1591
+            SAGL: GBS222_1595
+            SAGM: BSA_19510 BSA_19520
+            SAGI: MSA_20200 MSA_20210
+            SAGR: SAIL_19540 SAIL_19550
+            SAGP: V193_08465 V193_08470
+            SAGC: DN94_08465 DN94_08470
+            SAGT: GBSCOH1_1729 GBSCOH1_1730
+            SAGE: EN72_10145 EN72_10150
+            SAGG: EN73_09235 EN73_09240
+            SAGN: W903_1870 W903_1871
+            SAGJ: ID870_00265 ID870_00270
+            SMJ: SMULJ23_0624 SMULJ23_0625
+            SGO: SGO_1521 SGO_1522
+            SUB: SUB1459 SUB1460
+            SDS: SDEG_1765 SDEG_1766
+            SDG: SDE12394_08800 SDE12394_08805
+            SDA: GGS_1588 GGS_1589
+            SDC: SDSE_1860 SDSE_1861
+            SDQ: SDSE167_1823 SDSE167_1824
+            SGA: GALLO_0181 GALLO_0182
+            SGG: SGGBAA2069_c01990 SGGBAA2069_c02000
+            SGT: SGGB_0225 SGGB_0226
+            SMB: smi_1022 smi_1023
+            SOR: SOR_1093(sgaB) SOR_1094
+            STK: STP_0242 STP_0243
+            STB: SGPB_0168 SGPB_0169
+            SCP: HMPREF0833_10696 HMPREF0833_10697
+            SCF: Spaf_1260(gatB) Spaf_1261(gatA)
+            STD: SPPN_03375 SPPN_03380
+            SMN: SMA_0202 SMA_0203
+            SIE: SCIM_1147 SCIM_1148
+            SIB: SIR_0444 SIR_0445
+            SIU: SII_0428 SII_0429
+            SANG: SAIN_1272
+            SANC: SANR_1496
+            SANS: DK43_03195 DK43_03200
+            SCG: SCI_1412 SCI_1413
+            SCON: SCRE_1369 SCRE_1370
+            SCOS: SCR2_1369 SCR2_1370
+            SOI: I872_06865 I872_06870
+            SLU: KE3_0131 KE3_0132
+            SIG: N596_00795 N596_00800
+            SIP: N597_02500 N597_02505
+            STV: V470_05090 V470_05095
+            STRA: ATM98_00880 ATM98_00885
+            STRN: SNAG_1091 SNAG_1092
+            SKI: D7D50_09700 D7D50_09705
+            SPEI: EHW89_06420 EHW89_06425
+            SRAT: FY406_10225 FY406_10230
+            SGW: D7D53_04710 D7D53_04715
+            SCAI: NCTC12191_01055 NCTC12191_01056
+            SPSU: NCTC13786_01581 NCTC13786_01582
+            SPOC: NCTC10925_01575 NCTC10925_01576
+            SLAT: J4854_06625 J4854_06630
+            SAUP: NCTC3168_00084 NCTC3168_00085(gatA_1)
+            SACO: SAME_02069 SAME_02070
+            SVF: NCTC3166_00688(gatA_1) NCTC3166_00689
+            STOY: STYK_09290 STYK_09300
+            LJF: FI9785_193 FI9785_566 FI9785_567
+            LJH: LJP_0131
+            LJN: T285_00695
+            LAC: LBA0146
+            LAD: LA14_0147
+            LAF: SD55_0144
+            LDB: Ldb0199
+            LBU: LBUL_0173
+            LDE: LDBND_0179 LDBND_1641 LDBND_1642
+            LDL: LBU_0153
+            LGA: LGAS_0125 LGAS_0495 LGAS_0496
+            LHE: lhv_0154
+            LHL: LBHH_0154
+            LHR: R0052_00835
+            LHV: lhe_0161
+            LHH: LBH_0126
+            LHD: HUO_01745
+            LCR: LCRIS_00142
+            LAM: LA2_00810
+            LAI: LAC30SC_00675
+            LAY: LAB52_00755
+            LKE: WANG_1702
+            LAE: LBAT_0166
+            LGL: AO203_02210
+            LAMY: B1745_00735
+            LPW: LpgJCM5343_01250 LpgJCM5343_04870 LpgJCM5343_04880
+            LKL: DKL58_01965 DKL58_01970
+            LTA: H1A07_00690
+            LUU: H4B44_00840
+            LPAI: GYM71_02170
+            LIQ: KBW87_00675
+            LCA: LSEI_0671 LSEI_0672
+            LCZ: LCAZH_0603 LCAZH_0604 LCAZH_2648
+            LCS: LCBD_0742 LCBD_0743 LCBD_2865
+            LCE: LC2W_0742 LC2W_0743 LC2W_2838
+            LCW: BN194_07420 BN194_07430 BN194_27910
+            LCL: LOCK919_0414 LOCK919_0772 LOCK919_0773 LOCK919_2901
+            LPQ: AF91_02390 AF91_02395
+            LPI: LBPG_01243 LBPG_02737 LBPG_02738
+            LPAP: LBPC_0592 LBPC_0593
+            LCB: LCABL_07380(PTS-EII) LCABL_07390
+            LCX: LCA12A_0343 LCA12A_1703 LCA12A_1704
+            LRL: LC705_00631(pts) LC705_00632(pts) LC705_02666(gatB)
+            LRA: LRHK_2774 LRHK_650 LRHK_651
+            LRO: LOCK900_2665
+            LRC: LOCK908_0642 LOCK908_0643 LOCK908_2745
+            LCHI: KG086_12185
+            LZE: KG087_03095 KG087_13445
+            LHN: LHUE1_000795
+            LNG: BSQ50_09225 BSQ50_09230
+            LACA: LAC1533_0038 LAC1533_0039
+            LBT: AYR52_00505
+            PACI: A4V11_07380 A4V11_07385
+            PIO: PI20285_01630 PI20285_01635
+            LHI: JP39_11240 JP39_11245
+            LCT: BI355_2105 BI355_2106
+            LALW: BTM29_03610 BTM29_03615
+            LFM: LF20184_00970 LF20184_00975
+            LZH: D1B17_12105 D1B17_12110
+            LFT: FG051_00595 FG051_00600
+            CPAB: G6534_11255 G6534_11260
+            LAH: LA20533_03270 LA20533_03385 LA20533_03390
+            EFA: EF1836 EF1837
+            EFI: OG1RF_11557 OG1RF_11558
+            ETH: CK496_07790 CK496_07795
+            EGV: EGCR1_15210 EGCR1_15215
+            EAV: EH197_02520 EH197_02525
+            THL: TEH_04450 TEH_04460 TEH_24190 TEH_24200 TEH_24980 TEH_24990
+            TEY: GLW17_07135 GLW17_07140
+            TOO: C7K38_04710 C7K38_04715
+            TKR: C7K43_09015 C7K43_09020
+            AUI: APT62_01835 APT62_01840
+            IRU: M0R79_02835 M0R79_02840
+            CVD: LHA31_08635 LHA31_08640
+            DPM: FNV33_06570 FNV33_06575
+            CAC: CA_C2957 CA_C2958
+            CAE: SMB_G2993 SMB_G2994
+            CAY: CEA_G2964 CEA_G2965
+            CBUT: ATN24_02870 ATN24_02875
+            SCLA: SCLARK_001174
+            DVA: DAD186_12990
+            STR: Sterm_1732 Sterm_3753
+            HALN: B4589_004345
+DBLINKS     ExplorEnz - The Enzyme Database: 2.7.1.204
+            IUBMB Enzyme Nomenclature: 2.7.1.204
+            ExPASy - ENZYME nomenclature database: 2.7.1.204
+            BRENDA, the Enzyme Database: 2.7.1.204
+///

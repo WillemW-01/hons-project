@@ -1,0 +1,334 @@
+ENTRY       EC 1.6.3.4                  Enzyme
+NAME        NADH oxidase (H2O-forming);
+            H2O-forming NADH oxidase;
+            Nox-2
+CLASS       Oxidoreductases;
+            Acting on NADH or NADPH;
+            With oxygen as acceptor
+SYSNAME     NADH:oxygen oxidoreductase (H2O-forming)
+REACTION    2 NADH + 2 H+ + O2 = 2 NAD+ + 2 H2O [RN:R10517]
+ALL_REAC    R10517
+SUBSTRATE   NADH [CPD:C00004];
+            H+ [CPD:C00080];
+            O2 [CPD:C00007]
+PRODUCT     NAD+ [CPD:C00003];
+            H2O [CPD:C00001]
+COMMENT     A flavoprotein (FAD). The bacterium Streptococcus mutans contains two distinct NADH oxidases, a H2O-forming enzyme and a H2O2-forming enzyme (cf. EC 1.6.3.3, NADH oxidase (H2O2-forming)) [1].
+HISTORY     EC 1.6.3.4 created 2013
+REFERENCE   1  [PMID:3082630]
+  AUTHORS   Schmidt HL, Stocklein W, Danzer J, Kirch P, Limbach B
+  TITLE     Isolation and properties of an H2O-forming NADH oxidase from Streptococcus faecalis.
+  JOURNAL   Eur J Biochem 156:149-55 (1986)
+            DOI:10.1111/j.1432-1033.1986.tb09560.x
+REFERENCE   2  [PMID:8254304]
+  AUTHORS   Higuchi M, Shimada M, Yamamoto Y, Hayashi T, Koga T, Kamio Y
+  TITLE     Identification of two distinct NADH oxidases corresponding to H2O2-forming oxidase and H2O-forming oxidase induced in Streptococcus mutans.
+  JOURNAL   J Gen Microbiol 139:2343-51 (1993)
+            DOI:10.1099/00221287-139-10-2343
+  SEQUENCE  [smu:SMU_1117]
+REFERENCE   3  [PMID:8824824]
+  AUTHORS   Matsumoto J, Higuchi M, Shimada M, Yamamoto Y, Kamio Y
+  TITLE     Molecular cloning and sequence analysis of the gene encoding the H2O-forming NADH oxidase from Streptococcus mutans.
+  JOURNAL   Biosci Biotechnol Biochem 60:39-43 (1996)
+            DOI:10.1271/bbb.60.39
+  SEQUENCE  [smu:SMU_1117]
+REFERENCE   4  [PMID:15014929]
+  AUTHORS   Kawasaki S, Ishikura J, Chiba D, Nishino T, Niimura Y
+  TITLE     Purification and characterization of an H2O-forming NADH oxidase from Clostridium aminovalericum: existence of an oxygen-detoxifying enzyme in an obligate anaerobic bacteria.
+  JOURNAL   Arch Microbiol 181:324-30 (2004)
+            DOI:10.1007/s00203-004-0659-3
+REFERENCE   5  [PMID:22418266]
+  AUTHORS   Zhang YW, Tiwari MK, Gao H, Dhiman SS, Jeya M, Lee JK
+  TITLE     Cloning and characterization of a thermostable H2O-forming NADH oxidase from Lactobacillus rhamnosus.
+  JOURNAL   Enzyme Microb Technol 50:255-62 (2012)
+            DOI:10.1016/j.enzmictec.2012.01.009
+  SEQUENCE  [lrg:LRHM_0312]
+ORTHOLOGY   K17869  NADH oxidase (H2O-forming)
+            K22405  NADH oxidase (H2O-forming)
+GENES       MMT: Metme_1624
+            MDN: JT25_005995
+            MDH: AYM39_16345
+            MKO: MKLM6_3358
+            METL: U737_04005
+            MPAD: KEF85_00880
+            MELL: IVG45_12825
+            MBUR: EQU24_17220
+            MPSY: CEK71_14720
+            MMOB: F6R98_01550
+            MOZ: MoryE10_26400(fprA)
+            MESL: KKZ03_21000
+            TIG: THII_3128
+            BLEP: AL038_16445
+            THIS: HZT40_09015
+            TUN: J9260_05615
+            TLO: J9253_07425
+            TSB: HMY34_12970
+            TVI: Thivi_2130
+            TMB: Thimo_3250
+            TSY: THSYN_03990
+            THIP: N838_15565
+            CJAP: GWK36_11795
+            THIM: KFB96_17595
+            TBOG: LT988_12130
+            EBS: ECTOBSL9_2540
+            AQL: BXU06_13035
+            SNIV: SFSGTM_04400(fprA)
+            DAR: Daro_1451
+            DEY: HYN24_06790
+            DDEN: KI615_08700
+            QAU: KI612_04970
+            FLE: KI610_08875
+            AZO: azo0526(fprA)
+            AOA: dqs_0536
+            AZR: CJ010_03500
+            AZQ: G3580_18960
+            ACOM: CEW83_10515
+            APP: CAP2UW1_4425
+            RSP: RSP_3191(fprA)
+            RSH: Rsph17029_3930
+            RSQ: Rsph17025_3191
+            RSK: RSKD131_3367
+            CAZT: LV780_15550
+            RCP: RCAP_rcc03286(norV)
+            RHC: RGUI_2055
+            DAA: AKL17_1541
+            WSU: WS0163
+            SBAL: HUE88_05590
+            SMAX: FJR03_02795
+            SKU: Sulku_1316
+            SBA: Sulba_0996
+            SMUL: SMUL_1215
+            SHAL: SHALO_1200
+            SULS: Sdiek1_1284
+            SULJ: SJPD1_1233
+            SULT: FA592_12375
+            ANT: Arnit_0077
+            AELL: AELL_0048
+            ASUI: ASUIS_0050
+            AVP: AVENP_0064
+            ADZ: ADFLV_0072
+            ARC: ABLL_0060
+            PACO: AACT_0052
+            HEBR: AEBR_0103
+            AANA: AANAER_0109
+            DAV: DESACE_01655
+            GPI: GPICK_15220
+            GEM: GM21_0168
+            GEB: GM18_0199
+            GEF: FO488_18975
+            GUR: Gura_0371
+            GEO: Geob_1311(roo)
+            GLO: Glov_0399
+            TAMM: GEAMG1_0121(fprA)
+            GBM: Gbem_0186(roo)
+            GBN: GEOBRER4_01720(norV)
+            GER: KP004_20755
+            GSUB: KP001_15575
+            GNT: KP003_20680
+            GPL: M1B72_21175
+            GSB: GSUB_03650
+            DEU: DBW_1080
+            DVE: DESUT3_31850(fprA)
+            DEP: AOP6_0617(fprA)
+            DES: DSOUD_0965(roo)
+            LCA: LSEI_0285
+            LCZ: LCAZH_0305
+            LCS: LCBD_0278
+            LCE: LC2W_0269
+            LCW: BN194_02850(nox_2)
+            LCL: LOCK919_0299
+            LPQ: AF91_00725
+            LPI: LBPG_02448
+            LPAP: LBPC_0268
+            LCB: LCABL_02800(nox)
+            LCX: LCA12A_2517
+            LRH: LGG_00325(nox)
+            LRG: LRHM_0312
+            LRL: LC705_00311(nox)
+            LRA: LRHK_319(nox)
+            LRO: LOCK900_0301
+            LRC: LOCK908_0315
+            LCHI: KG086_01195
+            LZE: KG087_01400
+            LHN: LHUE1_001367
+            LMAE: FGL90_01365
+            LROS: LROSL1_2334
+            LHB: D1010_01590
+            WDI: H9L19_07180
+            CAC: CA_C1027 CA_C2449
+            CAE: SMB_G1045(fprA) SMB_G2484(fprA)
+            CAY: CEA_G1039 CEA_G2463
+            CPE: CPE0288 CPE1014
+            CPF: CPF_0284 CPF_1269
+            CPR: CPR_0275 CPR_1091
+            CTC: CTC_01004
+            CTET: BN906_01067
+            CNO: NT01CX_1654
+            CBO: CBO2619
+            CBA: CLB_2561
+            CBH: CLC_2492
+            CBY: CLM_2982
+            CBL: CLK_2005
+            CBB: CLD_1946
+            CBI: CLJ_B2849
+            CBN: CbC4_0837
+            CBF: CLI_2683
+            CBM: CBF_2675
+            CBJ: H04402_02712
+            CBE: Cbei_4481 Cbei_4483
+            CBZ: Cbs_4481 Cbs_4483
+            CBEI: LF65_05014 LF65_05016
+            CKL: CKL_3321(fprA)
+            CKR: CKR_2929
+            CLJ: CLJU_c21940
+            CCB: Clocel_1666
+            CSR: Cspa_c08450(fprA1) Cspa_c08470(fprA2)
+            CPAS: Clopa_1032 Clopa_1671
+            CPAT: CLPA_c10580(fprA2)
+            CPAE: CPAST_c10580(fprA2)
+            CAH: CAETHG_0291
+            CLT: CM240_1207(fprA1)
+            CBV: U729_2924(fprA2)
+            CSQ: CSCA_1492
+            CLD: CLSPO_c26930(fprA1)
+            CACE: CACET_c35310
+            CCK: Ccar_07240
+            CEU: A7L45_15690
+            CFM: BJL90_03480
+            CCHV: BTM20_01910
+            CARG: RSJ17_05515 RSJ17_11705
+            CDRK: B9W14_11805
+            CIA: BEN51_09430 BEN51_12645
+            CSEP: CP523_06540 CP523_13435
+            CDY: F3K33_22940 F3K33_22950
+            CCOH: SAMEA4530647_0828(fprA1)
+            CGAS: J1C67_07255 J1C67_12525
+            CLOS: DMR38_11295
+            CCAA: KQH81_02920
+            CMAH: C1I91_21805 C1I91_27065
+            CRW: CROST_015780(fprA1)
+            CFB: CLFE_016500(fprA1)
+            CAUN: CLAUR_013280(fprA1)
+            CGEL: psyc5s11_38240
+            CTAG: LL095_16140 LL095_19740
+            CINT: HZF06_02400
+            ASF: SFBM_0059
+            ASM: MOUSESFB_0059
+            ASO: SFBmNL_00074
+            ASB: RATSFB_0060
+            HHW: NCTC503_00298(fprA1_1) NCTC503_01057(fprA1_2)
+            CALE: FDN13_04340
+            CRS: FQB35_11305
+            CPRF: K7H06_03520 K7H06_16880
+            SARJ: HH195_05345
+            PBIF: KXZ80_03170 KXZ80_06615
+            OCW: OW730_00410 OW730_20300
+            CSPO: QNI18_01720
+            CCEL: CCDG5_0978(fprA2)
+            EHA: Ethha_1061
+            CAPR: EQM14_01055
+            CFEM: HCR03_15400
+            ACOL: K5I23_16800
+            PETR: QKW49_16275
+            PALM: RBG61_01660
+            BYL: A4V09_16140
+            BHAN: CGC63_03185
+            BLAU: DQQ01_03010
+            BPRO: PMF13cell1_01797(fprA1)
+            BLIQ: INP51_00335
+            BLAR: LC508_14805
+            LACY: A4V08_25210
+            CSO: CLS_09940
+            CPRO: CPRO_00260(fprA1)
+            ACHT: bsdcttw_07790
+            RGN: RGna_17470
+            CBOL: CGC65_05545
+            SINT: K5I26_04275
+            QDO: H9Q78_14125
+            WHJ: H9Q79_12870
+            LBX: lbkm_1425
+            CLE: Clole_2026
+            CEW: EKH84_12250
+            CDF: CD630_11570(norV) CD630_16230
+            PDC: CDIF630_01304(fprA) CDIF630_01800(fprAnorR)
+            CDC: CD196_1016(norV) CD196_1546
+            CDL: CDR20291_0994(norV) CDR20291_1521
+            PDF: CD630DERM_11570(norV) CD630DERM_16230
+            PSOR: RSJ16_03120 RSJ16_07995
+            ROC: HF520_02930
+            PHX: KGNDJEFE_01933(fprA1)
+            TEM: JW646_07820 JW646_12860
+            TGC: L0P85_00705 L0P85_14815
+            TMY: TEMA_22400(fprA1) TEMA_32640(norV)
+            TEB: T8CH_2350(fprA)
+            IBR: NQ514_11530
+            SWO: Swol_2054 Swol_2363
+            SLP: Slip_1536
+            DAI: Desaci_0640
+            DAE: Dtox_2294
+            VGU: HYG85_08030 HYG85_16400
+            VPY: HZI73_04160 HZI73_20765
+            ACAE: HYG86_10775
+            CTHM: CFE_0293
+            IBU: IB211_02921
+            BPRM: CL3_22630
+            TTM: Tthe_1029
+            TTO: Thethe_00986
+            TXY: Thexy_1693
+            TSH: Tsac_1486
+            MAS: Mahau_2344
+            CSC: Csac_1982
+            ATE: Athe_1435
+            COB: COB47_1119
+            CHD: Calhy_1301
+            COW: Calow_1214
+            CKI: Calkr_1420
+            CLC: Calla_0805
+            CKN: Calkro_1275
+            CCHA: ELD05_06245
+            CDIA: CaldiYA01_10840
+            CNAG: OTJ99_001287
+            CMOR: OTK00_001121
+            CAZO: G3A45_11855
+            TIS: P3962_11580
+            TUR: AT726_01520 AT726_05065
+            TSG: HLK68_03790 HLK68_14320
+            TBB: J0J69_04240 J0J69_07985
+            ETT: AZF37_06205
+            MYG: ASO20_00625
+            MGJ: MGM1_5040
+            TBK: HF295_04280
+            KST: KSMBR1_2772(fprA)
+            BROC: IPI25_12290
+            BPIT: BPIT_27170
+            JET: L3J17_10755
+            FHO: H9Q81_05250
+            CSOM: MKD34_07280
+            APS: CFPG_262
+            SHYR: LA303_07220
+            CTE: CT2285
+            CPC: Cpar_0005
+            CLZ: BIU88_00020
+            CCH: Cag_2008
+            CPH: Cpha266_0026
+            CPB: Cphamn1_0006
+            CLI: Clim_0005
+            PVI: Cvib_0005
+            PLT: Plut_0004
+            PPH: Ppha_0005
+            PAA: Paes_0005
+            PROC: Ptc2401_00005(fprA1)
+            PRS: B9H02_00025
+            PROS: CHL67_00030
+            OCY: OSSY52_13870
+            DIN: Selin_0989
+            DDF: DEFDS_0572
+            DAP: Dacet_1865
+            GTL: EP073_09040
+            CNI: Calni_0057
+            FSI: Flexsi_1655
+DBLINKS     ExplorEnz - The Enzyme Database: 1.6.3.4
+            IUBMB Enzyme Nomenclature: 1.6.3.4
+            ExPASy - ENZYME nomenclature database: 1.6.3.4
+            BRENDA, the Enzyme Database: 1.6.3.4
+///

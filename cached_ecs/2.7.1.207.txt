@@ -1,0 +1,403 @@
+ENTRY       EC 2.7.1.207                Enzyme
+NAME        protein-Npi-phosphohistidine---lactose phosphotransferase;
+            lacEF (gene names);
+            lactose PTS permease;
+            EIILac;
+            Enzyme IILac
+CLASS       Transferases;
+            Transferring phosphorus-containing groups;
+            Phosphotransferases with an alcohol group as acceptor
+SYSNAME     protein-Npi-phospho-L-histidine:lactose Npi-phosphotransferase
+REACTION    [protein]-Npi-phospho-L-histidine + lactose[side 1] = [protein]-L-histidine + lactose 6'-phosphate[side 2] [RN:R04393 R06237]
+ALL_REAC    R04393 R06237(G)
+SUBSTRATE   [protein]-Npi-phospho-L-histidine;
+            lactose[side 1]
+PRODUCT     [protein]-L-histidine [CPD:C00615];
+            lactose 6'-phosphate[side 2]
+COMMENT     This enzyme is a component (known as enzyme II) of a phosphoenolpyruvate (PEP)-dependent, sugar transporting phosphotransferase system (PTS). The system, which is found only in prokaryotes, simultaneously transports its substrate from the periplasm or extracellular space into the cytoplasm and phosphorylates it. The phosphate donor, which is shared among the different systems, is a phospho-carrier protein of low molecular mass that has been phosphorylated by EC 2.7.3.9 (phosphoenolpyruvate---protein phosphotransferase). Enzyme II, on the other hand, is specific for a particular substrate, although in some cases alternative substrates can be transported with lower efficiency. The reaction involves a successive transfer of the phosphate group to several amino acids within the enzyme before the final transfer to the substrate.
+HISTORY     EC 2.7.1.207 created 1972 as EC 2.7.1.69, part transferred 2016 to EC 2.7.1.207
+REFERENCE   1  [PMID:11947593]
+  AUTHORS   Hengstenberg W
+  TITLE     Solubilization of the membrane bound lactose specific component of the staphylococcal PEP dependant phosphotransferase system.
+  JOURNAL   FEBS Lett 8:277-280 (1970)
+            DOI:10.1016/0014-5793(70)80286-1
+REFERENCE   2  [PMID:6480107]
+  AUTHORS   Vadeboncoeur C, Proulx M
+  TITLE     Lactose transport in Streptococcus mutans: isolation and characterization of factor IIIlac, a specific protein component of the phosphoenolpyruvate-lactose phosphotransferase system.
+  JOURNAL   Infect Immun 46:213-9 (1984)
+            DOI:10.1128/IAI.46.1.213-219.1984
+REFERENCE   3  [PMID:2824493]
+  AUTHORS   Breidt F Jr, Hengstenberg W, Finkeldei U, Stewart GC
+  TITLE     Identification of the genes for the lactose-specific components of the phosphotransferase system in the lac operon of Staphylococcus aureus.
+  JOURNAL   J Biol Chem 262:16444-9 (1987)
+  SEQUENCE  [sao:SAOUHSC_02451 SAOUHSC_02450]
+REFERENCE   4  [PMID:2125052]
+  AUTHORS   de Vos WM, Boerrigter I, van Rooyen RJ, Reiche B, Hengstenberg W
+  TITLE     Characterization of the lactose-specific enzymes of the phosphotransferase system in Lactococcus lactis.
+  JOURNAL   J Biol Chem 265:22554-60 (1990)
+  SEQUENCE  [llr:llh_14030 llh_14025]
+REFERENCE   5  [PMID:7737179]
+  AUTHORS   Peters D, Frank R, Hengstenberg W
+  TITLE     Lactose-specific enzyme II of the phosphoenolpyruvate-dependent phosphotransferase system of Staphylococcus aureus. Purification of the histidine-tagged transmembrane component IICBLac and its hydrophilic IIB domain by metal-affinity chromatography, and functional characterization.
+  JOURNAL   Eur J Biochem 228:798-804 (1995)
+            DOI:10.1111/j.1432-1033.1995.0798m.x
+PATHWAY     ec00052  Galactose metabolism
+            ec01100  Metabolic pathways
+ORTHOLOGY   K02786  lactose PTS system EIIA component
+            K02788  lactose PTS system EIICB component
+GENES       SDO: SD1155_00680 SD1155_00685
+            BAY: RBAM_012160 RBAM_012170
+            BAQ: BACAU_1168(lacE) BACAU_1169(lacF)
+            BYA: BANAU_1148(lacE) BANAU_1149(lacF)
+            BAMP: B938_06200 B938_06205
+            BQY: MUS_1295(lacE) MUS_1296(lacF)
+            BAML: BAM5036_1122(lacE) BAM5036_1123(lacF)
+            BAMA: RBAU_1170(lacE) RBAU_1171(lacF)
+            BAMN: BASU_1150(lacE) BASU_1151(lacF)
+            BAMB: BAPNAU_2575(lacF) BAPNAU_2576(lacE)
+            BAMT: AJ82_06820 AJ82_06825
+            BAMY: V529_11580(lacE) V529_11590(lacF)
+            BMP: NG74_01237(lacE) NG74_01238(lacF_1)
+            BAO: BAMF_1294(lacE) BAMF_1295(lacF)
+            BAZ: BAMTA208_11100(lacF) BAMTA208_11105(lacE)
+            BQL: LL3_01303(lacE) LL3_01304(lacF)
+            BXH: BAXH7_02272(lacF) BAXH7_02273(lacE)
+            BAMI: KSO_013490 KSO_013495
+            BAMC: U471_12170 U471_12180
+            BAMF: U722_06315 U722_06320
+            BSIA: CWD84_15260 CWD84_15265
+            BVM: B9C48_06085 B9C48_06090
+            BACP: SB24_03730 SB24_03735
+            BACB: OY17_09185 OY17_09190
+            BACS: AUL54_04530 AUL54_04535
+            TAP: GZ22_12250 GZ22_12255
+            SAU: SA1992(lacE) SA1993(lacF)
+            SAV: SAV2190(lacE) SAV2191(lacF)
+            SAW: SAHV_2174(lacE) SAHV_2175(lacF)
+            SAH: SaurJH1_2260 SaurJH1_2261
+            SAJ: SaurJH9_2221 SaurJH9_2222
+            SAM: MW2116(lacE) MW2117(lacF)
+            SAS: SAS2091 SAS2092
+            SAR: SAR2281(lacE) SAR2282(lacF)
+            SAC: SACOL2181(lacE) SACOL2182(lacF)
+            SAX: USA300HOU_2183(lacE) USA300HOU_2184(lacF)
+            SAA: SAUSA300_2150(lacE) SAUSA300_2151(lacF)
+            SAO: SAOUHSC_02450 SAOUHSC_02451
+            SAE: NWMN_2094(lacE) NWMN_2095(lacF)
+            SAD: SAAV_2251(lacE) SAAV_2252(lacF)
+            SUU: M013TW_2156 M013TW_2157
+            SUV: SAVC_09840(lacE) SAVC_09845(lacF)
+            SUE: SAOV_2237c SAOV_2238c
+            SUJ: SAA6159_02101 SAA6159_02102
+            SUK: SAA6008_02231 SAA6008_02232
+            SUC: ECTR2_2051 ECTR2_2052(lacF)
+            SUT: SAT0131_02364 SAT0131_02365
+            SUQ: HMPREF0772_11000(lacF) HMPREF0772_11001
+            SUZ: MS7_2213(lacE) MS7_2214(lacF)
+            SUD: ST398NM01_2250 ST398NM01_2251
+            SUX: SAEMRSA15_20950(lacE) SAEMRSA15_20960(lacF)
+            SUW: SATW20_23280(lacE) SATW20_23290(lacF)
+            SUG: SAPIG2250 SAPIG2251
+            SUF: SARLGA251_19850(lacE) SARLGA251_19860(lacF)
+            SAUA: SAAG_00025 SAAG_00026
+            SAUE: RSAU_002034(lacE) RSAU_002035(lacF)
+            SAUN: SAKOR_02158 SAKOR_02159
+            SAUS: SA40_1945(lacE) SA40_1946(lacF)
+            SAUU: SA957_2029(lacE) SA957_2030(lacF)
+            SAUG: SA268_2100(lacE) SA268_2101(lacF)
+            SAUZ: SAZ172_2294(lacE) SAZ172_2295(lacF)
+            SAUT: SAI1T1_2016310(lacE)
+            SAUJ: SAI2T2_1016320(lacE)
+            SAUK: SAI3T3_1016310(lacE)
+            SAUQ: SAI4T8_1016320(lacE)
+            SAUV: SAI7S6_1016310(lacE)
+            SAUW: SAI5S5_1016250(lacE)
+            SAUX: SAI6T6_1016260(lacE)
+            SAUY: SAI8T7_1016290(lacE)
+            SAUF: X998_2178 X998_2179
+            SAB: SAB2071c(lacE) SAB2072c(lacF)
+            SUY: SA2981_2128(lacE) SA2981_2129(lacF)
+            SAUB: C248_2228(lacE) C248_2229(lacF)
+            SAUM: BN843_22320 BN843_22330
+            SAUC: CA347_2279(lacE) CA347_2280(lacF)
+            SAUR: SABB_01469(lacF) SABB_03032(lacE)
+            SAUI: AZ30_11590 AZ30_11595
+            SAUD: CH52_07990 CH52_07995
+            SAMS: NI36_10815 NI36_10820
+            SUH: SAMSHR1132_20220 SAMSHR1132_20230
+            SER: SERP1790(lacE) SERP1791(lacF)
+            SEP: SE_1782 SE_1783
+            SEPP: SEB_01790 SEB_01791
+            SEPS: DP17_734(lacE) DP17_735(lacF)
+            SHA: SH0846(lacF) SH0847(lacE)
+            SHH: ShL2_00741 ShL2_00742
+            SCA: SCA_0667(lacF) SCA_0668(lacE)
+            SLG: SLGD_00829 SLGD_00830
+            SLN: SLUG_08240(lacF)
+            SSD: SPSINT_1854 SPSINT_1855
+            SDT: SPSE_0619(lacF) SPSE_0620(lacE)
+            SWA: A284_03525 A284_03530
+            SPAS: STP1_0619 STP1_0683 STP1_0684
+            SHU: SHYC_03365(lacF) SHYC_03370(lacE)
+            SCAP: AYP1020_1384(lacE) AYP1020_1385(lacF)
+            SSCH: LH95_06735 LH95_06740
+            SSCZ: RN70_06905
+            SAGQ: EP23_06705 EP23_06710
+            SSIF: AL483_06600
+            SCV: A4G25_04595 A4G25_04600
+            SPET: CEP67_04970
+            SLZ: B5P37_02955 B5P37_02960
+            SFQ: C7J90_06160 C7J90_06165
+            SHOM: EGX58_07685 EGX58_07690
+            SCAR: DWB96_03695 DWB96_03700
+            SCHR: DWB92_03160 DWB92_03165
+            SPIC: SAMEA4384060_1896(lacE) SAMEA4384060_1897(lacF)
+            SSH: NCTC13712_02135(lacE) NCTC13712_02136(lacF)
+            SSIM: SAMEA4384339_2036(lacE) SAMEA4384339_2037(lacF)
+            SDB: CNQ82_05070 CNQ82_05075
+            SAUL: I6G39_08015 I6G39_08020
+            SSAC: I6I31_00975
+            SRAI: LN051_02890 LN051_02895
+            STAS: HYI43_03990 HYI43_03995
+            SDEV: Q2T90_03675 Q2T90_03680
+            SSCU: CEP64_06360 CEP64_06365
+            SFF: FOB90_00990
+            MLEN: H3V22_08280 H3V22_08285
+            MBOE: HT586_09330 HT586_09335
+            MARY: LAU42_08235 LAU42_08240
+            LMOE: BN418_1054
+            LMOB: BN419_1056
+            LIV: LIV_0816
+            LII: JL52_04375
+            LIW: AX25_04455
+            EAT: EAT1b_1051 EAT1b_1052
+            EAP: KB235_15115 KB235_15120
+            EACE: KKI46_14810
+            EMM: PTI97_01890 PTI97_10815 PTI97_10820
+            LLD: P620_14800 P620_14805
+            LLC: LACR_D01 LACR_D02
+            LLR: llh_14025(lacE) llh_14030(lacF)
+            LLI: uc509_p8018(lacE) uc509_p8019(lacF)
+            LRN: CMV25_10690 CMV25_10695
+            SPY: SPy_1917(lacE) SPy_1918(lacF)
+            SPZ: M5005_Spy1633(lacE) M5005_Spy1634(lacF)
+            SPYM: M1GAS476_0299(lacF) M1GAS476_0300(lacE)
+            SPYA: A20_1683c(lacE) A20_1684c(lacF)
+            SPM: spyM18_1985 spyM18_1986
+            SPG: SpyM3_1654(lacE) SpyM3_1655(lacF)
+            SPS: SPs1652 SPs1653
+            SPH: MGAS10270_Spy1702(lacE) MGAS10270_Spy1703(lacF)
+            SPI: MGAS10750_Spy1730(lacE) MGAS10750_Spy1731(lacF)
+            SPJ: MGAS2096_Spy1658(lacE) MGAS2096_Spy1659(lacF)
+            SPK: MGAS9429_Spy1636(lacE) MGAS9429_Spy1637(lacF)
+            SPF: SpyM51608(lacE) SpyM51609(lacF)
+            SPA: M6_Spy1642 M6_Spy1643
+            SPB: M28_Spy1623(lacE) M28_Spy1624(lacF)
+            STG: MGAS15252_1483(lacE) MGAS15252_1484(lacF)
+            STX: MGAS1882_1544(lacE) MGAS1882_1545(lacA)
+            SOZ: Spy49_1585c(lacE) Spy49_1586c(lacF)
+            STZ: SPYALAB49_001622(lacE) SPYALAB49_001623(lacF)
+            SPYH: L897_08215
+            SPYO: STAB901_07965 STAB901_07970
+            SPN: SP_0476(lacF-1) SP_0478(lacE-1) SP_1185(lacE-2) SP_1186(lacF-2)
+            SPD: SPD_0426(lacF-1) SPD_0428(lacE-1) SPD_1047(lacE-2) SPD_1048(lacF-2)
+            SPR: spr0423(PTS-EII) spr0425(PTS-EII) spr1070(lacE) spr1071(lacF)
+            SPW: SPCG_0459 SPCG_1110 SPCG_1111
+            SJJ: SPJ_1103 SPJ_1104
+            SNV: SPNINV200_04240 SPNINV200_10420(lacF) SPNINV200_10430(lacE2)
+            SPX: SPG_0432 SPG_0434 SPG_1082 SPG_1083
+            SNT: SPT_0517 SPT_0519 SPT_1038 SPT_1039
+            SND: MYY_0546 MYY_0548 MYY_1047 MYY_1048
+            SPNN: T308_02300 T308_02310 T308_04825 T308_04830
+            SNE: SPN23F10860(lacE2) SPN23F10870(lacF)
+            SPV: SPH_0588 SPH_0590 SPH_1305 SPH_1306
+            SNC: HMPREF0837_10774(lacF) HMPREF0837_10776 HMPREF0837_11312(lacF) HMPREF0837_11313
+            SNM: SP70585_0539 SP70585_0541 SP70585_1237 SP70585_1238
+            SPP: SPP_0501 SPP_0503 SPP_1228 SPP_1229
+            SNI: INV104_04040 INV104_10220(lacE2) INV104_10230(lacF)
+            SPNG: HMPREF1038_00512 HMPREF1038_00514 HMPREF1038_01194 HMPREF1038_01195
+            SNB: SP670_0555 SP670_0557 SP670_1088 SP670_1089
+            SNP: SPAP_0481 SPAP_0483 SPAP_1214 SPAP_1215
+            SNX: SPNOXC10640(lacE2) SPNOXC10650(lacF)
+            SNU: SPNA45_01595
+            SPNE: SPN034156_01520(lacE2) SPN034156_01530(lacF) SPN034156_15020 SPN034156_15040
+            SPNU: SPN034183_10640(lacE2) SPN034183_10650(lacF)
+            SPNM: SPN994038_10530(lacE2) SPN994038_10540(lacF)
+            SPNO: SPN994039_10540(lacE2) SPN994039_10550(lacF)
+            SAN: gbs1330 gbs1331
+            SAGM: BSA_13370 BSA_13380
+            SAGI: MSA_13680 MSA_13690
+            SMU: SMU_1491(lacE) SMU_1492(lacF)
+            SMC: SmuNN2025_0618(lacF) SmuNN2025_0619(lacE)
+            SMUT: SMUGS5_06660 SMUGS5_06665
+            SMJ: SMULJ23_0627(lacF) SMULJ23_0628(lacE)
+            SMUA: SMUFR_1294 SMUFR_1295
+            SSA: SSA_1693(lacE) SSA_1694(lacF)
+            SSB: SSUBM407_0516(lacF2) SSUBM407_0517(lacE2) SSUBM407_0886(lacF1) SSUBM407_0887(lacE1)
+            SSU: SSU05_1037 SSU05_1038
+            SSV: SSU98_1049 SSU98_1050 SSU98_1051
+            SSI: SSU0892(lacE) SSU0893(lacF)
+            SSS: SSUSC84_0937(lacE) SSUSC84_0938(lacF)
+            SSF: SSUA7_0908 SSUA7_0909
+            SSW: SSGZ1_0916 SSGZ1_0917
+            SUP: YYK_04225 YYK_04230
+            SSUS: NJAUSS_0970 NJAUSS_0971
+            SST: SSUST3_1068 SSUST3_1069(lacF1)
+            SSUY: YB51_5275 YB51_5280
+            SSQ: SSUD9_1215 SSUD9_1216(lacF1)
+            SUI: SSUJS14_1017 SSUJS14_1018
+            SUO: SSU12_0957 SSU12_0958
+            SRP: SSUST1_0905 SSUST1_0906
+            SSUI: T15_0915(lacF) T15_0916
+            SGO: SGO_1513(lacE) SGO_1514(lacF)
+            SEZ: Sez_0459(lacF) Sez_0460(lacE)
+            SEQ: SZO_15230(lacE) SZO_15240(lacF)
+            SEZO: SeseC_00554(lacF) SeseC_00555
+            SEQU: Q426_06965 Q426_06970
+            SUB: SUB0798(lacF2) SUB0799(lacE2) SUB1451(lacF1)
+            SDA: GGS_0828(lacF) GGS_0829(lacE)
+            SDQ: SDSE167_0943 SDSE167_0944
+            SGA: GALLO_0187 GALLO_0188 GALLO_1047 GALLO_1048
+            SGG: SGGBAA2069_c02050(lacF) SGGBAA2069_c02060(lacE) SGGBAA2069_c10240(lacF1) SGGBAA2069_c10250(lacE1)
+            SGT: SGGB_0231(lacF) SGGB_0232(lacE) SGGB_1037 SGGB_1038
+            SMB: smi_1037(lacF) smi_1038(lacE)
+            SOR: SOR_1084(lacE) SOR_1085(lacF)
+            STB: SGPB_0174(lacF) SGPB_0175(lacE) SGPB_0908 SGPB_0909
+            SCP: HMPREF0833_10688 HMPREF0833_10689(lacF)
+            SCF: Spaf_1252(lacE) Spaf_1253(lacF2)
+            STD: SPPN_05765 SPPN_05770
+            SMN: SMA_0209(lacF) SMA_0210(lacE) SMA_1158(lacE) SMA_1159(lacF)
+            SIF: Sinf_0191 Sinf_0192
+            SIE: SCIM_1141(lacE) SCIM_1142(lacF)
+            SIB: SIR_0450(lacF) SIR_0451(lacE)
+            SIU: SII_0434(lacF) SII_0435(lacE)
+            SANG: SAIN_1265(lacE) SAIN_1266(lacF)
+            SANC: SANR_1490(lacE) SANR_1491(lacF)
+            SANS: DK43_03230 DK43_03235
+            SCG: SCI_1406(lacE) SCI_1407(lacF)
+            SCON: SCRE_1363(lacE) SCRE_1364(lacF)
+            SCOS: SCR2_1363(lacE) SCR2_1364(lacF)
+            SLU: KE3_0138 KE3_0139
+            SIG: N596_09030 N596_09035
+            STV: V470_05045 V470_05050
+            SPAT: A0O21_01305 A0O21_01310
+            STRA: ATM98_08455 ATM98_08460
+            SSOB: DK181_06575 DK181_06580
+            SRQ: SR187_4965 SR187_4970
+            SKI: D7D50_01340 D7D50_01345
+            SPEI: EHW89_06385 EHW89_06390
+            SRAT: FY406_10205 FY406_10210
+            SPLR: C0J00_08115 C0J00_08120
+            STRG: SRT_06290(lacF) SRT_06300(lacE)
+            SMEN: SAMEA4412692_0113(lacF_1) SAMEA4412692_0114(lacE)
+            SFER: NCTC12278_00093(lacF) NCTC12278_00094(lacE)
+            SCAI: NCTC12191_01616(lacE) NCTC12191_01617(lacF_2)
+            SCHJ: DDV21_009500 DDV21_009505
+            SLAT: J4854_08700 J4854_08705
+            SURN: NCTC13766_01131(lacE) NCTC13766_01132(lacF)
+            SACO: SAME_01409(lacE_1) SAME_01410(lacF_1) SAME_02056(lacE_2) SAME_02057(lacF_2) SAME_02061(lacF_3)
+            SOS: INT76_09120 INT76_09125
+            STOY: STYK_09460(lacF) STYK_09470(lacE)
+            SRUM: GPZ88_05470 GPZ88_05475
+            LJF: FI9785_571(lacF) FI9785_572(lacE)
+            LDE: LDBND_1645(lacE) LDBND_1647(lacF)
+            LGA: LGAS_0342 LGAS_0343 LGAS_0500 LGAS_0501
+            LAW: LACWKB8_1071
+            LJE: BUE77_05050 BUE77_05060
+            LPW: LpgJCM5343_03380 LpgJCM5343_03390 LpgJCM5343_04920 LpgJCM5343_04930
+            LMUL: PUW59_04005 PUW59_04015
+            LCA: LSEI_A05
+            LCS: LCBD_0732 LCBD_0734(celCD)
+            LCE: LC2W_0732 LC2W_0734(celCD) LC2W_p06(lacE) LC2W_p08(lacF)
+            LCW: BN194_07310(lacE) BN194_07330(lacF_2)
+            LCL: LOCK919_0655 LOCK919_0657
+            LPQ: AF91_01890 AF91_01900 AF91_02340 AF91_02350
+            LPI: LBPG_04227 LBPG_04229
+            LPAP: LBPC_0582 LBPC_0584
+            LCB: LCABL_07270(lacE) LCABL_07290(lacF)
+            LRH: LGG_00649(lacE) LGG_00652(lacF)
+            LRG: LRHM_0628 LRHM_0631
+            LRL: LC705_00312(lacE) LC705_00314(lacF) LC705_00622(lacE) LC705_00624(lacF) LC705_p00063(lacE) LC705_p00065(lacF)
+            LRA: LRHK_321(lacE) LRHK_323(lacF) LRHK_640 LRHK_642(lacF)
+            LRO: LOCK900_0302 LOCK900_0304 LOCK900_0591 LOCK900_0593
+            LRC: LOCK908_0316 LOCK908_0318 LOCK908_0633 LOCK908_0635
+            LCHI: KG086_02595 KG086_02605
+            LZE: KG087_14595 KG087_14605 KG087_14630 KG087_14640
+            LHN: LHUE1_001363 LHUE1_001365
+            LACA: LAC1533_0050 LAC1533_0052 LAC1533_0055
+            LANI: FAX13_09525 FAX13_09535
+            PIO: PI20285_00370 PI20285_00375
+            LHI: JP39_05095 JP39_05100
+            LCT: BI355_1201 BI355_1202 BI355_1205 BI355_1206 BI355_2122 BI355_2124
+            LALW: BTM29_01680 BTM29_01690 BTM29_10575 BTM29_10580 BTM29_10595 BTM29_10600
+            LFM: LF20184_00855 LF20184_00865 LF20184_07460 LF20184_07465 LF20184_07480 LF20184_07485
+            LZH: D1B17_05380 D1B17_05385
+            LFT: FG051_00500 FG051_00510 FG051_07120 FG051_07130 FG051_07135
+            CPAB: G6534_04315 G6534_04320 G6534_04335 G6534_04340 G6534_11135 G6534_11145
+            EFL: EF62_0868(lacE) EF62_0869(lacF)
+            EFD: EFD32_0427 EFD32_0428
+            EFS: EFS1_0450 EFS1_0451
+            EFN: DENG_00523(lacF) DENG_00524(lacE)
+            EFC: EFAU004_00040 EFAU004_00041
+            EFAU: EFAU085_00033 EFAU085_00034 EFAU085_p1098(lacE) EFAU085_p1099(lacF)
+            EFU: HMPREF0351_10031(lacF) HMPREF0351_10032(lacE)
+            EFM: M7W_125 M7W_126 M7W_253 M7W_254
+            EFT: M395_00160 M395_00165 M395_00600 M395_00605
+            ECAS: ECBG_02568 ECBG_02569
+            EMU: EMQU_1647(lacE) EMQU_1648
+            EDU: LIU_03055 LIU_03060
+            EGV: EGCR1_07180 EGCR1_07185
+            EAV: EH197_03415 EH197_03420 EH197_05655
+            ESG: EsVE80_18890(lacE) EsVE80_18900(lacF)
+            ELAC: I4Q40_00635 I4Q40_00640
+            ECEC: NCTC12421_00222(lacF) NCTC12421_00223(lacE)
+            ERAF: J9537_15900 J9537_15905 J9537_15915 J9537_15920
+            EDS: PML78_05225 PML78_10270 PML78_10275 PML78_11040 PML78_11045
+            MPX: MPD5_1713 MPD5_1714
+            TKR: C7K43_08975 C7K43_08985
+            VLU: M2919_08110 M2919_08115
+            AVS: AWM76_08805 AWM76_08810
+            CARN: FPV25_06900 FPV25_06905
+            CVD: LHA31_12595 LHA31_12600
+            DPM: FNV33_06645 FNV33_06650
+            CAC: CA_C2964(lacE) CA_C2965(lacF)
+            CAE: SMB_G3000(lacE) SMB_G3001(lacF)
+            CAY: CEA_G2971(lacE) CEA_G2972(lacF)
+            CSB: CLSA_c41090(lacE) CLSA_c41100(lacF)
+            CBV: U729_2187(lacF) U729_2188(lacE)
+            CIA: BEN51_10670
+            CRW: CROST_038410(lacE) CROST_038420(lacF)
+            CFB: CLFE_009430(lacF) CLFE_009440(lacE)
+            CAUN: CLAUR_036850(lacF_2) CLAUR_036860(lacE)
+            CPRF: K7H06_01960
+            SARJ: HH195_03315 HH195_03320
+            ROC: HF520_11835 HF520_11840
+            EVN: NQ558_10635
+            TEP: TepRe1_0054
+            TAE: TepiRe1_0056(lacF)
+            SRI: SELR_04240(lacE) SELR_04320(lacF)
+            MFUN: GXM21_00205
+            FRO: AALO17_03140 AALO17_03150
+            EBM: SG0102_04400(lacF) SG0102_04410
+            FIT: Fi14EGH31_18970(lacE1) Fi14EGH31_18980(lacF)
+            ERM: EYR00_14535 EYR00_14540
+            CMIT: NQ499_00155 NQ499_00160
+            ELJ: ELUMI_v1c08110(lacF) ELUMI_v1c08130(celB)
+            STAI: STAIW_v1c07630(celC)
+            SERI: SERIO_v1c00550(lacF)
+            SLL: SLITO_v1c06870(lacF) SLITO_v1c06890(lacE)
+            SCLA: SCLARK_00209(celC) SCLARK_00215(celC) SCLARK_00223(celC)
+            CAER: CSV91_06185 CSV91_06195 CSV91_06210
+            LBA: Lebu_0588 Lebu_0589
+            LOT: AXF11_06470 AXF11_06475
+            LEQ: BCB68_02660 BCB68_02665
+            LHF: JCM16775_1974(lacE) JCM16775_1975
+            LSZ: JCM16776_0562(lacF) JCM16776_0563(lacE)
+            LHG: JMUB5056_1301
+            LTE: JMUB4039_1771(lacE) JMUB4039_1772
+            STR: Sterm_1616 Sterm_3457 Sterm_3458
+DBLINKS     ExplorEnz - The Enzyme Database: 2.7.1.207
+            IUBMB Enzyme Nomenclature: 2.7.1.207
+            ExPASy - ENZYME nomenclature database: 2.7.1.207
+            BRENDA, the Enzyme Database: 2.7.1.207
+///
