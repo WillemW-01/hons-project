@@ -1,9 +1,9 @@
 import asyncio
+import json
 import os
 import re
 import sys
 import time
-import json
 
 # non-stdlib dependencies
 import aiohttp
@@ -17,11 +17,13 @@ START_ID = 2000
 OUT_FOLDER = "output"
 LOG_FOLDER = "logs"
 MAX_THREADS = 52
-EDGE_HEADER_1 = (
-    "edgedef>source INTEGER,target INTEGER,directed BOOLEAN,weight DOUBLE"
+EDGE_HEADER_1 = "edgedef>source INTEGER,target INTEGER,directed BOOLEAN,weight DOUBLE"
+EDGE_HEADER_2 = (
+    "edgedef>source INTEGER,target INTEGER,label VARCHAR,directed BOOLEAN,weight DOUBLE"
 )
-EDGE_HEADER_2 = "edgedef>source INTEGER,target INTEGER,label VARCHAR,directed BOOLEAN,weight DOUBLE"
-NODE_HEADER = "nodedef>name INTEGER,label VARCHAR,class VARCHAR,module VARCHAR,color VARCHAR"
+NODE_HEADER = (
+    "nodedef>name INTEGER,label VARCHAR,class VARCHAR,module VARCHAR,color VARCHAR"
+)
 THREAD_INPUT_STR = "Enzyme list size is %d. Enter size of batches: "
 USAGE_STR = "ERR: not enough arguments.\nUsage: python main.py <input_file> <job_name> [reaction_file]"
 
@@ -72,9 +74,7 @@ def get_enzymes(filepath: str):
     with open(filepath) as input_file:
         for line in input_file:
             if "EC:" in line:
-                matches = re.findall(
-                    r"EC:(\d{1,3}\.\d{1,3}\.\d{1,3}\.[\d]{0,3})", line
-                )
+                matches = re.findall(r"EC:(\d{1,3}\.\d{1,3}\.\d{1,3}\.[\d]{1,3})", line)
                 if matches is not None and len(matches) != 0:
                     enzymes.add(matches[0])
     return enzymes
@@ -170,17 +170,13 @@ async def gather_kegg_results(urls: list[str]) -> tuple[list[tuple], list[str]]:
             # will redo this url if the EC entry was transferred to any other
             # number of entries
             if "Transferred entry" in str(text):
-                log(
-                    f"Transferred entry for {url}, sending it through to next batch"
-                )
+                log(f"Transferred entry for {url}, sending it through to next batch")
                 start = text.index("NAME        Transferred to ") + 27
                 end = text.index("\\n", start)
                 if " and " in text[start:end]:
                     transferred_ecs = text[start:end].split(" and ")
                     for ec in transferred_ecs:
-                        redo_urls.append(
-                            f"https://rest.kegg.jp/get/ec:{ec.strip()}"
-                        )
+                        redo_urls.append(f"https://rest.kegg.jp/get/ec:{ec.strip()}")
                 else:
                     redo_urls.append(
                         f"https://rest.kegg.jp/get/ec:{text[start:end].strip()}"
@@ -327,9 +323,7 @@ def extract_reaction(reactionID: str) -> tuple[list[str], list[str]]:
     """
     log(f"> Extracting {reactionID}", 1)
 
-    if (reaction_list != [] and reactionID in reaction_list) or (
-        reaction_list == []
-    ):
+    if (reaction_list != [] and reactionID in reaction_list) or (reaction_list == []):
         if reactionID in CACHED_REACTIONS.keys():
             substrates, products = (
                 CACHED_REACTIONS[reactionID]["Substrates"],
@@ -360,9 +354,7 @@ def extract_reaction(reactionID: str) -> tuple[list[str], list[str]]:
             # for every x in substrates and products, only retains it if it is
             # not water, a proton or carbon dioxide.
             filter_list = ["H2O", "H+", "CO2", "H20"]
-            substrates = list(
-                filter(lambda x: x not in filter_list, substrates)
-            )
+            substrates = list(filter(lambda x: x not in filter_list, substrates))
             products = list(filter(lambda x: x not in filter_list, products))
 
             log(f"Substrates: {substrates}", 2)
@@ -723,9 +715,7 @@ def write_reaction(
         if module is None:
             nodes_file.write(f"{ec_id},{ec},enzyme,,{MODULE_COLORS['None']}\n")
         else:
-            nodes_file.write(
-                f"{ec_id},{ec},enzyme,{module},{MODULE_COLORS[module]}\n"
-            )
+            nodes_file.write(f"{ec_id},{ec},enzyme,{module},{MODULE_COLORS[module]}\n")
         has_written[ec_id] = True
 
     remove_coefficients(substrates, products)
@@ -939,9 +929,7 @@ def main():
             nodes_file.write(line)
 
     nodes_file.close()
-    os.remove(
-        f"{OUT_FOLDER}/{sys.argv[2]}_edges.gdf"
-    )  # to clean up output folder
+    os.remove(f"{OUT_FOLDER}/{sys.argv[2]}_edges.gdf")  # to clean up output folder
     print("  - Completed writing stage")
 
     log("<== Finished ==>")

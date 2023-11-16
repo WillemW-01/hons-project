@@ -10,6 +10,33 @@ gephi/genitalium.gephi
 gephi/jcvi.gephi 
 gephi/minesweeper_e.gephi 
 gephi/pneumoniae.gephi 
+modules/*.txt
+modules/*_reactions.txt
+modules/*_reactions_new.txt
+modules/reaction_sorted.txt
+
+output/*_e_*.gdf
+output/*_f_*.gdf
+output/alt_*.gdf
+output/*_rxn*.gdf
+output/*_new*.gdf
+output/*test*.gdf
+output/small_nodes.gdf
+output/jcvi_*_nodes.gdf
+output/aureus_full_nodes.gdf
+
+logs/*_e.log
+logs/*_e_*.log
+logs/*_f.log
+logs/*_f_*.log
+logs/alt_*.log
+logs/*_rxn*.log
+logs/*_new*.log
+logs/*test*.log
+logs/small.log
+logs/jcvi_*.log
+logs/aureus_full.log
+logs/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
