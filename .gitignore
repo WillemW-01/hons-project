@@ -3,7 +3,13 @@
 misc
 old_code
 wcm/
-
+gephi/all_new.gephi 
+gephi/all.gephi 
+gephi/alt.gephi 
+gephi/genitalium.gephi 
+gephi/jcvi.gephi 
+gephi/minesweeper_e.gephi 
+gephi/pneumoniae.gephi 
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
